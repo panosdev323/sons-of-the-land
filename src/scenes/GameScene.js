@@ -10,7 +10,7 @@ export class GameScene extends Phaser.Scene {
         this.mode = 'mixed'
         this.level = data.level || 1
         
-        // ✅ FIXED: Load global score from ProgressStore
+        // ✅ Load global score from ProgressStore
         this.globalScore = ProgressStore.getGlobalScore()
         this.globalLives = ProgressStore.getGlobalLives()
         
@@ -107,7 +107,7 @@ export class GameScene extends Phaser.Scene {
             fontSize: '11px', color: '#aaa'
         }).setOrigin(0.5, 0)
 
-        // ✅ FIXED: Display global lives (with proper count)
+        // ✅ Display global lives (with proper count)
         const livesStr = '❤️'.repeat(this.levelLives) + '🖤'.repeat(3 - this.levelLives)
         this.add.text(w - 16, 16, livesStr, { fontSize: '13px' }).setOrigin(1, 0)
 
@@ -183,6 +183,7 @@ export class GameScene extends Phaser.Scene {
         })
     }
 
+    // ✅ Life bonus with multiple threshold checking
     async onAnswer(selectedAns) {
         if (this.answered) return
         this.answered = true
@@ -207,7 +208,7 @@ export class GameScene extends Phaser.Scene {
             this.streak++
             const bonus = 10 + this.streak * 2
             
-            // ✅ FIXED: Add to both global and level score
+            // ✅ Add to both global and level score
             this.levelScore += bonus
             this.globalScore += bonus
             await ProgressStore.updateGlobalScore(this.globalScore)
@@ -217,21 +218,20 @@ export class GameScene extends Phaser.Scene {
                 this.showFeedback(`🔥 x${this.streak} Combo!`, '#ffd54f')
             }
             
-            // ✅ FIXED: Check if should grant life BEFORE answering next question
-            if (this.globalScore >= 100 && this.levelLives < 3) {
-                this.levelLives++
-                this.globalScore -= 100
-                await ProgressStore.updateGlobalScore(this.globalScore)
-                this.showFeedback(`🔥 +${bonus}  ❤️ +1 Life!`, '#69f0ae')
-            } else {
-                this.showFeedback(`🔥 +${bonus}`, '#69f0ae')
-            }
+            // ✅ Check for life bonus after score update
+            // Handle multiple lives if player has accumulated 200+ or 300+ points
+            this.checkLifeBonus()
+            this.showFeedback(`🔥 +${bonus}`, '#69f0ae')
         } else {
             this.sound.play('wrong')
             this.levelLives--
             this.streak = 0
             this.cameras.main.shake(200, 0.01)
             this.showFeedback('❌ Wrong!', '#ff5252')
+
+            // ✅ Check for life bonus AFTER losing a heart too
+            // If player loses a heart, check if they can earn one back
+            this.checkLifeBonus()
 
             if (this.levelLives <= 0) {
                 this.time.delayedCall(1500, () => this.showGameOver())
@@ -244,6 +244,20 @@ export class GameScene extends Phaser.Scene {
             this.answered = false
             this.showQuestion()
         })
+    }
+
+    // ✅ Check and grant life bonuses
+    async checkLifeBonus() {
+        // Keep checking while score >= 100 and lives < 3
+        while (this.globalScore >= 100 && this.levelLives < 3) {
+            this.levelLives++
+            this.globalScore -= 100
+            await ProgressStore.updateGlobalScore(this.globalScore)
+            this.showFeedback(`❤️ +1 Life! (${this.globalScore} score remaining)`, '#69f0ae')
+            
+            // Small delay so player sees multiple life gains
+            await new Promise(resolve => this.time.delayedCall(500, resolve))
+        }
     }
 
     showFeedback(msg, color) {
