@@ -111,9 +111,6 @@ export class MenuScene extends Phaser.Scene {
     const itemHeight = 80
     const totalContentHeight = civs.length * itemHeight + 60 // +60 for footer
 
-    // ✅ BUG FIX: Store graphics references to properly clean up on update
-    const graphicsRefs = []
-
     civs.forEach((civ, i) => {
       const x = w / 2
       const y = i * itemHeight + 36
@@ -121,7 +118,6 @@ export class MenuScene extends Phaser.Scene {
       const done = ProgressStore.isCompleted(civ.id)
 
       const bg = this.add.graphics()
-      graphicsRefs.push(bg)
 
       const drawBg = (hover) => {
         bg.clear()
@@ -271,7 +267,7 @@ export class MenuScene extends Phaser.Scene {
       menuContainer.y = panelTop + scrollOffset
 
       // Fade out scroll arrow after first drag
-      if (!arrowFaded && Math.abs(delta) > 40) {
+      if (!arrowFaded && Math.abs(delta) > 50) {
         arrowFaded = true
         this.tweens.add({
           targets: arrowText,
@@ -284,9 +280,9 @@ export class MenuScene extends Phaser.Scene {
 
     this.input.on('pointerup', () => { isDragging = false })
 
-    // ✅ FIX: Properly clean up on scene shutdown
+    // ✅ Clean up all objects when scene ends
     this.events.on('shutdown', () => {
-      graphicsRefs.forEach(g => g.destroy())
+      menuContainer.destroy(true)
       this.input.off('pointerdown')
       this.input.off('pointermove')
       this.input.off('pointerup')
