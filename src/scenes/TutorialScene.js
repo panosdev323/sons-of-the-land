@@ -3,10 +3,6 @@ import Phaser from 'phaser'
 export class TutorialScene extends Phaser.Scene {
   constructor() { super('TutorialScene') }
  
-  preload() {
-    this.load.audio('tap', 'assets/sounds/tap.wav')
-  }
- 
   create() {
     const w = 480
     const h = 800

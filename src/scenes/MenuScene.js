@@ -3,10 +3,6 @@ import { ProgressStore } from '../progressStore.js'
 export class MenuScene extends Phaser.Scene {
   constructor() { super('MenuScene') }
 
-  preload() {
-    this.load.audio('tap', 'assets/sounds/tap.wav')
-  }
-
   async create() {
     const w = this.scale.width
     const canvasHeight = this.scale.height

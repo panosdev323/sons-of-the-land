@@ -1,10 +1,6 @@
 export class PauseScene extends Phaser.Scene {
   constructor() { super('PauseScene') }
  
-  preload() {
-    this.load.audio('tap', 'assets/sounds/tap.wav')
-  }
- 
   init(data) {
     this.gameSceneKey = data.gameSceneKey || 'GameScene'
   }
@@ -58,7 +54,7 @@ export class PauseScene extends Phaser.Scene {
       '#37474f',
       () => {
         this.sound.play('tap')
-        this.scene.launch('SettingsScene')
+        this.scene.start('SettingsScene', { caller: 'PauseScene', gameSceneKey: this.gameSceneKey })
       }
     )
  

@@ -2,9 +2,10 @@ import { ProgressStore } from '../progressStore.js'
  
 export class SettingsScene extends Phaser.Scene {
   constructor() { super('SettingsScene') }
- 
-  preload() {
-    this.load.audio('tap', 'assets/sounds/tap.wav')
+
+  init(data) {
+    this.caller = data.caller || 'MenuScene'
+    this.gameSceneKey = data.gameSceneKey || null
   }
  
   create() {
@@ -23,7 +24,10 @@ export class SettingsScene extends Phaser.Scene {
     }).setInteractive()
     backBtn.on('pointerdown', () => {
       this.sound.play('tap')
-      this.scene.start('MenuScene')
+      if (this.gameSceneKey) {
+        this.scene.resume(this.gameSceneKey)
+      }
+      this.scene.start(this.caller, { gameSceneKey: this.gameSceneKey })
     })
  
     let yPos = 100
@@ -88,11 +92,21 @@ export class SettingsScene extends Phaser.Scene {
       yPos,
       '#7f0000',
       () => {
-        if (confirm('Are you sure? This cannot be undone!')) {
-          ProgressStore.reset()
-          this.sound.play('tap')
-          this.scene.start('MenuScene')
-        }
+        // ✅ Show custom modal instead of browser confirm()
+        this.showConfirmModal(
+          'Are you sure?',
+          'This cannot be undone!',
+          () => {
+            // Confirmed
+            this.sound.play('tap')
+            ProgressStore.reset()
+            this.scene.start('MenuScene')
+          },
+          () => {
+            // Cancelled
+            this.sound.play('tap')
+          }
+        )
       }
     )
  
@@ -102,6 +116,7 @@ export class SettingsScene extends Phaser.Scene {
       yPos,
       '#555',
       () => {
+        this.sound.play('tap')
         localStorage.clear()
         this.add.text(w / 2, h - 100, 'Cache cleared', {
           fontSize: '12px', color: '#69f0ae'
@@ -119,6 +134,79 @@ export class SettingsScene extends Phaser.Scene {
     this.add.text(w / 2, yPos, 'Made with ❤️ and Phaser 3', {
       fontSize: '11px', color: '#555'
     }).setOrigin(0.5)
+  }
+
+  // ✅ Custom confirmation modal (avoids browser confirm())
+  showConfirmModal(title, message, onConfirm, onCancel) {
+    const w = 480
+    const h = 800
+
+    // Semi-transparent overlay
+    const overlay = this.add.graphics()
+    overlay.fillStyle(0x000000, 0.6)
+    overlay.fillRect(0, 0, w, h)
+    overlay.setInteractive()
+
+    // Modal box
+    const boxW = 300
+    const boxH = 200
+    const boxX = w / 2 - boxW / 2
+    const boxY = h / 2 - boxH / 2
+
+    const box = this.add.graphics()
+    box.fillStyle(0x1a1208, 0.95)
+    box.fillRoundedRect(boxX, boxY, boxW, boxH, 12)
+    box.lineStyle(2, 0xf9a825, 1)
+    box.strokeRoundedRect(boxX, boxY, boxW, boxH, 12)
+
+    // Title
+    this.add.text(w / 2, boxY + 30, title, {
+      fontSize: '18px', color: '#f9a825', fontStyle: 'bold'
+    }).setOrigin(0.5)
+
+    // Message
+    this.add.text(w / 2, boxY + 70, message, {
+      fontSize: '14px', color: '#fff',
+      wordWrap: { width: 250 },
+      align: 'center'
+    }).setOrigin(0.5)
+
+    // Cancel button
+    const cancelBtn = this.add.text(boxX + 30, boxY + 140, 'Cancel', {
+      fontSize: '13px',
+      color: '#fff',
+      backgroundColor: '#37474f',
+      padding: { x: 15, y: 8 }
+    }).setOrigin(0, 0).setInteractive()
+
+    cancelBtn.on('pointerdown', () => {
+      overlay.destroy()
+      box.destroy()
+      cancelBtn.destroy()
+      confirmBtn.destroy()
+      if (onCancel) onCancel()
+    })
+
+    // Confirm button
+    const confirmBtn = this.add.text(boxX + boxW - 30, boxY + 140, 'Reset', {
+      fontSize: '13px',
+      color: '#fff',
+      backgroundColor: '#7f0000',
+      padding: { x: 15, y: 8 }
+    }).setOrigin(1, 0).setInteractive()
+
+    confirmBtn.on('pointerdown', () => {
+      overlay.destroy()
+      box.destroy()
+      cancelBtn.destroy()
+      confirmBtn.destroy()
+      if (onConfirm) onConfirm()
+    })
+
+    // Prevent clicks on overlay from closing modal
+    overlay.on('pointerdown', (pointer) => {
+      pointer.stopPropagation()
+    })
   }
  
   createToggleSetting(label, key, yPos, callback) {
@@ -208,7 +296,9 @@ export class SettingsScene extends Phaser.Scene {
     }).setOrigin(0.5)
  
     const zone = this.add.zone(w / 2, yPos + 20, 220, 50).setInteractive()
-    zone.on('pointerdown', () => callback())
+    zone.on('pointerdown', () => {
+      callback()
+    })
  
     return yPos + 60
   }

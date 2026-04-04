@@ -9,10 +9,6 @@ import { ProgressStore } from '../progressStore.js'
 export class StatsScene extends Phaser.Scene {
   constructor() { super('StatsScene') }
  
-  preload() {
-    this.load.audio('tap', 'assets/sounds/tap.wav')
-  }
- 
   create() {
     const w = 480
     const h = 800

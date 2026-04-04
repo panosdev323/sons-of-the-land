@@ -4,13 +4,6 @@ import { ProgressStore } from '../progressStore.js'
 export class GameScene extends Phaser.Scene {
     constructor() { super('GameScene') }
 
-    preload() {
-        this.load.audio('tap', 'assets/sounds/tap.wav')
-        this.load.audio('correct', 'assets/sounds/correct.wav')
-        this.load.audio('wrong', 'assets/sounds/wrong.wav')
-        this.load.audio('levelup', 'assets/sounds/levelup.wav')
-    }
-
     init(data) {
         this.civId = data.civId || 'greece'
         this.authorName = data.authorName || null
