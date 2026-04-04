@@ -271,7 +271,7 @@ export class MenuScene extends Phaser.Scene {
       menuContainer.y = panelTop + scrollOffset
 
       // Fade out scroll arrow after first drag
-      if (!arrowFaded && Math.abs(delta) > 10) {
+      if (!arrowFaded && Math.abs(delta) > 40) {
         arrowFaded = true
         this.tweens.add({
           targets: arrowText,
