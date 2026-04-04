@@ -442,7 +442,7 @@ export const CIVILIZATIONS = [
           { start: 'Know', correct: 'thyself.', wrong: ['others.', 'the gods.', 'the stars.'] },
           { start: 'The way of living virtuously is by never doing ourselves what we blame in', correct: 'others.', wrong: ['ourselves.', 'the gods.', 'fate.'] },
           { start: 'All things are full of', correct: 'gods.', wrong: ['atoms.', 'water.', 'numbers.'] },
-          { start: 'The way of living virtuously is by never doing ourselves what we blame in others.', correct: '', wrong: ['is easy.', 'is impossible.', 'requires wealth.'] }
+          { start: 'The way of living virtuously is by never doing ourselves what', correct: 'we blame in others.', wrong: ['is easy.', 'is impossible.', 'requires wealth.'] }
         ]
       },
       {
@@ -825,13 +825,13 @@ export const CIVILIZATIONS = [
         name: 'Livy',
         emoji: '📜',
         quotes: [
-          { start: 'The study of history is the best medicine for a sick mind; for in history you have a record of the infinite variety of human experience, plainly set out for all to see; and in that record you can find for yourself and your country both examples and warnings.', correct: '', wrong: ['The past teaches us nothing.', 'History repeats itself exactly.', 'Only the present matters.'] },
-          { start: 'We can endure neither our vices nor their cures.', correct: '', wrong: ['Virtue is easy to maintain.', 'Cures are always worse than the disease.', 'Vices are harmless.'] },
-          { start: 'Men are only too apt to forget their own faults when they are busy exposing those of others.', correct: '', wrong: ['People are quick to admit their mistakes.', 'Everyone focuses on self-improvement.', 'Faults are best ignored.'] },
-          { start: 'The greatest remedy for anger is delay.', correct: '', wrong: ['Anger solves problems quickly.', 'Immediate action is always best.', 'Revenge is the only cure.'] },
-          { start: 'A city is well-fortified which has a wall of men instead of brick.', correct: '', wrong: ['Walls of stone are strongest.', 'Fortifications are unnecessary.', 'Brick walls last forever.'] },
-          { start: 'It is better to be feared than loved, if you cannot be both.', correct: '', wrong: ['Love conquers all.', 'Fear destroys loyalty.', 'Kindness is the greatest power.'] },
-          { start: 'History is the witness that testifies to the passing of time; it illumines reality, vitalizes memory, provides guidance in daily life, and brings us tidings of antiquity.', correct: '', wrong: ['History is useless.', 'The past should be forgotten.', 'Only the future matters.'] },
+          { start: 'The study of history is the best medicine for a sick mind; for in history you have a record of the infinite variety of human experience, plainly set out for all to see; and in that record you can find for yourself and your country both', correct: 'examples and warnings.', wrong: ['teaches us nothing.', 'repeats itself exactly.', 'the present matters.'] },
+          { start: 'We can endure neither our vices nor their', correct: 'cures.', wrong: ['voices.', 'diseases.', 'vices.'] },
+          { start: 'Men are only too apt to forget their own faults when they are busy exposing', correct: 'those of others.', wrong: ['quick to admit their mistakes.', 'on self-improvement.', 'their faults.'] },
+          { start: 'The greatest remedy for anger is', correct: 'delay.', wrong: ['anger.', 'action.', 'revenge.'] },
+          { start: 'A city is well-fortified which has a wall of men instead of', correct: 'brick.', wrong: ['walls.', 'fortifications.', 'weapons.'] },
+          { start: 'It is better to be feared than loved, if you cannot be', correct: 'both.', wrong: ['conquers.', 'a man.', 'kind.'] },
+          { start: 'History is the witness that testifies to the passing of time; it illumines reality, vitalizes memory, provides guidance in daily life, and brings us tidings of', correct: 'antiquity.', wrong: ['history.', 'the past.', 'be forgotten.'] },
           { start: 'The worst kind of shame is being ashamed of', correct: 'honesty', wrong: ['speaking the truth.', 'showing integrity.', 'doing what is right.'] }
         ]
       },
@@ -855,9 +855,9 @@ export const CIVILIZATIONS = [
         quotes: [
           { start: 'The true sign of intelligence is not knowledge but', correct: 'imagination.', wrong: ['memory.', 'wealth.', 'power.'] },
           { start: 'There is nothing to write about, you say. Well then, write and let me know just this – that there is nothing to write about; or tell me in the good old style if you are well. That\'s right. I am quite content.', correct: '', wrong: ['I am unhappy.', 'Everything is exciting.', 'Life is boring.'] },
-          { start: 'An object in possession seldom retains the same charm that it had in pursuit.', correct: '', wrong: ['is always better.', 'loses all value.', 'becomes worthless.'] },
-          { start: 'The happier a man is, the more he fears the approach of misfortune.', correct: '', wrong: ['the less he worries.', 'the more he celebrates.', 'the stronger he becomes.'] },
-          { start: 'It is wonderful how the mind is stirred and quickened into activity by brisk bodily exercise.', correct: '', wrong: ['rest.', 'sleep.', 'idleness.'] }
+          { start: 'An object in possession seldom retains the same charm that it had in', correct: 'pursuit.', wrong: ['it.', 'time.', 'before it becomes worthless.'] },
+          { start: 'The happier a man is, the more he fears the approach of', correct: 'misfortune.', wrong: ['the less he worries.', 'the more he celebrates.', 'the stronger he becomes.'] },
+          { start: 'It is wonderful how the mind is stirred and quickened into activity by brisk bodily', correct: 'exercise.', wrong: ['rest.', 'sleep.', 'idleness.'] }
         ]
       },
       {
@@ -865,10 +865,10 @@ export const CIVILIZATIONS = [
         emoji: '📜',
         quotes: [
           { start: 'He so improved the city that he justly boasted that he found it brick and left it', correct: 'marble.', wrong: ['gold.', 'stone.', 'glory.'] },
-          { start: 'As the Jews were making constant disturbances at the instigation of Chrestus, he expelled them from Rome.', correct: '', wrong: ['welcomed them.', 'ignored them.', 'rewarded them.'] },
+          { start: 'As the Jews were making constant disturbances at the instigation of Chrestus, he expelled them from', correct: 'Rome.', wrong: ['welcomed them.', 'ignored them.', 'rewarded them.'] },
           { start: 'He used to say that the lot of emperors was most unhappy, since when they discovered a conspiracy, no one believed them unless', correct: 'they had been killed.', wrong: ['everyone believed them.', 'they were always safe.', 'they had no worries.'] },
-          { start: 'He gave orders that no one was to approach him unless he was alone and without his guards.', correct: '', wrong: ['with full ceremony.', 'in public.', 'with friends.'] },
-          { start: 'Beware the Ides of March.', correct: '', wrong: ['April.', 'June.', 'July.'] }
+          { start: 'He gave orders that no one was to approach him unless he was alone and without his', correct: 'guards.', wrong: ['people.', 'friends in public.', 'friends.'] },
+          { start: 'Beware the Ides of', correct: 'March.', wrong: ['April.', 'June.', 'July.'] }
         ]
       },
       {
@@ -876,10 +876,10 @@ export const CIVILIZATIONS = [
         emoji: '📜',
         quotes: [
           { start: 'All our power lies in the mind and in the', correct: 'body.', wrong: ['wealth.', 'fame.', 'gods.'] },
-          { start: 'The renown which riches or beauty confer is fleeting and frail; mental excellence is a splendid and lasting possession.', correct: '', wrong: ['easily lost.', 'worthless.', 'temporary.'] },
-          { start: 'Ambition drove many men to become false; to have one thought locked in the breast, another ready on the tongue.', correct: '', wrong: ['honest.', 'loyal.', 'brave.'] },
-          { start: 'The man who is most in the right is he who can endure the most wrongs.', correct: '', wrong: ['least.', 'fewest.', 'none.'] },
-          { start: 'Few men desire liberty; most men wish only for a just master.', correct: '', wrong: ['tyrant.', 'king.', 'emperor.'] }
+          { start: 'The renown which riches or beauty confer is fleeting and frail; mental excellence is a splendid and', correct: 'lasting possession.', wrong: ['easily lost.', 'worthless.', 'temporary.'] },
+          { start: 'Ambition drove many men to become false; to have one thought locked in the breast,', correct: 'another ready on the tongue.', wrong: ['honest.', 'loyal.', 'brave.'] },
+          { start: 'The man who is most in the right is he who can endure the', correct: 'most wrongs.', wrong: ['least.', 'fewest.', 'none.'] },
+          { start: 'Few men desire liberty; most men wish only for a', correct: 'just master.', wrong: ['tyrant.', 'king.', 'emperor.'] }
         ]
       },
     ]
@@ -897,13 +897,13 @@ export const CIVILIZATIONS = [
         emoji: '📜',
         quotes: [
           { start: 'Be a craftsman in speech that thou mayest be strong, for the strength of one is the tongue, and speech is mightier than all', correct: 'fighting.', wrong: ['silence.', 'wealth.', 'power.'] },
-          { start: 'Do not be arrogant because of your knowledge, and have no confidence in that you are a learned man. Take counsel with the ignorant as with the wise.', correct: '', wrong: ['only the wise.', 'only the powerful.', 'only the rich.'] },
-          { start: 'If you are a leader commanding the affairs of the multitude, seek out for yourself every beneficial deed, until it may be that your own affairs are without wrong.', correct: '', wrong: ['until you are rich.', 'until you are feared.', 'until you are praised.'] },
-          { start: 'The wise man is known by his wisdom, the great man by his good actions.', correct: '', wrong: ['his wealth.', 'his power.', 'his words.'] },
-          { start: 'Do not be angry with him who is greater than you. If he wrongs you, he will not listen to your complaint.', correct: '', wrong: ['he will reward you.', 'he will fear you.', 'he will apologize.'] },
-          { start: 'Silence is more profitable than abundance of speech.', correct: '', wrong: ['more dangerous.', 'more powerful.', 'more useless.'] },
-          { start: 'He who listens is beloved of God; he who does not listen is hated by God.', correct: '', wrong: ['he who speaks.', 'he who fights.', 'he who rules.'] },
-          { start: 'Do not make yourself the leader of a multitude when you do not even know how to lead yourself.', correct: '', wrong: ['your family.', 'your city.', 'your empire.'] }
+          { start: 'Do not be arrogant because of your knowledge, and have no confidence in that you are a learned man. Take counsel with the ignorant as', correct: 'with the wise.', wrong: ['only the wise.', 'only the powerful.', 'only the rich.'] },
+          { start: 'If you are a leader commanding the affairs of the multitude, seek out for yourself every beneficial deed, until it may be that your own affairs', correct: 'are without wrong.', wrong: ['until you are rich.', 'until you are feared.', 'until you are praised.'] },
+          { start: 'The wise man is known by his wisdom, the great man by', correct: 'his good actions.', wrong: ['his wealth.', 'his power.', 'his words.'] },
+          { start: 'Do not be angry with him who is greater than you. If he wrongs you,', correct: 'he will not listen to your complaint.', wrong: ['he will reward you.', 'he will fear you.', 'he will apologize.'] },
+          { start: 'Silence is more profitable than', correct: 'abundance of speech.', wrong: ['more dangerous.', 'more powerful.', 'more useless.'] },
+          { start: 'He who listens is beloved of God; he who does not listen is hated by', correct: 'God.', wrong: ['he who speaks.', 'he who fights.', 'he who rules.'] },
+          { start: 'Do not make yourself the leader of a multitude when you do not even know how to', correct: 'lead yourself.', wrong: ['your family.', 'your city.', 'your empire.'] }
         ]
       },
       {
@@ -911,7 +911,7 @@ export const CIVILIZATIONS = [
         emoji: '🛠️',
         quotes: [
           { start: 'Eat, drink, and be merry, for tomorrow we', correct: 'die.', wrong: ['live.', 'forget.', 'suffer.'] },
-          { start: 'The wise man knows that he knows nothing.', correct: '', wrong: ['everything.', 'much.', 'little.'] },
+          { start: 'The wise man knows that he knows', correct: 'nothing.', wrong: ['everything.', 'much.', 'little.'] },
           { start: 'Silence is better than speech when speech is', correct: 'foolish.', wrong: ['wise.', 'necessary.', 'kind.'] },
           { start: 'A good name is better than great', correct: 'riches.', wrong: ['power.', 'fame.', 'honor.'] },
           { start: 'The heart of the wise is in his', correct: 'head.', wrong: ['hands.', 'mouth.', 'stomach.'] },
@@ -927,7 +927,7 @@ export const CIVILIZATIONS = [
           { start: 'I found Rome built of bricks; I leave her clothed in', correct: 'marble.', wrong: ['gold.', 'stone.', 'glory.'] },
           { start: 'King of Kings am I, Osymandias. If anyone would know how great I am and where I lie, let him surpass one of my', correct: 'works.', wrong: ['battles.', 'victories.', 'temples.'] },
           { start: 'For her sake, the sun', correct: 'rises.', wrong: ['sets.', 'shines.', 'moves.'] },
-          { start: 'His majesty was like Seth the great when he takes the adornments of war; as he seized his coat of mail, he was like Baal in his hour.', correct: '', wrong: ['like Horus.', 'like Ra.', 'like Amun.'] },
+          { start: 'His majesty was like Seth the great when he takes the adornments of war; as he seized his coat of mail, he was like Baal in his', correct: 'hour.', wrong: ['time.', 'day.', 'fault.'] },
           { start: 'Every country trembled before him, fear was in their hearts; all the rebels came bowing down for fear of the fame of his', correct: 'majesty.', wrong: ['army.', 'name.', 'empire.'] }
         ]
       },
@@ -936,10 +936,10 @@ export const CIVILIZATIONS = [
         emoji: '📜',
         quotes: [
           { start: 'Better is a handful of quietness than two hands full of toil and a striving after', correct: 'wind.', wrong: ['wealth.', 'power.', 'fame.'] },
-          { start: 'Do not move the markers on the borders of fields.', correct: '', wrong: ['steal from the poor.', 'lie to the king.', 'cheat your neighbor.'] },
-          { start: 'The silent man is a find of gold.', correct: '', wrong: ['a fool.', 'a loudmouth.', 'a coward.'] },
-          { start: 'Do not associate with the hot-tempered man.', correct: '', wrong: ['the wise man.', 'the rich man.', 'the powerful man.'] },
-          { start: 'Better is poverty in the hand of the god than riches in a storehouse.', correct: '', wrong: ['in the hand of man.', 'in the treasury.', 'in the palace.'] }
+          { start: 'Do not move the markers on the borders of', correct: 'fields.', wrong: ['the poor.', 'the king.', 'your neighbor.'] },
+          { start: 'The silent man is a find of', correct: 'gold.', wrong: ['a fool.', 'a loudmouth.', 'a coward.'] },
+          { start: 'Do not associate with the', correct: 'hot-tempered man.', wrong: ['the wise man.', 'the rich man.', 'the powerful man.'] },
+          { start: 'Better is poverty in the hand of the god than riches', correct: 'in a storehouse.', wrong: ['in the hand of man.', 'in the treasury.', 'in the palace.'] }
         ]
       },
       {
@@ -948,20 +948,20 @@ export const CIVILIZATIONS = [
         quotes: [
           { start: 'Do not indulge in drinking beer, for it will lead you to', correct: 'folly.', wrong: ['wisdom.', 'strength.', 'honor.'] },
           { start: 'A woman who is respected is a woman who is', correct: 'silent.', wrong: ['loud.', 'angry.', 'demanding.'] },
-          { start: 'Do not be arrogant because you are learned.', correct: '', wrong: ['rich.', 'powerful.', 'famous.'] },
-          { start: 'The house of the silent man is well-ordered.', correct: '', wrong: ['the loud man.', 'the angry man.', 'the greedy man.'] },
-          { start: 'Do not speak evil of anyone, whether great or small.', correct: '', wrong: ['only the small.', 'only the great.', 'only your enemies.'] }
+          { start: 'Do not be arrogant because you are', correct: 'learned.', wrong: ['rich.', 'powerful.', 'famous.'] },
+          { start: 'The house of the silent man is', correct: 'well-ordered.', wrong: ['the loud man.', 'the angry man.', 'the greedy man.'] },
+          { start: 'Do not speak evil of anyone, whether great or', correct: 'small.', wrong: ['only the small.', 'only the great.', 'only your enemies.'] }
         ]
       },
       {
         name: 'Merikare',
         emoji: '📜',
         quotes: [
-          { start: 'Be a craftsman in speech, for the tongue is a sword to a king.', correct: '', wrong: ['a weapon of war.', 'a tool of peace.', 'a sign of weakness.'] },
-          { start: 'Do justice, that you may live long upon the earth.', correct: '', wrong: ['gain wealth.', 'win battles.', 'be feared.'] },
-          { start: 'The king who is a ruler of truth is a king who is eternal.', correct: '', wrong: ['powerful.', 'rich.', 'feared.'] },
-          { start: 'Do not oppress the widow and the orphan.', correct: '', wrong: ['the rich.', 'the powerful.', 'the priests.'] },
-          { start: 'The throne is established by justice.', correct: '', wrong: ['fear.', 'wealth.', 'war.'] }
+          { start: 'Be a craftsman in speech, for the tongue is a sword to', correct: 'a king.', wrong: ['a weapon of war.', 'a tool of peace.', 'a sign of weakness.'] },
+          { start: 'Do justice, that you may live long upon the', correct: 'earth.', wrong: ['gain wealth.', 'win battles.', 'be feared.'] },
+          { start: 'The king who is a ruler of truth is a king who is', correct: 'eternal.', wrong: ['powerful.', 'rich.', 'feared.'] },
+          { start: 'Do not oppress the widow and', correct: 'the orphan.', wrong: ['the rich.', 'the powerful.', 'the priests.'] },
+          { start: 'The throne is established by', correct: 'justice.', wrong: ['fear.', 'wealth.', 'war.'] }
         ]
       },
     ]
@@ -979,11 +979,11 @@ export const CIVILIZATIONS = [
         emoji: '📜',
         quotes: [
           { start: 'The emperor and his wife were a pair of bloodthirsty', correct: 'demons.', wrong: ['saints.', 'heroes.', 'lovers.'] },
-          { start: 'Justice was never done in the courts except when it was bought.', correct: '', wrong: ['always done.', 'never needed.', 'freely given.'] },
-          { start: 'The people of Byzantium were divided into two factions, the Blues and the Greens, and their hatred for each other was greater than their hatred for the Persians.', correct: '', wrong: ['the emperor.', 'the church.', 'the poor.'] },
-          { start: 'Power tends to corrupt, and absolute power corrupts absolutely.', correct: '', wrong: ['is always good.', 'is never abused.', 'is divine.'] },
-          { start: 'The secret history reveals what the official history conceals.', correct: '', wrong: ['celebrates.', 'praises.', 'ignores.'] },
-          { start: 'Theodora was a woman of great beauty and greater ambition.', correct: '', wrong: ['virtue.', 'piety.', 'humility.'] }
+          { start: 'Justice was never done in the courts except when it was', correct: 'bought.', wrong: ['always done.', 'never needed.', 'freely given.'] },
+          { start: 'The people of Byzantium were divided into two factions, the Blues and the Greens, and their hatred for each other was greater than their hatred for', correct: 'the Persians.', wrong: ['the emperor.', 'the church.', 'the poor.'] },
+          { start: 'Power tends to corrupt, and absolute power', correct: 'corrupts absolutely.', wrong: ['is always good.', 'is never abused.', 'is divine.'] },
+          { start: 'The secret history reveals what the official history', correct: 'conceals.', wrong: ['celebrates.', 'praises.', 'ignores.'] },
+          { start: 'Theodora was a woman of great beauty and greater', correct: 'ambition.', wrong: ['virtue.', 'piety.', 'humility.'] }
         ]
       },
       {
@@ -991,7 +991,7 @@ export const CIVILIZATIONS = [
         emoji: '📜',
         quotes: [
           { start: 'The history of the emperors is a history of human weakness and divine', correct: 'judgment.', wrong: ['mercy.', 'favor.', 'power.'] },
-          { start: 'Ambition is the mother of all vices.', correct: '', wrong: ['virtues.', 'success.', 'wisdom.'] },
+          { start: 'Ambition is the mother of all', correct: 'vices.', wrong: ['virtues.', 'success.', 'wisdom.'] },
           { start: 'A ruler who cannot control himself cannot control an', correct: 'empire.', wrong: ['army.', 'people.', 'church.'] },
           { start: 'The tongue is a little member, but it can set the whole world on', correct: 'fire.', wrong: ['peace.', 'silence.', 'love.'] },
           { start: 'Fortune is a fickle goddess who raises men up only to cast them', correct: 'down.', wrong: ['higher.', 'aside.', 'away.'] },
@@ -1005,7 +1005,7 @@ export const CIVILIZATIONS = [
           { start: 'My father was a man of great courage and even greater', correct: 'wisdom.', wrong: ['ambition.', 'cruelty.', 'weakness.'] },
           { start: 'Women are not suited to rule, yet necessity sometimes forces them to', correct: 'lead.', wrong: ['obey.', 'follow.', 'submit.'] },
           { start: 'The history of emperors is written in blood and', correct: 'tears.', wrong: ['gold.', 'glory.', 'silence.'] },
-          { start: 'A ruler must be both lion and fox.', correct: '', wrong: ['sheep and dove.', 'eagle and serpent.', 'wolf and bear.'] },
+          { start: 'A ruler must be both lion and', correct: 'fox.', wrong: ['sheep and dove.', 'eagle and serpent.', 'wolf and bear.'] },
           { start: 'The greatest danger to an empire is not the enemy without, but the traitor', correct: 'within.', wrong: ['above.', 'below.', 'beside.'] }
         ]
       },
@@ -1250,14 +1250,14 @@ export const CIVILIZATIONS = [
           { start: 'To win one hundred victories in one hundred battles is not the acme of skill. To subdue the enemy without fighting is the acme of', correct: 'skill.', wrong: ['war.', 'strength.', 'courage.'] },
           { start: 'Strategy without tactics is the slowest route to victory. Tactics without strategy is the noise before', correct: 'defeat.', wrong: ['victory.', 'battle.', 'war.'] },
           { start: 'Know thy self, know thy enemy. A thousand battles, a thousand', correct: 'victories.', wrong: ['defeats.', 'draws.', 'losses.'] },
-          { start: 'The general who wins the battle makes many calculations in his temple before the battle is fought.', correct: '', wrong: ['during the battle.', 'after the battle.', 'never.'] },
+          { start: 'The general who wins the battle makes many calculations in his temple before the battle is', correct: 'fought.', wrong: ['during the battle.', 'after the battle.', 'never.'] },
           { start: 'Be extremely subtle, even to the point of formlessness. Be extremely mysterious, even to the point of', correct: 'soundlessness.', wrong: ['loudness.', 'visibility.', 'weakness.'] },
           { start: 'The skillful leader subdues the enemy\'s troops without', correct: 'battle.', wrong: ['effort.', 'loss.', 'blood.'] },
           { start: 'Let your plans be dark and impenetrable as', correct: 'night.', wrong: ['day.', 'steel.', 'fire.'] },
           { start: 'When you surround an army, leave an outlet', correct: 'free.', wrong: ['closed.', 'guarded.', 'blocked.'] },
           { start: 'The wise warrior avoids what is', correct: 'strong.', wrong: ['weak.', 'easy.', 'obvious.'] },
           { start: 'Attack is the secret of', correct: 'defense.', wrong: ['victory.', 'defeat.', 'survival.'] },
-          { start: 'He who is prudent and lies in wait for an enemy who is not, will be victorious.', correct: '', wrong: ['defeated.', 'equal.', 'surprised.'] },
+          { start: 'He who is prudent and lies in wait for an enemy who is not, will be', correct: 'victorious.', wrong: ['defeated.', 'equal.', 'surprised.'] },
           { start: 'There is no instance of a country having benefited from prolonged', correct: 'warfare.', wrong: ['peace.', 'victory.', 'battle.'] },
           { start: 'The clever combatant imposes his will on the enemy, but does not allow the enemy\'s will to be imposed on', correct: 'him.', wrong: ['others.', 'himself.', 'the army.'] },
           { start: 'Speed is the essence of', correct: 'war.', wrong: ['victory.', 'strategy.', 'peace.'] },
@@ -1276,7 +1276,7 @@ export const CIVILIZATIONS = [
           { start: 'The great man is he who does not lose the heart of a', correct: 'child.', wrong: ['king.', 'scholar.', 'warrior.'] },
           { start: 'He who has a thousand friends has not a single', correct: 'enemy.', wrong: ['doubt.', 'fear.', 'regret.'] },
           { start: 'A gentleman does not forget his roots even when he reaches', correct: 'high position.', wrong: ['wealth.', 'power.', 'fame.'] },
-          { start: 'The people are the most important element in a nation; the ruler is the least.', correct: '', wrong: ['the opposite.', 'equally important.', 'the most important.'] },
+          { start: 'The people are the most important element in a nation; the ruler is', correct: 'the least.', wrong: ['the opposite.', 'equally important.', 'the most important.'] },
           { start: 'If the ruler is benevolent, the people will be', correct: 'benevolent.', wrong: ['obedient.', 'fearful.', 'rich.'] },
           { start: 'The heart that cannot bear to see the suffering of others is the beginning of', correct: 'benevolence.', wrong: ['wisdom.', 'courage.', 'justice.'] },
           { start: 'A man must first despise himself before others will despise', correct: 'him.', wrong: ['the ruler.', 'his enemies.', 'his friends.'] },
@@ -1295,10 +1295,10 @@ export const CIVILIZATIONS = [
           { start: 'I dreamed I was a butterfly, and when I awoke I did not know whether I was a man who had dreamed he was a butterfly, or a butterfly dreaming he was a', correct: 'man.', wrong: ['god.', 'bird.', 'fish.'] },
           { start: 'Happiness is the absence of the', correct: 'striving for happiness.', wrong: ['pursuit of pleasure.', 'fear of pain.', 'desire for wealth.'] },
           { start: 'The perfect man has no', correct: 'self.', wrong: ['fear.', 'desire.', 'ego.'] },
-          { start: 'Flow with whatever may happen and let your mind be free.', correct: '', wrong: ['resist everything.', 'control everything.', 'fear everything.'] },
+          { start: 'Flow with whatever may happen and let your mind', correct: 'be free.', wrong: ['resist everything.', 'control everything.', 'fear everything.'] },
           { start: 'The wise man knows that he is', correct: 'nothing.', wrong: ['everything.', 'wise.', 'powerful.'] },
           { start: 'A good traveler has no fixed', correct: 'plans.', wrong: ['destination.', 'route.', 'goals.'] },
-          { start: 'Life is a series of natural and spontaneous changes. Do not resist them.', correct: '', wrong: ['force them.', 'fear them.', 'ignore them.'] },
+          { start: 'Life is a series of natural and spontaneous changes. Do not', correct: 'resist them.', wrong: ['force them.', 'fear them.', 'ignore them.'] },
           { start: 'The sound of the wind in the trees is the voice of', correct: 'the Tao.', wrong: ['the emperor.', 'the ancestors.', 'the gods.'] },
           { start: 'When the shoe fits, the foot is', correct: 'forgotten.', wrong: ['happy.', 'free.', 'strong.'] },
           { start: 'The greatest man is he who does not lose his childlike', correct: 'heart.', wrong: ['mind.', 'strength.', 'ambition.'] }
