@@ -259,8 +259,9 @@ export class GameScene extends Phaser.Scene {
     async showLevelComplete() {
         this.children.list.slice().forEach(c => c.destroy())
 
-        // Save progress
+        // ✅ Save progress AND update high score for this civilization
         await ProgressStore.completeLevel(this.civId, this.level, this.totalLevels)
+        await ProgressStore.updateCivHighScore(this.civId, this.levelScore)
 
         if (this.level >= this.totalLevels) {
             this.showFinalVictory()
@@ -296,6 +297,7 @@ export class GameScene extends Phaser.Scene {
     // ✅ FINAL WIN
     async showFinalVictory() {
         await ProgressStore.completeLevel(this.civId, this.level, this.totalLevels)
+        await ProgressStore.updateCivHighScore(this.civId, this.levelScore)
 
         this.children.list.slice().forEach(c => c.destroy())
 
