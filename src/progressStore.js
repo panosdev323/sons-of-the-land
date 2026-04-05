@@ -179,11 +179,22 @@ export const ProgressStore = {
 
   // ✅ Reset all progress (for testing or user action)
   async reset() {
+    // ✅ Clear in-memory data
     this.data = {
       globalScore: 0,
       civilizations: {}
     }
-    await this.save()
+    
+    // ✅ Clear persistent storage - FIX FOR FREEZE BUG
+    try {
+      if (typeof Capacitor !== 'undefined' && Capacitor.Storage) {
+        await Capacitor.Storage.remove({ key: STORAGE_KEY })
+      } else if (typeof localStorage !== 'undefined') {
+        localStorage.removeItem(STORAGE_KEY)
+      }
+    } catch (err) {
+      console.error('Failed to clear progress storage:', err)
+    }
   },
 
   // ✅ Helper: Get auth token (stub for backend)

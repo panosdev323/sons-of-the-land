@@ -115,6 +115,13 @@ export class SettingsScene extends Phaser.Scene {
             this.sound.play('tap')
             ProgressStore.reset()
             this.time.delayedCall(200, () => {
+              // ✅ Stop GameScene to clear cached data
+              if (this.gameSceneKey) {
+                this.scene.stop(this.gameSceneKey)
+              }
+              
+              // Stop SettingsScene and start fresh MenuScene
+              this.scene.stop()
               this.scene.start('MenuScene')
             })
           },
