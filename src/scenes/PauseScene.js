@@ -72,6 +72,9 @@ export class PauseScene extends Phaser.Scene {
         this.scene.start('MenuScene')
       }
     )
+    this.events.on('shutdown', () => {
+      this.children.list.forEach(c => c.destroy())
+    })
   }
  
   createButton(text, yPos, color, callback) {

@@ -105,6 +105,10 @@ export class StatsScene extends Phaser.Scene {
       })
       yPos += 45
     })
+    // ✅ Clean up on scene shutdown
+    this.events.on('shutdown', () => {
+      this.children.list.forEach(c => c.destroy())
+    })
   }
  
   addStatBox(label, value, yPos) {

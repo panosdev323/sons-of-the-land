@@ -25,6 +25,17 @@ export class MenuScene extends Phaser.Scene {
       fontSize: '14px', color: '#69f0ae'
     }).setOrigin(0.5)
 
+    // ✅ Show completion message if all civilizations done
+    const allProgress = ProgressStore.getAllProgress()
+    const completedCount = Object.values(allProgress).filter(p => p.completed).length
+    const totalCivs = Object.keys(allProgress).length
+    
+    if (completedCount === totalCivs && totalCivs > 0) {
+      this.add.text(w / 2, 270, '🎉 Master of Ancient Wisdom! 🎉', {
+        fontSize: '14px', color: '#ffd700', fontStyle: 'bold'
+      }).setOrigin(0.5)
+    }
+
     // === Settings Button ===
     const settingsBtn = this.add.text(62, 20, '⚙️ Settings', {
       fontSize: '14px',

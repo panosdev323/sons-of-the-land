@@ -27,7 +27,14 @@ export class SettingsScene extends Phaser.Scene {
       if (this.gameSceneKey) {
         this.scene.resume(this.gameSceneKey)
       }
-      this.scene.start(this.caller, { gameSceneKey: this.gameSceneKey })
+      if (this.caller === 'PauseScene') {
+        // Just close, PauseScene will handle it
+        this.scene.stop()
+      } else {
+        // Go to MenuScene
+        this.scene.start(this.caller)
+      }
+      // this.scene.start(this.caller, { gameSceneKey: this.gameSceneKey })
     })
  
     let yPos = 100
@@ -107,7 +114,9 @@ export class SettingsScene extends Phaser.Scene {
             // Confirmed
             this.sound.play('tap')
             ProgressStore.reset()
-            this.scene.start('MenuScene')
+            this.time.delayedCall(200, () => {
+              this.scene.start('MenuScene')
+            })
           },
           () => {
             // Cancelled

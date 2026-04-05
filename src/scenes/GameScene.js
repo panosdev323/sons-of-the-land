@@ -55,6 +55,10 @@ export class GameScene extends Phaser.Scene {
         this.answered = false
         this.cameras.main.setBackgroundColor(this.civ.bg)
         this.showQuestion()
+        // ✅ Clean up on scene shutdown
+        this.events.on('shutdown', () => {
+        this.children.list.forEach(c => c.destroy())
+        })
     }
 
     showQuestion() {
