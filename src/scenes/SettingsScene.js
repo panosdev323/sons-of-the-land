@@ -86,16 +86,17 @@ export class SettingsScene extends Phaser.Scene {
  
     // ✅ Language (placeholder)
     yPos = this.createRadioSetting(
-      'Language',
+      'Language (Coming Soon)',
       'language',
       ['English', 'Español', 'Français'],
       'English',
-      yPos
+      yPos,
+      { disabled: true }
     )
  
     // ✅ Advanced Settings
     yPos += 40
-    this.add.text(40, yPos, 'Advanced', {
+    this.add.text(40, yPos, 'Advanced Settings', {
       fontSize: '14px', color: '#888', fontStyle: 'italic'
     })
     yPos += 30
@@ -234,7 +235,8 @@ export class SettingsScene extends Phaser.Scene {
  
   createToggleSetting(label, key, yPos, callback) {
     const w = 480
-    const enabled = this.getSetting(key, true)
+    const defaultVal = key === 'musicEnabled' ? false : true
+    const enabled = this.getSetting(key, defaultVal)
  
     this.add.text(40, yPos, label, {
       fontSize: '14px', color: '#fff'
@@ -256,7 +258,7 @@ export class SettingsScene extends Phaser.Scene {
     const zone = this.add.zone(toggleX, yPos + 4, 100, 30).setInteractive()
     zone.on('pointerdown', () => {
       this.sound.play('tap')
-      const newState = !this.getSetting(key, true)
+      const newState = !this.getSetting(key, defaultVal)
       this.setSetting(key, newState)
       drawToggle(newState)
       if (callback) callback(newState)
@@ -265,9 +267,10 @@ export class SettingsScene extends Phaser.Scene {
     return yPos + 50
   }
  
-  createRadioSetting(label, key, options, defaultVal, yPos) {
+  createRadioSetting(label, key, options, defaultVal, yPos, opts = {}) {
     const w = 480
     const current = this.getSetting(key, defaultVal)
+    const disabled = opts.disabled || false
  
     this.add.text(40, yPos, label, {
       fontSize: '14px', color: '#fff'
@@ -296,12 +299,14 @@ export class SettingsScene extends Phaser.Scene {
       })
  
       // Click zone
-      const zone = this.add.zone(x + 50, y + 5, 150, 25).setInteractive()
-      zone.on('pointerdown', () => {
-        this.sound.play('tap')
-        this.setSetting(key, option)
-        this.scene.restart()  // Reload to show changes
-      })
+      if (!disabled) {
+        const zone = this.add.zone(x + 50, y + 5, 150, 25).setInteractive()
+        zone.on('pointerdown', () => {
+          this.sound.play('tap')
+          this.setSetting(key, option)
+          this.scene.restart()  // Reload to show changes
+        })
+      }
     })
  
     return yPos + options.length * 30 + 20

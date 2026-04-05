@@ -19,7 +19,7 @@ export class BootScene extends Phaser.Scene {
       })
       
       // Get user preference from localStorage
-      const musicEnabled = localStorage.getItem('setting_musicEnabled') !== 'false'
+      const musicEnabled = localStorage.getItem('setting_musicEnabled') === 'true'
       
       if (musicEnabled) {
         bgMusic.play()
