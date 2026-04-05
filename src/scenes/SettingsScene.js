@@ -48,7 +48,14 @@ export class SettingsScene extends Phaser.Scene {
       'musicEnabled',
       yPos,
       (enabled) => {
-        // Future: music implementation
+        const bgMusic = this.sound.get('bgMusic')
+        if (bgMusic) {
+          if (enabled) {
+            bgMusic.play()
+          } else {
+            bgMusic.stop()
+          }
+        }
       }
     )
  
