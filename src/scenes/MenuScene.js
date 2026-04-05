@@ -25,6 +25,21 @@ export class MenuScene extends Phaser.Scene {
       fontSize: '14px', color: '#69f0ae'
     }).setOrigin(0.5)
 
+    // === Settings Button ===
+    const settingsBtn = this.add.text(62, 20, '⚙️ Settings', {
+      fontSize: '14px',
+      backgroundColor: '#37474f',
+      color: '#fff',
+      padding: { x: 10, y: 6 }
+    }).setOrigin(0.5).setInteractive()
+
+    settingsBtn.on('pointerover', () => settingsBtn.setScale(1.05))
+    settingsBtn.on('pointerout', () => settingsBtn.setScale(1))
+    settingsBtn.on('pointerdown', () => {
+      this.sound.play('tap')
+      this.scene.start('SettingsScene', { caller: 'MenuScene' })
+    })
+
     // === Stats Button ===
     const statsBtn = this.add.text(w - 50, 20, '📊 Stats', {
       fontSize: '14px',
