@@ -14,8 +14,12 @@ export class StatsScene extends Phaser.Scene {
     const h = 800
  
     this.cameras.main.setBackgroundColor('#1a1208')
- 
-    // Header
+
+    // ✅ Create a container for scrollable content
+    const scrollContainer = this.add.container(0, 0)
+    let yPos = 100
+
+    // Header (stays fixed, not in container)
     this.add.text(w / 2, 40, '📊 Statistics', {
       fontSize: '24px', color: '#f9a825', fontStyle: 'bold'
     }).setOrigin(0.5)
@@ -33,22 +37,19 @@ export class StatsScene extends Phaser.Scene {
     const completedCount = Object.values(allProgress).filter(p => p.completed).length
     const totalCivs = Object.keys(allProgress).length
  
-    let yPos = 100
- 
-    // ✅ Overall Statistics
-    this.addStatBox('Global Score', `${globalScore}`, yPos)
+    // ✅ Overall Statistics (in container)
+    this.addStatBoxToContainer(scrollContainer, 'Global Score', `${globalScore}`, yPos, w)
     yPos += 80
  
-    this.addStatBox('Civilizations', `${completedCount} / ${totalCivs}`, yPos)
+    this.addStatBoxToContainer(scrollContainer, 'Civilizations', `${completedCount} / ${totalCivs}`, yPos, w)
     yPos += 80
  
     // ✅ High Scores Table
-    this.add.text(40, yPos, 'Top Civilizations', {
+    scrollContainer.add(this.add.text(40, yPos, 'Top Civilizations', {
       fontSize: '14px', color: '#f9a825', fontStyle: 'bold'
-    })
+    }))
     yPos += 35
  
-    // Get top 5 by high score
     const topCivs = Object.entries(allProgress)
       .map(([id, data]) => ({ id, ...data }))
       .filter(c => c.highScore > 0)
@@ -59,33 +60,33 @@ export class StatsScene extends Phaser.Scene {
       const rank = `#${i + 1}`
       const score = `${civ.highScore} pts`
       
-      this.add.text(50, yPos, rank, {
+      scrollContainer.add(this.add.text(50, yPos, rank, {
         fontSize: '12px', color: '#f9a825'
-      })
+      }))
       
-      this.add.text(100, yPos, civ.id.toUpperCase(), {
+      scrollContainer.add(this.add.text(100, yPos, civ.id.toUpperCase(), {
         fontSize: '12px', color: '#fff'
-      })
+      }))
       
-      this.add.text(w - 50, yPos, score, {
+      scrollContainer.add(this.add.text(w - 50, yPos, score, {
         fontSize: '12px', color: '#69f0ae'
-      }).setOrigin(1, 0)
+      }).setOrigin(1, 0))
  
       yPos += 30
     })
  
     if (topCivs.length === 0) {
-      this.add.text(50, yPos, 'Play some levels to earn scores!', {
+      scrollContainer.add(this.add.text(50, yPos, 'Play some levels to earn scores!', {
         fontSize: '12px', color: '#666'
-      })
+      }))
     }
  
     yPos += 40
  
-    // ✅ Achievement Badges (future)
-    this.add.text(40, yPos, 'Achievements', {
+    // ✅ Achievement Badges
+    scrollContainer.add(this.add.text(40, yPos, 'Achievements', {
       fontSize: '14px', color: '#f9a825', fontStyle: 'bold'
-    })
+    }))
     yPos += 35
  
     const achievements = [
@@ -97,22 +98,44 @@ export class StatsScene extends Phaser.Scene {
  
     achievements.forEach(ach => {
       const opacity = ach.unlocked ? 1 : 0.3
-      this.add.text(50, yPos, ach.name, {
+      scrollContainer.add(this.add.text(50, yPos, ach.name, {
         fontSize: '12px', color: '#fff', alpha: opacity
-      })
-      this.add.text(50, yPos + 18, ach.desc, {
+      }))
+      scrollContainer.add(this.add.text(50, yPos + 18, ach.desc, {
         fontSize: '10px', color: '#888', alpha: opacity
-      })
+      }))
       yPos += 45
     })
-    // ✅ Clean up on scene shutdown
+
+    // ✅ Enable scrolling with mouse wheel / touch
+    this.input.on('wheel', (pointer, over, deltaY) => {
+      scrollContainer.y -= deltaY * 0.5
+      // Clamp scrolling to prevent over-scrolling
+      const maxScroll = Math.max(0, yPos - (h - 100))
+      scrollContainer.y = Phaser.Math.Clamp(scrollContainer.y, -maxScroll, 0)
+    })
+
+    // ✅ Touch drag scrolling (mobile)
+    let lastY = 0
+    this.input.on('pointerdown', (pointer) => {
+      lastY = pointer.y
+    })
+    this.input.on('pointermove', (pointer) => {
+      if (pointer.isDown) {
+        const delta = pointer.y - lastY
+        scrollContainer.y += delta
+        scrollContainer.y = Phaser.Math.Clamp(scrollContainer.y, -Math.max(0, yPos - (h - 100)), 0)
+        lastY = pointer.y
+      }
+    })
+ 
     this.events.on('shutdown', () => {
       this.children.list.forEach(c => c.destroy())
     })
   }
- 
-  addStatBox(label, value, yPos) {
-    const w = 480
+
+  // ✅ Updated helper method
+  addStatBoxToContainer(container, label, value, yPos, w) {
     const boxW = 180
  
     const bg = this.add.graphics()
@@ -120,13 +143,16 @@ export class StatsScene extends Phaser.Scene {
     bg.fillRoundedRect(w / 2 - boxW / 2, yPos, boxW, 60, 8)
     bg.lineStyle(2, 0xf9a825, 0.5)
     bg.strokeRoundedRect(w / 2 - boxW / 2, yPos, boxW, 60, 8)
+    container.add(bg)
  
-    this.add.text(w / 2, yPos + 15, label, {
+    const labelText = this.add.text(w / 2, yPos + 15, label, {
       fontSize: '11px', color: '#888'
     }).setOrigin(0.5)
+    container.add(labelText)
  
-    this.add.text(w / 2, yPos + 40, value, {
+    const valueText = this.add.text(w / 2, yPos + 40, value, {
       fontSize: '20px', color: '#f9a825', fontStyle: 'bold'
     }).setOrigin(0.5)
+    container.add(valueText)
   }
 }
