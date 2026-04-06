@@ -106,7 +106,7 @@ export class SettingsScene extends Phaser.Scene {
     )
  
     // ✅ Advanced Settings
-    yPos += 40
+    yPos += 20
     this.add.text(40, yPos, 'Advanced Settings', {
       fontSize: '14px', color: '#888', fontStyle: 'italic'
     })
@@ -158,9 +158,28 @@ export class SettingsScene extends Phaser.Scene {
         }).setOrigin(0.5)
       }
     )
+
+    // ✅ terms
+    yPos += 10
+    this.add.text(40, yPos, 'Terms', {
+      fontSize: '14px', color: '#888', fontStyle: 'italic'
+    })
+    yPos += 30
+
+    // Terms of Service Button
+    yPos = this.createButton(
+      'Terms of Service',
+      yPos,
+      '#5555aa',  // a subtle blue color
+      () => {
+        this.sound.play('tap')
+        // Open the terms.html file (from public folder)
+        window.open('terms.html', '_blank')
+      }
+    )
  
     // ✅ About Section
-    yPos = h - 120
+    yPos = h - 30
     this.add.text(w / 2, yPos, 'Sons of the Land: Ancient Wisdom v1.0', {
       fontSize: '12px', color: '#666'
     }).setOrigin(0.5)
