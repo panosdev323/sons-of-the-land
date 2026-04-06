@@ -7,8 +7,19 @@ import { TutorialScene } from './scenes/TutorialScene.js'
 import { SettingsScene } from './scenes/SettingsScene.js'
 import { StatsScene } from './scenes/StatsScene.js'
 import { PauseScene } from './scenes/PauseScene.js'
+import { MobileOptimization } from './mobileOptimization.js'
 
-new Phaser.Game({
+// ✅ Apply safe area CSS before game starts
+MobileOptimization.applySafeAreaCSS()
+
+// ✅ Lock to portrait orientation on mobile (when built with Capacitor)
+// This will work automatically on native mobile builds
+// Uncomment when you build with Capacitor:
+// if (MobileOptimization.getPlayableArea().isMobile) {
+//   MobileOptimization.lockOrientation('portrait')
+// }
+
+const config = {
   type: Phaser.AUTO,
   width: 480,
   height: 854,
@@ -16,10 +27,39 @@ new Phaser.Game({
   scene: [BootScene, MenuScene, AuthorScene, GameScene, TutorialScene, SettingsScene, StatsScene, PauseScene],
   scale: {
     mode: Phaser.Scale.FIT,
-    autoCenter: Phaser.Scale.CENTER_BOTH
+    autoCenter: Phaser.Scale.CENTER_BOTH,
+    // ✅ Add mobile-specific scale settings
+    orientation: Phaser.Scale.Orientation.PORTRAIT,
+    expandParent: true,
+    fullscreenTarget: 'game'
   },
   audio: {
     disableWebAudio: false,
-    noAudio: false  // Force enable audio
+    noAudio: false
+  },
+  // ✅ Add physics if needed
+  physics: {
+    default: 'arcade',
+    arcade: {
+      gravity: { y: 0 },
+      debug: false
+    }
+  }
+}
+
+const game = new Phaser.Game(config)
+
+// ✅ Handle orientation changes
+window.addEventListener('orientationchange', () => {
+  console.log('Orientation changed:', MobileOptimization.getOrientation())
+  // Game will auto-scale, but you can add custom logic here
+})
+
+// ✅ Handle visibility (pause on background, resume on foreground)
+document.addEventListener('visibilitychange', () => {
+  if (document.hidden) {
+    game.events.emit('GAME_PAUSED')
+  } else {
+    game.events.emit('GAME_RESUMED')
   }
 })
