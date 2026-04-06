@@ -12,12 +12,12 @@ export class TutorialScene extends Phaser.Scene {
     const slides = [
       {
         title: 'Welcome to Ancient Wisdom',
-        content: 'Test your knowledge of ancient civilizations through authentic historical quotes.',
+        content: 'Test your knowledge of ancient civilizations through famous quotes and historical facts!',
         icon: '📜'
       },
       {
         title: 'How to Play',
-        content: 'Read the beginning of a famous quote and choose the correct ending from 4 options.',
+        content: 'Answer questions about ancient civilizations - complete famous quotes or answer historical facts. Choose from 4 options.',
         icon: '❓'
       },
       {
