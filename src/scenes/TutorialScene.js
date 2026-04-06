@@ -11,7 +11,8 @@ export class TutorialScene extends Phaser.Scene {
  
     const slides = [
       {
-        title: 'Welcome to Ancient Wisdom',
+        title: 'Welcome to Sons of the Land',
+        subtitle:'Ancient Wisdom',
         content: 'Test your knowledge of ancient civilizations through famous quotes and historical facts!',
         icon: '📜'
       },
@@ -57,6 +58,14 @@ export class TutorialScene extends Phaser.Scene {
       this.add.text(w / 2, 220, slide.title, {
         fontSize: '20px', color: '#f9a825', fontStyle: 'bold'
       }).setOrigin(0.5)
+
+      // Subtitle (only if it exists)
+      if (slide.subtitle) {
+        this.add.text(w / 2, 245, slide.subtitle, {
+          fontSize: '18px', color: '#d4af37', fontStyle: 'italic',
+          shadow: { offsetX: 2, offsetY: 2, color: '#000000', blur: 3, fill: true }
+        }).setOrigin(0.5)
+      }
  
       // Content
       this.add.text(w / 2, 330, slide.content, {

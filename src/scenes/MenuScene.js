@@ -14,9 +14,14 @@ export class MenuScene extends Phaser.Scene {
 
     // === FIXED HEADER (not in container, always visible) ===
     this.add.text(w / 2, 100, '📜', { fontSize: '64px' }).setOrigin(0.5)
-    this.add.text(w / 2, 190, 'ANCIENT WISDOM', {
+    this.add.text(w / 2, 165, 'Sons of the Land', {
       fontSize: '28px', color: '#f9a825',
       fontStyle: 'bold', stroke: '#000', strokeThickness: 4
+    }).setOrigin(0.5)
+    this.add.text(w / 2, 200, 'ANCIENT WISDOM', {
+      fontSize: '22px', color: '#d4af37',
+      fontStyle: 'italic', stroke: '#000', strokeThickness: 4,
+      shadow: { offsetX: 3, offsetY: 3, color: '#000000', blur: 5, fill: true }
     }).setOrigin(0.5)
     
     // ✅ Display global score in header
