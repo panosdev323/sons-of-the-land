@@ -29,13 +29,10 @@ export class SettingsScene extends Phaser.Scene {
         this.scene.resume(this.gameSceneKey)
       }
       if (this.caller === 'PauseScene') {
-        // Just close, PauseScene will handle it
         this.scene.stop()
       } else {
-        // Go to MenuScene
         this.scene.start(this.caller)
       }
-      // this.scene.start(this.caller, { gameSceneKey: this.gameSceneKey })
     })
  
     let yPos = 100
@@ -48,14 +45,14 @@ export class SettingsScene extends Phaser.Scene {
       (enabled) => {
         const allSounds = this.sound.sounds
         allSounds.forEach(sound => {
-          if (sound.key !== 'bgMusic') {  // Don't mute background music
+          if (sound.key !== 'bgMusic') {
             sound.mute = !enabled
           }
         })
       }
     )
  
-    // ✅ Music Toggle (placeholder for future)
+    // ✅ Music Toggle
     yPos = this.createToggleSetting(
       'Background Music',
       'musicEnabled',
@@ -118,27 +115,22 @@ export class SettingsScene extends Phaser.Scene {
       yPos,
       '#7f0000',
       () => {
-        // ✅ Show custom modal instead of browser confirm()
         this.showConfirmModal(
           'Are you sure?',
           'This cannot be undone!',
           () => {
-            // Confirmed
             this.sound.play('tap')
             ProgressStore.reset()
             this.time.delayedCall(200, () => {
-              // ✅ Stop GameScene to clear cached data
               if (this.gameSceneKey) {
                 this.scene.stop(this.gameSceneKey)
               }
               
-              // Stop SettingsScene and start fresh MenuScene
               this.scene.stop()
               this.scene.start('MenuScene')
             })
           },
           () => {
-            // Cancelled
             this.sound.play('tap')
           }
         )
@@ -159,9 +151,9 @@ export class SettingsScene extends Phaser.Scene {
       }
     )
 
-    // ✅ terms
+    // ✅ Legal Section
     yPos += 10
-    this.add.text(40, yPos, 'Terms', {
+    this.add.text(40, yPos, 'Legal', {
       fontSize: '14px', color: '#888', fontStyle: 'italic'
     })
     yPos += 30
@@ -170,11 +162,11 @@ export class SettingsScene extends Phaser.Scene {
     yPos = this.createButton(
       'Terms of Service',
       yPos,
-      '#5555aa',  // a subtle blue color
+      '#5555aa',
       () => {
         this.sound.play('tap')
-        // Open the terms.html file (from public folder)
-        window.open('terms.html', '_blank')
+        // ✅ Open TermsScene (mobile-friendly in-game display)
+        this.scene.start('TermsScene', { caller: 'SettingsScene' })
       }
     )
  
@@ -190,18 +182,15 @@ export class SettingsScene extends Phaser.Scene {
     }).setOrigin(0.5)
   }
 
-  // ✅ Custom confirmation modal (avoids browser confirm())
   showConfirmModal(title, message, onConfirm, onCancel) {
     const w = 480
     const h = 800
 
-    // Semi-transparent overlay
     const overlay = this.add.graphics()
     overlay.fillStyle(0x000000, 0.6)
     overlay.fillRect(0, 0, w, h)
     overlay.setInteractive()
 
-    // Modal box
     const boxW = 300
     const boxH = 200
     const boxX = w / 2 - boxW / 2
@@ -213,19 +202,16 @@ export class SettingsScene extends Phaser.Scene {
     box.lineStyle(2, 0xf9a825, 1)
     box.strokeRoundedRect(boxX, boxY, boxW, boxH, 12)
 
-    // Title
     this.add.text(w / 2, boxY + 30, title, {
       fontSize: '18px', color: '#f9a825', fontStyle: 'bold'
     }).setOrigin(0.5)
 
-    // Message
     this.add.text(w / 2, boxY + 70, message, {
       fontSize: '14px', color: '#fff',
       wordWrap: { width: 250 },
       align: 'center'
     }).setOrigin(0.5)
 
-    // Cancel button
     const cancelBtn = this.add.text(boxX + 30, boxY + 140, 'Cancel', {
       fontSize: '13px',
       color: '#fff',
@@ -241,7 +227,6 @@ export class SettingsScene extends Phaser.Scene {
       if (onCancel) onCancel()
     })
 
-    // Confirm button
     const confirmBtn = this.add.text(boxX + boxW - 30, boxY + 140, 'Reset', {
       fontSize: '13px',
       color: '#fff',
@@ -257,7 +242,6 @@ export class SettingsScene extends Phaser.Scene {
       if (onConfirm) onConfirm()
     })
 
-    // Prevent clicks on overlay from closing modal
     overlay.on('pointerdown', (pointer) => {
       pointer.stopPropagation()
     })
@@ -272,7 +256,6 @@ export class SettingsScene extends Phaser.Scene {
       fontSize: '14px', color: '#fff'
     })
  
-    // Toggle button
     const toggleBg = this.add.graphics()
     const toggleX = w - 60
     const drawToggle = (isEnabled) => {
@@ -313,7 +296,6 @@ export class SettingsScene extends Phaser.Scene {
       
       const isSelected = current === option
  
-      // Radio circle
       const radioBg = this.add.graphics()
       radioBg.lineStyle(2, isSelected ? 0xf9a825 : 0x666, 1)
       radioBg.strokeCircle(x, y + 5, 8)
@@ -323,18 +305,16 @@ export class SettingsScene extends Phaser.Scene {
         radioBg.fillCircle(x, y + 5, 5)
       }
  
-      // Label
       this.add.text(x + 25, y, option, {
         fontSize: '13px', color: '#fff'
       })
  
-      // Click zone
       if (!disabled) {
         const zone = this.add.zone(x + 50, y + 5, 150, 25).setInteractive()
         zone.on('pointerdown', () => {
           this.sound.play('tap')
           this.setSetting(key, option)
-          this.scene.restart()  // Reload to show changes
+          this.scene.restart()
         })
       }
     })

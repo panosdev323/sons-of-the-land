@@ -7,6 +7,7 @@ import { TutorialScene } from './scenes/TutorialScene.js'
 import { SettingsScene } from './scenes/SettingsScene.js'
 import { StatsScene } from './scenes/StatsScene.js'
 import { PauseScene } from './scenes/PauseScene.js'
+import { TermsScene } from './scenes/TermsScene.js'
 import { MobileOptimization } from './mobileOptimization.js'
 
 // ✅ Apply safe area CSS before game starts
@@ -24,7 +25,7 @@ const config = {
   width: 480,
   height: 854,
   backgroundColor: '#1a1208',
-  scene: [BootScene, MenuScene, AuthorScene, GameScene, TutorialScene, SettingsScene, StatsScene, PauseScene],
+  scene: [BootScene, MenuScene, AuthorScene, GameScene, TutorialScene, SettingsScene, StatsScene, PauseScene, TermsScene],
   scale: {
     mode: Phaser.Scale.FIT,
     autoCenter: Phaser.Scale.CENTER_BOTH,
