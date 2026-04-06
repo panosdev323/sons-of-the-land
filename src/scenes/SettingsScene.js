@@ -11,9 +11,10 @@ export class SettingsScene extends Phaser.Scene {
   create() {
     const w = 480
     const h = 800
- 
+    
     this.cameras.main.setBackgroundColor('#1a1208')
- 
+    const inGame = this.gameSceneKey ? true : false
+
     // Header
     this.add.text(w / 2, 40, '⚙️ Settings', {
       fontSize: '24px', color: '#f9a825', fontStyle: 'bold'
@@ -74,14 +75,19 @@ export class SettingsScene extends Phaser.Scene {
         yPos
       )
     }
- 
+    if (inGame) {
+      this.add.text(40, yPos - 15, '🔒 Change difficulty before starting a new game', {
+        fontSize: '11px', color: '#888', fontStyle: 'italic'
+      })
+    }
     // ✅ Difficulty Setting
     yPos = this.createRadioSetting(
       'Difficulty',
       'difficulty',
       ['Easy', 'Normal', 'Hard'],
       'Normal',
-      yPos
+      yPos,
+      { disabled: inGame }
     )
  
     // ✅ Language (placeholder)

@@ -203,14 +203,13 @@ export class MenuScene extends Phaser.Scene {
             duration: 150,
             yoyo: true
           })
-          // ✅ FIX: Pass levelScore and levelLives to GameScene
+          // ✅ FIX: Pass levelScore to GameScene
           const lastLevel = ProgressStore.getLevel(civ.id)
           this.scene.start('GameScene', {
             civId: civ.id,
             mode: 'mixed',
             level: lastLevel,
             levelScore: 0,
-            levelLives: 3,
             streak: 0
           })
         })

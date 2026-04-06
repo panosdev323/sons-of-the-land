@@ -16,7 +16,19 @@ export class GameScene extends Phaser.Scene {
         
         // Level-specific score (for feedback)
         this.levelScore = data.levelScore ?? 0
-        this.levelLives = data.levelLives ?? 3
+        //Get difficulty setting
+        const difficultyRaw = localStorage.getItem('setting_difficulty') || '"Normal"'
+        const difficulty = JSON.parse(difficultyRaw)
+        // ✅ Set starting lives based on difficulty
+        let startingLives = 3
+        if (difficulty === 'Easy') {
+            startingLives = 4
+        } else if (difficulty === 'Normal') {
+            startingLives = 3
+        } else if (difficulty === 'Hard') {
+            startingLives = 2
+        }
+        this.levelLives = data.levelLives ?? startingLives
         this.streak = data.streak ?? 0
     }
 
@@ -112,7 +124,7 @@ export class GameScene extends Phaser.Scene {
         }).setOrigin(0.5, 0)
 
         // ✅ Display global lives (with proper count)
-        const livesStr = '❤️'.repeat(this.levelLives) + '🖤'.repeat(3 - this.levelLives)
+        const livesStr = '❤️'.repeat(this.levelLives)
         this.add.text(w - 16, 16, livesStr, { fontSize: '13px' }).setOrigin(1, 0)
 
         // ✅ Display global score + level score
@@ -306,7 +318,6 @@ export class GameScene extends Phaser.Scene {
                 civId: this.civId,
                 level: this.level + 1,
                 levelScore: 0,  // Reset level score
-                levelLives: 3,  // Reset level lives
                 streak: 0       // Reset streak
             })
         })
@@ -368,7 +379,6 @@ export class GameScene extends Phaser.Scene {
                 civId: this.civId,
                 level: this.level,
                 levelScore: 0,
-                levelLives: 3,
                 streak: 0
             })
         })
