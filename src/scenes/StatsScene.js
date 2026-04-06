@@ -54,7 +54,7 @@ export class StatsScene extends Phaser.Scene {
       .map(([id, data]) => ({ id, ...data }))
       .filter(c => c.highScore > 0)
       .sort((a, b) => b.highScore - a.highScore)
-      .slice(0, 5)
+      .slice(0, 10)
  
     topCivs.forEach((civ, i) => {
       const rank = `#${i + 1}`

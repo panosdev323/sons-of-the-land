@@ -145,7 +145,7 @@ export class GameScene extends Phaser.Scene {
         scrollBg.fillRoundedRect(24, 80, w - 48, 320, 12)
 
         this.add.text(w / 2, 106, `— ${q.author}`, {
-            fontSize: '13px', color: '#bcaaa4', fontStyle: 'italic'
+            fontSize: '13px', color: '#bcaaa4', fontStyle: 'italic', wordWrap: { width: w - 80 }
         }).setOrigin(0.5)
 
         this.add.text(w / 2, 200, `"${q.start}...`, {
