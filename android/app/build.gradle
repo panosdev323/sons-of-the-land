@@ -3,6 +3,10 @@ apply plugin: 'com.android.application'
 android {
     namespace "com.sonsoftheland.game"
     compileSdkVersion rootProject.ext.compileSdkVersion
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
     defaultConfig {
         applicationId "com.sonsoftheland.game"
         minSdkVersion rootProject.ext.minSdkVersion
@@ -40,6 +44,16 @@ dependencies {
     androidTestImplementation "androidx.test.ext:junit:$androidxJunitVersion"
     androidTestImplementation "androidx.test.espresso:espresso-core:$androidxEspressoCoreVersion"
     implementation project(':capacitor-cordova-android-plugins')
+    
+    // ✅ FIX: Kotlin version conflict
+    constraints {
+        implementation('org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.22') {
+            because 'kotlin-stdlib-jdk7 needs to be 1.8.22'
+        }
+        implementation('org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.22') {
+            because 'kotlin-stdlib-jdk8 needs to be 1.8.22'
+        }
+    }
 }
 
 apply from: 'capacitor.build.gradle'
