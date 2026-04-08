@@ -69,7 +69,7 @@ export class TutorialScene extends Phaser.Scene {
  
       // Content
       this.add.text(w / 2, 330, slide.content, {
-        fontSize: '14px', color: '#fff',
+        fontSize: '16px', color: '#fff',
         wordWrap: { width: 400 },
         align: 'center'
       }).setOrigin(0.5)
@@ -89,7 +89,7 @@ export class TutorialScene extends Phaser.Scene {
       // Previous button
       if (currentSlide > 0) {
         const prevBtn = this.add.text(60, btnY, '← Previous', {
-          fontSize: '14px', color: '#dcdada'
+          fontSize: '16px', color: '#dcdada'
         }).setInteractive()
         prevBtn.on('pointerdown', () => {
           this.sound.play('tap')
@@ -101,7 +101,7 @@ export class TutorialScene extends Phaser.Scene {
       // Next/Skip button
       const nextText = currentSlide === slides.length - 1 ? 'Start Game' : 'Next'
       const nextBtn = this.add.text(w - 60, btnY, `${nextText} →`, {
-        fontSize: '14px', color: '#f9a825'
+        fontSize: '16px', color: '#f9a825'
       }).setOrigin(1, 0).setInteractive()
       nextBtn.on('pointerdown', () => {
         this.sound.play('tap')
@@ -116,7 +116,7 @@ export class TutorialScene extends Phaser.Scene {
  
       // Skip button (always available)
       const skipBtn = this.add.text(w / 2, btnY + 50, 'Skip Tutorial', {
-        fontSize: '12px', color: '#dcdada'
+        fontSize: '16px', color: '#dcdada'
       }).setOrigin(0.5).setInteractive()
       skipBtn.on('pointerdown', () => {
         this.sound.play('tap')

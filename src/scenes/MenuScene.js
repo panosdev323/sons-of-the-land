@@ -181,7 +181,7 @@ export class MenuScene extends Phaser.Scene {
       // ✅ Display progress for incomplete civilizations
       const civProgress = ProgressStore.getLevel(civ.id)
       const progressText = this.add.text(x + 140, y, done ? '✅' : `Lvl ${civProgress}`, {
-        fontSize: '12px',
+        fontSize: '14px',
         color: done ? '#f9a825' : '#dcdada',
         backgroundColor: done ? '#1a1208' : undefined,
         padding: done ? { x: 4, y: 2 } : undefined
@@ -236,14 +236,14 @@ export class MenuScene extends Phaser.Scene {
 
     // Footer inside container
     const footer = this.add.text(w / 2, civs.length * itemHeight + 36, 'Test your knowledge of the ancient world', {
-      fontSize: '11px', color: '#555'
+      fontSize: '14px', color: '#555'
     }).setOrigin(0.5)
     menuContainer.add(footer)
 
     // === SCROLL ARROW INDICATOR ===
     // Bouncing down arrow to signal scrollability
     const arrowText = this.add.text(w / 2, panelBottom - 28, '▼  scroll  ▼', {
-      fontSize: '13px', color: '#f9a825', alpha: 0.8
+      fontSize: '14px', color: '#f9a825', alpha: 0.8
     }).setOrigin(0.5)
 
     this.tweens.add({

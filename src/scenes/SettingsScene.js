@@ -173,7 +173,7 @@ export class SettingsScene extends Phaser.Scene {
     // ✅ About Section
     yPos = h - 30
     this.add.text(w / 2, yPos, 'Sons of the Land: Ancient Wisdom v1.0', {
-      fontSize: '12px', color: '#dcdada'
+      fontSize: '14px', color: '#dcdada'
     }).setOrigin(0.5)
   }
 

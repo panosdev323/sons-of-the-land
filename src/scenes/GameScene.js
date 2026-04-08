@@ -115,21 +115,21 @@ export class GameScene extends Phaser.Scene {
         })
 
         this.add.text(w / 2, 16, `${this.civ.emoji} ${this.civ.name}`, {
-            fontSize: '13px', color: '#fff', fontStyle: 'bold'
+            fontSize: '14px', color: '#fff', fontStyle: 'bold'
         }).setOrigin(0.5, 0)
 
         // ✅ LEVEL DISPLAY
         this.add.text(w / 2, 32, `Level ${this.level}/${this.totalLevels}`, {
-            fontSize: '11px', color: '#aaa'
+            fontSize: '14px', color: '#aaa'
         }).setOrigin(0.5, 0)
 
         // ✅ Display global lives (with proper count)
         const livesStr = '❤️'.repeat(this.levelLives)
-        this.add.text(w - 16, 16, livesStr, { fontSize: '13px' }).setOrigin(1, 0)
+        this.add.text(w - 16, 16, livesStr, { fontSize: '14px' }).setOrigin(1, 0)
 
         // ✅ Display global score + level score
         this.add.text(w / 2, 44, `Global: ${this.globalScore} | Level: ${this.levelScore} 🔥 ${this.streak}`, {
-            fontSize: '11px', color: '#f9a825'
+            fontSize: '14px', color: '#f9a825'
         }).setOrigin(0.5, 0)
 
         // Progress bar
@@ -145,7 +145,7 @@ export class GameScene extends Phaser.Scene {
         scrollBg.fillRoundedRect(24, 80, w - 48, 320, 12)
 
         this.add.text(w / 2, 106, `— ${q.author}`, {
-            fontSize: '13px', color: '#bcaaa4', fontStyle: 'italic', wordWrap: { width: w - 80 }
+            fontSize: '14px', color: '#bcaaa4', fontStyle: 'italic', wordWrap: { width: w - 80 }
         }).setOrigin(0.5)
 
         this.add.text(w / 2, 200, `"${q.start}...`, {
@@ -156,7 +156,7 @@ export class GameScene extends Phaser.Scene {
         }).setOrigin(0.5)
 
         this.add.text(w / 2, 330, '👇 Complete the quote', {
-            fontSize: '12px', color: '#dcdada',
+            fontSize: '14px', color: '#dcdada',
         }).setOrigin(0.5)
 
         // === ANSWERS ===

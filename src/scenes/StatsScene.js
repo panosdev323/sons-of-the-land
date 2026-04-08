@@ -46,7 +46,7 @@ export class StatsScene extends Phaser.Scene {
  
     // ✅ High Scores Table
     scrollContainer.add(this.add.text(40, yPos, 'Top Civilizations', {
-      fontSize: '14px', color: '#f9a825', fontStyle: 'bold'
+      fontSize: '18px', color: '#f9a825', fontStyle: 'bold'
     }))
     yPos += 35
  
@@ -61,15 +61,15 @@ export class StatsScene extends Phaser.Scene {
       const score = `${civ.highScore} pts`
       
       scrollContainer.add(this.add.text(50, yPos, rank, {
-        fontSize: '12px', color: '#f9a825'
+        fontSize: '15px', color: '#f9a825'
       }))
       
       scrollContainer.add(this.add.text(100, yPos, civ.id.toUpperCase(), {
-        fontSize: '12px', color: '#fff'
+        fontSize: '15px', color: '#fff'
       }))
       
       scrollContainer.add(this.add.text(w - 50, yPos, score, {
-        fontSize: '12px', color: '#69f0ae'
+        fontSize: '15px', color: '#69f0ae'
       }).setOrigin(1, 0))
  
       yPos += 30
@@ -77,7 +77,7 @@ export class StatsScene extends Phaser.Scene {
  
     if (topCivs.length === 0) {
       scrollContainer.add(this.add.text(50, yPos, 'Play some levels to earn scores!', {
-        fontSize: '12px', color: '#dcdada'
+        fontSize: '15px', color: '#dcdada'
       }))
     }
  
@@ -85,7 +85,7 @@ export class StatsScene extends Phaser.Scene {
  
     // ✅ Achievement Badges
     scrollContainer.add(this.add.text(40, yPos, 'Achievements', {
-      fontSize: '14px', color: '#f9a825', fontStyle: 'bold'
+      fontSize: '18px', color: '#f9a825', fontStyle: 'bold'
     }))
     yPos += 35
  
@@ -99,10 +99,10 @@ export class StatsScene extends Phaser.Scene {
     achievements.forEach(ach => {
       const opacity = ach.unlocked ? 1 : 0.3
       scrollContainer.add(this.add.text(50, yPos, ach.name, {
-        fontSize: '12px', color: '#fff', alpha: opacity
+        fontSize: '15px', color: '#fff', alpha: opacity
       }))
       scrollContainer.add(this.add.text(50, yPos + 18, ach.desc, {
-        fontSize: '10px', color: '#dcdada', alpha: opacity
+        fontSize: '15px', color: '#dcdada', alpha: opacity
       }))
       yPos += 45
     })
@@ -146,7 +146,7 @@ export class StatsScene extends Phaser.Scene {
     container.add(bg)
  
     const labelText = this.add.text(w / 2, yPos + 15, label, {
-      fontSize: '11px', color: '#dcdada'
+      fontSize: '15px', color: '#dcdada'
     }).setOrigin(0.5)
     container.add(labelText)
  

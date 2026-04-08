@@ -26,7 +26,7 @@ export class TermsScene extends Phaser.Scene {
 
     // ✅ Create scrollable container
     const scrollContainer = this.add.container(0, 0)
-    let yPos = 100
+    let yPos = 50
 
     // Content sections
     const sections = [
@@ -63,7 +63,7 @@ export class TermsScene extends Phaser.Scene {
     yPos += 30
 
     scrollContainer.add(this.add.text(w / 2, yPos, 'By playing this game, you agree to these terms:', {
-      fontSize: '12px', color: '#ccc',
+      fontSize: '14px', color: '#ccc',
       wordWrap: { width: 400 },
       align: 'center'
     }).setOrigin(0.5))
@@ -73,13 +73,13 @@ export class TermsScene extends Phaser.Scene {
     sections.forEach(section => {
       // Title
       scrollContainer.add(this.add.text(40, yPos, section.title, {
-        fontSize: '14px', color: '#ffca28', fontStyle: 'bold'
+        fontSize: '15px', color: '#ffca28', fontStyle: 'bold'
       }))
       yPos += 25
 
       // Content
       scrollContainer.add(this.add.text(40, yPos, section.content, {
-        fontSize: '12px', color: '#ccc',
+        fontSize: '14px', color: '#ccc',
         wordWrap: { width: 400 }
       }))
       yPos += 80
