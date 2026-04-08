@@ -63,7 +63,7 @@ export class TermsScene extends Phaser.Scene {
     yPos += 30
 
     scrollContainer.add(this.add.text(w / 2, yPos, 'By playing this game, you agree to these terms:', {
-      fontSize: '14px', color: '#ccc',
+      fontSize: '15px', color: '#ccc',
       wordWrap: { width: 400 },
       align: 'center'
     }).setOrigin(0.5))
@@ -79,7 +79,7 @@ export class TermsScene extends Phaser.Scene {
 
       // Content
       scrollContainer.add(this.add.text(40, yPos, section.content, {
-        fontSize: '14px', color: '#ccc',
+        fontSize: '15px', color: '#ccc',
         wordWrap: { width: 400 }
       }))
       yPos += 80
@@ -87,7 +87,7 @@ export class TermsScene extends Phaser.Scene {
 
     // Footer
     scrollContainer.add(this.add.text(w / 2, yPos, `© ${new Date().getFullYear()} Sons of the Land. All rights reserved.`, {
-      fontSize: '14px', color: '#dcdada',
+      fontSize: '15px', color: '#dcdada',
       align: 'center'
     }).setOrigin(0.5))
     yPos += 40

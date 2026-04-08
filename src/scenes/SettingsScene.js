@@ -105,7 +105,7 @@ export class SettingsScene extends Phaser.Scene {
     // ✅ Advanced Settings
     yPos += 20
     this.add.text(40, yPos, 'Advanced Settings', {
-      fontSize: '14px', color: '#dcdada', fontStyle: 'italic'
+      fontSize: '15px', color: '#dcdada', fontStyle: 'italic'
     })
     yPos += 30
  
@@ -154,7 +154,7 @@ export class SettingsScene extends Phaser.Scene {
     // ✅ Legal Section
     yPos += 10
     this.add.text(40, yPos, 'Legal', {
-      fontSize: '14px', color: '#dcdada', fontStyle: 'italic'
+      fontSize: '15px', color: '#dcdada', fontStyle: 'italic'
     })
     yPos += 30
 
@@ -173,7 +173,7 @@ export class SettingsScene extends Phaser.Scene {
     // ✅ About Section
     yPos = h - 30
     this.add.text(w / 2, yPos, 'Sons of the Land: Ancient Wisdom v1.0', {
-      fontSize: '14px', color: '#dcdada'
+      fontSize: '15px', color: '#dcdada'
     }).setOrigin(0.5)
   }
 
@@ -202,7 +202,7 @@ export class SettingsScene extends Phaser.Scene {
     }).setOrigin(0.5)
 
     this.add.text(w / 2, boxY + 70, message, {
-      fontSize: '14px', color: '#fff',
+      fontSize: '15px', color: '#fff',
       wordWrap: { width: 250 },
       align: 'center'
     }).setOrigin(0.5)
@@ -248,7 +248,7 @@ export class SettingsScene extends Phaser.Scene {
     const enabled = this.getSetting(key, defaultVal)
  
     this.add.text(40, yPos, label, {
-      fontSize: '14px', color: '#fff'
+      fontSize: '15px', color: '#fff'
     })
  
     const toggleBg = this.add.graphics()
@@ -281,7 +281,7 @@ export class SettingsScene extends Phaser.Scene {
     const disabled = opts.disabled || false
  
     this.add.text(40, yPos, label, {
-      fontSize: '14px', color: '#fff'
+      fontSize: '15px', color: '#fff'
     })
     yPos += 30
  

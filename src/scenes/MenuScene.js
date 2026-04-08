@@ -27,7 +27,7 @@ export class MenuScene extends Phaser.Scene {
     // ✅ Display global score in header
     const globalScore = ProgressStore.getGlobalScore()
     this.add.text(w / 2, 232, `Test Your Knowledge • Score: ${globalScore}`, {
-      fontSize: '14px', color: '#69f0ae'
+      fontSize: '15px', color: '#69f0ae'
     }).setOrigin(0.5)
 
     // ✅ Show completion message if all civilizations done
@@ -37,13 +37,13 @@ export class MenuScene extends Phaser.Scene {
     
     if (completedCount === totalCivs && totalCivs > 0) {
       this.add.text(w / 2, 270, '🎉 Master of Ancient Wisdom! 🎉', {
-        fontSize: '14px', color: '#ffd700', fontStyle: 'bold'
+        fontSize: '15px', color: '#ffd700', fontStyle: 'bold'
       }).setOrigin(0.5)
     }
 
     // === Settings Button ===
     const settingsBtn = this.add.text(62, 20, '⚙️ Settings', {
-      fontSize: '14px',
+      fontSize: '15px',
       backgroundColor: '#37474f',
       color: '#fff',
       padding: { x: 10, y: 6 }
@@ -58,7 +58,7 @@ export class MenuScene extends Phaser.Scene {
 
     // === Stats Button ===
     const statsBtn = this.add.text(w - 50, 20, '📊 Stats', {
-      fontSize: '14px',
+      fontSize: '15px',
       backgroundColor: '#37474f',
       color: '#fff',
       padding: { x: 10, y: 6 }
@@ -76,7 +76,7 @@ export class MenuScene extends Phaser.Scene {
     line.lineBetween(60, 265, w - 60, 265)
 
     this.add.text(w / 2, 288, 'Choose Your Chapter', {
-      fontSize: '14px', color: '#dcdada',
+      fontSize: '15px', color: '#dcdada',
     }).setOrigin(0.5)
 
     // === SCROLL PANEL SETUP ===
@@ -181,7 +181,7 @@ export class MenuScene extends Phaser.Scene {
       // ✅ Display progress for incomplete civilizations
       const civProgress = ProgressStore.getLevel(civ.id)
       const progressText = this.add.text(x + 140, y, done ? '✅' : `Lvl ${civProgress}`, {
-        fontSize: '14px',
+        fontSize: '15px',
         color: done ? '#f9a825' : '#dcdada',
         backgroundColor: done ? '#1a1208' : undefined,
         padding: done ? { x: 4, y: 2 } : undefined
@@ -236,14 +236,14 @@ export class MenuScene extends Phaser.Scene {
 
     // Footer inside container
     const footer = this.add.text(w / 2, civs.length * itemHeight + 36, 'Test your knowledge of the ancient world', {
-      fontSize: '14px', color: '#555'
+      fontSize: '15px', color: '#555'
     }).setOrigin(0.5)
     menuContainer.add(footer)
 
     // === SCROLL ARROW INDICATOR ===
     // Bouncing down arrow to signal scrollability
     const arrowText = this.add.text(w / 2, panelBottom - 28, '▼  scroll  ▼', {
-      fontSize: '14px', color: '#f9a825', alpha: 0.8
+      fontSize: '15px', color: '#f9a825', alpha: 0.8
     }).setOrigin(0.5)
 
     this.tweens.add({

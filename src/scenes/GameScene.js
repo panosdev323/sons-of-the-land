@@ -115,21 +115,21 @@ export class GameScene extends Phaser.Scene {
         })
 
         this.add.text(w / 2, 16, `${this.civ.emoji} ${this.civ.name}`, {
-            fontSize: '14px', color: '#fff', fontStyle: 'bold'
+            fontSize: '15px', color: '#fff', fontStyle: 'bold'
         }).setOrigin(0.5, 0)
 
         // ✅ LEVEL DISPLAY
         this.add.text(w / 2, 32, `Level ${this.level}/${this.totalLevels}`, {
-            fontSize: '14px', color: '#aaa'
+            fontSize: '15px', color: '#aaa'
         }).setOrigin(0.5, 0)
 
         // ✅ Display global lives (with proper count)
         const livesStr = '❤️'.repeat(this.levelLives)
-        this.add.text(w - 16, 16, livesStr, { fontSize: '14px' }).setOrigin(1, 0)
+        this.add.text(w - 16, 16, livesStr, { fontSize: '15px' }).setOrigin(1, 0)
 
         // ✅ Display global score + level score
         this.add.text(w / 2, 44, `Global: ${this.globalScore} | Level: ${this.levelScore} 🔥 ${this.streak}`, {
-            fontSize: '14px', color: '#f9a825'
+            fontSize: '15px', color: '#f9a825'
         }).setOrigin(0.5, 0)
 
         // Progress bar
@@ -145,7 +145,7 @@ export class GameScene extends Phaser.Scene {
         scrollBg.fillRoundedRect(24, 80, w - 48, 320, 12)
 
         this.add.text(w / 2, 106, `— ${q.author}`, {
-            fontSize: '14px', color: '#bcaaa4', fontStyle: 'italic', wordWrap: { width: w - 80 }
+            fontSize: '15px', color: '#bcaaa4', fontStyle: 'italic', wordWrap: { width: w - 80 }
         }).setOrigin(0.5)
 
         this.add.text(w / 2, 200, `"${q.start}...`, {
@@ -156,7 +156,7 @@ export class GameScene extends Phaser.Scene {
         }).setOrigin(0.5)
 
         this.add.text(w / 2, 330, '👇 Complete the quote', {
-            fontSize: '14px', color: '#dcdada',
+            fontSize: '15px', color: '#dcdada',
         }).setOrigin(0.5)
 
         // === ANSWERS ===
@@ -175,7 +175,7 @@ export class GameScene extends Phaser.Scene {
             btnBg.fillRoundedRect(24, y - 34, w - 48, 68, 10)
 
             const btnText = this.add.text(w / 2, y, `"${ans.text}"`, {
-                fontSize: '14px',
+                fontSize: '15px',
                 color: '#fff',
                 wordWrap: { width: w - 90 },
                 align: 'center'
@@ -278,7 +278,7 @@ export class GameScene extends Phaser.Scene {
 
     showFeedback(msg, color) {
         this.add.text(240, 390, msg, {
-            fontSize: '14px',
+            fontSize: '15px',
             color,
             backgroundColor: '#00000099',
             padding: { x: 10, y: 6 }
@@ -364,7 +364,7 @@ export class GameScene extends Phaser.Scene {
         }).setOrigin(0.5)
 
         this.add.text(240, 330, `Score: ${this.globalScore}`, {
-            fontSize: '14px', color: '#69f0ae'
+            fontSize: '15px', color: '#69f0ae'
         }).setOrigin(0.5)
 
         const retryBtn = this.add.text(240, 400, 'Retry', {
