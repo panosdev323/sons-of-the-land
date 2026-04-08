@@ -297,8 +297,8 @@ export class MenuScene extends Phaser.Scene {
     this.input.on('pointermove', (pointer) => {
       if (!isDragging || !pointer.isDown) return
       const delta = pointer.y - dragStartPointerY
-      // Only drag if movement is more than 5px (prevents accidental drag on click)
-      if (Math.abs(delta) < 5) return
+      // Only drag if movement is more than 10px (prevents accidental drag on click)
+      if (Math.abs(delta) < 10) return
       
       isDragging = true
       let newOffset = dragStartContainerLocalY + delta
