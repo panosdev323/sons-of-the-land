@@ -177,7 +177,7 @@ export class GameScene extends Phaser.Scene {
 
             const btnBg = this.add.graphics()
             btnBg.fillStyle(0x1a1208, 0.95)
-            btnBg.fillRoundedRect(24, y - 34, w - 48, 68, 10)
+            btnBg.fillRoundedRect(24, y - 34, w - 48, 70, 10)
 
             const btnText = this.add.text(w / 2, y, `"${ans.text}"`, {
                 fontSize: '18px',
