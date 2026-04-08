@@ -2430,248 +2430,206 @@ export const CIVILIZATIONS = [
     ]
   },
   {
-    id: "israel",
-    name: "Ancient Israel & Judah (Evidence-Based)",
-    emoji: "✡️",
-    color: 0x00796b,
-    colorHex: "#00796b",
+    id: "ottoman",
+    name: "Ottoman Empire",
+    emoji: "🕌",
+    color: 0x1b5e20,
+    colorHex: "#1b5e20",
     bg: "#0a0a0a",
     authors: [
       {
-        name: "David (Archaeological vs. Biblical Tradition)",
+        name: "Osman I & Early Ottoman Expansion",
         emoji: "👑",
         quotes: [
-          { start: "The Tel Dan Stele, an 9th-century BCE Aramaic inscription, mentions 'House of David' and provides the only extrabiblical attestation of a Davidic dynasty, confirming that",
-          "correct": "there was a historical David, though his extent of power and the biblical narrative's portrayal differ significantly from archaeological evidence.",
-            "wrong": ["purely mythical figure.", "completely confirmed by archaeology.", "no historical person."] },
-          { start: "The biblical narrative presents David as conquering vast territories and establishing a great empire, but archaeological evidence from Iron Age I shows that",
-          "correct": "Jerusalem was a small hill-town settlement without evidence of the centralized kingdom or grand construction projects the Bible describes.",
-            "wrong": ["archaeology confirms territorial extent.", "Jerusalem was a great city.", "no real David."] },
-          { start: "The absence of archaeological evidence for David's palace, temples, and the extent of his kingdom in layers dated to the 10th century BCE suggests that",
-          "correct": "the biblical narrative significantly magnifies David's power and achievements, possibly reflecting later political interests in legitimizing the Judean dynasty.",
-            "wrong": ["archaeology proves biblical accuracy.", "missing evidence means nothing.", "no interpretation needed."] },
-          { start: "The composition of the David narratives in the biblical texts (1-2 Samuel, 1 Kings) likely occurred centuries after the historical David, as evidenced by linguistic analysis and textual criticism showing later editorial additions, indicating that",
-          "correct": "the biblical David is a literary figure shaped by later theological and political purposes, not a contemporary historical account.",
-            "wrong": ["written during David's lifetime.", "no editorial additions.", "pure historical record."] }
+          { start: "Osman I, the founder of the Ottoman Empire in the late 13th century, began as the leader of a small Turkish principality (beylik) in Anatolia that gradually expanded through military conquest and strategic marriages, demonstrating that",
+          "correct": "the Ottoman Empire emerged from modest beginnings as one of many Anatolian states competing for regional dominance.",
+            "wrong": ["instantly a great power.", "created by conquest alone.", "no strategic alliances."] },
+          { start: "The early Ottomans, led by Osman and his successors, systematized military organization and administrative structures that would distinguish them from other Anatolian principalities, allowing them to",
+          "correct": "develop institutional frameworks that enabled sustained expansion and centralized control.",
+            "wrong": ["remain disorganized.", "lack administration.", "follow tribal traditions."] },
+          { start: "The Ottomans' crossing into the Balkans in the 14th century marked a crucial expansion that transformed them from an Anatolian power into a European power, eventually leading to",
+          "correct": "the establishment of Ottoman dominance in southeastern Europe for centuries.",
+            "wrong": ["rapid collapse.", "limited influence.", "no European presence."] }
         ]
       },
       {
-        name: "Solomon (Absence of Archaeological Evidence)",
-        emoji: "👑",
+        name: "Mehmed II & the Conquest of Constantinople",
+        emoji: "⚔️",
         quotes: [
-          { start: "The biblical account of Solomon as builder of a magnificent temple, ruler of vast territories, and founder of Jerusalem's greatness has no archaeological corroboration whatsoever, despite extensive excavation in Jerusalem and the Levant, indicating that",
-          "correct": "the biblical narrative of Solomon's grandeur is likely a later theological and political idealization with minimal historical basis.",
-            "wrong": ["archaeology confirms the temple.", "evidence is conclusive.", "excavations found temples."] },
-          { start: "The complete absence of extrabiblical references to Solomon in Egyptian, Assyrian, or other contemporary sources contrasts sharply with documented references to Israelite and Judean kings in later centuries, suggesting that",
-          "correct": "Solomon either did not exist as described, was not a significant regional power, or is a conflation of multiple rulers.",
-            "wrong": ["silence means nothing.", "no sources exist.", "all sources are biblical."] },
-          { start: "The 'Solomonic period' (10th century BCE) in archaeological reconstructions shows evidence of settlement growth in the hill country of Judah, but this growth does not match the biblical narrative of centralized imperial organization, revealing that",
-          "correct": "the biblical narrative projects later political structures backward onto an earlier period.",
-            "wrong": ["growth confirms Solomon's empire.", "archaeology matches the Bible.", "imperial organization is evident."] },
-          { start: "Scholars who practice 'Solomonic minimalism' argue that Solomon may have been a minor local chief whose story was later magnified into an empire, supported by the total absence of corroborating evidence, demonstrating that",
-          "correct": "the historical Solomon, if he existed, bore little resemblance to the biblical figure.",
-            "wrong": ["biblical account is accurate.", "evidence is conclusive.", "minimalism is wrong."] }
+          { start: "The conquest of Constantinople in 1453 by Mehmed II represented a watershed moment in world history, ending over a thousand years of Byzantine rule and demonstrating that",
+          "correct": "the Ottoman Empire possessed superior military technology, organization, and resources compared to the declining Byzantine state.",
+            "wrong": ["equal military strength.", "no technological advantage.", "Byzantine victory."] },
+          { start: "Mehmed II's use of massive bombards and gunpowder artillery at Constantinople showed that",
+          "correct": "early Ottoman military innovations with firearms and siege weaponry were crucial to their conquests.",
+            "wrong": ["traditional methods only.", "no artillery used.", "bows and arrows."] },
+          { start: "The fall of Constantinople allowed the Ottomans to control the crucial strait connecting Europe and Asia and to establish their capital in Istanbul, which meant that",
+          "correct": "they secured a geopolitically strategic position controlling trade routes and military passage.",
+            "wrong": ["no strategic value.", "lost economic advantage.", "isolated position."] }
         ]
       },
       {
-        name: "The 'United Kingdom' (Scholarly Debate & Archaeological Reality)",
-        emoji: "⚖️",
+        name: "The Devshirme System & Janissaries",
+        emoji: "🎖️",
         quotes: [
-          { start: "The biblical narrative presents a 'United Kingdom of Israel' under Saul, David, and Solomon that controlled vast territories, but there is no archaeological evidence for a unified political entity during the 10th century BCE, leading scholars to",
-          "correct": "question whether a 'United Kingdom' existed at all or if this is a later literary construction.",
-            "wrong": ["archaeology confirms unity.", "biblical account is accurate.", "no scholarly debate."] },
-          { start: "The 'Low Chronology' school of archaeology, which dates Iron Age I settlements earlier, versus the 'High Chronology' school demonstrates fundamental disagreement about when the divided kingdoms emerged, showing that",
-          "correct": "the chronology of early Israel and Judah is uncertain and contested, making definitive historical claims difficult.",
-            "wrong": ["chronology is settled.", "dates are certain.", "no scholarly debate."] },
-          { start: "The archaeological record shows that northern Israel (centered at Samaria from the 9th century) and southern Judah (centered at Jerusalem) developed as separate political entities, with no evidence of political unification, indicating that",
-          "correct": "the two kingdoms were likely independent from their origins or separated early in their history.",
-            "wrong": ["united for centuries.", "archaeology confirms unity.", "separation was late."] },
-          { start: "The northern kingdom of Israel appears to have been more developed economically, militarily, and politically than Judah for much of their concurrent history, which contradicts the biblical narrative's emphasis on Judah and Jerusalem as central, revealing that",
-          "correct": "the Bible reflects later Judean theological interests rather than the actual historical balance of power.",
-            "wrong": ["Judah was always dominant.", "biblical account reflects reality.", "equal in power always."] }
+          { start: "The Ottoman devshirme system, which recruited boys from conquered Christian territories for training as elite soldiers (Janissaries) or administrators, was a sophisticated mechanism for",
+          "correct": "converting subject populations into loyal imperial servants while eliminating local aristocratic power bases.",
+            "wrong": ["purely enslaving populations.", "random conscription.", "no selection criteria."] },
+          { start: "The Janissaries, the elite military corps formed through devshirme, became the Ottoman Empire's most formidable fighting force and a key pillar of imperial power, though they also",
+          "correct": "eventually became a destabilizing force that could influence or overthrow sultans.",
+            "wrong": ["always loyal.", "no political power.", "permanently stable."] },
+          { start: "The devshirme system, though based on forced recruitment, created opportunities for social mobility among non-Muslim subjects who could rise to positions of high administrative and military rank, showing that",
+          "correct": "Ottoman social structures, though hierarchical and controlled, offered some pathways for advancement.",
+            "wrong": ["no mobility.", "purely hereditary.", "no advancement possible."] }
         ]
       },
       {
-        name: "The Conquest Narrative (Archaeological Refutation)",
-        emoji: "🔥",
-        quotes: [
-          { start: "The biblical Book of Joshua describes a rapid, unified conquest of Canaan by Israelite forces under Joshua, but archaeological evidence shows that",
-          "correct": "there is no evidence for a unified conquest event, and Canaanite cities show continuous habitation or gradual change rather than destruction by external conquest.",
-            "wrong": ["archaeology confirms the conquest.", "cities were destroyed.", "rapid conquest is proven."] },
-          { start: "The settlement pattern of Iron Age I (ca. 1200-1000 BCE) shows new villages appearing in the hill country inhabited by people who shared material culture with Canaanites, suggesting that",
-          "correct": "early Israelites were likely internal developments from within Canaanite populations rather than external invaders.",
-            "wrong": ["invaders from outside.", "conquest narrative is accurate.", "foreign invasion is proven."] },
-          { start: "The destruction layers that some scholars once attributed to Joshua's conquest have been reexamined and reattributed to other causes or different time periods, and the most famous site of Jericho shows no evidence of being a walled city during the supposed conquest period, demonstrating that",
-          "correct": "the archaeological evidence systematically contradicts the biblical conquest narrative.",
-            "wrong": ["archaeology confirms conquest.", "Jericho was walled.", "destruction is clear."] }
-        ]
-      },
-      {
-        name: "Divided Kingdom Evidence (Israel & Judah as Distinct Entities)",
-        emoji: "👑",
-        quotes: [
-          { start: "The northern kingdom of Israel is documented in Assyrian inscriptions, including the Tel Dan Stele mentioning 'King Ahab' and Shalmaneser III's annals describing conflicts with the 'House of Omri,' confirming that",
-          "correct": "extrabiblical sources provide independent verification of Israelite kingdoms separate from biblical narratives.",
-            "wrong": ["no extrabiblical sources.", "only biblical documentation.", "invented by scribes."] },
-          { start: "The fall of the northern kingdom of Israel to Assyria in 722 BCE is documented in both Assyrian inscriptions (describing deportations and resettlement) and biblical accounts, though with different details, showing that",
-          "correct": "major political events can be corroborated across sources while differing in interpretation and emphasis.",
-            "wrong": ["purely biblical narrative.", "no Assyrian records.", "identical accounts."] },
-          { start: "The kingdom of Judah, though smaller and less developed than Israel for much of its history, survived longer due to geographic isolation and the policies of great empires, as documented in Egyptian, Assyrian, and Babylonian sources that mention Judean rulers paying tribute or revolting, indicating that",
-          "correct": "Judah's survival reflected geopolitical circumstances rather than biblical narratives of divine protection.",
-            "wrong": ["protected by God.", "military strength alone.", "biblical accounts are accurate."] },
-          { start: "The Tel Dan Stele's mention of the 'House of David' in the context of Aramean conflicts with Israel (not Judah) suggests that the Davidic dynasty may have originated in the north or that the text reflects dynastic conflict, complicating the biblical narrative's presentation of David and his line, showing that",
-          "correct": "extrabiblical sources sometimes contradict biblical geographical and political claims.",
-            "wrong": ["confirms biblical account.", "no complications.", "straightforward evidence."] }
-        ]
-      },
-      {
-        name: "Textual Composition & Development (Historical-Critical Scholarship)",
-        emoji: "📖",
-        quotes: [
-          { start: "The Hebrew Bible (Tanakh) was not composed as a unified text but rather developed over centuries through multiple authors, editors, and compilations, as evidenced by linguistic analysis showing different dialects and styles, duplicate narratives (two creation accounts, two flood stories), and contradictory legal codes, indicating that",
-          "correct": "the Bible is a composite text reflecting the religious development of Israelite and Judean communities over many centuries.",
-            "wrong": ["single author.", "single period of composition.", "unified from the beginning."] },
-          { start: "The Documentary Hypothesis, while contested in details, demonstrates that the Torah shows evidence of multiple source materials combined by editors, including the Yahwist (J), Elohist (E), Deuteronomist (D), and Priestly (P) sources, suggesting that",
-          "correct": "biblical texts were deliberately edited and reinterpreted to serve changing theological purposes.",
-            "wrong": ["single source throughout.", "no editing.", "original composition is evident."] },
-          { start: "The books attributed to Moses (the Torah/Pentateuch) show linguistic features indicating composition in the 1st millennium BCE, centuries after the traditional dates assigned to Moses, and refer to situations and kingdoms that did not exist in the 2nd millennium, revealing that",
-          "correct": "Mosaic authorship is impossible on historical-critical grounds.",
-            "wrong": ["Moses wrote the Torah.", "anachronisms are intentional.", "no evidence of late composition."] },
-          { start: "The Deuteronomistic History (Joshua, Judges, 1-2 Samuel, 1-2 Kings) shows evidence of unified editorial perspective imposed on diverse earlier traditions, with the entire narrative interpreted through the lens of 'repentance and restoration,' indicating that",
-          "correct": "later editors shaped earlier traditions to communicate theological messages.",
-            "wrong": ["original composition is intact.", "no editorial unity.", "multiple independent accounts."] }
-        ]
-      },
-      {
-        name: "The Exile & Diaspora (Historical Events Shaping Religion)",
-        emoji: "🏛️",
-        quotes: [
-          { start: "The Babylonian destruction of Jerusalem in 586 BCE and the deportation of Judean elites is documented in Babylonian sources (the Babylonian Chronicle) and biblical accounts, confirming the major historical event though differing in details, showing that",
-          "correct": "catastrophic historical events shaped the religious and cultural development of the Judean people.",
-            "wrong": ["purely biblical narrative.", "no Babylonian documentation.", "minor historical event."] },
-          { start: "The exile experience fundamentally transformed Judean religion from temple-centered worship to a portable, textual religion based on Torah study and ethical observance, indicating that",
-          "correct": "traumatic historical disruption led to religious innovation and adaptation that would define later Judaism.",
-            "wrong": ["continuous tradition unchanged.", "no religious transformation.", "temple remained central."] },
-          { start: "The Dead Sea Scrolls, discovered in caves near Qumran and dated to the 2nd-1st centuries BCE, contain numerous biblical texts showing significant textual variations from the later 'Masoretic Text,' demonstrating that",
-          "correct": "biblical texts were not fixed but subject to copying variation and textual fluidity.",
-            "wrong": ["stable textual tradition.", "no variations.", "fixed from early period."] },
-          { start: "The Persian allowance for Jewish return and the rebuilding of a temple in Jerusalem, while limited in scope and under Persian oversight, is mentioned in biblical accounts and supported by Persian policies toward other deportees, indicating that",
-          "correct": "Judean restoration occurred within the context of Persian imperial policy, not as divine intervention.",
-            "wrong": ["purely biblical narrative.", "no Persian context.", "miraculous deliverance."] }
-        ]
-      },
-      {
-        name: "Religious Development & Monotheism (Gradual Process)",
-        emoji: "🕯️",
-        quotes: [
-          { start: "The development of exclusive monotheism in ancient Israel/Judah was gradual, occurring over centuries, as evidenced by biblical texts themselves which preserve earlier polytheistic beliefs, references to a divine council (Psalm 82), and the long struggle against 'idolatry' indicating that",
-          "correct": "monotheism was a late development achieved through centuries of religious evolution, not an original or universal belief.",
-            "wrong": ["always monotheistic.", "sudden change.", "unanimous acceptance."] },
-          { start: "The evidence that Yahweh was originally one god among many in the Canaanite pantheon is supported by comparative religions studies, extrabiblical texts mentioning Yahweh (the Mesha Stele refers to 'Yahweh of Israel'), and biblical texts that preserve older polytheistic traditions, revealing that",
-          "correct": "Israelite religion developed from polytheism to monotheism through religious change driven by political and theological factors.",
-            "wrong": ["always unique religion.", "monotheism was original.", "no polytheistic roots."] },
-          { start: "The prophetic literature of Israel and Judah, addressed to specific political situations and rulers, advocated for social justice, criticized religious hypocrisy, and reinterpreted tradition, showing that",
-          "correct": "prophets were primarily social critics and moral reformers responding to their own historical moments, not fortune-tellers predicting distant futures.",
-            "wrong": ["primarily predictive.", "no social criticism.", "no political engagement."] },
-          { start: "The promotion of exclusive Yahwism by reforming kings like Hezekiah and Josiah, documented in biblical accounts and reconstructed from archaeological evidence, served political purposes in centralizing power in Jerusalem and eliminating rival religious centers, demonstrating that",
-          "correct": "religious reform was politically motivated and served the interests of state power.",
-            "wrong": ["purely religious motivation.", "no political purpose.", "spontaneous development."] }
-        ]
-      },
-      {
-        name: "Archaeological Evidence & Settlement Patterns",
-        emoji: "🏺",
-        quotes: [
-          { start: "Archaeological surveys of the Levant show that Iron Age I settlement (ca. 1200-1000 BCE) consisted of small, dispersed villages in the hill country with subsistence economies based on agriculture and pastoralism, contradicting the biblical narrative of conquest and establishment of a centralized kingdom, revealing that",
-          "correct": "early Israelite settlements were consistent with indigenous Canaanite development rather than external conquest.",
-            "wrong": ["organized kingdom.", "urban centers.", "military conquest."] },
-          { start: "The development of urbanization and political centralization in Iron Age II (ca. 1000-586 BCE) is archaeologically evident in the growth of major sites and the appearance of organized states, but this development is too late and too limited to match the biblical narrative of Davidic empire, showing that",
-          "correct": "the chronology and scale of settlement development contradict the biblical account.",
-            "wrong": ["matches biblical account.", "synchronizes correctly.", "confirms narrative."] },
-          { start: "The absence of destruction layers in major Canaanite cities at the end of Late Bronze Age (when the conquest allegedly occurred) and the presence of destruction layers and abandonment in later centuries (attributed to other causes like the Sea Peoples, Aramean invasions, or internal collapse) demonstrates that",
-          "correct": "the archaeological record does not support a unified conquest narrative.",
-            "wrong": ["supports conquest narrative.", "Joshua's destruction is evident.", "clear destruction sequence."] },
-          { start: "The Tel Megiddo excavations, which have revealed multiple strata of Iron Age settlement and destruction, have not been successfully connected to specific biblical narratives, indicating that",
-          "correct": "archaeological sites do not provide clear evidence linking them to biblical accounts.",
-            "wrong": ["clear biblical correlations.", "specific identification.", "narrative confirmation."] }
-        ]
-      },
-      {
-        name: "The Exodus Narrative (Archaeological Absence)",
-        emoji: "🏜️",
-        quotes: [
-          { start: "The biblical Exodus narrative, one of the most significant events in the Bible, describes the departure of large numbers of Israelites from Egypt and their wandering in the desert, yet there is no archaeological evidence whatsoever in Egypt for this event, no Egyptian documentation, no evidence of epidemics or plagues, and no evidence of demographic disruption consistent with a mass exodus, indicating that",
-          "correct": "the Exodus narrative is a theological text constructed to explain Israel's origins and God's saving power, not a historical account of events.",
-            "wrong": ["archaeology confirms exodus.", "Egyptian records exist.", "evidence is conclusive."] },
-          { start: "The absence of any Egyptian records mentioning plagues, the destruction of Egyptian armies, or the departure of enslaved peoples (despite detailed Egyptian records of the period) suggests that",
-          "correct": "the Exodus narrative does not reflect actual historical events but rather reflects theological interpretation and cultural memory.",
-            "wrong": ["Egypt suppressed records.", "records are lost.", "absence proves nothing."] },
-          { start: "Some scholars propose that the Exodus narrative incorporates folk memory of actual Egyptian-Levantine contacts or the movements of Asiatic peoples in and out of Egypt, but transformed into a theological account of divine liberation, indicating that",
-          "correct": "the narrative may contain kernels of historical experience magnified and reinterpreted through theological lenses.",
-            "wrong": ["purely invented.", "no historical basis.", "literal accuracy."] }
-        ]
-      },
-      {
-        name: "Kings & Historical Documentation",
-        emoji: "👑",
-        quotes: [
-          { start: "The biblical accounts of Israelite and Judean kings are increasingly corroborated by extrabiblical sources for the later Iron Age (9th-6th centuries BCE), with Assyrian and Babylonian sources documenting interactions with Israelite and Judean rulers, indicating that",
-          "correct": "later biblical accounts are more reliable than earlier ones because they deal with periods closer to when they were written.",
-            "wrong": ["all equally reliable.", "early accounts most accurate.", "no pattern in reliability."] },
-          { start: "Kings like Ahab, Hezekiah, and Josiah are mentioned in extrabiblical sources (Shalmaneser III's annals mention Ahab; Sennacherib's prism mentions Hezekiah), but the biblical accounts present idealized or theological interpretations of these rulers, revealing that",
-          "correct": "the biblical accounts reflect theological interests and political idealization rather than objective historical reporting.",
-            "wrong": ["historically accurate.", "purely factual.", "contemporary documentation."] },
-          { start: "The Judean king Hezekiah's resistance to Assyrian siege is documented in both Assyrian sources (Sennacherib's prism recording tribute and vassalage) and biblical accounts, but the biblical narrative presents it as a miraculous divine deliverance while Assyrian sources record Judean submission and payment, showing that",
-          "correct": "the same event is interpreted completely differently depending on the perspective and purposes of the narrator.",
-            "wrong": ["unified account.", "single narrative.", "no interpretation."] }
-        ]
-      },
-      {
-        name: "Social Structure & Economic Organization",
-        emoji: "🏛️",
-        quotes: [
-          { start: "The social structure of Iron Age Israel and Judah, reconstructed from archaeological evidence and biblical law codes, included a royal court, scribal bureaucracy, priesthood, merchant class, craftspeople, peasants (the majority), and enslaved persons, showing that",
-          "correct": "these were hierarchical societies with concentrated wealth and power at the top.",
-            "wrong": ["purely egalitarian.", "no stratification.", "no slavery."] },
-          { start: "The biblical laws regulating slavery (Exodus 21, Leviticus 25, Deuteronomy 15) show that slavery was an accepted institution with specific legal frameworks, though the laws distinguish between Hebrew and foreign slaves in some cases, indicating that",
-          "correct": "slavery was economically important and legally regulated in Israelite and Judean societies.",
-            "wrong": ["no slavery existed.", "purely foreign slaves.", "morally condemned."] },
-          { start: "Women in ancient Israel and Judah had fewer legal rights than men, including limited inheritance rights, limited divorce rights, and no independent property ownership in many cases, as reflected in biblical law codes and narratives, revealing that",
-          "correct": "these were patriarchal societies with legal and social systems favoring male authority.",
-            "wrong": ["legal equality.", "property ownership.", "equal status."] },
-          { start: "The peasant majority of ancient Israel and Judah bore heavy tax and labor burdens supporting the court, military, and priesthood, as evidenced by biblical complaints about taxation and corvée labor, indicating that",
-          "correct": "agricultural surpluses extracted from the peasantry funded the state and its institutions.",
-            "wrong": ["light taxation.", "voluntary labor.", "equally distributed."] }
-        ]
-      },
-      {
-        name: "Later Judaism & Textual Tradition",
+        name: "Ottoman Administrative Organization",
         emoji: "📜",
         quotes: [
-          { start: "The Torah, once written, became the central text of Judaism, and Rabbinic Judaism developed through centuries of interpretation and reinterpretation of biblical texts to address new situations, showing that",
-          "correct": "Judaism developed through continuous engagement with textual tradition and adaptation to new contexts.",
-            "wrong": ["fixed tradition.", "no reinterpretation.", "no development."] },
-          { start: "The difference between the Hebrew Bible (Tanakh), the Septuagint (Greek translation), and the Dead Sea Scroll texts demonstrates that the biblical canon was not fixed and that different communities had different textual traditions, indicating that",
-          "correct": "textual authority and canonicity developed over time and varied by community.",
-            "wrong": ["unified canon always.", "single textual tradition.", "fixed from the beginning."] },
-          { start: "The Masoretic Text (the standard Hebrew Bible) was standardized relatively late (medieval period) based on copying traditions that developed over centuries, and the discovery of Dead Sea Scrolls showing earlier textual variations demonstrates that",
-          "correct": "the text of the Bible has a history of change and standardization.",
-            "wrong": ["perfectly preserved.", "unchanging tradition.", "fixed from antiquity."] }
+          { start: "The Ottoman administrative system was based on a hierarchical bureaucracy headed by the Sultan, with central government institutions mirroring and controlling provincial administration, demonstrating that",
+          "correct": "the Ottomans created one of the most sophisticated centralized states of the early modern world.",
+            "wrong": ["purely decentralized.", "weak central authority.", "no bureaucratic structure."] },
+          { start: "The Ottoman millet system, which granted religious minorities (Christians, Jews, Armenians) legal autonomy in personal and religious matters while maintaining overall Ottoman control, was a pragmatic approach to governing a religiously diverse empire that",
+          "correct": "allowed the Ottomans to rule diverse populations without converting them or directly administering all aspects of their lives.",
+            "wrong": ["enforced conversion.", "no religious tolerance.", "persecuted minorities."] },
+          { start: "Ottoman governors (pashas) were appointed by the central government and could be removed and reassigned, unlike the hereditary nobility of many European states, which meant that",
+          "correct": "the Ottoman Empire could maintain tighter central control and prevent the rise of independent regional power bases.",
+            "wrong": ["decentralized authority.", "hereditary positions.", "weak control."] }
         ]
       },
       {
-        name: "Scholarly Assessment & Historiography",
-        emoji: "📜",
+        name: "Military Innovations & The Sipahi",
+        emoji: "🏇",
         quotes: [
-          { start: "The modern historical study of ancient Israel and Judah uses multiple methodologies—archaeology, comparative ancient Near Eastern studies, textual criticism, linguistic analysis, and comparative religion—to reconstruct history based on the principle that extraordinary claims require extraordinary evidence, showing that",
-          "correct": "the Bible, like all ancient texts, must be studied critically and its claims tested against available evidence.",
-            "wrong": ["Bible is uniquely reliable.", "faith-based acceptance.", "no critical analysis."] },
-          { start: "The consensus among modern scholars practicing historical-critical methodology is that many biblical narratives—the exodus, the conquest, the united kingdom, Solomon's empire—lack archaeological corroboration and likely reflect later theological interpretation rather than historical fact, indicating that",
-          "correct": "the historical Israel and Judah were different from the biblical accounts in significant ways.",
-            "wrong": ["scholars agree on biblical accuracy.", "archaeology confirms biblical account.", "no scholarly consensus."] },
-          { start: "The distinction between history (what actually happened) and narrative (how people remember and interpret what happened) is essential for understanding the Bible, which is primarily a theological narrative preserving cultural memory transformed through interpretation, showing that",
-          "correct": "the Bible is valuable as a source for understanding Judean religious development and cultural identity, while its historical accuracy must be verified through other means.",
-            "wrong": ["purely historical document.", "no theological agenda.", "objective reporting."] }
+          { start: "The Ottoman military system, featuring both the elite Janissaries and the sipahi cavalry supported by a land-grant (timar) system, created a standing army and cavalry force capable of sustained imperial expansion, showing that",
+          "correct": "Ottoman military organization combined standing professional forces with land-based incentive structures.",
+            "wrong": ["purely mercenary.", "no cavalry force.", "tribal warriors only."] },
+          { start: "The Ottoman adoption of firearms and gunpowder artillery earlier and more systematically than many European powers gave them a crucial military advantage during the 15th and 16th centuries, allowing them to",
+          "correct": "dominate regional conflicts and establish dominance over both European and Asian neighbors.",
+            "wrong": ["delayed adoption.", "no advantage.", "inferior technology."] },
+          { start: "The transformation of the Ottoman military from mounted archer-based to firearms-based combat reflected strategic adaptation to changing military technologies, which demonstrates that",
+          "correct": "the Ottomans were responsive to military innovation and willing to reorganize their forces accordingly.",
+            "wrong": ["resistant to change.", "purely traditional.", "no adaptation."] }
+        ]
+      },
+      {
+        name: "Suleiman the Magnificent & Imperial Zenith",
+        emoji: "👑",
+        quotes: [
+          { start: "Suleiman I (r. 1520-1566), known as 'the Magnificent' in the West and 'the Lawgiver' in Turkish tradition, expanded Ottoman territorial control to its greatest extent and established legal codes that defined imperial governance, demonstrating that",
+          "correct": "Suleiman's reign represented the height of Ottoman military power and organizational achievement.",
+            "wrong": ["period of decline.", "weak leadership.", "no legal reforms."] },
+          { start: "During Suleiman's reign, the Ottoman Empire controlled vast territories spanning three continents—from Hungary to Yemen and from North Africa to Iraq—making it one of the largest and most powerful states of the 16th century, showing that",
+          "correct": "Ottoman imperial expansion created a multi-continental empire rivaling European powers in scope and resources.",
+            "wrong": ["limited to Anatolia.", "smaller than Europe.", "weak state."] },
+          { start: "Suleiman's legal reforms, including the kanun (Ottoman law code) system that standardized administrative and legal procedures, represented a commitment to rational governance and predictable administration, which meant that",
+          "correct": "Ottoman governance combined imperial authority with systematic legal frameworks.",
+            "wrong": ["arbitrary rule.", "no legal code.", "purely authoritarian."] }
+        ]
+      },
+      {
+        name: "Ottoman Naval Power & Mediterranean Dominance",
+        emoji: "⛵",
+        quotes: [
+          { start: "The Ottoman development of a powerful navy under admirals like Barbarossa transformed them into a Mediterranean naval power capable of controlling sea trade and projecting military power across vast distances, allowing them to",
+          "correct": "challenge Christian European naval powers and secure Ottoman commercial interests.",
+            "wrong": ["purely land power.", "weak navy.", "no naval expansion."] },
+          { start: "The Battle of Lepanto in 1571, while tactically a Christian naval victory, did not significantly alter Ottoman naval dominance because the Ottomans quickly rebuilt their fleet, demonstrating that",
+          "correct": "Ottoman naval power was based on sustained resources and shipbuilding capacity rather than single battles.",
+            "wrong": ["permanent defeat.", "lost naval power.", "European dominance."] },
+          { start: "Ottoman control of Mediterranean trade routes and ports gave them significant economic advantages and allowed them to tax and monitor commercial activity, contributing to",
+          "correct": "Ottoman wealth and the revenue that sustained their military and administrative apparatus.",
+            "wrong": ["no economic benefit.", "lost trade.", "no revenue source."] }
+        ]
+      },
+      {
+        name: "Ottoman Culture & Architecture",
+        emoji: "🏛️",
+        quotes: [
+          { start: "Ottoman architectural achievements, including the Topkapi Palace, the Blue Mosque, and the Sultan Ahmed Mosque, reflected a synthesis of Islamic, Byzantine, and Persian architectural traditions adapted to Ottoman purposes, demonstrating that",
+          "correct": "Ottoman culture was a creative blend of influences rather than a simple imitation of predecessors.",
+            "wrong": ["purely Islamic.", "no innovation.", "purely Byzantine."] },
+          { start: "Ottoman literature, poetry, and calligraphy flourished under imperial patronage, with poets and scholars supported by the sultan's court, showing that",
+          "correct": "Ottoman elites invested in cultural and intellectual pursuits alongside military expansion.",
+            "wrong": ["purely martial culture.", "no intellectual life.", "no patronage."] },
+          { start: "The development of Ottoman Turkish language and literature created a cultural identity distinct from both Arab and Persian traditions, which helped to",
+          "correct": "forge a sense of Ottoman identity that transcended ethnic and religious boundaries.",
+            "wrong": ["purely Arabic.", "no unique culture.", "Persian dominance."] }
+        ]
+      },
+      {
+        name: "Economic Organization & Trade",
+        emoji: "💰",
+        quotes: [
+          { start: "The Ottoman Empire controlled crucial trade routes connecting Europe, Asia, and Africa, including the overland Silk Road routes and Mediterranean sea routes, which gave them",
+          "correct": "significant economic power through taxation and control of goods flowing between regions.",
+            "wrong": ["no trade benefit.", "isolated economy.", "no commercial power."] },
+          { start: "Ottoman state monopolies on certain goods (like salt) and control over trade through merchants' guilds and regulations reflected",
+          "correct": "systematic economic organization designed to maximize state revenue and prevent economic competition.",
+            "wrong": ["free market economics.", "no state control.", "purely private trade."] },
+          { start: "The Ottoman economy, though initially strong, began to face challenges in the 16th and 17th centuries as European colonial expansion diverted trade away from Ottoman-controlled routes, showing that",
+          "correct": "external economic changes could undermine even well-organized imperial systems.",
+            "wrong": ["permanent prosperity.", "no external threats.", "unchanging advantage."] }
+        ]
+      },
+      {
+        name: "Ottoman Decline & Internal Challenges",
+        emoji: "📉",
+        quotes: [
+          { start: "The Ottoman Empire's military power declined relative to European states in the 17th and 18th centuries due to factors including military innovations in Europe, persistent wars on multiple fronts, and internal fiscal problems, demonstrating that",
+          "correct": "empires can decline when they fail to adapt to changing military technologies and bear unsustainable military costs.",
+            "wrong": ["eternal empire.", "no decline.", "always superior."] },
+          { start: "The Janissaries, originally the Ottoman Empire's most formidable military force, became increasingly a conservative force opposed to military reforms, eventually leading to",
+          "correct": "military stagnation that disadvantaged the Ottomans relative to reforming European powers.",
+            "wrong": ["always progressive.", "constantly reforming.", "no internal conflict."] },
+          { start: "Ottoman governance in the later centuries was sometimes destabilized by rapid succession of sultans, court intrigues, and competition between imperial officials, which",
+          "correct": "weakened the centralized control that had characterized earlier Ottoman administration.",
+            "wrong": ["stable succession.", "no court politics.", "strong authority."] }
+        ]
+      },
+      {
+        name: "Relations with Christian Europe",
+        emoji: "⛪",
+        quotes: [
+          { start: "Ottoman-European relations in the early modern period were characterized by military competition, with the Ottomans frequently victorious in the 15th and 16th centuries, though by the 17th and 18th centuries European powers increasingly gained the upper hand, showing that",
+          "correct": "the balance of power between Ottoman and European states shifted over centuries.",
+            "wrong": ["always Ottoman victory.", "always European superiority.", "no military conflict."] },
+          { start: "The Ottoman threat to European security, particularly the sieges of Vienna in 1529 and 1683, galvanized European coalitions against Ottoman expansion and influenced European political alliances, demonstrating that",
+          "correct": "Ottoman military power shaped European geopolitical strategies and alliances.",
+            "wrong": ["no European concern.", "ignored Ottoman threat.", "no European response."] },
+          { start: "Ottoman-European diplomatic and cultural exchanges, including Ottoman embassies in European capitals and European merchants in Ottoman ports, show that",
+          "correct": "despite military competition, the Ottoman Empire engaged in regular diplomatic and commercial relations with Christian European states.",
+            "wrong": ["purely hostile.", "no diplomacy.", "no commerce."] }
+        ]
+      },
+      {
+        name: "Religious Governance & the Sultanate",
+        emoji: "🕌",
+        quotes: [
+          { start: "The Ottoman sultan held both political and religious authority, claiming to be the protector of Islam and the guardian of the holy cities of Mecca and Medina after their conquest in 1517, which meant that",
+          "correct": "Ottoman legitimacy rested partly on Islamic religious authority alongside political power.",
+            "wrong": ["purely secular.", "no religious authority.", "rejected Islam."] },
+          { start: "The Ottoman chief mufti (Shaykh al-Islam) issued legal opinions (fatwas) that interpreted Islamic law for the empire, showing that",
+          "correct": "Ottoman religious governance involved institutional structures interpreting and applying Islamic law.",
+            "wrong": ["no religious structure.", "arbitrary religious rule.", "no Islamic law."] },
+          { start: "Ottoman treatment of non-Muslim subjects through the millet system, while maintaining Islamic state authority and Muslim privilege, was pragmatic rather than egalitarian, meaning that",
+          "correct": "Ottoman governance prioritized control and revenue over religious uniformity.",
+            "wrong": ["purely equal.", "no religious hierarchy.", "purely secular."] }
+        ]
+      },
+      {
+        name: "The Long Decline & Modern Reform",
+        emoji: "🔄",
+        quotes: [
+          { start: "The Ottoman Empire's territorial losses accelerated in the 19th century as European powers expanded in North Africa and the Balkans, and as Ottoman provinces gained independence, demonstrating that",
+          "correct": "empires can lose control over peripheries when they lack military and economic resources to maintain them.",
+            "wrong": ["eternal territory.", "no loss of control.", "always dominant."] },
+          { start: "Ottoman reform movements in the 19th century, including the Tanzimat reforms attempting to modernize administration and military, reflected an effort to adapt Ottoman institutions to survive changing circumstances, showing that",
+          "correct": "the Ottoman leadership recognized the need for institutional reform to remain competitive.",
+            "wrong": ["refused reform.", "no modernization.", "purely traditional."] },
+          { start: "The collapse of the Ottoman Empire at the end of World War I, after centuries of territorial loss and military defeats, marked the end of one of world history's longest-lasting imperial states, demonstrating that",
+          "correct": "even empires that adapt and endure for centuries eventually decline when unable to respond to fundamental shifts in global power.",
+            "wrong": ["eternal empire.", "no collapse.", "still exists."] }
         ]
       }
     ]
