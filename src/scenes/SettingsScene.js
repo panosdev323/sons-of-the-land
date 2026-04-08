@@ -20,7 +20,7 @@ export class SettingsScene extends Phaser.Scene {
       fontSize: '24px', color: '#f9a825', fontStyle: 'bold'
     }).setOrigin(0.5)
  
-    const backBtn = this.add.text(20, 40, '← Back', {
+    const backBtn = this.add.text(5, 16, '← Back', {
       fontSize: '16px', color: '#ffffff', backgroundColor: 'rgba(255,255,255,0.1)', padding: { x: 18, y: 10 }
     }).setInteractive()
     backBtn.on('pointerdown', () => {

@@ -236,7 +236,7 @@ export class MenuScene extends Phaser.Scene {
 
     // Footer inside container
     const footer = this.add.text(w / 2, civs.length * itemHeight + 36, 'Test your knowledge of the ancient world', {
-      fontSize: '16px', color: '#555'
+      fontSize: '16px', color: '#d7d7d7'
     }).setOrigin(0.5)
     menuContainer.add(footer)
 
