@@ -17,7 +17,7 @@ export class TermsScene extends Phaser.Scene {
     }).setOrigin(0.5)
 
     const backBtn = this.add.text(5, 8, '← Back', {
-      fontSize: '18px', color: '#ffffff', backgroundColor: 'rgba(255,255,255,0.1)', padding: { x: 18, y: 16 }
+      fontSize: '18px', color: '#ffffff', backgroundColor: 'rgba(255,255,255,0.1)', padding: { x: 14, y: 16 }
     }).setInteractive()
     backBtn.on('pointerdown', () => {
       this.sound.play('tap')
