@@ -26,6 +26,12 @@ const config = {
   width: 480,
   height: 854,
   backgroundColor: '#1a1208',
+  resolution: Math.min(window.devicePixelRatio, 2),
+  render: {
+    antialias: true,
+    roundPixels: true,
+    pixelArt: false
+  },
   scene: [BootScene, MenuScene, AuthorScene, GameScene, TutorialScene, SettingsScene, StatsScene, PauseScene, TermsScene],
   scale: {
     mode: Phaser.Scale.FIT,
