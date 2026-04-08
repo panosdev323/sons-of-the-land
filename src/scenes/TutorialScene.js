@@ -115,7 +115,7 @@ export class TutorialScene extends Phaser.Scene {
       })
  
       // Skip button (always available)
-      const skipBtn = this.add.text(w / 2, btnY + 100, 'Skip Tutorial', {
+      const skipBtn = this.add.text(w / 2, btnY + 120, 'Skip Tutorial', {
         fontSize: '16px', color: '#ffffff', backgroundColor: 'rgba(255,255,255,0.1)', padding: { x: 10, y: 10 }
       }).setOrigin(0.5).setInteractive()
       skipBtn.on('pointerdown', () => {

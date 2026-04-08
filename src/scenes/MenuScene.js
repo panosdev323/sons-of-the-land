@@ -42,11 +42,11 @@ export class MenuScene extends Phaser.Scene {
     }
 
     // === Settings Button ===
-    const settingsBtn = this.add.text(62, 20, '⚙️ Settings', {
+    const settingsBtn = this.add.text(62, 25, '⚙️ Settings', {
       fontSize: '16px',
       backgroundColor: '#37474f',
       color: '#fff',
-      padding: { x: 10, y: 6 }
+      padding: { x: 18, y: 10 },
     }).setOrigin(0.5).setInteractive()
 
     settingsBtn.on('pointerover', () => settingsBtn.setScale(1.05))
@@ -57,11 +57,11 @@ export class MenuScene extends Phaser.Scene {
     })
 
     // === Stats Button ===
-    const statsBtn = this.add.text(w - 50, 20, '📊 Stats', {
+    const statsBtn = this.add.text(w - 50, 25, '📊 Stats', {
       fontSize: '16px',
       backgroundColor: '#37474f',
       color: '#fff',
-      padding: { x: 10, y: 6 }
+      padding: { x: 18, y: 10 },
     }).setOrigin(0.5).setInteractive()
 
     statsBtn.on('pointerover', () => statsBtn.setScale(1.05))
