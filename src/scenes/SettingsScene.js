@@ -20,8 +20,8 @@ export class SettingsScene extends Phaser.Scene {
       fontSize: '24px', color: '#f9a825', fontStyle: 'bold'
     }).setOrigin(0.5)
  
-    const backBtn = this.add.text(5, 16, '← Back', {
-      fontSize: '16px', color: '#ffffff', backgroundColor: 'rgba(255,255,255,0.1)', padding: { x: 18, y: 10 }
+    const backBtn = this.add.text(5, 8, '← Back', {
+      fontSize: '16px', color: '#ffffff', backgroundColor: 'rgba(255,255,255,0.1)', padding: { x: 18, y: 14 }
     }).setInteractive()
     backBtn.on('pointerdown', () => {
       this.sound.play('tap')
@@ -211,7 +211,7 @@ export class SettingsScene extends Phaser.Scene {
       fontSize: '14px',
       color: '#fff',
       backgroundColor: '#37474f',
-      padding: { x: 15, y: 8 }
+      padding: { x: 15, y: 12 }
     }).setOrigin(0, 0).setInteractive()
 
     cancelBtn.on('pointerdown', () => {
@@ -226,7 +226,7 @@ export class SettingsScene extends Phaser.Scene {
       fontSize: '14px',
       color: '#fff',
       backgroundColor: '#7f0000',
-      padding: { x: 15, y: 8 }
+      padding: { x: 15, y: 12 }
     }).setOrigin(1, 0).setInteractive()
 
     confirmBtn.on('pointerdown', () => {

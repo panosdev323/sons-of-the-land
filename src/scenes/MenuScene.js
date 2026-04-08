@@ -46,7 +46,7 @@ export class MenuScene extends Phaser.Scene {
       fontSize: '16px',
       backgroundColor: '#37474f',
       color: '#fff',
-      padding: { x: 18, y: 10 },
+      padding: { x: 18, y: 14 },
     }).setOrigin(0.5).setInteractive()
 
     settingsBtn.on('pointerover', () => settingsBtn.setScale(1.05))
@@ -61,7 +61,7 @@ export class MenuScene extends Phaser.Scene {
       fontSize: '16px',
       backgroundColor: '#37474f',
       color: '#fff',
-      padding: { x: 18, y: 10 },
+      padding: { x: 18, y: 14 },
     }).setOrigin(0.5).setInteractive()
 
     statsBtn.on('pointerover', () => statsBtn.setScale(1.05))

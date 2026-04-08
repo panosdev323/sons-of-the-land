@@ -91,8 +91,8 @@ export class GameScene extends Phaser.Scene {
         topBg.fillStyle(0x000000, 0.75)
         topBg.fillRect(0, 0, w, 75)
 
-        const backBtn = this.add.text(5, 16, '← Menu', {
-            fontSize: '16px', color: '#ffffff', backgroundColor: 'rgba(255,255,255,0.1)', padding: { x: 18, y: 10 }
+        const backBtn = this.add.text(5, 8, '← Menu', {
+            fontSize: '16px', color: '#ffffff', backgroundColor: 'rgba(255,255,255,0.1)', padding: { x: 18, y: 14 }
         }).setInteractive()
 
         backBtn.on('pointerdown', () => {
@@ -309,7 +309,7 @@ export class GameScene extends Phaser.Scene {
         const nextBtn = this.add.text(240, 400, 'Next Level ▶', {
             fontSize: '18px',
             backgroundColor: '#1b5e20',
-            padding: { x: 20, y: 10 }
+            padding: { x: 20, y: 14 }
         }).setOrigin(0.5).setInteractive()
 
         nextBtn.on('pointerdown', () => {
@@ -341,7 +341,7 @@ export class GameScene extends Phaser.Scene {
         const menuBtn = this.add.text(240, 400, 'Back to Menu', {
             fontSize: '18px',
             backgroundColor: '#37474f',
-            padding: { x: 20, y: 10 }
+            padding: { x: 20, y: 14 }
         }).setOrigin(0.5).setInteractive()
 
         menuBtn.on('pointerdown', () => {
@@ -370,7 +370,7 @@ export class GameScene extends Phaser.Scene {
         const retryBtn = this.add.text(240, 400, 'Retry', {
             fontSize: '18px',
             backgroundColor: '#7f0000',
-            padding: { x: 20, y: 10 }
+            padding: { x: 20, y: 14 }
         }).setOrigin(0.5).setInteractive()
 
         retryBtn.on('pointerdown', () => {
