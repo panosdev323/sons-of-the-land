@@ -1,22 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Base application theme (AppCompat) -->
+    <!-- Base application theme -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="android:colorBackground">@color/ic_launcher_background</item>
         <item name="android:windowLightStatusBar">false</item>
     </style>
 
-    <!-- No action bar variant -->
     <style name="AppTheme.NoActionBar" parent="AppTheme">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
-        <item name="windowFullscreen">false</item>
     </style>
 
-    <!-- Launch/Splash screen style -->
+    <!-- Launch/Splash screen theme -->
     <style name="AppTheme.NoActionBarLaunch" parent="AppTheme.NoActionBar">
-        <item name="windowFullscreen">true</item>
-        <item name="windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
         <item name="android:windowBackground">@color/ic_launcher_background</item>
     </style>
 </resources>

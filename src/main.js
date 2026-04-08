@@ -22,6 +22,7 @@ MobileOptimization.applySafeAreaCSS()
 
 const config = {
   type: Phaser.AUTO,
+  parent: 'app',
   width: 480,
   height: 854,
   backgroundColor: '#1a1208',
@@ -32,7 +33,7 @@ const config = {
     // ✅ Add mobile-specific scale settings
     orientation: Phaser.Scale.Orientation.PORTRAIT,
     expandParent: true,
-    fullscreenTarget: 'game'
+    fullscreenTarget: '#app'
   },
   audio: {
     disableWebAudio: false,
