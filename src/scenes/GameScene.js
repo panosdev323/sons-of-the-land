@@ -153,14 +153,14 @@ export class GameScene extends Phaser.Scene {
             wordWrap: { width: w - 80 }
         }).setOrigin(0.5, 0)
 
-        this.add.text(w / 2, 250, `"${q.start}...`, {
+        this.add.text(w / 2, 260, `"${q.start}...`, {
             fontSize: '18px',
             color: '#fff2cc',
             wordWrap: { width: w - 80 },
             align: 'center'
         }).setOrigin(0.5)
 
-        this.add.text(w / 2, 330, '👇 Complete the quote', {
+        this.add.text(w / 2, 370, '👇 Complete the quote', {
             fontSize: '18px', color: '#dcdada',
         }).setOrigin(0.5)
 
