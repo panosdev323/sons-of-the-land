@@ -21,7 +21,7 @@ export class SettingsScene extends Phaser.Scene {
     }).setOrigin(0.5)
  
     const backBtn = this.add.text(20, 40, '← Back', {
-      fontSize: '16px', color: '#ffffff'
+      fontSize: '16px', color: '#ffffff', backgroundColor: 'rgba(255,255,255,0.1)', padding: { x: 10, y: 10 }
     }).setInteractive()
     backBtn.on('pointerdown', () => {
       this.sound.play('tap')
@@ -171,7 +171,7 @@ export class SettingsScene extends Phaser.Scene {
     )
  
     // ✅ About Section
-    yPos = h - 30
+    yPos += 20
     this.add.text(w / 2, yPos, 'Sons of the Land: Ancient Wisdom v1.0', {
       fontSize: '16px', color: '#dcdada'
     }).setOrigin(0.5)
