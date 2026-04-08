@@ -43,8 +43,8 @@ export class SettingsScene extends Phaser.Scene {
       'soundEnabled',
       yPos,
       (enabled) => {
-        const allSounds = this.sound.sounds
-        allSounds.forEach(sound => {
+        this.sound.volume = enabled ? 1 : 0
+        this.sound.sounds.forEach(sound => {
           if (sound.key !== 'bgMusic') {
             sound.mute = !enabled
           }

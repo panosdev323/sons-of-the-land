@@ -28,7 +28,7 @@ const config = {
   backgroundColor: '#1a1208',
   scene: [BootScene, MenuScene, AuthorScene, GameScene, TutorialScene, SettingsScene, StatsScene, PauseScene, TermsScene],
   scale: {
-    mode: Phaser.Scale.ENVELOP,
+    mode: Phaser.Scale.FIT,
     autoCenter: Phaser.Scale.CENTER_BOTH,
     // ✅ Add mobile-specific scale settings
     orientation: Phaser.Scale.Orientation.PORTRAIT,
@@ -50,6 +50,7 @@ const config = {
 }
 
 const game = new Phaser.Game(config)
+setTimeout(() => game.scale.refresh(), 150);
 
 // ✅ Handle orientation changes
 window.addEventListener('orientationchange', () => {

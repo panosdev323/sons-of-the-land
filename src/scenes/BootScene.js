@@ -13,7 +13,7 @@ export class BootScene extends Phaser.Scene {
     // Check if already playing (prevent multiple instances)
     if (!this.sound.get('bgMusic')) {
       const bgMusic = this.sound.add('bgMusic', {
-        volume: 0.3,  // Set volume (0-1, adjust to taste)
+        volume: 0.6,  // Set volume (0-1, adjust to taste)
         loop: true,   // Loop forever
         delay: 0      // Start immediately
       })
