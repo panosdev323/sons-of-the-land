@@ -201,7 +201,6 @@ export class MenuScene extends Phaser.Scene {
           nameText.setScale(1)
         })
         zone.on('pointerdown', () => {
-          if (hasDragged) return;
           this.sound.play('tap')
           this.tweens.add({
             targets: [nameText, emojiText],
@@ -222,7 +221,6 @@ export class MenuScene extends Phaser.Scene {
       } else {
         // Completed: subtle pulse on tap but no navigation
         zone.on('pointerdown', () => {
-          if (hasDragged) return;
           this.sound.play('tap')
           this.tweens.add({
             targets: [bg, nameText],
@@ -279,54 +277,46 @@ export class MenuScene extends Phaser.Scene {
     let dragStartContainerLocalY = 0
 
     let scrollOffset = 0
-    let hasDragged = false;
-    let dragStartTime = 0;
 
-    // ✅ SCROLL - POINTER DOWN
+    // ✅ FIX: Prevent tap sound on background
     this.input.on('pointerdown', (pointer) => {
-      if (pointer.y < panelTop || pointer.y > panelBottom) return;
-
-      const hitObjects = this.input.hitTestPointer(pointer);
-      const isOnInteractive = hitObjects.some(obj => obj.input && obj.input.enabled);
-
-      if (!isOnInteractive) {
-        isDragging = true;
-        hasDragged = false;
-        dragStartPointerY = pointer.y;
-        dragStartContainerLocalY = scrollOffset;
-        dragStartTime = Date.now();
+      // Only start drag if pointer is inside the panel AND NOT on a button
+      if (pointer.y >= panelTop && pointer.y <= panelBottom) {
+        // Check if pointer is on an interactive zone - if yes, don't drag
+        const gameObjects = this.input.hitTestPointer(pointer)
+        const isOnButton = gameObjects.some(obj => obj.name === 'zone' || obj.input)
+        
+        if (!isOnButton) {
+          isDragging = true
+          dragStartPointerY = pointer.y
+          dragStartContainerLocalY = scrollOffset
+        }
       }
-    });
+    })
 
-    // ✅ SCROLL - POINTER MOVE
     this.input.on('pointermove', (pointer) => {
-      if (!isDragging || !pointer.isDown) return;
+      if (!isDragging || !pointer.isDown) return
+      const delta = pointer.y - dragStartPointerY
+      // Only drag if movement is more than 5px (prevents accidental drag on click)
+      if (Math.abs(delta) < 5) return
+      
+      isDragging = true
+      let newOffset = dragStartContainerLocalY + delta
+      newOffset = Phaser.Math.Clamp(newOffset, minScrollY, maxScrollY)
+      scrollOffset = newOffset
+      menuContainer.y = panelTop + scrollOffset
 
-      const delta = pointer.y - dragStartPointerY;
-
-      if (Math.abs(delta) > 8) {        // ← threshold for "drag"
-        hasDragged = true;
-      }
-
-      if (Math.abs(delta) < 5) return;  // Ignore tiny movements to prevent jitter
-
-      let newOffset = dragStartContainerLocalY + delta;
-      newOffset = Phaser.Math.Clamp(newOffset, minScrollY, maxScrollY);
-
-      scrollOffset = newOffset;
-      menuContainer.y = panelTop + scrollOffset;
-
-      // Fade arrow
-      if (!arrowFaded && Math.abs(delta) > 40) {
-        arrowFaded = true;
+      // Fade out scroll arrow after first drag
+      if (!arrowFaded && Math.abs(delta) > 50) {
+        arrowFaded = true
         this.tweens.add({
           targets: arrowText,
           alpha: 0,
           duration: 400,
           onComplete: () => arrowText.destroy()
-        });
+        })
       }
-    });
+    })
 
     this.input.on('pointerup', () => { isDragging = false })
 
