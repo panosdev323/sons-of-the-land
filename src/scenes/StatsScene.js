@@ -25,7 +25,7 @@ export class StatsScene extends Phaser.Scene {
     }).setOrigin(0.5)
  
     const backBtn = this.add.text(5, 8, '← Back', {
-      fontSize: '17px', color: '#ffffff', backgroundColor: 'rgba(255,255,255,0.1)', padding: { x: 18, y: 16 }
+      fontSize: '18px', color: '#ffffff', backgroundColor: 'rgba(255,255,255,0.1)', padding: { x: 18, y: 16 }
     }).setInteractive()
     backBtn.on('pointerdown', () => {
       this.sound.play('tap')
@@ -42,11 +42,11 @@ export class StatsScene extends Phaser.Scene {
     yPos += 80
  
     this.addStatBoxToContainer(scrollContainer, 'Civilizations', `${completedCount} / ${totalCivs}`, yPos, w)
-    yPos += 80
+    yPos += 120
  
     // ✅ High Scores Table
     scrollContainer.add(this.add.text(40, yPos, 'Top Civilizations', {
-      fontSize: '20px', color: '#f9a825', fontStyle: 'bold'
+      fontSize: '22px', color: '#f9a825', fontStyle: 'bold'
     }))
     yPos += 35
  
@@ -61,15 +61,15 @@ export class StatsScene extends Phaser.Scene {
       const score = `${civ.highScore} pts`
       
       scrollContainer.add(this.add.text(50, yPos, rank, {
-        fontSize: '17px', color: '#f9a825'
+        fontSize: '20px', color: '#f9a825'
       }))
       
       scrollContainer.add(this.add.text(100, yPos, civ.id.toUpperCase(), {
-        fontSize: '17px', color: '#fff'
+        fontSize: '18px', color: '#fff'
       }))
       
       scrollContainer.add(this.add.text(w - 50, yPos, score, {
-        fontSize: '17px', color: '#69f0ae'
+        fontSize: '18px', color: '#69f0ae'
       }).setOrigin(1, 0))
  
       yPos += 30
@@ -77,15 +77,15 @@ export class StatsScene extends Phaser.Scene {
  
     if (topCivs.length === 0) {
       scrollContainer.add(this.add.text(50, yPos, 'Play some levels to earn scores!', {
-        fontSize: '17px', color: '#dcdada'
+        fontSize: '18px', color: '#dcdada'
       }))
     }
  
-    yPos += 40
+    yPos += 50
  
     // ✅ Achievement Badges
     scrollContainer.add(this.add.text(40, yPos, 'Achievements', {
-      fontSize: '20px', color: '#f9a825', fontStyle: 'bold'
+      fontSize: '22px', color: '#f9a825', fontStyle: 'bold'
     }))
     yPos += 35
  
@@ -99,12 +99,12 @@ export class StatsScene extends Phaser.Scene {
     achievements.forEach(ach => {
       const opacity = ach.unlocked ? 1 : 0.3
       scrollContainer.add(this.add.text(50, yPos, ach.name, {
-        fontSize: '18px', color: '#fff', alpha: opacity
+        fontSize: '20px', color: '#fff', alpha: opacity
       }))
-      scrollContainer.add(this.add.text(50, yPos + 20, ach.desc, {
-        fontSize: '17px', color: '#dcdada', alpha: opacity
+      scrollContainer.add(this.add.text(50, yPos + 25, ach.desc, {
+        fontSize: '18px', color: '#dcdada', alpha: opacity
       }))
-      yPos += 60
+      yPos += 70
     })
 
     // ✅ Enable scrolling with mouse wheel / touch
@@ -146,7 +146,7 @@ export class StatsScene extends Phaser.Scene {
     container.add(bg)
  
     const labelText = this.add.text(w / 2, yPos + 15, label, {
-      fontSize: '17px', color: '#dcdada'
+      fontSize: '18px', color: '#dcdada'
     }).setOrigin(0.5)
     container.add(labelText)
  

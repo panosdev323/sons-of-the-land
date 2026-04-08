@@ -13,11 +13,11 @@ export class TermsScene extends Phaser.Scene {
 
     // Header
     this.add.text(w / 2, 40, '📜 Terms of Service', {
-      fontSize: '20px', color: '#f9a825', fontStyle: 'bold'
+      fontSize: '22px', color: '#f9a825', fontStyle: 'bold'
     }).setOrigin(0.5)
 
     const backBtn = this.add.text(5, 8, '← Back', {
-      fontSize: '17px', color: '#ffffff', backgroundColor: 'rgba(255,255,255,0.1)', padding: { x: 18, y: 16 }
+      fontSize: '18px', color: '#ffffff', backgroundColor: 'rgba(255,255,255,0.1)', padding: { x: 18, y: 16 }
     }).setInteractive()
     backBtn.on('pointerdown', () => {
       this.sound.play('tap')
@@ -58,39 +58,41 @@ export class TermsScene extends Phaser.Scene {
 
     // Add intro text
     scrollContainer.add(this.add.text(w / 2, yPos, 'Welcome to Sons of the Land', {
-      fontSize: '17px', color: '#f9a825', fontStyle: 'bold'
+      fontSize: '22px', color: '#f9a825', fontStyle: 'bold'
     }).setOrigin(0.5))
     yPos += 30
 
     scrollContainer.add(this.add.text(w / 2, yPos, 'By playing this game, you agree to these terms:', {
-      fontSize: '17px', color: '#ccc',
+      fontSize: '18px', color: '#ccc',
       wordWrap: { width: 400 },
       align: 'center'
     }).setOrigin(0.5))
-    yPos += 50
+    yPos += 60
 
     // Add each section
     sections.forEach(section => {
       // Title
       scrollContainer.add(this.add.text(40, yPos, section.title, {
-        fontSize: '17px', color: '#ffca28', fontStyle: 'bold'
+        fontSize: '20px', color: '#ffca28', fontStyle: 'bold'
       }))
       yPos += 25
 
       // Content
       scrollContainer.add(this.add.text(40, yPos, section.content, {
-        fontSize: '17px', color: '#ccc',
+        fontSize: '18px', color: '#ccc',
         wordWrap: { width: 400 }
       }))
-      yPos += 80
+      yPos += 100
     })
 
     // Footer
+    yPos += 20
     scrollContainer.add(this.add.text(w / 2, yPos, `© ${new Date().getFullYear()} Sons of the Land. All rights reserved.`, {
-      fontSize: '17px', color: '#dcdada',
-      align: 'center'
+      fontSize: '18px', color: '#dcdada',
+      align: 'center',
+      wordWrap: { width: w - 40 }
     }).setOrigin(0.5))
-    yPos += 40
+    yPos += 20
 
     // ✅ Setup scrolling (same as StatsScene)
     const panelTop = 100

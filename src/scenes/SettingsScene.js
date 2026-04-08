@@ -21,7 +21,7 @@ export class SettingsScene extends Phaser.Scene {
     }).setOrigin(0.5)
  
     const backBtn = this.add.text(5, 8, '← Back', {
-      fontSize: '17px', color: '#ffffff', backgroundColor: 'rgba(255,255,255,0.1)', padding: { x: 18, y: 16 }
+      fontSize: '18px', color: '#ffffff', backgroundColor: 'rgba(255,255,255,0.1)', padding: { x: 18, y: 16 }
     }).setInteractive()
     backBtn.on('pointerdown', () => {
       this.sound.play('tap')
@@ -105,7 +105,7 @@ export class SettingsScene extends Phaser.Scene {
     // ✅ Advanced Settings
     yPos += 20
     this.add.text(40, yPos, 'Advanced Settings', {
-      fontSize: '17px', color: '#dcdada', fontStyle: 'italic'
+      fontSize: '18px', color: '#dcdada', fontStyle: 'italic'
     })
     yPos += 30
  
@@ -154,7 +154,7 @@ export class SettingsScene extends Phaser.Scene {
     // ✅ Legal Section
     yPos += 10
     this.add.text(40, yPos, 'Legal', {
-      fontSize: '17px', color: '#dcdada', fontStyle: 'italic'
+      fontSize: '18px', color: '#dcdada', fontStyle: 'italic'
     })
     yPos += 30
 
@@ -173,7 +173,7 @@ export class SettingsScene extends Phaser.Scene {
     // ✅ About Section
     yPos += 20
     this.add.text(w / 2, yPos, 'Sons of the Land: Ancient Wisdom v1.0', {
-      fontSize: '17px', color: '#dcdada'
+      fontSize: '18px', color: '#dcdada'
     }).setOrigin(0.5)
   }
 
@@ -202,7 +202,7 @@ export class SettingsScene extends Phaser.Scene {
     }).setOrigin(0.5)
 
     this.add.text(w / 2, boxY + 70, message, {
-      fontSize: '17px', color: '#fff',
+      fontSize: '18px', color: '#fff',
       wordWrap: { width: 250 },
       align: 'center'
     }).setOrigin(0.5)
@@ -248,7 +248,7 @@ export class SettingsScene extends Phaser.Scene {
     const enabled = this.getSetting(key, defaultVal)
  
     this.add.text(40, yPos, label, {
-      fontSize: '17px', color: '#fff'
+      fontSize: '18px', color: '#fff'
     })
  
     const toggleBg = this.add.graphics()
@@ -281,7 +281,7 @@ export class SettingsScene extends Phaser.Scene {
     const disabled = opts.disabled || false
  
     this.add.text(40, yPos, label, {
-      fontSize: '17px', color: '#fff'
+      fontSize: '18px', color: '#fff'
     })
     yPos += 30
  

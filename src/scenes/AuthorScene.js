@@ -24,11 +24,11 @@ export class AuthorScene extends Phaser.Scene {
     back.on('pointerdown', () => scene.scene.start('MenuScene'))
 
     this.add.text(w / 2, 16, civ.emoji + ' ' + civ.name, {
-      fontSize: '17px', color: '#fff', fontStyle: 'bold'
+      fontSize: '18px', color: '#fff', fontStyle: 'bold'
     }).setOrigin(0.5, 0)
 
     this.add.text(w / 2, 76, 'Choose an Author', {
-      fontSize: '17px', color: '#f9a825'
+      fontSize: '18px', color: '#f9a825'
     }).setOrigin(0.5)
 
     const civColor = Phaser.Display.Color.HexStringToColor(civ.colorHex).color
@@ -59,7 +59,7 @@ export class AuthorScene extends Phaser.Scene {
       container.add(bg)
 
       const nameText = this.add.text(x - 140, y - 8, author.emoji + ' ' + author.name, {
-        fontSize: '17px', color: '#fff', fontStyle: 'bold'
+        fontSize: '18px', color: '#fff', fontStyle: 'bold'
       })
       const quotesText = this.add.text(x - 140, y + 12, `${author.quotes.length} quotes`, {
         fontSize: '11px', color: '#aaa'
