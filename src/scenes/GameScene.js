@@ -92,7 +92,7 @@ export class GameScene extends Phaser.Scene {
         topBg.fillRect(0, 0, w, 75)
 
         const backBtn = this.add.text(5, 8, '← Menu', {
-            fontSize: '16px', color: '#ffffff', backgroundColor: 'rgba(255,255,255,0.1)', padding: { x: 18, y: 16 }
+            fontSize: '17px', color: '#ffffff', backgroundColor: 'rgba(255,255,255,0.1)', padding: { x: 18, y: 16 }
         }).setInteractive()
 
         backBtn.on('pointerdown', () => {
@@ -115,21 +115,21 @@ export class GameScene extends Phaser.Scene {
         })
 
         this.add.text(w / 2, 16, `${this.civ.emoji} ${this.civ.name}`, {
-            fontSize: '16px', color: '#fff', fontStyle: 'bold'
+            fontSize: '17px', color: '#fff', fontStyle: 'bold'
         }).setOrigin(0.5, 0)
 
         // ✅ LEVEL DISPLAY
         this.add.text(w / 2, 32, `Level ${this.level}/${this.totalLevels}`, {
-            fontSize: '16px', color: '#aaa'
+            fontSize: '17px', color: '#aaa'
         }).setOrigin(0.5, 0)
 
         // ✅ Display global lives (with proper count)
         const livesStr = '❤️'.repeat(this.levelLives)
-        this.add.text(w - 16, 16, livesStr, { fontSize: '16px' }).setOrigin(1, 0)
+        this.add.text(w - 16, 16, livesStr, { fontSize: '17px' }).setOrigin(1, 0)
 
         // ✅ Display global score + level score
         this.add.text(w / 2, 44, `Global: ${this.globalScore} | Level: ${this.levelScore} 🔥 ${this.streak}`, {
-            fontSize: '16px', color: '#f9a825'
+            fontSize: '17px', color: '#f9a825'
         }).setOrigin(0.5, 0)
 
         // Progress bar
@@ -145,18 +145,18 @@ export class GameScene extends Phaser.Scene {
         scrollBg.fillRoundedRect(24, 80, w - 48, 320, 12)
 
         this.add.text(w / 2, 106, `— ${q.author}`, {
-            fontSize: '16px', color: '#bcaaa4', fontStyle: 'italic', wordWrap: { width: w - 80 }
+            fontSize: '17px', color: '#bcaaa4', fontStyle: 'italic', wordWrap: { width: w - 80 }
         }).setOrigin(0.5)
 
         this.add.text(w / 2, 200, `"${q.start}...`, {
-            fontSize: '16px',
+            fontSize: '17px',
             color: '#fff2cc',
             wordWrap: { width: w - 80 },
             align: 'center'
         }).setOrigin(0.5)
 
         this.add.text(w / 2, 330, '👇 Complete the quote', {
-            fontSize: '16px', color: '#dcdada',
+            fontSize: '17px', color: '#dcdada',
         }).setOrigin(0.5)
 
         // === ANSWERS ===
@@ -175,7 +175,7 @@ export class GameScene extends Phaser.Scene {
             btnBg.fillRoundedRect(24, y - 34, w - 48, 68, 10)
 
             const btnText = this.add.text(w / 2, y, `"${ans.text}"`, {
-                fontSize: '16px',
+                fontSize: '17px',
                 color: '#fff',
                 wordWrap: { width: w - 90 },
                 align: 'center'
@@ -278,7 +278,7 @@ export class GameScene extends Phaser.Scene {
 
     showFeedback(msg, color) {
         this.add.text(240, 390, msg, {
-            fontSize: '16px',
+            fontSize: '17px',
             color,
             backgroundColor: '#00000099',
             padding: { x: 10, y: 6 }
@@ -303,7 +303,7 @@ export class GameScene extends Phaser.Scene {
         }).setOrigin(0.5)
 
         this.add.text(240, 250, `Global Score: ${this.globalScore}`, {
-            fontSize: '16px', color: '#69f0ae'
+            fontSize: '17px', color: '#69f0ae'
         }).setOrigin(0.5)
 
         const nextBtn = this.add.text(240, 400, 'Next Level ▶', {
@@ -358,13 +358,13 @@ export class GameScene extends Phaser.Scene {
         }).setOrigin(0.5)
 
         this.add.text(240, 290, 'The ancients demand more wisdom...', {
-            fontSize: '16px',
+            fontSize: '17px',
             color: '#ffd54f',
             fontStyle: 'italic'
         }).setOrigin(0.5)
 
         this.add.text(240, 330, `Score: ${this.globalScore}`, {
-            fontSize: '16px', color: '#69f0ae'
+            fontSize: '17px', color: '#69f0ae'
         }).setOrigin(0.5)
 
         const retryBtn = this.add.text(240, 400, 'Retry', {

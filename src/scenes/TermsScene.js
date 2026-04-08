@@ -17,7 +17,7 @@ export class TermsScene extends Phaser.Scene {
     }).setOrigin(0.5)
 
     const backBtn = this.add.text(5, 8, '← Back', {
-      fontSize: '16px', color: '#ffffff', backgroundColor: 'rgba(255,255,255,0.1)', padding: { x: 18, y: 16 }
+      fontSize: '17px', color: '#ffffff', backgroundColor: 'rgba(255,255,255,0.1)', padding: { x: 18, y: 16 }
     }).setInteractive()
     backBtn.on('pointerdown', () => {
       this.sound.play('tap')
@@ -58,12 +58,12 @@ export class TermsScene extends Phaser.Scene {
 
     // Add intro text
     scrollContainer.add(this.add.text(w / 2, yPos, 'Welcome to Sons of the Land', {
-      fontSize: '16px', color: '#f9a825', fontStyle: 'bold'
+      fontSize: '17px', color: '#f9a825', fontStyle: 'bold'
     }).setOrigin(0.5))
     yPos += 30
 
     scrollContainer.add(this.add.text(w / 2, yPos, 'By playing this game, you agree to these terms:', {
-      fontSize: '16px', color: '#ccc',
+      fontSize: '17px', color: '#ccc',
       wordWrap: { width: 400 },
       align: 'center'
     }).setOrigin(0.5))
@@ -73,13 +73,13 @@ export class TermsScene extends Phaser.Scene {
     sections.forEach(section => {
       // Title
       scrollContainer.add(this.add.text(40, yPos, section.title, {
-        fontSize: '16px', color: '#ffca28', fontStyle: 'bold'
+        fontSize: '17px', color: '#ffca28', fontStyle: 'bold'
       }))
       yPos += 25
 
       // Content
       scrollContainer.add(this.add.text(40, yPos, section.content, {
-        fontSize: '16px', color: '#ccc',
+        fontSize: '17px', color: '#ccc',
         wordWrap: { width: 400 }
       }))
       yPos += 80
@@ -87,7 +87,7 @@ export class TermsScene extends Phaser.Scene {
 
     // Footer
     scrollContainer.add(this.add.text(w / 2, yPos, `© ${new Date().getFullYear()} Sons of the Land. All rights reserved.`, {
-      fontSize: '16px', color: '#dcdada',
+      fontSize: '17px', color: '#dcdada',
       align: 'center'
     }).setOrigin(0.5))
     yPos += 40
