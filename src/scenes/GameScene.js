@@ -88,11 +88,11 @@ export class GameScene extends Phaser.Scene {
 
         // === TOP BAR ===
         const topBg = this.add.graphics()
-        topBg.fillStyle(0x000000, 0.6)
-        topBg.fillRect(0, 0, w, 56)
+        topBg.fillStyle(0x000000, 0.75)
+        topBg.fillRect(0, 0, w, 75)
 
         const backBtn = this.add.text(16, 16, '← Menu', {
-            fontSize: '12px', color: '#888'
+            fontSize: '16px', color: '#dcdada'
         }).setInteractive()
 
         backBtn.on('pointerdown', () => {
@@ -156,7 +156,7 @@ export class GameScene extends Phaser.Scene {
         }).setOrigin(0.5)
 
         this.add.text(w / 2, 330, '👇 Complete the quote', {
-            fontSize: '12px', color: '#888'
+            fontSize: '12px', color: '#dcdada',
         }).setOrigin(0.5)
 
         // === ANSWERS ===

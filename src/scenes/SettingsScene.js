@@ -21,7 +21,7 @@ export class SettingsScene extends Phaser.Scene {
     }).setOrigin(0.5)
  
     const backBtn = this.add.text(20, 40, '← Back', {
-      fontSize: '14px', color: '#888'
+      fontSize: '16px', color: '#ffffff'
     }).setInteractive()
     backBtn.on('pointerdown', () => {
       this.sound.play('tap')
@@ -79,7 +79,7 @@ export class SettingsScene extends Phaser.Scene {
     }
     if (inGame) {
       this.add.text(40, yPos - 15, '🔒 Change difficulty before starting a new game', {
-        fontSize: '11px', color: '#888', fontStyle: 'italic'
+        fontSize: '11px', color: '#dcdada', fontStyle: 'italic'
       })
     }
     // ✅ Difficulty Setting
@@ -105,7 +105,7 @@ export class SettingsScene extends Phaser.Scene {
     // ✅ Advanced Settings
     yPos += 20
     this.add.text(40, yPos, 'Advanced Settings', {
-      fontSize: '14px', color: '#888', fontStyle: 'italic'
+      fontSize: '14px', color: '#dcdada', fontStyle: 'italic'
     })
     yPos += 30
  
@@ -154,7 +154,7 @@ export class SettingsScene extends Phaser.Scene {
     // ✅ Legal Section
     yPos += 10
     this.add.text(40, yPos, 'Legal', {
-      fontSize: '14px', color: '#888', fontStyle: 'italic'
+      fontSize: '14px', color: '#dcdada', fontStyle: 'italic'
     })
     yPos += 30
 
@@ -173,12 +173,7 @@ export class SettingsScene extends Phaser.Scene {
     // ✅ About Section
     yPos = h - 30
     this.add.text(w / 2, yPos, 'Sons of the Land: Ancient Wisdom v1.0', {
-      fontSize: '12px', color: '#666'
-    }).setOrigin(0.5)
- 
-    yPos += 30
-    this.add.text(w / 2, yPos, 'Made with ❤️ and Phaser 3', {
-      fontSize: '11px', color: '#555'
+      fontSize: '12px', color: '#dcdada'
     }).setOrigin(0.5)
   }
 

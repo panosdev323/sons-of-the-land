@@ -19,7 +19,7 @@ export class AuthorScene extends Phaser.Scene {
     topBg.fillRect(0, 0, w, 56)
 
     const back = this.add.text(16, 16, '← Menu', {
-      fontSize: '12px', color: '#888'
+      fontSize: '12px', color: '#dcdada'
     }).setInteractive()
     back.on('pointerdown', () => scene.scene.start('MenuScene'))
 

@@ -25,7 +25,7 @@ export class StatsScene extends Phaser.Scene {
     }).setOrigin(0.5)
  
     const backBtn = this.add.text(20, 40, '← Back', {
-      fontSize: '14px', color: '#888'
+      fontSize: '16px', color: '#ffffff'
     }).setInteractive()
     backBtn.on('pointerdown', () => {
       this.sound.play('tap')
@@ -77,7 +77,7 @@ export class StatsScene extends Phaser.Scene {
  
     if (topCivs.length === 0) {
       scrollContainer.add(this.add.text(50, yPos, 'Play some levels to earn scores!', {
-        fontSize: '12px', color: '#666'
+        fontSize: '12px', color: '#dcdada'
       }))
     }
  
@@ -102,7 +102,7 @@ export class StatsScene extends Phaser.Scene {
         fontSize: '12px', color: '#fff', alpha: opacity
       }))
       scrollContainer.add(this.add.text(50, yPos + 18, ach.desc, {
-        fontSize: '10px', color: '#888', alpha: opacity
+        fontSize: '10px', color: '#dcdada', alpha: opacity
       }))
       yPos += 45
     })
@@ -146,7 +146,7 @@ export class StatsScene extends Phaser.Scene {
     container.add(bg)
  
     const labelText = this.add.text(w / 2, yPos + 15, label, {
-      fontSize: '11px', color: '#888'
+      fontSize: '11px', color: '#dcdada'
     }).setOrigin(0.5)
     container.add(labelText)
  

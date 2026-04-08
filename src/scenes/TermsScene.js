@@ -17,7 +17,7 @@ export class TermsScene extends Phaser.Scene {
     }).setOrigin(0.5)
 
     const backBtn = this.add.text(20, 40, '← Back', {
-      fontSize: '14px', color: '#888'
+      fontSize: '16px', color: '#ffffff'
     }).setInteractive()
     backBtn.on('pointerdown', () => {
       this.sound.play('tap')
@@ -82,12 +82,12 @@ export class TermsScene extends Phaser.Scene {
         fontSize: '12px', color: '#ccc',
         wordWrap: { width: 400 }
       }))
-      yPos += 70
+      yPos += 80
     })
 
     // Footer
     scrollContainer.add(this.add.text(w / 2, yPos, `© ${new Date().getFullYear()} Sons of the Land. All rights reserved.`, {
-      fontSize: '11px', color: '#666',
+      fontSize: '14px', color: '#dcdada',
       align: 'center'
     }).setOrigin(0.5))
     yPos += 40

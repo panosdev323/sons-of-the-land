@@ -76,7 +76,7 @@ export class MenuScene extends Phaser.Scene {
     line.lineBetween(60, 265, w - 60, 265)
 
     this.add.text(w / 2, 288, 'Choose Your Chapter', {
-      fontSize: '14px', color: '#888'
+      fontSize: '14px', color: '#dcdada',
     }).setOrigin(0.5)
 
     // === SCROLL PANEL SETUP ===
@@ -182,7 +182,7 @@ export class MenuScene extends Phaser.Scene {
       const civProgress = ProgressStore.getLevel(civ.id)
       const progressText = this.add.text(x + 140, y, done ? '✅' : `Lvl ${civProgress}`, {
         fontSize: '12px',
-        color: done ? '#f9a825' : '#888',
+        color: done ? '#f9a825' : '#dcdada',
         backgroundColor: done ? '#1a1208' : undefined,
         padding: done ? { x: 4, y: 2 } : undefined
       }).setOrigin(1, 0.5)

@@ -89,7 +89,7 @@ export class TutorialScene extends Phaser.Scene {
       // Previous button
       if (currentSlide > 0) {
         const prevBtn = this.add.text(60, btnY, '← Previous', {
-          fontSize: '14px', color: '#888'
+          fontSize: '14px', color: '#dcdada'
         }).setInteractive()
         prevBtn.on('pointerdown', () => {
           this.sound.play('tap')
@@ -116,7 +116,7 @@ export class TutorialScene extends Phaser.Scene {
  
       // Skip button (always available)
       const skipBtn = this.add.text(w / 2, btnY + 50, 'Skip Tutorial', {
-        fontSize: '12px', color: '#666'
+        fontSize: '12px', color: '#dcdada'
       }).setOrigin(0.5).setInteractive()
       skipBtn.on('pointerdown', () => {
         this.sound.play('tap')
