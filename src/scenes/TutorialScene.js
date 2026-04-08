@@ -89,7 +89,7 @@ export class TutorialScene extends Phaser.Scene {
       // Previous button
       if (currentSlide > 0) {
         const prevBtn = this.add.text(60, btnY, '← Previous', {
-        fontSize: '16px', color: '#ffffff', backgroundColor: 'rgba(255,255,255,0.1)', padding: { x: 18, y: 14 }
+        fontSize: '16px', color: '#ffffff', backgroundColor: 'rgba(255,255,255,0.1)', padding: { x: 18, y: 16 }
         }).setInteractive()
         prevBtn.on('pointerdown', () => {
           this.sound.play('tap')

@@ -92,7 +92,7 @@ export class GameScene extends Phaser.Scene {
         topBg.fillRect(0, 0, w, 75)
 
         const backBtn = this.add.text(5, 8, '← Menu', {
-            fontSize: '16px', color: '#ffffff', backgroundColor: 'rgba(255,255,255,0.1)', padding: { x: 18, y: 14 }
+            fontSize: '16px', color: '#ffffff', backgroundColor: 'rgba(255,255,255,0.1)', padding: { x: 18, y: 16 }
         }).setInteractive()
 
         backBtn.on('pointerdown', () => {
