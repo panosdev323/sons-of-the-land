@@ -280,17 +280,27 @@ export class MenuScene extends Phaser.Scene {
 
     // ✅ FIX: Prevent tap sound on background
     this.input.on('pointerdown', (pointer) => {
-      // Only start drag if pointer is inside the panel
+      // Only start drag if pointer is inside the panel AND NOT on a button
       if (pointer.y >= panelTop && pointer.y <= panelBottom) {
-        isDragging = true
-        dragStartPointerY = pointer.y
-        dragStartContainerLocalY = scrollOffset
+        // Check if pointer is on an interactive zone - if yes, don't drag
+        const gameObjects = this.input.hitTestPointer(pointer)
+        const isOnButton = gameObjects.some(obj => obj.name === 'zone' || obj.input)
+        
+        if (!isOnButton) {
+          isDragging = true
+          dragStartPointerY = pointer.y
+          dragStartContainerLocalY = scrollOffset
+        }
       }
     })
 
     this.input.on('pointermove', (pointer) => {
       if (!isDragging || !pointer.isDown) return
       const delta = pointer.y - dragStartPointerY
+      // Only drag if movement is more than 5px (prevents accidental drag on click)
+      if (Math.abs(delta) < 5) return
+      
+      isDragging = true
       let newOffset = dragStartContainerLocalY + delta
       newOffset = Phaser.Math.Clamp(newOffset, minScrollY, maxScrollY)
       scrollOffset = newOffset
