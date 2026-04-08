@@ -79,7 +79,7 @@ export class SettingsScene extends Phaser.Scene {
     }
     if (inGame) {
       this.add.text(40, yPos - 15, '🔒 Change difficulty before starting a new game', {
-        fontSize: '11px', color: '#dcdada', fontStyle: 'italic'
+        fontSize: '12px', color: '#dcdada', fontStyle: 'italic'
       })
     }
     // ✅ Difficulty Setting
@@ -105,7 +105,7 @@ export class SettingsScene extends Phaser.Scene {
     // ✅ Advanced Settings
     yPos += 20
     this.add.text(40, yPos, 'Advanced Settings', {
-      fontSize: '15px', color: '#dcdada', fontStyle: 'italic'
+      fontSize: '16px', color: '#dcdada', fontStyle: 'italic'
     })
     yPos += 30
  
@@ -154,7 +154,7 @@ export class SettingsScene extends Phaser.Scene {
     // ✅ Legal Section
     yPos += 10
     this.add.text(40, yPos, 'Legal', {
-      fontSize: '15px', color: '#dcdada', fontStyle: 'italic'
+      fontSize: '16px', color: '#dcdada', fontStyle: 'italic'
     })
     yPos += 30
 
@@ -173,7 +173,7 @@ export class SettingsScene extends Phaser.Scene {
     // ✅ About Section
     yPos = h - 30
     this.add.text(w / 2, yPos, 'Sons of the Land: Ancient Wisdom v1.0', {
-      fontSize: '15px', color: '#dcdada'
+      fontSize: '16px', color: '#dcdada'
     }).setOrigin(0.5)
   }
 
@@ -202,13 +202,13 @@ export class SettingsScene extends Phaser.Scene {
     }).setOrigin(0.5)
 
     this.add.text(w / 2, boxY + 70, message, {
-      fontSize: '15px', color: '#fff',
+      fontSize: '16px', color: '#fff',
       wordWrap: { width: 250 },
       align: 'center'
     }).setOrigin(0.5)
 
     const cancelBtn = this.add.text(boxX + 30, boxY + 140, 'Cancel', {
-      fontSize: '13px',
+      fontSize: '14px',
       color: '#fff',
       backgroundColor: '#37474f',
       padding: { x: 15, y: 8 }
@@ -223,7 +223,7 @@ export class SettingsScene extends Phaser.Scene {
     })
 
     const confirmBtn = this.add.text(boxX + boxW - 30, boxY + 140, 'Reset', {
-      fontSize: '13px',
+      fontSize: '14px',
       color: '#fff',
       backgroundColor: '#7f0000',
       padding: { x: 15, y: 8 }
@@ -248,7 +248,7 @@ export class SettingsScene extends Phaser.Scene {
     const enabled = this.getSetting(key, defaultVal)
  
     this.add.text(40, yPos, label, {
-      fontSize: '15px', color: '#fff'
+      fontSize: '16px', color: '#fff'
     })
  
     const toggleBg = this.add.graphics()
@@ -281,7 +281,7 @@ export class SettingsScene extends Phaser.Scene {
     const disabled = opts.disabled || false
  
     this.add.text(40, yPos, label, {
-      fontSize: '15px', color: '#fff'
+      fontSize: '16px', color: '#fff'
     })
     yPos += 30
  
@@ -301,7 +301,7 @@ export class SettingsScene extends Phaser.Scene {
       }
  
       this.add.text(x + 25, y, option, {
-        fontSize: '13px', color: '#fff'
+        fontSize: '14px', color: '#fff'
       })
  
       if (!disabled) {
@@ -325,7 +325,7 @@ export class SettingsScene extends Phaser.Scene {
     btnBg.fillRoundedRect(w / 2 - 100, yPos, 200, 40, 8)
  
     this.add.text(w / 2, yPos + 20, text, {
-      fontSize: '13px', color: '#fff'
+      fontSize: '14px', color: '#fff'
     }).setOrigin(0.5)
  
     const zone = this.add.zone(w / 2, yPos + 20, 220, 50).setInteractive()

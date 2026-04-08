@@ -86,7 +86,7 @@ export class PauseScene extends Phaser.Scene {
     bg.fillRoundedRect(w / 2 - btnW / 2, yPos, btnW, 40, 8)
  
     this.add.text(w / 2, yPos + 20, text, {
-      fontSize: '15px', color: '#fff'
+      fontSize: '16px', color: '#fff'
     }).setOrigin(0.5)
  
     const zone = this.add.zone(w / 2, yPos + 20, btnW + 20, 50).setInteractive()

@@ -24,7 +24,7 @@ export class AuthorScene extends Phaser.Scene {
     back.on('pointerdown', () => scene.scene.start('MenuScene'))
 
     this.add.text(w / 2, 16, civ.emoji + ' ' + civ.name, {
-      fontSize: '15px', color: '#fff', fontStyle: 'bold'
+      fontSize: '16px', color: '#fff', fontStyle: 'bold'
     }).setOrigin(0.5, 0)
 
     this.add.text(w / 2, 76, 'Choose an Author', {
