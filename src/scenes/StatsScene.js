@@ -25,7 +25,7 @@ export class StatsScene extends Phaser.Scene {
     }).setOrigin(0.5)
  
     const backBtn = this.add.text(20, 40, '← Back', {
-      fontSize: '16px', color: '#ffffff', backgroundColor: 'rgba(255,255,255,0.1)', padding: { x: 10, y: 10 }
+      fontSize: '16px', color: '#ffffff', backgroundColor: 'rgba(255,255,255,0.1)', padding: { x: 18, y: 10 }
     }).setInteractive()
     backBtn.on('pointerdown', () => {
       this.sound.play('tap')

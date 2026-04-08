@@ -42,7 +42,7 @@ export class MenuScene extends Phaser.Scene {
     }
 
     // === Settings Button ===
-    const settingsBtn = this.add.text(62, 25, '⚙️ Settings', {
+    const settingsBtn = this.add.text(75, 25, '⚙️ Settings', {
       fontSize: '16px',
       backgroundColor: '#37474f',
       color: '#fff',
@@ -57,7 +57,7 @@ export class MenuScene extends Phaser.Scene {
     })
 
     // === Stats Button ===
-    const statsBtn = this.add.text(w - 50, 25, '📊 Stats', {
+    const statsBtn = this.add.text(w - 63, 25, '📊 Stats', {
       fontSize: '16px',
       backgroundColor: '#37474f',
       color: '#fff',
