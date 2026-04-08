@@ -28,7 +28,7 @@ const config = {
   backgroundColor: '#1a1208',
   scene: [BootScene, MenuScene, AuthorScene, GameScene, TutorialScene, SettingsScene, StatsScene, PauseScene, TermsScene],
   scale: {
-    mode: Phaser.Scale.FIT,
+    mode: Phaser.Scale.ENVELOP,
     autoCenter: Phaser.Scale.CENTER_BOTH,
     // ✅ Add mobile-specific scale settings
     orientation: Phaser.Scale.Orientation.PORTRAIT,
