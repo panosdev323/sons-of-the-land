@@ -7024,125 +7024,125 @@ export const CIVILIZATIONS = [
         emoji: "👑",
         quotes: [
           { start: "The Great Law of Peace established that decisions must be made by consensus because", "correct": "a united people are stronger than a divided one.", "wrong": ["one person's will is sufficient.", "force determines right.", "quick decisions are better."] },
-          { start: "A leader of the Haudenosaunee is expected to listen to the voices of his people because his role is to", "correct": "serve the interests of the nation, not his own ambitions.", "wrong": ["accumulate personal wealth.", "dominate through fear.", "rule without accountability."] },
-          { start: "The Iroquois Confederacy united five nations—Mohawk, Oneida, Onondaga, Cayuga, and Seneca—by establishing a system where", "correct": "each nation retained autonomy while cooperating for mutual defense and peace.", "wrong": ["one nation ruled all others.", "warfare was constant.", "no unity existed."] },
+          { start: "A leader of the Haudenosaunee is expected to listen to the voices of his people because his role is to", "correct": "serve the interests of the nation.", "wrong": ["accumulate personal wealth.", "dominate through fear.", "rule without accountability."] },
+          { start: "The Iroquois Confederacy united five nations—Mohawk, Oneida, Onondaga, Cayuga, and Seneca—by establishing a system where", "correct": "each nation retained autonomy.", "wrong": ["one nation ruled all others.", "warfare was constant.", "no unity existed."] },
           { start: "The Haudenosaunee practice of allowing sachems (peace chiefs) to be removed by the women of their clan if they failed to lead properly demonstrates that", "correct": "accountability to the people was built into the governing system.", "wrong": ["women had no power.", "leaders were absolute.", "no checks existed on power."] },
           { start: "The Iroquois understanding of leadership includes the principle that a chief must consider the impact of decisions on", "correct": "seven generations to come.", "wrong": ["only immediate profit.", "personal legacy.", "military glory."] },
-          { start: "The council fire of the Haudenosaunee, kept burning at Onondaga, symbolizes that", "correct": "the confederacy is united, and decisions made together represent all five nations.", "wrong": ["one nation's dominance.", "temporary alliances.", "purely ceremonial unity."] },
+          { start: "The council fire of the Haudenosaunee, kept burning at Onondaga, symbolizes that", "correct": "decisions made together represent all five nations.", "wrong": ["one nation's dominance.", "temporary alliances.", "purely ceremonial unity."] },
           { start: "Iroquois leaders who made decisions without consulting the people risked", "correct": "losing their position and authority.", "wrong": ["gaining more power.", "being honored for strength.", "strengthening their leadership."] },
-          { start: "The Great Law of Peace provided mechanisms for resolving disputes between nations because the Haudenosaunee understood that", "correct": "internal conflict weakens the confederacy and makes it vulnerable to external enemies.", "wrong": ["conflict is inevitable.", "war strengthens nations.", "peaceful resolution is weakness."] }
+          { start: "The Great Law of Peace provided mechanisms for resolving disputes between nations because the Haudenosaunee understood that", "correct": "internal conflict weakens the confederacy.", "wrong": ["conflict is inevitable.", "war strengthens nations.", "peaceful resolution is weakness."] }
         ]
       },
       {
         name: "Haudenosaunee Governance & The Great Law of Peace",
         emoji: "⚖️",
         quotes: [
-          { start: "The Great Law of Peace is built on the principle that all people are born with equal rights because", "correct": "the Creator gave these rights to all humans, not just to rulers or elites.", "wrong": ["some are naturally superior.", "kings must rule.", "hierarchy is natural."] },
-          { start: "The three principles of the Haudenosaunee—peace, justice, and power—work together to create a system where", "correct": "strength serves justice, and justice serves the well-being of all people.", "wrong": ["power is used for domination.", "justice serves the powerful.", "peace means submission."] },
-          { start: "The Iroquois Confederacy inspired later democratic systems because it demonstrated that", "correct": "representative government with checks on power could create stability and peace.", "wrong": ["democratic principles are foreign.", "representation weakens nations.", "checks on power are unnecessary."] },
-          { start: "The Haudenosaunee required unanimous consent for major decisions because they believed that", "correct": "decisions supported by all nations are stronger and more likely to be honored.", "wrong": ["majority rule is better.", "quick decisions are best.", "consensus is impossible."] },
-          { start: "The Great Law of Peace established that each nation would maintain its own territory and govern its own people while", "correct": "respecting the autonomy and decisions of the other nations in matters that affect all.", "wrong": ["surrendering all power to a central authority.", "allowing one nation to dominate.", "eliminating local governance."] },
-          { start: "The Iroquois practice of taking decisions to the whole people, not just elites, shows that they valued", "correct": "the wisdom and input of all members of the nation.", "wrong": ["only leadership opinion.", "pure democracy without structure.", "the opinions of warriors alone."] },
-          { start: "The role of the Onondaga nation as keepers of the council fire demonstrates that", "correct": "even within a confederacy, one group can hold a trusted, neutral position that serves all.", "wrong": ["all nations are equal in all ways.", "no special role exists.", "one nation must dominate."] }
+          { start: "The Great Law of Peace is built on the principle that all people are born with equal rights because", "correct": "the Creator gave these rights to all humans.", "wrong": ["some are naturally superior.", "kings must rule.", "hierarchy is natural."] },
+          { start: "The three principles of the Haudenosaunee—peace, justice, and power—work together to create a system where", "correct": "strength serves justice.", "wrong": ["power is used for domination.", "justice serves the powerful.", "peace means submission."] },
+          { start: "The Iroquois Confederacy inspired later democratic systems because it demonstrated that representative government with checks on power could create", "correct": "stability and peace.", "wrong": ["democratic principles.", "chaos.", "checks on power are unnecessary."] },
+          { start: "The Haudenosaunee required unanimous consent for major decisions because they believed that", "correct": "decisions supported by all nations are stronger.", "wrong": ["majority rule is better.", "quick decisions are best.", "consensus is impossible."] },
+          { start: "The Great Law of Peace established that each nation would maintain its own territory and govern its own people while", "correct": "respecting the autonomy and decisions of the other nations.", "wrong": ["surrendering all power to a central authority.", "allowing one nation to dominate.", "eliminating local governance."] },
+          { start: "The Iroquois practice of taking decisions to the whole people, not just elites, shows that they valued", "correct": "the wisdom of all members of the nation.", "wrong": ["only leadership opinion.", "pure democracy without structure.", "the opinions of warriors alone."] },
+          { start: "The role of the Onondaga nation as keepers of the council fire demonstrates that even within a confederacy,", "correct": "one group can hold a neutral position that serves all.", "wrong": ["all nations are equal in all ways.", "no special role exists.", "one nation must dominate."] }
         ]
       },
       {
         name: "Haudenosaunee Women & the Clan Mothers",
         emoji: "👩",
         quotes: [
-          { start: "In Iroquois society, women hold significant power because they", "correct": "own the houses, control the cultivation of corn and food, elect and can remove leaders, and make major decisions.", "wrong": ["men allow them.", "they have no real authority.", "they only manage households."] },
-          { start: "The Clan Mothers of the Haudenosaunee have the authority to choose sachems (peace chiefs) and remove them from office because", "correct": "women are seen as the source of life and the guardians of the nation's future.", "wrong": ["men are weak.", "women are superior in all ways.", "it is ceremonial only."] },
-          { start: "Iroquois women's role in agriculture—cultivating the three sisters (corn, beans, squash)—gives them significant influence because", "correct": "control of food production translates to economic and political power in the society.", "wrong": ["agriculture is unimportant.", "women's work has no value.", "it is only domestic labor."] },
+          { start: "In Iroquois society, women hold significant power because they", "correct": "control the cultivation of corn and food and make major decisions.", "wrong": ["men allow them.", "they have no real authority.", "they only manage households."] },
+          { start: "The Clan Mothers of the Haudenosaunee have the authority to choose sachems (peace chiefs) and remove them from office because", "correct": "women are seen as the source of life.", "wrong": ["men are weak.", "women are superior in all ways.", "it is ceremonial only."] },
+          { start: "Iroquois women's role in agriculture—cultivating the three sisters (corn, beans, squash)—gives them significant influence because", "correct": "control of food production translates to economic power.", "wrong": ["agriculture is unimportant.", "women's work has no value.", "it is only domestic labor."] },
           { start: "The authority of Iroquois women to stop warriors from going to war demonstrates that", "correct": "the society valued peace and recognized women's stake in preventing loss of life.", "wrong": ["men were afraid of women.", "women controlled all decisions.", "warfare was unimportant."] },
-          { start: "Iroquois clan systems trace descent through the mother's line because", "correct": "the mother is the certain parent, and this system ensures stability and women's position in society.", "wrong": ["men are unimportant.", "fathers have no role.", "it is purely spiritual."] },
-          { start: "The respect shown to Iroquois women by men includes", "correct": "listening to their counsel, honoring their role as life-givers, and recognizing their economic contributions.", "wrong": ["submission to female authority.", "elimination of male roles.", "purely ceremonial respect."] }
+          { start: "Iroquois clan systems trace descent through the mother's line because", "correct": "this system ensures stability and women's position in society.", "wrong": ["men are unimportant.", "fathers have no role.", "it is purely spiritual."] },
+          { start: "The respect shown to Iroquois women by men includes", "correct": "listening to their counsel and recognizing their economic contributions.", "wrong": ["submission to female authority.", "elimination of male roles.", "purely ceremonial respect."] }
         ]
       },
       {
         name: "Haudenosaunee Elders & Oral Traditions",
         emoji: "🦉",
         quotes: [
-          { start: "In Haudenosaunee culture, elders are respected because they hold", "correct": "accumulated knowledge, spiritual understanding, and connection to ancestral wisdom.", "wrong": ["merely age alone.", "superstitious beliefs.", "no real authority."] },
-          { start: "The stories told by Haudenosaunee elders preserve knowledge about", "correct": "creation, the formation of the confederacy, moral lessons, and guidance for living in balance with nature.", "wrong": ["only entertainment.", "purely fictional tales.", "no practical wisdom."] },
-          { start: "The Thanksgiving Address (Ganohonyohon) recited by the Haudenosaunee gives thanks to all elements of creation in order to", "correct": "maintain awareness of interdependence and responsibility to all living things.", "wrong": ["only religious ritual.", "purely ceremonial.", "no practical importance."] },
-          { start: "Haudenosaunee oral tradition ensures that children learn the history of the confederacy and their nation because", "correct": "knowing one's history and identity strengthens cultural cohesion and guides future actions.", "wrong": ["only entertainment for children.", "no real educational value.", "written records are superior."] },
-          { start: "The role of grandparents in Haudenosaunee families includes", "correct": "teaching children stories, values, practical skills, and instilling cultural identity.", "wrong": ["no parenting role.", "only ceremonial position.", "diminished influence."] },
-          { start: "Haudenosaunee elders make important decisions about the community because they", "correct": "possess wisdom from lived experience and can see patterns across generations.", "wrong": ["are dominating.", "are resisting change.", "are purely ceremonial."] }
+          { start: "In Haudenosaunee culture, elders are respected because they hold", "correct": "connection to ancestral wisdom.", "wrong": ["merely age alone.", "superstitious beliefs.", "no real authority."] },
+          { start: "The stories told by Haudenosaunee elders preserve knowledge about", "correct": "guidance for living in balance with nature.", "wrong": ["only entertainment.", "purely fictional tales.", "no practical wisdom."] },
+          { start: "The Thanksgiving Address (Ganohonyohon) recited by the Haudenosaunee gives thanks to all elements of creation in order to", "correct": "maintain awareness of interdependence.", "wrong": ["only religious ritual.", "purely ceremonial.", "no practical importance."] },
+          { start: "Haudenosaunee oral tradition ensures that children learn the history of the confederacy and their nation because", "correct": "knowing one's history strengthens cultural cohesion.", "wrong": ["only entertainment for children.", "no real educational value.", "written records are superior."] },
+          { start: "The role of grandparents in Haudenosaunee families includes", "correct": "teaching children stories, values, and practical skills.", "wrong": ["no parenting role.", "only ceremonial position.", "diminished influence."] },
+          { start: "Haudenosaunee elders make important decisions about the community because they", "correct": "possess wisdom from lived experience.", "wrong": ["are dominating.", "are resisting change.", "are purely ceremonial."] }
         ]
       },
       {
         name: "Haudenosaunee Warfare & Peace",
         emoji: "⚔️",
         quotes: [
-          { start: "The Iroquois Confederacy, united under the Great Law of Peace, became a formidable military power because", "correct": "unity and coordinated defense allowed the five nations to resist enemies much larger in number.", "wrong": ["they were naturally superior warriors.", "they conquered for conquest's sake.", "they rejected peace entirely."] },
-          { start: "Iroquois women had the power to prevent wars or demand their continuation because", "correct": "the society recognized that war affects families and that women's voices must be heard in such decisions.", "wrong": ["women controlled everything.", "men were weak.", "it was purely symbolic."] },
-          { start: "The Iroquois practice of adopting captives into their nation shows that they understood", "correct": "that military power is not only about destroying enemies but also about building strength through adoption of capable people.", "wrong": ["they were merciful to all.", "adoption served no military purpose.", "cruelty was rejected entirely."] },
-          { start: "Iroquois warriors who killed in defense of the nation were expected to undergo purification rituals because", "correct": "the society recognized that taking life affects the spiritual as well as physical condition of the person.", "wrong": ["they were ashamed.", "they were considered unworthy.", "it was purely ceremonial."] },
-          { start: "The Haudenosaunee achieved military dominance in the Northeast not through conquest for territorial expansion, but by", "correct": "defending their interests, maintaining strategic alliances, and building a system that could withstand external pressure.", "wrong": ["pure aggression.", "superior weapons.", "numbers alone."] }
+          { start: "The Iroquois Confederacy, became powerful because", "correct": "they could resist enemies much larger in number.", "wrong": ["they were naturally superior warriors.", "they conquered for conquest's sake.", "they rejected peace entirely."] },
+          { start: "Iroquois women had the power to prevent wars or demand their continuation because", "correct": "the society recognized that war affects families.", "wrong": ["women controlled everything.", "men were weak.", "it was purely symbolic."] },
+          { start: "The Iroquois adopted captives to strengthen their power through", "correct": "adoption of capable people.", "wrong": ["slavery.", "no military purpose.", "cruelty."] },
+          { start: "Iroquois warriors who killed in defense of the nation were expected to undergo", "correct": "purification rituals.", "wrong": ["shame.", "ceremony.", "alone."] },
+          { start: "The Haudenosaunee achieved military dominance in the Northeast not through conquest for territorial expansion, but by", "correct": "building a system that could withstand external pressure.", "wrong": ["pure aggression.", "superior weapons.", "numbers alone."] }
         ]
       },
       {
         name: "Haudenosaunee Agriculture & Environmental Knowledge",
         emoji: "🌾",
         quotes: [
-          { start: "The Iroquois practice of cultivating the three sisters—corn, beans, and squash—demonstrates understanding that", "correct": "these plants work together: corn provides a stalk for beans to climb, beans fix nitrogen in soil, squash shades the ground.", "wrong": ["it is only traditional.", "no scientific principle exists.", "it is purely ceremonial."] },
-          { start: "Iroquois women's authority over agriculture comes from their role as cultivators and their knowledge of", "correct": "plant cycles, soil management, crop storage, and feeding the community.", "wrong": ["ceremonial authority.", "male allowance.", "no real power."] },
-          { start: "Haudenosaunee communities prepared for winter by", "correct": "storing corn, dried vegetables, and preserved foods, requiring careful planning and organization.", "wrong": ["hunting only.", "gathering without storage.", "having no foresight."] },
-          { start: "The Iroquois understanding of the natural world shows that", "correct": "humans must live in balance with nature, taking only what is needed and allowing ecosystems to regenerate.", "wrong": ["nature exists only for human use.", "balance is unnecessary.", "conservation is weakness."] },
-          { start: "Haudenosaunee food systems were sustainable because they", "correct": "used crops suited to the climate, practiced crop rotation, and did not deplete the soil.", "wrong": ["had no agricultural science.", "wasted resources.", "caused environmental damage."] }
+          { start: "The Iroquois practice of cultivating the three sisters—corn, beans, and squash—demonstrates understanding that", "correct": "these plants work together.", "wrong": ["it is only traditional.", "no scientific principle exists.", "it is purely ceremonial."] },
+          { start: "Iroquois women's authority over agriculture comes from their role as cultivators and their knowledge of", "correct": "plant cycles, soil management, crop storage.", "wrong": ["ceremonial authority.", "male allowance.", "no real power."] },
+          { start: "Haudenosaunee communities prepared for winter by", "correct": "storing corn, dried vegetables, and preserved foods.", "wrong": ["hunting only.", "gathering without storage.", "having no foresight."] },
+          { start: "The Iroquois understanding of the natural world shows that", "correct": "humans must live in balance with nature, taking only what is needed.", "wrong": ["nature exists only for human use.", "balance is unnecessary.", "conservation is weakness."] },
+          { start: "Haudenosaunee food systems were sustainable because they", "correct": "used crops suited to the climate.", "wrong": ["had no agricultural science.", "wasted resources.", "caused environmental damage."] }
         ]
       },
       {
         name: "Haudenosaunee Trade & Diplomacy",
         emoji: "💰",
         quotes: [
-          { start: "The Iroquois Confederacy's control of trade routes in the Northeast gave them economic and political influence because", "correct": "control of trade means wealth, and wealth translates to power in negotiating with other nations.", "wrong": ["they conquered all competitors.", "they rejected external trade.", "only military power mattered."] },
-          { start: "Haudenosaunee diplomacy was based on principles of respect and reciprocity because", "correct": "the confederacy understood that lasting alliances are built on mutual benefit, not force.", "wrong": ["they were weak.", "force was rejected.", "all nations were equal."] },
-          { start: "The Iroquois use of wampum—beaded belts—in treaties and exchanges served multiple purposes: recording agreements, honoring relationships, and", "correct": "establishing and confirming alliances and trade relationships.", "wrong": ["only decoration.", "purely spiritual items.", "no practical value."] },
-          { start: "Iroquois trading networks connected distant regions because", "correct": "the confederacy's stability and military power made travel through Iroquois territory safe and profitable.", "wrong": ["they were isolationist.", "trade was ceremonial.", "no real commerce existed."] }
+          { start: "The Iroquois Confederacy's control of trade routes in the Northeast gave them economic and political influence because", "correct": "control of trade means wealth.", "wrong": ["they conquered all competitors.", "they rejected external trade.", "only military power mattered."] },
+          { start: "Haudenosaunee diplomacy was based on principles of respect and reciprocity because the confederacy understood that lasting alliances are built on", "correct": "mutual benefit.", "wrong": ["force.", "power.", "nations."] },
+          { start: "The Iroquois use of wampum—beaded belts—in treaties and exchanges served multiple purposes: recording agreements, honoring relationships, and", "correct": "establishing alliances and trade relationships.", "wrong": ["only decoration.", "purely spiritual items.", "no practical value."] },
+          { start: "Iroquois trading networks connected distant regions because", "correct": "the confederacy's stability made travel through Iroquois territory safe.", "wrong": ["they were isolationist.", "trade was ceremonial.", "no real commerce existed."] }
         ]
       },
       {
         name: "Haudenosaunee Spiritual Beliefs & Practice",
         emoji: "🕯️",
         quotes: [
-          { start: "The Haudenosaunee belief in the Creator (Ganiodaio/the Good Mind) includes understanding that", "correct": "all humans possess the capacity to choose between good and evil, and this choice determines their path.", "wrong": ["humans are predetermined.", "spirituality is passive.", "ritual alone determines fate."] },
-          { start: "The Haudenosaunee midwinter festival (Ganyestawadoh) serves to", "correct": "renew the world, give thanks for survival through winter, and reset the spiritual calendar of the people.", "wrong": ["only celebrate.", "serve no purpose.", "be purely festive."] },
-          { start: "In Haudenosaunee spirituality, the concept of balance (the way of the two powers) represents", "correct": "the tension between opposing forces that must remain in equilibrium for health and harmony.", "wrong": ["one force triumphing.", "good defeating evil.", "no spiritual complexity."] },
-          { start: "Haudenosaunee ceremonies are conducted throughout the year because they", "correct": "maintain the connection between humans and the natural world, and give thanks for sustenance.", "wrong": ["are purely superstitious.", "serve no purpose.", "are only for entertainment."] },
-          { start: "The Haudenosaunee belief that plants, animals, and natural forces have spirits means that", "correct": "all beings deserve respect, and humans must act with humility and gratitude in taking from nature.", "wrong": ["nature is sacred but irrelevant.", "spirit does not require restraint.", "only humans matter."] }
+          { start: "The Haudenosaunee belief in the Creator (Ganiodaio/the Good Mind) includes understanding that", "correct": "all humans possess the capacity to choose between good and evil.", "wrong": ["humans are predetermined.", "spirituality is passive.", "ritual alone determines fate."] },
+          { start: "The Haudenosaunee midwinter festival (Ganyestawadoh) serves to", "correct": "reset the spiritual calendar of the people.", "wrong": ["only celebrate.", "serve no purpose.", "be purely festive."] },
+          { start: "In Haudenosaunee spirituality, the concept of balance represents the tension between opposing forces that must remain in", "correct": "equilibrium for health and harmony.", "wrong": ["one force triumphing.", "good defeating evil.", "no spiritual complexity."] },
+          { start: "Haudenosaunee ceremonies are conducted throughout the year because they", "correct": "maintain the connection between humans and the natural world.", "wrong": ["are purely superstitious.", "serve no purpose.", "are only for entertainment."] },
+          { start: "The Haudenosaunee belief that plants, animals, and natural forces have", "correct": "spirits.", "wrong": ["voice.", "restraint.", "only humans matter."] }
         ]
       },
       {
         name: "Haudenosaunee Social Structure & Family",
         emoji: "🏛️",
         quotes: [
-          { start: "In Iroquois society, the extended family household (longhouse) is the basic social and economic unit because", "correct": "multiple families living together share labor, resources, and child-rearing responsibilities.", "wrong": ["nuclear families are rejected.", "no variation exists.", "purely ceremonial structure."] },
-          { start: "The Haudenosaunee clan system organizes society through matrilineal descent and mutual obligation because", "correct": "this system creates networks of relatives across the nation and ensures support for all members.", "wrong": ["women are superior.", "men have no role.", "purely ceremonial."] },
-          { start: "Young men in Haudenosaunee society gain status and authority by", "correct": "demonstrating skill in hunting, warfare, oratory, and service to the community.", "wrong": ["birth alone.", "wealth accumulation.", "age only."] },
+          { start: "In Iroquois society, the extended family household (longhouse) is the basic social and economic unit because", "correct": "multiple families living together share labor, resources.", "wrong": ["nuclear families are rejected.", "no variation exists.", "purely ceremonial structure."] },
+          { start: "The Haudenosaunee clan system organizes society through matrilineal descent and mutual obligation because", "correct": "this system creates networks of relatives across the nation.", "wrong": ["women are superior.", "men have no role.", "purely ceremonial."] },
+          { start: "Young men in Haudenosaunee society gain status and authority by", "correct": "demonstrating skill in hunting, warfare.", "wrong": ["birth alone.", "wealth accumulation.", "age only."] },
           { start: "Children in Haudenosaunee society are raised to understand that they belong to", "correct": "their mother's clan first, then their nation, then the confederacy.", "wrong": ["only their nuclear family.", "purely the nation.", "no clan identity."] },
-          { start: "The role of uncles (mother's brothers) in Haudenosaunee family structure includes", "correct": "discipline, guidance, and ensuring that children learn their clan's responsibilities and traditions.", "wrong": ["no real parenting role.", "less important than fathers.", "ceremonial only."] }
+          { start: "The role of uncles (mother's brothers) in Haudenosaunee family structure includes", "correct": "discipline, guidance, and teaching traditions.", "wrong": ["no real parenting role.", "less important than fathers.", "ceremonial only."] }
         ]
       },
       {
         name: "Haudenosaunee Resistance & Cultural Survival",
         emoji: "🛡️",
         quotes: [
-          { start: "The Haudenosaunee maintained their political systems and cultural identity despite colonization because they", "correct": "protected their lands, maintained diplomatic relationships, and transmitted knowledge through families and communities.", "wrong": ["completely rejected outsiders.", "had military superiority.", "no change was necessary."] },
-          { start: "The principle that decisions must benefit seven generations to come allowed Haudenosaunee leaders to", "correct": "resist pressure for short-term gain that would harm future members of the nation.", "wrong": ["reject all change.", "live only for today.", "ignore the future."] },
-          { start: "Haudenosaunee communities continue to practice traditional governance and ceremonies today because these practices", "correct": "maintain cultural identity, strengthen community bonds, and honor ancestral knowledge.", "wrong": ["are purely nostalgic.", "serve no purpose.", "are outdated."] },
-          { start: "The Haudenosaunee Confederacy influenced democratic thought in North America because the Great Law of Peace demonstrated that", "correct": "representative government with checks and balances could function effectively and protect individual rights.", "wrong": ["democracy is European.", "no non-European democracy existed.", "the Haudenosaunee had no influence."] }
+          { start: "The Haudenosaunee maintained their political systems and cultural identity despite colonization because they", "correct": "protected their lands and transmitted knowledge through families.", "wrong": ["completely rejected outsiders.", "had military superiority.", "no change was necessary."] },
+          { start: "The principle that decisions must benefit seven generations to come allowed Haudenosaunee leaders to", "correct": "resist pressure for short-term gain.", "wrong": ["reject all change.", "live only for today.", "ignore the future."] },
+          { start: "Haudenosaunee communities continue to practice traditional governance and ceremonies today because these practices", "correct": "maintain cultural identity.", "wrong": ["are purely nostalgic.", "serve no purpose.", "are outdated."] },
+          { start: "The Haudenosaunee Confederacy influenced democratic thought in", "correct": "North America.", "wrong": ["Europe.", "Africa.", "South America."] }
         ]
       },
       {
         name: "Haudenosaunee Values & Philosophy",
         emoji: "🧠",
         quotes: [
-          { start: "The Haudenosaunee concept of peace is not the absence of conflict but", "correct": "the establishment of justice, harmony, and right relationships between individuals and nations.", "wrong": ["submission to authority.", "weakness.", "purely spiritual."] },
-          { start: "In Haudenosaunee philosophy, power (skenentoan) means the ability to", "correct": "accomplish good things, protect the people, and maintain balance and harmony.", "wrong": ["dominate others.", "accumulate wealth.", "display military strength."] },
-          { start: "The Haudenosaunee principle of consensus decision-making ensures that", "correct": "no major decision is made that leaves significant portions of the nation opposed or resentful.", "wrong": ["all agree on everything.", "no hierarchy exists.", "decisions are slow."] },
-          { start: "The welfare of the children guides Haudenosaunee decision-making because the nation believes that", "correct": "the responsibility to future generations must outweigh personal or short-term interests.", "wrong": ["children are powerless.", "only adults matter.", "the future is unimportant."] },
-          { start: "Haudenosaunee stories preserve wisdom about living in balance with nature and community because", "correct": "narratives transmit complex knowledge in memorable forms that guide behavior across generations.", "wrong": ["written law is superior.", "stories are only entertainment.", "wisdom cannot be taught."] }
+          { start: "The Haudenosaunee concept of peace is not the absence of conflict but", "correct": "the establishment of justice.", "wrong": ["submission to authority.", "weakness.", "purely spiritual."] },
+          { start: "In Haudenosaunee philosophy, power (skenentoan) means the ability to", "correct": "accomplish good things, protect the people.", "wrong": ["dominate others.", "accumulate wealth.", "display military strength."] },
+          { start: "The Haudenosaunee principle of consensus decision-making ensures that", "correct": "no major decision is made that leaves significant portions of the nation resentful.", "wrong": ["all agree on everything.", "no hierarchy exists.", "decisions are slow."] },
+          { start: "The welfare of the children guides Haudenosaunee decision-making because the nation believes that the responsibility to future generations must outweigh", "correct": "personal or short-term interests.", "wrong": ["children.", "adults.", "the future."] },
+          { start: "Haudenosaunee stories preserve wisdom about living in balance with", "correct": "nature and community.", "wrong": ["written law.", "stories.", "wisdom."] }
         ]
       }
     ]
@@ -7161,26 +7161,26 @@ export const CIVILIZATIONS = [
         quotes: [
           { start: "A pueblo leader's authority comes from the consent of the community and the respect of the", "correct": "council of elders.", "wrong": ["conquest and force.", "wealth accumulation.", "ritual power alone."] },
           { start: "The role of a pueblo governor is to ensure that", "correct": "the village remains in harmony with its people and the natural world.", "wrong": ["accumulate personal wealth.", "dominate neighboring pueblos.", "control all resources."] },
-          { start: "Pueblo communities survived in the harsh Southwest because they practiced", "correct": "cooperation, water conservation, and respect for limited resources.", "wrong": ["isolation from neighbors.", "conquest of rivals.", "pure military strength."] },
-          { start: "A wise pueblo leader understands that the community's survival depends on", "correct": "maintaining the balance between human needs and the land's capacity to provide.", "wrong": ["expanding territory endlessly.", "accumulating surplus.", "building monuments."] },
-          { start: "The pueblo system of governance, where decisions are made collectively, ensures that", "correct": "the needs of all members are considered and disagreements are resolved peacefully.", "wrong": ["one person rules absolutely.", "conflicts go unresolved.", "the majority is ignored."] },
+          { start: "Pueblo communities survived in the harsh Southwest because they practiced", "correct": "respect for limited resources.", "wrong": ["isolation from neighbors.", "conquest of rivals.", "pure military strength."] },
+          { start: "A wise pueblo leader understands that the community's survival depends on maintaining the balance between human needs and", "correct": "the land's capacity to provide.", "wrong": ["expanding territory endlessly.", "accumulating surplus.", "building monuments."] },
+          { start: "The pueblo system of governance, where decisions are made collectively, ensures that", "correct": "the needs of all members are considered.", "wrong": ["one person rules absolutely.", "conflicts go unresolved.", "the majority is ignored."] },
           { start: "A pueblo leader who ignores the council and the people's wishes will", "correct": "lose respect and authority.", "wrong": ["gain absolute power.", "rule more effectively.", "strengthen the community."] },
           { start: "The kiva—the ceremonial chamber—is central to pueblo governance because it is where", "correct": "leaders and community members gather to make important decisions and maintain spiritual unity.", "wrong": ["only priests meet.", "secrets are hidden.", "rituals are performed privately."] },
-          { start: "Pueblo communities value consensus because it", "correct": "strengthens unity and ensures that decisions reflect the will of the people.", "wrong": ["slows progress.", "prevents action.", "weakens leadership."] }
+          { start: "Pueblo communities value consensus because it", "correct": "strengthens unity.", "wrong": ["slows progress.", "prevents action.", "weakens leadership."] }
         ]
       },
       {
         name: "Pueblo Spiritual Leaders & Kachina Traditions",
         emoji: "🕯️",
         quotes: [
-          { start: "The Kachina ceremonies are central to pueblo spiritual life because they", "correct": "connect the people to the spirits, ensure rainfall, and reinforce community values.", "wrong": ["only entertain the people.", "serve no practical purpose.", "are purely theatrical."] },
-          { start: "Pueblo spiritual leaders understand that kachinas represent", "correct": "ancestral spirits and natural forces that influence the seasons, weather, and community wellbeing.", "wrong": ["only mythical beings.", "false idols.", "harmless entertainment."] },
-          { start: "The role of pueblo priests is to maintain the sacred balance by performing rituals that", "correct": "ensure rainfall, guide the seasons, and preserve the harmony between human and natural worlds.", "wrong": ["control the people through fear.", "accumulate personal power.", "hide knowledge from the community."] },
-          { start: "Pueblo spiritual knowledge is preserved through", "correct": "oral tradition, initiation into sacred societies, and participation in ceremonies.", "wrong": ["written texts alone.", "secret codices.", "purely individual experience."] },
-          { start: "The pueblo understanding of the spiritual world includes", "correct": "ancestors, nature spirits, and divine forces that guide and sustain life.", "wrong": ["only one supreme god.", "purely abstract philosophy.", "no real beliefs."] },
-          { start: "Pueblo sacred societies, like the Kiva societies, maintain community cohesion by", "correct": "transmitting knowledge, performing ceremonies, and guiding spiritual development.", "wrong": ["controlling the people.", "hiding secrets from the community.", "serving only the elite."] },
-          { start: "The pueblo relationship with the spiritual world is based on reciprocity—the people give to the spirits through ceremony, and the spirits provide", "correct": "rain, fertility, health, and guidance.", "wrong": ["only blessings.", "no material benefits.", "pure intangible rewards."] },
-          { start: "Pueblo religious practices emphasize that", "correct": "the sacred and the everyday are inseparable, and all actions must be undertaken with spiritual awareness.", "wrong": ["only ceremonies are sacred.", "daily life is purely secular.", "spirituality is private."] }
+          { start: "The Kachina ceremonies are central to pueblo spiritual life because they", "correct": "connect the people to the spirits.", "wrong": ["only entertain the people.", "serve no practical purpose.", "are purely theatrical."] },
+          { start: "Pueblo spiritual leaders understand that kachinas represent", "correct": "ancestral spirits and natural forces.", "wrong": ["only mythical beings.", "false idols.", "harmless entertainment."] },
+          { start: "The role of pueblo priests is to maintain the sacred balance by performing rituals that", "correct": "preserve the harmony between human and natural worlds.", "wrong": ["control the people through fear.", "accumulate personal power.", "hide knowledge from the community."] },
+          { start: "Pueblo spiritual knowledge is preserved through", "correct": "participation in ceremonies.", "wrong": ["written texts alone.", "secret codices.", "purely individual experience."] },
+          { start: "The pueblo understanding of the spiritual world includes", "correct": "divine forces that guide and sustain life.", "wrong": ["only one supreme god.", "purely abstract philosophy.", "no real beliefs."] },
+          { start: "Pueblo sacred societies, like the Kiva societies, maintain community cohesion by", "correct": "transmitting knowledge, performing ceremonies.", "wrong": ["controlling the people.", "hiding secrets from the community.", "serving only the elite."] },
+          { start: "The pueblo relationship with the spiritual world is based on reciprocity—the people give to the spirits through ceremony, and the spirits provide", "correct": "rain, fertility, and guidance.", "wrong": ["only blessings.", "no material benefits.", "pure intangible rewards."] },
+          { start: "Pueblo religious practices emphasize that", "correct": "all actions must be undertaken with spiritual awareness.", "wrong": ["only ceremonies are sacred.", "daily life is purely secular.", "spirituality is private."] }
         ]
       },
       {
@@ -7189,85 +7189,85 @@ export const CIVILIZATIONS = [
         quotes: [
           { start: "Pueblo farmers developed dry farming techniques that allowed them to", "correct": "grow corn, beans, and squash in an arid environment with minimal rainfall.", "wrong": ["reject innovation.", "ignore environmental challenges.", "rely only on gathering."] },
           { start: "The pueblo understanding of weather patterns and plant cycles comes from", "correct": "centuries of observation and accumulated knowledge passed from generation to generation.", "wrong": ["only spiritual intuition.", "random trial and error.", "no real knowledge."] },
-          { start: "Pueblo agricultural practices respect the land by", "correct": "rotating crops, allowing fields to rest, and maintaining sustainable yields.", "wrong": ["exploiting the soil.", "maximizing short-term gain.", "ignoring environmental impact."] },
-          { start: "The three-sisters agricultural system—corn, beans, and squash planted together—demonstrates that pueblo farmers understood", "correct": "how plants work together to improve soil, provide mutual support, and maximize nutrition.", "wrong": ["random planting.", "no agricultural science.", "only superstition."] },
-          { start: "Pueblo water management systems, including check dams and terraces, show that farmers", "correct": "understood how to capture water, reduce runoff, and improve soil in arid regions.", "wrong": ["had no engineering knowledge.", "relied only on rainfall.", "wasted resources."] },
+          { start: "Pueblo agricultural practices respect the land by", "correct": "rotating crops, allowing fields to rest.", "wrong": ["exploiting the soil.", "maximizing short-term gain.", "ignoring environmental impact."] },
+          { start: "The three-sisters agricultural system—corn, beans, and squash planted together—demonstrates that pueblo farmers understood", "correct": "how plants work together to improve soil.", "wrong": ["random planting.", "no agricultural science.", "only superstition."] },
+          { start: "Pueblo water management systems, including check dams and terraces, show that farmers", "correct": "understood how to capture water.", "wrong": ["had no engineering knowledge.", "relied only on rainfall.", "wasted resources."] },
           { start: "The pueblo relationship with nature is based on the principle that", "correct": "humans are part of the ecosystem and must live in balance with it.", "wrong": ["humans are superior to nature.", "nature exists for human exploitation.", "balance is unnecessary."] },
-          { start: "Pueblo communities prepare for drought by", "correct": "storing surplus crops, maintaining diverse food sources, and practicing water conservation.", "wrong": ["relying only on current harvest.", "ignoring seasonal variations.", "hoarding without limit."] }
+          { start: "Pueblo communities prepare for drought by", "correct": "storing surplus crops, maintaining diverse food sources.", "wrong": ["relying only on current harvest.", "ignoring seasonal variations.", "hoarding without limit."] }
         ]
       },
       {
         name: "Pueblo Architecture & Settlement Planning",
         emoji: "🏘️",
         quotes: [
-          { start: "Pueblo dwellings are built in compact clusters because this design", "correct": "provides defense, conserves heat, and facilitates community interaction and mutual support.", "wrong": ["shows poverty.", "indicates lack of skill.", "prevents individual development."] },
-          { start: "The pueblo use of adobe and stone reflects understanding of", "correct": "local materials, climate conditions, and the need for structures that are durable and thermally efficient.", "wrong": ["only poverty and lack of options.", "no real architectural knowledge.", "random building methods."] },
-          { start: "Pueblo towns built on mesas and plateaus demonstrate that people understood", "correct": "defensibility, water access, and the advantages of elevated locations.", "wrong": ["no strategic thinking.", "purely ceremonial location.", "only spiritual factors."] },
-          { start: "The kiva—built partially underground—serves both practical and spiritual purposes: it", "correct": "stays warm in winter, cool in summer, and provides a sacred space for community and spiritual activities.", "wrong": ["only serves ceremonial purposes.", "has no practical value.", "is purely a meeting place."] },
-          { start: "Pueblo town planning, with central plazas for ceremonies and markets, shows that", "correct": "communities valued gathering spaces that strengthened social bonds and facilitated trade and ceremony.", "wrong": ["no planning existed.", "only religious considerations mattered.", "practical concerns were ignored."] }
+          { start: "Pueblo dwellings are built in compact clusters because this design", "correct": "provides defense and facilitates community interaction and mutual support.", "wrong": ["shows poverty.", "indicates lack of skill.", "prevents individual development."] },
+          { start: "The pueblo use of adobe and stone reflects understanding of", "correct": "the need for structures that are durable and thermally efficient.", "wrong": ["only poverty and lack of options.", "no real architectural knowledge.", "random building methods."] },
+          { start: "Pueblo towns built on mesas and plateaus demonstrate that people understood", "correct": "the advantages of elevated locations.", "wrong": ["no strategic thinking.", "purely ceremonial location.", "only spiritual factors."] },
+          { start: "The kiva—built partially underground—serves both practical and spiritual purposes: it", "correct": "provides a sacred space for community.", "wrong": ["only serves ceremonial purposes.", "has no practical value.", "is purely a meeting place."] },
+          { start: "Pueblo town planning, with central plazas for ceremonies and markets, shows that", "correct": "communities valued gathering spaces.", "wrong": ["no planning existed.", "only religious considerations mattered.", "practical concerns were ignored."] }
         ]
       },
       {
         name: "Pueblo Trade & Exchange Networks",
         emoji: "💰",
         quotes: [
-          { start: "Archaeological evidence shows pueblo communities participated in extensive trade networks because they", "correct": "exchanged agricultural products, pottery, and crafts for materials and goods from distant regions.", "wrong": ["were isolated.", "rejected outside contact.", "had no goods to trade."] },
-          { start: "Pueblo potters developed distinctive styles that allowed their work to be recognized and valued in distant trade networks because", "correct": "quality, artistry, and consistent technique made pueblo pottery highly desirable.", "wrong": ["it was the only pottery available.", "trade was purely ceremonial.", "quality did not matter."] },
+          { start: "Archaeological evidence shows pueblo communities participated in extensive trade networks because they", "correct": "exchanged agricultural products and crafts.", "wrong": ["were isolated.", "rejected outside contact.", "had no goods to trade."] },
+          { start: "Pueblo potters developed distinctive styles that allowed their work to be recognized and valued in distant trade networks because", "correct": "consistent technique made pueblo pottery highly desirable.", "wrong": ["it was the only pottery available.", "trade was purely ceremonial.", "quality did not matter."] },
           { start: "Pueblo trade with coastal peoples provided access to", "correct": "shells, sea products, and items unavailable in the inland Southwest.", "wrong": ["only luxury goods.", "unnecessary imports.", "purely ceremonial items."] },
-          { start: "The exchange of goods between pueblo communities strengthened relationships because it", "correct": "created interdependence, mutual benefit, and peaceful ties between neighboring groups.", "wrong": ["demonstrated dominance.", "required submission.", "prevented cooperation."] }
+          { start: "The exchange of goods between pueblo communities strengthened relationships because it", "correct": "peaceful ties between neighboring groups.", "wrong": ["demonstrated dominance.", "required submission.", "prevented cooperation."] }
         ]
       },
       {
         name: "Pueblo Artistry & Craftsmanship",
         emoji: "🎨",
         quotes: [
-          { start: "Pueblo pottery is made by hand without a potter's wheel because artisans developed", "correct": "coiling techniques and surface decoration methods that produce strong, beautiful vessels.", "wrong": ["they lacked technology.", "the method is inferior.", "it shows primitiveness."] },
-          { start: "The geometric designs on pueblo pottery represent", "correct": "sacred symbols, natural patterns, and spiritual meanings important to the community.", "wrong": ["only decorative patterns.", "no real meaning.", "random designs."] },
-          { start: "Pueblo weavers create textiles using traditional methods because these techniques", "correct": "produce durable, beautiful fabrics and transmit cultural knowledge through artistic practice.", "wrong": ["no alternatives exist.", "modern methods are rejected.", "they lack innovation."] },
-          { start: "The high quality of pueblo crafts indicates that artisans", "correct": "held important status in the community and possessed specialized knowledge transmitted through apprenticeship.", "wrong": ["were isolated workers.", "had low social value.", "worked randomly without training."] },
-          { start: "Pueblo artistic traditions persist because they are seen as", "correct": "expressions of cultural identity, spiritual connection, and family heritage.", "wrong": ["only for sale.", "purely commercial.", "merely nostalgic."] }
+          { start: "Pueblo pottery is made by hand without a potter's wheel because artisans developed", "correct": "coiling techniques and surface decoration methods.", "wrong": ["they lacked technology.", "the method is inferior.", "it shows primitiveness."] },
+          { start: "The geometric designs on pueblo pottery represent", "correct": "sacred symbols, natural patterns, and spiritual meanings.", "wrong": ["only decorative patterns.", "no real meaning.", "random designs."] },
+          { start: "Pueblo weavers create textiles using traditional methods because these techniques", "correct": "produce durable, beautiful fabrics.", "wrong": ["no alternatives exist.", "modern methods are rejected.", "they lack innovation."] },
+          { start: "The high quality of pueblo crafts indicates that artisans", "correct": "held important status in the community.", "wrong": ["were isolated workers.", "had low social value.", "worked randomly without training."] },
+          { start: "Pueblo artistic traditions persist because they are seen as", "correct": "expressions of cultural identity.", "wrong": ["only for sale.", "purely commercial.", "merely nostalgic."] }
         ]
       },
       {
         name: "Pueblo Response to External Pressures",
         emoji: "🛡️",
         quotes: [
-          { start: "When Spanish colonizers arrived, pueblo communities responded by", "correct": "sometimes accepting Christianity while maintaining traditional practices—a strategy of cultural preservation through adaptation.", "wrong": ["complete surrender.", "violent rejection.", "complete abandonment of tradition."] },
-          { start: "The Pueblo Revolt of 1680 shows that pueblo peoples", "correct": "united across different communities to resist colonial oppression and reclaim their autonomy.", "wrong": ["passively accepted colonization.", "had no capacity to organize.", "were naturally submissive."] },
-          { start: "Pueblo communities maintained their cultural identity despite centuries of colonization because they", "correct": "protected sacred knowledge, continued ceremonies, and passed traditions to younger generations.", "wrong": ["isolated themselves completely.", "had no real culture to preserve.", "easily adopted all foreign ways."] },
-          { start: "The pueblo strategy of cultural survival involved", "correct": "selective adoption of external elements while preserving core spiritual and social practices.", "wrong": ["total rejection of change.", "complete cultural erasure.", "no resistance."] }
+          { start: "When Spanish colonizers arrived, pueblo communities responded by sometimes accepting Christianity while", "correct": "maintaining traditional practices.", "wrong": ["complete surrender.", "violent rejection.", "complete abandonment of tradition."] },
+          { start: "The Pueblo Revolt of 1680 shows that pueblo peoples", "correct": "united across different communities to resist colonial oppression.", "wrong": ["passively accepted colonization.", "had no capacity to organize.", "were naturally submissive."] },
+          { start: "Pueblo communities maintained their cultural identity despite centuries of colonization because they", "correct": "protected sacred knowledge and passed traditions to younger generations.", "wrong": ["isolated themselves completely.", "had no real culture to preserve.", "easily adopted all foreign ways."] },
+          { start: "The pueblo strategy of cultural survival involved", "correct": "selective adoption of external elements.", "wrong": ["total rejection of change.", "complete cultural erasure.", "no resistance."] }
         ]
       },
       {
         name: "Pueblo Values & Social Organization",
         emoji: "🏛️",
         quotes: [
-          { start: "Pueblo society emphasizes the community above the individual because", "correct": "survival in a harsh environment depends on cooperation, shared resources, and collective decision-making.", "wrong": ["individuals have no value.", "all are identical.", "leadership is absent."] },
-          { start: "The pueblo concept of wealth differs from European models because it is measured by", "correct": "community resources, social relationships, generosity, and spiritual well-being rather than individual accumulation.", "wrong": ["pure material possession.", "military power.", "land area controlled."] },
-          { start: "Pueblo women hold important roles in society including", "correct": "managing households, agriculture, pottery production, and participating in community decisions and ceremonies.", "wrong": ["servitude alone.", "no authority.", "only domestic work without influence."] },
-          { start: "Pueblo elders are respected because they", "correct": "hold accumulated knowledge, guide younger generations, and maintain connection to ancestral traditions.", "wrong": ["control all resources.", "rule by authority alone.", "have supernatural power."] },
-          { start: "Pueblo initiation ceremonies serve to", "correct": "transmit sacred knowledge, mark life transitions, and integrate individuals into the community and spiritual world.", "wrong": ["only separate groups.", "exclude outsiders.", "serve no practical purpose."] },
-          { start: "The pueblo understanding of kinship extends beyond blood relations to include", "correct": "clan relationships, ceremonial relationships, and spiritual connections that create complex social bonds.", "wrong": ["only nuclear families.", "purely biological relationships.", "no social structure."] }
+          { start: "Pueblo society emphasizes the community above the individual because", "correct": "survival in a harsh environment depends on cooperation.", "wrong": ["individuals have no value.", "all are identical.", "leadership is absent."] },
+          { start: "The pueblo concept of wealth differs from European models because it is measured by", "correct": "spiritual well-being rather than individual accumulation.", "wrong": ["pure material possession.", "military power.", "land area controlled."] },
+          { start: "Pueblo women hold important roles in society including", "correct": "managing households and participating in community decisions and ceremonies.", "wrong": ["servitude alone.", "no authority.", "only domestic work without influence."] },
+          { start: "Pueblo elders are respected because they", "correct": "hold accumulated knowledge.", "wrong": ["control all resources.", "rule by authority alone.", "have supernatural power."] },
+          { start: "Pueblo initiation ceremonies serve to", "correct": "transmit sacred knowledge.", "wrong": ["only separate groups.", "exclude outsiders.", "serve no practical purpose."] },
+          { start: "The pueblo understanding of kinship extends beyond blood relations to include", "correct": "spiritual connections that create complex social bonds.", "wrong": ["only nuclear families.", "purely biological relationships.", "no social structure."] }
         ]
       },
       {
         name: "Pueblo Oral History & Cultural Knowledge",
         emoji: "📜",
         quotes: [
-          { start: "Pueblo knowledge is transmitted through stories, ceremonies, and oral tradition because this method", "correct": "preserves cultural values, teaches practical skills, and maintains spiritual connections across generations.", "wrong": ["written records do not exist.", "they reject written knowledge.", "oral tradition is inferior."] },
-          { start: "Pueblo storytelling includes narratives of", "correct": "creation, emergence, spiritual beings, ancestral deeds, and lessons about living in harmony with the land.", "wrong": ["only entertainment.", "purely fictional tales.", "no spiritual significance."] },
-          { start: "A pueblo person who knows the stories and ceremonies of their community maintains", "correct": "connection to their ancestors, their land, and their spiritual and cultural identity.", "wrong": ["only entertainment value.", "no real importance.", "nothing of substance."] },
-          { start: "Pueblo oral traditions preserve knowledge about", "correct": "plant and animal behavior, weather patterns, healing practices, and the consequences of human actions.", "wrong": ["only mythology.", "no practical information.", "purely spiritual matters."] }
+          { start: "Pueblo knowledge is transmitted through stories, ceremonies, and oral tradition because this method", "correct": "preserves cultural values.", "wrong": ["written records do not exist.", "they reject written knowledge.", "oral tradition is inferior."] },
+          { start: "Pueblo storytelling includes narratives of", "correct": "creation, and lessons about living in harmony with the land.", "wrong": ["only entertainment.", "purely fictional tales.", "no spiritual significance."] },
+          { start: "A pueblo person who knows the stories and ceremonies of their community maintains", "correct": "connection to their ancestors.", "wrong": ["only entertainment value.", "no real importance.", "nothing of substance."] },
+          { start: "Pueblo oral traditions preserve knowledge about", "correct": "plant and animal behavior and the consequences of human actions.", "wrong": ["only mythology.", "no practical information.", "purely spiritual matters."] }
         ]
       },
       {
         name: "Pueblo Relationship with the Land",
         emoji: "🌿",
         quotes: [
-          { start: "Pueblo peoples understand the land as", "correct": "a living entity deserving respect, care, and reciprocal relationship.", "wrong": ["a resource for exploitation.", "something to be conquered.", "purely economic value."] },
-          { start: "Sacred places in pueblo geography—springs, mesas, caves—are important because they", "correct": "connect the people to their history, their ancestors, and the spiritual forces that sustain life.", "wrong": ["have only ceremonial value.", "are purely symbolic.", "serve no practical purpose."] },
-          { start: "Pueblo stewardship of the land demonstrates that", "correct": "sustainable practices and respect for nature create abundance and stability for present and future generations.", "wrong": ["land conservation is purely idealistic.", "practical concerns outweigh environmental care.", "balance is impossible."] },
-          { start: "The pueblo return to traditional lands after forced removal shows that", "correct": "connection to specific places is essential to cultural identity and spiritual wellbeing.", "wrong": ["they could thrive anywhere.", "the land is unimportant.", "only people matter."] }
+          { start: "Pueblo peoples understand the land as", "correct": "a living entity deserving respect and reciprocal relationship.", "wrong": ["a resource for exploitation.", "something to be conquered.", "purely economic value."] },
+          { start: "Sacred places in pueblo geography—springs, mesas, caves—are important because they connect the people to their history and", "correct": "the spiritual forces that sustain life.", "wrong": ["have only ceremonial value.", "are purely symbolic.", "serve no practical purpose."] },
+          { start: "Pueblo stewardship of the land demonstrates that", "correct": "respect for nature create abundance and stability.", "wrong": ["land conservation is purely idealistic.", "practical concerns outweigh environmental care.", "balance is impossible."] },
+          { start: "The pueblo return to traditional lands after forced removal shows that connection to specific places", "correct": "is essential to cultural identity.", "wrong": ["could thrive anywhere.", "is unimportant.", "matter."] }
         ]
       }
     ]
