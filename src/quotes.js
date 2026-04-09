@@ -7286,11 +7286,11 @@ export const CIVILIZATIONS = [
         quotes: [
           { start: "The precision of Tiwanaku's stonework demonstrates that the builders possessed", "correct": "advanced mathematical knowledge and engineering skill.", "wrong": ["supernatural power.", "unlimited labor.", "simple techniques."] },
           { start: "The construction of the Gateway of the Sun required", "correct": "careful planning, skilled labor, and an understanding of stone properties.", "wrong": ["only ritual knowledge.", "supernatural assistance.", "brute force alone."] },
-          { start: "Tiwanaku's architects aligned buildings with celestial events because they", "correct": "understood astronomy and believed the cosmos ordered human society.", "wrong": ["had no other knowledge.", "were trying to summon gods.", "feared the sky."] },
-          { start: "The terraced agricultural fields around Tiwanaku show that the engineers understood", "correct": "water management, soil preservation, and maximizing crop yields.", "wrong": ["random design.", "only ritual purposes.", "no practical knowledge."] },
-          { start: "The transport of massive stone blocks to Tiwanaku required", "correct": "organized labor, ingenious techniques, and understanding of leverage and friction.", "wrong": ["supernatural power.", "enslaved populations alone.", "simple rolling methods."] },
-          { start: "Tiwanaku's urban planning reflects a society that valued", "correct": "order, symmetry, and the integration of ceremonial and practical spaces.", "wrong": ["only ritual.", "chaos and randomness.", "purely defensive layout."] },
-          { start: "The construction techniques used at Tiwanaku prove that the civilization possessed", "correct": "sophisticated knowledge of materials, tools, and organizational systems.", "wrong": ["no real skill.", "only imitation of earlier cultures.", "no innovation."] },
+          { start: "Tiwanaku's architects aligned buildings with celestial events because they understood astronomy and", "correct": "believed the cosmos ordered human society.", "wrong": ["had no other knowledge.", "were trying to summon gods.", "feared the sky."] },
+          { start: "The terraced agricultural fields around Tiwanaku show that the engineers understood", "correct": "water management and maximizing crop yields.", "wrong": ["random design.", "only ritual purposes.", "no practical knowledge."] },
+          { start: "The transport of massive stone blocks to Tiwanaku required", "correct": "understanding of leverage and friction.", "wrong": ["supernatural power.", "enslaved populations alone.", "simple rolling methods."] },
+          { start: "Tiwanaku's urban planning reflects a society that valued", "correct": "the integration of ceremonial and practical spaces.", "wrong": ["only ritual.", "chaos and randomness.", "purely defensive layout."] },
+          { start: "The construction techniques used at Tiwanaku prove that the civilization possessed", "correct": "sophisticated knowledge of materials.", "wrong": ["no real skill.", "only imitation of earlier cultures.", "no innovation."] },
           { start: "The durability of Tiwanaku's structures demonstrates that", "correct": "quality craftsmanship and proper technique create works that outlast centuries.", "wrong": ["only ritual makes structures last.", "materials are unimportant.", "luck determines survival."] }
         ]
       },
@@ -7300,11 +7300,11 @@ export const CIVILIZATIONS = [
         quotes: [
           { start: "The religious iconography of Tiwanaku suggests that the civilization worshipped", "correct": "creator deities, sky gods, and nature spirits tied to the Andes and Lake Titicaca.", "wrong": ["only war gods.", "no spiritual system.", "exclusively local spirits."] },
           { start: "The Staff God depicted on the Gateway of the Sun represents", "correct": "a supreme deity or creator figure central to Tiwanaku religious belief.", "wrong": ["only a royal figure.", "a military commander.", "a foreign god."] },
-          { start: "Tiwanaku's religious practices likely included", "correct": "ceremonial feasting, ritual processions, and astronomical observations tied to seasonal cycles.", "wrong": ["only human sacrifice.", "secret rituals.", "pure warfare rituals."] },
+          { start: "Tiwanaku's religious practices likely included", "correct": "astronomical observations tied to seasonal cycles.", "wrong": ["only human sacrifice.", "secret rituals.", "pure warfare rituals."] },
           { start: "The sacred nature of Lake Titicaca to Tiwanaku peoples shows that", "correct": "water, fertility, and natural phenomena were central to their cosmology.", "wrong": ["they had no connection to nature.", "only land mattered.", "water was feared."] },
           { start: "Tiwanaku's religious art suggests that", "correct": "complex mythology and a hierarchical pantheon of deities existed.", "wrong": ["religion was simple.", "no spiritual system developed.", "only shamanism existed."] },
-          { start: "The ritual use of Tiwanaku's public spaces indicates that", "correct": "large gatherings for ceremonies reinforced social cohesion and religious authority.", "wrong": ["only rulers gathered.", "no communal rituals existed.", "private worship dominated."] },
-          { start: "Tiwanaku's spiritual leaders likely", "correct": "interpreted astronomical events and guided the civilization's ceremonial calendar.", "wrong": ["had no real authority.", "were pure shamans.", "did not influence society."] }
+          { start: "The ritual use of Tiwanaku's public spaces indicates that", "correct": "large gatherings for ceremonies reinforced social cohesion.", "wrong": ["only rulers gathered.", "no communal rituals existed.", "private worship dominated."] },
+          { start: "Tiwanaku's spiritual leaders likely", "correct": "interpreted astronomical events.", "wrong": ["had no real authority.", "were pure shamans.", "did not influence society."] }
         ]
       },
       {
@@ -7312,42 +7312,42 @@ export const CIVILIZATIONS = [
         emoji: "👑",
         quotes: [
           { start: "Tiwanaku's size and complexity indicate that the civilization was led by", "correct": "an organized elite who coordinated labor and distributed resources.", "wrong": ["only spiritual leaders.", "no real government.", "completely egalitarian."] },
-          { start: "The ability to construct monumental buildings shows that Tiwanaku's leaders could", "correct": "mobilize vast labor forces and allocate substantial resources.", "wrong": ["command through fear alone.", "rely only on volunteer work.", "do nothing impressive."] },
-          { start: "Tiwanaku's expansion of influence across the southern Andes required", "correct": "military strength, diplomatic skill, and control of valuable resources like tin and copper.", "wrong": ["only cultural prestige.", "no real power.", "pure spiritual influence."] },
-          { start: "A Tiwanaku leader's authority was based on their ability to", "correct": "organize society, maintain order, and ensure prosperity through ritual and administration.", "wrong": ["pure divine right.", "military conquest alone.", "ritual knowledge only."] },
-          { start: "The hierarchical layout of Tiwanaku's monumental centers suggests that", "correct": "elite individuals controlled access to sacred spaces and religious ceremonies.", "wrong": ["no hierarchy existed.", "all had equal access.", "no social structure."] },
-          { start: "Tiwanaku's influence over surrounding regions was maintained through", "correct": "control of trade routes, military presence, and religious authority.", "wrong": ["only peaceful trade.", "no military power.", "purely cultural dominance."] }
+          { start: "The ability to construct monumental buildings shows that Tiwanaku's leaders could", "correct": "mobilize vast labor forces.", "wrong": ["command through fear alone.", "rely only on volunteer work.", "do nothing impressive."] },
+          { start: "Tiwanaku's expansion of influence across the southern Andes required", "correct": "control of valuable resources like tin and copper.", "wrong": ["only cultural prestige.", "no real power.", "pure spiritual influence."] },
+          { start: "A Tiwanaku leader's authority was based on their ability to", "correct": "organize society and ensure prosperity through ritual and administration.", "wrong": ["pure divine right.", "military conquest alone.", "ritual knowledge only."] },
+          { start: "The hierarchical layout of Tiwanaku's monumental centers suggests that", "correct": "elite individuals controlled access to sacred spaces.", "wrong": ["no hierarchy existed.", "all had equal access.", "no social structure."] },
+          { start: "Tiwanaku's influence over surrounding regions was maintained through", "correct": "control of trade routes.", "wrong": ["only peaceful trade.", "no military power.", "purely cultural dominance."] }
         ]
       },
       {
         name: "Tiwanaku Agriculture & Water Management",
         emoji: "🌾",
         quotes: [
-          { start: "Tiwanaku's survival at high altitude was possible because farmers developed", "correct": "sophisticated terracing systems and understanding of altitude-specific crops.", "wrong": ["only luck.", "imported food.", "no innovation."] },
-          { start: "The raised field agricultural system around Lake Titicaca shows that Tiwanaku peoples understood", "correct": "water management, soil improvement, and maximizing yields in challenging terrain.", "wrong": ["only ritual agriculture.", "basic farming only.", "no agricultural innovation."] },
-          { start: "Tiwanaku's prosperity depended on managing the resources of both", "correct": "the highlands and the lake, using different crops and animals appropriately.", "wrong": ["a single resource.", "only trade.", "only local resources."] },
-          { start: "The labor required to build and maintain Tiwanaku's agricultural infrastructure required", "correct": "communal cooperation, skilled engineering, and long-term planning.", "wrong": ["enslaved populations.", "no skill.", "only individual effort."] },
-          { start: "Tiwanaku's agricultural practices were sustainable because they", "correct": "worked with local climate and geography rather than against natural limitations.", "wrong": ["rejected all innovation.", "wasted resources.", "caused environmental damage."] }
+          { start: "Tiwanaku's survival at high altitude was possible because farmers developed", "correct": "sophisticated terracing systems.", "wrong": ["only luck.", "imported food.", "no innovation."] },
+          { start: "The raised field agricultural system around Lake Titicaca shows that Tiwanaku peoples understood", "correct": "water management and soil improvement.", "wrong": ["only ritual agriculture.", "basic farming only.", "no agricultural innovation."] },
+          { start: "Tiwanaku's prosperity depended on managing the resources of both", "correct": "the highlands and the lake.", "wrong": ["a single resource.", "only trade.", "only local resources."] },
+          { start: "The labor required to build and maintain Tiwanaku's agricultural infrastructure required", "correct": "communal cooperation and long-term planning.", "wrong": ["enslaved populations.", "no skill.", "only individual effort."] },
+          { start: "Tiwanaku's agricultural practices were sustainable because they", "correct": "worked with local climate rather than against natural limitations.", "wrong": ["rejected all innovation.", "wasted resources.", "caused environmental damage."] }
         ]
       },
       {
         name: "Tiwanaku Trade & Economic System",
         emoji: "💰",
         quotes: [
-          { start: "Tiwanaku's control of valuable resources like copper, tin, and obsidian allowed it to", "correct": "establish trade networks across the Andes and exercise economic influence.", "wrong": ["isolate from neighbors.", "dominate through conquest alone.", "rely purely on farming."] },
+          { start: "Tiwanaku's control of valuable resources like copper, tin, and obsidian allowed it to", "correct": "establish trade networks across the Andes.", "wrong": ["isolate from neighbors.", "dominate through conquest alone.", "rely purely on farming."] },
           { start: "Archaeological evidence shows Tiwanaku goods reached distant regions because", "correct": "the civilization was integrated into extensive trade networks across South America.", "wrong": ["they conquered all territories.", "trade was forbidden.", "goods traveled randomly."] },
-          { start: "Tiwanaku merchants and traders likely", "correct": "exchanged Andean goods for resources from the coast, jungle, and other regions.", "wrong": ["only raided neighbors.", "rejected all external trade.", "never left the highlands."] },
-          { start: "The economic power of Tiwanaku derived from", "correct": "control of resources, skilled craftspeople, and participation in long-distance trade.", "wrong": ["military conquest alone.", "theft and plunder.", "no real commerce."] }
+          { start: "Tiwanaku merchants and traders likely", "correct": "exchanged Andean goods for resources from other regions.", "wrong": ["only raided neighbors.", "rejected all external trade.", "never left the highlands."] },
+          { start: "The economic power of Tiwanaku derived from", "correct": "control of resources and participation in long-distance trade.", "wrong": ["military conquest alone.", "theft and plunder.", "no real commerce."] }
         ]
       },
       {
         name: "Tiwanaku Craftspeople & Artistic Traditions",
         emoji: "🎨",
         quotes: [
-          { start: "The quality of Tiwanaku textiles, pottery, and metalwork indicates that", "correct": "skilled artisans held important status and possessed generations of technical knowledge.", "wrong": ["crafts were primitive.", "no real skill existed.", "craftsmanship was unimportant."] },
-          { start: "Tiwanaku's distinctive artistic style, found across the region, shows that", "correct": "a shared cultural tradition unified distant communities under Tiwanaku influence.", "wrong": ["all art was identical.", "local variation did not exist.", "art had no meaning."] },
-          { start: "The symbolic motifs repeated in Tiwanaku art suggest that", "correct": "a coherent religious and cosmological worldview was shared across the civilization.", "wrong": ["art was random.", "no meaning existed.", "symbols had no significance."] },
-          { start: "Tiwanaku craftspeople mastered bronze working, which allowed them to", "correct": "create superior tools, weapons, and ceremonial objects.", "wrong": ["only copper was used.", "metalwork was primitive.", "bronze had no advantage."] }
+          { start: "The quality of Tiwanaku textiles, pottery, and metalwork indicates that", "correct": "skilled artisans possessed generations of technical knowledge.", "wrong": ["crafts were primitive.", "no real skill existed.", "craftsmanship was unimportant."] },
+          { start: "Tiwanaku's distinctive artistic style, found across the region, shows that", "correct a shared cultural tradition unified distant communities under": "Tiwanaku influence.", "wrong": ["art.", "local variation.", "war."] },
+          { start: "The symbolic motifs repeated in Tiwanaku art suggest that a coherent religious and cosmological worldview was shared across the", "correct": "civilization.", "wrong": ["art.", "world.", "symbols."] },
+          { start: "Tiwanaku craftspeople mastered bronze working, which allowed them to", "correct": "create superior tools.", "wrong": ["only copper was used.", "metalwork was primitive.", "bronze had no advantage."] }
         ]
       },
       {
@@ -7355,30 +7355,30 @@ export const CIVILIZATIONS = [
         emoji: "📜",
         quotes: [
           { start: "Tiwanaku's decline around 1000 CE was likely caused by", "correct": "drought, environmental change, and possibly social upheaval—not external conquest.", "wrong": ["foreign invasion.", "loss of military power.", "cultural collapse."] },
-          { start: "The abandonment of Tiwanaku as a major center shows that", "correct": "even advanced civilizations are vulnerable to environmental stress and internal change.", "wrong": ["no real civilization existed.", "they were destroyed by enemies.", "they simply moved."] },
+          { start: "The abandonment of Tiwanaku as a major center shows that", "correct": "even advanced civilizations are vulnerable to internal change.", "wrong": ["no real civilization existed.", "they were destroyed by enemies.", "they simply moved."] },
           { start: "Tiwanaku's legacy influenced later Andean civilizations because", "correct": "its religious ideas, artistic traditions, and administrative techniques were adopted and adapted.", "wrong": ["it was completely forgotten.", "later civilizations rejected it.", "no continuity existed."] },
-          { start: "The study of Tiwanaku teaches that pre-Columbian American civilizations possessed", "correct": "sophisticated knowledge, organized societies, and genuine historical importance.", "wrong": ["no real sophistication.", "no organization.", "no significant achievements."] },
-          { start: "Tiwanaku's monumental architecture endures because", "correct": "the builders understood materials, geometry, and construction techniques that created durability.", "wrong": ["ritual magic preserved it.", "it was indestructible by nature.", "luck alone sustained it."] }
+          { start: "The study of Tiwanaku teaches that pre-Columbian American civilizations possessed", "correct": "sophisticated knowledge.", "wrong": ["no real sophistication.", "no organization.", "no significant achievements."] },
+          { start: "Tiwanaku's monumental architecture endures because", "correct": "the builders understood construction techniques that created durability.", "wrong": ["ritual magic preserved it.", "it was indestructible by nature.", "luck alone sustained it."] }
         ]
       },
       {
         name: "Tiwanaku & Cosmological Understanding",
         emoji: "🌌",
         quotes: [
-          { start: "Tiwanaku's astronomical alignments show that the civilization understood", "correct": "celestial movements and incorporated them into ceremonial and agricultural calendars.", "wrong": ["no astronomy.", "random alignment.", "only ritual purposes."] },
-          { start: "The Layout of Tiwanaku's ceremonial centers reflects a cosmology where", "correct": "sacred geography connected the human world to the spiritual realm and cosmos.", "wrong": ["only practical concerns mattered.", "no spiritual meaning existed.", "randomness determined layout."] },
-          { start: "Tiwanaku's understanding of water cycles and seasonal patterns enabled them to", "correct": "predict flooding, plan agriculture, and maintain social order through religious ceremonies.", "wrong": ["only shamanism guided them.", "no real knowledge existed.", "ritual alone mattered."] },
-          { start: "The symbolism of the Gateway of the Sun and other monuments suggests that", "correct": "Tiwanaku peoples possessed a complex worldview integrating nature, time, and divinity.", "wrong": ["symbols were purely decorative.", "no philosophy existed.", "meaning was random."] }
+          { start: "Tiwanaku's astronomical alignments show that the civilization understood", "correct": "celestial movements.", "wrong": ["no astronomy.", "random alignment.", "only ritual purposes."] },
+          { start: "The Layout of Tiwanaku's ceremonial centers reflects a cosmology where sacred geography connected the human world to the spiritual realm and", "correct": "cosmos.", "wrong": ["war.", "no spiritual meaning existed.", "randomness."] },
+          { start: "Tiwanaku's understanding of water cycles and seasonal patterns enabled them to", "correct": "predict flooding.", "wrong": ["shamanism.", "no real knowledge.", "rituals."] },
+          { start: "The symbolism of the Gateway of the Sun and other monuments suggests that Tiwanaku peoples possessed", "correct": "a complex worldview integrating nature, time, and divinity.", "wrong": ["symbols were purely decorative.", "no philosophy.", "weapons."] }
         ]
       },
       {
         name: "Tiwanaku Social Organization & Hierarchy",
         emoji: "🏛️",
         quotes: [
-          { start: "The archaeological evidence of Tiwanaku shows that the society was organized into", "correct": "social classes with rulers, priests, craftspeople, farmers, and traders.", "wrong": ["purely egalitarian.", "no structure.", "only religious hierarchy."] },
-          { start: "Elite residences and ceremonial centers at Tiwanaku indicate that", "correct": "powerful individuals controlled resources, labor, and access to sacred knowledge.", "wrong": ["no elites existed.", "all were equal.", "leadership was temporary."] },
-          { start: "Tiwanaku's ability to coordinate massive labor projects shows that", "correct": "a centralized authority system could mobilize and organize thousands of workers.", "wrong": ["no real government.", "only voluntary cooperation.", "random labor."] },
-          { start: "The role of religious specialists in Tiwanaku society likely included", "correct": "interpreting omens, guiding rituals, and legitimizing the authority of secular rulers.", "wrong": ["complete political power.", "no real influence.", "only personal spirituality."] }
+          { start: "The archaeological evidence of Tiwanaku shows that the society was organized into", "correct": "social classes with rulers, priests, farmers, and traders.", "wrong": ["purely egalitarian.", "no structure.", "only religious hierarchy."] },
+          { start: "Elite residences and ceremonial centers at Tiwanaku indicate that", "correct": "powerful individuals controlled resources, and access to sacred knowledge.", "wrong": ["no elites existed.", "all were equal.", "leadership was temporary."] },
+          { start: "Tiwanaku's ability to coordinate massive labor projects shows that a centralized authority system could mobilize and", "correct": "organize thousands of workers.", "wrong": ["have no real government.", "only voluntary cooperation.", "random labor."] },
+          { start: "The role of religious specialists in Tiwanaku society likely included interpreting omens, guiding rituals, and", "correct": "legitimizing the authority of secular rulers.", "wrong": ["complete political power.", "no real influence.", "only personal spirituality."] }
         ]
       }
     ]
@@ -7397,7 +7397,7 @@ export const CIVILIZATIONS = [
         quotes: [
           { start: "A lonko's authority comes not from conquest alone but from the", "correct": "respect and consent of his people.", "wrong": ["fear of his warriors.", "wealth he possesses.", "ritual alone."] },
           { start: "The Mapuche resist conquest because", "correct": "we value our land, freedom, and independence above all.", "wrong": ["we are naturally warlike.", "we reject all change.", "we fear the Spanish."] },
-          { start: "A wise lonko understands that the community survives through", "correct": "cooperation, shared resources, and collective decision-making.", "wrong": ["hierarchical control.", "individual ambition.", "ritual authority."] },
+          { start: "A wise lonko understands that the community survives through", "correct": "cooperation, and collective decision-making.", "wrong": ["hierarchical control.", "individual ambition.", "ritual authority."] },
           { start: "Mapuche warriors fight to defend", "correct": "their families, their lands, and their way of life.", "wrong": ["conquest and expansion.", "wealth and plunder.", "ritual glory."] },
           { start: "The lonko who listens to his council of elders and warriors", "correct": "makes decisions that benefit the entire community.", "wrong": ["shows weakness.", "loses respect.", "invites betrayal."] },
           { start: "Mapuche independence was preserved for centuries because", "correct": "we adapted our tactics, maintained unity, and refused subjugation.", "wrong": ["we were isolated.", "we rejected all trade.", "we were numerically superior."] },
@@ -7414,7 +7414,7 @@ export const CIVILIZATIONS = [
           { start: "To become a machi, one must have the calling of the spirits and", "correct": "the knowledge passed from elder machis.", "wrong": ["birth alone.", "wealth and status.", "desire and ambition."] },
           { start: "A machi who serves the people honestly will be", "correct": "respected and supported by the community.", "wrong": ["feared and obeyed.", "ignored by the people.", "blamed for failures."] },
           { start: "The spirits teach us that the earth is", "correct": "alive and deserves respect and care.", "wrong": ["ours to exploit.", "a resource for wealth.", "subject to our will."] },
-          { start: "Mapuche healing practices survive because they are", "correct": "based on generations of observation and understanding of plants and healing.", "wrong": ["purely spiritual.", "based on superstition.", "ineffective."] },
+          { start: "Mapuche healing practices survive because they are based on generations of observation and understanding of plants and", "correct": "healing.", "wrong": ["purely spiritual.", "based on superstition.", "ineffective."] },
           { start: "The machi reminds the people that harmony with nature", "correct": "brings health, prosperity, and peace.", "wrong": ["requires submission.", "demands sacrifice.", "is impossible."] }
         ]
       },
@@ -7423,7 +7423,7 @@ export const CIVILIZATIONS = [
         emoji: "⚔️",
         quotes: [
           { start: "A Mapuche warrior fights not for glory but to", "correct": "protect his family, community, and the land of his ancestors.", "wrong": ["gain riches.", "seek individual honor.", "follow the lonko blindly."] },
-          { start: "The Mapuche maintained their independence for over 300 years against Spanish conquest because", "correct": "they adapted their tactics, maintained unity among diverse groups, and never accepted subjugation.", "wrong": ["they were isolationist.", "they rejected all foreign contact.", "they were militarily superior."] },
+          { start: "The Mapuche maintained their independence for over 300 years against Spanish conquest because", "correct": "they adapted their tactics.", "wrong": ["they were isolationist.", "they rejected all foreign contact.", "they were militarily superior."] },
           { start: "A warrior's courage is shown not by recklessness but by", "correct": "wise decisions that protect his people and land.", "wrong": ["fearlessness alone.", "individual valor.", "conquest and expansion."] },
           { start: "Mapuche warriors understand that", "correct": "defending the land is more important than individual glory.", "wrong": ["personal honor matters most.", "conquest brings wealth.", "ritual determines victory."] },
           { start: "The strength of Mapuche resistance lay in", "correct": "unity among diverse groups and adaptation to changing circumstances.", "wrong": ["superior numbers.", "rejection of all trade.", "isolation from neighbors."] }
@@ -7435,10 +7435,10 @@ export const CIVILIZATIONS = [
         quotes: [
           { start: "Mapuche society values the community above the individual because", "correct": "survival and prosperity depend on cooperation and mutual support.", "wrong": ["individual ambition is rejected.", "all are equal in all ways.", "there is no hierarchy."] },
           { start: "The ayllu (extended family group) is the foundation of Mapuche society because it", "correct": "organizes labor, resources, and defense.", "wrong": ["rituals demand it.", "the spirits require it.", "it is purely cultural."] },
-          { start: "A Mapuche person's responsibility to their ayllu includes", "correct": "contributing labor, defending the land, and supporting the vulnerable.", "wrong": ["absolute obedience.", "sacrificing all individuality.", "ritual participation."] },
-          { start: "Mapuche women hold important roles in society including", "correct": "managing households, agriculture, weaving, and participating in decisions.", "wrong": ["servitude alone.", "no authority.", "ritual participation only."] },
+          { start: "A Mapuche person's responsibility to their ayllu includes contributing labor, defending the land, and", "correct": "supporting the vulnerable.", "wrong": ["absolute obedience.", "sacrificing all individuality.", "ritual participation."] },
+          { start: "Mapuche women hold important roles in society including managing households, agriculture, weaving,", "correct": "and participating in decisions.", "wrong": ["servitude alone.", "no authority.", "ritual participation only."] },
           { start: "Respect for elders in Mapuche culture comes from", "correct": "their knowledge, experience, and role in preserving tradition.", "wrong": ["ritual authority alone.", "age determining all power.", "automatic submission."] },
-          { start: "The mapuche concept of land ownership differs from Spanish/European models because", "correct": "land is shared communally and belongs to the people who work it, not individuals.", "wrong": ["there is no ownership.", "anyone can use any land.", "land has no value."] }
+          { start: "The mapuche concept of land ownership differs from Spanish/European models because land is shared communally and belongs to the people who work it,", "correct": "not individuals.", "wrong": ["there is no ownership.", "anyone can use any land.", "land has no value."] }
         ]
       },
       {
@@ -7449,15 +7449,15 @@ export const CIVILIZATIONS = [
           { start: "Water, forest, and land are not possessions but", "correct": "living entities deserving respect and care.", "wrong": ["resources to exploit.", "subjects of human will.", "only for human use."] },
           { start: "A lonko who pollutes the water or destroys the forest commits an act against", "correct": "the present and future generations.", "wrong": ["only spiritual harm.", "ritual violation.", "personal dishonor."] },
           { start: "Mapuche agricultural practices are sustainable because they", "correct": "work with natural cycles rather than against them.", "wrong": ["are purely spiritual.", "reject innovation.", "are less productive."] },
-          { start: "The relationship between Mapuche and nature teaches that", "correct": "we are part of the ecosystem, not masters of it.", "wrong": ["nature is inferior to humans.", "we can use without consequence.", "nature is hostile."] }
+          { start: "The relationship between Mapuche and nature teaches that we are part of the ecosystem,", "correct": "not masters of it.", "wrong": ["and nature is inferior to humans.", "and we can use without consequence.", "and nature is hostile."] }
         ]
       },
       {
         name: "Mapuche Oral History & Cultural Preservation",
         emoji: "📜",
         quotes: [
-          { start: "Stories told by elders preserve", "correct": "history, values, and knowledge essential to Mapuche survival.", "wrong": ["only entertainment.", "secrets of power.", "ritual formulas."] },
-          { start: "The transmission of knowledge from elder to youth ensures that", "correct": "traditions, skills, and wisdom survive across generations.", "wrong": ["nothing ever changes.", "innovation is rejected.", "all remain the same."] },
+          { start: "Stories told by elders preserve history, values, and knowledge essential to", "correct": "Mapuche survival.", "wrong": [" entertainment.", "secrets of power.", "ritual formulas."] },
+          { start: "The transmission of knowledge from elder to youth ensures that traditions, skills, and wisdom survive across", "correct": "generations.", "wrong": ["men.", "women.", "friends."] },
           { start: "A Mapuche person who forgets the stories of their ancestors loses", "correct": "their connection to their people and their land.", "wrong": ["nothing of value.", "only entertainment.", "ritual knowledge."] },
           { start: "Mapuche language is not merely words but", "correct": "a repository of cultural knowledge and worldview.", "wrong": ["a tool for communication alone.", "less important than Spanish.", "purely linguistic."] }
         ]
@@ -7467,9 +7467,9 @@ export const CIVILIZATIONS = [
         emoji: "🛡️",
         quotes: [
           { start: "The Mapuche rejection of Spanish colonization was not based on hatred but on", "correct": "a determination to preserve their independence, land, and way of life.", "wrong": ["rejection of all change.", "fear of the Spanish.", "religious fanaticism."] },
-          { start: "Mapuche warriors adapted to Spanish military technology because they", "correct": "understood that survival requires adaptation while maintaining core values.", "wrong": ["they abandoned tradition.", "they rejected their culture.", "they became Spanish."] },
+          { start: "Mapuche warriors adapted to Spanish military technology because they understood that survival requires adaptation while maintaining", "correct": "core values.", "wrong": ["tradition.", "their culture.", "it, they became Spanish."] },
           { start: "The Mapuche maintained alliances with other groups because", "correct": "unity against colonization was stronger than any single group.", "wrong": ["they had no independent strength.", "they were united in all things.", "hierarchy determined all."] },
-          { start: "Mapuche resistance teaches that", "correct": "a people who value freedom will sacrifice greatly to maintain it.", "wrong": ["military strength guarantees victory.", "resistance is futile.", "conquest is inevitable."] }
+          { start: "Mapuche resistance teaches that a people who value freedom will sacrifice greatly to", "correct": "maintain it.", "wrong": ["loose it.", "fight.", "gods."] }
         ]
       }
     ]
@@ -7486,63 +7486,63 @@ export const CIVILIZATIONS = [
         name: "Genghis Khan (Historical Records)",
         emoji: "👑",
         quotes: [
-          { start: "I am the punishment of God. If you had not committed great sins, God would not have sent a punishment like me upon you.", "correct": "", "wrong": ["I am a savior.", "I bring only peace.", "I am merciful."] },
-          { start: "The greatest happiness is to scatter your enemy and drive him before you and take his horses and his goods and hear the lamenting of his women and children.", "correct": "", "wrong": ["Peace brings happiness.", "Trade brings happiness.", "Mercy brings happiness."] },
-          { start: "A man's greatest work is to break his enemies, to drive them before him, to take their property, and to see those dearest to them wrapped in tears.", "correct": "", "wrong": ["A man's greatest work is learning.", "A man's greatest work is peace.", "A man's greatest work is mercy."] },
+          { start: "I am the punishment of God. If you had not committed great sins, God would not have sent", "correct": "a punishment like me upon you", "wrong": ["a savior.", "a sin.", "I am merciful."] },
+          { start: "The greatest happiness is to scatter your enemy and drive him before you and take his horses and his goods and hear the", "correct": "lamenting of his women and children.", "wrong": ["happiness.", "war.", "mercy."] },
+          { start: "A man's greatest work is to break his enemies, to drive them before him, to take their property, and to see those dearest to them wrapped in.", "correct": "tears", "wrong": ["pain.", "peace.", "mercy."] },
           { start: "An army cannot exist without discipline. Discipline cannot exist without", "correct": "unity of command.", "wrong": ["fear.", "ritual.", "numbers."] },
-          { start: "The Mongol warrior must be prepared to endure", "correct": "hardship and adapt to any terrain or climate.", "wrong": ["only comfort.", "luxury.", "predictable conditions."] },
+          { start: "The Mongol warrior must be prepared to endure hardship and adapt to any terrain or", "correct": "climate.", "wrong": [" comfort.", "luxury.", "predictable conditions."] },
           { start: "I will not punish those who surrender willingly, but I will destroy those who", "correct": "resist without cause.", "wrong": ["question my orders.", "show weakness.", "seek peace."] },
           { start: "Loyalty to the Khan is rewarded with", "correct": "wealth, position, and protection.", "wrong": ["mercy alone.", "freedom.", "autonomy."] },
-          { start: "The conquered must understand that Mongol rule brings", "correct": "law, order, and the end of internal conflict.", "wrong": ["only hardship.", "only servitude.", "no benefit."] }
+          { start: "The conquered must understand that Mongol rule brings law, order, and", "correct": "the end of internal conflict.", "wrong": ["only hardship.", "only servitude.", "no benefit."] }
         ]
       },
       {
         name: "Mongol Military Strategy & Tactics",
         emoji: "⚔️",
         quotes: [
-          { start: "The Mongol archer on horseback is superior to any foot soldier because he can", "correct": "strike from distance while remaining mobile.", "wrong": ["fear nothing.", "obey without question.", "fight endlessly."] },
+          { start: "The Mongol archer on horseback is superior to any foot soldier because he can strike from distance while", "correct": "remaining mobile.", "wrong": ["fear nothing.", "obey without question.", "fight endlessly."] },
           { start: "Reconnaissance and intelligence determine victory before the battle begins. A commander who underestimates his enemy will", "correct": "suffer defeat.", "wrong": ["win easily.", "gain honor.", "prove his strength."] },
           { start: "The Mongol strategy of feigned retreat confuses the enemy and draws them into", "correct": "prepared traps and encirclement.", "wrong": ["shameful flight.", "cowardly action.", "dishonorable tactics."] },
           { start: "A Mongol warrior must master the horse, the bow, and", "correct": "the ability to ride for days without rest.", "wrong": ["formal combat.", "ritual warfare.", "single combat."] },
-          { start: "To conquer a city, one must first understand its", "correct": "defenses, resources, and the will of its people.", "wrong": ["its beauty.", "its history.", "its wealth alone."] },
+          { start: "To conquer a city, one must first understand its defenses, resources, and the will of", "correct": "its people.", "wrong": ["its beauty.", "its history.", "its wealth alone."] },
           { start: "The Mongol empire expands because we understand that", "correct": "speed and coordination overwhelm static defenses.", "wrong": ["we are naturally superior.", "our gods favor us.", "we fear nothing."] },
           { start: "A general who maintains supply lines and cares for his horses will", "correct": "move faster and strike harder than his enemy.", "wrong": ["appear weak.", "lose the loyalty of his men.", "be defeated by those who ignore logistics."] },
-          { start: "Mongol warriors are not mercenaries; they fight for", "correct": "the Khan and the honor of the tribe.", "wrong": ["gold alone.", "personal glory.", "ritual duty."] }
+          { start: "Mongol warriors are not mercenaries; they fight for the Khan and the honor of the", "correct": "tribe.", "wrong": ["gold alone.", "personal glory.", "ritual duty."] }
         ]
       },
       {
         name: "Mongol Administrative & Governance",
         emoji: "📜",
         quotes: [
-          { start: "The Yassa (Mongol Law Code) exists to ensure that", "correct": "all subjects—noble and commoner—answer to the same law.", "wrong": ["nobles are exempt.", "the Khan stands above law.", "mercy prevails."] },
-          { start: "A Mongol governor must be just in his dealings with the conquered because", "correct": "fair governance prevents rebellion and generates tax revenue.", "wrong": ["the Khan demands it.", "mercy is a weakness.", "cruelty works better."] },
-          { start: "Mongol rule allows religious freedom because", "correct": "the Khan cares only that subjects pay taxes and remain loyal.", "wrong": ["the Khan is merciful.", "all religions are equal.", "faith strengthens the empire."] },
-          { start: "Trade and commerce are protected under Mongol rule because", "correct": "prosperous merchants pay more taxes and stability benefits the Khan.", "wrong": ["the Khan loves merchants.", "trade is a moral good.", "the Khan is generous."] },
+          { start: "The Yassa (Mongol Law Code) exists to ensure that all subjects—noble and commoner—answer to the", "correct": "same law.", "wrong": ["same person.", "Khan.", "mercy."] },
+          { start: "A Mongol governor must be just in his dealings with the conquered because fair governance prevents rebellion and", "correct": "generates tax revenue.", "wrong": ["the Khan demands it.", "mercy is a weakness.", "cruelty works better."] },
+          { start: "Mongol rule allows religious freedom because the Khan", "correct": "cares only that subjects pay taxes and remain loyal.", "wrong": ["is merciful.", "believe that all religions are equal.", "faith strengthens the empire."] },
+          { start: "Trade and commerce are protected under Mongol rule because prosperous merchants pay more taxes and stability", "correct": "benefits the Khan.", "wrong": ["hurts the Khan.", "protect the Khan.", "is generous."] },
           { start: "A Mongol administrator who shows favoritism or corruption will be", "correct": "severely punished, regardless of rank.", "wrong": ["forgiven if he is loyal.", "ignored if he is effective.", "rewarded for ambition."] },
-          { start: "The Mongol postal system (Yam) was established to ensure", "correct": "rapid communication across the empire and control of distant territories.", "wrong": ["free movement of all people.", "ease of trade.", "the Khan's mercy."] },
+          { start: "The Mongol postal system (Yam) was established to ensure rapid communication across the empire and", "correct": "control of distant territories.", "wrong": ["free movement of all people.", "ease of trade.", "the Khan's mercy."] },
           { start: "Mongol governors are selected based on", "correct": "ability and merit, not birth or clan affiliation.", "wrong": ["royal blood.", "ritual qualification.", "age alone."] },
-          { start: "The Khan tolerates local customs and rulers because", "correct": "stability and continuity reduce resistance and maintain order.", "wrong": ["he respects tradition.", "he is merciful.", "it is the right thing to do."] }
+          { start: "The Khan tolerates local customs and rulers because stability and continuity reduce resistance and", "correct": "maintain order.", "wrong": ["he respects tradition.", "he is merciful.", "it is the right thing to do."] }
         ]
       },
       {
         name: "Batu Khan & Mongol Expansion",
         emoji: "🐴",
         quotes: [
-          { start: "The conquest of the Khwarazmian Empire showed that", "correct": "those who resist the Khan will be utterly destroyed as a lesson to others.", "wrong": ["mercy awaits the defeated.", "negotiation is always possible.", "the Khan seeks peace."] },
-          { start: "Mongol warriors move faster than any enemy because they", "correct": "travel light, use relay horses, and prioritize speed over comfort.", "wrong": ["fear nothing.", "are naturally superior.", "obey without thought."] },
-          { start: "The Mongol siege of Baghdad demonstrated that", "correct": "even the greatest cities fall to coordinated military discipline and overwhelming force.", "wrong": ["the Khan is merciful.", "scholars can stop armies.", "walls are impenetrable."] }
+          { start: "The conquest of the Khwarazmian Empire showed that those who resist the Khan will be utterly destroyed as", "correct": "a lesson to others.", "wrong": ["mercy awaits the defeated.", "negotiation is always possible.", "the Khan seeks peace."] },
+          { start: "Mongol warriors move faster than any enemy because they travel light, use relay horses, and prioritize speed over", "correct": "comfort.", "wrong": ["fear.", "nature.", "obey without thought."] },
+          { start: "The Mongol siege of Baghdad demonstrated that even the greatest cities fall to coordinated military discipline and overwhelming", "correct": "force.", "wrong": ["war.", "power.", "walls."] }
         ]
       },
       {
         name: "Kublai Khan (Yuan Dynasty)",
         emoji: "👑",
         quotes: [
-          { start: "To rule China, one must understand that", "correct": "Chinese administrative systems are more effective than tribal governance.", "wrong": ["Chinese culture is superior.", "Mongol traditions must dominate.", "warfare alone brings order."] },
-          { start: "I employ Chinese scholars and administrators because", "correct": "they understand governance, law, and how to extract revenue fairly.", "wrong": ["I love Chinese culture.", "I have abandoned Mongol ways.", "I am weak."] },
-          { start: "The Great Khan tolerates the religions of his subjects because", "correct": "diversity prevents unified rebellion and reduces unrest.", "wrong": ["he is merciful.", "all faiths are equal.", "religion is unimportant."] },
+          { start: "To rule China, one must understand that Chinese administrative systems are more effective than", "correct": "tribal governance.", "wrong": ["Chinese culture.", "Mongol traditions.", "warfare."] },
+          { start: "I employ Chinese scholars and administrators because they understand governance, law, and how to extract", "correct": "revenue fairly.", "wrong": ["gold.", "silver.", "knowledge."] },
+          { start: "The Great Khan tolerates the religions of his subjects because diversity prevents unified rebellion and reduces", "correct": "unrest.", "wrong": ["power.", "faith.", "religion."] },
           { start: "Maritime trade under Mongol protection benefits", "correct": "both the merchants and the Khan through taxation.", "wrong": ["only merchants.", "the Khan alone.", "no one."] },
-          { start: "The Mongol rule of China proves that", "correct": "military conquest is only the beginning; administration determines lasting power.", "wrong": ["conquest is all that matters.", "occupation is permanent.", "the conquered always rebel."] },
-          { start: "To maintain power in conquered lands, a wise Khan must", "correct": "preserve local structures while ensuring tribute and loyalty.", "wrong": ["destroy all local authority.", "rule with iron fist alone.", "ignore local customs."] }
+          { start: "The Mongol rule of China proves that military conquest is only the beginning;", "correct": "administration determines lasting power.", "wrong": ["conquest is all that matters.", "occupation is permanent.", "the conquered always rebel."] },
+          { start: "To maintain power in conquered lands, a wise Khan must preserve local structures while ensuring tribute and", "correct": "loyalty.", "wrong": ["destroy all local authority.", "rule with iron fist alone.", "ignore local customs."] }
         ]
       },
       {
@@ -7552,8 +7552,8 @@ export const CIVILIZATIONS = [
           { start: "A Mongol warrior's word is his bond because", "correct": "the Khan's trust depends on the reliability of his commanders.", "wrong": ["honor is intrinsically noble.", "the gods demand it.", "it is written in law."] },
           { start: "To flee battle without orders is", "correct": "shameful and punishable by death.", "wrong": ["sometimes necessary.", "a tactical retreat.", "prudent."] },
           { start: "A warrior who kills without the Khan's permission will be", "correct": "executed, regardless of his rank or previous service.", "wrong": ["forgiven.", "rewarded for ambition.", "promoted."] },
-          { start: "The bond between warrior and Khan is sacred because", "correct": "the empire cannot function without absolute discipline and trust.", "wrong": ["the gods demand it.", "it is merciful.", "it is fair."] },
-          { start: "Mongol warriors respect their enemies when they", "correct": "fight with skill, discipline, and courage, even in defeat.", "wrong": ["surrender quickly.", "flee without fighting.", "show mercy."] }
+          { start: "The bond between warrior and Khan is sacred because the empire cannot function without absolute discipline and", "correct": " trust.", "wrong": ["love.", "power.", "it is fair."] },
+          { start: "Mongol warriors respect their enemies when they fight with skill, discipline, and courage, even", "correct": "in defeat.", "wrong": ["when they surrender quickly.", "when they flee without fighting.", "when they show no mercy."] }
         ]
       },
       {
@@ -7561,20 +7561,20 @@ export const CIVILIZATIONS = [
         emoji: "💰",
         quotes: [
           { start: "The Mongol peace (Pax Mongolica) allows merchants to travel safely because", "correct": "the Khan enforces order and punishes bandits and corrupt officials severely.", "wrong": ["the Khan is merciful.", "there is no danger.", "everyone trusts each other."] },
-          { start: "Trade flourishes under Mongol rule because", "correct": "stable governance, safe roads, and consistent law attract merchants from many lands.", "wrong": ["the Khan is generous.", "war has ended everywhere.", "taxation is light."] },
-          { start: "The Khan protects merchants and trade routes because", "correct": "commerce generates wealth and taxes that strengthen the empire.", "wrong": ["he loves merchants.", "he believes in free trade.", "it is morally right."] },
+          { start: "Trade flourishes under Mongol rule because stable governance, safe roads, and", "correct": "consistent law attract merchants from many lands.", "wrong": ["the Khan is generous.", "war has ended everywhere.", "taxation is light."] },
+          { start: "The Khan protects merchants and trade routes because commerce generates wealth and taxes that strengthen the", "correct": "empire.", "wrong": ["merchants.", "free trade.", "women."] },
           { start: "A merchant who pays his taxes and remains loyal can expect", "correct": "protection, justice, and the ability to profit.", "wrong": ["unlimited freedom.", "no taxation.", "complete autonomy."] },
-          { start: "The Mongol Empire connects East and West through trade because", "correct": "control of trade routes means control of wealth and information.", "wrong": ["cultural exchange is noble.", "the Khan desires peace.", "it is inevitable."] }
+          { start: "The Mongol Empire connects East and West through trade because control of trade routes means control of", "correct": "wealth and information.", "wrong": ["cultural exchange is noble.", "peace.", "war."] }
         ]
       },
       {
         name: "Mongol Succession & Leadership",
         emoji: "👑",
         quotes: [
-          { start: "The Khan is chosen based on", "correct": "ability to command, military skill, and the respect of the kurultai (assembly).", "wrong": ["age alone.", "royal blood only.", "ritual alone."] },
-          { start: "Fragmentation of the Mongol Empire shows that", "correct": "without a strong central Khan, regional commanders prioritize their own power.", "wrong": ["the Khan's authority is absolute.", "the empire is eternal.", "law alone holds it together."] },
+          { start: "The Khan is chosen based on ability to command, military skill, and the respect of the", "correct": "kurultai (assembly).", "wrong": ["age alone.", "royal blood only.", "ritual alone."] },
+          { start: "Fragmentation of the Mongol Empire shows that without a strong central Khan, regional commanders prioritize their own", "correct": "power.", "wrong": ["health.", "home.", "area."] },
           { start: "A Khan who loses the confidence of his generals will", "correct": "be replaced or deposed.", "wrong": ["remain in power forever.", "be protected by law.", "be forgiven."] },
-          { start: "The strength of Mongol leadership lies in the fact that", "correct": "the Khan must prove his worthiness through military success and wise governance.", "wrong": ["birth determines power.", "ritual grants authority.", "force alone is sufficient."] }
+          { start: "The strength of Mongol leadership lies in the fact that the Khan must prove his worthiness through ", "correct": "military success and wise governance.", "wrong": ["birth which determines power.", "ritual.", "force."] }
         ]
       },
       {
@@ -7583,17 +7583,17 @@ export const CIVILIZATIONS = [
         quotes: [
           { start: "Mongol culture values courage, loyalty, and skill in", "correct": "horsemanship, archery, and wrestling.", "wrong": ["poetry and philosophy.", "ritual and ceremony.", "mercy and compassion."] },
           { start: "The Mongols respect those who", "correct": "face hardship with endurance and adapt to circumstances.", "wrong": ["seek comfort.", "avoid danger.", "remain unchanged."] },
-          { start: "To the Mongols, a life well-lived is one spent in", "correct": "service to the Khan and the tribe, with honor in battle.", "wrong": ["pursuit of wealth.", "peaceful retirement.", "spiritual contemplation."] },
-          { start: "Mongol women have more freedom and responsibility than many contemporary societies because", "correct": "they manage households, herds, and are capable of riding and fighting.", "wrong": ["the Khan is merciful.", "all women are equal.", "there are no restrictions."] }
+          { start: "To the Mongols, a life well-lived is one spent in service to the Khan and the tribe, with", "correct": "honor in battle.", "wrong": ["pursuit of wealth.", "peaceful retirement.", "spiritual contemplation."] },
+          { start: "Mongol women have more freedom and responsibility than many contemporary societies because they manage households, herds, and are capable of", "correct": "riding and fighting.", "wrong": ["the Khan is merciful.", "all women are equal.", "no restrictions."] }
         ]
       },
       {
         name: "Mongol Decline & Historical Lessons",
         emoji: "📜",
         quotes: [
-          { start: "The fragmentation of the Mongol Empire occurred because", "correct": "distance, cultural differences, and ambitious regional khans eventually overwhelmed central authority.", "wrong": ["external conquest defeated them.", "the Khan became merciful.", "the empire was too large by design."] },
-          { start: "Mongol rule in various regions lasted only as long as the Khan could", "correct": "enforce his authority and ensure that local administrators remained loyal.", "wrong": ["the people remained peaceful.", "no resistance emerged.", "the system was perfect."] },
-          { start: "The Mongol Empire's greatest strength was its ability to", "correct": "adapt tactics, tolerate diversity, and use existing institutions for governance.", "wrong": ["show mercy.", "unite all peoples.", "create perfect order."] },
+          { start: "The fragmentation of the Mongol Empire occurred because distance, cultural differences, and ambitious regional khans eventually overwhelmed", "correct": "central authority.", "wrong": ["external conquest.", "the Khan became merciful.", "the empire."] },
+          { start: "Mongol rule in various regions lasted only as long as the Khan could enforce his authority and ensure that local administrators remained", "correct": "loyal.", "wrong": ["peaceful.", "quiet while no resistance emerged.", "perfect."] },
+          { start: "The Mongol Empire's greatest strength was its ability to adapt tactics, tolerate diversity, and use existing institutions for ", "correct": "governance.", "wrong": ["showing mercy.", "war.", "creating perfect order."] },
           { start: "The Mongol legacy shows that", "correct": "military conquest alone cannot sustain an empire without stable governance and administration.", "wrong": ["conquest determines all.", "administration is unnecessary.", "law and order are irrelevant."] }
         ]
       }
@@ -7614,10 +7614,10 @@ export const CIVILIZATIONS = [
           { start: "I have decided to make a pilgrimage to the Holy City of Mecca, so that", "correct": "the people of my kingdom will know the way.", "wrong": ["I can gain personal glory.", "I can escape my kingdom.", "I can become wealthy."] },
           { start: "The pilgrimage to Mecca demonstrated that Mali is a kingdom of", "correct": "wealth, faith, and learning.", "wrong": ["military might.", "fear.", "isolation."] },
           { start: "Upon my return from Mecca, I established centers of learning because", "correct": "knowledge strengthens the empire.", "wrong": ["I feared rebellion.", "I wanted personal glory.", "rituals demanded it."] },
-          { start: "The University of Timbuktu was founded to ensure that", "correct": "Mali's scholars could rival those of any nation.", "wrong": ["I could control the people.", "I could hide knowledge.", "the poor would serve better."] },
+          { start: "The University of Timbuktu was founded to ensure that Mali's scholars could rival those of any", "correct": "nation.", "wrong": ["mistake.", "knowledge.", "person."] },
           { start: "Gold is valuable, but", "correct": "the prosperity of Mali's people is more valuable still.", "wrong": ["it brings true happiness.", "it grants eternal power.", "it ensures loyalty."] },
           { start: "A ruler's generosity is not weakness; it is a sign of", "correct": "strength and confidence.", "wrong": ["foolishness.", "desperation.", "fear of rebellion."] },
-          { start: "Mali's power comes not from conquest alone, but from", "correct": "trade, justice, and respect among nations.", "wrong": ["fear of our armies.", "our vast wealth.", "ritual sacrifice."] }
+          { start: "Mali's power comes not from conquest alone, but from trade, justice, and respect among", "correct": "nations.", "wrong": ["our armies.", "our enemies.", "a ritual sacrifice."] }
         ]
       },
       {
@@ -7626,20 +7626,20 @@ export const CIVILIZATIONS = [
         quotes: [
           { start: "The people of Mali show great respect for", "correct": "justice and the rule of law.", "wrong": ["the sultan's fear.", "ritual alone.", "wealth."] },
           { start: "In Mali, women have more freedom and rights than in many Muslim lands because", "correct": "the culture respects women's roles in society.", "wrong": ["there is no law.", "they are not truly free.", "it is a sign of weakness."] },
-          { start: "The markets of Mali are orderly and safe because", "correct": "merchants are protected and laws are enforced.", "wrong": ["people fear punishment.", "no theft occurs.", "trade is banned."] },
-          { start: "Mali's strength lies in the fact that", "correct": "merchants, scholars, and rulers work together.", "wrong": ["the army is the largest.", "gold reserves are endless.", "rituals control all."] },
-          { start: "The people of Timbuktu are known for their", "correct": "learning, piety, and respect for knowledge.", "wrong": ["military prowess.", "isolation.", "poverty."] }
+          { start: "The markets of Mali are orderly and safe because merchants are protected and laws are", "correct": " enforced.", "wrong": ["by the military.", "wrong.", "only for the wealthy."] },
+          { start: "Mali's strength lies in the fact that merchants, scholars, and rulers work", "correct": "together.", "wrong": ["for silver.", "for gold.", "separately."] },
+          { start: "The people of Timbuktu are known for their learning, piety, and respect for", "correct": "knowledge.", "wrong": ["military prowess.", "isolation.", "poverty."] }
         ]
       },
       {
         name: "Griots (Oral Tradition & Historical Records)",
         emoji: "📜",
         quotes: [
-          { start: "The griot is the keeper of", "correct": "history and the memory of the people.", "wrong": ["the king's secrets.", "only positive tales.", "forbidden knowledge."] },
-          { start: "Through the griot's words, the deeds of ancestors are", "correct": "preserved and passed to future generations.", "wrong": ["forgotten.", "hidden.", "exaggerated endlessly."] },
+          { start: "The griot is the keeper of history and the memory of the", "correct": "people.", "wrong": ["king's secrets.", "positive tales.", "forbidden knowledge."] },
+          { start: "Through the griot's words, the deeds of ancestors are preserved and passed to", "correct": " future generations.", "wrong": ["wrong people.", "hidden enemies.", "gods."] },
           { start: "A ruler who ignores the griot's counsel ignores the", "correct": "wisdom of his people.", "wrong": ["his own power.", "ritual demands.", "necessary cruelty."] },
-          { start: "The epic of Sundiata teaches that", "correct": "courage, wisdom, and justice build great empires.", "wrong": ["only conquest matters.", "birth determines all.", "fear secures loyalty."] },
-          { start: "Stories of Mali's founding show that", "correct": "the kingdom was built by united people, not conquest alone.", "wrong": ["force was all that mattered.", "one man created it all.", "no sacrifice was needed."] },
+          { start: "The epic of Sundiata teaches that courage, wisdom, and justice build great", "correct": " empires.", "wrong": ["dreams.", "fear.", "loyalty."] },
+          { start: "Stories of Mali's founding show that the kingdom was built by united people,", "correct": "not conquest alone.", "wrong": ["and force was all that mattered.", "and one man created it all.", "and no sacrifice was needed."] },
           { start: "The griot reminds rulers that their power is temporary, but their", "correct": "legacy through deeds is eternal.", "wrong": ["wealth is eternal.", "fear lasts forever.", "rituals protect them."] }
         ]
       },
@@ -7647,7 +7647,7 @@ export const CIVILIZATIONS = [
         name: "Sundiata Keita (Founder of Mali - Historical/Legendary)",
         emoji: "⚔️",
         quotes: [
-          { start: "I was born weak, but I became strong through", "correct": "determination and the support of my people.", "wrong": ["magic alone.", "conquest only.", "ritual only."] },
+          { start: "I was born weak, but I became strong through determination and the support of", "correct": "my people.", "wrong": ["my family.", "conquest only.", "ritual only."] },
           { start: "A true leader unites his people; he does not rule through", "correct": "fear or force alone.", "wrong": ["magic.", "rituals.", "weakness."] },
           { start: "Mali was not built in a day, but through the patience and", "correct": "hard work of many hands.", "wrong": ["conquest alone.", "gold.", "ritual sacrifice."] },
           { start: "The battle of Kirina taught that", "correct": "strategy and unity defeat even larger armies.", "wrong": ["numbers alone determine victory.", "ritual determines fate.", "fear wins wars."] },
@@ -7658,11 +7658,11 @@ export const CIVILIZATIONS = [
         name: "Mali Merchants & Trade Wisdom",
         emoji: "💰",
         quotes: [
-          { start: "The salt trade enriched Mali because merchants understood that", "correct": "fair dealing and reliable supply bring lasting profit.", "wrong": ["hoarding creates wealth.", "deception pays.", "theft is justified."] },
+          { start: "The salt trade enriched Mali because merchants understood that fair dealing and reliable supply bring lasting", "correct": "profit.", "wrong": ["war.", "peace.", "theft."] },
           { start: "Mali's gold drew traders from across the world because", "correct": "honest exchange and stable governance made trade safe.", "wrong": ["we forced them.", "we had the most gold.", "we isolated ourselves."] },
           { start: "A merchant of Mali knows that reputation is worth more than", "correct": "a single large profit.", "wrong": ["loyalty.", "gold.", "power."] },
           { start: "The caravans crossing Mali prosper because", "correct": "the empire protects travelers and enforces fair trade.", "wrong": ["bandits never appear.", "routes are easy.", "no one competes."] },
-          { start: "Mali's control of trade routes ensured that", "correct": "wealth flowed into the kingdom through honest commerce.", "wrong": ["conquest brought all riches.", "we needed no skill.", "gold appeared freely."] }
+          { start: "Mali's control of trade routes ensured that wealth flowed into the kingdom through", "correct": "honest commerce.", "wrong": ["conquest.", "we needed no skill.", "gold appeared freely."] }
         ]
       },
       {
@@ -7670,30 +7670,30 @@ export const CIVILIZATIONS = [
         emoji: "📚",
         quotes: [
           { start: "The University of Timbuktu was built because Mali's rulers believed that", "correct": "knowledge and learning strengthen a nation.", "wrong": ["we wanted to isolate ourselves.", "ritual demanded it.", "gold alone mattered."] },
-          { start: "Scholars in Mali teach that wisdom comes from", "correct": "study, reflection, and respect for learning.", "wrong": ["conquest.", "ritual alone.", "fear."] },
+          { start: "Scholars in Mali teach that wisdom comes from study, reflection,", "correct": "and respect for learning.", "wrong": ["conquest.", "ritual alone.", "fear."] },
           { start: "The great mosques of Timbuktu show that Mali is a nation of", "correct": "faith, learning, and cultural pride.", "wrong": ["fear of the gods.", "isolated from the world.", "focused only on war."] },
           { start: "Manuscripts preserved in Mali hold", "correct": "knowledge that serves all people.", "wrong": ["secrets that grant power.", "weapons of war.", "rituals of control."] },
-          { start: "Mali's scholars attracted students from across Africa because", "correct": "the kingdom offered genuine learning and opportunity.", "wrong": ["they were forced to attend.", "we controlled them.", "no other schools existed."] }
+          { start: "Mali's scholars attracted students from across Africa because the kingdom offered genuine learning and", "correct": "opportunity.", "wrong": ["they were forced to attend.", "they controlled them.", "no other schools existed."] }
         ]
       },
       {
         name: "Mali Administrative & Governance Wisdom",
         emoji: "⚖️",
         quotes: [
-          { start: "Mali's stability came from having clear laws and", "correct": "officials who enforced them fairly.", "wrong": ["fear of punishment.", "the ruler's whims.", "ritual alone."] },
-          { start: "A Mansa who appointed skilled administrators found that", "correct": "good governance prevents rebellion better than force.", "wrong": ["fear maintained order.", "conquest secured loyalty.", "ritual ensured peace."] },
-          { start: "The provincial governors of Mali prospered when they", "correct": "served both the Mansa and the welfare of their people.", "wrong": ["hoarded wealth.", "ruled by fear.", "ignored the people."] },
-          { start: "Mali's tax system was effective because it was", "correct": "fair and transparent, ensuring resources for defense and development.", "wrong": ["so high people had no choice.", "hidden from the people.", "used only for the palace."] },
-          { start: "Mali's military strength came from", "correct": "well-trained soldiers who believed in their cause.", "wrong": ["enslaved warriors.", "mercenaries alone.", "ritual power."] }
+          { start: "Mali's stability came from having clear laws and officials who enforced them", "correct": "fairly.", "wrong": ["in fear of punishment.", "of the ruler's whims.", "as a ritual alone."] },
+          { start: "A Mansa who appointed skilled administrators found that good governance prevents rebellion better than", "correct": "force.", "wrong": ["fear maintained order.", "conquest secured loyalty.", "ritual ensured peace."] },
+          { start: "The provincial governors of Mali prospered when they served both the Mansa and the welfare of ", "correct": "their people.", "wrong": ["hoarded wealth.", "fear.", "their enemies."] },
+          { start: "Mali's tax system was effective because it was fair and transparent,", "correct": "ensuring resources for defense and development.", "wrong": ["so people had no choice.", "hidden from the people.", "used only for the palace."] },
+          { start: "Mali's military strength came from well-trained soldiers who", "correct": "believed in their cause.", "wrong": ["enslaved warriors.", "were mercenaries.", "had ritual power."] }
         ]
       },
       {
         name: "Mali & Women's Status (Historical Evidence)",
         emoji: "👩",
         quotes: [
-          { start: "In Mali, women could own property and conduct trade because", "correct": "the society valued economic contribution and family stability.", "wrong": ["they had complete freedom.", "no laws existed.", "men did not control resources."] },
-          { start: "Mali's queens and princess held real power because", "correct": "the kingdom recognized women's capacity to govern and counsel.", "wrong": ["they were merely symbolic.", "they had no real authority.", "ritual alone granted them power."] },
-          { start: "Mali's stability was strengthened by the fact that", "correct": "women managed households, trade, and helped preserve culture.", "wrong": ["women were powerless.", "they served no purpose.", "only men contributed."] },
+          { start: "In Mali, women could own property and conduct trade because the society valued economic contribution and family", "correct": "stability.", "wrong": ["poverty.", "because Islamic law required it.", "because men did not control resources."] },
+          { start: "Mali's queens and princess held real power because the kingdom recognized women's capacity", "correct": "to govern and counsel.", "wrong": ["to transfer all power to their husbands.", "as symbols only", "to advise but not make decisions."] },
+          { start: "Mali's stability was strengthened by the fact that women managed households, trade, and", "correct": "helped preserve culture.", "wrong": ["were powerless.", "served no purpose.", "only men contributed."] },
           { start: "Visitors to Mali noted that women were treated with", "correct": "more respect and freedom than in many contemporary societies.", "wrong": ["complete submission.", "no regard.", "only as servants."] }
         ]
       }
@@ -7739,7 +7739,7 @@ export const CIVILIZATIONS = [
           { start: "A man is known by the company he", "correct": "keeps.", "wrong": ["fears.", "envies.", "avoids."] },
           { start: "The scribe writes and the official reads; both serve the", "correct": "state.", "wrong": ["king.", "temple.", "people."] },
           { start: "What is the life of a man but a", "correct": "shadow?", "wrong": ["dream.", "breath.", "moment."] },
-          { start: "Do not neglect the fields, for the fields sustain", "correct": "all.", "wrong": ["the king.", "the gods.", "the temples."] },
+          { start: "A kingdom's wealth flows from the fields, and a wise ruler ensures that", "correct": "farmers are protected and productive.", "wrong": ["temples are wealthier.", "merchants control trade.", "soldiers own land."] },          
           { start: "The merchant who trades fairly will", "correct": "succeed.", "wrong": ["be rich.", "be powerful.", "be feared."] },
           { start: "Honor your parents, for they gave you", "correct": "life.", "wrong": ["wealth.", "power.", "status."] }
         ]
