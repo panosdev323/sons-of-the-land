@@ -6917,96 +6917,96 @@ export const CIVILIZATIONS = [
         name: "Mississippian Religious & Ceremonial Systems",
         emoji: "🕯️",
         quotes: [
-          { start: "Mississippian religious practices centered on a cosmology that included", "correct": "a layered universe (upper, middle, lower worlds), celestial bodies, and spirits associated with natural phenomena.", "wrong": ["only one god.", "no complex beliefs.", "purely shamanic practices."] },
-          { start: "The Southeastern Ceremonial Complex—shared symbolism and rituals across Mississippian societies—suggests that", "correct": "these cultures shared common religious beliefs and participated in a regional religious tradition.", "wrong": ["each society was isolated.", "no shared beliefs.", "no ritual exchange."] },
-          { start: "Mississippian priests or spiritual leaders likely held significant power because they", "correct": "understood ceremonies, could interpret omens, and were believed to communicate with spiritual forces that ensured prosperity.", "wrong": ["only performed rituals.", "had no real authority.", "were powerless."] },
-          { start: "The use of specific symbols—the cross-in-circle, the eye motif, the woodpecker—in Mississippian art suggests that", "correct": "these symbols held spiritual meaning and communicated religious concepts across the culture.", "wrong": ["they were purely decorative.", "no meaning existed.", "only artistic expression."] },
-          { start: "Mississippian ceremonies likely took place in plazas and on mounds because", "correct": "large public gatherings reinforced social hierarchy, displayed elite authority, and united the community around shared religious beliefs.", "wrong": ["only private rituals mattered.", "ceremony served no purpose.", "religion was personal."] },
-          { start: "The artifacts found in Mississippian burial mounds—shell, copper, mica, feather headdresses—indicate that", "correct": "the culture believed in an afterlife and prepared elite individuals for it with valued goods.", "wrong": ["no beliefs about afterlife.", "purely practical items.", "no spiritual meaning."] },
-          { start: "Mississippian religious specialists used knowledge of", "correct": "celestial events, plant and animal behavior, and water cycles to predict seasons and guide ceremonial timing.", "wrong": ["only supernatural power.", "no real knowledge.", "purely ritual knowledge."] }
+          { start: "Mississippian religious practices centered on a cosmology that included", "correct": "spirits associated with natural phenomena.", "wrong": ["only one god.", "no complex beliefs.", "purely shamanic practices."] },
+          { start: "The Southeastern Ceremonial Complex—shared symbolism and rituals across Mississippian societies—suggests that", "correct": "these cultures shared common religious beliefs.", "wrong": ["each society was isolated.", "no shared beliefs.", "no ritual exchange."] },
+          { start: "Mississippian priests or spiritual leaders likely held significant power because they", "correct": "were believed to communicate with spiritual forces that ensured prosperity.", "wrong": ["only performed rituals.", "had no real authority.", "were powerless."] },
+          { start: "The use of specific symbols—the cross-in-circle, the eye motif, the woodpecker—in Mississippian art suggests that", "correct": "these symbols held spiritual meaning.", "wrong": ["they were purely decorative.", "no meaning existed.", "only artistic expression."] },
+          { start: "Mississippian ceremonies likely took place in plazas and on mounds because", "correct": "large public gatherings reinforced social hierarchy.", "wrong": ["only private rituals mattered.", "ceremony served no purpose.", "religion was personal."] },
+          { start: "The artifacts found in Mississippian burial mounds—shell, copper, mica, feather headdresses—indicate that", "correct": "the culture believed in an afterlife.", "wrong": ["no beliefs about afterlife.", "purely practical items.", "no spiritual meaning."] },
+          { start: "Mississippian religious specialists used knowledge of", "correct": "water cycles to predict seasons and guide ceremonial timing.", "wrong": ["only supernatural power.", "no real knowledge.", "purely ritual knowledge."] }
         ]
       },
       {
         name: "Mississippian Trade & Economic Networks",
         emoji: "💰",
         quotes: [
-          { start: "Mississippian societies controlled trade routes because this allowed them to", "correct": "accumulate wealth, distribute goods to followers, and maintain power and influence over surrounding regions.", "wrong": ["purely economic reasons.", "no political benefit.", "equal distribution of wealth."] },
-          { start: "The distribution of Mississippian artifacts across vast distances shows that", "correct": "these cultures participated in extensive trade networks exchanging shells, copper, mica, and manufactured goods.", "wrong": ["they were isolated.", "no trade occurred.", "random distribution."] },
-          { start: "The control of copper sources and the ability to produce copper artifacts gave Mississippian elites", "correct": "valuable goods for redistribution that reinforced their authority and attracted followers.", "wrong": ["no advantage.", "no exchange value.", "purely decorative value."] },
-          { start: "Mississippian leaders used redistribution of trade goods to", "correct": "build and maintain political relationships, reward loyalty, and reinforce their position as intermediaries between the human and spiritual worlds.", "wrong": ["only for profit.", "purely economical.", "no political purpose."] },
-          { start: "Shell from the Gulf Coast, found in Mississippian centers far to the north, demonstrates that", "correct": "trade networks connected distant regions and that valuable marine resources were highly valued and exchanged.", "wrong": ["conquest brought all goods.", "no real trade occurred.", "local resources only."] }
+          { start: "Mississippian societies controlled trade routes because this allowed them to accumulate wealth and", "correct": "maintain power over surrounding regions.", "wrong": ["purely economic reasons.", "no political benefit.", "equal distribution of wealth."] },
+          { start: "The distribution of Mississippian artifacts across vast distances shows that", "correct": "these cultures participated in extensive trade networks.", "wrong": ["they were isolated.", "no trade occurred.", "random distribution."] },
+          { start: "The control of copper sources and the ability to produce copper artifacts gave Mississippian elites", "correct": "valuable goods for redistribution.", "wrong": ["no advantage.", "no exchange value.", "purely decorative value."] },
+          { start: "Mississippian leaders used redistribution of trade goods to", "correct": "build and maintain political relationships.", "wrong": ["only for profit.", "purely economical.", "no political purpose."] },
+          { start: "Shell from the Gulf Coast, found in Mississippian centers far to the north, demonstrates that", "correct": "trade networks connected distant regions.", "wrong": ["conquest brought all goods.", "no real trade occurred.", "local resources only."] }
         ]
       },
       {
         name: "Mississippian Urban Planning & Settlement",
         emoji: "🏘️",
         quotes: [
-          { start: "Mississippian centers like Cahokia were organized with mounds surrounding a central plaza because this design", "correct": "created spaces for ceremonies, demonstrated elite power, and organized movement of populations.", "wrong": ["random placement.", "no planning.", "only defensive purposes."] },
-          { start: "The size of Cahokia at its peak—with thousands of residents, extensive suburbs, and surrounding farmland—shows that Mississippian societies had", "correct": "the ability to organize large urban populations, manage food supplies, and coordinate complex labor.", "wrong": ["no real cities.", "primitive settlements.", "no organization."] },
-          { start: "The location of elite residences on mounds separated from commoner housing reflects", "correct": "a hierarchical society where elite status was visibly displayed and residential segregation reinforced social distinctions.", "wrong": ["equal housing.", "no hierarchy.", "random arrangement."] },
-          { start: "Mississippian agricultural villages and farms surrounding urban centers provided", "correct": "food surplus to support the non-agricultural population of the city and labor forces for mound building.", "wrong": ["only local consumption.", "no surplus.", "independent communities."] },
-          { start: "The roads and pathways connecting Mississippian sites show that", "correct": "these centers communicated with each other and maintained relationships through movement of people and goods.", "wrong": ["isolation was the norm.", "no connections.", "purely ceremonial paths."] }
+          { start: "Mississippian centers like Cahokia were organized with mounds surrounding a central plaza because this design", "correct": "created spaces for ceremonies.", "wrong": ["random placement.", "no planning.", "only defensive purposes."] },
+          { start: "The size of Cahokia at its peak—with thousands of residents, extensive suburbs, and surrounding farmland—shows that Mississippian societies had", "correct": "the ability to organize large urban populations.", "wrong": ["no real cities.", "primitive settlements.", "no organization."] },
+          { start: "The location of elite residences on mounds separated from commoner housing reflects", "correct": "a hierarchical society.", "wrong": ["equal housing.", "no hierarchy.", "random arrangement."] },
+          { start: "Mississippian agricultural villages and farms surrounding urban centers provided", "correct": "food surplus.", "wrong": ["only local food.", "no surplus.", "independence."] },
+          { start: "The roads and pathways connecting Mississippian sites show that", "correct": "these centers communicated with each other.", "wrong": ["isolation was the norm.", "no connections.", "purely ceremonial paths."] }
         ]
       },
       {
         name: "Mississippian Agriculture & Food Systems",
         emoji: "🌾",
         quotes: [
-          { start: "Mississippian societies depended on cultivation of", "correct": "maize (corn), beans, and squash, supplemented by hunting, fishing, and gathering.", "wrong": ["only hunting.", "imports alone.", "no agriculture."] },
-          { start: "The agricultural surplus produced by Mississippian farmers allowed for", "correct": "support of non-agricultural workers, craftspeople, priests, and elite—the foundation of complex society.", "wrong": ["no cities.", "no specialization.", "no hierarchy."] },
-          { start: "Mississippian farmers understood the local environment well enough to", "correct": "cultivate crops suited to river valley climates and exploit seasonal resources like fish and game.", "wrong": ["use no knowledge.", "struggle with crops.", "have no skill."] },
-          { start: "The reliance on maize agriculture made Mississippian societies vulnerable to", "correct": "drought and crop failure, which may have contributed to the decline of some chiefdoms.", "wrong": ["no environmental stress.", "complete stability.", "no consequences to failure."] },
-          { start: "Mississippian storage of corn and other foods allowed for", "correct": "survival through seasons of scarcity and provisioning of large labor forces for construction projects.", "wrong": ["wasteful accumulation.", "no practical benefit.", "purely ceremonial storage."] }
+          { start: "Mississippian societies depended on cultivation of", "correct": "beans, squash, supplemented by hunting, fishing", "wrong": ["only hunting.", "imports alone.", "no agriculture."] },
+          { start: "The agricultural surplus produced by Mississippian farmers allowed for", "correct": "support of non-agricultural workers.", "wrong": ["no cities.", "no specialization.", "no hierarchy."] },
+          { start: "Mississippian farmers understood the local environment well enough to", "correct": "cultivate crops suited to river valley climates.", "wrong": ["use no knowledge.", "struggle with crops.", "have no skill."] },
+          { start: "The reliance on maize agriculture made Mississippian societies vulnerable to", "correct": "drought and crop failure.", "wrong": ["no environmental stress.", "complete stability.", "no consequences to failure."] },
+          { start: "Mississippian storage of corn and other foods allowed for", "correct": "survival through seasons of scarcity.", "wrong": ["wasteful accumulation.", "no practical benefit.", "purely ceremonial storage."] }
         ]
       },
       {
         name: "Mississippian Craftsmanship & Artistry",
         emoji: "🎨",
         quotes: [
-          { start: "The high quality and distinctive style of Mississippian pottery indicates that", "correct": "specialized craftspeople possessed advanced techniques and created wares valued for both practical and ceremonial use.", "wrong": ["no skill.", "random production.", "no specialized knowledge."] },
-          { start: "The elaborate shell work, copper work, and stone carving found in Mississippian sites shows that", "correct": "artisans held important positions and possessed knowledge transmitted through apprenticeship and practice.", "wrong": ["no real craftsmanship.", "purely decorative.", "no skill required."] },
-          { start: "The symbols and motifs repeated in Mississippian art—crosses, eyes, feathers—suggest that", "correct": "a shared religious and artistic tradition united these cultures and communicated spiritual meanings.", "wrong": ["random decoration.", "no meaning.", "purely aesthetic."] },
-          { start: "The production of shell gorgets (ornaments) by Mississippian artisans indicates that", "correct": "these items held high value and were likely exchanged or given as gifts to reinforce social relationships.", "wrong": ["purely for personal use.", "no exchange value.", "no social function."] }
+          { start: "The high quality and distinctive style of Mississippian pottery indicates that", "correct": "specialized craftspeople possessed advanced techniques.", "wrong": ["no skill.", "random production.", "no specialized knowledge."] },
+          { start: "The elaborate shell work, copper work, and stone carving found in Mississippian sites shows that", "correct": "artisans held important positions.", "wrong": ["no real craftsmanship.", "purely decorative.", "no skill required."] },
+          { start: "The symbols and motifs repeated in Mississippian art—crosses, eyes, feathers—suggest that", "correct": "a shared religious tradition united these cultures.", "wrong": ["random decoration.", "no meaning.", "purely aesthetic."] },
+          { start: "The production of shell gorgets (ornaments) by Mississippian artisans indicates that", "correct": "these items held high value.", "wrong": ["purely for personal use.", "no exchange value.", "no social function."] }
         ]
       },
       {
         name: "Mississippian Social Organization & Hierarchy",
         emoji: "🏛️",
         quotes: [
-          { start: "Mississippian societies were organized into distinct social classes: elites, priests, craftspeople, farmers, and warriors because", "correct": "this hierarchy allowed for specialization and coordination of complex tasks.", "wrong": ["all were equal.", "random organization.", "no structure."] },
-          { start: "Elite burial mounds containing valuable goods suggest that Mississippian societies believed in", "correct": "an afterlife and that status in life continued in death.", "wrong": ["no beliefs about death.", "pure materialism.", "no social distinction."] },
-          { start: "The concentration of wealth and resources among Mississippian elites shows that", "correct": "these individuals controlled production, trade, and religious authority, which translated to political power.", "wrong": ["wealth was equally distributed.", "no power structure.", "pure democracy."] },
-          { start: "Mississippian warriors, distinct from other members of society, served to", "correct": "defend the chiefdom, conduct raids against enemies, and enforce elite authority.", "wrong": ["have no real function.", "be purely ceremonial.", "exist outside the hierarchy."] }
+          { start: "Mississippian societies were organized into distinct social classes: elites, priests, craftspeople, farmers, and warriors because", "correct": "this hierarchy allowed for specialization of complex tasks.", "wrong": ["all were equal.", "random organization.", "no structure."] },
+          { start: "Elite burial mounds containing valuable goods suggest that Mississippian societies believed in", "correct": "an afterlife.", "wrong": ["no beliefs about death.", "pure materialism.", "no social distinction."] },
+          { start: "The concentration of wealth and resources among Mississippian elites shows that these individuals controlled", "correct": "production and trade.", "wrong": ["wealth.", "nopower structure.", "pure democracy."] },
+          { start: "Mississippian warriors, distinct from other members of society, served to", "correct": "defend the chiefdom.", "wrong": ["have no real function.", "be purely ceremonial.", "exist outside the hierarchy."] }
         ]
       },
       {
         name: "Mississippian Warfare & Political Relations",
         emoji: "⚔️",
         quotes: [
-          { start: "Mississippian chiefdoms competed with each other through warfare because", "correct": "conquest and tribute collection increased a chief's wealth and power.", "wrong": ["purely for honor.", "no economic motive.", "random conflict."] },
-          { start: "The evidence of palisades (defensive walls) around some Mississippian centers shows that", "correct": "warfare between chiefdoms was real and communities needed to defend against attack.", "wrong": ["peaceful coexistence.", "no conflict.", "purely ceremonial walls."] },
-          { start: "Mississippian chiefdoms maintained power through a combination of", "correct": "military strength, control of valuable resources, religious authority, and the ability to redistribute wealth.", "wrong": ["purely military force.", "no real power.", "complete equality."] },
-          { start: "The decline of some Mississippian chiefdoms may have resulted from", "correct": "internal conflict, external pressure from rivals, environmental stress, or loss of trade networks.", "wrong": ["no real reason.", "peaceful dissolution.", "divine intervention."] }
+          { start: "Mississippian chiefdoms competed with each other through warfare because conquest and tribute collection increased a chief's wealth and", "correct": "power.", "wrong": ["honor.", "economic motive.", "random conflict."] },
+          { start: "The evidence of palisades (defensive walls) around some Mississippian centers shows that", "correct": "warfare between chiefdoms was real.", "wrong": ["peaceful coexistence.", "no conflict.", "purely ceremonial walls."] },
+          { start: "Mississippian chiefdoms maintained power through a combination of military strength and", "correct": "the ability to redistribute wealth.", "wrong": ["purely military force.", "no real power.", "complete equality."] },
+          { start: "The decline of some Mississippian chiefdoms may have resulted from", "correct": "internal conflict or loss of trade networks.", "wrong": ["no real reason.", "peaceful dissolution.", "divine intervention."] }
         ]
       },
       {
         name: "Mississippian Cosmology & Worldview",
         emoji: "🌌",
         quotes: [
-          { start: "Mississippian cosmology included a three-tiered universe: upper world (sky, celestial bodies), middle world (humans), and lower world because", "correct": "this framework helped explain natural phenomena and humanity's place within the cosmos.", "wrong": ["purely mythological.", "no real worldview.", "random beliefs."] },
-          { start: "The importance of celestial observation in Mississippian culture—with mounds possibly aligned to celestial events—shows that", "correct": "these societies understood astronomy and incorporated it into ceremonial calendars and religious beliefs.", "wrong": ["no astronomy.", "random alignments.", "purely decorative."] },
-          { start: "Mississippian societies understood natural cycles and seasonal changes because they", "correct": "depended on agriculture and fishing, requiring detailed knowledge of climate, water levels, and animal behavior.", "wrong": ["had no real knowledge.", "relied only on luck.", "ignored environmental patterns."] },
-          { start: "The Mississippian belief that natural phenomena had spiritual causes and that proper ritual could influence them reflects", "correct": "a worldview where humans, nature, and the spiritual realm were interconnected.", "wrong": ["pure superstition.", "no real beliefs.", "no connection to nature."] }
+          { start: "Mississippian cosmology included a three-tiered universe: upper world (sky, celestial bodies), middle world (humans), and", "correct": "lower world.", "wrong": ["mythology.", "no real worldview.", "random beliefs."] },
+          { start: "The importance of celestial observation in Mississippian culture—with mounds possibly aligned to celestial events—shows that", "correct": "these societies understood astronomy.", "wrong": ["no astronomy.", "random alignments.", "purely decorative."] },
+          { start: "Mississippian societies understood natural cycles and seasonal changes because they", "correct": "depended on agriculture.", "wrong": ["had no real knowledge.", "relied only on luck.", "ignored environmental patterns."] },
+          { start: "The Mississippian belief that natural phenomena had spiritual causes reflects a worldview where humans, nature, and the spiritual realm were", "correct": "interconnected.", "wrong": ["pure superstition.", "fake.", "lost."] }
         ]
       },
       {
         name: "Mississippian Decline & Historical Legacy",
         emoji: "📜",
         quotes: [
-          { start: "The decline of major Mississippian chiefdoms by the 16th century may have been caused by", "correct": "a combination of environmental stress (drought, flooding), internal conflict, disease, and disruption of trade networks.", "wrong": ["European contact alone.", "no real reason.", "pure conquest."] },
-          { start: "The abandonment of Cahokia and other major centers shows that even advanced civilizations are vulnerable to", "correct": "environmental change, internal instability, and external pressure.", "wrong": ["no real reason.", "weakness from the start.", "inevitable decline."] },
-          { start: "The Mississippian legacy influenced later Native American societies in the region through", "correct": "continued occupation of sites, adoption of cultural practices, and memory of former centers of power.", "wrong": ["complete discontinuity.", "no influence.", "no connection to later peoples."] },
-          { start: "The study of Mississippian culture demonstrates that", "correct": "sophisticated, complex societies with cities, organized trade, and hierarchical systems existed in pre-Columbian North America.", "wrong": ["North America was primitive.", "no real cities existed.", "no complex societies."] }
+          { start: "The decline of major Mississippian chiefdoms by the 16th century may have been caused by", "correct": "a combination of environmental stress (drought, flooding) and disease.", "wrong": ["European contact alone.", "no real reason.", "pure conquest."] },
+          { start: "The abandonment of Cahokia and other major centers shows that even advanced civilizations are vulnerable to", "correct": "environmental change.", "wrong": ["no real reason.", "weakness from the start.", "inevitable decline."] },
+          { start: "The Mississippian legacy influenced later Native American societies in the region through", "correct": "memory of former centers of power.", "wrong": ["complete discontinuity.", "no influence.", "no connection to later peoples."] },
+          { start: "The study of Mississippian culture demonstrates that", "correct": "hierarchical systems existed in pre-Columbian North America.", "wrong": ["North America was primitive.", "no real cities existed.", "no complex societies."] }
         ]
       }
     ]
