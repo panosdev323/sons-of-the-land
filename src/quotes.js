@@ -5790,16 +5790,16 @@ export const CIVILIZATIONS = [
         emoji: "🏛️",
         quotes: [
           { start: "Maya society was organized into distinct classes: the royal family and nobility, priests and scribes, merchants and craftspeople, farmers, and enslaved persons because",
-          "correct": "this hierarchy allowed for specialization, coordination of large projects, and the accumulation and redistribution of wealth and resources.",
-            "wrong": ["purely egalitarian.", "no real structure.", "random organization."] },
-          { start: "The role of women in Maya society included serving as regents, advising rulers, managing households, and potentially conducting religious ceremonies because",
-          "correct": "women of elite status held real power and responsibility despite overall male political dominance.",
-            "wrong": ["women had no authority.", "purely domestic roles.", "no influence."] },
+          "correct": "this hierarchy allowed for specialization.",
+            "wrong": ["it was completely egalitarian.", "there was no real social structure.", "roles were assigned randomly."] },
+          { start: "The role of women in Maya society included serving as regents, advising rulers, managing households, and potentially conducting religious ceremonies because women",
+          "correct": "of elite status held real power.",
+            "wrong": ["had no authority.", "had purely domestic roles.", "had no influence."] },
           { start: "The status of captured enemies as slaves showed that Maya society had a system where defeated individuals could be incorporated into society at the lowest level through",
-          "correct": "enslavement, though some enslaved persons could eventually gain freedom.",
+          "correct": "enslavement.",
             "wrong": ["purely sacrificial.", "no other purpose.", "no integration."] },
-          { start: "The concentration of authority and resources in the royal family meant that a ruler's children and relatives occupied positions of power, creating networks of",
-          "correct": "kinship and obligation that could be mobilized for military, administrative, or religious purposes.",
+          { start: "The concentration of authority and resources in the royal family meant that a ruler's children and relatives occupied positions of power, creating networks of kinship and obligation that could be mobilized for",
+          "correct": " military purposes.",
             "wrong": ["purely ceremonial positions.", "no real power.", "equal opportunity."] }
         ]
       },
@@ -5807,17 +5807,17 @@ export const CIVILIZATIONS = [
         name: "Maya Art & Aesthetics",
         emoji: "🎨",
         quotes: [
-          { start: "The distinctive Maya artistic style—featuring naturalistic human figures, complex compositions, and detailed iconographic elements—developed because",
-          "correct": "artists worked within royal courts where they had access to resources and patrons who valued artistic excellence.",
-            "wrong": ["purely spontaneous development.", "no real tradition.", "no patronage."] },
-          { start: "The subjects of Maya art—including rulers, gods, battles, and mythological scenes—served to communicate",
-          "correct": "religious narratives, historical events, and the divine authority of rulers.",
-            "wrong": ["purely decorative.", "no real communication.", "purely aesthetic."] },
-          { start: "The precision and sophistication of Maya sculpture, painting, and ceramic production indicate that",
-          "correct": "Maya artists possessed technical mastery developed through training and the accumulation of knowledge across generations.",
+          { start: "The distinctive Maya artistic style—featuring naturalistic human figures, complex compositions, and detailed iconographic elements—developed because artists worked",
+          "correct": "within royal courts.",
+            "wrong": ["without purely spontaneous development.", "with no real tradition.", "with no patronage."] },
+          { start: "The subjects of Maya art—including rulers, gods, battles, and mythological scenes—served to communicate religious narratives, and",
+          "correct": "the divine authority of rulers.",
+            "wrong": ["was purely decorative.", "had no real communication.", "was purely aesthetic."] },
+          { start: "The precision and sophistication of Maya sculpture, painting, and ceramic production indicate that Maya artists possessed",
+          "correct": "technical mastery.",
             "wrong": ["primitive techniques.", "no real skill.", "purely spontaneous creation."] },
           { start: "The placement of artworks in temples, palaces, and tombs served to communicate the wealth, power, and divine connections of rulers and provided",
-          "correct": "lasting records of royal achievements and family histories.",
+          "correct": "lasting records of royal achievements.",
             "wrong": ["purely decorative.", "no real communication.", "purely for the afterlife."] }
         ]
       },
@@ -5826,20 +5826,20 @@ export const CIVILIZATIONS = [
         emoji: "📜",
         quotes: [
           { start: "The decline and abandonment of major Classic period Maya cities came from multiple factors: environmental stress (drought), warfare between cities, the breakdown of trade networks, and",
-          "correct": "the fragmentation of political authority, which weakened the ability of rulers to organize society and maintain the religious and administrative systems.",
+          "correct": "the fragmentation of political authority.",
             "wrong": ["purely external conquest.", "single cause.", "inevitable collapse."] },
           { start: "The collapse of the Classic period Maya civilization by around 900 CE demonstrates that even sophisticated societies with advanced mathematics, astronomy, and writing systems are",
-          "correct": "vulnerable to environmental stress and social fragmentation when these factors combine.",
-            "wrong": ["purely weak civilization.", "no real achievement.", "inevitable failure."] },
-          { start: "The survival of Maya civilization in the Yucatan Peninsula and the continuation of Maya culture despite the Classic period collapse shows that",
-          "correct": "Maya culture, knowledge, and social structures adapted and persisted in new forms in the Post-Classic period.",
-            "wrong": ["complete cultural destruction.", "no continuity.", "inevitable end."] },
-          { start: "The legacy of the Maya civilization includes contributions to mathematics (zero, base-20 system), astronomy (accurate eclipse predictions), writing (complete writing system), and",
-          "correct": "literature, art, architecture, and a cosmological worldview that influenced Central American civilizations.",
+          "correct": "vulnerable to environmental stress.",
+            "wrong": ["purely weak civilization.", "inherently weak civilizations.", "destined for inevitable failure."] },
+          { start: "Maya civilization survived the Classic collapse because",
+          "correct": "its culture continued in the Post-Classic period.",
+            "wrong": ["it was completely destroyed.", "there was no cultural continuity.", "its end was inevitable and total."] },
+          { start: "The legacy of the Maya civilization includes contributions to mathematics (zero, base-20 system), astronomy (accurate eclipse predictions), writing and",
+          "correct": "literature, art, architecture.",
             "wrong": ["no real legacy.", "no actual contributions.", "purely regional impact."] },
-          { start: "The study of Maya civilization demonstrates that the Americas developed sophisticated civilizations with complex cities, trade networks, mathematical and astronomical knowledge, and written systems",
-          "correct": "independent of Old World influence, representing a parallel development of human civilization.",
-            "wrong": ["Americas were primitive.", "no real civilization.", "inferior to Old World."] }
+          { start: "The study of Maya civilization demonstrates that the Americas developed sophisticated civilizations with complex cities and written systems",
+          "correct": "independent of Old World influence.",
+            "wrong": ["with no use.", "with no real civilization.", "inferior to Old World."] }
         ]
       },
       {
@@ -5847,29 +5847,29 @@ export const CIVILIZATIONS = [
         emoji: "💊",
         quotes: [
           { start: "The Maya development of medical knowledge, preserved in texts and inferred from archaeological evidence, included understanding of",
-          "correct": "herbal remedies, surgical procedures, and the use of bloodletting for both healing and ritual purposes.",
-            "wrong": ["purely magical healing.", "no real knowledge.", "purely ceremonial."] },
+          "correct": "herbal remedies and surgical procedures.",
+            "wrong": ["purely magical healing.", "no real knowledge.", "religion."] },
           { start: "Maya medical practitioners, including those trained in the use of plants and surgical techniques, served both practical and spiritual purposes because illness was understood as having",
           "correct": "both physical and spiritual causes requiring treatment addressing both dimensions.",
             "wrong": ["purely supernatural causes.", "no real medicine.", "only spiritual healing."] },
           { start: "The discovery of trepanation (skull surgery) evidence among Maya skeletal remains indicates that",
-          "correct": "Maya healers possessed surgical skill and the ability to perform dangerous operations with some degree of success.",
-            "wrong": ["purely experimental.", "high mortality rates only.", "no real skill."] }
+          "correct": "Maya healers possessed surgical skill.",
+            "wrong": ["it was done without medical knowledge.", "it only resulted in frequent death.", "it required no specialized training."] }
         ]
       },
       {
         name: "Maya Mathematical & Scientific Achievement",
         emoji: "🧮",
         quotes: [
-          { start: "The Maya development of the concept of zero, independent of Old World mathematics, was a breakthrough that allowed for",
-          "correct": "more efficient mathematical notation and the ability to perform complex calculations essential for astronomical work.",
-            "wrong": ["purely theoretical.", "no practical value.", "not a real innovation."] },
-          { start: "The accuracy of Maya astronomical predictions, including the determination that the tropical year was approximately 365.2420 days (remarkably close to the modern value), came from",
-          "correct": "careful observation, systematic record-keeping, and the development of mathematical models of celestial motion.",
-            "wrong": ["purely lucky guesses.", "no real accuracy.", "no scientific method."] },
-          { start: "The development of the Long Count calendar, which tracked days from a mythological base date, served practical purposes including",
-          "correct": "the creation of a system for recording historical events and predicting astronomical phenomena.",
-            "wrong": ["purely mythological.", "no practical use.", "no scientific value."] }
+          { start: "The Maya development of the concept of zero, independent of Old World mathematics, was a breakthrough that allowed for more efficient mathematical notation and",
+          "correct": "the ability to perform complex calculations.",
+            "wrong": ["had only theoretical significance.", "provided no practical use.", "was not a genuine innovation."] },
+          { start: "The accuracy of Maya astronomical predictions, including the determination that the tropical year was approximately",
+          "correct": "365.2420 days (remarkably close to the modern value).",
+            "wrong": ["180 days.", "360 days.", "300 days."] },
+          { start: "The development of the Long Count calendar, which tracked days from a mythological base date, served practical purposes including the creation of a system",
+          "correct": "for recording historical events.",
+            "wrong": ["which was purely mythological.", "with no practical use.", "with no scientific value."] }
         ]
       }
     ]
@@ -5886,35 +5886,34 @@ export const CIVILIZATIONS = [
         name: "Ezana of Axum (Expansion & Conversion to Christianity)",
         emoji: "👑",
         quotes: [
-          { start: "I conquered the kingdom of Kush and established Axumite dominance in the region by combining", "correct": "military campaigns with the establishment of administrative control and the winning of local populations' acceptance.", "wrong": ["pure conquest alone.", "no follow-up governance.", "military force only."] },
-          { start: "My conversion to Christianity and the establishment of Christianity as the official religion of Axum served to", "correct": "align the kingdom with the broader Christian world, particularly the Byzantine Empire, and create a religious identity distinct from pagan rivals.", "wrong": ["purely personal piety.", "no political benefit.", "no real strategy."] },
-          { start: "The use of Christian symbols on Axumite coins and the establishment of Christian monuments demonstrated that rulers understood that", "correct": "religious authority and the adoption of a major world religion enhanced the prestige and legitimacy of Axumite rule.", "wrong": ["purely religious.", "no political value.", "no real strategy."] },
-          { start: "My military campaigns against the Blemmyes and other rivals showed that Axumite power depended on", "correct": "maintaining military strength while establishing diplomatic relationships with neighboring powers.", "wrong": ["pure military conquest.", "no diplomacy.", "force alone."] },
-          { start: "The consolidation of Axumite power under my reign required understanding that the kingdom's prosperity depended on", "correct": "trade routes, the Red Sea ports, and the ability to control access to the interior of Africa.", "wrong": ["purely military dominance.", "no economic foundation.", "conquest alone."] },
-          { start: "The establishment of Axum as a major Christian power alongside Rome and Byzantium demonstrated that", "correct": "a kingdom's diplomatic and religious status could equal that of the Mediterranean powers despite being in Africa.", "wrong": ["Africa was marginal.", "no real power existed.", "purely regional influence."] }
+          { start: "I conquered the kingdom of Kush and established Axumite dominance in the region by combining military campaigns with the establishment of administrative control and the winning of", "correct": "local populations' acceptance.", "wrong": ["pure conquest alone.", "no follow-up governance.", "military force only."] },
+          { start: "My conversion to Christianity and the establishment of Christianity as the official religion of Axum served to align the kingdom with the broader", "correct": "Christian world.", "wrong": ["Islamic world.", "political benefit.", "Buddhist world."] },
+          { start: "My military campaigns against the Blemmyes and other rivals showed that Axumite power depended on maintaining military strength while establishing diplomatic relationships with", "correct": "neighboring powers.", "wrong": ["enemies.", "friends.", "force alone."] },
+          { start: "The consolidation of Axumite power under my reign required understanding that the kingdom's prosperity depended on the ability to control access to the interior of", "correct": "Africa.", "wrong": ["America.", "Europe.", "Asia."] },
+          { start: "The establishment of Axum as a major Christian power alongside Rome and Byzantium demonstrated that a kingdom's religious status could equal that of the Mediterranean powers despite being in", "correct": " Africa.", "wrong": ["Europe.", "Asia.", "America."] }
         ]
       },
       {
         name: "Axumite Kings & Political Authority",
         emoji: "👑",
         quotes: [
-          { start: "The Axumite king's authority came from demonstrating that he could", "correct": "protect the kingdom from external threats, maintain internal order, control trade, and ensure prosperity.", "wrong": ["pure inheritance.", "ritual authority alone.", "no accountability."] },
-          { start: "Axumite rulers maintained power by establishing relationships with the Byzantine Empire because this provided", "correct": "diplomatic recognition, access to Mediterranean trade networks, and military alliances.", "wrong": ["no real benefit.", "purely ceremonial.", "no strategic advantage."] },
-          { start: "The use of Greek language on Axumite coinage and in official inscriptions served to demonstrate that", "correct": "Axum was integrated into the Hellenistic world and that Axumite rulers were sophisticated and cosmopolitan.", "wrong": ["purely linguistic choice.", "no real value.", "random decision."] },
-          { start: "An Axumite king's legitimacy depended on being recognized as both a political ruler and a guardian of the Christian faith because", "correct": "the integration of religious and political authority made the king the defender of both the kingdom and Christendom.", "wrong": ["religious role was purely ceremonial.", "no real connection.", "separate authorities."] },
-          { start: "The expansion of Axumite territory under successful kings required maintaining the loyalty of subordinate rulers and military commanders by", "correct": "distributing wealth, granting authority, and ensuring that they benefited from the kingdom's prosperity.", "wrong": ["pure force alone.", "inherited loyalty.", "no rewards."] }
+          { start: "The Axumite king's authority came from demonstrating that he could protect the kingdom from external threats, control trade, and", "correct": "ensure prosperity.", "wrong": ["pure inheritance.", "ritual authority alone.", "exercising power without responsibilities."] },
+          { start: "Axumite rulers maintained power by establishing relationships with the Byzantine Empire because this provided diplomatic recognition and", "correct": "access to Mediterranean trade networks.", "wrong": ["no real benefit.", "silver.", "no strategic advantage."] },
+          { start: "The use of Greek language on Axumite coinage and in official inscriptions served to demonstrate that", "correct": "Axum was integrated into the Hellenistic world.", "wrong": ["it was used only for internal communication.", "it had no political significance.", "it had no trade significance."] },
+          { start: "An Axumite king's legitimacy depended on being recognized as both a political ruler and a guardian of the Christian faith because", "correct": "it united political and religious authority.", "wrong": ["religious role was purely ceremonial.", "there was no real connection between roles.", "church and state were completely separate."] },
+          { start: "The expansion of Axumite territory under successful kings required maintaining the loyalty of subordinate rulers and military commanders by", "correct": "distributing wealth.", "wrong": ["pure force alone.", "inherited loyalty.", "no rewards."] }
         ]
       },
       {
         name: "Axumite Trade & Economic Power",
         emoji: "💰",
         quotes: [
-          { start: "Axumite wealth and power came primarily from control of trade routes connecting the Red Sea, the Mediterranean, and Indian Ocean networks because this allowed the kingdom to", "correct": "tax merchants, control access to valuable goods, and establish relationships with distant powers.", "wrong": ["purely military conquest.", "no economic foundation.", "agricultural wealth alone."] },
-          { start: "The development of Axumite ports like Adulis as major trade centers provided the kingdom with", "correct": "access to goods from India, Persia, the Mediterranean, and the interior of Africa, making Axum a crucial node in international commerce.", "wrong": ["purely military bases.", "no real commerce.", "local trade only."] },
-          { start: "Axumite control of gold trade, ivory, and other luxury goods from Africa's interior gave the kingdom significant power because these goods were", "correct": "highly valued in Mediterranean and Asian markets and brought wealth that could be used for military campaigns and building projects.", "wrong": ["no real value.", "purely local trade.", "no external demand."] },
-          { start: "The minting of high-quality Axumite coins in gold, silver, and copper served to", "correct": "facilitate trade, demonstrate royal authority, and establish Axum's prestige as a major economic power.", "wrong": ["no real purpose.", "purely decorative.", "no practical value."] },
-          { start: "Axumite merchants and traders operating under the protection of the crown could accumulate wealth and establish trade networks because the king provided", "correct": "safe passage, protection from bandits, enforcement of contracts, and access to major trade routes.", "wrong": ["no real protection.", "purely exploited.", "arbitrary government."] },
-          { start: "The wealth from trade allowed Axumite rulers to", "correct": "finance military campaigns, support building projects, maintain a court and administration, and distribute gifts to allies.", "wrong": ["purely accumulate gold.", "no real benefit.", "no strategic advantage."] }
+          { start: "Axumite wealth and power came primarily from control of trade routes connecting the Red Sea, the Mediterranean, and Indian Ocean networks because this allowed the kingdom to", "correct": "establish relationships with distant powers.", "wrong": ["rely only on military conquest.", "operate without any economic base.", "depend solely on agricultural production."] },
+          { start: "The development of Axumite ports like Adulis as major trade centers provided the kingdom with access to goods, making Axum a crucial node in", "correct": "international commerce.", "wrong": ["purely military bases.", "no real commerce.", "local trade only."] },
+          { start: "Axumite control of gold trade, ivory, and other luxury goods from Africa's interior gave the kingdom significant power because these goods", "correct": "were highly valued.", "wrong": ["had no real value.", "were purely for local trade.", "had no external demand."] },
+          { start: "The minting of high-quality Axumite coins in gold, silver, and copper served", "correct": "to facilitate trade.", "wrong": ["no real purpose.", "nothing.", "no practical value."] },
+          { start: "Axumite merchants and traders operating under the protection of the crown could accumulate wealth and establish trade networks because the king provided", "correct": "safe passage and access to major trade routes.", "wrong": ["no real protection.", "gold.", "arbitrary government."] },
+          { start: "The wealth from trade allowed Axumite rulers", "correct": "to finance military campaigns.", "wrong": ["to purely accumulate gold.", "no real benefit.", "no strategic advantage."] }
         ]
       },
       {
@@ -5922,54 +5921,53 @@ export const CIVILIZATIONS = [
         emoji: "✝️",
         quotes: [
           { start: "The conversion of Axum to Christianity under Ezana transformed the kingdom's identity because it positioned Axum as part of the Christian world and aligned it with",
-          "correct": "the Byzantine Empire, which was a major power in the Mediterranean and Middle East.",
-            "wrong": ["purely spiritual change.", "no political benefit.", "no real consequence."] },
-          { start: "The establishment of a Christian church hierarchy in Axum, with bishops and clergy, served to", "correct": "institutionalize Christianity, maintain orthodoxy, and create a clerical establishment that could advise rulers.", "wrong": ["purely religious.", "no political function.", "no real value."] },
-          { start: "The use of Christian symbols—the cross on coins, on monuments, and in official insignia—demonstrated that rulers believed that", "correct": "religious identity was central to state legitimacy and that Christianity was an essential component of Axumite governance.", "wrong": ["purely decorative.", "no real importance.", "ceremonial only."] },
-          { start: "The relationship between Axumite rulers and the religious establishment required that kings", "correct": "be seen as pious Christians whose decisions aligned with Christian principles while maintaining political authority.", "wrong": ["pure religious control.", "no real power.", "subordination to clergy."] },
-          { start: "The spread of Christianity in Axum and the regions it controlled created a shared faith identity because", "correct": "Christianity provided a framework for understanding the world, justifying authority, and creating bonds with Christian populations.", "wrong": ["purely imposed.", "no real belief.", "only for show."] },
-          { start: "The maintenance of Christian orthodoxy in Axum and resistance to different Christian traditions (like Nestorianism) showed that rulers understood that", "correct": "controlling religious doctrine was essential to maintaining religious and political unity.", "wrong": ["persecution without purpose.", "purely sectarian.", "no real importance."] }
+          "correct": "the Byzantine Empire.",
+            "wrong": ["Middle East.", "no political benefit.", "no real consequence."] },
+          { start: "The establishment of a Christian church hierarchy in Axum, with bishops and clergy, served to", "correct": "institutionalize Christianity.", "wrong": ["purely religious.", "no political function.", "no real value."] },
+          { start: "The use of Christian symbols—the cross on coins, on monuments, and in official insignia—demonstrated that rulers believed that religious identity was", "correct": "central to state legitimacy.", "wrong": ["only decorative in nature.", "of no real importance.", "used purely for ceremonial display."] },
+          { start: "The relationship between Axumite rulers and the religious establishment required that kings be seen as pious Christians whose decisions aligned with", "correct": "Christian principles.", "wrong": ["pure religious control.", "no real power.", "subordination to clergy."] },
+          { start: "The spread of Christianity in Axum and the regions it controlled created a shared faith identity because Christianity provided a framework for", "correct": " understanding the world.", "wrong": ["purely imposed.", "no real belief.", "only for show."] },
+          { start: "The maintenance of Christian orthodoxy in Axum showed that rulers understood that controlling religious doctrine was essential to", "correct": "maintaining political unity.", "wrong": ["persecution without purpose.", "purely sectarian.", "no real importance."] }
         ]
       },
       {
         name: "Axumite Military & Defense",
         emoji: "⚔️",
         quotes: [
-          { start: "The Axumite military successfully defended the kingdom against invasions from the Persians, the Arabs, and other rivals because Axumite forces possessed", "correct": "well-trained soldiers, effective military organization, and access to advanced weaponry through Mediterranean trade.", "wrong": ["purely superior numbers.", "unbeatable forces.", "no real threats."] },
-          { start: "The use of the Red Sea fleet by Axumite rulers served to protect trade routes, transport troops, and project power across the sea because", "correct": "control of the sea allowed Axum to project power into the Mediterranean and Arabian Sea regions.", "wrong": ["purely ceremonial.", "no real naval power.", "land forces alone mattered."] },
-          { start: "Axumite military campaigns against rivals in Arabia, Persia, and Africa demonstrated that", "correct": "Axum was a regional power that could project military force across the Red Sea and into Africa's interior.", "wrong": ["purely defensive.", "no real aggression.", "limited military capacity."] },
-          { start: "The maintenance of Axumite military strength required", "correct": "continuous recruitment and training of soldiers, procurement of weapons, and the ability to finance military expeditions.", "wrong": ["no real effort.", "naturally strong forces.", "no real maintenance."] },
-          { start: "Axumite military defeats, particularly against rising Islamic powers and Persian empires, showed that", "correct": "even powerful kingdoms face challenges from determined rivals with comparable military resources.", "wrong": ["purely weak military.", "internal collapse.", "inevitable decline."] }
+          { start: "The Axumite military successfully defended the kingdom against invasions from the Persians, the Arabs, and other rivals because Axumite forces possessed", "correct": "well-trained soldiers.", "wrong": ["purely superior numbers.", "unbeatable forces.", "no real threats."] },
+          { start: "The use of the Red Sea fleet by Axumite rulers served to protect trade routes because control of the sea allowed Axum to project power", "correct": "into the Mediterranean and Arabian Sea regions.", "wrong": ["without any real naval capability.", "only through symbolic maritime presence.", "through land forces."] },
+          { start: "Axumite military campaigns against rivals in Arabia, Persia, and Africa demonstrated that Axum", "correct": "was a regional power.", "wrong": ["was purely defensive.", "had no real power.", "had limited military capacity."] },
+          { start: "The maintenance of Axumite military strength required", "correct": "continuous recruitment and training of soldiers.", "wrong": ["no real effort.", "naturally strong forces.", "no real maintenance."] },
         ]
       },
       {
         name: "Axumite Architecture & Monuments",
         emoji: "🏛️",
         quotes: [
-          { start: "The construction of monumental stelae (tall stone markers) at Axum served to demonstrate that rulers possessed", "correct": "the ability to command resources, the access to skilled stoneworkers, and the desire to create lasting monuments to their power.", "wrong": ["purely decorative.", "no real purpose.", "ceremonial only."] },
-          { start: "The development of Axumite architectural style, incorporating both Greek/Hellenistic and local African elements, reflected that", "correct": "Axumite architects and builders synthesized foreign influences with local traditions to create a distinctive style.", "wrong": ["purely copied from elsewhere.", "no originality.", "purely local."] },
-          { start: "The construction of churches and religious buildings during the Christian period served to demonstrate that", "correct": "the king was a pious ruler supporting religion and that the kingdom was integrated into the Christian world.", "wrong": ["purely religious fervor.", "no political purpose.", "only spiritual."] },
-          { start: "The labor and resources required to construct Axumite monuments came from", "correct": "the accumulated wealth of the kingdom, the ability to command labor, and the organization of building projects across years or decades.", "wrong": ["purely voluntary.", "no real resources.", "spontaneous construction."] },
-          { start: "The preservation of Axumite monuments shows that builders understood that", "correct": "stone structures, when properly constructed, could endure for centuries and serve as lasting symbols of a ruler's achievements.", "wrong": ["no real durability.", "purely temporary.", "monuments decay quickly."] }
+          { start: "The construction of monumental stelae (tall stone markers) at Axum served to demonstrate that rulers possessed", "correct": "the ability to command resources.", "wrong": ["only decorative intent.", "no real purpose.", "no meaningful function."] },
+          { start: "The development of Axumite architectural style, incorporating both Greek/Hellenistic and local African elements, reflected that Axumite architects and builders synthesized foreign influences with", "correct": "local traditions.", "wrong": ["simple copying.", "a complete lack of originality.", "no meaningful foreign influence."] },
+          { start: "The construction of churches and religious buildings during the Christian period served to demonstrate that the king was", "correct": "a pious ruler supporting religion.", "wrong": ["without any political purpose.", "driven by personal religious devotion.", "only spiritual."] },
+          { start: "The labor and resources required to construct Axumite monuments came from the accumulated wealth of the kingdom, the ability to command labor, and", "correct": " the organization of building projects.", "wrong": ["purely voluntary.", "no real resources.", "spontaneous construction."] },
+          { start: "The preservation of Axumite monuments shows that builders understood that stone structures, when properly constructed", "correct": "could endure for centuries.", "wrong": ["had no real durability.", "collapsed immediately.", "could not survive long periods."] }
         ]
       },
       {
         name: "Axumite Administration & Governance",
         emoji: "⚖️",
         quotes: [
-          { start: "The Axumite system of governance required establishing officials in major cities and regions because the king could not personally oversee all", "correct": "trade activities, tax collection, justice administration, and military affairs across the kingdom.",
-            "wrong": ["centralized control was possible.", "no real administration.", "purely ceremonial officials."] },
+          { start: "The Axumite system of governance required establishing officials in major cities and regions because the king could not personally oversee", "correct": "all trade activities.",
+            "wrong": ["central matters.", "no real administration.", "all administration."] },
           { start: "Axumite administrators in port cities like Adulis were responsible for overseeing trade, collecting taxes, and maintaining order because these cities were",
-          "correct": "critical to the kingdom's prosperity and security.",
+          "correct": "critical to the kingdom's security.",
             "wrong": ["purely military bases.", "no real administration.", "independent cities."] },
-          { start: "The Axumite approach to administering diverse populations required rulers to understand that",
-          "correct": "respect for local traditions, allowing some local autonomy, and ensuring benefits of Axumite rule would win the loyalty of subject peoples.",
-            "wrong": ["pure cultural erasure.", "forced assimilation.", "no compromise."] },
-          { start: "Axumite legal systems likely incorporated both local customary law and Christian principles because rulers understood that",
-          "correct": "justice systems that combined familiar traditions with new Christian values would be more acceptable and effective.",
-            "wrong": ["pure Christian law alone.", "no local traditions.", "no real integration."] },
-          { start: "The stability of Axumite rule for centuries came from establishing systems where rulers could",
-          "correct": "maintain control through appointed officials, enforce justice, collect taxes, and ensure that prosperity benefited the kingdom.",
+          { start: "The Axumite approach to administering diverse populations required rulers to understand that respect for local traditions, allowing some local autonomy would",
+          "correct": "win the loyalty of subject peoples.",
+            "wrong": ["require forced assimilation.", "force assimilation.", "lead to complete cultural erasure."] },
+          { start: "Axumite legal systems likely incorporated both local customary law and Christian principles because rulers understood that justice systems that combined familiar traditions with new Christian values would",
+          "correct": "be more acceptable and effective.",
+            "wrong": ["be ineffective.", "have no local traditions.", "no real integration."] },
+          { start: "The stability of Axumite rule for centuries came from establishing systems where rulers could maintain control through",
+          "correct": "appointed officials.",
             "wrong": ["purely military force.", "no real system.", "luck alone."] }
         ]
       },
@@ -5977,17 +5975,17 @@ export const CIVILIZATIONS = [
         name: "Axumite Relations with Foreign Powers",
         emoji: "🌍",
         quotes: [
-          { start: "The Axumite relationship with the Byzantine Empire was mutually beneficial because",
-          "correct": "trade, military alliances, and shared Christian faith created economic and political ties between the two powers.",
-            "wrong": ["purely subordinate to Byzantium.", "no real independence.", "purely economic."] },
-          { start: "Axumite diplomatic relationships with Persia, Arabia, and other powers showed that rulers understood that",
-          "correct": "maintaining multiple relationships, playing rivals against each other, and using diplomacy alongside military power were essential to Axumite survival.",
-            "wrong": ["pure alliance with one power.", "no diplomacy.", "only military competition."] },
-          { start: "The Axumite intervention in Arabia to support Christian populations and prevent Persian dominance demonstrated that",
-          "correct": "Axumite rulers saw themselves as guardians of Christianity and were willing to project power beyond the African continent.",
+          { start: "The Axumite relationship with the Byzantine Empire was mutually beneficial because trade, military alliances, and shared Christian faith created",
+          "correct": " economic and political ties between the two powers.",
+            "wrong": ["political subordination to Byzantium.", "no real independence.", "connections that were purely economic."] },
+          { start: "Axumite diplomatic relationships with Persia, Arabia, and other powers showed that rulers understood that using diplomacy alongside military power were",
+          "correct": "essential to Axumite survival.",
+            "wrong": ["unnecessary for maintaining the kingdom.", "replaced entirely by military competition.", "only military competition."] },
+          { start: "The Axumite intervention in Arabia to support Christian populations and prevent Persian dominance demonstrated that Axumite rulers saw themselves as",
+          "correct": "guardians of Christianity.",
             "wrong": ["purely defensive.", "no external ambitions.", "limited power."] },
-          { start: "The decline of Axumite power in the Red Sea region, particularly after the rise of Islamic powers, showed that",
-          "correct": "even powerful kingdoms face challenges when new, determined rivals emerge with superior resources or organization.",
+          { start: "The decline of Axumite power in the Red Sea region, particularly after the rise of Islamic powers, showed that even powerful kingdoms",
+          "correct": "face challenges.",
             "wrong": ["purely military defeat.", "inevitable decline.", "sudden collapse."] }
         ]
       },
@@ -5995,59 +5993,59 @@ export const CIVILIZATIONS = [
         name: "Axumite Culture & Intellectual Life",
         emoji: "📚",
         quotes: [
-          { start: "The use of the Ge'ez language in Axumite inscriptions, church services, and literature served to",
-          "correct": "establish a shared cultural and religious identity across the kingdom and preserve Axumite traditions.",
-            "wrong": ["purely linguistic choice.", "no real value.", "no cultural importance."] },
-          { start: "The development of Axumite written culture, particularly after the conversion to Christianity, created a tradition of",
-          "correct": "religious texts, theological works, and literature that would survive and influence Ethiopian culture for centuries.",
-            "wrong": ["purely ceremonial writing.", "no real literature.", "no lasting impact."] },
-          { start: "Axumite scholars and priests engaged with Christian theology and biblical interpretation because",
-          "correct": "the integration of Christian learning into Axumite intellectual life enhanced the kingdom's prestige and deepened religious practice.",
+          { start: "The use of the Ge'ez language in Axumite inscriptions, church services, and literature served to establish a shared cultural and",
+          "correct": "religious identity across the kingdom.",
+            "wrong": ["limited importance.", "everyday speech.", "no cultural importance."] },
+          { start: "The development of Axumite written culture, particularly after the conversion to Christianity, created a tradition of literature that would survive and influence Ethiopian culture",
+          "correct": "for centuries.",
+            "wrong": ["for a short time.", "for a few decades.", "for a generation."] },
+          { start: "Axumite scholars and priests engaged with Christian theology and biblical interpretation because the integration of Christian learning into Axumite intellectual life enhanced",
+          "correct": " the kingdom's prestige.",
             "wrong": ["purely European influence.", "no real innovation.", "pure copying."] },
-          { start: "The establishment of scriptoriums and centers of learning in Axumite monasteries served to",
-          "correct": "preserve Christian texts, transmit theological knowledge, and create a literate clerical establishment.",
-            "wrong": ["purely ceremonial.", "no real function.", "no learning occurred."] },
-          { start: "Axumite intellectual life benefited from the kingdom's position on trade routes because scholars had access to",
-          "correct": "new ideas, texts, and knowledge from the Mediterranean, Persia, India, and the broader Christian world.",
-            "wrong": ["purely isolated.", "no external influence.", "local knowledge only."] }
+          { start: "The establishment of scriptoriums and centers of learning in Axumite monasteries served",
+          "correct": "to preserve Christian texts.",
+            "wrong": ["nothing.", "no real function.", "no learning occurred."] },
+          { start: "Axumite intellectual life benefited from the kingdom's position on trade routes because scholars had access to knowledge from the Mediterranean, Persia, India, and",
+          "correct": "the broader Christian world.",
+            "wrong": ["were purely isolated.", "had no external influence.", "had local knowledge only."] }
         ]
       },
       {
         name: "Axumite Decline & Historical Significance",
         emoji: "📜",
         quotes: [
-          { start: "The decline of Axumite power came from multiple factors: the rise of Islamic powers controlling the Red Sea, the loss of trade routes, Persian expansion, and",
-          "correct": "internal fragmentation and the inability of later rulers to maintain the unity and military strength of earlier periods.",
+          { start: "The decline of Axumite power came from multiple factors: the rise of Islamic powers controlling the Red Sea, the loss of trade routes, Persian expansion, and the inability of later rulers to",
+          "correct": "maintain the military strength of earlier periods.",
             "wrong": ["purely external conquest.", "single cause.", "inevitable decline."] },
           { start: "The rise of Islam and the establishment of Islamic control over the Red Sea and Arabian coast fundamentally altered Axumite power because",
-          "correct": "Axumite prosperity depended on controlling these trade routes, and loss of control meant loss of the economic foundation of power.",
+          "correct": "Axumite prosperity depended on controlling these trade routes.",
             "wrong": ["Axumite power was undiminished.", "purely military defeat.", "no real consequence."] },
-          { start: "The retreat of Axumite influence from Arabia, the loss of ports, and the contraction of the kingdom showed that",
-          "correct": "even a sophisticated, militarily powerful kingdom with strong religious foundations could face decline when facing determined rivals.",
-            "wrong": ["purely internal weakness.", "inevitable failure.", "no real achievements."] },
-          { start: "The legacy of Axum included establishing that",
-          "correct": "an African kingdom could become a major world power, adopt Christianity, participate in international diplomacy, and maintain sophisticated governance.",
-            "wrong": ["no real legacy.", "Africa remained marginal.", "no real civilization."] },
-          { start: "The study of Axum demonstrates that in the ancient world,",
-          "correct": "African civilizations achieved levels of political organization, military sophistication, economic development, and cultural achievement comparable to contemporary powers elsewhere.",
-            "wrong": ["Africa was primitive.", "no real civilization.", "all achievement was external."] }
+          { start: "The retreat of Axumite influence from Arabia and the loss of ports showed that even a sophisticated, militarily powerful kingdom with strong religious foundations",
+          "correct": "could face decline.",
+            "wrong": ["achieved nothing.", "was destined to fail.", "collapsed only because of internal incompetence."] },
+          { start: "The legacy of Axum included establishing that an African kingdom could become",
+          "correct": "a major world power.",
+            "wrong": ["not a true civilization.", "without historical impact.", "no real civilization."] },
+          { start: "Axum shows that ancient African civilizations achieved",
+          "correct": " levels comparable to contemporary powers elsewhere.",
+            "wrong": ["no significant development.", "no real civilization existed.", "no complex civilization existed."] }
         ]
       },
       {
         name: "Axumite Society & Social Structure",
         emoji: "🏛️",
         quotes: [
-          { start: "Axumite society was organized hierarchically with the king at the top, followed by nobles, clergy, merchants, craftspeople, and farmers because",
-          "correct": "this structure allowed for specialization, coordination of large projects, and the accumulation and redistribution of wealth.",
+          { start: "Axumite society was organized hierarchically with the king at the top, followed by nobles, clergy, merchants, craftspeople, and farmers because this structure allowed for",
+          "correct": "specialization.",
             "wrong": ["purely egalitarian.", "no real hierarchy.", "random organization."] },
           { start: "The role of the church and clergy in Axumite society increased after Christianization because priests and bishops became",
-          "correct": "advisors to rulers, administrators of justice, educators, and keepers of written culture.",
-            "wrong": ["purely spiritual roles.", "no real authority.", "no influence on governance."] },
+          "correct": "advisors to rulers.",
+            "wrong": ["restricted only to religious ceremonies.", "excluded from any influence.", "irrelevant."] },
           { start: "Women in Axumite society, particularly those of royal or noble status, held important roles in",
-          "correct": "managing estates, maintaining family relationships, potentially influencing succession, and participating in court life.",
-            "wrong": ["no real authority.", "purely domestic roles.", "no influence."] },
-          { start: "The relationship between Axumite rulers and merchants was mutually beneficial because merchants depended on royal protection while rulers depended on",
-          "correct": "the taxes, goods, and connections to distant markets that merchants provided.",
+          "correct": "managing estates, maintaining family relationships.",
+            "wrong": ["holding no social authority.", "purely domestic roles.", "holding no economic authority."] },
+          { start: "The relationship between Axumite rulers and merchants was mutually beneficial because merchants depended on royal protection while rulers depended on the taxes, goods, and",
+          "correct": "connections to distant markets that merchants provided.",
             "wrong": ["purely exploitative.", "no real relationship.", "merchants were independent."] }
         ]
       },
@@ -6055,18 +6053,18 @@ export const CIVILIZATIONS = [
         name: "Axumite Coinage & Economic Systems",
         emoji: "💰",
         quotes: [
-          { start: "The production of Axumite coins in gold, silver, and copper served to",
-          "correct": "facilitate long-distance trade, demonstrate royal authority, establish the kingdom's prestige as a major economic power, and control the money supply.",
-            "wrong": ["purely decorative.", "no real value.", "no practical purpose."] },
-          { start: "The design of Axumite coins, featuring the king's portrait and Christian symbols, served to reinforce that",
-          "correct": "the king was the ultimate authority and a guardian of the Christian faith.",
-            "wrong": ["purely aesthetic.", "no real message.", "no communication purpose."] },
-          { start: "The wide circulation of Axumite coins across trade networks demonstrated that",
-          "correct": "the kingdom was trusted by merchants and that Axumite currency was recognized as valuable across vast distances.",
-            "wrong": ["purely local currency.", "no external use.", "no real value."] },
-          { start: "The ability to mint coins gave Axumite rulers power because they could",
-          "correct": "control the money supply, collect seigniorage (profit from minting), and influence trade through monetary policy.",
-            "wrong": ["no real power.", "purely ceremonial.", "no practical advantage."] }
+          { start: "The production of Axumite coins in gold, silver, and copper served to facilitate long-distance trade, establish the kingdom's prestige as a major economic power, and",
+          "correct": "control the money supply.",
+            "wrong": ["operate without any influence on trade.", "operate without taxation.", "no practical purpose."] },
+          { start: "The design of Axumite coins, featuring the king's portrait and Christian symbols, served to reinforce that the king was the ultimate authority and",
+          "correct": "a guardian of the Christian faith.",
+            "wrong": ["used only for decoration.", "lacked any symbolic message.", "lacked any ideological message."] },
+          { start: "The wide circulation of Axumite coins across trade networks demonstrated that the kingdom",
+          "correct": "was trusted by merchants.",
+            "wrong": ["had purely local currency.", "had no external use.", "had no real value."] },
+          { start: "The ability to mint coins gave Axumite rulers power because they could control the money supply, collect seigniorage (profit from minting), and",
+          "correct": " influence trade through monetary policy.",
+            "wrong": ["had no real power.", "purely ceremonial.", "had no practical advantage."] }
         ]
       }
     ]
@@ -6083,119 +6081,119 @@ export const CIVILIZATIONS = [
         name: "Kings & Rulers - Archaeological & Documentary Evidence",
         emoji: "👑",
         quotes: [
-          { start: "The rise of Great Zimbabwe depended on establishing control over the gold trade because", "correct": "gold was highly valued by Arab traders and foreign merchants, making it the foundation of wealth and power.", "wrong": ["purely symbolic.", "no economic value.", "military conquest only."] },
-          { start: "A Great Zimbabwe ruler's authority came from being able to demonstrate that he could", "correct": "control trade, ensure the prosperity of merchants, maintain order, and redistribute wealth to his people.", "wrong": ["pure military power.", "inherited authority alone.", "ritual alone."] },
-          { start: "The construction of the Great Enclosure and other stone structures served to demonstrate that a ruler possessed", "correct": "the ability to command vast labor forces, accumulate resources, and establish a capital worthy of respect.", "wrong": ["purely ceremonial.", "no real purpose.", "only for defense."] },
-          { start: "The expansion of Great Zimbabwe's influence across the region required that rulers understand", "correct": "the importance of maintaining relationships with vassal states, control of trade routes, and the demonstration of military and economic power.", "wrong": ["pure military conquest.", "no real strategy.", "random expansion."] },
-          { start: "A Great Zimbabwe ruler's responsibility included ensuring that", "correct": "merchants could safely conduct trade, craftspeople could produce goods, and the population had access to the goods that trade brought.", "wrong": ["purely extracting wealth.", "no real responsibility.", "only military concerns."] },
-          { start: "The decline of a Great Zimbabwe ruler's power would come from the failure to", "correct": "maintain control of trade, prevent rival power centers from emerging, or losing the support of regional chiefs.", "wrong": ["military defeat alone.", "no real challenge.", "absolute power."] }
+          { start: "The rise of Great Zimbabwe depended on establishing control over the gold trade because gold was", "correct": "highly valued by Arab traders and foreign merchants.", "wrong": ["purely symbolic.", "only used as a decorative symbol.", "not considered valuable."] },
+          { start: "A Great Zimbabwe ruler's authority came from being able to demonstrate that he could control trade, ensure the prosperity of merchants, maintain order, and", "correct": "redistribute wealth to his people.", "wrong": ["using ritual authority.", "inherited authority alone.", "relying only on military strength."] },
+          { start: "The construction of the Great Enclosure and other stone structures served to demonstrate that a ruler possessed the ability to command", "correct": "vast labor forces.", "wrong": ["no organized workforce.", "construction solely for military defense.", "only for defense."] },
+          { start: "The expansion of Great Zimbabwe's influence across the region required that rulers understand the importance of", "correct": "maintaining relationships with vassal states.", "wrong": ["pure military conquest.", "no real strategy.", "random expansion."] },
+          { start: "A Great Zimbabwe ruler's responsibility included ensuring that", "correct": "merchants could safely conduct trade.", "wrong": ["the ruler had no governing responsibilities.", "trade was left unstable.", "trade was left unprotected ."] },
+          { start: "The decline of a Great Zimbabwe ruler's power would come from the failure to maintain control of trade, prevent rival power centers from emerging, or", "correct": "losing the support of regional chiefs.", "wrong": ["military defeat alone.", "no real challenge.", "absolute power."] }
         ]
       },
       {
         name: "Great Zimbabwe Architecture & Stone Structures",
         emoji: "🏗️",
         quotes: [
-          { start: "The construction of Great Zimbabwe's distinctive stone structures without mortar demonstrated that builders possessed", "correct": "advanced knowledge of stone fitting, structural geometry, and the ability to organize large labor forces.", "wrong": ["primitive techniques.", "random construction.", "no real engineering."] },
-          { start: "The Great Enclosure, the largest stone structure at Great Zimbabwe, likely served as a royal residence and ceremonial center because it", "correct": "provided shelter, demonstrated royal power through its sheer size and sophistication, and served as a focus for ritual and governance.", "wrong": ["purely defensive.", "only religious purposes.", "no practical function."] },
-          { start: "The arrangement of stone structures at Great Zimbabwe in a pattern of sacred and secular spaces suggests that builders understood", "correct": "the integration of religious, ceremonial, and administrative functions within a single complex.", "wrong": ["random placement.", "no planning.", "only religious purposes."] },
-          { start: "The labor required to build Great Zimbabwe's structures came from a combination of", "correct": "voluntary labor organized by the ruler, tribute labor owed by subject peoples, and possibly enslaved workers.", "wrong": ["purely voluntary work.", "no real labor system.", "random construction."] },
-          { start: "The maintenance of Great Zimbabwe's stone structures required systems to ensure that", "correct": "repairs were made, new sections could be built, and the structures were preserved as symbols of continuity of rule.", "wrong": ["structures were abandoned.", "no maintenance occurred.", "purely ceremonial."] },
-          { start: "The sophistication of Great Zimbabwe's architecture indicates that architects and builders possessed", "correct": "generations of accumulated knowledge about stone working, geometry, and structural design.", "wrong": ["no real skill.", "purely random building.", "no knowledge transmission."] },
-          { start: "The location of Great Zimbabwe on a plateau near water sources and in a region rich in gold and other resources demonstrates that rulers understood", "correct": "the importance of strategic location for controlling trade, accessing resources, and establishing a defensible capital.", "wrong": ["random site selection.", "no real strategy.", "location was unimportant."] }
+          { start: "The construction of Great Zimbabwe's distinctive stone structures without mortar demonstrated that builders possessed", "correct": "advanced knowledge of stone fitting.", "wrong": ["primitive techniques.", "random construction.", "no real engineering."] },
+          { start: "The Great Enclosure, the largest stone structure at Great Zimbabwe, likely served as a royal residence and ceremonial center because it", "correct": "served as a focus for ritual and governance.", "wrong": ["had no practical role.", "had only religious purposes.", "had no practical function."] },
+          { start: "The arrangement of stone structures at Great Zimbabwe in a pattern of sacred and secular spaces suggests that builders understood the integration of", "correct": "religious, ceremonial, and administrative functions within a single complex.", "wrong": ["random placement.", "no planning.", "only religious purposes."] },
+          { start: "The labor required to build Great Zimbabwe's structures came from a combination of voluntary labor organized by the ruler, tribute labor owed by subject peoples, and", "correct": "possibly enslaved workers.", "wrong": ["purely voluntary work.", "no real labor system.", "random construction."] },
+          { start: "The maintenance of Great Zimbabwe's stone structures required systems to ensure that", "correct": "repairs were made.", "wrong": ["structures were abandoned.", "no maintenance occurred.", "purely ceremonial."] },
+          { start: "The sophistication of Great Zimbabwe's architecture indicates that architects and builders possessed generations of accumulated knowledge about stone working, geometry, and", "correct": "structural design.", "wrong": ["no real skill.", "purely random building.", "no knowledge transmission."] },
+          { start: "The location of Great Zimbabwe on a plateau near water sources and in a region rich in gold and other resources demonstrates that rulers understood", "correct": "the importance of strategic location.", "wrong": ["random site selection.", "no real strategy.", "location was unimportant."] }
         ]
       },
       {
         name: "Great Zimbabwe Trade & Economic Power",
         emoji: "💰",
         quotes: [
-          { start: "The control of gold production and trade by Great Zimbabwe rulers allowed them to accumulate wealth that could be used for", "correct": "construction projects, support of craftspeople, maintenance of armies, and redistribution to followers.", "wrong": ["purely personal use.", "no real benefit.", "no strategic value."] },
-          { start: "Great Zimbabwe's role as an intermediary in the gold trade between interior sources and Arab coastal traders gave the rulers significant power because", "correct": "they could tax the trade, control the flow of gold, and accumulate the foreign goods that trade brought.", "wrong": ["no real advantage.", "trade was unimportant.", "merchants acted independently."] },
-          { start: "The evidence of trade goods from Persia, Arabia, and the Indian Ocean region found at Great Zimbabwe shows that", "correct": "the city was connected to long-distance trade networks and that rulers had access to luxury goods from across the Indian Ocean.", "wrong": ["purely local trade.", "no external contact.", "imported goods were rare."] },
-          { start: "Great Zimbabwe merchants and traders who conducted business under the protection and patronage of the ruler could", "correct": "accumulate wealth, establish trading networks, and contribute to the economic power of the city.", "wrong": ["had no authority.", "were purely exploited.", "trade was discouraged."] },
-          { start: "The taxation of trade passing through Great Zimbabwe served to", "correct": "enrich the ruler, finance building projects, reward loyal followers, and maintain the military and administrative apparatus.", "wrong": ["have no real benefit.", "purely destructive.", "no strategic value."] },
-          { start: "The wealth from trade allowed Great Zimbabwe to import resources like tin, copper, and exotic goods that would have been", "correct": "unavailable locally but valuable for demonstrating the ruler's power and prestige.", "wrong": ["purely decorative.", "no real value.", "no strategic importance."] }
+          { start: "The control of gold production and trade by Great Zimbabwe rulers allowed them to accumulate wealth that could be used for", "correct": "redistribution to followers.", "wrong": ["purely personal use.", "no real benefit.", "no strategic value."] },
+          { start: "Great Zimbabwe's role as an intermediary in the gold trade between interior sources and Arab coastal traders gave the rulers significant power because", "correct": "they could accumulate the foreign goods that trade brought.", "wrong": ["no real advantage.", "trade was unimportant.", "merchants acted independently."] },
+          { start: "The evidence of trade goods from Persia, Arabia, and the Indian Ocean region found at Great Zimbabwe shows that the city was connected to", "correct": "long-distance trade networks.", "wrong": ["purely local trade.", "no external contact.", "imported goods."] },
+          { start: "Great Zimbabwe merchants and traders who conducted business under the protection and patronage of the ruler", "correct": "could accumulate wealth.", "wrong": ["had no authority.", "were purely exploited.", "trade was discouraged."] },
+          { start: "The taxation of trade passing through Great Zimbabwe served to", "correct": "maintain the military and administrative apparatus.", "wrong": ["have no real benefit.", "undermine economic stability.", "have no strategic purpose."] },
+          { start: "The wealth from trade allowed Great Zimbabwe to import resources like tin, copper, and exotic goods that would have been", "correct": "unavailable locally.", "wrong": ["purely decorative.", "no real value.", "no strategic importance."] }
         ]
       },
       {
         name: "Great Zimbabwe Craftsmanship & Artistry",
         emoji: "🎨",
         quotes: [
-          { start: "The discovery of soapstone bird sculptures at Great Zimbabwe suggests that craftspeople in the city possessed", "correct": "specialized skills in stone carving and that these objects held religious, ceremonial, or symbolic importance.", "wrong": ["purely decorative.", "no real meaning.", "no skill required."] },
-          { start: "The production of high-quality pottery at Great Zimbabwe indicates that craftspeople had", "correct": "developed techniques for firing, shaping, and decorating vessels that were both functional and aesthetically accomplished.", "wrong": ["primitive pottery.", "no real skill.", "purely functional."] },
-          { start: "Craftspeople working under the patronage of Great Zimbabwe rulers could focus on their craft because the rulers provided", "correct": "resources, protection, and markets for their goods, allowing specialization in their craft.", "wrong": ["no support.", "purely exploitative.", "no real patronage."] },
-          { start: "The quality and consistency of artifacts from Great Zimbabwe demonstrates that", "correct": "knowledge of craft techniques was preserved and transmitted from generation to generation of skilled workers.", "wrong": ["purely random production.", "no real standards.", "no tradition."] },
-          { start: "Great Zimbabwe craftspeople produced goods that could be traded or given as gifts to allies because these items represented", "correct": "the prestige and sophistication of Great Zimbabwe and served to reinforce relationships with other rulers and merchants.", "wrong": ["purely for local use.", "no external value.", "no strategic importance."] }
+          { start: "The discovery of soapstone bird sculptures at Great Zimbabwe suggests that craftspeople in the city possessed specialized skills in", "correct": "stone carving.", "wrong": ["random shaping of materials.", "basic decoration.", "no skill required."] },
+          { start: "The production of high-quality pottery at Great Zimbabwe indicates that craftspeople had developed techniques for firing, shaping and", "correct": "decorating vessels.", "wrong": ["primitive pottery.", "no real skill.", "purely functional."] },
+          { start: "Craftspeople working under the patronage of Great Zimbabwe rulers could focus on their craft because the rulers provided", "correct": "resources, protection, and markets for their goods.", "wrong": ["no support.", "purely exploitative.", "no real patronage."] },
+          { start: "The quality and consistency of artifacts from Great Zimbabwe demonstrates that", "correct": "knowledge of craft techniques was preserved.", "wrong": ["there was no craft tradition.", "there was no standards.", "there was no tradition."] },
+          { start: "Great Zimbabwe craftspeople produced goods that could be traded or given as gifts to allies because these items represented", "correct": "the prestige and sophistication of Great Zimbabwe.", "wrong": ["purely for local use.", "no external value.", "no strategic importance."] }
         ]
       },
       {
         name: "Great Zimbabwe Society & Social Organization",
         emoji: "🏛️",
         quotes: [
-          { start: "Great Zimbabwe society was organized hierarchically with the ruler at the top, followed by nobles, merchants, craftspeople, and commoners because", "correct": "this structure allowed for specialization, coordination of large projects, and the accumulation and redistribution of wealth.", "wrong": ["purely egalitarian.", "no real hierarchy.", "random organization."] },
-          { start: "The residences of elites in the Great Enclosure and other elevated areas suggest that the city had", "correct": "distinct residential zones reflecting social status and access to resources.", "wrong": ["equal housing for all.", "no social distinction.", "random settlement."] },
-          { start: "The power of Great Zimbabwe's ruler depended on maintaining the loyalty of subordinate chiefs and nobles by", "correct": "distributing wealth, granting authority over subject peoples, and ensuring that they benefited from the ruler's power.", "wrong": ["pure military force.", "inherited loyalty.", "no need for rewards."] },
-          { start: "Women in Great Zimbabwe society, particularly those of royal or noble status, held important roles in", "correct": "maintaining family relationships, managing properties, and participating in ceremonial and social functions.", "wrong": ["no real authority.", "purely domestic.", "no influence."] },
-          { start: "The relationship between Great Zimbabwe and surrounding settlements shows that the city functioned as", "correct": "a regional center that controlled trade, provided religious and ceremonial functions, and coordinated economic activity across a wide area.", "wrong": ["purely military fortress.", "no real relationship.", "independent communities."] }
+          { start: "Great Zimbabwe society was organized hierarchically with the ruler at the top, followed by nobles, merchants, craftspeople, and commoners because this structure allowed for", "correct": "the accumulation and redistribution of wealth.", "wrong": ["purely egalitarian.", "no real hierarchy.", "random organization."] },
+          { start: "The residences of elites in the Great Enclosure and other elevated areas suggest that the city had", "correct": "distinct residential zones.", "wrong": ["equal housing for all.", "no social distinction.", "random settlement."] },
+          { start: "The power of Great Zimbabwe's ruler depended on maintaining the loyalty of subordinate chiefs and nobles by ensuring that they", "correct": "benefited from the ruler's power.", "wrong": ["received no rewards.", "inherited loyalty.", "were controlled."] },
+          { start: "Women in Great Zimbabwe society, particularly those of royal or noble status, held important roles in managing properties and", "correct": "participating in ceremonial and social functions.", "wrong": ["being limited.", "holding no authority in society.", "having no social influence."] },
+          { start: "The relationship between Great Zimbabwe and surrounding settlements shows that the city functioned as", "correct": "a regional center that controlled trade.", "wrong": ["a purely military fortress.", "having no social influence.", "having no connections."] }
         ]
       },
       {
         name: "Great Zimbabwe Religion & Cosmology",
         emoji: "🕯️",
         quotes: [
-          { start: "The religious significance of Great Zimbabwe is suggested by architectural features and artifacts that indicate", "correct": "the city was a sacred center where religious ceremonies, rituals, and cosmic beliefs were enacted and maintained.", "wrong": ["purely secular.", "no religious function.", "purely military fortress."] },
-          { start: "The incorporation of astronomical alignments in some structures suggests that Great Zimbabwe's builders understood", "correct": "the cosmological importance of celestial events and incorporated them into religious and ceremonial practices.", "wrong": ["random alignment.", "no real knowledge.", "purely ceremonial."] },
-          { start: "The veneration of ancestors in Great Zimbabwe culture likely meant that", "correct": "the living sought guidance from and honored the spirits of deceased rulers and ancestors through ritual and ceremony.", "wrong": ["no ancestor veneration.", "purely spiritual.", "no real beliefs."] },
-          { start: "The religious authority of Great Zimbabwe's rulers was based on their claim to", "correct": "mediate between the human and spiritual worlds, ensure prosperity through proper ritual, and maintain cosmic order.", "wrong": ["pure military power.", "no religious role.", "arbitrary authority."] }
+          { start: "The religious significance of Great Zimbabwe is suggested by architectural features and artifacts that indicate the city was a sacred center where religious ceremonies", "correct": "and cosmic beliefs were enacted and maintained.", "wrong": ["had no spiritual meaning.", "served no religious purpose.", "functioned only as a military fortress."] },
+          { start: "The incorporation of astronomical alignments in some structures suggests that Great Zimbabwe's builders understood the cosmological importance of", "correct": "celestial events.", "wrong": ["random alignment.", "no real knowledge.", "no astronomical knowledge."] },
+          { start: "The veneration of ancestors in Great Zimbabwe culture likely meant that the living sought guidance from and honored the spirits of deceased rulers and ancestors through", "correct": "ritual and ceremony.", "wrong": ["no ancestor veneration.", "purely spiritual.", "no real beliefs."] },
+          { start: "The religious authority of Great Zimbabwe's rulers was based on their claim to", "correct": "mediate between the human and spiritual worlds.", "wrong": ["rule only through military force.", "have no spiritual responsibilities.", "exercise power without any legitimacy."] }
         ]
       },
       {
         name: "Great Zimbabwe Decline & Historical Significance",
         emoji: "📜",
         quotes: [
-          { start: "The decline of Great Zimbabwe likely resulted from a combination of factors: environmental stress (possibly drought), the depletion of easily accessible gold resources, and", "correct": "the migration of trade routes and the emergence of rival centers of power along the coast.", "wrong": ["purely military conquest.", "single cause.", "inevitable decline."] },
-          { start: "The abandonment of Great Zimbabwe as a major center by the 15th century does not diminish its achievement; rather it demonstrates that", "correct": "even sophisticated urban centers are vulnerable to environmental change, economic shifts, and the emergence of rival powers.", "wrong": ["weakness from the start.", "no real achievement.", "inevitable failure."] },
-          { start: "The legacy of Great Zimbabwe included establishing that", "correct": "sophisticated urban settlements, stone architecture, and centralized trade control could develop in southern Africa independent of external influence.", "wrong": ["no real achievement.", "African cultures were primitive.", "external influence was necessary."] },
-          { start: "The rediscovery and study of Great Zimbabwe in the modern era corrected the misconception that", "correct": "Africans lacked the capacity for sophisticated architecture, urban planning, and trade organization.", "wrong": ["confirmed primitive origins.", "showed external influence.", "demonstrated African weakness."] },
-          { start: "Great Zimbabwe's stone structures and the sophistication of its trade networks demonstrate that", "correct": "in the medieval period, African societies achieved levels of political organization, economic development, and architectural achievement comparable to contemporary civilizations elsewhere.", "wrong": ["Africa was undeveloped.", "no real civilization.", "all achievement came from outside."] }
+          { start: "The decline of Great Zimbabwe likely resulted from a combination of factors: environmental stress (possibly drought), the depletion of easily accessible gold resources, and", "correct": "the emergence of rival centers of power along the coast.", "wrong": ["purely military conquest.", "single cause.", "inevitable decline."] },
+          { start: "The abandonment of Great Zimbabwe as a major center by the 15th century does not diminish its achievement; rather it demonstrates that even sophisticated urban centers are vulnerable to", "correct": "environmental change.", "wrong": ["weakness from the start.", "no real achievement.", "inevitable failure."] },
+          { start: "The legacy of Great Zimbabwe included establishing that sophisticated urban settlements, stone architecture, and centralized trade control could develop in southern Africa", "correct": "independent of external influence.", "wrong": ["because of outside civilizations.", "because African cultures were primitive.", "because external influence was necessary."] },
+          { start: "The rediscovery and study of Great Zimbabwe in the modern era corrected the misconception that Africans lacked the capacity for sophisticated architecture, urban planning and", "correct": "trade organization.", "wrong": ["confirmed primitive origins.", "showed external influence.", "demonstrated African weakness."] },
+          { start: "Great Zimbabwe shows that medieval African societies achieved levels of political organization, economic development comparable to", "correct": "contemporary civilizations elsewhere.", "wrong": ["no real development.", "no real civilization.", "all achievement came from outside."] }
         ]
       },
       {
         name: "Great Zimbabwe & Regional Trade Networks",
         emoji: "🌍",
         quotes: [
-          { start: "Great Zimbabwe's connections to coastal Swahili cities allowed rulers to establish trade relationships with merchants from", "correct": "the Arab world, Persia, India, and eventually Portugal, giving access to exotic goods and foreign knowledge.", "wrong": ["purely local trade.", "no external contact.", "isolated from the world."] },
-          { start: "The evidence of Indian Ocean trade goods at Great Zimbabwe shows that the city was part of", "correct": "a regional system where gold flowed out, and manufactured goods, luxury items, and foreign products flowed in.", "wrong": ["one-directional trade.", "purely extractive.", "no real exchange."] },
-          { start: "Great Zimbabwe's role in the region included serving as a center where diverse peoples—the Shona, Arabs, Indian merchants—could conduct business and exchange goods because", "correct": "the ruler's authority and maintenance of order made the city a safe and reliable place for trade.", "wrong": ["no real role.", "purely local market.", "no external function."] },
-          { start: "The relationship between Great Zimbabwe and the Indian Ocean trade network was mutually beneficial because", "correct": "foreign merchants gained access to gold and other goods while Great Zimbabwe gained access to foreign products and the prestige of international trade.", "wrong": ["purely exploitative of Great Zimbabwe.", "no real benefit.", "one-sided trade."] }
+          { start: "Great Zimbabwe's connections to coastal Swahili cities allowed rulers to establish trade relationships with merchants from", "correct": "the Arab world, Persia, India, and eventually Portugal.", "wrong": ["purely local trade.", "no outside regions at all.", "only nearby inlands."] },
+          { start: "The evidence of Indian Ocean trade goods at Great Zimbabwe shows that the city was part of a regional system where", "correct": "foreign products flowed in.", "wrong": ["trade moved in only one direction.", "goods were taken without exchange.", "no meaningful exchange took place."] },
+          { start: "Great Zimbabwe served as a trade center because it was", "correct": "a safe and reliable place for trade.", "wrong": ["a market with no wider connections.", "purely local market.", "limited to local exchange."] },
+          { start: "Great Zimbabwe’s relationship with Indian Ocean trade was beneficial because foreign merchants gained access to gold and other goods while Great Zimbabwe gained", "correct": "access to foreign products.", "wrong": ["no real advantages.", "no real benefit.", "one-sided trade."] }
         ]
       },
       {
         name: "Great Zimbabwe Governance & Administration",
         emoji: "⚖️",
         quotes: [
-          { start: "The governance of Great Zimbabwe required establishing systems to ensure that", "correct": "tribute was collected from subject populations, trade was regulated, craftspeople were provided with resources, and wealth could be redistributed.", "wrong": ["purely military control.", "no real system.", "arbitrary rule."] },
-          { start: "Great Zimbabwe rulers maintained power by demonstrating that they could provide", "correct": "protection from external threats, access to trade goods, opportunities for merchants and craftspeople, and the stability necessary for prosperity.", "wrong": ["pure force alone.", "no real benefits.", "arbitrary authority."] },
-          { start: "The administrative apparatus of Great Zimbabwe, including officials responsible for trade, craft production, and the collection of tribute, was necessary because", "correct": "the ruler could not personally oversee all activities, and a complex economy required coordinated management.", "wrong": ["no real administration.", "purely ceremonial officials.", "no coordination."] },
-          { start: "The evidence of an organized administrative system at Great Zimbabwe shows that rulers understood that", "correct": "successful empires require not just military power but also efficient bureaucracies that can manage complex economic and social activities.", "wrong": ["no administration existed.", "purely military rule.", "no real organization."] }
+          { start: "The governance of Great Zimbabwe required establishing systems to ensure that tribute was collected from subject populations, trade was regulated and", "correct": "wealth could be redistributed.", "wrong": ["no organized system was needed.", "no real system was needed.", "control depended on military force."] },
+          { start: "Great Zimbabwe rulers maintained power by demonstrating that they could provide", "correct": "protection from external threats.", "wrong": ["pure force alone.", "authority without any purpose.", "arbitrary authority."] },
+          { start: "The administrative system at Great Zimbabwe was necessary because", "correct": "the ruler could not personally oversee all activities.", "wrong": ["there was no need for organized oversight.", "officials served only ceremonial roles.", "coordination between activities was unnecessary."] },
+          { start: "Evidence of administration at Great Zimbabwe shows that successful empires require bureaucracies that can manage", "correct": "complex economic and social activities.", "wrong": ["without any organized system.", "with no real coordination.", "through military control."] }
         ]
       },
       {
         name: "Great Zimbabwe Labor & Construction",
         emoji: "⚙️",
         quotes: [
-          { start: "The construction of Great Zimbabwe's massive stone structures required the organization of labor forces numbering in the thousands because", "correct": "the sheer volume of stone had to be quarried, transported, and fitted together according to a plan.", "wrong": ["purely magical.", "no real labor.", "small numbers could do it."] },
-          { start: "The labor that built Great Zimbabwe came from sources including voluntary participation, tribute labor owed to the ruler, and possibly enslaved individuals, demonstrating that", "correct": "the ruler had multiple mechanisms for mobilizing and directing labor.", "wrong": ["purely voluntary.", "no compulsion.", "equal compensation for all."] },
-          { start: "The coordination of such massive construction projects required the existence of", "correct": "architects or master builders who could design structures, plan construction sequences, and oversee quality control.", "wrong": ["no real planning.", "purely random construction.", "no supervision."] },
-          { start: "The long duration of Great Zimbabwe's construction—spanning centuries—shows that the project required", "correct": "continuity of vision across multiple rulers' reigns and sustained commitment to the original plan.", "wrong": ["sudden construction.", "individual rulers' whims.", "no real continuity."] }
+          { start: "The construction of Great Zimbabwe's massive stone structures required the organization of labor forces numbering in the thousands because the sheer volume of stone had to be quarried, transported, and", "correct": "fitted together according to a plan.", "wrong": ["handled by only a small workforce.", "put together without coordinated labor.", "small numbers could do it."] },
+          { start: "The labor that built Great Zimbabwe came from sources including voluntary participation and possibly enslaved individuals, demonstrating that the ruler had multiple mechanisms", "correct": "for mobilizing and directing labor.", "wrong": ["based on voluntary participation.", "without control.", "without any form of compulsion."] },
+          { start: "The coordination of such massive construction projects required the existence of architects or master builders who could design structures, plan construction sequences, and", "correct": "oversee quality control.", "wrong": ["proceed without any planning.", "operate without supervising the work.", "rely on random construction methods."] },
+          { start: "The long duration of Great Zimbabwe's construction—spanning centuries—shows that the project required continuity of vision across multiple rulers' reigns and", "correct": "sustained commitment to the original plan.", "wrong": ["sudden construction.", "individual rulers' whims.", "no real continuity."] }
         ]
       },
       {
         name: "Great Zimbabwe & Environmental Knowledge",
         emoji: "🌿",
         quotes: [
-          { start: "The location of Great Zimbabwe and the systems for water management suggest that builders and rulers understood", "correct": "the importance of water access, the effects of climate and rainfall, and the need to manage water resources.", "wrong": ["no real knowledge.", "random location.", "no planning."] },
-          { start: "The development of agricultural systems that could support the large population of Great Zimbabwe required knowledge of", "correct": "local soil conditions, crop varieties suited to the region, and potentially irrigation or water conservation techniques.", "wrong": ["purely pastoral.", "no agriculture.", "imported food."] },
-          { start: "The evidence of settlement patterns and resource management at Great Zimbabwe shows that the population understood how to", "correct": "extract resources sustainably without completely depleting them in the short term.", "wrong": ["purely exploitative.", "complete depletion.", "no planning."] }
+          { start: "The location of Great Zimbabwe and the systems for water management suggest that builders and rulers understood the effects of climate and rainfall, and", "correct": "the need to manage water resources.", "wrong": ["no real knowledge.", "random location.", "no planning."] },
+          { start: "The development of agricultural systems that could support the large population of Great Zimbabwe required knowledge of", "correct": "local soil conditions.", "wrong": ["purely pastoral.", "no agriculture.", "imported food."] },
+          { start: "The evidence of settlement patterns and resource management at Great Zimbabwe shows that the population understood how to extract resources sustainably without", "correct": "completely depleting them in the short term.", "wrong": ["purely exploitative.", "complete depletion.", "no planning."] }
         ]
       }
     ]
