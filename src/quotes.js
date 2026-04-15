@@ -4351,96 +4351,140 @@ export const CIVILIZATIONS = [
         name: "Sassanid Culture & Intellectual Achievement",
         emoji: "📚",
         quotes: [
-          { start: "The Sassanid patronage of scholarship, medicine, and astronomy through institutions like Jundishapur Academy served to demonstrate that",
-          "correct": "the empire valued knowledge and that Sassanid civilization was sophisticated and could rival Byzantine and other cultures intellectually.",
-            "wrong": ["purely altruistic.", "no political benefit.", "unnecessary expense."] },
-          { start: "The preservation of Zoroastrian religious texts and the composition of literary works under Sassanid rule created a cultural legacy that would influence Islamic civilization and beyond, showing",
-          "correct": "that intellectual and cultural achievements could survive political and military changes.",
-            "wrong": ["no real legacy.", "purely destroyed.", "no influence."] },
-          { start: "Sassanid art and architecture, which synthesized Persian, Greek, and other influences, reflected that the empire could absorb foreign influences while maintaining its own identity, demonstrating",
-          "correct": "that cultural sophistication did not require cultural isolation.",
-            "wrong": ["purely derivative.", "no originality.", "purely Persian."] },
-          { start: "The development of a distinctive Sassanid literary tradition, including the Pahlavi language texts and historical records, served to",
-          "correct": "preserve knowledge, record historical events, and create a sense of cultural continuity and identity.",
-            "wrong": ["no real literature.", "purely religious texts.", "no real achievement."] },
-          { start: "Sassanid scholars' engagement with Greek learning, Indian mathematics, and Chinese knowledge through trade and contact demonstrated that",
-          "correct": "the empire was open to external influences and could learn from other civilizations while maintaining its own traditions.",
-            "wrong": ["purely isolationist.", "no external learning.", "purely Persian traditions."] }
+          {
+            start: "The Sassanid patronage of scholarship, medicine, and astronomy through institutions like Jundishapur Academy served to demonstrate that the empire valued knowledge and that Sassanid civilization could rival Byzantine and",
+            "correct": "other cultures intellectually.",
+            "wrong": ["military power only.", "religious dogma.", "barbarian tribes."]
+          },
+          {
+            start: "The preservation of Zoroastrian religious texts and the composition of literary works under Sassanid rule created a cultural legacy that would influence Islamic civilization and beyond, showing that intellectual achievements could",
+            "correct": "survive political and military changes.",
+            "wrong": ["vanish overnight.", "be easily destroyed.", "remain isolated."]
+          },
+          {
+            start: "Sassanid art and architecture, which synthesized Persian, Greek, and other influences, reflected that the empire could absorb foreign influences while maintaining its own identity, demonstrating that cultural sophistication",
+            "correct": "did not require cultural isolation.",
+            "wrong": ["demanded isolation.", "required purity.", "meant rejection."]
+          },
+          {
+            start: "The development of a distinctive Sassanid literary tradition, including the Pahlavi language texts and historical records, served to preserve knowledge, record historical events, and create a sense of",
+            "correct": "cultural continuity and identity.",
+            "wrong": ["foreign domination.", "total decline.", "religious chaos."]
+          },
+          {
+            start: "Sassanid scholars' engagement with Greek learning, Indian mathematics, and Chinese knowledge through trade and contact demonstrated that the empire was open to external influences and could learn from other civilizations while",
+            "correct": "maintaining its own traditions.",
+            "wrong": ["copying blindly.", "rejecting everything.", "losing identity."]
+          }
         ]
       },
       {
         name: "Sassanid Relations with Rome/Byzantium",
         emoji: "🌍",
         quotes: [
-          { start: "The centuries-long conflict between Sassanid and Roman/Byzantine empires remained largely inconclusive because",
-          "correct": "both empires had comparable military resources, were separated by geographical barriers, and neither could muster sufficient force to completely conquer the other.",
-            "wrong": ["Sassanid superiority.", "Rome was always dominant.", "one would eventually win."] },
-          { start: "The establishment of border regions, buffer states, and treaty obligations showed that both empires understood that",
-          "correct": "maintaining peace, even if temporary, was sometimes more advantageous than continuous warfare.",
-            "wrong": ["permanent peace.", "no real conflict.", "continuous warfare was inevitable."] },
-          { start: "The exchange of embassies, the negotiation of treaties, and the conduct of diplomacy alongside military conflict demonstrated that even great rivals could recognize each other's strength and",
-          "correct": "maintain relationships that included both military competition and diplomatic negotiation.",
-            "wrong": ["purely military conflict.", "no diplomacy.", "no real relationship."] },
-          { start: "The conflicts over Armenia and other buffer regions showed that both empires valued strategic territory and that the struggle for dominance in these regions was",
-          "correct": "a prolonged competition where neither side could maintain permanent control.",
-            "wrong": ["purely military conquest.", "one side dominated completely.", "strategic irrelevance."] },
-          { start: "The ultimately successful invasion of Sassanid territories by Arab Muslim forces after centuries of standing against Rome demonstrated that",
-          "correct": "even militarily dominant empires face challenges when new, determined rivals emerge with different military capabilities or organizational advantages.",
-            "wrong": ["Sassanid weakness was always present.", "Rome should have conquered.", "inevitable collapse."] }
+          { 
+            start: "The centuries-long conflict between Sassanid and Roman/Byzantine empires remained largely inconclusive because both empires had comparable military resources and neither could muster sufficient force to",
+            correct: "completely conquer the other.",
+            wrong: ["decisively defeat its rival.", "fully dominate its enemy.", "permanently overcome opposition."] 
+          },
+          { 
+            start: "The establishment of border regions, buffer states, and treaty obligations showed that both empires understood that maintaining peace, even if temporary, was sometimes more advantageous than",
+            correct: "continuous warfare.",
+            wrong: ["endless conflict.", "perpetual fighting.", "ongoing battles."] 
+          },
+          { 
+            start: "The exchange of embassies and the conduct of diplomacy alongside military conflict demonstrated that even great rivals could recognize each other's strength and maintain relationships that included both",
+            correct: "military competition and diplomatic negotiation.",
+            wrong: ["warfare and peace talks.", "conflict and alliance.", "hostility and discussion."] 
+          },
+          { 
+            start: "The conflicts over Armenia and other buffer regions showed that both empires valued strategic territory and that the struggle for dominance in these regions was a prolonged competition where neither side could",
+            correct: "maintain permanent control.",
+            wrong: ["achieve lasting victory.", "secure lasting dominance.", "establish lasting authority."] 
+          },
+          { 
+            start: "The ultimately successful invasion of Sassanid territories by Arab Muslim forces after centuries of standing against Rome demonstrated that even militarily dominant empires face challenges when new, determined rivals emerge with",
+            correct: "organizational advantages.",
+            wrong: ["military innovation.", "strategic superiority.", "tactical improvements."] 
+          }
         ]
       },
       {
         name: "Sassanid Women & Royal Family",
         emoji: "👩",
         quotes: [
-          { start: "Women in Sassanid royal families held important roles including serving as regents, advising rulers, managing royal estates, and sometimes participating in governance because",
-          "correct": "elite women could exercise real power and influence despite overall male political dominance.",
-            "wrong": ["women had no authority.", "purely ceremonial roles.", "no real influence."] },
-          { start: "The succession of rulers through the royal family and the sometimes contested nature of Sassanid succession meant that",
-          "correct": "different factions within the royal family could support different candidates, making succession political rather than automatically hereditary.",
-            "wrong": ["purely hereditary succession.", "no contest.", "automatic inheritance."] },
-          { start: "The role of the royal family in maintaining the stability of the empire was important because they provided",
-          "correct": "networks of relationship and obligation, control over provinces and resources, and potential sources of legitimacy for rulers.",
-            "wrong": ["no real importance.", "purely ceremonial.", "no real power."] }
+          { 
+            start: "Women in Sassanid royal families held important roles including serving as regents, advising rulers, managing royal estates, and sometimes participating in governance because elite women could exercise real power and",
+            correct: "influence.",
+            wrong: ["authority.", "control.", "dominion."] 
+          },
+          { 
+            start: "The succession of rulers through the royal family and the sometimes contested nature of Sassanid succession meant that different factions within the royal family could",
+            correct: "support different candidates.",
+            wrong: ["back rival claimants.", "champion opposing heirs.", "promote competing successors."] 
+          },
+          { 
+            start: "The role of the royal family in maintaining the stability of the empire was important because they provided networks of relationship and obligation, control over provinces and resources, and potential sources of",
+            correct: "legitimacy for rulers.",
+            wrong: ["authority for kings.", "sanction for leadership.", "validation for power."] 
+          }
         ]
       },
       {
         name: "Sassanid Decline & Fall",
         emoji: "📜",
         quotes: [
-          { start: "The decline of Sassanid power came from multiple factors: the exhaustion of the empire from centuries of conflict with Rome/Byzantium, internal civil conflict, the rise of powerful generals who challenged central authority, and",
-          "correct": "the emergence of the Islamic Arab caliphate, which possessed military resources, organizational capability, and religious motivation that proved overwhelming.",
-            "wrong": ["single cause.", "purely external invasion.", "weak empire from the start."] },
-          { start: "The final destruction of the Sassanid Empire by Arab forces at the Battle of Qadisiyyah in 637 CE demonstrated that",
-          "correct": "even an empire with centuries of military dominance and sophisticated administration could collapse when facing a new, determined rival with comparable military capabilities.",
-            "wrong": ["Sassanid weakness.", "Rome conquered them.", "inevitable decline."] },
-          { start: "The rapid spread of Islam throughout former Sassanid territories after the military conquest suggests that",
-          "correct": "despite Sassanid cultural and religious sophistication, many subject peoples were willing to accept the new Islamic rule.",
-            "wrong": ["purely military occupation.", "unwilling conversion.", "no real change."] },
-          { start: "The legacy of Sassanid civilization included contributions to governance, administration, art, literature, and religious philosophy that would influence Islamic civilization and beyond, demonstrating that",
-          "correct": "cultural and intellectual achievements could survive political collapse and continue to influence future ages.",
-            "wrong": ["no real legacy.", "purely destroyed.", "no influence on Islam."] },
-          { start: "The study of the Sassanid Empire demonstrates that it was not merely a continuation of Persian tradition but rather a sophisticated, centralized empire that maintained dominance for nearly 500 years through",
-          "correct": "a combination of military power, effective administration, cultural achievement, and the ability to adapt to changing circumstances.",
-            "wrong": ["no real innovation.", "purely derivative of predecessors.", "no real achievement."] }
+          { 
+            start: "The decline of Sassanid power came from multiple factors: the exhaustion of the empire from centuries of conflict with Rome/Byzantium, internal civil conflict, the rise of powerful generals who challenged central authority, and",
+            correct: "the emergence of the Islamic Arab caliphate.",
+            wrong: ["the rise of Islamic powers.", "Arab military expansion.", "Muslim conquest movements."] 
+          },
+          { 
+            start: "The final destruction of the Sassanid Empire by Arab forces at the Battle of Qadisiyyah in 637 CE demonstrated that even an empire with centuries of military dominance could collapse when facing a new, determined rival with",
+            correct: "comparable military capabilities.",
+            wrong: ["sufficient military strength.", "adequate military resources.", "strong military organization."] 
+          },
+          { 
+            start: "The rapid spread of Islam throughout former Sassanid territories after the military conquest suggests that despite Sassanid cultural and religious sophistication, many subject peoples were willing to",
+            correct: "accept the new Islamic rule.",
+            wrong: ["embrace the new faith.", "adopt Islamic practices.", "submit to Islamic authority."] 
+          },
+          { 
+            start: "The legacy of Sassanid civilization included contributions to art, literature, and religious philosophy that would influence Islamic civilization and beyond, demonstrating that cultural and intellectual achievements could",
+            correct: "survive political collapse.",
+            wrong: ["outlast empires.", "endure conquest.", "transcend political change."] 
+          },
+          { 
+            start: "The study of the Sassanid Empire demonstrates that it was not merely a continuation of Persian tradition but rather a sophisticated, centralized empire that maintained dominance for nearly",
+            correct: "500 years.",
+            wrong: ["50 years.", "100 years.", "250 years."] 
+          }
         ]
       },
       {
         name: "Sassanid Social Structure & Hierarchy",
         emoji: "🏛️",
         quotes: [
-          { start: "Sassanid society was organized into distinct classes: the royal family and nobility, priests (Magi), warriors, scribes and administrators, merchants and craftspeople, and farmers/commoners because",
-          "correct": "this hierarchy allowed for specialization, coordination of large projects, and the accumulation and redistribution of resources.",
-            "wrong": ["purely egalitarian.", "no real structure.", "random organization."] },
-          { start: "The status of the priestly class in Sassanid society meant that religious authority and political authority were closely connected, with priests serving to",
-          "correct": "advise rulers, administer religious institutions, maintain religious orthodoxy, and provide moral authority.",
-            "wrong": ["purely religious roles.", "no political influence.", "no real authority."] },
-          { start: "The recognition of merit in the selection of administrators and the advancement of capable individuals regardless of birth showed that Sassanid rulers understood that",
-          "correct": "effective administration required talented personnel and that the empire benefited from appointing capable individuals to important positions.",
-            "wrong": ["purely hereditary positions.", "no real advancement.", "birth alone determined status."] },
-          { start: "The wealth and status of merchants and craftspeople in Sassanid society depended on the king's patronage and the provision of security and trade opportunities, showing that",
-          "correct": "economic classes benefited from royal support and contributed to the empire's prosperity.",
-            "wrong": ["purely exploited.", "no real status.", "no real contribution."] }
+          { 
+            start: "Sassanid society was organized into distinct classes: the royal family and nobility, priests (Magi), warriors, scribes and administrators, merchants and craftspeople, and farmers/commoners because",
+            correct: "this hierarchy allowed for specialization.",
+            wrong: ["social order was necessary.", "control was maintained.", "stability was ensured."] 
+          },
+          { 
+            start: "The status of the priestly class in Sassanid society meant that religious authority and political authority were closely connected, with priests serving to advise rulers, maintain religious orthodoxy, and",
+            correct: "provide moral authority.",
+            wrong: ["enforce spiritual law.", "ensure religious compliance.", "preserve sacred order."] 
+          },
+          { 
+            start: "The recognition of merit in the selection of administrators and the advancement of capable individuals regardless of birth showed that Sassanid rulers understood that effective administration required talented personnel and that the empire benefited from appointing capable individuals to",
+            correct: "important positions.",
+            wrong: ["positions of power.", "roles of responsibility.", "offices of influence."] 
+          },
+          { 
+            start: "The wealth and status of merchants and craftspeople in Sassanid society depended on the king's patronage and the provision of security and trade opportunities, showing that economic classes benefited from royal support and",
+            correct: "contributed to the empire's prosperity.",
+            wrong: ["enhanced imperial wealth.", "strengthened state resources.", "advanced national success."] 
+          }
         ]
       }
     ]
@@ -4457,123 +4501,169 @@ export const CIVILIZATIONS = [
         name: "Pachacuti Inca Yupanqui (Empire Reformer)",
         emoji: "👑",
         quotes: [
-          { start: "I, Pachacuti, have transformed Cusco from a small valley into the center of a great empire because",
-          "correct": "the Sun God Inti commanded me to expand and organize the realm; I rebuilt Cusco with fine stonework, established laws, and created the system of mit'a labor for public works.",
-            "wrong": ["conquest was done only for personal glory.", "the old ways of the ancestors were sufficient.", "I ignored the will of the gods."] },
-          { start: "A good ruler must care for the people as a father cares for his children because",
-          "correct": "the Sapa Inca is the son of the Sun; he must ensure no one goes hungry, provide for widows and orphans, and maintain justice and order throughout Tawantinsuyu.",
-            "wrong": ["the ruler's only duty was conquest.", "the people existed only to serve the king.", "justice came only from force."] },
-          { start: "I saw a vision from the Sun God Inti who told me because",
-          "correct": "I would become the greatest ruler and turn the world upside down (pachacuti); with his help I defeated the Chancas and began the true expansion of the empire.",
-            "wrong": ["my victories came only from human effort.", "the gods never spoke to me.", "the Chanca war was not divinely inspired."] },
-          { start: "The Sapa Inca must act as a father to all his subjects because",
-          "correct": "he should feed the hungry, clothe the naked, and care for the sick and elderly; only then will the people love and obey him as a true son of Inti.",
-            "wrong": ["the ruler owed nothing to the common people.", "fear and punishment were the best tools of governance.", "paternal care weakened royal authority."] },
-          { start: "I rebuilt Cusco as the navel of the world because",
-          "correct": "a capital must reflect the glory of Inti and the order of the empire; with fine stonework and planned districts, it became the sacred and administrative center of Tawantinsuyu.",
-            "wrong": ["Cusco remained a simple village under my rule.", "urban planning served no important purpose.", "I cared only about military expansion."] },
-          { start: "A noble and courageous man is known by his patience in adversity because",
-          "correct": "impatience reveals a vulgar and low mind; a true leader remains calm and wise even in difficult times, just as I did when facing the Chanca invasion.",
-            "wrong": ["rash action always brought better results.", "patience was a sign of weakness.", "adversity required only brute force."] },
-          { start: "Governors and officials must observe two things with great care because",
-          "correct": "first, they and their subjects must perfectly obey the emperor’s laws; second, they must watch over the resources and welfare of their province so that no one suffers want.",
-            "wrong": ["officials could rule however they pleased.", "the welfare of common people was unimportant.", "laws existed only to serve the elite."] }
+            { 
+              start: "I, Pachacuti, have transformed Cusco from a small valley into the center of a great empire because the Sun God Inti commanded me to expand and organize the realm; I rebuilt Cusco with fine stonework and created the system of",
+              correct: "mit'a labor for public works.",
+              wrong: ["taxation.", "universal corvée.", "communal labor."] 
+            },
+            { 
+              start: "A good ruler must care for the people as a father cares for his children because the Sapa Inca is the son of the Sun; he must ensure no one goes hungry, provide for widows and orphans, and maintain justice and",
+              correct: "order throughout Tawantinsuyu.",
+              wrong: ["peace across the empire.", "harmony among the kingdoms.", "stability in all lands."] 
+            },
+            { 
+              start: "I saw a vision from the Sun God Inti who told me because I would become the greatest ruler and turn the world upside down (pachacuti); with his help I defeated the Chancas and",
+              correct: "began the true expansion of the empire.",
+              wrong: ["established my dynasty.", "secured my power.", "founded imperial rule."] 
+            },
+            { 
+              start: "The Sapa Inca must act as a father to all his subjects because he should feed the hungry, clothe the naked, and care for the sick and elderly; only then will the people love and obey him as",
+              correct: "a true son of Inti.",
+              wrong: ["their divine ruler.", "a son of the Sun.", "the Sun's chosen one."] 
+            },
+            { 
+              start: "I rebuilt Cusco as the navel of the world because a capital must reflect the glory of Inti and the order of the empire; with fine stonework and planned districts, it became the sacred and",
+              correct: "administrative center of Tawantinsuyu.",
+              wrong: ["imperial heart of power.", "spiritual home of the realm.", "governing seat of rule."] 
+            },
+            { 
+              start: "A noble and courageous man is known by his patience in adversity because impatience reveals a vulgar and low mind; a true leader remains calm and wise even in difficult times, just as I did when",
+              correct: "facing the Chanca invasion.",
+              wrong: ["threatened by enemies.", "challenged by rivals.", "attacked by foes."] 
+            },
+            { 
+              start: "Governors and officials must observe two things with great care because first, they and their subjects must perfectly obey the emperor's laws; second, they must watch over the resources and welfare of their province so that",
+              correct: "no one suffers want.",
+              wrong: ["all prosper equally.", "people remain content.", "subjects lack nothing."] 
+            }
         ]
       },
       {
         name: "Túpac Inca Yupanqui (Great Conqueror)",
         emoji: "⚔️",
         quotes: [
-          { start: "I extended the empire to the ends of the known world because",
-          "correct": "the Sun commanded it; I conquered lands from Chile to Ecuador, built roads and fortresses, and brought new provinces into the empire through both war and wise administration.",
-            "wrong": ["expansion happened without divine guidance.", "military force was unnecessary.", "conquered peoples were treated as slaves."] },
-          { start: "When I reached the ocean, I built balsa rafts and sailed westward because",
-          "correct": "I sought new lands and knowledge; the Inca must always push the boundaries of the empire while honoring Inti and maintaining order.",
-            "wrong": ["I feared the sea and never explored beyond land.", "expansion stopped at the mountains.", "voyages had no strategic purpose."] },
-          { start: "My father Pachacuti gave me the command to conquer because",
-          "correct": "the Sun God Inti willed that the empire should grow; I marched north and south, subduing kingdoms and bringing them under the protection of the Inca.",
-            "wrong": ["I conquered only for personal fame.", "my father opposed further expansion.", "the gods did not support my campaigns."] },
-          { start: "After conquering the Chimu kingdom, I brought their skilled artisans to Cusco because",
-          "correct": "they were masters of goldwork, textiles, and irrigation; a wise ruler incorporates the knowledge of conquered peoples to strengthen the entire empire.",
-            "wrong": ["I destroyed all Chimu culture.", "skilled workers were not useful to the Inca.", "conquered peoples contributed nothing of value."] },
-          { start: "I ordered the construction of great fortresses and storehouses throughout the land because",
-          "correct": "the empire must be able to feed its people even in times of drought or war; through the mit'a system and royal warehouses, no one in Tawantinsuyu went hungry.",
-            "wrong": ["storehouses were only for the army.", "the empire did not need organized logistics.", "I cared little for the welfare of common people."] },
-          { start: "When I returned from my campaigns, I inspected the roads and bridges because",
-          "correct": "a well-maintained Qhapaq Ñan allows the Sapa Inca to govern a vast territory; the roads are the veins through which the life of the empire flows.",
-            "wrong": ["roads and bridges were unimportant.", "I left infrastructure to local rulers.", "the empire was governed without good communication."] },
-          { start: "A true Inca ruler must be both a lion in war and a father in peace because",
-          "correct": "he conquers with strength but rules with justice and generosity; only then will the people obey willingly and the gods continue to bless the empire.",
-            "wrong": ["rulers needed only military power.", "kindness weakened authority.", "conquest and governance were separate matters."] }
+          { 
+            start: "I extended the empire to the ends of the known world because the Sun commanded it; I conquered lands from Chile to Ecuador, built roads and fortresses, and brought new provinces into the empire through both",
+            correct: "war and wise administration.",
+            wrong: ["military conquest and diplomacy.", "force and strategic planning.", "violence and negotiation."] 
+          },
+          { 
+            start: "When I reached the ocean, I built balsa rafts and sailed westward because I sought new lands and knowledge; the Inca must always push the boundaries of the empire while honoring Inti and",
+            correct: "maintaining order.",
+            wrong: ["preserving peace.", "sustaining stability.", "ensuring unity."] 
+          },
+          { 
+            start: "My father Pachacuti gave me the command to conquer because the Sun God Inti willed that the empire should grow; I marched north and south, subduing kingdoms and bringing them under",
+            correct: "the protection of the Inca.",
+            wrong: ["Inca rule.", "imperial control.", "Cusco's authority."] 
+          },
+          { 
+            start: "After conquering the Chimu kingdom, I brought their skilled artisans to Cusco because they were masters of goldwork, textiles, and irrigation; a wise ruler incorporates the knowledge of conquered peoples to",
+            correct: "strengthen the entire empire.",
+            wrong: ["enhance imperial power.", "increase state wealth.", "build greater dominion."] 
+          },
+          { 
+            start: "I ordered the construction of great fortresses and storehouses throughout the land because the empire must be able to feed its people even in times of drought or war; through the mit'a system and royal warehouses, no one in",
+            correct: "Tawantinsuyu went hungry.",
+            wrong: ["the realm starved.", "the empire suffered want.", "our lands went without."] 
+          },
+          { 
+            start: "When I returned from my campaigns, I inspected the roads and bridges because a well-maintained Qhapaq Ñan allows the Sapa Inca to govern a vast territory; the roads are the veins through which the life of the",
+            correct: "empire flows.",
+            wrong: ["realm circulates.", "state moves.", "domain travels."] 
+          },
+          { 
+            start: "A true Inca ruler must be both a lion in war and a father in peace because he conquers with strength but rules with justice and generosity; only then will the people obey willingly and the gods continue to",
+            correct: "bless the empire.",
+            wrong: ["favor our rule.", "grant us dominion.", "smile upon us."] 
+          }
         ]
       },
       {
         name: "Huayna Cápac (Last Great Sapa Inca)",
         emoji: "👑",
         quotes: [
-          { start: "I ruled the empire at its greatest extent because",
-          "correct": "I continued the work of my father and grandfather; I maintained the roads, storehouses, and administrative system that fed the people and supported the army.",
-            "wrong": ["the empire was already declining under me.", "I neglected administration for pleasure.", "conquest was my only concern."] }
+          {
+            start: "I ruled the empire at its greatest extent because I continued the work of my father and grandfather; I maintained the roads, storehouses, and administrative system that fed the people and",
+            "correct": "supported the army.",
+            "wrong": ["enriched the nobles.", "pleased the priests.", "funded luxuries."]
+          }
         ]
       },
       {
         name: "Priests & Spiritual Leaders (Willaq Umu & Inti Worship)",
         emoji: "🕯️",
         quotes: [
-          { start: "Inti, our father the Sun, gives light and life to the world because",
-          "correct": "he is the ancestor of the Sapa Inca; we perform daily rituals at Coricancha and Inti Raymi so that he continues to bless the crops, the people, and the empire.",
-            "wrong": ["the Sun had no direct connection to the ruler.", "rituals were unimportant to daily life.", "only human effort mattered for prosperity."] },
-          { start: "We honor Pachamama, the Earth Mother, with offerings because",
-          "correct": "she nourishes the terraces and fields; harmony with her, Inti, and the mountains (apus) ensures good harvests and protects the land from disaster.",
-            "wrong": ["the earth was not considered sacred.", "offerings had no practical effect.", "only the Sun God was worshipped."] }
+          {
+            start: "Inti, our father the Sun, gives light and life to the world because he is the ancestor of the Sapa Inca; we perform daily rituals at Coricancha and Inti Raymi so that he continues to bless the crops, the people, and",
+            "correct": "the empire.",
+            "wrong": ["our enemies.", "foreign lands.", "the Spaniards."]
+          },
+          {
+            start: "We honor Pachamama, the Earth Mother, with offerings because she nourishes the terraces and fields; harmony with her, Inti, and the mountains (apus) ensures good harvests and protects the land from",
+            "correct": "disaster.",
+            "wrong": ["rich harvests.", "abundant crops.", "divine favor."]
+          }
         ]
       },
       {
         name: "Engineers & Road Builders",
         emoji: "🏗️",
         quotes: [
-          { start: "The Qhapaq Ñan, the Great Royal Road, stretches more than 40,000 kilometers because",
-          "correct": "we built it with stone paving, suspension bridges of ichu grass, and waystations (tambos) so that the empire could be governed, armies moved quickly, and goods distributed efficiently.",
-            "wrong": ["roads were simple dirt paths.", "bridges were unnecessary in the Andes.", "the empire did not need an extensive communication system."] },
-          { start: "We carved terraces into the steep mountainsides because",
-          "correct": "they prevent erosion, create fertile farmland, and demonstrate our mastery of the land; with irrigation canals and storehouses, we ensured food security even in harsh conditions.",
-            "wrong": ["terraces served only decorative purposes.", "agriculture relied only on natural valleys.", "Inca engineering was primitive."] }
+          {
+            start: "The Qhapaq Ñan, the Great Royal Road, stretches more than 40,000 kilometers because we built it with stone paving, suspension bridges of ichu grass, and waystations (tambos) so that the empire could be governed, armies moved quickly, and",
+            "correct": "goods distributed efficiently.",
+            "wrong": ["enemies kept out.", "taxes collected slowly.", "nobles traveled alone."]
+          },
+          {
+            start: "We carved terraces into the steep mountainsides because they prevent erosion, create fertile farmland, and demonstrate our mastery of the land; with irrigation canals and storehouses, we ensured",
+            "correct": "food security even in harsh conditions.",
+            "wrong": ["wealth for elites.", "dependence on imports.", "frequent famines."]
+          }
         ]
       },
       {
         name: "Administrators & Lawgivers",
         emoji: "⚖️",
         quotes: [
-          { start: "The Inca laws were few but strictly enforced because",
-          "correct": "they promoted justice, hard work, and respect for authority; no one went hungry in the empire because of the mit'a system and royal storehouses.",
-            "wrong": ["laws were harsh and arbitrary.", "the empire had no organized legal system.", "people were free to act as they wished."] }
+          {
+            start: "The Inca laws were few but strictly enforced because they promoted justice, hard work, and respect for authority; no one went hungry in the empire because of the mit'a system and",
+            "correct": "royal storehouses.",
+            "wrong": ["private farms.", "market trading.", "individual wealth."]
+          }
         ]
       },
       {
         name: "Legacy of the Sapa Inca",
         emoji: "📜",
         quotes: [
-          { start: "The Sapa Inca was the son of the Sun and father of the people because",
-          "correct": "he owned all land and resources in trust for the empire; through wise rule, redistribution of goods, and public works, he maintained harmony and prosperity across Tawantinsuyu.",
-            "wrong": ["the ruler owned everything for personal use.", "the empire relied only on military force.", "there was no system of social welfare."] }
+          {
+            start: "The Sapa Inca was the son of the Sun and father of the people because he owned all land and resources in trust for the empire; through wise rule, redistribution of goods, and public works, he maintained harmony and",
+            "correct": "prosperity across Tawantinsuyu.",
+            "wrong": ["poverty for all.", "chaos and famine.", "private wealth."]
+          }
         ]
       },
       {
         name: "Quipucamayoc (Record Keepers)",
         emoji: "📜",
         quotes: [
-          { start: "We, the quipucamayoc, recorded everything with knotted strings because",
-          "correct": "quipus allowed us to keep exact accounts of tribute, population, livestock, harvests, and history; without them the vast empire could not be governed efficiently.",
-            "wrong": ["writing was unnecessary in our society.", "records were kept only by memory.", "quipus had no practical administrative use."] }
+          {
+            start: "We, the quipucamayoc, recorded everything with knotted strings because quipus allowed us to keep exact accounts of tribute, population, livestock, harvests, and history; without them the vast empire could",
+            "correct": "not be governed efficiently.",
+            "wrong": ["easily be governed.", "remain small forever.", "ignore all records."]
+          }
         ]
       },
       {
         name: "Military Leaders",
         emoji: "⚔️",
         quotes: [
-          { start: "The Inca army was highly organized because",
-          "correct": "soldiers were trained from youth, supplied from state storehouses, and moved rapidly along the Qhapaq Ñan; discipline and logistics made us one of the most effective forces in the Andes.",
-            "wrong": ["the army relied on untrained warriors.", "logistics and supply were unimportant.", "military success came only from numbers."] }
+          {
+            start: "The Inca army was highly organized because soldiers were trained from youth, supplied from state storehouses, and moved rapidly along the Qhapaq Ñan; discipline and logistics made us one of the most effective forces in",
+            "correct": "the Andes.",
+            "wrong": ["the Amazon.", "the desert.", "the islands."]
+          }
         ]
       },
     ]
@@ -4590,117 +4680,161 @@ export const CIVILIZATIONS = [
         name: "Piye (Piankhi) – Conqueror of Egypt",
         emoji: "👑",
         quotes: [
-          { start: "Hear of what I did, more than the ancestors! I am a king, divine emanation, living image of Atum because",
-          "correct": "Amun of Napata made me ruler; I came northward at his command to restore order and purify the temples, acting with justice and piety.",
-            "wrong": ["I conquered Egypt only for personal glory.", "the gods had no role in my campaign.", "I showed no mercy to defeated rulers."] },
-          { start: "When the northern princes neglected the temples and lived unclean lives, I marched north because",
-          "correct": "Amun commanded me to restore ma'at (order and justice); I fought with divine support and treated the defeated with compassion when they submitted.",
-            "wrong": ["military force alone brought victory.", "I destroyed every enemy without mercy.", "religion played no part in my rule."] },
-          { start: "Command which My Majesty has spoken: Hear what I did, more than the ancestors because",
-          "correct": "I am the king, the representation of god, the living image of Atum, who issued from the womb marked as ruler; my father knew and my mother perceived even in the egg that I would be ruler.",
-            "wrong": ["my rule came only from military conquest.", "divine birth and selection played no role.", "I claimed kingship without any justification."] },
-          { start: "As I live, as Re loves me, as my father Amun favours me, I shall go northward myself because",
-          "correct": "I will overturn what Tefnakht has done and make him retreat from fighting forever; Amun has commanded me to act and to show forth his might.",
-            "wrong": ["I stayed in Napata and sent only generals.", "the campaign had no divine backing.", "I acted purely out of personal anger."] },
-          { start: "When my troops entered Thebes, I commanded them because",
-          "correct": "purify yourselves in the river, clothe yourselves in fine linen, lay down your bows; fight in the shadow of Amun’s strong arm, for he makes the weak strong and turns multitudes to flight before the few.",
-            "wrong": ["my soldiers could act however they wished.", "ritual purity before battle was unimportant.", "Amun had no influence on military success."] },
-          { start: "When I saw that the horses in the stables of the defeated rulers were starved, I became more angry than at any other crime because",
-          "correct": "the neglect of horses pained my heart greatly; I love horses, and their mistreatment showed the rulers’ lack of proper order and respect.",
-            "wrong": ["I cared nothing for animals or stables.", "this incident had no emotional impact on me.", "I punished the princes solely for military resistance."] },
-          { start: "I swear: as Re loves me, as my father Amun favours me, this shall befall the city because",
-          "correct": "I shall seize it like a cloudburst; Amun has commanded me, and he has done this expressly to show his wrath and to cause that his grandeur be seen.",
-            "wrong": ["I attacked without any divine command.", "the gods were indifferent to the campaign.", "my victories came only from superior numbers."] }
+          { 
+            start: "Hear of what I did, more than the ancestors! I am a king, divine emanation, living image of Atum because Amun of Napata made me ruler; I came northward at his command to restore order and purify the temples, acting with",
+            correct: "justice and piety.",
+            wrong: ["military strength.", "political power.", "ruthless force."] 
+          },
+          { 
+            start: "When the northern princes neglected the temples and lived unclean lives, I marched north because Amun commanded me to restore ma'at (order and justice); I fought with divine support and treated the defeated with compassion when",
+            correct: "they submitted.",
+            wrong: ["they begged for mercy.", "they surrendered completely.", "they knelt before me."] 
+          },
+          { 
+            start: "Command which My Majesty has spoken: Hear what I did, more than the ancestors because I am the king, the representation of god, who issued from the womb marked as ruler; my father knew and my mother perceived even in the egg that",
+            correct: "I would be ruler.",
+            wrong: ["I was destined to rule.", "I would be king.", "I was born to reign."] 
+          },
+          { 
+            start: "As I live, as Re loves me, as my father Amun favours me, I shall go northward myself because I will overturn what Tefnakht has done and make him retreat from fighting forever; Amun has commanded me to act and",
+            correct: "to show forth his might.",
+            wrong: ["to display his power.", "to reveal his strength.", "to demonstrate his wrath."] 
+          },
+          { 
+            start: "When my troops entered Thebes, I commanded them because purify yourselves in the river, clothe yourselves in fine linen, lay down your bows; fight in the shadow of Amun's strong arm, for he makes the weak strong and",
+            correct: "turns multitudes to flight before the few.",
+            wrong: ["defeats countless enemies easily.", "scatters great armies with ease.", "conquers hordes through his power."] 
+          },
+          { 
+            start: "When I saw that the horses in the stables of the defeated rulers were starved, I became more angry than at any other crime because the neglect of horses pained my heart greatly; I love horses, and their mistreatment showed the rulers' lack of",
+            correct: "proper order and respect.",
+            wrong: ["divine favor and care.", "ma'at and righteousness.", "kingly duty and honor."] 
+          },
+          { 
+            start: "I swear: as Re loves me, as my father Amun favours me, this shall befall the city because I shall seize it like a cloudburst; Amun has commanded me, and he has done this expressly to show his wrath and",
+            correct: "to cause that his grandeur be seen.",
+            wrong: ["to reveal his magnificent power.", "to display his divine authority.", "to demonstrate his supremacy."] 
+          }
         ]
       },
       {
         name: "Taharqa (Taharka) – Builder & Defender",
         emoji: "🏛️",
         quotes: [
-          { start: "O Great God, swift one, who comes to him who calls, watch over my sister because",
-          "correct": "do for her as I have done for you; elevate her children and make them prosper, even as you did for me — for I rebuilt your temples and honored you in Kawa and Jebel Barkal.",
-            "wrong": ["prayer had no effect on the gods.", "temple building was purely for show.", "I ignored the traditional gods of Kush."] },
-          { start: "I, Taharqa, beloved of Amun-Re, restored and enlarged the temples because",
-          "correct": "Amun of Napata is my father; through his favor I ruled Egypt and Kush, brought prosperity, and defended the land against invaders.",
-            "wrong": ["military campaigns were more important than temple work.", "the gods did not grant me legitimacy.", "I focused only on conquest."] },
-          { start: "I was only a youth, but the god Amun placed me on the throne because",
-          "correct": "he knew the heart within me; even when I was a young prince, Amun chose me and raised me up to be king of Upper and Lower Egypt.",
-            "wrong": ["I seized power through military force alone.", "Amun had no role in my selection as king.", "my youth disqualified me from rule."] },
-          { start: "Hail to You, Amun-Re, Lord of Maat, whose shrine is hidden because",
-          "correct": "you are the one who made me ruler; I rebuilt your temples at Kawa and filled them with musicians to rattle the sistrum before your beautiful face so that you may grant me life and prosperity.",
-            "wrong": ["I neglected the temples and focused only on war.", "musicians and rituals had no importance.", "Amun-Re ignored my offerings."] },
-          { start: "When I saw the temple of Amun at Kawa in ruins, my heart was sad until I became king because",
-          "correct": "I restored it in fine sandstone, enlarged it, and endowed it with servants, fields, and musicians so that the god would be pleased and continue to favor Kush and Egypt.",
-            "wrong": ["I left the old temples untouched.", "temple restoration was unimportant to my reign.", "I only built new structures for personal glory."] },
-          { start: "O Amun, my father, I have given you gold and many precious things because",
-          "correct": "you gave me the kingship and protected me; in return I filled your house with wealth, servants, and offerings so that you may continue to give me victory and long life.",
-            "wrong": ["I gave nothing to the temples.", "gold and offerings had no religious meaning.", "the gods did not expect reciprocity."] },
-          { start: "I sailed northward to Thebes with the young men sent by my brother because",
-          "correct": "Amun of Napata guided my steps; through his power I was crowned in Memphis and ruled both Kush and Egypt as a beloved son of the god.",
-            "wrong": ["I had no connection to my royal predecessors.", "my coronation had no divine involvement.", "I ignored the traditional capital of Thebes."] }
+          { 
+            start: "O Great God, swift one, who comes to him who calls, watch over my sister because do for her as I have done for you; elevate her children and make them prosper, even as you did for me — for I rebuilt your temples and",
+            correct: "honored you in Kawa and Jebel Barkal.",
+            wrong: ["served you at sacred sites.", "worshipped you in holy places.", "revered you at your shrines."] 
+          },
+          { 
+            start: "I, Taharqa, beloved of Amun-Re, restored and enlarged the temples because Amun of Napata is my father; through his favor I ruled Egypt and Kush, brought prosperity, and",
+            correct: "defended the land against invaders.",
+            wrong: ["protected my kingdom.", "guarded the borders.", "kept enemies at bay."] 
+          },
+          { 
+            start: "I was only a youth, but the god Amun placed me on the throne because he knew the heart within me; even when I was a young prince, Amun chose me and raised me up to be king of",
+            correct: "Upper and Lower Egypt.",
+            wrong: ["both Egyptian lands.", "the two kingdoms.", "all Egypt."] 
+          },
+          { 
+            start: "Hail to You, Amun-Re, Lord of Maat, whose shrine is hidden because you are the one who made me ruler; I rebuilt your temples at Kawa and filled them with musicians to rattle the sistrum before your beautiful face so that",
+            correct: "you may grant me life and prosperity.",
+            wrong: ["you bestow blessings upon me.", "you favor my reign.", "you bless my rule."] 
+          },
+          { 
+            start: "When I saw the temple of Amun at Kawa in ruins, my heart was sad until I became king because I restored it in fine sandstone, enlarged it, and endowed it with servants, fields, and musicians so that the god would be pleased and",
+            correct: "continue to favor Kush and Egypt.",
+            wrong: ["protect both my kingdoms.", "sustain my rule.", "bless my lands."] 
+          },
+          { 
+            start: "O Amun, my father, I have given you gold and many precious things because you gave me the kingship and protected me; in return I filled your house with wealth, servants, and offerings so that you may continue to",
+            correct: "give me victory and long life.",
+            wrong: ["grant me power and dominion.", "bestow strength and years.", "provide success and days."] 
+          },
+          { 
+            start: "I sailed northward to Thebes with the young men sent by my brother because Amun of Napata guided my steps; through his power I was crowned in Memphis and ruled both Kush and Egypt as",
+            correct: "a beloved son of the god.",
+            wrong: ["the chosen of Amun.", "the god's favorite.", "the divine king."] 
+          }
         ]
       },
       {
         name: "Aspelta (Chosen by Amun)",
         emoji: "📜",
         quotes: [
-          { start: "The army and the priests assembled in Napata and asked Amun of Napata to choose the king because",
-          "correct": "the god himself selected me as ruler; I was brought forward and Amun confirmed me, showing that kingship in Kush comes from divine will, not only birth.",
-            "wrong": ["the king was chosen purely by military leaders.", "Amun had no role in royal succession.", "I seized power by force alone."] },
-          { start: "When the priests inquired of the god, Amun declared because",
-          "correct": "this is the king who will sit upon the throne; he shall be given life, health, and all good things, for he will honor the gods and maintain justice.",
-            "wrong": ["the selection was decided only by humans.", "oracles played no part in Kushite kingship.", "the god never spoke directly to the people."] },
-          { start: "The Host of His Majesty gathered after the Falcon flew to heaven and said because",
-          "correct": "we do not know whom we should raise to the throne; the decision belongs to Amun of Napata, our good father, who has been the god of the kings of Kush since the beginning.",
-            "wrong": ["the army immediately chose the next king by themselves.", "the death of the previous king caused no uncertainty.", "human leaders alone decided the succession."] },
-          { start: "They prostrated themselves before Amun of Napata and said because",
-          "correct": "O great god, lord of the Thrones of the Two Lands who dwells in the Pure Mountain, choose for us the king who will revive us, build your temples, and make the land of Kush strong again.",
-            "wrong": ["they did not pray or seek divine guidance.", "the god was not asked to revive the kingdom.", "temple building was not part of the request."] },
-          { start: "The god Amun of Napata then chose me from among the royal brethren because",
-          "correct": "he knows the hearts of men; he brought me forward and declared: 'This is the king who shall sit upon the throne of Horus, beloved of Amun, given life, stability, and dominion forever.'",
-            "wrong": ["I was chosen only because of my royal blood.", "Amun remained silent and did not select anyone.", "the selection ignored the god’s will."] },
-          { start: "After the god confirmed me, I entered the sanctuary alone because",
-          "correct": "I received the crowns and the staff of my predecessor from the hand of Amun; then I came forth to the army and the people who acclaimed me as the true king chosen by the god.",
-            "wrong": ["the coronation happened without entering the temple.", "I took the regalia by my own power.", "the people had no role in the acclamation."] }
+          { 
+            start: "The army and the priests assembled in Napata and asked Amun of Napata to choose the king because the god himself selected me as ruler; I was brought forward and Amun confirmed me, showing that kingship in Kush comes from",
+            correct: "divine will, not only birth.",
+            wrong: ["the god's approval alone.", "celestial authority.", "divine mandate."] 
+          },
+          { 
+            start: "When the priests inquired of the god, Amun declared because this is the king who will sit upon the throne; he shall be given life, health, and all good things, for he will honor the gods and",
+            correct: "maintain justice.",
+            wrong: ["preserve order.", "ensure prosperity.", "uphold law."] 
+          },
+          { 
+            start: "The Host of His Majesty gathered after the Falcon flew to heaven and said because we do not know whom we should raise to the throne; the decision belongs to Amun of Napata, our good father, who has been the god of the",
+            correct: "kings of Kush since the beginning.",
+            wrong: ["Kushite rulers always.", "monarchs of Napata forever.", "royal line eternally."] 
+          },
+          { 
+            start: "They prostrated themselves before Amun of Napata and said because O great god, lord of the Thrones of the Two Lands who dwells in the Pure Mountain, choose for us the king who will revive us, build your temples, and",
+            correct: "make the land of Kush strong again.",
+            wrong: ["restore Kush to greatness.", "strengthen our kingdom.", "revive our realm."] 
+          },
+          { 
+            start: "The god Amun of Napata then chose me from among the royal brethren because",
+            correct: "he knows the hearts of men; he brought me forward and declared: 'This is the king who shall sit upon the throne of Horus, beloved of Amun, given life, stability, and dominion forever.'",
+            wrong: ["I was the eldest brother.", "the priests favored me.", "I was born to rule."] 
+          },
+          { 
+            start: "After the god confirmed me, I entered the sanctuary alone because I received the crowns and the staff of my predecessor from the hand of Amun; then I came forth to the army and the people who acclaimed me as",
+            correct: "the true king chosen by the god.",
+            wrong: ["the rightful heir.", "the divine choice.", "the god's selection."] 
+          }
         ]
       },
       {
         name: "Priests & Temple Officials",
         emoji: "🕯️",
         quotes: [
-          { start: "The priests of Amun at Jebel Barkal and Napata served because",
-          "correct": "Amun is the king of the gods and father of the ruler; we maintained the rituals, oracles, and temples that gave divine legitimacy to the kings of Kush.",
-            "wrong": ["religion was separate from royal power.", "the priesthood had little influence.", "temples were only for show."] },
-          { start: "We performed oracles and festivals so that",
-          "correct": "the god could speak directly, choose kings, and grant victory and prosperity to the land when the people and ruler lived in ma'at (truth and justice).",
-            "wrong": ["oracles were never used for important decisions.", "the gods ignored the affairs of Kush.", "rituals had no practical effect."] }
+          { start: "The priests of Amun at Jebel Barkal and Napata served because Amun is the king of the gods and father of the ruler; we maintained the rituals, oracles, and temples that gave divine legitimacy to",
+          "correct": "the kings of Kush.",
+            "wrong": ["royal authority.", "the kingdom.", "our rulers."] },
+          { start: "We performed oracles and festivals so that the god could speak directly, choose kings, and grant victory and prosperity to the land when the people and ruler lived",
+          "correct": "in ma'at (truth and justice).",
+            "wrong": ["with devotion.", "in harmony.", "in balance."] }
         ]
       },
       {
         name: "Kings of Meroë (Natakamani & Amanitore)",
         emoji: "🏛️",
         quotes: [
-          { start: "We, Natakamani and Amanitore, built and restored temples at Naqa and Amara because",
-          "correct": "we honored Amun, Apedemak the lion-god, and the other deities; through their favor we maintained prosperity, trade, and the strength of the kingdom in the Meroitic period.",
-            "wrong": ["we focused only on warfare.", "temple building stopped after the Napatan period.", "the gods no longer mattered in Meroë."] }
+          { start: "We, Natakamani and Amanitore, built and restored temples at Naqa and Amara because we honored Amun, Apedemak the lion-god, and the other deities; through their favor we maintained prosperity, trade, and the strength of the kingdom in the",
+          "correct": "Meroitic period.",
+            "wrong": ["Nile Valley.", "royal court.", "southern lands."] }
         ]
       },
       {
         name: "Military & Royal Power",
         emoji: "⚔️",
         quotes: [
-          { start: "The kings of Kush sent armies against rebels because",
-          "correct": "Amun granted victory when the cause was just; we used cavalry, infantry, and boats effectively while showing mercy to those who submitted, maintaining order across vast territories.",
-            "wrong": ["military force was used without divine approval.", "Kush had no organized army.", "conquest always involved total destruction."] }
+          {
+            start: "The kings of Kush sent armies against rebels because Amun granted victory when the cause was just; we used cavalry, infantry, and boats effectively while showing mercy to those who submitted, maintaining order across",
+            "correct": "vast territories.",
+            "wrong": ["tiny villages.", "Egypt only.", "desert nomads."]
+          }
         ]
       },
       {
         name: "Trade & Prosperity",
         emoji: "💰",
         quotes: [
-          { start: "The Kingdom of Kush grew rich through trade in gold, ivory, ebony, and incense because",
-          "correct": "we controlled the Nile routes and desert caravans; fair dealings and strong royal protection allowed merchants to thrive and bring wealth to the temples and people.",
-            "wrong": ["trade was unimportant to Kushite kings.", "wealth came only from conquest.", "honest commerce had no value."] }
+          {
+            start: "The Kingdom of Kush grew rich through trade in gold, ivory, ebony, and incense because we controlled the Nile routes and desert caravans; fair dealings and strong royal protection allowed merchants to thrive and bring wealth to the",
+            "correct": "temples and people.",
+            "wrong": ["Egyptian pharaohs.", "Assyrian kings.", "foreign conquerors."]
+          }
         ]
       }
     ]
@@ -4717,96 +4851,136 @@ export const CIVILIZATIONS = [
         name: "Hiram I of Tyre (Ally of Israel)",
         emoji: "👑",
         quotes: [
-          { start: "I, Hiram, king of Tyre, sent cedar logs, carpenters, and masons to David because",
-          "correct": "we were longtime friends; I continued this alliance with his son Solomon, supplying timber and skilled craftsmen for the Temple in exchange for food and olive oil.",
-            "wrong": ["I sought military conquest over Israel.", "trade with Israel had no value.", "I refused to help with the Temple project."] },
-          { start: "When Solomon asked for help building the Temple, I replied that",
-          "correct": "the Lord God of Israel has made Solomon king over a wise and understanding people; I will send skilled men and cedar from Lebanon as much as you need.",
-            "wrong": ["I demanded gold and tribute instead of fair trade.", "the gods of Tyre opposed helping Israel.", "I had no skilled craftsmen to offer."] },
-          { start: "Hiram king of Tyre sent this message to Solomon because",
-          "correct": "Hiram had always been a friend of David; when I heard that Solomon had been anointed king, I sent my servants to congratulate him and confirm our alliance.",
-            "wrong": ["I ignored Solomon's accession.", "friendship with David ended with his death.", "I only contacted Solomon for profit."] },
-          { start: "I, Hiram, have considered the things which thou sentest to me for and I will do all thy desire concerning timber of cedar and fir because",
-          "correct": "my servants shall bring it down from Lebanon to the sea, make it into rafts, and deliver it to the place you indicate; you shall meet my needs by providing food for my household.",
-            "wrong": ["I refused to supply any timber.", "the agreement required no payment in return.", "I demanded military help instead of food."] },
-          { start: "Blessed be the Lord this day, who has given to David a wise son to be over this great people because",
-          "correct": "the Lord God of Israel loves His people and has made Solomon king; therefore I will gladly supply cedar, cypress, and skilled craftsmen for the Temple and palace.",
-            "wrong": ["I praised only the gods of Tyre.", "Solomon's wisdom had no bearing on our trade.", "I showed no respect for the God of Israel."] },
-          { start: "I sent Huram-Abi, a skilled master craftsman, because",
-          "correct": "he is trained in working gold, silver, bronze, iron, stone, wood, and fabrics; he will work with your craftsmen to complete all that you desire for the Temple.",
-            "wrong": ["I sent no artisans at all.", "Huram-Abi was only a simple laborer.", "skilled workers were not needed for the project."] },
-          { start: "After twenty years, when Solomon gave me twenty cities in Galilee, I came to see them and said",
-          "correct": "'What cities are these which thou hast given me, my brother?' — yet I still sent Solomon 120 talents of gold and maintained our friendship and joint trading voyages to Ophir.",
-            "wrong": ["I immediately broke the alliance over the cities.", "the cities pleased me greatly and ended our trade.", "I refused to send any more gold."] }
+          {
+            start: "I, Hiram, king of Tyre, sent cedar logs, carpenters, and masons to David because we were longtime friends; I continued this alliance with his son Solomon, supplying timber and skilled craftsmen for the Temple in exchange for",
+            "correct": "food and olive oil.",
+            "wrong": ["gold and silver.", "military aid.", "tribute payments."]
+          },
+          {
+            start: "When Solomon asked for help building the Temple, I replied that the Lord God of Israel has made Solomon king over a wise and understanding people; I will send skilled men and cedar from",
+            "correct": "Lebanon as much as you need.",
+            "wrong": ["Egypt as tribute.", "Assyria by force.", "my own palace."]
+          },
+          {
+            start: "Hiram king of Tyre sent this message to Solomon because Hiram had always been a friend of David; when I heard that Solomon had been anointed king, I sent my servants to congratulate him and",
+            "correct": "confirm our alliance.",
+            "wrong": ["demand payment.", "refuse help.", "declare war."]
+          },
+          {
+            start: "I, Hiram, have considered the things which thou sentest to me for and I will do all thy desire concerning timber of cedar and fir because my servants shall bring it down from Lebanon to the sea, make it into rafts, and deliver it to the",
+            "correct": "place you indicate.",
+            "wrong": ["Assyrian king.", "Egyptian border.", "nearest enemy."]
+          },
+          {
+            start: "Blessed be the Lord this day, who has given to David a wise son to be over this great people because the Lord God of Israel loves His people and has made Solomon king; therefore I will gladly supply cedar, cypress, and skilled craftsmen for",
+            "correct": "the Temple and palace.",
+            "wrong": ["my own temples.", "military campaigns.", "royal tribute."]
+          },
+          {
+            start: "I sent Huram-Abi, a skilled master craftsman, because he is trained in working gold, silver, bronze, iron, stone, wood, and fabrics; he will work with your craftsmen to complete all that you desire for",
+            "correct": "the Temple.",
+            "wrong": ["my own fleet.", "Assyrian palaces.", "trade profits."]
+          },
+          {
+            start: "After twenty years, when Solomon gave me twenty cities in Galilee, I came to see them and said 'What cities are these which thou hast given me, my brother?' — yet I still sent Solomon 120 talents of gold and maintained our friendship and",
+            "correct": "joint trading voyages to Ophir.",
+            "wrong": ["open hostility.", "military alliance.", "tribute demands."]
+          }
         ]
       },
       {
         name: "Eshmunazar II of Sidon (Temple Builder)",
         emoji: "🏛️",
         quotes: [
-          { start: "I, Eshmunazar, king of the Sidonians, and my mother Amoashtart built temples for the gods because",
-          "correct": "we constructed the house of Baal of Sidon, the house of Astarte, the sanctuary of Eshmun, and other shrines so that the gods would bless our city and grant us long life and prosperity.",
-            "wrong": ["we ignored the gods and focused only on trade.", "temple building had no religious or political purpose.", "the gods of Sidon required no offerings or shrines."] },
-          { start: "Whoever you are, king or common man, do not open this sarcophagus because",
-          "correct": "may the gods curse anyone who disturbs my resting place; I built these temples and extended Sidon's territory, and my deeds should be respected after death.",
-            "wrong": ["tombs needed no protection or curses.", "royal burials held no treasures or importance.", "disturbing graves carried no divine consequences."] },
-          { start: "I, Eshmunazar, king of the Sidonians, son of Tabnit, was carried away before my time because",
-          "correct": "I was an orphan, the son of a widow, cut off in the fourteenth year of my reign; I lie in this coffin and tomb which I myself built.",
-            "wrong": ["I lived a long and prosperous life.", "my death had no connection to divine will.", "I left no record of my early death."] },
-          { start: "We built temples and shrines for the gods of Sidon because",
-          "correct": "we raised up the house of Baal of Sidon, the house of Astarte in Sidon (the land by the sea), and the holy sanctuary of Eshmun at the spring Ydll on the mountain, so the gods would dwell among us.",
-            "wrong": ["we only built defensive walls and harbors.", "temple construction was done without my mother’s involvement.", "the gods had no interest in new sanctuaries."] },
-          { start: "The Lord of Kings (the Persian king) granted me Dor and Joppa and the rich lands of the Sharon because",
-          "correct": "I performed mighty deeds for him; these territories were added to the borders of Sidon forever so that the gods would be honored and my name remembered.",
-            "wrong": ["Sidon remained small and had no territorial expansion.", "the Persian king gave me nothing.", "these lands were taken by force rather than granted."] },
-          { start: "Whoever opens this resting-place or carries me away from this coffin, may",
-          "correct": "the sacred gods deliver them to destruction; may they have no resting-place among the shades (Rephaim), no burial in a grave, and no son or offspring to succeed them.",
-            "wrong": ["disturbing the tomb brought only minor punishment.", "curses were only symbolic with no real power.", "the inscription contained no warning against grave robbers."] }
+          {
+            start: "I, Eshmunazar, king of the Sidonians, and my mother Amoashtart built temples for the gods because we constructed the house of Baal of Sidon, the house of Astarte, the sanctuary of Eshmun, and other shrines so that the gods would",
+            "correct": "bless our city.",
+            "wrong": ["ignore our city.", "punish our city.", "abandon our city."]
+          },
+          {
+            start: "Whoever you are, king or common man, do not open this sarcophagus because may the gods curse anyone who disturbs my resting place; I built these temples and extended Sidon's territory, and my deeds should",
+            "correct": "be respected after death.",
+            "wrong": ["be forgotten forever.", "be despised forever.", "bring no honor."]
+          },
+          {
+            start: "I, Eshmunazar, king of the Sidonians, son of Tabnit, was carried away before my time because I was an orphan, the son of a widow, cut off in the fourteenth year of my reign; I lie in this coffin and tomb which",
+            "correct": "I myself built.",
+            "wrong": ["the gods built.", "my enemies built.", "my mother built."]
+          },
+          {
+            start: "We built temples and shrines for the gods of Sidon because we raised up the house of Baal of Sidon, the house of Astarte in Sidon (the land by the sea), so the gods would",
+            "correct": "dwell among us.",
+            "wrong": ["flee from us.", "reject us.", "curse us."]
+          },
+          {
+            start: "The Lord of Kings (the Persian king) granted me Dor and Joppa and the rich lands of the Sharon because I performed mighty deeds for him; these territories were added to the borders of Sidon forever so that the gods would be honored and",
+            "correct": "my name remembered.",
+            "wrong": ["my name erased.", "my deeds forgotten.", "my rule ended."]
+          },
+          {
+            start: "Whoever opens this resting-place or carries me away from this coffin, may the sacred gods deliver them to destruction; may they have no resting-place among the shades (Rephaim), no burial in a grave, and no son or",
+            "correct": "offspring to succeed them.",
+            "wrong": ["many heirs forever.", "great prosperity.", "eternal blessings."]
+          }
         ]
       },
       {
         name: "Maritime Leaders & Navigators",
         emoji: "🚢",
         quotes: [
-          { start: "Our ships sailed beyond the Pillars of Hercules to distant lands because",
-          "correct": "skilled navigation, knowledge of currents and stars, and sturdy vessels allowed us to reach Britain for tin, Africa for resources, and establish colonies across the Mediterranean.",
-            "wrong": ["we feared sailing far from home.", "trade routes required no planning or experience.", "our ships were weak and unsuitable for long voyages."] },
-          { start: "The Phoenician sailors were renowned because",
-          "correct": "we were the first to 'plough the sea' regularly, using advanced shipbuilding and celestial navigation to dominate Mediterranean trade for centuries.",
-            "wrong": ["other nations were better seafarers.", "we relied only on coastal hugging.", "navigation had no connection to our prosperity."] }
+          {
+            start: "Our ships sailed beyond the Pillars of Hercules to distant lands because skilled navigation, knowledge of currents and stars, and sturdy vessels allowed us to reach Britain for tin, Africa for resources, and establish colonies across",
+            "correct": "the Mediterranean.",
+            "wrong": ["inland deserts.", "Assyrian control.", "Egyptian rivers."]
+          },
+          {
+            start: "The Phoenician sailors were renowned because we were the first to 'plough the sea' regularly, using advanced shipbuilding and celestial navigation to dominate",
+            "correct": "Mediterranean trade for centuries.",
+            "wrong": ["land caravans.", "royal tribute.", "temple rituals."]
+          }
         ]
       },
       {
         name: "Merchants & Traders",
         emoji: "💰",
         quotes: [
-          { start: "Our wealth came from trading purple dye, cedar, glass, and metals because",
-          "correct": "we established fair networks across the Mediterranean, exchanging goods honestly while building trust that turned distant ports into reliable partners.",
-            "wrong": ["trade relied on force and conquest.", "honesty had no value in commerce.", "wealth came only from local resources."] },
-          { start: "A merchant's reputation is his greatest asset because",
-          "correct": "trust built over generations allowed us to trade safely in foreign lands; reliable dealings brought more profit than short-term deception.",
-            "wrong": ["deceit was the best trading strategy.", "reputation mattered less than armed protection.", "merchants operated without any code of conduct."] }
+          {
+            start: "Our wealth came from trading purple dye, cedar, glass, and metals because we established fair networks across the Mediterranean, exchanging goods honestly while building trust that turned distant ports into",
+            "correct": "reliable partners.",
+            "wrong": ["conquered subjects.", "tribute payers.", "hostile rivals."]
+          },
+          {
+            start: "A merchant's reputation is his greatest asset because trust built over generations allowed us to trade safely in foreign lands; reliable dealings brought more profit than",
+            "correct": "short-term deception.",
+            "wrong": ["clever tricks.", "forceful raids.", "royal favors."]
+          }
         ]
       },
       {
         name: "Scribes & Alphabet Innovators",
         emoji: "📜",
         quotes: [
-          { start: "We developed a simple alphabetic script of 22 letters because",
-          "correct": "it made writing accessible for trade records, contracts, and administration; this system spread widely and influenced Greek, Latin, and many modern alphabets.",
-            "wrong": ["the alphabet was invented by others and we only copied it.", "complex syllabic scripts were better for commerce.", "writing served no practical purpose beyond royal monuments."] },
-          { start: "Knowledge preserved in writing endures longer than",
-          "correct": "stone monuments or gold; our alphabet allowed merchants, scribes, and future generations to record agreements, stories, and learning efficiently.",
-            "wrong": ["oral tradition was always superior.", "the alphabet had no impact beyond Phoenicia.", "scribes held little importance in our society."] }
+          {
+            start: "We developed a simple alphabetic script of 22 letters because it made writing accessible for trade records, contracts, and administration; this system spread widely and influenced Greek, Latin, and",
+            "correct": "many modern alphabets.",
+            "wrong": ["cuneiform tablets.", "Egyptian hieroglyphs.", "royal decrees only."]
+          },
+          {
+            start: "Knowledge preserved in writing endures longer than stone monuments or gold; our alphabet allowed merchants, scribes, and future generations to record agreements, stories, and",
+            "correct": "learning efficiently.",
+            "wrong": ["secret rituals.", "priestly power.", "elite knowledge."]
+          }
         ]
       },
       {
         name: "Kings & City Builders",
         emoji: "🏰",
         quotes: [
-          { start: "The kings of Tyre and Sidon strengthened our cities because",
-          "correct": "we built harbors, temples, and defensive walls while fostering trade and alliances that turned small coastal towns into powerful independent centers.",
-            "wrong": ["military conquest defined our power.", "cities thrived without strong leadership or infrastructure.", "alliances with foreign kings weakened us."] }
+          {
+            start: "The kings of Tyre and Sidon strengthened our cities because we built harbors, temples, and defensive walls while fostering trade and alliances that turned small coastal towns into",
+            "correct": "powerful independent centers.",
+            "wrong": ["vassals of Egypt.", "Assyrian provinces.", "Hittite satellites."]
+          }
         ]
       }
     ]
@@ -4823,141 +4997,207 @@ export const CIVILIZATIONS = [
         name: "Hattusili I (Early Conqueror & Lawgiver)",
         emoji: "👑",
         quotes: [
-          { start: "I, Hattusili, Great King, have conquered many lands with my army because",
-          "correct": "a king must be both a warrior and a wise ruler; I appointed my grandson Mursili as successor and warned the nobles against internal strife so the kingdom would endure.",
-            "wrong": ["only military conquest mattered.", "family succession had no importance.", "the gods played no role in kingship."] },
-          { start: "When appointing my successor I declared that",
-          "correct": "the king must speak with one tongue and the land must be united; internal division and betrayal by princes would bring ruin to Hatti.",
-            "wrong": ["princes could freely compete for power.", "military strength alone guaranteed stability.", "the king had absolute power with no need for warnings."] },
-          { start: "I, the Great King, Tabarna Hattusili, spoke to you saying 'Let the young Labarna sit securely upon the throne' but he showed himself",
-          "correct": "a youth not fit to be seen — without compassion, cold, pitiless, heedless of the word of the king — so I rejected him and declared he is no longer my son.",
-            "wrong": ["a king could never change his chosen heir.", "personal character had no bearing on fitness to rule.", "family betrayal never occurred in the royal house."] },
-          { start: "Now Mursili is my son; him you must acknowledge and enthrone because",
-          "correct": "he is still a child, but you nobles must guide and protect him; read my words to him every month so he learns how to rule wisely and keep the land united.",
-            "wrong": ["the assembly had no role in supporting the young king.", "a child successor needed no special guidance.", "my instructions were only for immediate obedience."] },
-          { start: "Let no one in the future raise the son of his sister to kingship because",
-          "correct": "such appointments have led to rebellion and division; the king must speak with one tongue, the nobles must obey, and the land of Hatti must remain united under one ruler.",
-            "wrong": ["matrilineal claims were always valid.", "internal family strife strengthened the kingdom.", "the king had no right to warn against future betrayals."] },
-          { start: "I have conquered many lands but now, being ill, I warn you that",
-          "correct": "if you do not keep my words and support my chosen successor, the kingdom will fall into chaos; only unity, loyalty, and obedience to the king's will can preserve Hatti.",
-            "wrong": ["military conquests guaranteed the kingdom's future.", "the nobles could freely choose their own ruler.", "my illness had no bearing on state matters."] }
+          {
+            start: "I, Hattusili, Great King, have conquered many lands with my army because a king must be both a warrior and a wise ruler; I appointed my grandson Mursili as successor and warned the nobles against internal strife so",
+            "correct": "the kingdom would endure.",
+            "wrong": ["nobles gain power.", "princes rebel freely.", "division strengthens us."]
+          },
+          {
+            start: "When appointing my successor I declared that the king must speak with one tongue and the land must be united; internal division and betrayal by princes would bring",
+            "correct": "ruin to Hatti.",
+            "wrong": ["great strength.", "prosperity forever.", "royal glory."]
+          },
+          {
+            start: "I, the Great King, Tabarna Hattusili, spoke to you saying 'Let the young Labarna sit securely upon the throne' but he showed himself a youth not fit to be seen so I rejected him and declared he is",
+            "correct": "no longer my son.",
+            "wrong": ["still my heir.", "the true king.", "beloved by all."]
+          },
+          {
+            start: "Now Mursili is my son; him you must acknowledge and enthrone because he is still a child, but you nobles must guide and protect him; read my words to him every month so he learns how to rule wisely and",
+            "correct": "keep the land united.",
+            "wrong": ["allow rebellion.", "divide the realm.", "favor the nobles."]
+          },
+          {
+            start: "Let no one in the future raise the son of his sister to kingship because such appointments have led to rebellion and division; the king must speak with one tongue, the nobles must obey, and the land of Hatti must",
+            "correct": "remain united under one ruler.",
+            "wrong": ["split among princes.", "favor family branches.", "encourage revolts."]
+          },
+          {
+            start: "I have conquered many lands but now, being ill, I warn you that if you do not keep my words and support my chosen successor, the kingdom will fall into chaos; only unity, loyalty, and obedience to the king's will can",
+            "correct": "preserve Hatti.",
+            "wrong": ["weaken the throne.", "bring civil war.", "destroy the kingdom."]
+          }
         ]
       },
       {
         name: "Suppiluliuma I (Empire Builder)",
         emoji: "⚔️",
         quotes: [
-          { start: "I, Suppiluliuma, Great King, Hero, Beloved of the Storm God, crossed the Euphrates and conquered because",
-          "correct": "the gods granted me victory; I restored the weakened kingdom, expanded into Syria, and made vassal kings swear binding oaths of loyalty.",
-            "wrong": ["military force alone sufficed without divine favor.", "diplomacy was unnecessary.", "vassals owed no formal obligations."] },
-          { start: "In my treaty with Shattiwaza of Mitanni I declared that",
-          "correct": "the daughter of the King of Hatti shall be queen in Mitanni; treaties sealed with oaths before the gods create lasting alliances stronger than raw conquest.",
-            "wrong": ["conquered lands needed no formal treaties.", "the gods had no role in international agreements.", "vassal kings could be treated arbitrarily."] },
-          { start: "When I, My Majesty Suppiluliuma, reached the land of Alše and the district of Kutmar, I overpowered the enemy because",
-          "correct": "the Storm God went before me; I plundered the lands west of the Euphrates and annexed Mount Lebanon, restoring Hittite power in Syria through military strength and divine support.",
-            "wrong": ["the campaign was purely defensive with no expansion.", "the gods played no part in the victories.", "I avoided crossing the Euphrates."] },
-          { start: "When Tushratta, king of Mitanni, acted presumptuously toward me a second time, I responded because",
-          "correct": "a Great King cannot tolerate insolence; I defeated his forces, installed Shattiwaza as my vassal, and secured Mitanni through marriage and a binding treaty.",
-            "wrong": ["I immediately destroyed Mitanni completely.", "diplomatic marriage had no strategic value.", "I ignored Mitanni's provocations."] },
-          { start: "In my letter to the king of Egypt I wrote that",
-          "correct": "your father and I were brothers and desired friendship; whatever he asked I granted, and whatever I asked he granted — let us now continue in peace and mutual help.",
-            "wrong": ["I demanded only military alliance with Egypt.", "previous friendly relations meant nothing.", "I refused all diplomatic contact with Egypt."] },
-          { start: "When the Egyptian queen wrote asking for one of my sons to become her husband and king of Egypt, I first sent a chamberlain to investigate because",
-          "correct": "a Great King must act with caution in such extraordinary matters; after confirmation, I agreed, seeking to extend Hittite influence through dynastic marriage.",
-            "wrong": ["I immediately sent a son without verification.", "the offer had no political value.", "I rejected the proposal outright."] },
-          { start: "I, Suppiluliuma, Great King, Hero, made Shattiwaza king in Mitanni and gave him my daughter in marriage because",
-          "correct": "a wise ruler turns former enemies into loyal vassals through marriage alliances and solemn treaties sworn before many gods, ensuring long-term stability.",
-            "wrong": ["I relied solely on military occupation.", "vassal kings needed no marriage ties.", "the gods were not invoked as witnesses in treaties."] }
+          {
+            start: "I, Suppiluliuma, Great King, Hero, Beloved of the Storm God, crossed the Euphrates and conquered because the gods granted me victory; I restored the weakened kingdom, expanded into Syria, and made vassal kings",
+            "correct": "swear binding oaths of loyalty.",
+            "wrong": ["pay heavy tribute.", "fight as slaves.", "beg for mercy."]
+          },
+          {
+            start: "In my treaty with Shattiwaza of Mitanni I declared that the daughter of the King of Hatti shall be queen in Mitanni; treaties sealed with oaths before the gods create lasting alliances stronger than",
+            "correct": "raw conquest.",
+            "wrong": ["military force.", "pure violence.", "endless war."]
+          },
+          {
+            start: "When I, My Majesty Suppiluliuma, reached the land of Alše and the district of Kutmar, I overpowered the enemy because the Storm God went before me; I plundered the lands west of the Euphrates and annexed",
+            "correct": "Mount Lebanon.",
+            "wrong": ["all of Egypt.", "the Hittite heartland.", "Mitanni forever."]
+          },
+          {
+            start: "When Tushratta, king of Mitanni, acted presumptuously toward me a second time, I responded because a Great King cannot tolerate insolence; I defeated his forces, installed Shattiwaza as my vassal, and secured Mitanni through",
+            "correct": "marriage and a binding treaty.",
+            "wrong": ["total destruction.", "mass executions.", "brutal revenge."]
+          },
+          {
+            start: "In my letter to the king of Egypt I wrote that your father and I were brothers and desired friendship; whatever he asked I granted, and whatever I asked he granted  — let us now continue in peace and",
+            "correct": "mutual help.",
+            "wrong": ["open hostility.", "constant raids.", "total war."]
+          },
+          {
+            start: "When the Egyptian queen wrote asking for one of my sons to become her husband and king of Egypt, I first sent a chamberlain to investigate because a Great King must act with",
+            "correct": "caution.",
+            "wrong": ["blind trust.", "reckless haste.", "foolish greed."]
+          },
+          {
+            start: "I, Suppiluliuma, Great King, Hero, made Shattiwaza king in Mitanni and gave him my daughter in marriage because a wise ruler turns former enemies into loyal vassals through marriage alliances and solemn treaties sworn before many gods,",
+            "correct": "ensuring long-term stability.",
+            "wrong": ["gaining quick glory.", "weakening the empire.", "pleasing the nobles."]
+          }
         ]
       },
       {
         name: "Mursili II (Annalist & Plague-Stricken King)",
         emoji: "📜",
         quotes: [
-          { start: "When I, Mursili, ascended the throne, the enemy lands said 'His father was a mighty king but now a child sits on the throne' because",
-          "correct": "I first restored the neglected festivals of the Sun-goddess of Arinna and prayed for her support; with divine aid I conquered the surrounding enemies within ten years.",
-            "wrong": ["military campaigns required no religious preparation.", "the gods ignored the king's prayers.", "a young king could rely only on armies."] },
-          { start: "For twenty years the plague has raged in Hatti; I have prayed to the Storm-god and the Assembly of Gods because",
-          "correct": "the plague was divine punishment for sins such as the murder of Tudhaliya the Younger and breaking oaths; only confession, restitution, and proper worship can remove it.",
-            "wrong": ["the plague had purely natural causes.", "prayers and oracles had no effect.", "the king bore no responsibility for national disasters."] },
-          { start: "In my annals I recorded that the gods went before me in battle because",
-          "correct": "true victory comes from divine support combined with careful planning and loyal troops; I detailed every campaign so future kings would learn from my deeds.",
-            "wrong": ["victory depended only on numbers and courage.", "record-keeping served no practical purpose.", "the gods played no role in warfare."] },
-          { start: "O Sun-goddess of Arinna, my lady, the surrounding enemy lands keep calling me a child and belittling me because",
-          "correct": "they seek to take your territories from me; come stand by my side, smite those enemy lands before me, and show that the gods support even a young king who honors you.",
-            "wrong": ["the enemies respected my youth.", "I relied solely on my own strength without divine help.", "the Sun-goddess had no interest in territorial defense."] },
-          { start: "O Storm-god of Hatti, my lord, and all the gods, my lords, what is this that you have done because",
-          "correct": "you have allowed the plague to rage in Hatti for twenty years; under my father, my brother, and now under me, people keep dying — will the plague never be eliminated from the land?",
-            "wrong": ["the plague lasted only a short time.", "I blamed the gods without taking any responsibility.", "the gods were not concerned with the suffering in Hatti."] },
-          { start: "I, Mursili, your servant, confess the sins of my father Suppiluliuma because",
-          "correct": "he broke the oath with Egypt by attacking the land of Amka while Egyptian prisoners brought the plague; I have made restitution and now beg you, gods, to be pacified and remove this evil from Hatti.",
-            "wrong": ["my father committed no sins that affected the kingdom.", "confession had no power to influence the gods.", "the plague was unrelated to any broken oaths."] },
-          { start: "In the land of Hatti I have searched for the cause of the plague through oracles because",
-          "correct": "the gods demand that we discover and correct past offenses; only when the sin is identified, confessed, and atoned for can the land be freed from divine wrath.",
-            "wrong": ["oracles were useless for understanding disasters.", "the king had no duty to investigate national calamities.", "atonement played no role in Hittite religion."] }
+          {
+            start: "When I, Mursili, ascended the throne, the enemy lands said 'His father was a mighty king but now a child sits on the throne' because I first restored the neglected festivals of the Sun-goddess of Arinna and",
+            "correct": "prayed for her support.",
+            "wrong": ["ignored the gods.", "neglected the cults.", "trusted only armies."]
+          },
+          {
+            start: "For twenty years the plague has raged in Hatti; I have prayed to the Storm-god and the Assembly of Gods because the plague was divine punishment for sins such as the murder of Tudhaliya the Younger and",
+            "correct": " breaking oaths.",
+            "wrong": ["foreign invasion.", "weak leadership.", "royal neglect."]
+          },
+          {
+            start: "In my annals I recorded that the gods went before me in battle because true victory comes from divine support combined with careful planning and loyal troops; I detailed every campaign so future kings would",
+            "correct": "learn from my deeds.",
+            "wrong": ["forget the past.", "ignore my example.", "copy the enemy."]
+          },
+          {
+            start: "O Sun-goddess of Arinna, my lady, come stand by my side, smite those enemy lands before me, and show that the gods support even a young king who",
+            "correct": "honors you.",
+            "wrong": ["neglects you.", "doubts you.", "fears you."]
+          },
+          {
+            start: "O Storm-god of Hatti, my lord, and all the gods, my lords, what is this that you have done because you have allowed the plague to rage in Hatti for twenty years; under my father, my brother, and now under me, people keep dying —",
+            "correct": "will the plague never be eliminated from the land?",
+            "wrong": ["was caused by me?", "pleases the gods?", "brings great glory?"]
+          },
+          {
+            start: "I, Mursili, your servant, confess the sins of my father Suppiluliuma because he broke the oath with Egypt by attacking the land of Amka while Egyptian prisoners brought the plague; I have made restitution and now beg you, gods, to be pacified and",
+            "correct": "remove this evil from Hatti.",
+            "wrong": ["punish us more.", "send more death.", "ignore our pleas."]
+          },
+          {
+            start: "In the land of Hatti I have searched for the cause of the plague through oracles because the gods demand that we discover and correct past offenses; only when the sin is identified, confessed, and atoned for can the land be",
+            "correct": "freed from divine wrath.",
+            "wrong": ["ruined forever.", "left to suffer.", "given to enemies."]
+          }
         ]
       },
       {
         name: "Hattusili III (Usurper & Diplomat)",
         emoji: "🕯️",
         quotes: [
-          { start: "I, Hattusili, was a sickly child but the goddess Ishtar took me by the hand and made me Great King because",
-          "correct": "divine favor and legitimate grievances against my nephew Urhi-Teshub justified my actions; I defended my rule in the Apology and sought peace with Egypt.",
-            "wrong": ["usurpation required no justification.", "personal piety had no political value.", "military power alone secured the throne."] },
-          { start: "In the Eternal Treaty with Ramesses II of Egypt we both swore that",
-          "correct": "we would remain at peace forever, assist each other against enemies, and respect the borders; diplomacy and mutual oaths before the gods prevent endless war.",
-            "wrong": ["treaties were merely temporary truces.", "the gods were not invoked in international agreements.", "conquest was always preferable to negotiation."] },
-          { start: "I, Hattusili, the youngest son of Mursili, was a frail child but the goddess Šaušga of Šamuha requested me from my father because",
-          "correct": "she took me under her protection from childhood; thanks to her favor my health improved, I gained recognition, and she guided me to kingship.",
-            "wrong": ["my illness had no religious significance.", "the goddess played no role in my rise.", "I became king solely through military conquest."] },
-          { start: "When my brother Muwatalli died and his son Urhi-Teshub became king, I served him loyally but he stripped me of my offices because",
-          "correct": "he treated me unjustly; the goddess Šaušga appeared to me in dreams and supported my cause, so I rose against him only when he left me no choice.",
-            "wrong": ["I rebelled immediately out of ambition.", "the goddess never intervened in royal disputes.", "Urhi-Teshub ruled without any conflict."] },
-          { start: "I did not take Puduhepa in marriage out of passion but because",
-          "correct": "the goddess commanded it in a dream; she assigned Puduhepa to me, and together we served the goddess and strengthened the kingdom.",
-            "wrong": ["my marriage was purely political with no divine element.", "Puduhepa had no religious or political importance.", "I ignored the goddess’s will in personal matters."] },
-          { start: "In the treaty with Ramesses, Great King of Egypt, my brother, we established that",
-          "correct": "from this day forward there shall be good peace and good brotherhood between us forever; if an enemy comes against one of us, the other shall send troops and chariots to help.",
-            "wrong": ["the treaty only ended immediate hostilities.", "mutual defense was not part of the agreement.", "the gods were not called as witnesses."] },
-          { start: "We swore before the thousand gods of Hatti and the thousand gods of Egypt because",
-          "correct": "oaths sworn in the presence of the gods, the mountains, rivers, sky, earth, and sea make the treaty binding for eternity; whoever breaks it shall be destroyed by the gods.",
-            "wrong": ["the treaty relied only on military enforcement.", "invoking gods was merely ceremonial.", "breaking the treaty carried no divine consequences."] }
+          {
+            start: "I, Hattusili, was a sickly child but the goddess Ishtar took me by the hand and made me Great King because divine favor and legitimate grievances against my nephew Urhi-Teshub justified my actions; I defended my rule in the Apology and",
+            "correct": "sought peace with Egypt.",
+            "wrong": ["continued the war.", "crushed Egypt.", "ignored diplomacy."]
+          },
+          {
+            start: "In the Eternal Treaty with Ramesses II of Egypt we both swore that we would remain at peace forever, assist each other against enemies, and respect the borders; diplomacy and mutual oaths before the gods",
+            "correct": "prevent endless war.",
+            "wrong": ["invite divine wrath.", "weaken the empire.", "betray the gods."]
+          },
+          {
+            start: "I, Hattusili, the youngest son of Mursili, was a frail child but the goddess Šaušga of Šamuha requested me from my father because she took me under her protection from childhood; thanks to her favor my health improved and she",
+            "correct": "guided me to kingship.",
+            "wrong": ["abandoned me.", "cursed my rule.", "favored Urhi-Teshub."]
+          },
+          {
+            start: "After my brother Muwatalli died and his son Urhi-Teshub became king, I served him loyally, but he treated me unjustly and removed my offices. With the support of the goddess Šaušga, I rose against him only when I had",
+            "correct": "no other choice.",
+            "wrong": ["personal ambition.", "thirst for power.", "royal greed."]
+          },
+          {
+            start: "I did not take Puduhepa in marriage out of passion but because the goddess commanded it in a dream; she assigned Puduhepa to me, and together we served the goddess and",
+            "correct": "strengthened the kingdom.",
+            "wrong": ["gained wealth.", "pleased the court.", "secured allies."]
+          },
+          {
+            start: "In the treaty with Ramesses, Great King of Egypt, my brother, we established that from this day forward there shall be good peace and good brotherhood between us forever; if an enemy comes against one of us, the other shall send troops and",
+            "correct": "chariots to help.",
+            "wrong": ["refuse support.", "attack instead.", "stay neutral."]
+          },
+          {
+            start: "We swore before the thousand gods of Hatti and the thousand gods of Egypt because oaths sworn in the presence of the gods, the mountains, rivers, sky, earth, and sea make the treaty binding for eternity; whoever breaks it shall",
+            "correct": "be destroyed by the gods.",
+            "wrong": ["gain great power.", "receive blessings.", "rule forever."]
+          }
         ]
       },
       {
         name: "Hittite Laws & Justice",
         emoji: "⚖️",
         quotes: [
-          { start: "The laws of Hatti state that if anyone kills a man or woman in a quarrel, he shall",
-          "correct": "bring the body for burial and give four persons (heads) in compensation; justice requires restitution rather than simple vengeance.",
-            "wrong": ["the killer must always be executed.", "no compensation was required for homicide.", "social status made no difference in penalties."] },
-          { start: "If anyone blinds a free person or knocks out his tooth, he shall pay",
-          "correct": "twenty shekels of silver (reduced from earlier amounts); the laws show a preference for compensation and mercy over harsh physical punishment.",
-            "wrong": ["physical mutilation was the standard penalty.", "slaves and free people received identical treatment.", "the king had no role in modifying laws."] }
+          {
+            start: "The laws of Hatti state that if anyone kills a man or woman in a quarrel, he shall bring the body for burial and give four persons (heads) in compensation; justice requires restitution rather than",
+            "correct": "simple vengeance.",
+            "wrong": ["royal mercy.", "total forgiveness.", "blood revenge."]
+          },
+          {
+            start: "If anyone blinds a free person or knocks out his tooth, he shall pay twenty shekels of silver (reduced from earlier amounts); the laws show a preference for compensation and mercy over",
+            "correct": "harsh physical punishment.",
+            "wrong": ["monetary fines.", "lenient settlements.", "full restitution."]
+          }
         ]
       },
       {
         name: "Generals & Military Organization",
         emoji: "⚔️",
         quotes: [
-          { start: "In the campaigns of Suppiluliuma and Mursili, the Hittite army succeeded because",
-          "correct": "it combined disciplined infantry, chariot forces, careful logistics, and coordination with vassal troops under royal command.",
-            "wrong": ["individual warrior bravery was sufficient.", "no strategic planning was needed.", "allies could not be trusted in battle."] },
-          { start: "When marching against rebellious vassals or northern enemies like the Kaska, commanders understood that",
-          "correct": "swift decisive action combined with offers of mercy to those who submitted maintained long-term control over a vast and diverse empire.",
-            "wrong": ["total destruction was always required.", "military force alone created loyalty.", "the empire had no need for vassal systems."] }
+          {
+            start: "In the campaigns of Suppiluliuma and Mursili, the Hittite army succeeded because it combined disciplined infantry, chariot forces, careful logistics, and coordination with vassal troops under",
+            "correct": "royal command.",
+            "wrong": ["vassal councils.", "priestly orders.", "local chiefs."]
+          },
+          {
+            start: "When marching against rebellious vassals or northern enemies like the Kaska, commanders understood that swift decisive action combined with offers of mercy to those who submitted maintained long-term control over a vast and",
+            "correct": "diverse empire.",
+            "wrong": ["unified kingdom.", "homogeneous realm.", "small territory."]
+          }
         ]
       },
       {
         name: "Priests, Diplomats & Religion",
         emoji: "🕯️",
         quotes: [
-          { start: "Hittite kings performed oracles, prayers, and festivals because",
-          "correct": "the gods demanded proper worship and moral order; neglecting rituals or breaking oaths brought divine punishment such as plague or military defeat.",
-            "wrong": ["religion was separate from politics and war.", "the gods never intervened in human affairs.", "only military success mattered to the gods."] },
-          { start: "In treaties and prayers we invoked many gods as witnesses because",
-          "correct": "oaths sworn before the Storm-god, Sun-goddess of Arinna, and others created binding international and internal obligations; breaking them invited divine wrath.",
-            "wrong": ["treaties relied only on military enforcement.", "the gods had no interest in human agreements.", "Hittite religion tolerated no foreign deities."] }
+          {
+            start: "Hittite kings performed oracles, prayers, and festivals because the gods demanded proper worship and moral order; neglecting rituals or breaking oaths brought divine punishment such as plague or",
+            "correct": "military defeat.",
+            "wrong": ["great prosperity.", "divine blessing.", "eternal peace."]
+          },
+          {
+            start: "In treaties and prayers we invoked many gods as witnesses because oaths sworn before the Storm-god, Sun-goddess of Arinna, and others created binding international and internal obligations;",
+            "correct": "breaking them invited divine wrath.",
+            "wrong": ["pleased the gods.", "brought good fortune.", "ensured victory."]
+          }
         ]
       }
     ]
@@ -4974,255 +5214,365 @@ export const CIVILIZATIONS = [
         name: "Charlemagne (Founder & Christian Emperor)",
         emoji: "👑",
         quotes: [
-          { start: "I, Charles, most serene Augustus, crowned by God, great and pacific emperor, issued capitularies and reformed education because",
-          "correct": "right action is better than knowledge; but in order to do what is right, we must first know what is right. Christian law, moral reform, and learning strengthen both church and empire.",
-            "wrong": ["military conquest alone maintained order.", "personal power needed no moral or educational reform.", "the church should remain separate from imperial rule."] },
-          { start: "After my coronation in Rome on Christmas Day 800, I understood the empire's purpose as",
-          "correct": "defending Christianity, protecting the weak, and uniting diverse peoples under just Christian rule as a successor to Rome and the Franks.",
-            "wrong": ["rejecting any link to ancient Rome.", "focusing only on Germanic warrior traditions.", "ignoring the role of the papacy."] },
-          { start: "I chose the most prudent and wisest men—archbishops, bishops, abbots, and pious laymen—and sent them throughout the realm as missi because",
-          "correct": "they must inquire diligently into every injustice, render justice to the churches of God, the poor, widows, orphans, and all people, and report back so that the empire lives according to law and right.",
-            "wrong": ["only military officers were needed to enforce rule.", "local counts could handle all justice without oversight.", "the empire required no central moral guidance."] },
-          { start: "I admonished the nobles and sons of leading men who neglected learning and gave themselves to luxury and idleness because",
-          "correct": "unless you make up for your idleness by eager effort in study, you will never receive benefit from me nor advance in my service. Birth and wealth alone are not enough.",
-            "wrong": ["nobles needed only military training.", "idleness strengthened loyalty to the king.", "education was unnecessary for those of high birth."] },
-          { start: "I ordered schools to be attached to every monastery and cathedral because",
-          "correct": "no difference should be made between the sons of serfs and freemen; all must study grammar, music, arithmetic, and the liberal arts so that the kingdom may shine with learning and serve God better.",
-            "wrong": ["education should be reserved only for the clergy.", "secular learning had no place in Christian rule.", "monasteries should focus solely on prayer."] },
-          { start: "In the Admonitio Generalis and other capitularies I commanded that priests must preach faithfully and that all believers should know",
-          "correct": "the Lord’s Prayer, the Creed, and the essentials of the faith, so that true Christian living and correct worship spread throughout the land.",
-            "wrong": ["faith required no teaching or understanding.", "only the elite needed religious instruction.", "conversion could be achieved by force alone."] }
+          {
+            start: "I, Charles, most serene Augustus, crowned by God, great and pacific emperor, issued capitularies and reformed education because right action is better than knowledge; but in order to do what is right, we must first know",
+            "correct": "what is right.",
+            "wrong": ["the classics.", "pagan wisdom.", "court gossip."]
+          },
+          {
+            start: "After my coronation in Rome on Christmas Day 800, I understood the empire's purpose as defending Christianity, protecting the weak, and uniting diverse peoples under just Christian rule as a successor to Rome and",
+            "correct": "the Franks.",
+            "wrong": ["the pope.", "Byzantium.", "the Saxons."]
+          },
+          {
+            start: "I chose the most prudent and wisest men—archbishops, bishops, and pious laymen—and sent them throughout the realm as missi because they must inquire diligently into every injustice and report back so that the empire lives according to",
+            "correct": "law and right.",
+            "wrong": ["royal whim.", "noble custom.", "papal decree."]
+          },
+          {
+            start: "I admonished the nobles and sons of leading men who neglected learning and gave themselves to luxury and idleness because unless you make up for your idleness by eager effort in study, you will never receive benefit from me nor",
+            "correct": "advance in my service.",
+            "wrong": ["gain lands.", "win battles.", "please the court."]
+          },
+          {
+            start: "I ordered schools to be attached to every monastery and cathedral because no difference should be made between the sons of serfs and freemen; all must study grammar, music, arithmetic, and",
+            "correct": "the liberal arts.",
+            "wrong": ["warfare only.", "hunting skills.", "feudal duties."]
+          },
+          {
+            start: "In the Admonitio Generalis and other capitularies I commanded that priests must preach faithfully and that all believers should know the Lord’s Prayer, the Creed, and",
+            "correct": "the essentials of the faith.",
+            "wrong": ["Latin poetry.", "German sagas.", "noble titles."]
+          }
         ]
       },
       {
         name: "Otto I (The Great – Reviver of the Empire)",
         emoji: "🛡️",
         quotes: [
-          { start: "After victories like Lechfeld, I prayed before the Holy Lance and revived the imperial title in 962 because",
-          "correct": "divine favor, proven in battle and shown through piety, allowed me to unite German kingship with Roman imperial dignity and control both lords and church.",
-            "wrong": ["military success required no religious legitimacy.", "the empire needed no connection to Charlemagne.", "bishops should hold power entirely independent of the emperor."] },
-          { start: "My appointment of loyal bishops and intervention in Italy showed that the emperor must",
-          "correct": "act as protector of the church while asserting authority to maintain unity across the realm.",
-            "wrong": ["leave all church matters solely to the pope.", "avoid involvement in Italian affairs.", "rule merely as first among equal princes."] },
-          { start: "When the Magyars invaded in 955, I dismounted and knelt with my army before the Holy Lance because",
-          "correct": "victory comes from God’s favor and the protection of holy relics; true kingship is proven by piety in battle and defense of Christendom against pagans.",
-            "wrong": ["prayer had no effect on military outcomes.", "the Holy Lance was merely a symbol without power.", "only brute force decided battles."] },
-          { start: "After the great victory on the Lechfeld, my troops acclaimed me because",
-          "correct": "God had granted us triumph over the enemies of Christendom; this success confirmed my right to rule and revived the imperial dignity of Charlemagne.",
-            "wrong": ["the battle had no religious significance.", "acclamation by soldiers meant nothing for legitimacy.", "the victory was purely due to numbers or luck."] },
-          { start: "I appointed loyal men from my own chapel and family as bishops because",
-          "correct": "bishops must serve both God and the realm; by investing them with spiritual and temporal authority, I created reliable administrators who strengthened royal power against rebellious dukes.",
-            "wrong": ["bishops should be chosen only by the clergy or pope.", "the church had no role in secular administration.", "appointing family members weakened the empire."] },
-          { start: "When I received the imperial crown in Rome in 962, I understood that the emperor’s duty was to",
-          "correct": "protect the church, restore order in Italy, and act as the defender of all Christendom, continuing the work begun by Charlemagne.",
-            "wrong": ["the imperial title was empty and ceremonial.", "Italy should be left to its own rulers.", "the pope held superior authority over the emperor."] }
+          {
+            start: "After victories like Lechfeld, I prayed before the Holy Lance and revived the imperial title in 962 because divine favor, proven in battle and shown through piety, allowed me to unite German kingship with Roman imperial dignity and",
+            "correct": "control both lords and church.",
+            "wrong": ["submit to the pope.", "obey the dukes.", "serve the nobles."]
+          },
+          {
+            start: "My appointment of loyal bishops and intervention in Italy showed that the emperor must act as protector of the church while asserting authority to maintain",
+            "correct": "unity across the realm.",
+            "wrong": ["papal independence.", "ducal power.", "feudal chaos."]
+          },
+          {
+            start: "When the Magyars invaded in 955, I dismounted and knelt with my army before the Holy Lance because victory comes from God’s favor and the protection of holy relics; true kingship is proven by piety in battle and defense of Christendom against",
+            "correct": "pagans.",
+            "wrong": ["Christians.", "the pope.", "internal foes."]
+          },
+          {
+            start: "After the great victory on the Lechfeld, my troops acclaimed me because God had granted us triumph over the enemies of Christendom; this success confirmed my right to rule and revived the imperial dignity of",
+            "correct": "Charlemagne.",
+            "wrong": ["the pope.", "the dukes.", "the Saxons."]
+          },
+          {
+            start: "I appointed loyal men from my own chapel and family as bishops because bishops must serve both God and the realm; by investing them with spiritual and temporal authority, I created reliable administrators who strengthened royal power against",
+            "correct": "rebellious dukes.",
+            "wrong": ["the church.", "the pope.", "papal claims."]
+          },
+          {
+            start: "When I received the imperial crown in Rome in 962, I understood that the emperor’s duty was to protect the church, restore order in Italy, and act as the defender of all Christendom, continuing the work begun by",
+            "correct": "Charlemagne.",
+            "wrong": ["the pope.", "the Byzantines.", "the Saxons."]
+          }
         ]
       },
       {
         name: "Otto III (Renovatio Imperii Romanorum)",
         emoji: "📜",
         quotes: [
-          { start: "I pursued the Renovatio Imperii Romanorum because",
-          "correct": "the empire should revive the glory and universal Christian order of ancient Rome, blending German, Roman, and Byzantine elements under divine mandate.",
-            "wrong": ["pure Germanic kingship was sufficient.", "Rome held no special symbolic importance.", "the empire should reject classical traditions."] },
-          { start: "My policies in Rome and choice of advisors demonstrated that a young emperor could",
-          "correct": "seek a universal Christian empire guided by piety, learning, and direct imperial authority over both secular and ecclesiastical spheres.",
-            "wrong": ["focus only on German territories.", "ignore the symbolic power of Rome.", "reject any renewal of imperial ideals."] },
-          { start: "I adopted the seal and bull with the inscription Renovatio Imperii Romanorum because",
-          "correct": "the empire of the Romans must be renewed in its ancient dignity and Christian splendor, with Rome as its true capital and center of a universal Christian order.",
-            "wrong": ["the old imperial title needed no renewal.", "Rome was only a symbolic city without real power.", "German traditions alone defined the empire."] },
-          { start: "I chose learned men such as Gerbert of Aurillac as my teacher and later made him Pope Sylvester II because",
-          "correct": "wisdom, classical knowledge, and piety must guide the emperor; a renewed Rome required scholars who understood both ancient learning and Christian reform.",
-            "wrong": ["advisors should come only from Saxon nobility.", "learning had no place in imperial rule.", "the pope must be chosen without imperial influence."] },
-          { start: "I built a palace on the Aventine Hill in Rome and resided there because",
-          "correct": "the emperor belongs at the ancient heart of the empire; Rome must once again be the living capital where secular and spiritual power unite in harmony.",
-            "wrong": ["the emperor should rule only from German lands.", "residing in Rome weakened German authority.", "a palace in Rome served no political purpose."] },
-          { start: "In my charters and court I emphasized that I rule as",
-          "correct": "Imperator Augustus by divine grace, continuing the work of the ancient Roman emperors and Charlemagne while creating a theocratic Christian empire guided by God.",
-            "wrong": ["the imperial title was purely ceremonial.", "Byzantine and Roman models had no relevance.", "the empire remained a purely German kingdom."] }
+          {
+            start: "I pursued the Renovatio Imperii Romanorum because the empire should revive the glory and universal Christian order of ancient Rome, blending German, Roman, and Byzantine elements under",
+            "correct": "divine mandate.",
+            "wrong": ["papal control.", "German tradition.", "feudal custom."]
+          },
+          {
+            start: "My policies in Rome and choice of advisors demonstrated that a young emperor could seek a universal Christian empire guided by piety, learning, and direct imperial authority over both secular and",
+            "correct": "ecclesiastical spheres.",
+            "wrong": ["papal spheres.", "noble spheres.", "German spheres."]
+          },
+          {
+            start: "I adopted the seal and bull with the inscription Renovatio Imperii Romanorum because the empire of the Romans must be renewed in its ancient dignity and Christian splendor, with Rome as its true capital and center of a universal",
+            "correct": "Christian order.",
+            "wrong": ["German empire.", "feudal realm.", "papal state."]
+          },
+          {
+            start: "I chose learned men such as Gerbert of Aurillac as my teacher and later made him Pope Sylvester II because wisdom, classical knowledge, and piety must guide the emperor; a renewed Rome required scholars who understood both ancient learning and",
+            "correct": "Christian reform.",
+            "wrong": ["papal power.", "German custom.", "secular rule."]
+          },
+          {
+            start: "I built a palace on the Aventine Hill in Rome and resided there because the emperor belongs at the ancient heart of the empire; Rome must once again be the living capital where secular and",
+            "correct": "spiritual power unite in harmony.",
+            "wrong": ["remain separate.", "favor the pope.", "serve the nobles."]
+          },
+          {
+            start: "In my charters and court I emphasized that I rule as Imperator Augustus by divine grace, continuing the work of the ancient Roman emperors and Charlemagne while creating a theocratic Christian empire guided by",
+            "correct": "God.",
+            "wrong": ["the pope.", "the nobles.", "German law."]
+          }
         ]
       },
       {
         name: "Henry IV & the Investiture Controversy",
         emoji: "⚔️",
         quotes: [
-          { start: "As anointed king I asserted my authority against Pope Gregory VII because",
-          "correct": "kingship is a sacred office granted directly by God, and the emperor traditionally held rights over bishop appointments to preserve order in church and state.",
-            "wrong": ["the pope alone could appoint or depose bishops.", "secular rulers had no role in spiritual affairs.", "excommunication automatically ended royal legitimacy."] },
-          { start: "My journey to Canossa in 1077 revealed that even an emperor must sometimes",
-          "correct": "humble himself before the church to restore peace and legitimacy, while defending the proper balance between royal and priestly power.",
-            "wrong": ["royal power was completely absolute with no need for compromise.", "penance had purely religious but no political meaning.", "the controversy concerned only religion with no power struggle."] },
-          { start: "Henry, king not through usurpation but through the holy ordination of God, to Hildebrand, at present not pope but false monk, I wrote because",
-          "correct": "the pope had overstepped by trying to depose anointed kings and interfere in imperial rights; only God grants and removes royal power, not the pope.",
-            "wrong": ["the pope held supreme authority over all kings.", "bishops and priests owed no loyalty to the emperor.", "I had no right to challenge papal decisions."] },
-          { start: "I declared together with our bishops that Gregory must",
-          "correct": "descend from the apostolic chair which he had usurped, because he had trodden under foot the anointed rulers of the church and brought confusion instead of order.",
-            "wrong": ["the pope could never be challenged by any king.", "lay rulers had no voice in church matters.", "my letter had no basis in tradition or law."] },
-          { start: "I, Henry, king by the grace of God, with all my bishops say to you:",
-          "correct": "descend, descend, to be damned throughout the ages — because the pope had disturbed the proper order between regnum (royal power) and sacerdotium (priestly power).",
-            "wrong": ["this was merely personal anger with no deeper meaning.", "the conflict was only about appointing bishops.", "the emperor had no divine ordination."] },
-          { start: "At Canossa in 1077, standing barefoot in the snow for three days, I performed penance because",
-          "correct": "I sought absolution from excommunication to regain legitimacy and prevent my enemies in Germany from using the pope against me, while still defending the traditional rights of the crown.",
-            "wrong": ["I fully surrendered royal authority to the pope.", "penance was unnecessary and showed weakness.", "the excommunication had no real political effect."] },
-          { start: "In my oath at Canossa I promised that",
-          "correct": "I would satisfy the grievances of the German princes and bishops according to the pope’s judgment or counsel, and guarantee safe passage and protection to Gregory if he came to Germany.",
-            "wrong": ["I renounced all claims over church appointments forever.", "the oath had no binding force.", "I made no concessions at all."] }
+          {
+            start: "As anointed king I asserted my authority against Pope Gregory VII because kingship is a sacred office granted directly by God, and the emperor traditionally held rights over bishop appointments to",
+            "correct": "preserve order in church and state.",
+            "wrong": ["obey the pope.", "please the curia.", "follow canon law."]
+          },
+          {
+            start: "My journey to Canossa in 1077 revealed that even an emperor must sometimes humble himself before the church to restore peace and legitimacy, while defending the proper balance between royal and",
+            "correct": "priestly power.",
+            "wrong": ["crush the papacy.", "ignore the church.", "assert total power."]
+          },
+          {
+            start: "Henry, king not through usurpation but through the holy ordination of God, to Hildebrand, at present not pope but false monk, I wrote because the pope had overstepped by trying to depose anointed kings and",
+            "correct": "interfere in imperial rights.",
+            "wrong": ["defend the empire.", "strengthen royal power.", "respect divine order."]
+          },
+          {
+            start: "I declared together with our bishops that Gregory must descend from the apostolic chair which he had usurped, because he had trodden under foot the anointed rulers of the church and brought confusion instead of",
+            "correct": "order.",
+            "wrong": ["freedom.", "justice.", "reform."]
+          },
+          {
+            start: "I, Henry, king by the grace of God, with all my bishops say to you: descend, descend, to be damned throughout the ages — because the pope had disturbed the proper order between regnum (royal power) and",
+            "correct": "sacerdotium (priestly power).",
+            "wrong": ["imperial supremacy.", "royal dominance.", "secular control."]
+          },
+          {
+            start: "At Canossa in 1077, standing barefoot in the snow for three days, I performed penance because I sought absolution from excommunication to regain legitimacy and prevent my enemies in Germany from",
+            "correct": "using the pope against me.",
+            "wrong": ["supporting my rule.", "obeying my commands.", "losing influence."]
+          },
+          {
+            start: "In my oath at Canossa I promised that I would satisfy the grievances of the German princes and bishops according to the pope’s judgment or counsel, and guarantee safe passage and",
+            "correct": "protection to Gregory if he came to Germany.",
+            "wrong": ["imprisonment for Gregory.", "revenge on the pope.", "military escort only."]
+          }
         ]
       },
       {
         name: "Frederick I Barbarossa (Hohenstaufen Restorer)",
         emoji: "🛡️",
         quotes: [
-          { start: "The kingdom and empire are ours by the election of the princes and by God alone, therefore",
-          "correct": "imperial authority derives directly from God and the princes, not as a fief from the pope, enabling recovery of regalian rights and restoration of peace and Roman law.",
-            "wrong": ["the pope held superior temporal authority over the emperor.", "election by princes had no divine foundation.", "Italian cities owed no duties to the emperor."] },
-          { start: "I sought to recover rights and enforce peace because",
-          "correct": "strong central authority, supported by feudal bonds and Roman law, was essential to limit powerful princes and rebellious communes.",
-            "wrong": ["decentralized princely power strengthened the empire.", "Roman law was irrelevant in German lands.", "feudal oaths could be freely ignored."] },
-          { start: "An emperor is subject to no one but",
-          "correct": "God and justice; therefore I will restore the ancient rights and dignities of the empire, using Roman law as the foundation for just rule across all territories.",
-            "wrong": ["the pope and the church alone.", "the princes and their private interests.", "military force without regard for law."] },
-          { start: "At the Diet of Roncaglia in 1158, with the advice of learned doctors of Roman law, I decreed that",
-          "correct": "all regalian rights — tolls, mints, markets, judicial authority, and other imperial prerogatives — belong to the emperor alone and have been unjustly usurped by cities and lords.",
-            "wrong": ["the communes could freely keep all local rights.", "Roman law had no application in the empire.", "regalian rights were unimportant for imperial power."] },
-          { start: "I issued the Land Peace because",
-          "correct": "by the divine mercy that raised me to the throne, I must preserve divine and human laws, protect churches and the weak, and punish violence so that peace may reign throughout the realm.",
-            "wrong": ["private feuds and wars strengthened noble power.", "enforcing peace was unnecessary for the empire.", "only military campaigns mattered."] },
-          { start: "When dealing with rebellious cities like Milan and the Lombard communes, I understood that the emperor must",
-          "correct": "assert the majesty of the empire and restore order through law and, when necessary, force, so that the ancient dignity of Rome and the unity of the realm could be revived.",
-            "wrong": ["cities should enjoy complete independence.", "compromise with communes weakened the emperor.", "Roman imperial traditions had no relevance anymore."] },
-          { start: "In my conflicts with the papacy I maintained that",
-          "correct": "the empire receives its authority from God through the election of the princes, not as a benefice or fief from the pope; both regnum and sacerdotium must honor their proper spheres.",
-            "wrong": ["the pope held ultimate authority over the emperor.", "the church and state should have no separation of powers.", "imperial rights in Italy were irrelevant."] }
+          {
+            start: "The kingdom and empire are ours by the election of the princes and by God alone, therefore imperial authority derives directly from God and the princes, not as a fief from the pope, enabling recovery of regalian rights and",
+            "correct": "restoration of peace and Roman law.",
+            "wrong": ["papal supremacy.", "church approval.", "feudal submission."]
+          },
+          {
+            start: "I sought to recover rights and enforce peace because strong central authority, supported by feudal bonds and Roman law, was essential to limit powerful princes and",
+            "correct": "rebellious communes.",
+            "wrong": ["loyal vassals.", "papal legates.", "imperial allies."]
+          },
+          {
+            start: "An emperor is subject to no one but God and justice; therefore I will restore the ancient rights and dignities of the empire, using Roman law as",
+            "correct": "the foundation for just rule across all territories.",
+            "wrong": ["a papal gift.", "church tradition.", "temporary measure."]
+          },
+          {
+            start: "At the Diet of Roncaglia in 1158, with the advice of learned doctors of Roman law, I decreed that all regalian rights — tolls, mints, markets, judicial authority, and other imperial prerogatives — belong to the",
+            "correct": "emperor alone.",
+            "wrong": ["pope alone.", "cities freely.", "princes jointly."]
+          },
+          {
+            start: "I issued the Land Peace because by the divine mercy that raised me to the throne, I must preserve divine and human laws, protect churches and the weak, and punish violence so that",
+            "correct": "peace may reign throughout the realm.",
+            "wrong": ["papal power grows.", "princes stay weak.", "communes dominate."]
+          },
+          {
+            start: "When dealing with rebellious cities like Milan and the Lombard communes, I understood that the emperor must assert the majesty of the empire and restore order through law and, when necessary, force, so that",
+            "correct": "the ancient dignity of Rome could be revived.",
+            "wrong": ["papal authority prevails.", "cities remain free.", "princes gain power."]
+          },
+          {
+            start: "In my conflicts with the papacy I maintained that the empire receives its authority from God through the election of the",
+            "correct": "princes.",
+            "wrong": ["pope.", "people.", "clergy."]
+          }
         ]
       },
       {
         name: "Frederick II (Stupor Mundi – Lawgiver)",
         emoji: "📖",
         quotes: [
-          { start: "In the Constitutions of Melfi (1231) I established that the emperor is",
-          "correct": "the living law upon earth, deriving authority directly from God, with the imperial office as the sole source of temporal justice and centralized administration.",
-            "wrong": ["feudal nobles should retain full independent power.", "Roman law had no place in imperial rule.", "the king/emperor held no superior legislative authority."] },
-          { start: "My rule in Sicily and the empire showed that effective governance required",
-          "correct": "a hierarchical administrative system, trained lay officials, and strong royal control to replace clerical officialdom and curb noble autonomy.",
-            "wrong": ["traditional feudal fragmentation was preferable.", "the emperor should avoid centralizing power.", "knowledge and law held no strategic value."] },
-          { start: "We, whom divine providence elevated beyond human hope to the pinnacle of the Roman Empire, have promulgated these laws because",
-          "correct": "the emperor, as God’s vicar on earth, must provide for the common welfare, restrain the powerful, protect the weak, and ensure justice flows from the throne alone.",
-            "wrong": ["the emperor ruled only for personal glory.", "feudal lords could administer justice independently.", "divine providence had no bearing on lawmaking."] },
-          { start: "In the Kingdom of Sicily I decreed that no one may bear arms without royal license and that all justice must be rendered by",
-          "correct": "royal magistrates alone, so that peace and order replace the chaos of private warfare and baronial courts.",
-            "wrong": ["nobles could freely maintain private armies.", "trial by ordeal remained a valid method of justice.", "local customs should override royal law."] },
-          { start: "I prohibited the sale of fiefs and ended subinfeudation because",
-          "correct": "all fiefs ultimately belong to the crown; feudal fragmentation weakens the state, while centralized control ensures loyalty and effective administration.",
-            "wrong": ["feudal sales strengthened the economy.", "vassals owed no direct taxes or service to the king.", "noble autonomy improved governance."] },
-          { start: "Through these constitutions I replaced clerical officials with trained laymen because",
-          "correct": "secular administration by professional officials loyal to the crown creates a more efficient and reliable system of government than reliance on churchmen with divided loyalties.",
-            "wrong": ["the church should continue to dominate royal bureaucracy.", "lay officials lacked the necessary education.", "centralized administration weakened the monarchy."] },
-          { start: "As emperor and king I understood that true authority demands",
-          "correct": "the supremacy of written law, the abolition of trial by ordeal, equality before royal courts for all subjects, and the emperor’s role as the living source of justice.",
-            "wrong": ["superstitious practices like ordeals strengthened faith.", "the emperor should defer to baronial privileges.", "law existed only to serve the nobility."] }
+          { 
+              start: "In the Constitutions of Melfi (1231) I established that the emperor is the living law upon earth, deriving authority directly from God, with the imperial office as the sole source of temporal justice and",
+              correct: "centralized administration.",
+              wrong: ["unified governance.", "absolute rule.", "sovereign control."] 
+            },
+            { 
+              start: "My rule in Sicily and the empire showed that effective governance required a hierarchical administrative system, trained lay officials, and strong royal control to replace clerical officialdom and",
+              correct: "curb noble autonomy.",
+              wrong: ["limit aristocratic power.", "restrain feudal lords.", "diminish baronial influence."] 
+            },
+            { 
+              start: "We, whom divine providence elevated beyond human hope to the pinnacle of the Roman Empire, have promulgated these laws because the emperor must provide for the common welfare, protect the weak, and ensure justice flows from",
+              correct: "the throne alone.",
+              wrong: ["supreme authority.", "imperial power.", "royal command."] 
+            },
+            { 
+              start: "In the Kingdom of Sicily I decreed that no one may bear arms without royal license and that all justice must be rendered by royal magistrates alone, so that peace and order replace the chaos of private warfare and",
+              correct: "baronial courts.",
+              wrong: ["noble conflicts.", "feudal disorders.", "local justice systems."] 
+            },
+            { 
+              start: "I prohibited the sale of fiefs and ended subinfeudation because all fiefs ultimately belong to the crown; feudal fragmentation weakens the state, while centralized control ensures loyalty and",
+              correct: "effective administration.",
+              wrong: ["reliable governance.", "strong rule.", "efficient management."] 
+            },
+            { 
+              start: "Through these constitutions I replaced clerical officials with trained laymen because secular administration by professional officials loyal to the crown creates a more efficient and reliable system of government than",
+              correct: "reliance on churchmen with divided loyalties.",
+              wrong: ["dependence on ecclesiastical authority.", "trust in papal officials.", "reliance on religious institutions."] 
+            },
+            { 
+              start: "As emperor and king I understood that true authority demands the supremacy of written law, the abolition of trial by ordeal, equality before royal courts for all subjects, and the emperor's role as",
+              correct: "the living source of justice.",
+              wrong: ["the supreme judge.", "the final arbiter.", "the ultimate authority."] 
+            }
         ]
       },
       {
         name: "Charles IV (Golden Bull & Constitutional Order)",
         emoji: "⚖️",
         quotes: [
-          { start: "In the Golden Bull of 1356 I decreed that the lands of the prince-electors must remain",
-          "correct": "undivided and pass by primogeniture, so that the pillars of the empire would not collapse and elections could proceed without dangerous divisions.",
-            "wrong": ["electors could freely divide their territories.", "the election process required no formal regulation.", "military strength alone guaranteed imperial unity."] },
-          { start: "I ordained that electors and their heirs be instructed in languages and liberal arts because",
-          "correct": "the emperor must govern diverse nations with different customs and tongues; the electors, as columns of the empire, needed wisdom to understand and be understood.",
-            "wrong": ["cultural and linguistic differences were irrelevant to rule.", "the empire was culturally uniform.", "electors required no special education or preparation."] },
-          { start: "Every realm that is divided internally will go to ruin because",
-          "correct": "its princes become comrades of thieves; the Lord pours out the spirit of deceit so that they grope in darkness and bring about evil deeds which occur in disunity.",
-            "wrong": ["division strengthened the princes.", "internal conflict had no effect on the empire.", "unity was unimportant for imperial stability."] },
-          { start: "I have promulgated these laws for the purpose of",
-          "correct": "cherishing unity among the electors, bringing about a unanimous election, and closing all approach to detestable discord and the various dangers that arise from it.",
-            "wrong": ["increasing the power of the pope in elections.", "allowing contested elections to continue.", "granting complete independence to every prince."] },
-          { start: "The seven electors are the columns and sides of the holy empire because",
-          "correct": "through them, as through seven candlesticks, the empire ought to be illumined with the unity of a septiform spirit; when they are shaken, the whole edifice risks ruin.",
-            "wrong": ["the electors held no special constitutional role.", "only military might supported the empire.", "the number of electors should remain flexible."] },
-          { start: "I decreed that each elector must provide escort and safe-conduct to the others because",
-          "correct": "free and secure travel to the election site prevents interference and ensures that the election of the king of the Romans proceeds according to ancient custom without fear or hindrance.",
-            "wrong": ["electors could travel without protection.", "safe-conduct was unnecessary for imperial elections.", "hostile electors could block the process."] },
-          { start: "Inasmuch as the majesty of the holy Roman empire has to wield the government of diverse nations distinct in customs, manner of life, and language, it is fitting that",
-          "correct": "the prince electors, the columns of the empire, should be instructed in the Italian and Slavic tongues (in addition to German) from the age of seven so that they may understand and be understood by as many as possible.",
-            "wrong": ["only Latin was needed for governance.", "language differences weakened rather than strengthened rule.", "the electors' heirs required no special preparation."] }
+          { 
+            start: "In the Golden Bull of 1356 I decreed that the lands of the prince-electors must remain undivided and pass by primogeniture, so that the pillars of the empire would not collapse and elections could proceed without",
+            correct: "dangerous divisions.",
+            wrong: ["internal conflict.", "fragmentation.", "disruption."] 
+          },
+          { 
+            start: "I ordained that electors and their heirs be instructed in languages and liberal arts because the emperor must govern diverse nations with different customs and tongues; the electors, as columns of the empire, needed wisdom to",
+            correct: "understand and be understood.",
+            wrong: ["communicate effectively.", "relate to subjects.", "govern wisely."] 
+          },
+          { 
+            start: "Every realm that is divided internally will go to ruin because its princes become comrades of thieves; the Lord pours out the spirit of deceit so that they grope in darkness and bring about evil deeds which",
+            correct: "occur in disunity.",
+            wrong: ["result from division.", "stem from conflict.", "arise from discord."] 
+          },
+          { 
+            start: "I have promulgated these laws for the purpose of cherishing unity among the electors, bringing about a unanimous election, and closing all approach to detestable discord and the various dangers that",
+            correct: "arise from it.",
+            wrong: ["flow from it.", "spring from it.", "follow from it."] 
+          },
+          { 
+            start: "The seven electors are the columns and sides of the holy empire because through them, as through seven candlesticks, the empire ought to be illumined with the unity of a septiform spirit; when they are shaken,",
+            correct: "the whole edifice risks ruin.",
+            wrong: ["stability is threatened.", "structure weakens.", "foundation trembles."] 
+          },
+          { 
+            start: "I decreed that each elector must ensure safe passage for the others so the royal election proceeds without interference or",
+            correct: "fear.",
+            wrong: ["hindrance.", "obstruction.", "violence."] 
+          },
+          { 
+            start: "Since the Holy Roman Empire governs diverse peoples, the prince electors should learn Italian and Slavic as well as German from age seven so they may understand and rule",
+            correct: "effectively.",
+            wrong: ["competently.", "skillfully.", "ably."] 
+          }
         ]
       },
       {
         name: "Maximilian I (Imperial Reformer)",
         emoji: "🏛️",
         quotes: [
-          { start: "At the Diet of Worms in 1495 I proclaimed the Perpetual Public Peace because",
-          "correct": "private feuds and wars must end; law and order, enforced through imperial institutions, are necessary to preserve the empire and defend Christendom.",
-            "wrong": ["feuding strengthened noble independence.", "military force alone maintained internal peace.", "no common legal framework was needed."] },
-          { start: "I introduced the Common Penny tax and supported the Imperial Chamber Court because",
-          "correct": "the empire required new institutions and revenue to resist external enemies like the Turks and to administer justice across the territories.",
-            "wrong": ["traditional feudal obligations sufficed for funding.", "central institutions weakened princely rights.", "reform distracted from warfare."] },
-          { start: "We, Maximilian, Roman King by the grace of God, Conserver of the Empire for all ages, have seen that constant attacks are being made against Christendom because",
-          "correct": "unbelievers now press right up to the boundaries of the Holy Empire; therefore a stable, binding condition of law and order must be established throughout the empire so that we may defend Christendom effectively.",
-            "wrong": ["the Turkish threat was exaggerated.", "internal peace had no connection to external defense.", "only the emperor’s personal armies mattered."] },
-          { start: "Following the unanimous counsel of the electors, princes, and Estates, We establish, ordain, and make this common peace because",
-          "correct": "from this moment on, no person of whatever rank shall make war on others, rob, declare feud, invade, besiege, or assist such deeds; instead, every quarrel must be brought before the courts and tribunals.",
-            "wrong": ["private feuds could continue under certain conditions.", "the right of self-defense by force remained unchanged.", "only nobles were bound by the peace."] },
-          { start: "Whoever has a quarrel with another shall take his case to the courts because",
-          "correct": "the regime of law and order must replace the old right of feud; only through impartial justice can the empire be preserved and its honor, population, and dignity maintained.",
-            "wrong": ["courts were too slow and ineffective.", "feuding was a traditional noble right.", "the peace applied only during wartime."] },
-          { start: "We have also established the Common Penny, a direct tax on every subject, because",
-          "correct": "the empire needs reliable revenue to fund the new imperial institutions, the defense against the Turks, and the maintenance of public peace and justice.",
-            "wrong": ["traditional contributions from the Estates were sufficient.", "a universal tax would weaken princely authority.", "no new revenue was necessary for reform."] },
-          { start: "By creating the Imperial Chamber Court alongside the Perpetual Public Peace, I ensured that",
-          "correct": "justice would be administered according to law, independent of private power, so that the strong could no longer oppress the weak and the empire could function as one body under orderly rule.",
-            "wrong": ["the old feudal courts remained adequate.", "the emperor should control all justice personally.", "new courts would only create more conflict."] }
+          { 
+            start: "At the Diet of Worms in 1495 I proclaimed the Perpetual Public Peace because private feuds and wars must end; law and order, enforced through imperial institutions, are necessary to preserve the empire and",
+            correct: "defend Christendom.",
+            wrong: ["protect its borders.", "strengthen its unity.", "maintain its peace."] 
+          },
+          { 
+            start: "I introduced the Common Penny tax and supported the Imperial Chamber Court because the empire required new institutions and revenue to resist external enemies like the Turks and to administer",
+            correct: "justice across the territories.",
+            wrong: ["law throughout lands.", "order among peoples.", "governance in regions."] 
+          },
+          { 
+            start: "We, Maximilian, Roman King, have seen that Christendom is under threat at the Empire's borders; therefore we establish law and order to",
+            correct: "defend it.",
+            wrong: ["destroy it.", "secure it.", "preserve it."] 
+          },
+          { 
+            start: "Following the unanimous counsel of the electors and Estates, We establish a common peace: no one shall wage war, rob, or feud; all disputes must be resolved through",
+            correct: "law.",
+            wrong: ["courts.", "justice.", "judgment."] 
+          },
+          { 
+            start: "Whoever has a quarrel with another shall take his case to the courts because the regime of law and order must replace the old right of feud; only through impartial justice can the empire be preserved and its honor, population, and",
+            correct: "dignity maintained.",
+            wrong: ["strength preserved.", "power sustained.", "glory endured."] 
+          },
+          { 
+            start: "We have also established the Common Penny, a direct tax on every subject, because the empire needs reliable revenue to fund the new imperial institutions and the maintenance of",
+            correct: "public peace and justice.",
+            wrong: ["law and order.", "peace and stability.", "order and security."] 
+          },
+          { 
+            start: "By creating the Imperial Chamber Court alongside the Perpetual Public Peace, I ensured that justice would be administered according to law so that the strong could no longer oppress the weak and the empire could",
+            correct: "function as one body under orderly rule.",
+            wrong: ["operate as unified state.", "exist as cohesive whole.", "stand as integrated realm."] 
+          }
         ]
       },
       {
         name: "Knights & Chivalry",
         emoji: "⚔️",
         quotes: [
-          { start: "A knight must defend the church, protect the weak, and uphold justice because",
-          "correct": "chivalry combined martial skill with Christian duty: fidelity to oaths, mercy to the vulnerable, generosity, and service to God, lord, and lady.",
-            "wrong": ["knights owed loyalty only to personal gain or lord.", "honor derived solely from battlefield glory.", "the church had no place in a warrior’s code."] },
-          { start: "A knight’s oath binds him to respect weaknesses and constitute himself their defender because",
-          "correct": "true courage requires performing feudal duties faithfully, never lying, showing mercy where appropriate, and fighting infidels without compromise when required.",
-            "wrong": ["brute force alone defined knighthood.", "oaths could be broken for advantage.", "chivalry was purely secular without religious roots."] }
+          { start: "A knight must defend the church, protect the weak, and uphold justice because chivalry combined martial skill with Christian duty: fidelity to oaths, mercy to the vulnerable, generosity, and",
+          "correct": "service to God, lord, and lady.",
+            "wrong": ["self-interest.", "personal gain.", "selfishness."] },
+          { start: "A knight’s oath binds him to respect weaknesses and constitute himself their defender because true courage requires performing feudal duties faithfully, showing mercy where appropriate, and fighting infidels without",
+          "correct": "compromise when required.",
+            "wrong": ["honor.", "discipline.", "restraint."] }
         ]
       },
       {
         name: "Scholars & Chroniclers (e.g. Otto of Freising)",
         emoji: "📖",
         quotes: [
-          { start: "We chroniclers recorded the deeds of emperors and the history of the two cities because",
-          "correct": "the empire and church together form part of God’s divine order on earth, restraining chaos; knowledge and philosophy guide rulers toward just governance.",
-            "wrong": ["secular history had no relation to Christian faith.", "the empire faced immediate inevitable collapse.", "scholarship weakened practical imperial authority."] },
-          { start: "Wisdom serves the empire because",
-          "correct": "a ruler who balances force with justice, education, and awareness of both earthly and heavenly realms better maintains peace and legitimacy.",
-            "wrong": ["armies and raw power alone preserved order.", "learning distracted rulers from governance.", "historical and philosophical reflection was unnecessary."] }
+          { start: "We chroniclers recorded the deeds of emperors and the history of the two cities because the empire and church together form part of God’s divine order on earth, restraining chaos; knowledge and philosophy guide rulers toward",
+          "correct": "just governance.",
+            "wrong": ["poor rule.", "incompetent leadership.", "corruption."] },
+          { start: "Wisdom serves the empire because a ruler who balances force with justice, education, and awareness of both earthly and heavenly realms better maintains peace and",
+          "correct": "legitimacy.",
+            "wrong": ["instability.", "dishonesty.", "tyranny."] }
         ]
       },
       {
         name: "Administration, Faith & Unity",
         emoji: "🕯️",
         quotes: [
-          { start: "The Holy Roman Empire endured because its rulers understood that legitimate power required",
-          "correct": "a balance of princely election, often papal coronation, feudal loyalties, Christian legitimacy, and adaptation to diverse laws and territories.",
-            "wrong": ["absolute hereditary rule like in France.", "complete rejection of papal involvement.", "pure military dominance without supporting institutions."] },
-          { start: "Despite periods of fragmentation, the empire preserved",
-          "correct": "Roman legal traditions, chivalric ideals, scholarly continuity, and the ideal of a universal Christian order that shaped later European institutions.",
-            "wrong": ["it was never a real empire.", "its 1806 dissolution erased all lasting influence.", "Christian faith played no structural role in its longevity."] }
+          { start: "The Holy Roman Empire endured because its rulers understood that legitimate power required a balance of princely election, often papal coronation, Christian legitimacy, and adaptation to diverse laws and",
+          "correct": "territories.",
+            "wrong": ["uniform rule.", "single system.", "central control."] },
+          { start: "Despite periods of fragmentation, the empire preserved Roman legal traditions, chivalric ideals, scholarly continuity, and the ideal of a universal Christian order that",
+          "correct": "shaped later European institutions.",
+            "wrong": ["faded quickly.", "lost influence.", "had no impact."] }
         ]
       },
       {
         name: "Decline & Legacy",
         emoji: "📜",
         quotes: [
-          { start: "The empire’s gradual decentralization showed that",
-          "correct": "while strong personal leadership and institutions could unify it temporarily, competing princely interests, external pressures, and evolving European states ultimately limited central authority.",
-            "wrong": ["it was weak from its founding under Charlemagne.", "military defeats alone caused its end.", "no meaningful institutions or ideals survived."] },
-          { start: "Even as the empire dissolved in 1806, its legacy demonstrated that",
-          "correct": "the ideal of a Christian universal empire, Roman law, and constitutional experiments like the Golden Bull influenced modern concepts of federalism, law, and European order.",
-            "wrong": ["it left no intellectual or legal heritage.", "the empire was purely destructive or irrelevant.", "faith and scholarship had no enduring impact."] }
+          { 
+            start: "The empire's gradual decentralization showed that while strong personal leadership and institutions could unify it temporarily, competing princely interests, external pressures, and",
+            correct: "evolving European states ultimately limited central authority.",
+            wrong: ["rising nationalism weakened unity.", "internal conflicts fractured power.", "regional forces challenged supremacy."] 
+          },
+          { 
+            start: "Even as the empire dissolved in 1806, its legacy demonstrated that the ideal of a Christian universal empire, Roman law, and constitutional experiments like the Golden Bull influenced modern concepts of federalism, law, and",
+            correct: "European order.",
+            wrong: ["international relations.", "political systems.", "global governance."] 
+          }
         ]
       }
     ]
@@ -5239,108 +5589,148 @@ export const CIVILIZATIONS = [
         name: "Hammurabi (Lawgiver & Unifier)",
         emoji: "👑",
         quotes: [
-          { start: "I, Hammurabi, the exalted prince who feared the gods, established these laws so that",
-          "correct": "the strong should not harm the weak, justice would appear in the land, and the well-being of mankind would be furthered.",
-            "wrong": ["only the elite would benefit.", "punishment would be arbitrary.", "the gods would be ignored."] },
-          { start: "When Marduk sent me to rule over men and give the protection of right to the land, I did right and righteousness because",
-          "correct": "a king must bring about the rule of righteousness, destroy the wicked, and protect widows and orphans.",
-            "wrong": ["military conquest alone sufficed.", "personal power was the goal.", "laws should remain secret."] },
-          { start: "I set up my stele with these precious words before my image as king of righteousness so that",
-          "correct": "the oppressed who have a case at law could come, read the inscription, understand what is just, and calm their heart.",
-            "wrong": ["only priests could interpret the law.", "it served purely as decoration.", "punishments would frighten everyone."] },
-          { start: "The laws I inscribed demonstrate that justice must be",
-          "correct": "clear, public, and proportional, applying across social classes while maintaining order in the realm.",
-            "wrong": ["hidden from the people.", "based solely on fear.", "rigid and unchanging in every detail."] }
+          { 
+            start: "I, Hammurabi, the exalted prince who feared the gods, established these laws so that the strong should not harm the weak, justice would appear in the land, and",
+            correct: "the well-being of mankind would be furthered.",
+            wrong: ["the people would prosper.", "society would flourish.", "civilization would advance."] 
+          },
+          { 
+            start: "When Marduk sent me to rule over men and give the protection of right to the land, I did right and righteousness because a king must bring about the rule of righteousness, destroy the wicked, and",
+            correct: "protect widows and orphans.",
+            wrong: ["care for the vulnerable.", "defend the helpless.", "safeguard the weak."] 
+          },
+          { 
+            start: "I set up my stele with these precious words before my image as king of righteousness so that the oppressed who have a case at law could come, read the inscription, understand what is just, and",
+            correct: "calm their heart.",
+            wrong: ["find peace.", "accept judgment.", "be satisfied."] 
+          },
+          { 
+            start: "The laws I inscribed demonstrate that justice must be clear, public, and proportional, applying across social classes while",
+            correct: "maintaining order in the realm.",
+            wrong: ["preserving social structure.", "ensuring stability.", "promoting harmony."] 
+          }
         ]
       },
       {
         name: "Nebuchadnezzar II (Builder & Restorer)",
         emoji: "🏛️",
         quotes: [
-          { start: "I, Nebuchadnezzar, laid the foundations of the Ishtar Gate and its walls with blue stone and adorned them with bulls and dragons because",
-          "correct": "I magnificently adorned them with luxurious splendor for all mankind to behold in awe and to glorify Marduk.",
-            "wrong": ["purely for military defense.", "to show personal wealth alone.", "without religious purpose."] },
-          { start: "I built the strong outer wall of Babylon with bitumen and baked bricks, laying its foundation on the breast of the netherworld and raising its top as high as a mountain, so that",
-          "correct": "the fortifications of Esagila and Babylon would be strengthened and the name of my reign established forever.",
-            "wrong": ["the city needed no defenses.", "it was only symbolic.", "trade would suffer."] },
-          { start: "My extensive building projects—temples, ziggurats like Etemenanki, and canals—served to",
-          "correct": "restore ancient sanctuaries as they were of yore, provide for the gods, and demonstrate the prosperity and divine favor of Babylon.",
-            "wrong": ["waste resources on vanity.", "ignore the gods.", "focus solely on conquest."] },
-          { start: "I had the widespread people undertake labor for Etemenanki and other works because",
-          "correct": "Marduk granted me dominion over them, and such projects honored the gods while showcasing Babylonian organizational power and resources.",
-            "wrong": ["forced labor had no greater purpose.", "the ziggurat was unimportant.", "it weakened the empire."] }
+          { 
+            start: "I, Nebuchadnezzar, laid the foundations of the Ishtar Gate and its walls with blue stone and adorned them with bulls and dragons because I magnificently adorned them with luxurious splendor for all mankind to behold in awe and",
+            correct: "to glorify Marduk.",
+            wrong: ["honor the gods.", "praise the divine.", "exalt the heavens."] 
+          },
+          { 
+            start: "I built the strong outer wall of Babylon with bitumen and baked bricks, raising its top as high as a mountain, so that the fortifications of Esagila and Babylon would be strengthened and",
+            correct: "the name of my reign established forever.",
+            wrong: ["my legacy preserved eternally.", "memory endure for ages.", "power remembered always."] 
+          },
+          { 
+            start: "My extensive building projects—temples, ziggurats like Etemenanki, and canals—served to restore ancient sanctuaries as they were of yore, provide for the gods, and demonstrate the prosperity and",
+            correct: "divine favor of Babylon.",
+            wrong: ["power of my kingdom.", "strength of my rule.", "glory of my empire."] 
+          },
+          { 
+            start: "I had the widespread people undertake labor for Etemenanki and other works because Marduk granted me dominion over them, and such projects honored the gods while showcasing Babylonian organizational power and",
+            correct: "resources.",
+            wrong: ["wealth.", "capability.", "strength."] 
+          }
         ]
       },
       {
         name: "Priests & Astronomers",
         emoji: "🕯️",
         quotes: [
-          { start: "The stars and celestial phenomena recorded in the Enuma Anu Enlil series reveal omens because",
-          "correct": "the gods Anu, Enlil, and Ea designed the heavens, and careful observation allows the wise to interpret divine will for kings and the land.",
-            "wrong": ["fate is unchangeable and random.", "only military signs matter.", "prayer alone suffices without study."] },
-          { start: "Prayer to Marduk, Shamash, or the gods of the night, combined with astronomical observation, maintains",
-          "correct": "balance between human action and divine order, guiding decisions on war, agriculture, and kingship.",
-            "wrong": ["fear of the gods alone.", "pure scientific curiosity without ritual.", "glory for the king without piety."] },
-          { start: "Babylonian scribes and priests compiled thousands of celestial omens and mathematical tables because",
-          "correct": "accurate prediction of lunar phases, eclipses, and planetary movements served both practical administration and religious divination.",
-            "wrong": ["it was mere superstition.", "no mathematical rigor existed.", "it had no political value."] }
+          { 
+            start: "The stars and celestial phenomena recorded in the Enuma Anu Enlil series reveal omens because the gods Anu, Enlil, and Ea designed the heavens, and careful observation allows the wise to interpret divine will for kings and the",
+            correct: "land.",
+            wrong: ["people.", "realm.", "kingdom."] 
+          },
+          { 
+            start: "Prayer to Marduk, Shamash, or the gods of the night, combined with astronomical observation, maintains balance between human action and divine order, agriculture, and",
+            correct: "kingship.",
+            wrong: ["rule.", "governance.", "authority."] 
+          },
+          { 
+            start: "Babylonian scribes and priests compiled thousands of celestial omens and mathematical tables because accurate prediction of lunar phases and planetary movements served both practical administration and",
+            correct: "religious divination.",
+            wrong: ["spiritual guidance.", "priestly authority.", "sacred interpretation."] 
+          }
         ]
       },
       {
         name: "Merchants & Economic Life",
         emoji: "💰",
         quotes: [
-          { start: "Babylonian merchants (tamkarum) conducted long-distance trade in textiles, grain, and luxury goods because",
-          "correct": "control of routes, fair regulations in the law code, and tribute from subject regions created a prosperous economy supporting the empire.",
-            "wrong": ["trade was insignificant.", "force replaced commerce.", "the economy relied only on agriculture."] },
-          { start: "The Code of Hammurabi regulated contracts, loans, and commerce so that",
-          "correct": "transactions would be orderly, disputes minimized, and the strong prevented from oppressing traders or debtors.",
-            "wrong": ["merchants operated without rules.", "trade discouraged stability.", "only royal wealth mattered."] },
-          { start: "Tribute and taxes from conquered territories, combined with internal production and trade tolls, allowed Babylon to",
-          "correct": "fund massive building projects, maintain temples, and sustain a complex urban society with specialized labor.",
-            "wrong": ["create constant resentment without benefit.", "ignore economic planning.", "rely solely on plunder."] }
+          { 
+            start: "Babylonian merchants (tamkarum) conducted long-distance trade in textiles, grain, and luxury goods because control of routes, fair regulations in the law code, and tribute from subject regions created",
+            correct: "a prosperous economy supporting the empire.",
+            wrong: ["widespread wealth.", "economic power.", "stability."] 
+          },
+          { 
+            start: "The Code of Hammurabi regulated contracts, loans, and commerce so that transactions would be orderly, disputes minimized, and the strong prevented from oppressing traders or",
+            correct: "debtors.",
+            wrong: ["creditors.", "borrowers.", "merchants."] 
+          },
+          { 
+            start: "Tribute and taxes from conquered territories, combined with internal production and trade tolls, allowed Babylon to fund massive building projects, maintain temples, and sustain a complex urban society with",
+            correct: "specialized labor.",
+            wrong: ["diverse populations.", "imperial institutions.", "cultural institutions."] 
+          }
         ]
       },
       {
         name: "Babylonian Religion & Ideology",
         emoji: "🕯️",
         quotes: [
-          { start: "The king was seen as the representative of Marduk, who commissioned him to rule, because",
-          "correct": "royal authority derived from divine mandate, making conquest, justice, and building acts of piety that upheld cosmic order.",
-            "wrong": ["religion had no political role.", "the king ruled by force alone.", "gods were irrelevant to governance."] },
-          { start: "Tolerance of local cults while elevating Marduk and restoring temples demonstrated that",
-          "correct": "Babylonian rule integrated diverse peoples by honoring their gods (as long as supremacy was acknowledged), ensuring stability.",
-            "wrong": ["forced conversion was the norm.", "religious suppression built loyalty.", "piety served no strategic purpose."] },
-          { start: "Inscriptions and prayers, such as those invoking Shamash as the just judge or Marduk as creator, served to",
-          "correct": "legitimize the king's actions, record achievements for posterity, and seek divine favor for the prosperity of the land.",
-            "wrong": ["purely ceremonial without impact.", "only for historical record.", "no connection to daily rule."] }
+          { 
+            start: "The king was seen as the representative of Marduk, who commissioned him to rule, because royal authority derived from divine mandate, making conquest, justice, and building acts of piety that",
+            correct: "upheld cosmic order.",
+            wrong: ["maintained harmony.", "preserved balance.", "sustained creation."] 
+          },
+          { 
+            start: "Tolerance of local cults while elevating Marduk and restoring temples demonstrated that Babylonian rule integrated diverse peoples by honoring their gods (as long as supremacy was acknowledged), ensuring",
+            correct: "stability.",
+            wrong: ["loyalty.", "compliance.", "obedience."] 
+          },
+          { 
+            start: "Inscriptions and prayers, such as those invoking Shamash as the just judge or Marduk as creator, served to legitimize the king's actions, record achievements for posterity, and seek divine favor for",
+            correct: "the prosperity of the land.",
+            wrong: ["the kingdom's wealth.", "the people's welfare.", "the realm's success."] 
+          }
         ]
       },
       {
         name: "Babylonian Legacy & Administration",
         emoji: "📜",
         quotes: [
-          { start: "The preservation of knowledge through libraries, scribal training, and cuneiform records showed that Babylonian rulers understood",
-          "correct": "administration of a vast empire required written laws, economic accounts, astronomical data, and literary texts for continuity.",
-            "wrong": ["knowledge was unimportant.", "oral tradition alone sufficed.", "scribes had no status."] },
-          { start: "Babylon's greatness under kings like Hammurabi and Nebuchadnezzar lay in combining",
-          "correct": "law, monumental architecture, trade networks, and celestial science to create a sophisticated civilization that influenced later empires.",
-            "wrong": ["military power alone.", "pure religious ritual.", "no lasting cultural impact."] },
-          { start: "Even after political shifts, the Babylonian tradition of scholarship endured because",
-          "correct": "texts on law, astronomy, and literature were copied and studied, transmitting knowledge to Persians, Greeks, and beyond.",
-            "wrong": ["the empire left no intellectual legacy.", "all knowledge was lost.", "it had purely local value."] }
+          { 
+            start: "The preservation of knowledge through libraries, scribal training, and cuneiform records showed that Babylonian rulers understood administration of a vast empire required written laws, astronomical data, and literary texts for",
+            correct: "continuity.",
+            wrong: ["stability.", "organization.", "order."] 
+          },
+          { 
+            start: "Babylon's greatness under kings like Hammurabi and Nebuchadnezzar lay in combining law, monumental architecture, trade networks, and celestial science to create a sophisticated civilization that",
+            correct: "influenced later empires.",
+            wrong: ["shaped future kingdoms.", "inspired successor states.", "affected subsequent powers."] 
+          },
+          { 
+            start: "Even after political shifts, the Babylonian tradition of scholarship endured because texts on law, astronomy, and literature were copied and studied, transmitting knowledge to",
+            correct: "Persians, Greeks, and beyond.",
+            wrong: ["Mediterranean civilizations.", "ancient societies.", "neighboring cultures."] 
+          }
         ]
       },
       {
         name: "Nabopolassar & Nabonidus (Founders & Later Kings)",
         emoji: "🏛️",
         quotes: [
-          { start: "As Nabopolassar, I pleased the hearts of Nabû and Marduk when I",
-          "correct": "restored the walls of Babylon and strengthened the sanctuaries, laying foundations for the empire's renewed greatness.",
-            "wrong": ["ignored the gods in favor of conquest.", "focused only on personal power.", "neglected the city's defenses."] },
-          { start: "Nabonidus declared that Sin showed him a dream commanding him to rebuild Ehulhul because",
-          "correct": "kings must obey divine signs and restore ancient temples, even distant ones, to secure the favor of the gods for the land.",
-            "wrong": ["dreams and omens had no political meaning.", "temple restoration was wasteful.", "the gods never communicated with rulers."] }
+          { start: "As Nabopolassar, I pleased the hearts of Nabû and Marduk when I restored the walls of Babylon and strengthened the sanctuaries, laying foundations for the empire's renewed",
+          "correct": "greatness.",
+            "wrong": ["prosperity.", "glory.", "power."] },
+          { start: "Nabonidus declared that Sin showed him a dream commanding him to rebuild Ehulhul because kings must obey divine signs and restore ancient temples, even distant ones, to secure the favor of the gods for the",
+          "correct": "land.",
+            "wrong": ["people.", "kingdom.", "realm."] }
         ]
       }
     ]
@@ -5357,246 +5747,362 @@ export const CIVILIZATIONS = [
         name: "Ashurnasirpal II (Expansion & Military Organization)",
         emoji: "👑",
         quotes: [
-          { start: "I expanded the Assyrian Empire through relentless military campaigns by understanding that",
-          "correct": "successive conquests could not only add territory but also establish Assyria as a feared power that would be difficult to challenge.",
-            "wrong": ["single massive conquest.", "no real strategy.", "pure military force alone."] },
-          { start: "The establishment of Assyrian military superiority required creating a professional standing army because",
-          "correct": "an empire of such size needed forces that could be mobilized quickly and coordinated effectively across vast distances.",
-            "wrong": ["militia forces were sufficient.", "no real organization.", "conscription alone."] },
-          { start: "My construction of a new capital at Kalhu (Nimrud) and the palaces within it served to demonstrate that",
-          "correct": "Assyrian power was permanent, that resources were being accumulated, and that the king controlled wealth and labor.",
-            "wrong": ["purely ceremonial.", "no practical purpose.", "only for the king's pleasure."] },
-          { start: "The detailed recording of my military campaigns on palace reliefs and in texts served to",
-          "correct": "proclaim achievements to subjects and enemies, establish the king's historical record, and demonstrate that Assyrian power was irresistible.",
-            "wrong": ["purely artistic.", "no real communication.", "no strategic purpose."] },
-          { start: "The use of terror—the deportation of conquered populations, the execution of rebels, the flaying of enemies—served the strategic purpose of",
-          "correct": "discouraging rebellion, demonstrating Assyrian power, and making the cost of resistance so high that compliance seemed rational.",
-            "wrong": ["purely sadistic.", "no real strategy.", "counterproductive cruelty."] },
-          { start: "The organization of the empire into provinces with appointed governors meant that the king could",
-          "correct": "maintain direct control from the capital rather than relying on vassal kings who might pursue their own interests.",
-            "wrong": ["purely centralized oppression.", "no real benefit.", "invited rebellion."] }
+          { 
+            start: "I expanded the Assyrian Empire through relentless military campaigns by understanding that successive conquests could not only add territory but also establish Assyria as a feared power that would",
+            correct: "be difficult to challenge.",
+            wrong: ["discourage rebellion.", "deter resistance.", "prevent defiance."] 
+          },
+          { 
+            start: "The establishment of Assyrian military superiority required creating a professional standing army because an empire of such size needed forces that could be mobilized quickly and coordinated effectively across",
+            correct: "vast distances.",
+            wrong: ["large areas.", "extended territory.", "wide regions."] 
+          },
+          { 
+            start: "My construction of a new capital at Kalhu (Nimrud) and the palaces within it served to demonstrate that Assyrian power was permanent, that resources were being accumulated, and",
+            correct: "that the king controlled wealth and labor.",
+            wrong: ["that authority was supreme.", "that dominance was total.", "that rule was absolute."] 
+          },
+          { 
+            start: "The detailed recording of my military campaigns on palace reliefs and in texts served to proclaim achievements to subjects and enemies, establish the king's historical record, and",
+            correct: "demonstrate that Assyrian power was irresistible.",
+            wrong: ["show Assyrian strength.", "prove military might.", "display imperial force."] 
+          },
+          { 
+            start: "The use of terror—the deportation of conquered populations, the execution of rebels, the flaying of enemies—served the strategic purpose of discouraging rebellion, making the cost of resistance so high that",
+            correct: "compliance seemed rational.",
+            wrong: ["submission appeared necessary.", "obedience seemed wise.", "loyalty became inevitable."] 
+          },
+          { 
+            start: "The organization of the empire into provinces with appointed governors meant that the king could maintain direct control from the capital rather than relying on vassal kings who might",
+            correct: "pursue their own interests.",
+            wrong: ["seek independence.", "claim autonomy.", "demand authority."] 
+          }
         ]
       },
       {
         name: "Sargon II (Administration & Conquest)",
         emoji: "⚔️",
         quotes: [
-          { start: "My conquest of the northern kingdom of Israel and the deportation of its population demonstrated that",
-          "correct": "no kingdom could resist Assyrian military power and that defiance would result in destruction and exile.",
-            "wrong": ["pure brutality without purpose.", "no strategic value.", "counterproductive."] },
-          { start: "The construction of a new capital at Dur-Sharrukin and the establishment of new administrative centers served to",
-          "correct": "consolidate power, demonstrate resources, and establish control over newly conquered territories.",
-            "wrong": ["purely ceremonial.", "wasteful expenditure.", "no real benefit."] },
-          { start: "My military campaigns against the Urartu kingdom and other rivals required understanding that",
-          "correct": "maintaining Assyrian dominance meant constant military action to prevent rivals from building sufficient power to challenge Assyria.",
-            "wrong": ["unnecessary warfare.", "no real threat.", "purely aggressive."] },
-          { start: "The recruitment of soldiers from conquered territories into the Assyrian army served to",
-          "correct": "augment military forces, create incentives for loyalty by allowing advancement, and disperse potentially rebellious populations.",
-            "wrong": ["purely exploitative.", "unreliable forces.", "no real benefit."] },
-          { start: "The maintenance of Assyrian power required that my successors understand that an empire built on fear and military dominance needs",
-          "correct": "continuous military success and the demonstration of strength, or rivals will begin to challenge Assyrian authority.",
-            "wrong": ["purely military rule.", "no real complexity.", "simple oppression."] }
+          { 
+            start: "My conquest of the northern kingdom of Israel and the deportation of its population demonstrated that no kingdom could resist Assyrian military power and that defiance would result in destruction and",
+            correct: "exile.",
+            wrong: ["captivity.", "displacement.", "relocation."] 
+          },
+          { 
+            start: "The construction of a new capital at Dur-Sharrukin and the establishment of new administrative centers served to consolidate power, demonstrate resources, and establish control over",
+            correct: "newly conquered territories.",
+            wrong: ["expanded lands.", "recent conquests.", "subject regions."] 
+          },
+          { 
+            start: "My military campaigns against the Urartu kingdom and other rivals required understanding that maintaining Assyrian dominance meant constant military action to prevent rivals from building sufficient power to",
+            correct: "challenge Assyria.",
+            wrong: ["threaten supremacy.", "rival power.", "contest control."] 
+          },
+          { 
+            start: "The recruitment of soldiers from conquered territories into the Assyrian army served to augment military forces, create incentives for loyalty by allowing advancement, and",
+            correct: "disperse potentially rebellious populations.",
+            wrong: ["prevent uprisings.", "weaken local unity.", "limit resistance."] 
+          },
+          { 
+            start: "The maintenance of Assyrian power required that my successors understand that an empire built on fear and military dominance needs continuous military success and the demonstration of strength, or rivals will begin to",
+            correct: "challenge Assyrian authority.",
+            wrong: ["resist empire.", "defy control.", "question supremacy."] 
+          }
         ]
       },
       {
         name: "Sennacherib (Assimilation & Infrastructure)",
         emoji: "🏛️",
         quotes: [
-          { start: "I understood that Assyrian power required not only military dominance but also the development of infrastructure because",
-          "correct": "roads, water systems, and administrative centers allowed the empire to function and resources to be mobilized.",
-            "wrong": ["purely military concerns.", "infrastructure was unimportant.", "no real benefit."] },
-          { start: "The expansion of Nineveh into one of the ancient world's greatest cities served to demonstrate that",
-          "correct": "Assyrian resources were immense, that the king controlled wealth and labor, and that Assyrian civilization was sophisticated.",
-            "wrong": ["purely ceremonial.", "wasteful expenditure.", "only for the king."] },
-          { start: "My famous library at Nineveh, which preserved cuneiform texts on a vast range of subjects, was established because rulers understood that",
-          "correct": "controlling knowledge and preserving texts served both practical (administrative, technical) and propagandistic (showing Assyrian sophistication) purposes.",
-            "wrong": ["purely scholarly interest.", "no political value.", "wasteful collection."] },
-          { start: "The military failure against Jerusalem, despite the city's vulnerability, showed that even a powerful king could not always achieve success and that",
-          "correct": "factors including leadership, morale, unexpected events, and resistance could sometimes prevent conquest.",
-            "wrong": ["Assyrian weakness was revealed.", "no real significance.", "purely accidental."] },
-          { start: "My reign demonstrated that successful Assyrian rulers understood that military conquest had to be followed by",
-          "correct": "administration, infrastructure development, the establishment of order, and sometimes the incorporation of local populations into the empire.",
-            "wrong": ["purely military rule.", "no follow-up needed.", "pure domination."] }
+          { 
+            start: "I understood that Assyrian power required not only military dominance but also the development of infrastructure because roads, water systems, and administrative centers allowed the empire to function and",
+            correct: "resources to be mobilized.",
+            wrong: ["goods to be transported.", "supplies to flow.", "materials to move."] 
+          },
+          { 
+            start: "The expansion of Nineveh into one of the ancient world's greatest cities served to demonstrate that Assyrian resources were immense and that Assyrian civilization was",
+            correct: "sophisticated.",
+            wrong: ["advanced.", "cultured.", "refined."] 
+          },
+          { 
+            start: "My famous library at Nineveh was established because rulers understood that controlling knowledge and preserving texts served both practical (administrative, technical) and",
+            correct: "propagandistic (showing Assyrian sophistication) purposes.",
+            wrong: ["cultural (preserving traditions) purposes.", "educational (training scribes) purposes.", "scholarly (advancing learning) purposes."] 
+          },
+          { 
+            start: "The military failure against Jerusalem, despite the city's vulnerability, showed that even a powerful king could not always achieve success and that factors including leadership, morale, and resistance could",
+            correct: "sometimes prevent conquest.",
+            wrong: ["occasionally hinder victory.", "at times impede success.", "rarely allow triumph."] 
+          },
+          { 
+            start: "My reign demonstrated that successful Assyrian rulers understood that military conquest had to be followed by administration  and sometimes the incorporation of local populations into the",
+            correct: "empire.",
+            wrong: ["state.", "kingdom.", "realm."] 
+          }
         ]
       },
       {
         name: "Ashurbanipal (Culture & Administration)",
         emoji: "📚",
         quotes: [
-          { start: "I am remembered not only as a military conqueror but also as a patron of learning and culture because I understood that",
-          "correct": "an empire's greatness lay not only in military dominance but in the sophistication of its culture and administration.",
-            "wrong": ["purely military achievement.", "culture was irrelevant.", "only conquest mattered."] },
-          { start: "The expansion of Sennacherib's library into one of the most comprehensive collections of cuneiform texts was possible because I",
-          "correct": "commissioned the copying of texts, gathered texts from across the empire, and established a systematic archive of human knowledge.",
-            "wrong": ["purely individual achievement.", "no organization.", "random collection."] },
-          { start: "My military campaigns extended Assyrian territory to its greatest extent, demonstrating that",
-          "correct": "an Assyrian king who could mobilize resources and organize military campaigns could achieve conquest across vast distances.",
-            "wrong": ["absolute military invincibility.", "no limits to power.", "conquest was easy."] },
-          { start: "The conquest of Egypt, the most distant of my campaigns, required understanding that",
-          "correct": "the logistics of supplying armies across such distances, maintaining communication, and securing conquered territory were as important as military victory.",
-            "wrong": ["pure military force.", "no real strategy.", "easy victory."] },
-          { start: "The decline of Assyrian power after my death shows that an empire dependent on continuous military expansion and strong personal leadership faced challenges when",
-          "correct": "a weaker successor took the throne, rivals sensed opportunity, and the empire began to fragment.",
-            "wrong": ["purely inevitable decline.", "no real weakness.", "sudden collapse."] },
-          { start: "My patronage of scholarship, the arts, and the preservation of knowledge created a legacy that transcended military conquest, as these texts would influence future civilizations including",
-          "correct": "the Persian, Greek, Islamic, and modern worlds.",
-            "wrong": ["no real legacy.", "purely local impact.", "knowledge was lost."] }
+          { 
+            start: "I am remembered not only as a military conqueror but also as a patron of learning and culture because I understood that an empire's greatness lay not only in military dominance but in the sophistication of its culture and",
+            correct: "administration.",
+            wrong: ["organization.", "governance.", "institutions."] 
+          },
+          { 
+            start: "The expansion of Sennacherib's library into one of the most comprehensive collections of cuneiform texts was possible because I commissioned the copying of texts and established a systematic archive of",
+            correct: "human knowledge.",
+            wrong: ["written records.", "scholarly works.", "ancient texts."] 
+          },
+          { 
+            start: "My military campaigns extended Assyrian territory to its greatest extent, demonstrating that an Assyrian king who could mobilize resources and organize military campaigns could achieve",
+            correct: "conquest across vast distances.",
+            wrong: ["territorial expansion.", "regional dominance.", "imperial power."] 
+          },
+          { 
+            start: "The conquest of Egypt, the most distant of my campaigns, required understanding that the logistics of supplying armies across such distances, maintaining communication, and securing conquered territory were as important as",
+            correct: "military victory.",
+            wrong: ["battlefield success.", "tactical advantage.", "military triumph."] 
+          },
+          { 
+            start: "The decline of Assyrian power after my death shows that an empire dependent on continuous military expansion and strong personal leadership faced challenges when a weaker successor took the throne and",
+            correct: "the empire began to fragment.",
+            wrong: ["power was dispersed.", "unity weakened.", "authority scattered."] 
+          },
+          { 
+            start: "My patronage of scholarship, the arts, and the preservation of knowledge created a legacy that transcended military conquest, as these texts would influence future civilizations including the Persian, Greek, Islamic, and",
+            correct: "modern worlds.",
+            wrong: ["contemporary societies.", "later ages.", "future centuries."] 
+          }
         ]
       },
       {
         name: "Assyrian Military Organization & Strategy",
         emoji: "⚔️",
         quotes: [
-          { start: "The Assyrian military achieved dominance through a combination of cavalry, chariotry, and infantry because",
-          "correct": "different unit types could work together—cavalry for rapid movement and pursuit, chariots for impact, infantry for holding territory.",
-            "wrong": ["single unit type was sufficient.", "no real coordination.", "numerical superiority alone."] },
-          { start: "The use of siege warfare technology—battering rams, siege towers, sappers—by Assyrian forces allowed them to",
-          "correct": "breach city fortifications that would otherwise have provided protection against field armies.",
-            "wrong": ["no real innovation.", "purely brute force.", "ineffective."] },
-          { start: "The organization of the Assyrian army into professional units with appointed commanders meant that",
-          "correct": "the king could field large armies that could be coordinated, could follow complex strategies, and could operate across vast distances.",
-            "wrong": ["militia forces.", "lack of coordination.", "no real organization."] },
-          { start: "The rapid communication systems used by Assyrian commanders, including mounted messengers and signal systems, allowed for",
-          "correct": "coordination of military campaigns across distances and the ability to adjust strategy based on new information.",
-            "wrong": ["no real communication.", "purely on-site command.", "isolation of units."] },
-          { start: "The Assyrian practice of maintaining garrison forces in conquered cities served to",
-          "correct": "prevent rebellion, maintain control, demonstrate Assyrian presence, and provide a base for further campaigns.",
-            "wrong": ["purely oppressive.", "invited rebellion.", "wasteful."] },
-          { start: "The logistics required to supply large Assyrian armies across vast distances required that the empire establish",
-          "correct": "supply depots, roads, administrative systems to requisition food and materials, and the coordination of resources across provinces.",
-            "wrong": ["purely military organization.", "no real complexity.", "armies fed themselves."] }
+            { 
+              start: "The Assyrian military achieved dominance through a combination of cavalry, chariotry, and infantry because different unit types could work together—cavalry for rapid movement and pursuit,",
+              correct: "infantry for holding territory.",
+              wrong: ["soldiers for protection.", "troops for defense.", "forces for control."] 
+            },
+            { 
+              start: "The use of siege warfare technology—battering rams, siege towers, sappers—by Assyrian forces allowed them to breach city fortifications that would otherwise have",
+              correct: "provided protection against field armies.",
+              wrong: ["resisted conquest.", "withstood armies.", "repelled attacks."] 
+            },
+            { 
+              start: "The organization of the Assyrian army into professional units with appointed commanders meant that the king could field large armies that could be coordinated and could",
+              correct: "operate across vast distances.",
+              wrong: ["function independently.", "act autonomously.", "move effectively."] 
+            },
+            { 
+              start: "The rapid communication systems used by Assyrian commanders, including mounted messengers and signal systems, allowed for coordination of military campaigns across distances and",
+              correct: "the ability to adjust strategy based on new information.",
+              wrong: ["tactical flexibility.", "strategic adaptation.", "responsive action."] 
+            },
+            { 
+              start: "The Assyrian practice of maintaining garrison forces in conquered cities served to prevent rebellion, maintain control, demonstrate Assyrian presence, and",
+              correct: "provide a base for further campaigns.",
+              wrong: ["support military operations.", "enable future expansion.", "facilitate regional conquest."] 
+            },
+            { 
+              start: "The logistics required to supply large Assyrian armies across vast distances required that the empire establish supply depots, roads and the coordination of",
+              correct: "resources across provinces.",
+              wrong: ["materials throughout empire.", "supplies among regions.", "goods across territories."] 
+            }
         ]
       },
       {
         name: "Assyrian Administration & Governance",
         emoji: "⚖️",
         quotes: [
-          { start: "The Assyrian system of governance required establishing appointed governors in conquered territories because the king could not personally oversee such vast empire and because",
-          "correct": "appointed officials loyal to the king would implement royal policy rather than pursuing their own interests.",
-            "wrong": ["decentralization was impossible.", "vassal kings were acceptable.", "no real organization."] },
-          { start: "The deportation policy implemented by Assyrian kings served strategic purposes including preventing rebellion by breaking up ethnic and cultural communities, dispersing potentially rebellious populations, and",
-          "correct": "redistributing populations to areas where they could provide labor and ensure that no region remained a power base for resistance.",
-            "wrong": ["purely sadistic.", "no real strategy.", "counterproductive."] },
-          { start: "The collection of tribute from vassal states and conquered kingdoms provided the Assyrian treasury with resources that could be used for",
-          "correct": "military campaigns, building projects, administrative expenses, and gifts to secure loyalty.",
-            "wrong": ["purely accumulation.", "no real use.", "wasteful."] },
-          { start: "The Assyrian approach to subject peoples required that rulers understand that",
-          "correct": "brutal repression of rebellion deterred future resistance, but reasonable treatment of compliant subjects ensured stability and allowed resources to be extracted without constant military presence.",
-            "wrong": ["pure terror was sufficient.", "no real strategy.", "people always rebel."] },
-          { start: "The maintaining of order in the empire required establishing a system of justice and law that",
-          "correct": "applied consistently across the empire, punished violations, and created the perception that Assyrian rule was orderly and predictable.",
-            "wrong": ["arbitrary rule.", "no real system.", "only fear mattered."] }
+            { 
+              start: "The Assyrian system of governance required establishing appointed governors in conquered territories because appointed officials loyal to the king would implement royal policy rather than",
+              correct: "pursuing their own interests.",
+              wrong: ["claiming autonomy.", "seeking independence.", "acting independently."] 
+            },
+            { 
+              start: "The Assyrian deportation policy aimed to prevent rebellion by dispersing populations, redistributing labor, and ensuring no region remained",
+              correct: "strong.",
+              wrong: ["unified.", "rebellious.", "united."] 
+            },
+            { 
+              start: "The collection of tribute from vassal states and conquered kingdoms provided the Assyrian treasury with resources that could be used for military campaigns, administrative expenses, and",
+              correct: "gifts to secure loyalty.",
+              wrong: ["rewards for officials.", "payments to allies.", "incentives for obedience."] 
+            },
+            { 
+              start: "The Assyrian approach to subject peoples required that rulers understand that brutal repression of rebellion deterred future resistance, but reasonable treatment of compliant subjects ensured stability and allowed resources to be",
+              correct: "extracted without constant military presence.",
+              wrong: ["collected efficiently.", "gathered sustainably.", "obtained peacefully."] 
+            },
+            { 
+              start: "The maintaining of order in the empire required establishing a system of justice and law that applied consistently across the empire and created the perception that Assyrian rule was",
+              correct: "orderly and predictable.",
+              wrong: ["fair and just.", "firm and authoritative.", "stable and secure."] 
+            }
         ]
       },
       {
         name: "Assyrian Diplomacy & Foreign Relations",
         emoji: "🌍",
         quotes: [
-          { start: "The Assyrian approach to other kingdoms included a spectrum from complete conquest to tributary relationships to diplomatic equals, depending on",
-          "correct": "the relative power of the other kingdom, Assyria's military capabilities at the moment, and the strategic value of the relationship.",
-            "wrong": ["only conquest.", "no flexibility.", "all or nothing."] },
-          { start: "The exchange of embassies and diplomatic correspondence by Assyrian kings served to",
-          "correct": "communicate demands, negotiate tributary relationships, gather intelligence, and maintain relationships with distant powers.",
-            "wrong": ["purely ceremonial.", "no real value.", "military communication only."] },
-          { start: "The Assyrian alliance with Egypt against the Medes showed that even powerful rivals could recognize mutual interests and cooperate when facing a common threat, demonstrating that",
-          "correct": "pragmatism and strategic calculation could override the typical pattern of Assyrian dominance and conquest.",
-            "wrong": ["purely unexpected.", "Assyrian policy never changed.", "no real relationships."] },
-          { start: "The Assyrian relationship with Babylonia alternated between conquest and coexistence because the region was valuable and powerful, requiring that Assyrian kings understand",
-          "correct": "that maintaining indefinite control over Babylonia required either continuous military presence or accommodation of Babylonian interests.",
-            "wrong": ["purely military control.", "no diplomatic need.", "simple conquest."] }
+          { 
+            start: "The Assyrian approach to other kingdoms included a spectrum from complete conquest to tributary relationships to diplomatic equals, depending on the relative power of the other kingdom, Assyria's military capabilities at the moment, and",
+            correct: "the strategic value of the relationship.",
+            wrong: ["cultural similarities.", "geographic proximity.", "economic benefits."] 
+          },
+          { 
+            start: "The exchange of embassies and diplomatic correspondence by Assyrian kings served to communicate demands, negotiate tributary relationships, gather intelligence, and",
+            correct: "maintain relationships with distant powers.",
+            wrong: ["establish trade networks.", "share cultural values.", "coordinate military strategy."] 
+          },
+          { 
+            start: "The Assyrian alliance with Egypt against the Medes showed that even rivals could cooperate against a common threat, demonstrating that pragmatism could override dominance and",
+            correct: "conquest.",
+            wrong: ["ambition.", "supremacy.", "control."] 
+          },
+          { 
+            start: "The Assyrian relationship with Babylonia alternated between conquest and coexistence, requiring that Assyrian kings understand that maintaining indefinite control over Babylonia required either continuous military presence or",
+            correct: "accommodation of Babylonian interests.",
+            wrong: ["diplomatic negotiations.", "cultural assimilation.", "political compromise."] 
+          }
         ]
       },
       {
         name: "Assyrian Religion & Ideology",
         emoji: "🕯️",
         quotes: [
-          { start: "The Assyrian religious system, centered on the god Ashur, reinforced royal authority because the king was understood as",
-          "correct": "the representative of Ashur and the executor of divine will, making the king's conquest and rule appear divinely sanctioned.",
-            "wrong": ["purely ceremonial.", "no political value.", "no real beliefs."] },
-          { start: "The inscription of the king's deeds on palace reliefs and in texts served religious purposes including demonstrating that",
-          "correct": "the gods favored the king and that conquest and building were evidence of divine support.",
-            "wrong": ["purely military propaganda.", "no religious function.", "only for historical record."] },
-          { start: "The religious justification for Assyrian conquest and the imposition of Assyrian rule on other peoples created an ideology where",
-          "correct": "submission to Assyria was understood as submission to divine order and Assyrian dominance as reflecting cosmic hierarchy.",
-            "wrong": ["purely military domination.", "no religious justification.", "no ideology."] },
-          { start: "The tolerance of local religions and gods by Assyrian rulers, as long as Assyrian supremacy was acknowledged, served to",
-          "correct": "integrate conquered peoples into the empire while maintaining religious legitimacy among diverse populations.",
-            "wrong": ["forced conversion.", "religious suppression.", "religious tolerance only."] }
+          { 
+            start: "The Assyrian religious system, reinforced royal authority because the king was understood as the representative of Ashur, making the king's conquest and",
+            correct: "rule appear divinely sanctioned.",
+            wrong: ["personally justified.", "politically legitimized.", "spiritually blessed."] 
+          },
+          { 
+            start: "The inscription of the king's deeds on palace reliefs and in texts served religious purposes including demonstrating that the gods favored the king and that conquest and building were evidence of",
+            correct: "divine support.",
+            wrong: ["celestial approval.", "heavenly favor.", "godly blessing."] 
+          },
+          { 
+            start: "The religious justification for Assyrian conquest and the imposition of Assyrian rule on other peoples created an ideology where submission to Assyria was understood as submission to divine order and",
+            correct: "Assyrian dominance as reflecting cosmic hierarchy.",
+            wrong: ["natural order.", "universal law.", "spiritual balance."] 
+          },
+          { 
+            start: "The tolerance of local religions and gods by Assyrian rulers, as long as Assyrian supremacy was acknowledged, served to integrate conquered peoples into the empire while",
+            correct: "maintaining religious legitimacy among diverse populations.",
+            wrong: ["preserving cultural unity.", "ensuring social stability.", "promoting imperial loyalty."] 
+          }
         ]
       },
       {
         name: "Assyrian Art & Culture",
         emoji: "🎨",
         quotes: [
-          { start: "The distinctive Assyrian artistic style—depicting scenes of hunting, warfare, ritual, and royal power—served purposes including communicating royal authority, demonstrating resources, and",
-          "correct": "telling stories of conquest and achievement that proclaimed Assyrian dominance and the king's hunting prowess.",
-            "wrong": ["purely aesthetic.", "no real communication.", "purely decorative."] },
-          { start: "The construction of palaces decorated with relief sculptures showing the king's achievements served to reinforce that",
-          "correct": "the king was the center of power, that he controlled resources and labor, and that Assyrian civilization was sophisticated.",
-            "wrong": ["purely artistic expression.", "no real purpose.", "unnecessary decoration."] },
-          { start: "The Assyrian adoption of Babylonian cultural elements—language, literature, religion—while maintaining military dominance showed that",
-          "correct": "Assyria, though militaristically dominant, recognized the cultural sophistication of Babylon and could absorb influences while maintaining political supremacy.",
-            "wrong": ["Assyrian culture was inferior.", "no real adoption.", "purely imposition of culture."] },
-          { start: "The training and status of scribes in Assyrian civilization served both practical and cultural purposes: maintaining administrative records, composing royal inscriptions, and",
-          "correct": "preserving knowledge through texts, making scribes essential to both governance and the transmission of civilization.",
-            "wrong": ["purely administrative.", "no cultural value.", "no real importance."] }
+          { 
+            start: "The distinctive Assyrian artistic style—depicting scenes of hunting, warfare, ritual, and telling stories of conquest and achievement that proclaimed Assyrian dominance and",
+            correct: "the king's hunting prowess.",
+            wrong: ["royal strength.", "imperial power.", "warrior spirit."] 
+          },
+          { 
+            start: "The construction of palaces decorated with relief sculptures showing the king's achievements served to reinforce that the king was the center of power and that Assyrian civilization was",
+            correct: "sophisticated.",
+            wrong: ["advanced.", "cultured.", "refined."] 
+          },
+          { 
+            start: "The Assyrian adoption of Babylonian cultural elements—language, religion—while maintaining military dominance showed that Assyria recognized the cultural sophistication of Babylon and could",
+            correct: "absorb influences while maintaining political supremacy.",
+            wrong: ["blend traditions successfully.", "integrate cultures effectively.", "preserve dominance."] 
+          },
+          { 
+            start: "The training and status of scribes in Assyrian civilization served both practical and cultural purposes: maintaining administrative records, preserving knowledge through texts, making scribes essential to both",
+            correct: "governance and the transmission of civilization.",
+            wrong: ["state power and learning.", "administration and knowledge.", "rule and culture."] 
+          }
         ]
       },
       {
         name: "Assyrian Decline & Fall",
         emoji: "📜",
         quotes: [
-          { start: "The fall of the Assyrian Empire came from a combination of factors: the weakness of late Assyrian kings, the rise of the Medes and Babylonians as rivals, and",
-          "correct": "the fragmentation of Assyrian military and political unity that had been maintained only through continuous strong leadership.",
-            "wrong": ["single military defeat.", "inevitable collapse.", "purely external conquest."] },
-          { start: "The rapid destruction of Nineveh and the complete destruction of Assyrian power by 609 BCE demonstrated that",
-          "correct": "an empire built primarily on military dominance and fear, without deep roots in the population or stable institutions, could collapse quickly when military power failed.",
-            "wrong": ["weak empire from the start.", "no real power.", "inevitable decline."] },
-          { start: "The final years of the Assyrian Empire, with Assyrian forces fighting defensive campaigns and losing territory, showed that",
-          "correct": "even the greatest military powers cannot maintain dominance indefinitely when facing determined rivals with comparable resources.",
-            "wrong": ["Assyrian weakness was always present.", "no real threat emerged.", "purely internal."] },
-          { start: "The legacy of Assyria included the demonstration that a militarily sophisticated empire with advanced administration and infrastructure could dominate vast territories, but also that",
-          "correct": "empires built primarily on fear and military force, without deeper cultural or social bonds with subject peoples, were vulnerable to collapse.",
-            "wrong": ["no real legacy.", "purely destructive power.", "no civilization."] },
-          { start: "The Assyrian Library at Nineveh, preserved through the empire's destruction, created a legacy of knowledge that would influence the Persian, Greek, and future civilizations, showing that",
-          "correct": "cultural and intellectual achievements could transcend military and political collapse.",
-            "wrong": ["purely lost.", "no real value.", "destroyed with the empire."] }
+          { 
+            start: "The fall of the Assyrian Empire came from a combination of factors: the weakness of late Assyrian kings, the fragmentation of Assyrian military and political unity that had been maintained only through",
+            correct: "continuous strong leadership.",
+            wrong: ["military dominance.", "centralized control.", "authoritarian rule."] 
+          },
+          { 
+            start: "The rapid destruction of Nineveh and the complete destruction of Assyrian power by 609 BCE demonstrated that an empire built primarily on military dominance and fear",
+            correct: "could collapse quickly when military power failed.",
+            wrong: ["was ultimately fragile.", "lacked true foundation.", "faced inevitable decline."] 
+          },
+          { 
+            start: "The final years of the Assyrian Empire, with Assyrian forces fighting defensive campaigns and losing territory, showed that even the greatest military powers cannot maintain dominance indefinitely when facing determined rivals with",
+            correct: "comparable resources.",
+            wrong: ["equal strength.", "sufficient power.", "adequate forces."] 
+          },
+          { 
+            start: "The legacy of Assyria included the demonstration that a militarily sophisticated empire with advanced administration and infrastructure could dominate vast territories, but also that empires built primarily on fear and military force,",
+            correct: "were vulnerable to collapse.",
+            wrong: ["lacked permanence.", "faced instability.", "had weakness."] 
+          },
+          { 
+            start: "The Assyrian Library at Nineveh created a legacy of knowledge that would influence the Persian, Greek, and future civilizations, showing that cultural and intellectual achievements could",
+            correct: "transcend military and political collapse.",
+            wrong: ["survive empires.", "outlast nations.", "endure civilizations."] 
+          }
         ]
       },
       {
         name: "Assyrian Scribes & Intellectual Life",
         emoji: "📜",
         quotes: [
-          { start: "Assyrian scribes held high status in society and served crucial functions including maintaining administrative records, composing royal inscriptions, and",
-          "correct": "preserving literary and scholarly texts from Assyria and Babylonia, making them essential to both governance and culture.",
-            "wrong": ["purely administrative.", "no real authority.", "no cultural importance."] },
-          { start: "The Assyrian practice of copying and preserving Babylonian literary works, particularly the Epic of Gilgamesh, shows that Assyrian rulers understood that",
-          "correct": "controlling and preserving prestigious texts and knowledge enhanced the prestige of the kingdom and created cultural legitimacy.",
-            "wrong": ["purely literary interest.", "no political value.", "unnecessary expense."] },
-          { start: "The composition of royal inscriptions, which recorded the king's deeds, campaigns, and achievements, served purposes including historical record, religious justification, and",
-          "correct": "propaganda that proclaimed Assyrian power and success to both subjects and enemies.",
-            "wrong": ["purely historical record.", "no political purpose.", "no real audience."] },
-          { start: "The development of cuneiform administrative systems that could record complex information about taxes, tribute, military organization, and personnel showed that",
-          "correct": "Assyria had a sophisticated bureaucracy capable of managing vast empire through written records.",
-            "wrong": ["no real administration.", "purely ceremonial.", "no real organization."] }
+          { 
+            start: "Assyrian scribes held high status in society and served crucial functions including maintaining administrative records, preserving literary and scholarly texts from Assyria and Babylonia,",
+            correct: "making them essential to both governance and culture.",
+            wrong: ["purely administrative.", "no real authority.", "no cultural importance."] 
+          },
+          { 
+            start: "The Assyrian practice of copying and preserving Babylonian literary works shows that Assyrian rulers understood that controlling and knowledge enhanced the prestige of the kingdom and",
+            correct: "created cultural legitimacy.",
+            wrong: ["displayed intellectual power.", "demonstrated superiority.", "established authority."] 
+          },
+          { 
+            start: "The composition of royal inscriptions, which recorded the king's deeds, campaigns, and achievements, served purposes including historical record and propaganda that proclaimed Assyrian power and",
+            correct: "success to both subjects and enemies.",
+            wrong: ["strength to rivals.", "dominance to others.", "authority to all."] 
+          },
+          { 
+            start: "The development of cuneiform administrative systems that could record complex information about taxes and personnel showed that Assyria had a sophisticated bureaucracy capable of",
+            correct: "managing vast empire through written records.",
+            wrong: ["controlling territories.", "organizing resources.", "governing populations."] 
+          }
         ]
       },
       {
         name: "Assyrian Economic Systems & Trade",
         emoji: "💰",
         quotes: [
-          { start: "The Assyrian economy was based on conquest and the extraction of tribute because the empire maintained military forces and built infrastructure through",
-          "correct": "the wealth taken from conquered territories, taxes levied on subject peoples, and the control of valuable resources.",
-            "wrong": ["purely agricultural wealth.", "internal production alone.", "no real economy."] },
-          { start: "The control of trade routes and valuable resources by Assyrian territories meant that",
-          "correct": "merchants conducting trade had to pay tolls and taxes to Assyrian authorities, providing revenue for the empire.",
-            "wrong": ["trade was discouraged.", "no real revenue.", "purely military concerns."] },
-          { start: "The exploitation of subject peoples through taxation and forced labor served to enrich the Assyrian heartland and provide resources for military campaigns, but also created",
-          "correct": "resentment and the constant threat of rebellion that required military garrisons and the periodic use of brutal force.",
-            "wrong": ["no real resistance.", "people accepted happily.", "no real resentment."] },
-          { start: "The Assyrian accumulation of tribute and goods from across the empire created wealth that allowed rulers to demonstrate power through building projects, but this system was vulnerable to",
-          "correct": "collapse if military power failed and conquered peoples could revolt.",
-            "wrong": ["purely stable.", "no real vulnerability.", "permanent system."] }
+          { 
+            start: "The Assyrian economy was based on conquest and the extraction of tribute because the empire maintained military forces and built infrastructure through the wealth taken from conquered territories and",
+            correct: "the control of valuable resources.",
+            wrong: ["purely agricultural wealth.", "internal production alone.", "no real economy."] 
+          },
+          { 
+            start: "The control of trade routes and valuable resources by Assyrian territories meant that merchants conducting trade had to pay tolls and taxes to Assyrian authorities,",
+            correct: "providing revenue for the empire.",
+            wrong: ["funding local governments.", "enriching merchants.", "supporting commerce."] 
+          },
+          { 
+            start: "The exploitation of subject peoples through taxation and forced labor served to enrich the Assyrian heartland and provide resources for military campaigns, but also created constant threat of rebellion that required military garrisons and",
+            correct: "the periodic use of brutal force.",
+            wrong: ["strict laws.", "violent repression.", "harsh punishment."] 
+          },
+          { 
+            start: "The Assyrian accumulation of tribute and goods allowed rulers to demonstrate power through building projects, but this system was vulnerable to collapse if military power failed and",
+            correct: "conquered peoples could revolt.",
+            wrong: ["the empire weakened.", "rebellions erupted.", "control was lost."] 
+          }
         ]
       }
     ]
@@ -5613,62 +6119,87 @@ export const CIVILIZATIONS = [
         name: "Maya Kings (K'uhul Ajaw) - Historical Records",
         emoji: "👑",
         quotes: [
-          { start: "A Maya king's authority came from his role as intermediary between the human and divine worlds because the people believed that",
-          "correct": "the king could communicate with the gods and ensure the continuation of cosmic cycles necessary for survival.",
-            "wrong": ["purely political power.", "military force alone.", "no religious role."] },
-          { start: "The construction of temple-pyramids and palaces served to demonstrate that a king possessed", "correct": "the ability to command vast labor forces, accumulate resources, and establish a lasting monument to his divine authority.",
-            "wrong": ["purely ceremonial.", "no real purpose.", "only for priests."] },
-          { start: "Maya kings conducted rituals including bloodletting (auto-sacrifice) because they believed that",
-          "correct": "the shedding of royal blood sustained the cosmos and ensured the continued motion of celestial bodies.",
-            "wrong": ["purely superstitious.", "no real belief.", "purely ceremonial."] },
-          { start: "The warfare conducted between Maya city-states served multiple purposes: capturing enemies for sacrifice, acquiring tribute, and",
-          "correct": "establishing dominance and the prestige of the king and his city.",
-            "wrong": ["purely conquest for territory.", "no other purposes.", "random aggression."] },
-          { start: "A successful Maya king demonstrated his power through commissioning inscriptions on stelae and altars recording his victories, ancestry, and divine connections because",
-          "correct": "these texts proclaimed his achievements, legitimized his rule, and ensured his memory would endure.",
-            "wrong": ["purely for display.", "no real purpose.", "no actual communication."] },
-          { start: "The organization of Maya kingdoms into city-states meant that a king's power extended primarily over",
-          "correct": "his immediate urban center and surrounding territory, with influence but not direct control over other city-states.",
-            "wrong": ["vast empires.", "centralized control.", "no real limitation."] },
-          { start: "The decline and abandonment of major Maya cities in the Classic period showed that even sophisticated rulers could not prevent",
-          "correct": "the collapse of their kingdoms when facing environmental stress, warfare, or the breakdown of trade networks.",
-            "wrong": ["purely military defeat.", "inevitable fate.", "weakness from the start."] }
+          { 
+              start: "A Maya king's authority came from his role as intermediary between the human and divine worlds because the people believed that the king could communicate with the gods and ensure the continuation of cosmic cycles necessary for",
+              correct: "survival.",
+              wrong: ["prosperity.", "stability.", "harmony."] 
+            },
+            { 
+              start: "The construction of temple-pyramids and palaces served to demonstrate that a king possessed the ability to command vast labor forces, accumulate resources, and", 
+              correct: "establish a lasting monument to his divine authority.",
+              wrong: ["create symbols of power.", "display his wealth.", "immortalize his reign."] 
+            },
+            { 
+              start: "Maya kings conducted rituals including bloodletting (auto-sacrifice) because they believed that the shedding of royal blood sustained the cosmos and",
+              correct: "ensured the continued motion of celestial bodies.",
+              wrong: ["maintained cosmic order.", "preserved the world.", "sustained life force."] 
+            },
+            { 
+              start: "The warfare conducted between Maya city-states served multiple purposes: capturing enemies for sacrifice, establishing dominance and",
+              correct: "the prestige of the king and his city.",
+              wrong: ["royal honor.", "political supremacy.", "territorial expansion."] 
+            },
+            { 
+              start: "A successful Maya king demonstrated his power through commissioning inscriptions on stelae and altars recording his victories and divine connections because these texts proclaimed his achievements and",
+              correct: "ensured his memory would endure.",
+              wrong: ["preserved his legacy.", "immortalized his name.", "celebrated his deeds."] 
+            },
+            { 
+              start: "The organization of Maya kingdoms into city-states meant that a king's power extended primarily over his immediate urban center and surrounding territory, with influence but not direct control over",
+              correct: "other city-states.",
+              wrong: ["distant regions.", "neighboring kingdoms.", "rival powers."] 
+            },
+            { 
+              start: "The decline and abandonment of major Maya cities in the Classic period showed that even sophisticated rulers could not prevent the collapse of their kingdoms when facing environmental stress, warfare, or",
+              correct: "the breakdown of trade networks.",
+              wrong: ["economic decline.", "social upheaval.", "political fragmentation."] 
+            }
         ]
       },
       {
         name: "Maya Astronomy & Calendar Systems",
         emoji: "🌌",
         quotes: [
-          { start: "The Maya development of the Long Count calendar—a system counting days from a base date in 3114 BCE—demonstrated that Maya astronomers possessed sophisticated mathematical and",
-          "correct": "chronological knowledge.",
-            "wrong": ["inaccurate timekeeping systems.", "no real accuracy.", "no practical value."] },
-          { start: "The accuracy of Maya astronomical predictions, including solar and lunar eclipses, came from",
-          "correct": "centuries of careful observation.",
-            "wrong": ["purely spiritual knowledge.", "luck and chance.", "no real science."] },
-          { start: "The 260-day tzolkin (sacred calendar) and the 365-day haab' (solar calendar) worked together in a 52-year cycle because Maya priests understood that this combined system tracked",
-          "correct": "both ritual time and seasonal time.",
-            "wrong": ["unconnected festival dates.", "only political record keeping.", "random astronomical guesses."] },
-          { start: "The importance of astronomical knowledge to Maya rulers came from the belief that understanding and predicting celestial events demonstrated",
-          "correct": " the king's connection to divine forces.",
-            "wrong": ["basic technical skill.", "no real power.", "simple scholarly interest."] },
-          { start: "The Maya creation myth, encoded in the Popol Vuh and reflected in astronomical knowledge, linked the movements of Venus to events in the divine realm because Maya cosmology understood the sky as",
-          "correct": " the domain where divine forces operated.",
-            "wrong": ["a purely physical space.", "a random celestial pattern.", "an unrelated natural system."] }
+          { 
+            start: "The Maya development of the Long Count calendar—a system counting days from a base date in 3114 BCE—demonstrated that Maya astronomers possessed sophisticated mathematical and",
+            correct: "chronological knowledge.",
+            wrong: ["computational skills.", "numerical systems.", "calendrical understanding."] 
+          },
+          { 
+            start: "The accuracy of Maya astronomical predictions, including solar and lunar eclipses, came from centuries of careful",
+            correct: "observation.",
+            wrong: ["study.", "records.", "tracking."] 
+          },
+          { 
+            start: "The 260-day tzolkin (sacred calendar) and the 365-day haab' (solar calendar) worked together in a 52-year cycle because Maya priests understood that this combined system tracked both ritual time and",
+            correct: "seasonal time.",
+            wrong: ["natural cycles.", "agricultural periods.", "annual patterns."] 
+          },
+          { 
+            start: "The importance of astronomical knowledge to Maya rulers came from the belief that understanding and predicting celestial events demonstrated the king's connection to",
+            correct: "divine forces.",
+            wrong: ["the gods.", "spiritual power.", "celestial realms."] 
+          },
+          { 
+            start: "The Maya creation myth, encoded in the Popol Vuh and reflected in astronomical knowledge, linked the movements of Venus to events in the divine realm because Maya cosmology understood the sky as the domain where divine forces",
+            correct: "operated.",
+            wrong: ["ruled.", "dwelled.", "manifested."] 
+          }
         ]
       },
       {
         name: "Maya Writing & Intellectual Achievement",
         emoji: "📜",
         quotes: [
-          { start: "The Maya development of a complete writing system—including logograms and phonetic signs—was a major intellectual achievement because it allowed for",
-          "correct": "the recording of history, religious knowledge.",
-            "wrong": ["simple pictorial decoration.", "limited symbolic marking.", "ornamental use only."] },
+          { start: "The Maya development of a complete writing system—including logograms and phonetic signs—was a major intellectual achievement because it allowed for the recording of history and",
+          "correct": "religious knowledge.",
+            "wrong": ["random marks.", "visual art.", "daily gossip."] },
           { start: "Maya scribes, who held high status in society and were often members of the royal family, served the crucial function of recording royal achievements, maintaining historical records and",
           "correct": "serving as advisors to kings.",
-            "wrong": ["recording minor daily events.", "decorating temple walls.", "had no influence."] },
-          { start: "The contents of Maya texts, recorded on stelae, altars, codices, and buildings, included information about rulers, dates, rituals, and astronomical observations, genealogies, and",
-          "correct": "accounts of warfare and divine events.",
-            "wrong": ["only religious content.", "no historical information.", "basic ceremonial notes."] },
+            "wrong": ["daily events.", "decorating temple walls.", "had no influence."] },
+          { start: "The contents of Maya texts, recorded on stelae, altars, codices, and buildings, included information about rulers, dates, rituals, and astronomical observations, genealogies, and accounts of warfare and",
+          "correct": "divine events.",
+            "wrong": ["religious content.", "no historical information.", "basic ceremonial notes."] },
           { start: "The preservation of Maya texts in codices (bound bark-paper books) allowed for the transmission of knowledge because these documents could record detailed information about",
           "correct": "astronomy, medicine, ritual, mathematics.",
             "wrong": ["simple mythic symbols.", "purely religious texts.", "oral storytelling only."] },
@@ -5684,24 +6215,36 @@ export const CIVILIZATIONS = [
         name: "Maya Architecture & Urban Planning",
         emoji: "🏛️",
         quotes: [
-          { start: "The construction of monumental buildings at Maya cities—pyramids, palaces, temples—served to demonstrate that rulers possessed control over vast labor forces and",
-          "correct": "the ability to organize and execute complex projects.",
-            "wrong": ["purely symbolic gestures.", "no other function.", "simple decorative intentions."] },
-          { start: "The arrangement of buildings around plazas at Maya cities served multiple purposes: religious ceremonies, public gatherings, markets, and",
-          "correct": "the display of royal power.",
-            "wrong": ["purely military layout.", "purely residential use.", "accidental urban layout."] },
-          { start: "The sophisticated water management systems at Maya cities—reservoirs, canals, and drainage—show that builders understood the importance of controlling water in a tropical environment where",
-          "correct": " rainfall was seasonal and unpredictable.",
-            "wrong": ["water was always abundant.", "rivers never changed course.", "rivers never changed level."] },
-          { start: "The use of corbelled (false) arches in Maya architecture, rather than true arches with keystones, reflects that Maya architects developed an engineering solution",
-          "correct": "appropriate to their materials and technology.",
-            "wrong": ["due to architectural limitation.", "due to inferior design.", "due to lack of knowledge."] },
-          { start: "The decorative arts—sculpture, painting, stucco work—that adorned Maya buildings served to glorify rulers and",
-          "correct": "demonstrate the sophistication of Maya culture.",
-            "wrong": ["avoid any symbolic meaning.", "serve only as decoration.", "replace written communication."] },
-          { start: "The location of major Maya cities in the rainforest, often at considerable distances from each other, required that rulers establish trade networks and",
-          "correct": "establish relationships with other cities to ensure survival.",
-            "wrong": ["avoid interaction with neighbors.", "reject external contact entirely.", "independent cities only."] }
+          { 
+            start: "The construction of monumental buildings at Maya cities—pyramids, palaces, temples—served to demonstrate that rulers possessed control over vast labor forces and the ability to organize and",
+            correct: "execute complex projects.",
+            wrong: ["direct resources.", "mobilize workers.", "complete construction."] 
+          },
+          { 
+            start: "The arrangement of buildings around plazas at Maya cities served multiple purposes: religious ceremonies, public gatherings, markets, and the display of",
+            correct: "royal power.",
+            wrong: ["state authority.", "political control.", "divine favor."] 
+          },
+          { 
+            start: "The sophisticated water management systems at Maya cities—reservoirs, canals, and drainage—show that builders understood the importance of controlling water in a tropical environment where rainfall was seasonal and",
+            correct: "unpredictable.",
+            wrong: ["variable.", "inconsistent.", "erratic."] 
+          },
+          { 
+            start: "The use of corbelled (false) arches in Maya architecture, rather than true arches with keystones, reflects that Maya architects developed an engineering solution appropriate to their materials and",
+            correct: "technology.",
+            wrong: ["resources.", "available methods.", "building techniques."] 
+          },
+          { 
+            start: "The decorative arts—sculpture, painting, stucco work—that adorned Maya buildings served to glorify rulers and demonstrate the sophistication of",
+            correct: "Maya culture.",
+            wrong: ["royal courts.", "artistic traditions.", "elite society."] 
+          },
+          { 
+            start: "The location of major Maya cities in the rainforest, often at considerable distances from each other, required that rulers establish trade networks and establish relationships with other cities to",
+            correct: "ensure survival.",
+            wrong: ["maintain prosperity.", "expand influence.", "build alliances."] 
+          }
         ]
       },
       {
@@ -5712,8 +6255,8 @@ export const CIVILIZATIONS = [
           "correct": "they could be grown together in the same field.",
             "wrong": ["they must be grown separately.", "they could only grow in different seasons.", "they required constant rotation."] },
           { start: "The construction of terraces, raised fields, and reservoirs in the Maya landscape shows that farmers understood how to adapt agriculture to tropical soil conditions and",
-          "correct": " maximize yields in a challenging environment.",
-            "wrong": ["avoid agricultural work entirely.", "depend only on wild food sources.", "ignore environmental constraints."] },
+          "correct": "maximize yields in a challenging environment.",
+            "wrong": ["avoid agricultural work.", "depend only on wild food sources.", "ignore environmental constraints."] },
           { start: "The population of major Maya cities required agricultural surplus because the urban population needed to be fed by",
           "correct": "the farmers of surrounding territories.",
             "wrong": ["hunting and gathering alone.", "imported food.", "no real agriculture."] },
@@ -5738,11 +6281,11 @@ export const CIVILIZATIONS = [
           { start: "The Maya religious emphasis on blood and water as life forces led to ritual practices including bloodletting ceremonies and",
           "correct": "the ritual use of water in ceremonies.",
             "wrong": ["purely violent.", "seasonal offerings.", "ancestral rites."] },
-          { start: "The role of royal lineages in Maya cosmology meant that rulers were understood as embodying continuity with divine ancestors and",
-          "correct": "as essential to maintaining the order of the cosmos.",
-            "wrong": ["as symbols of unity.", "as sources of authority.", "as heirs to power."] },
-          { start: "The Maya ball game (pitz), depicted in art and described in texts, held religious significance because it likely represented a symbolic enactment of cosmic forces and",
-          "correct": "the struggle between creation and destruction.",
+          { start: "The role of royal lineages in Maya cosmology meant that rulers were understood as embodying continuity with divine ancestors and as",
+          "correct": "essential to maintaining the order of the cosmos.",
+            "wrong": ["symbols of unity.", "sources of authority.", "heirs to power."] },
+          { start: "The Maya ball game (pitz), depicted in art and described in texts, held religious significance because it likely represented a symbolic enactment of cosmic forces and the struggle between creation and",
+          "correct": "destruction.",
             "wrong": ["seasonal cycles.", "royal authority.", "social hierarchy."] },
           { start: "The relationship between Maya rulers and the divine realm was understood as reciprocal—the ruler maintained the cosmos through ritual, and the gods ensured that the crops grew, the rains came, and",
           "correct": "the kingdom prospered.",
@@ -5753,108 +6296,150 @@ export const CIVILIZATIONS = [
         name: "Maya Warfare & Captive Taking",
         emoji: "⚔️",
         quotes: [
-          { start: "Maya warfare, depicted in art and described in inscriptions, served purposes beyond territorial conquest: capturing enemies to be sacrificed, taking tribute, and establishing the military dominance of the victor and",
-          "correct": "the prestige of the king.",
-            "wrong": ["purely conquest for land.", "no other purposes.", "random violence."] },
-          { start: "The practice of taking captives and holding them for sacrifice shows that Maya rulers understood warfare as having religious significance because the sacrifice of captives was believed to",
-          "correct": "sustain the cosmos and ensure its continuation.",
-            "wrong": ["serve only as an act of cruelty.", "have no meaningful purpose.", "exist solely to spread fear."] },
-          { start: "The concentration of captive-taking warfare in the Late Classic period, as reflected in inscriptions, suggests that the increasing need for captives for sacrifice may have reflected",
-          "correct": "rulers' need to appease the gods.",
-            "wrong": ["purely random increase.", "no real reason.", "senseless violence."] },
-          { start: "The alliance systems and vassal relationships described in Maya inscriptions show that warfare was sometimes about establishing dominance without conquest, requiring that defeated rulers accept subordinate status while",
-          "correct": "retaining their thrones and territories.",
-            "wrong": ["complete conquest and replacement.", "lose all political authority.", "face total destruction of their cities."] }
+          { 
+            start: "Maya warfare, depicted in art and described in inscriptions, served purposes beyond territorial conquest: capturing enemies to be sacrificed, taking tribute, and establishing the military dominance of the victor and",
+            correct: "the prestige of the king.",
+            wrong: ["royal authority.", "divine favor.", "state power."] 
+          },
+          { 
+            start: "The practice of taking captives and holding them for sacrifice shows that Maya rulers understood warfare as having religious significance because the sacrifice of captives was believed to sustain the cosmos and",
+            correct: "ensure its continuation.",
+            wrong: ["maintain balance.", "preserve order.", "sustain life."] 
+          },
+          { 
+            start: "The concentration of captive-taking warfare in the Late Classic period, as reflected in inscriptions, suggests that the increasing need for captives for sacrifice may have reflected rulers' need to appease",
+            correct: "the gods.",
+            wrong: ["divine powers.", "celestial forces.", "spiritual entities."] 
+          },
+          { 
+            start: "The alliance systems and vassal relationships described in Maya inscriptions show that warfare was sometimes about establishing dominance without conquest, requiring that defeated rulers accept subordinate status while retaining their thrones and",
+            correct: "territories.",
+            wrong: ["lands.", "domains.", "regions."] 
+          }
         ]
       },
       {
         name: "Maya Trade & Economic Systems",
         emoji: "💰",
         quotes: [
-          { start: "The evidence of trade goods at Maya sites—obsidian from highlands, jade from specific sources, shells from coasts—demonstrates that Maya cities participated in",
-          "correct": "extensive trade networks exchanging valued materials across the region.",
-            "wrong": ["purely local trade.", "no external contact.", "isolated cities."] },
-          { start: "The control of trade routes and valuable resources by powerful Maya cities gave rulers significant economic and political power because they could accumulate wealth and",
-          "correct": "establish relationships with distant cities.",
-            "wrong": ["focus only on local economic activity.", "have no impact on political influence.", "gain no lasting advantage from trade."] },
-          { start: "The development of merchant classes and trading guilds in Maya society suggests that successful merchants",
-          "correct": "held important social positions.",
-            "wrong": ["had little influence in society.", "operated without any organization.", "played no significant economic role."] },
-          { start: "The use of cacao as a medium of exchange in Maya society shows that this valuable product served both practical and economic purposes: it was consumed by elites and",
-          "correct": "traded across long distances.",
-            "wrong": ["used only for ritual purposes.", "had no real exchange value.", "served no practical function."] }
+          { 
+            start: "The evidence of trade goods at Maya sites—obsidian from highlands, jade from specific sources, shells from coasts—demonstrates that Maya cities participated in extensive trade networks exchanging valued",
+            correct: "materials across the region.",
+            wrong: ["goods throughout lands.", "items between cities.", "products across areas."] 
+          },
+          { 
+            start: "The control of trade routes and valuable resources by powerful Maya cities gave rulers significant economic and political power because they could accumulate wealth and establish relationships with",
+            correct: "distant cities.",
+            wrong: ["other rulers.", "rival kingdoms.", "neighboring powers."] 
+          },
+          { 
+            start: "The development of merchant classes and trading guilds in Maya society suggests that successful merchants held important",
+            correct: "social positions.",
+            wrong: ["political roles.", "economic status.", "community standing."] 
+          },
+          { 
+            start: "The use of cacao as a medium of exchange in Maya society shows that this valuable product served both practical and economic purposes: it was consumed by elites and",
+            correct: "traded across long distances.",
+            wrong: ["valued by nobility.", "exchanged widely.", "used commercially."] 
+          }
         ]
       },
       {
         name: "Maya Society & Social Hierarchy",
         emoji: "🏛️",
         quotes: [
-          { start: "Maya society was organized into distinct classes: the royal family and nobility, priests and scribes, merchants and craftspeople, farmers, and enslaved persons because",
-          "correct": "this hierarchy allowed for specialization.",
-            "wrong": ["it was completely egalitarian.", "there was no real social structure.", "roles were assigned randomly."] },
-          { start: "The role of women in Maya society included serving as regents, advising rulers, managing households, and potentially conducting religious ceremonies because women",
-          "correct": "of elite status held real power.",
-            "wrong": ["had no authority.", "had purely domestic roles.", "had no influence."] },
-          { start: "The status of captured enemies as slaves showed that Maya society had a system where defeated individuals could be incorporated into society at the lowest level through",
-          "correct": "enslavement.",
-            "wrong": ["purely sacrificial.", "no other purpose.", "no integration."] },
-          { start: "The concentration of authority and resources in the royal family meant that a ruler's children and relatives occupied positions of power, creating networks of kinship and obligation that could be mobilized for",
-          "correct": " military purposes.",
-            "wrong": ["purely ceremonial positions.", "no real power.", "equal opportunity."] }
+          { 
+            start: "Maya society was organized into distinct classes: the royal family and nobility, priests and scribes, merchants and craftspeople, farmers, and enslaved persons because this hierarchy allowed for",
+            correct: "specialization.",
+            wrong: ["social order.", "social control.", "political order."] 
+          },
+          { 
+            start: "The role of women in Maya society included serving as regents, advising rulers, managing households, and potentially conducting religious ceremonies because women of elite status held",
+            correct: "real power.",
+            wrong: ["social influence.", "religious authority.", "administrative roles."] 
+          },
+          { 
+            start: "The status of captured enemies as slaves showed that Maya society had a system where defeated individuals could be incorporated into society at the lowest level through",
+            correct: "enslavement.",
+            wrong: ["servitude.", "bondage.", "captivity."] 
+          },
+          { 
+            start: "The concentration of authority and resources in the royal family meant that a ruler's children and relatives occupied positions of power, creating networks of kinship and obligation that could be mobilized for",
+            correct: "military purposes.",
+            wrong: ["political gain.", "territorial expansion.", "warfare."] 
+          }
         ]
       },
       {
         name: "Maya Art & Aesthetics",
         emoji: "🎨",
         quotes: [
-          { start: "The distinctive Maya artistic style—featuring naturalistic human figures, complex compositions, and detailed iconographic elements—developed because artists worked",
-          "correct": "within royal courts.",
-            "wrong": ["without purely spontaneous development.", "with no real tradition.", "with no patronage."] },
-          { start: "The subjects of Maya art—including rulers, gods, battles, and mythological scenes—served to communicate religious narratives, and",
-          "correct": "the divine authority of rulers.",
-            "wrong": ["was purely decorative.", "had no real communication.", "was purely aesthetic."] },
-          { start: "The precision and sophistication of Maya sculpture, painting, and ceramic production indicate that Maya artists possessed",
-          "correct": "technical mastery.",
-            "wrong": ["primitive techniques.", "no real skill.", "purely spontaneous creation."] },
-          { start: "The placement of artworks in temples, palaces, and tombs served to communicate the wealth, power, and divine connections of rulers and provided",
-          "correct": "lasting records of royal achievements.",
-            "wrong": ["purely decorative.", "no real communication.", "purely for the afterlife."] }
+          { 
+            start: "The distinctive Maya artistic style—featuring naturalistic human figures, complex compositions, and detailed iconographic elements—developed because artists worked",
+            correct: "within royal courts.",
+            wrong: ["for temples.", "in workshops.", "under patronage."] 
+          },
+          { 
+            start: "The subjects of Maya art—including rulers, gods, battles, and mythological scenes—served to communicate religious narratives, and",
+            correct: "the divine authority of rulers.",
+            wrong: ["cultural values.", "historical events.", "social beliefs."] 
+          },
+          { 
+            start: "The precision and sophistication of Maya sculpture, painting, and ceramic production indicate that Maya artists possessed",
+            correct: "technical mastery.",
+            wrong: ["artistic genius.", "creative skill.", "professional training."] 
+          },
+          { 
+            start: "The placement of artworks in temples, palaces, and tombs served to communicate the wealth, power, and divine connections of rulers and provided",
+            correct: "lasting records of royal achievements.",
+            wrong: ["evidence of status.", "displays of power.", "tributes to gods."] 
+          }
         ]
       },
       {
         name: "Maya Decline & Historical Significance",
         emoji: "📜",
         quotes: [
-          { start: "The decline and abandonment of major Classic period Maya cities came from multiple factors: environmental stress (drought), warfare between cities, the breakdown of trade networks, and",
-          "correct": "the fragmentation of political authority.",
-            "wrong": ["purely external conquest.", "single cause.", "inevitable collapse."] },
-          { start: "The collapse of the Classic period Maya civilization by around 900 CE demonstrates that even sophisticated societies with advanced mathematics, astronomy, and writing systems are",
-          "correct": "vulnerable to environmental stress.",
-            "wrong": ["purely weak civilization.", "inherently weak civilizations.", "destined for inevitable failure."] },
-          { start: "Maya civilization survived the Classic collapse because",
-          "correct": "its culture continued in the Post-Classic period.",
-            "wrong": ["it was completely destroyed.", "there was no cultural continuity.", "its end was inevitable and total."] },
-          { start: "The legacy of the Maya civilization includes contributions to mathematics (zero, base-20 system), astronomy (accurate eclipse predictions), writing and",
-          "correct": "literature, art, architecture.",
-            "wrong": ["no real legacy.", "no actual contributions.", "purely regional impact."] },
-          { start: "The study of Maya civilization demonstrates that the Americas developed sophisticated civilizations with complex cities and written systems",
-          "correct": "independent of Old World influence.",
-            "wrong": ["with no use.", "with no real civilization.", "inferior to Old World."] }
+          { 
+            start: "The decline and abandonment of major Classic period Maya cities came from multiple factors: environmental stress (drought), warfare between cities, the breakdown of trade networks, and",
+            correct: "the fragmentation of political authority.",
+            wrong: ["social inequality.", "religious conflict.", "economic decline."] 
+          },
+          { 
+            start: "The collapse of the Classic period Maya civilization by around 900 CE demonstrates that even sophisticated societies with advanced mathematics, astronomy, and writing systems are",
+            correct: "vulnerable to environmental stress.",
+            wrong: ["susceptible to collapse.", "affected by drought.", "dependent on resources."] 
+          },
+          { 
+            start: "Maya civilization survived the Classic collapse because its culture continued in the",
+            correct: "Post-Classic period.",
+            wrong: ["later era.", "subsequent age.", "following centuries."] 
+          },
+          { 
+            start: "The legacy of the Maya civilization includes contributions to mathematics (zero, base-20 system), astronomy (accurate eclipse predictions), writing and",
+            correct: "literature, art, architecture.",
+            wrong: ["law.", "music.", "dance."] 
+          },
+          { 
+            start: "The study of Maya civilization demonstrates that the Americas developed sophisticated civilizations with complex cities and written systems",
+            correct: "independent of Old World influence.",
+            wrong: ["without external help.", "without foreign contact.", "in isolation."] 
+          }
         ]
       },
       {
         name: "Maya Medicine & Healing Knowledge",
         emoji: "💊",
         quotes: [
-          { start: "The Maya development of medical knowledge, preserved in texts and inferred from archaeological evidence, included understanding of",
-          "correct": "herbal remedies and surgical procedures.",
-            "wrong": ["purely magical healing.", "no real knowledge.", "religion."] },
-          { start: "Maya medical practitioners, including those trained in the use of plants and surgical techniques, served both practical and spiritual purposes because illness was understood as having",
-          "correct": "both physical and spiritual causes requiring treatment addressing both dimensions.",
-            "wrong": ["purely supernatural causes.", "no real medicine.", "only spiritual healing."] },
-          { start: "The discovery of trepanation (skull surgery) evidence among Maya skeletal remains indicates that",
-          "correct": "Maya healers possessed surgical skill.",
-            "wrong": ["it was done without medical knowledge.", "it only resulted in frequent death.", "it required no specialized training."] }
+          { start: "The Maya development of medical knowledge, preserved in texts and inferred from archaeological evidence, included understanding of herbal remedies and",
+          "correct": "surgical procedures.",
+            "wrong": ["magic only.", "basic healing.", "no surgery."] },
+          { start: "Maya medical practitioners served both practical and spiritual purposes because illness was understood as having both physical and spiritual causes requiring",
+          "correct": "treatment addressing both dimensions.",
+            "wrong": ["single treatment.", "no real treatment.", "no real impact."] },
+          { start: "The discovery of trepanation (skull surgery) evidence among Maya skeletal remains indicates that Maya healers possessed",
+          "correct": "surgical skill.",
+            "wrong": ["no real skill.", "no real knowledge.", "no real impact."] }
         ]
       },
       {
@@ -5886,7 +6471,7 @@ export const CIVILIZATIONS = [
         name: "Ezana of Axum (Expansion & Conversion to Christianity)",
         emoji: "👑",
         quotes: [
-          { start: "I conquered the kingdom of Kush and established Axumite dominance in the region by combining military campaigns with the establishment of administrative control and the winning of", "correct": "local populations' acceptance.", "wrong": ["pure conquest alone.", "no follow-up governance.", "military force only."] },
+          { start: "I conquered the kingdom of Kush and established Axumite dominance in the region by combining military campaigns with the establishment of administrative control and the winning of", "correct": "local populations' acceptance.", "wrong": ["forced submission.", "constant fear.", "total destruction."] },
           { start: "My conversion to Christianity and the establishment of Christianity as the official religion of Axum served to align the kingdom with the broader", "correct": "Christian world.", "wrong": ["Islamic world.", "political benefit.", "Buddhist world."] },
           { start: "My military campaigns against the Blemmyes and other rivals showed that Axumite power depended on maintaining military strength while establishing diplomatic relationships with", "correct": "neighboring powers.", "wrong": ["enemies.", "friends.", "force alone."] },
           { start: "The consolidation of Axumite power under my reign required understanding that the kingdom's prosperity depended on the ability to control access to the interior of", "correct": "Africa.", "wrong": ["America.", "Europe.", "Asia."] },
@@ -5897,174 +6482,331 @@ export const CIVILIZATIONS = [
         name: "Axumite Kings & Political Authority",
         emoji: "👑",
         quotes: [
-          { start: "The Axumite king's authority came from demonstrating that he could protect the kingdom from external threats, control trade, and", "correct": "ensure prosperity.", "wrong": ["pure inheritance.", "ritual authority alone.", "exercising power without responsibilities."] },
-          { start: "Axumite rulers maintained power by establishing relationships with the Byzantine Empire because this provided diplomatic recognition and", "correct": "access to Mediterranean trade networks.", "wrong": ["no real benefit.", "silver.", "no strategic advantage."] },
-          { start: "The use of Greek language on Axumite coinage and in official inscriptions served to demonstrate that", "correct": "Axum was integrated into the Hellenistic world.", "wrong": ["it was used only for internal communication.", "it had no political significance.", "it had no trade significance."] },
-          { start: "An Axumite king's legitimacy depended on being recognized as both a political ruler and a guardian of the Christian faith because", "correct": "it united political and religious authority.", "wrong": ["religious role was purely ceremonial.", "there was no real connection between roles.", "church and state were completely separate."] },
-          { start: "The expansion of Axumite territory under successful kings required maintaining the loyalty of subordinate rulers and military commanders by", "correct": "distributing wealth.", "wrong": ["pure force alone.", "inherited loyalty.", "no rewards."] }
+          { 
+            start: "The Axumite king's authority came from demonstrating that he could protect the kingdom from external threats, control trade, and",
+            correct: "ensure prosperity.",
+            wrong: ["maintain order.", "build monuments.", "advance religion."] 
+          },
+          { 
+            start: "Axumite rulers maintained power by establishing relationships with the Byzantine Empire because this provided diplomatic recognition and",
+            correct: "access to Mediterranean trade networks.",
+            wrong: ["military support.", "financial aid.", "technological knowledge."] 
+          },
+          { 
+            start: "The use of Greek language on Axumite coinage and in official inscriptions served to demonstrate that Axum",
+            correct: "was integrated into the Hellenistic world.",
+            wrong: ["was integrated into the Roman world.", "respected foreign traditions.", "had educated rulers."] 
+          },
+          { 
+            start: "An Axumite king's legitimacy depended on being recognized as both a political ruler and a guardian of the Christian faith because it united political and",
+            correct: "religious authority.",
+            wrong: ["spiritual power.", "moral influence.", "cultural authority."] 
+          },
+          { 
+            start: "The expansion of Axumite territory under successful kings required maintaining the loyalty of subordinate rulers and military commanders by",
+            correct: "distributing wealth.",
+            wrong: ["granting titles.", "sharing power.", "offering positions."] 
+          }
         ]
       },
       {
         name: "Axumite Trade & Economic Power",
         emoji: "💰",
         quotes: [
-          { start: "Axumite wealth and power came primarily from control of trade routes connecting the Red Sea, the Mediterranean, and Indian Ocean networks because this allowed the kingdom to", "correct": "establish relationships with distant powers.", "wrong": ["rely only on military conquest.", "operate without any economic base.", "depend solely on agricultural production."] },
-          { start: "The development of Axumite ports like Adulis as major trade centers provided the kingdom with access to goods, making Axum a crucial node in", "correct": "international commerce.", "wrong": ["purely military bases.", "no real commerce.", "local trade only."] },
-          { start: "Axumite control of gold trade, ivory, and other luxury goods from Africa's interior gave the kingdom significant power because these goods", "correct": "were highly valued.", "wrong": ["had no real value.", "were purely for local trade.", "had no external demand."] },
-          { start: "The minting of high-quality Axumite coins in gold, silver, and copper served", "correct": "to facilitate trade.", "wrong": ["no real purpose.", "nothing.", "no practical value."] },
-          { start: "Axumite merchants and traders operating under the protection of the crown could accumulate wealth and establish trade networks because the king provided", "correct": "safe passage and access to major trade routes.", "wrong": ["no real protection.", "gold.", "arbitrary government."] },
-          { start: "The wealth from trade allowed Axumite rulers", "correct": "to finance military campaigns.", "wrong": ["to purely accumulate gold.", "no real benefit.", "no strategic advantage."] }
+          { 
+            start: "Axumite wealth and power came primarily from control of trade routes connecting the Red Sea, the Mediterranean, and Indian Ocean networks because this allowed the kingdom to",
+            correct: "establish relationships with distant powers.",
+            wrong: ["accumulate riches.", "gain influence.", "access resources."] 
+          },
+          { 
+            start: "The development of Axumite ports like Adulis as major trade centers provided the kingdom with access to goods, making Axum a crucial node in",
+            correct: "international commerce.",
+            wrong: ["global networks.", "maritime trade.", "economic systems."] 
+          },
+          { 
+            start: "Axumite control of gold trade, ivory, and other luxury goods from Africa's interior gave the kingdom significant power because these goods",
+            correct: "were highly valued.",
+            wrong: ["brought wealth.", "generated income.", "created demand."] 
+          },
+          { 
+            start: "The minting of high-quality Axumite coins in gold, silver, and copper served",
+            correct: "to facilitate trade.",
+            wrong: ["to establish currency.", "to enable commerce.", "to standardize exchange."] 
+          },
+          { 
+            start: "Axumite merchants and traders operating under the protection of the crown could accumulate wealth and establish trade networks because the king provided safe passage and access to",
+            correct: "major trade routes.",
+            wrong: ["commercial markets.", "valuable goods.", "profitable opportunities."] 
+          },
+          { 
+            start: "The wealth from trade allowed Axumite rulers to",
+            correct: "finance military campaigns.",
+            wrong: ["support expansion.", "fund conquests.", "sustain armies."] 
+          }
         ]
       },
       {
         name: "Axumite Christianity & Religious Authority",
         emoji: "✝️",
         quotes: [
-          { start: "The conversion of Axum to Christianity under Ezana transformed the kingdom's identity because it positioned Axum as part of the Christian world and aligned it with",
-          "correct": "the Byzantine Empire.",
-            "wrong": ["Middle East.", "no political benefit.", "no real consequence."] },
-          { start: "The establishment of a Christian church hierarchy in Axum, with bishops and clergy, served to", "correct": "institutionalize Christianity.", "wrong": ["purely religious.", "no political function.", "no real value."] },
-          { start: "The use of Christian symbols—the cross on coins, on monuments, and in official insignia—demonstrated that rulers believed that religious identity was", "correct": "central to state legitimacy.", "wrong": ["only decorative in nature.", "of no real importance.", "used purely for ceremonial display."] },
-          { start: "The relationship between Axumite rulers and the religious establishment required that kings be seen as pious Christians whose decisions aligned with", "correct": "Christian principles.", "wrong": ["pure religious control.", "no real power.", "subordination to clergy."] },
-          { start: "The spread of Christianity in Axum and the regions it controlled created a shared faith identity because Christianity provided a framework for", "correct": " understanding the world.", "wrong": ["purely imposed.", "no real belief.", "only for show."] },
-          { start: "The maintenance of Christian orthodoxy in Axum showed that rulers understood that controlling religious doctrine was essential to", "correct": "maintaining political unity.", "wrong": ["persecution without purpose.", "purely sectarian.", "no real importance."] }
+          { 
+            start: "The conversion of Axum to Christianity under Ezana transformed the kingdom's identity because it positioned Axum as part of the Christian world and aligned it with",
+            correct: "the Byzantine Empire.",
+            wrong: ["Mediterranean powers.", "Western Europe.", "Rome."] 
+          },
+          { 
+            start: "The establishment of a Christian church hierarchy in Axum, with bishops and clergy, served to",
+            correct: "institutionalize Christianity.",
+            wrong: ["organize believers.", "spread faith.", "strengthen authority."] 
+          },
+          { 
+            start: "The use of Christian symbols—the cross on coins, on monuments, and in official insignia—demonstrated that rulers believed that religious identity was",
+            correct: "central to state legitimacy.",
+            wrong: ["essential to power.", "key to authority.", "vital to rule."] 
+          },
+          { 
+            start: "The relationship between Axumite rulers and the religious establishment required that kings be seen as pious Christians whose decisions aligned with",
+            correct: "Christian principles.",
+            wrong: ["church teachings.", "divine will.", "religious law."] 
+          },
+          { 
+            start: "The spread of Christianity in Axum and the regions it controlled created a shared faith identity because Christianity provided a framework for",
+            correct: "understanding the world.",
+            wrong: ["interpreting events.", "explaining nature.", "making sense."] 
+          },
+          { 
+            start: "The maintenance of Christian orthodoxy in Axum showed that rulers understood that controlling religious doctrine was essential to",
+            correct: "maintaining political unity.",
+            wrong: ["ensuring loyalty.", "preserving order.", "preventing conflict."] 
+          }
         ]
       },
       {
         name: "Axumite Military & Defense",
         emoji: "⚔️",
         quotes: [
-          { start: "The Axumite military successfully defended the kingdom against invasions from the Persians, the Arabs, and other rivals because Axumite forces possessed", "correct": "well-trained soldiers.", "wrong": ["purely superior numbers.", "unbeatable forces.", "no real threats."] },
-          { start: "The use of the Red Sea fleet by Axumite rulers served to protect trade routes because control of the sea allowed Axum to project power", "correct": "into the Mediterranean and Arabian Sea regions.", "wrong": ["without any real naval capability.", "only through symbolic maritime presence.", "through land forces."] },
-          { start: "Axumite military campaigns against rivals in Arabia, Persia, and Africa demonstrated that Axum", "correct": "was a regional power.", "wrong": ["was purely defensive.", "had no real power.", "had limited military capacity."] },
-          { start: "The maintenance of Axumite military strength required", "correct": "continuous recruitment and training of soldiers.", "wrong": ["no real effort.", "naturally strong forces.", "no real maintenance."] },
+          { 
+            start: "The Axumite military successfully defended the kingdom against invasions from the Persians, the Arabs, and other rivals because Axumite forces possessed",
+            correct: "well-trained soldiers.",
+            wrong: ["superior weapons.", "strategic advantages.", "experienced commanders."] 
+          },
+          { 
+            start: "The use of the Red Sea fleet by Axumite rulers served to protect trade routes because control of the sea allowed Axum to project power into the Mediterranean and",
+            correct: "Arabian Sea regions.",
+            wrong: ["Indian Ocean territories.", "coastal areas.", "distant waters."] 
+          },
+          { 
+            start: "Axumite military campaigns against rivals in Arabia, Persia, and Africa demonstrated that Axum",
+            correct: "was a regional power.",
+            wrong: ["controlled territories.", "dominated militarily.", "had influence."] 
+          },
+          { 
+            start: "The maintenance of Axumite military strength required continuous recruitment and",
+            correct: "training of soldiers.",
+            wrong: ["equipping forces.", "organizing armies.", "strengthening defenses."] 
+          }
         ]
       },
       {
         name: "Axumite Architecture & Monuments",
         emoji: "🏛️",
         quotes: [
-          { start: "The construction of monumental stelae (tall stone markers) at Axum served to demonstrate that rulers possessed", "correct": "the ability to command resources.", "wrong": ["only decorative intent.", "no real purpose.", "no meaningful function."] },
-          { start: "The development of Axumite architectural style, incorporating both Greek/Hellenistic and local African elements, reflected that Axumite architects and builders synthesized foreign influences with", "correct": "local traditions.", "wrong": ["simple copying.", "a complete lack of originality.", "no meaningful foreign influence."] },
-          { start: "The construction of churches and religious buildings during the Christian period served to demonstrate that the king was", "correct": "a pious ruler supporting religion.", "wrong": ["without any political purpose.", "driven by personal religious devotion.", "only spiritual."] },
-          { start: "The labor and resources required to construct Axumite monuments came from the accumulated wealth of the kingdom, the ability to command labor, and", "correct": " the organization of building projects.", "wrong": ["purely voluntary.", "no real resources.", "spontaneous construction."] },
-          { start: "The preservation of Axumite monuments shows that builders understood that stone structures, when properly constructed", "correct": "could endure for centuries.", "wrong": ["had no real durability.", "collapsed immediately.", "could not survive long periods."] }
+          { 
+            start: "The construction of monumental stelae (tall stone markers) at Axum served to demonstrate that rulers possessed the ability to",
+            correct: "command resources.",
+            wrong: ["control territory.", "display power.", "impress visitors."] 
+          },
+          { 
+            start: "The development of Axumite architectural style reflected that Axumite architects and builders synthesized foreign influences with",
+            correct: "local traditions.",
+            wrong: ["Christian values.", "imperial styles.", "coastal designs."] 
+          },
+          { 
+            start: "The construction of churches and religious buildings during the Christian period served to demonstrate that the king was a pious ruler supporting",
+            correct: "religion.",
+            wrong: ["chaos.", "war.", "Islam."] 
+          },
+          { 
+            start: "The labor and resources required to construct Axumite monuments came from the accumulated wealth of the kingdom, the ability to command labor, and the organization of",
+            correct: "building projects.",
+            wrong: ["construction efforts.", "workforce management.", "architectural planning."] 
+          },
+          { 
+            start: "The preservation of Axumite monuments shows that builders understood that stone structures, when properly constructed could endure for",
+            correct: "centuries.",
+            wrong: ["ages.", "generations.", "eras."] 
+          }
         ]
       },
       {
         name: "Axumite Administration & Governance",
         emoji: "⚖️",
         quotes: [
-          { start: "The Axumite system of governance required establishing officials in major cities and regions because the king could not personally oversee", "correct": "all trade activities.",
-            "wrong": ["central matters.", "no real administration.", "all administration."] },
-          { start: "Axumite administrators in port cities like Adulis were responsible for overseeing trade, collecting taxes, and maintaining order because these cities were",
-          "correct": "critical to the kingdom's security.",
-            "wrong": ["purely military bases.", "no real administration.", "independent cities."] },
-          { start: "The Axumite approach to administering diverse populations required rulers to understand that respect for local traditions, allowing some local autonomy would",
-          "correct": "win the loyalty of subject peoples.",
-            "wrong": ["require forced assimilation.", "force assimilation.", "lead to complete cultural erasure."] },
-          { start: "Axumite legal systems likely incorporated both local customary law and Christian principles because rulers understood that justice systems that combined familiar traditions with new Christian values would",
-          "correct": "be more acceptable and effective.",
-            "wrong": ["be ineffective.", "have no local traditions.", "no real integration."] },
-          { start: "The stability of Axumite rule for centuries came from establishing systems where rulers could maintain control through",
-          "correct": "appointed officials.",
-            "wrong": ["purely military force.", "no real system.", "luck alone."] }
+          { 
+            start: "The Axumite system of governance required establishing officials in major cities and regions because the king could not personally oversee",
+            correct: "all trade activities.",
+            wrong: ["every settlement.", "daily operations.", "local matters."] 
+          },
+          { 
+            start: "Axumite administrators in port cities like Adulis were responsible for overseeing trade, collecting taxes, and maintaining order because these cities were",
+            correct: "critical to the kingdom's security.",
+            wrong: ["centers of power.", "sources of wealth.", "economic hubs."] 
+          },
+          { 
+            start: "The Axumite approach to administering diverse populations required rulers to understand that respect for local traditions, allowing some local autonomy would",
+            correct: "win the loyalty of subject peoples.",
+            wrong: ["ensure stability.", "prevent rebellion.", "maintain control."] 
+          },
+          { 
+            start: "Axumite legal systems likely incorporated both local customary law and Christian principles because rulers understood that justice systems that combined familiar traditions with new Christian values would",
+            correct: "be more acceptable and effective.",
+            wrong: ["strengthen authority.", "enforce compliance.", "promote harmony."] 
+          },
+          { 
+            start: "The stability of Axumite rule for centuries came from establishing systems where rulers could maintain control through",
+            correct: "appointed officials.",
+            wrong: ["military force.", "legal codes.", "religious authority."] 
+          }
         ]
       },
       {
         name: "Axumite Relations with Foreign Powers",
         emoji: "🌍",
         quotes: [
-          { start: "The Axumite relationship with the Byzantine Empire was mutually beneficial because trade, military alliances, and shared Christian faith created",
-          "correct": " economic and political ties between the two powers.",
-            "wrong": ["political subordination to Byzantium.", "no real independence.", "connections that were purely economic."] },
-          { start: "Axumite diplomatic relationships with Persia, Arabia, and other powers showed that rulers understood that using diplomacy alongside military power were",
-          "correct": "essential to Axumite survival.",
-            "wrong": ["unnecessary for maintaining the kingdom.", "replaced entirely by military competition.", "only military competition."] },
-          { start: "The Axumite intervention in Arabia to support Christian populations and prevent Persian dominance demonstrated that Axumite rulers saw themselves as",
-          "correct": "guardians of Christianity.",
-            "wrong": ["purely defensive.", "no external ambitions.", "limited power."] },
-          { start: "The decline of Axumite power in the Red Sea region, particularly after the rise of Islamic powers, showed that even powerful kingdoms",
-          "correct": "face challenges.",
-            "wrong": ["purely military defeat.", "inevitable decline.", "sudden collapse."] }
+          { 
+            start: "The Axumite relationship with the Byzantine Empire was mutually beneficial because trade, military alliances, and shared Christian faith created economic and",
+            correct: "political ties between the two powers.",
+            wrong: ["cultural exchanges.", "religious bonds.", "strategic partnerships."] 
+          },
+          { 
+            start: "Axumite diplomatic relationships with Persia, Arabia, and other powers showed that rulers understood that using diplomacy alongside military power were",
+            correct: "essential to Axumite survival.",
+            wrong: ["keys to expansion.", "paths to dominance.", "routes to prosperity."] 
+          },
+          { 
+            start: "The Axumite intervention in Arabia to support Christian populations and prevent Persian dominance demonstrated that Axumite rulers saw themselves as",
+            correct: "guardians of Christianity.",
+            wrong: ["regional protectors.", "imperial authorities.", "military defenders."] 
+          },
+          { 
+            start: "The decline of Axumite power in the Red Sea region, particularly after the rise of Islamic powers, showed that even powerful kingdoms",
+            correct: "face challenges.",
+            wrong: ["face decline.", "lose influence.", "encounter obstacles."] 
+          }
         ]
       },
       {
         name: "Axumite Culture & Intellectual Life",
         emoji: "📚",
         quotes: [
-          { start: "The use of the Ge'ez language in Axumite inscriptions, church services, and literature served to establish a shared cultural and",
-          "correct": "religious identity across the kingdom.",
-            "wrong": ["limited importance.", "everyday speech.", "no cultural importance."] },
-          { start: "The development of Axumite written culture, particularly after the conversion to Christianity, created a tradition of literature that would survive and influence Ethiopian culture",
-          "correct": "for centuries.",
-            "wrong": ["for a short time.", "for a few decades.", "for a generation."] },
-          { start: "Axumite scholars and priests engaged with Christian theology and biblical interpretation because the integration of Christian learning into Axumite intellectual life enhanced",
-          "correct": " the kingdom's prestige.",
-            "wrong": ["purely European influence.", "no real innovation.", "pure copying."] },
-          { start: "The establishment of scriptoriums and centers of learning in Axumite monasteries served",
-          "correct": "to preserve Christian texts.",
-            "wrong": ["nothing.", "no real function.", "no learning occurred."] },
-          { start: "Axumite intellectual life benefited from the kingdom's position on trade routes because scholars had access to knowledge from the Mediterranean, Persia, India, and",
-          "correct": "the broader Christian world.",
-            "wrong": ["were purely isolated.", "had no external influence.", "had local knowledge only."] }
+          { 
+            start: "The use of the Ge'ez language in Axumite inscriptions, church services, and literature served to establish a shared cultural and",
+            correct: "religious identity across the kingdom.",
+            wrong: ["linguistic unity.", "political authority.", "social hierarchy."] 
+          },
+          { 
+            start: "The development of Axumite written culture, particularly after the conversion to Christianity, created a tradition of literature that would survive and influence Ethiopian culture for",
+            correct: "centuries.",
+            wrong: ["generations.", "ages.", "eras."] 
+          },
+          { 
+            start: "Axumite scholars and priests engaged with Christian theology and biblical interpretation because the integration of Christian learning into Axumite intellectual life enhanced",
+            correct: "the kingdom's prestige.",
+            wrong: ["spiritual authority.", "religious power.", "clerical influence."] 
+          },
+          { 
+            start: "The establishment of scriptoriums and centers of learning in Axumite monasteries served to preserve",
+            correct: "Christian texts.",
+            wrong: ["knowledge.", "learning.", "wisdom."] 
+          },
+          { 
+            start: "Axumite intellectual life benefited from the kingdom's position on trade routes because scholars had access to knowledge from the Mediterranean, Persia, India, and",
+            correct: "the broader Christian world.",
+            wrong: ["distant lands.", "foreign regions.", "eastern markets."] 
+          }
         ]
       },
       {
         name: "Axumite Decline & Historical Significance",
         emoji: "📜",
         quotes: [
-          { start: "The decline of Axumite power came from multiple factors: the rise of Islamic powers controlling the Red Sea, the loss of trade routes, Persian expansion, and the inability of later rulers to",
-          "correct": "maintain the military strength of earlier periods.",
-            "wrong": ["purely external conquest.", "single cause.", "inevitable decline."] },
-          { start: "The rise of Islam and the establishment of Islamic control over the Red Sea and Arabian coast fundamentally altered Axumite power because",
-          "correct": "Axumite prosperity depended on controlling these trade routes.",
-            "wrong": ["Axumite power was undiminished.", "purely military defeat.", "no real consequence."] },
-          { start: "The retreat of Axumite influence from Arabia and the loss of ports showed that even a sophisticated, militarily powerful kingdom with strong religious foundations",
-          "correct": "could face decline.",
-            "wrong": ["achieved nothing.", "was destined to fail.", "collapsed only because of internal incompetence."] },
-          { start: "The legacy of Axum included establishing that an African kingdom could become",
-          "correct": "a major world power.",
-            "wrong": ["not a true civilization.", "without historical impact.", "no real civilization."] },
-          { start: "Axum shows that ancient African civilizations achieved",
-          "correct": " levels comparable to contemporary powers elsewhere.",
-            "wrong": ["no significant development.", "no real civilization existed.", "no complex civilization existed."] }
+          { 
+            start: "The decline of Axumite power came from multiple factors: the rise of Islamic powers controlling the Red Sea, the loss of trade routes, Persian expansion, and the inability of later rulers to",
+            correct: "maintain the military strength of earlier periods.",
+            wrong: ["adapt to change.", "preserve unity.", "govern effectively."] 
+          },
+          { 
+            start: "The rise of Islam and the establishment of Islamic control over the Red Sea and Arabian coast fundamentally altered Axumite power because Axumite prosperity depended on",
+            correct: "controlling these trade routes.",
+            wrong: ["Islamic cooperation.", "religious dominance.", "military superiority."] 
+          },
+          { 
+            start: "The retreat of Axumite influence from Arabia and the loss of ports showed that even a sophisticated, militarily powerful kingdom with strong religious foundations",
+            correct: "could face decline.",
+            wrong: ["faced competition.", "lost direction.", "needed reform."] 
+          },
+          { 
+            start: "The legacy of Axum included establishing that an African kingdom could become",
+            correct: "a major world power.",
+            wrong: ["highly civilized.", "culturally advanced.", "economically strong."] 
+          },
+          { 
+            start: "Axum shows that ancient African civilizations achieved levels comparable to",
+            correct: "contemporary powers elsewhere.",
+            wrong: ["Mediterranean empires.", "Asian kingdoms.", "Middle Eastern states."] 
+          }
         ]
       },
       {
         name: "Axumite Society & Social Structure",
         emoji: "🏛️",
         quotes: [
-          { start: "Axumite society was organized hierarchically with the king at the top, followed by nobles, clergy, merchants, craftspeople, and farmers because this structure allowed for",
-          "correct": "specialization.",
-            "wrong": ["purely egalitarian.", "no real hierarchy.", "random organization."] },
-          { start: "The role of the church and clergy in Axumite society increased after Christianization because priests and bishops became",
-          "correct": "advisors to rulers.",
-            "wrong": ["restricted only to religious ceremonies.", "excluded from any influence.", "irrelevant."] },
-          { start: "Women in Axumite society, particularly those of royal or noble status, held important roles in",
-          "correct": "managing estates, maintaining family relationships.",
-            "wrong": ["holding no social authority.", "purely domestic roles.", "holding no economic authority."] },
-          { start: "The relationship between Axumite rulers and merchants was mutually beneficial because merchants depended on royal protection while rulers depended on the taxes, goods, and",
-          "correct": "connections to distant markets that merchants provided.",
-            "wrong": ["purely exploitative.", "no real relationship.", "merchants were independent."] }
+          { 
+            start: "Axumite society was organized hierarchically with the king at the top, followed by nobles, clergy, merchants, craftspeople, and farmers because this structure allowed for",
+            correct: "specialization.",
+            wrong: ["social control.", "resource distribution.", "efficient governance."] 
+          },
+          { 
+            start: "The role of the church and clergy in Axumite society increased after Christianization because priests and bishops became",
+            correct: "advisors to rulers.",
+            wrong: ["collectors of taxes.", "military commanders.", "landowners."] 
+          },
+          { 
+            start: "Women in Axumite society, particularly those of royal or noble status, held important roles in managing estates and",
+            correct: "maintaining family relationships.",
+            wrong: ["conducting trade.", "influencing politics.", "directing ceremonies."] 
+          },
+          { 
+            start: "The relationship between Axumite rulers and merchants was mutually beneficial because merchants depended on royal protection while rulers depended on the taxes, goods, and",
+            correct: "connections to distant markets that merchants provided.",
+            wrong: ["information networks.", "military support.", "commercial expertise."] 
+          }
         ]
       },
       {
         name: "Axumite Coinage & Economic Systems",
         emoji: "💰",
         quotes: [
-          { start: "The production of Axumite coins in gold, silver, and copper served to facilitate long-distance trade, establish the kingdom's prestige as a major economic power, and",
-          "correct": "control the money supply.",
-            "wrong": ["operate without any influence on trade.", "operate without taxation.", "no practical purpose."] },
-          { start: "The design of Axumite coins, featuring the king's portrait and Christian symbols, served to reinforce that the king was the ultimate authority and",
-          "correct": "a guardian of the Christian faith.",
-            "wrong": ["used only for decoration.", "lacked any symbolic message.", "lacked any ideological message."] },
-          { start: "The wide circulation of Axumite coins across trade networks demonstrated that the kingdom",
-          "correct": "was trusted by merchants.",
-            "wrong": ["had purely local currency.", "had no external use.", "had no real value."] },
-          { start: "The ability to mint coins gave Axumite rulers power because they could control the money supply, collect seigniorage (profit from minting), and",
-          "correct": " influence trade through monetary policy.",
-            "wrong": ["had no real power.", "purely ceremonial.", "had no practical advantage."] }
+          { 
+            start: "The production of Axumite coins in gold, silver, and copper served to facilitate long-distance trade, establish the kingdom's prestige as a major economic power, and",
+            correct: "control the money supply.",
+            wrong: ["standardize weights.", "prevent counterfeiting.", "increase revenue."] 
+          },
+          { 
+            start: "The design of Axumite coins, featuring the king's portrait and Christian symbols, served to reinforce that the king was the ultimate authority and a guardian of the",
+            correct: "Christian faith.",
+            wrong: ["kingdom's wealth.", "state's values.", "imperial legacy."] 
+          },
+          { 
+            start: "The wide circulation of Axumite coins across trade networks demonstrated that the kingdom",
+            correct: "was trusted by merchants.",
+            wrong: ["controlled commerce.", "dominated regions.", "expanded influence."] 
+          },
+          { 
+            start: "The ability to mint coins gave Axumite rulers power because they could control the money supply, collect seigniorage (profit from minting), and influence trade through",
+            correct: "monetary policy.",
+            wrong: ["currency exchange.", "price controls.", "trade agreements."] 
+          }
         ]
       }
     ]
@@ -6081,87 +6823,224 @@ export const CIVILIZATIONS = [
         name: "Kings & Rulers - Archaeological & Documentary Evidence",
         emoji: "👑",
         quotes: [
-          { start: "The rise of Great Zimbabwe depended on establishing control over the gold trade because gold was", "correct": "highly valued by Arab traders and foreign merchants.", "wrong": ["purely symbolic.", "only used as a decorative symbol.", "not considered valuable."] },
-          { start: "A Great Zimbabwe ruler's authority came from being able to demonstrate that he could control trade, ensure the prosperity of merchants, maintain order, and", "correct": "redistribute wealth to his people.", "wrong": ["using ritual authority.", "inherited authority alone.", "relying only on military strength."] },
-          { start: "The construction of the Great Enclosure and other stone structures served to demonstrate that a ruler possessed the ability to command", "correct": "vast labor forces.", "wrong": ["no organized workforce.", "construction solely for military defense.", "only for defense."] },
-          { start: "The expansion of Great Zimbabwe's influence across the region required that rulers understand the importance of", "correct": "maintaining relationships with vassal states.", "wrong": ["pure military conquest.", "no real strategy.", "random expansion."] },
-          { start: "A Great Zimbabwe ruler's responsibility included ensuring that", "correct": "merchants could safely conduct trade.", "wrong": ["the ruler had no governing responsibilities.", "trade was left unstable.", "trade was left unprotected ."] },
-          { start: "The decline of a Great Zimbabwe ruler's power would come from the failure to maintain control of trade, prevent rival power centers from emerging, or", "correct": "losing the support of regional chiefs.", "wrong": ["military defeat alone.", "no real challenge.", "absolute power."] }
+          { 
+            start: "The construction of Great Zimbabwe's distinctive stone structures without mortar demonstrated that builders possessed", 
+            correct: "advanced knowledge of stone fitting.", 
+            wrong: ["superior materials.", "exceptional strength.", "innovative tools."] 
+          },
+          { 
+            start: "The Great Enclosure, the largest stone structure at Great Zimbabwe, likely served as a royal residence and ceremonial center because it", 
+            correct: "served as a focus for ritual and governance.", 
+            wrong: ["provided defensive shelter.", "displayed architectural skill.", "symbolized royal power."] 
+          },
+          { 
+            start: "The arrangement of stone structures at Great Zimbabwe in a pattern of sacred and secular spaces suggests that builders understood the integration of religious, ceremonial, and", 
+            correct: "administrative functions within a single complex.", 
+            wrong: ["residential areas.", "defensive zones.", "public spaces."] 
+          },
+          { 
+            start: "The labor required to build Great Zimbabwe's structures came from a combination of voluntary labor organized by the ruler, tribute labor owed by subject peoples, and", 
+            correct: "possibly enslaved workers.", 
+            wrong: ["hired craftsmen.", "foreign merchants.", "allied kingdoms."] 
+          },
+          { 
+            start: "The maintenance of Great Zimbabwe's stone structures required systems to ensure that", 
+            correct: "repairs were made.", 
+            wrong: ["deterioration stopped.", "standards remained.", "quality persisted."] 
+          },
+          { 
+            start: "The sophistication of Great Zimbabwe's architecture indicates that architects and builders possessed generations of accumulated knowledge about stone working, geometry, and", 
+            correct: "structural design.", 
+            wrong: ["artistic expression.", "religious symbolism.", "defensive planning."] 
+          },
+          { 
+            start: "The location of Great Zimbabwe on a plateau near water sources and in a region rich in gold and other resources demonstrates that rulers understood the importance of", 
+            correct: "strategic location.", 
+            wrong: ["environmental control.", "resource access.", "natural protection."] 
+          }
         ]
       },
       {
         name: "Great Zimbabwe Architecture & Stone Structures",
         emoji: "🏗️",
         quotes: [
-          { start: "The construction of Great Zimbabwe's distinctive stone structures without mortar demonstrated that builders possessed", "correct": "advanced knowledge of stone fitting.", "wrong": ["primitive techniques.", "random construction.", "no real engineering."] },
-          { start: "The Great Enclosure, the largest stone structure at Great Zimbabwe, likely served as a royal residence and ceremonial center because it", "correct": "served as a focus for ritual and governance.", "wrong": ["had no practical role.", "had only religious purposes.", "had no practical function."] },
-          { start: "The arrangement of stone structures at Great Zimbabwe in a pattern of sacred and secular spaces suggests that builders understood the integration of", "correct": "religious, ceremonial, and administrative functions within a single complex.", "wrong": ["random placement.", "no planning.", "only religious purposes."] },
-          { start: "The labor required to build Great Zimbabwe's structures came from a combination of voluntary labor organized by the ruler, tribute labor owed by subject peoples, and", "correct": "possibly enslaved workers.", "wrong": ["purely voluntary work.", "no real labor system.", "random construction."] },
-          { start: "The maintenance of Great Zimbabwe's stone structures required systems to ensure that", "correct": "repairs were made.", "wrong": ["structures were abandoned.", "no maintenance occurred.", "purely ceremonial."] },
-          { start: "The sophistication of Great Zimbabwe's architecture indicates that architects and builders possessed generations of accumulated knowledge about stone working, geometry, and", "correct": "structural design.", "wrong": ["no real skill.", "purely random building.", "no knowledge transmission."] },
-          { start: "The location of Great Zimbabwe on a plateau near water sources and in a region rich in gold and other resources demonstrates that rulers understood", "correct": "the importance of strategic location.", "wrong": ["random site selection.", "no real strategy.", "location was unimportant."] }
+          { 
+            start: "The construction of Great Zimbabwe's distinctive stone structures without mortar demonstrated that builders possessed", 
+            correct: "advanced knowledge of stone fitting.", 
+            wrong: ["superior materials.", "exceptional strength.", "innovative tools."] 
+          },
+          { 
+            start: "The Great Enclosure, the largest stone structure at Great Zimbabwe, likely served as a royal residence and ceremonial center because it", 
+            correct: "served as a focus for ritual and governance.", 
+            wrong: ["provided defensive shelter.", "displayed architectural skill.", "symbolized royal power."] 
+          },
+          { 
+            start: "The arrangement of stone structures at Great Zimbabwe in a pattern of sacred and secular spaces suggests that builders understood the integration of religious, ceremonial, and", 
+            correct: "administrative functions within a single complex.", 
+            wrong: ["residential areas.", "defensive zones.", "public spaces."] 
+          },
+          { 
+            start: "The labor required to build Great Zimbabwe's structures came from a combination of voluntary labor organized by the ruler, tribute labor owed by subject peoples, and", 
+            correct: "possibly enslaved workers.", 
+            wrong: ["hired craftsmen.", "foreign merchants.", "allied kingdoms."] 
+          },
+          { 
+            start: "The maintenance of Great Zimbabwe's stone structures required systems to ensure that", 
+            correct: "repairs were made.", 
+            wrong: ["deterioration stopped.", "standards remained.", "quality persisted."] 
+          },
+          { 
+            start: "The sophistication of Great Zimbabwe's architecture indicates that architects and builders possessed generations of accumulated knowledge about stone working, geometry, and", 
+            correct: "structural design.", 
+            wrong: ["artistic expression.", "religious symbolism.", "defensive planning."] 
+          },
+          { 
+            start: "The location of Great Zimbabwe on a plateau near water sources and in a region rich in gold and other resources demonstrates that rulers understood the importance of", 
+            correct: "strategic location.", 
+            wrong: ["environmental control.", "resource access.", "natural protection."] 
+          }
         ]
       },
       {
         name: "Great Zimbabwe Trade & Economic Power",
         emoji: "💰",
         quotes: [
-          { start: "The control of gold production and trade by Great Zimbabwe rulers allowed them to accumulate wealth that could be used for", "correct": "redistribution to followers.", "wrong": ["purely personal use.", "no real benefit.", "no strategic value."] },
-          { start: "Great Zimbabwe's role as an intermediary in the gold trade between interior sources and Arab coastal traders gave the rulers significant power because", "correct": "they could accumulate the foreign goods that trade brought.", "wrong": ["no real advantage.", "trade was unimportant.", "merchants acted independently."] },
-          { start: "The evidence of trade goods from Persia, Arabia, and the Indian Ocean region found at Great Zimbabwe shows that the city was connected to", "correct": "long-distance trade networks.", "wrong": ["purely local trade.", "no external contact.", "imported goods."] },
-          { start: "Great Zimbabwe merchants and traders who conducted business under the protection and patronage of the ruler", "correct": "could accumulate wealth.", "wrong": ["had no authority.", "were purely exploited.", "trade was discouraged."] },
-          { start: "The taxation of trade passing through Great Zimbabwe served to", "correct": "maintain the military and administrative apparatus.", "wrong": ["have no real benefit.", "undermine economic stability.", "have no strategic purpose."] },
-          { start: "The wealth from trade allowed Great Zimbabwe to import resources like tin, copper, and exotic goods that would have been", "correct": "unavailable locally.", "wrong": ["purely decorative.", "no real value.", "no strategic importance."] }
+          { 
+            start: "The control of gold production and trade by Great Zimbabwe rulers allowed them to accumulate wealth that could be used for", 
+            correct: "redistribution to followers.", 
+            wrong: ["military expansion.", "personal luxury.", "religious ceremonies."] 
+          },
+          { 
+            start: "Great Zimbabwe's role as an intermediary in the gold trade between interior sources and Arab coastal traders gave the rulers significant power because they could accumulate the foreign goods that", 
+            correct: "trade brought.", 
+            wrong: ["merchants sought.", "routes offered.", "partners desired."] 
+          },
+          { 
+            start: "The evidence of trade goods from Persia, Arabia, and the Indian Ocean region found at Great Zimbabwe shows that the city was connected to", 
+            correct: "long-distance trade networks.", 
+            wrong: ["wealthy merchants.", "coastal settlements.", "maritime routes."] 
+          },
+          { 
+            start: "Great Zimbabwe merchants and traders who conducted business under the protection and patronage of the ruler", 
+            correct: "could accumulate wealth.", 
+            wrong: ["paid heavy taxes.", "reported profits.", "shared earnings."] 
+          },
+          { 
+            start: "The taxation of trade passing through Great Zimbabwe served to maintain the military and", 
+            correct: "administrative apparatus.", 
+            wrong: ["religious institutions.", "building projects.", "trade routes."] 
+          },
+          { 
+            start: "The wealth from trade allowed Great Zimbabwe to import resources like tin, copper, and exotic goods that would have been", 
+            correct: "unavailable locally.", 
+            wrong: ["too expensive.", "difficult to produce.", "rarely needed."] 
+          }
         ]
       },
       {
         name: "Great Zimbabwe Craftsmanship & Artistry",
         emoji: "🎨",
         quotes: [
-          { start: "The discovery of soapstone bird sculptures at Great Zimbabwe suggests that craftspeople in the city possessed specialized skills in", "correct": "stone carving.", "wrong": ["random shaping of materials.", "basic decoration.", "no skill required."] },
-          { start: "The production of high-quality pottery at Great Zimbabwe indicates that craftspeople had developed techniques for firing, shaping and", "correct": "decorating vessels.", "wrong": ["primitive pottery.", "no real skill.", "purely functional."] },
-          { start: "Craftspeople working under the patronage of Great Zimbabwe rulers could focus on their craft because the rulers provided", "correct": "resources, protection, and markets for their goods.", "wrong": ["no support.", "purely exploitative.", "no real patronage."] },
-          { start: "The quality and consistency of artifacts from Great Zimbabwe demonstrates that", "correct": "knowledge of craft techniques was preserved.", "wrong": ["there was no craft tradition.", "there was no standards.", "there was no tradition."] },
-          { start: "Great Zimbabwe craftspeople produced goods that could be traded or given as gifts to allies because these items represented", "correct": "the prestige and sophistication of Great Zimbabwe.", "wrong": ["purely for local use.", "no external value.", "no strategic importance."] }
+          { 
+            start: "The discovery of soapstone bird sculptures at Great Zimbabwe suggests that craftspeople in the city possessed specialized skills in", 
+            correct: "stone carving.", 
+            wrong: ["artistic design.", "religious expression.", "symbolic representation."] 
+          },
+          { 
+            start: "The production of high-quality pottery at Great Zimbabwe indicates that craftspeople had developed techniques for firing, shaping and", 
+            correct: "decorating vessels.", 
+            wrong: ["glazing surfaces.", "strengthening clay.", "mixing pigments."] 
+          },
+          { 
+            start: "Craftspeople working under the patronage of Great Zimbabwe rulers could focus on their craft because the rulers provided resources, protection, and", 
+            correct: "markets for their goods.", 
+            wrong: ["training programs.", "raw materials.", "artistic freedom."] 
+          },
+          { 
+            start: "The quality and consistency of artifacts from Great Zimbabwe demonstrates that", 
+            correct: "knowledge of craft techniques was preserved.", 
+            wrong: ["standards were enforced.", "apprenticeships existed.", "trade was organized."] 
+          },
+          { 
+            start: "Great Zimbabwe craftspeople produced goods that could be traded or given as gifts to allies because these items represented the prestige and", 
+            correct: "sophistication of Great Zimbabwe.", 
+            wrong: ["wealth of rulers.", "skill of artisans.", "power of the city."] 
+          }
         ]
       },
       {
         name: "Great Zimbabwe Society & Social Organization",
         emoji: "🏛️",
         quotes: [
-          { start: "Great Zimbabwe society was organized hierarchically with the ruler at the top, followed by nobles, merchants, craftspeople, and commoners because this structure allowed for", "correct": "the accumulation and redistribution of wealth.", "wrong": ["purely egalitarian.", "no real hierarchy.", "random organization."] },
-          { start: "The residences of elites in the Great Enclosure and other elevated areas suggest that the city had", "correct": "distinct residential zones.", "wrong": ["equal housing for all.", "no social distinction.", "random settlement."] },
-          { start: "The power of Great Zimbabwe's ruler depended on maintaining the loyalty of subordinate chiefs and nobles by ensuring that they", "correct": "benefited from the ruler's power.", "wrong": ["received no rewards.", "inherited loyalty.", "were controlled."] },
-          { start: "Women in Great Zimbabwe society, particularly those of royal or noble status, held important roles in managing properties and", "correct": "participating in ceremonial and social functions.", "wrong": ["being limited.", "holding no authority in society.", "having no social influence."] },
-          { start: "The relationship between Great Zimbabwe and surrounding settlements shows that the city functioned as", "correct": "a regional center that controlled trade.", "wrong": ["a purely military fortress.", "having no social influence.", "having no connections."] }
+          { 
+            start: "Great Zimbabwe society was organized hierarchically with the ruler at the top, followed by nobles, merchants, craftspeople, and commoners because this structure allowed for the accumulation and redistribution of", 
+            correct: "wealth.", 
+            wrong: ["power.", "resources.", "authority."] 
+          },
+          { 
+            start: "The residences of elites in the Great Enclosure and other elevated areas suggest that the city had", 
+            correct: "distinct residential zones.", 
+            wrong: ["social inequality.", "architectural diversity.", "defensive positions."] 
+          },
+          { 
+            start: "The power of Great Zimbabwe's ruler depended on maintaining the loyalty of subordinate chiefs and nobles by ensuring that they", 
+            correct: "benefited from the ruler's power.", 
+            wrong: ["respected his authority.", "followed his laws.", "shared his vision."] 
+          },
+          { 
+            start: "Women in Great Zimbabwe society, particularly those of royal or noble status, held important roles in managing properties and participating in ceremonial and", 
+            correct: "social functions.", 
+            wrong: ["political affairs.", "military duties.", "trade negotiations."] 
+          },
+          { 
+            start: "The relationship between Great Zimbabwe and surrounding settlements shows that the city functioned as a regional center that controlled", 
+            correct: "trade.", 
+            wrong: ["agriculture.", "labor.", "territories."] 
+          }
         ]
       },
       {
         name: "Great Zimbabwe Religion & Cosmology",
         emoji: "🕯️",
         quotes: [
-          { start: "The religious significance of Great Zimbabwe is suggested by architectural features and artifacts that indicate the city was a sacred center where religious ceremonies", "correct": "and cosmic beliefs were enacted and maintained.", "wrong": ["had no spiritual meaning.", "served no religious purpose.", "functioned only as a military fortress."] },
-          { start: "The incorporation of astronomical alignments in some structures suggests that Great Zimbabwe's builders understood the cosmological importance of", "correct": "celestial events.", "wrong": ["random alignment.", "no real knowledge.", "no astronomical knowledge."] },
-          { start: "The veneration of ancestors in Great Zimbabwe culture likely meant that the living sought guidance from and honored the spirits of deceased rulers and ancestors through", "correct": "ritual and ceremony.", "wrong": ["no ancestor veneration.", "purely spiritual.", "no real beliefs."] },
-          { start: "The religious authority of Great Zimbabwe's rulers was based on their claim to", "correct": "mediate between the human and spiritual worlds.", "wrong": ["rule only through military force.", "have no spiritual responsibilities.", "exercise power without any legitimacy."] }
+          { 
+            start: "The religious significance of Great Zimbabwe is suggested by architectural features and artifacts that indicate the city was a sacred center where religious ceremonies and cosmic beliefs were", 
+            correct: "enacted and maintained.", 
+            wrong: ["documented.", "recorded.", "studied."] 
+          },
+          { 
+            start: "The incorporation of astronomical alignments in some structures suggests that Great Zimbabwe's builders understood the cosmological importance of", 
+            correct: "celestial events.", 
+            wrong: ["stone placement.", "building design.", "solar patterns."] 
+          },
+          { 
+            start: "The veneration of ancestors in Great Zimbabwe culture likely meant that the living sought guidance from and honored the spirits of deceased rulers and ancestors through", 
+            correct: "ritual and ceremony.", 
+            wrong: ["oral tradition.", "written records.", "artistic expression."] 
+          },
+          { 
+            start: "The religious authority of Great Zimbabwe's rulers was based on their claim to mediate between the human and", 
+            correct: "spiritual worlds.", 
+            wrong: ["control trade routes.", "command military forces.", "inherit divine status."] 
+          }
         ]
       },
       {
         name: "Great Zimbabwe Decline & Historical Significance",
         emoji: "📜",
         quotes: [
-          { start: "The decline of Great Zimbabwe likely resulted from a combination of factors: environmental stress (possibly drought), the depletion of easily accessible gold resources, and", "correct": "the emergence of rival centers of power along the coast.", "wrong": ["purely military conquest.", "single cause.", "inevitable decline."] },
-          { start: "The abandonment of Great Zimbabwe as a major center by the 15th century does not diminish its achievement; rather it demonstrates that even sophisticated urban centers are vulnerable to", "correct": "environmental change.", "wrong": ["weakness from the start.", "no real achievement.", "inevitable failure."] },
-          { start: "The legacy of Great Zimbabwe included establishing that sophisticated urban settlements, stone architecture, and centralized trade control could develop in southern Africa", "correct": "independent of external influence.", "wrong": ["because of outside civilizations.", "because African cultures were primitive.", "because external influence was necessary."] },
-          { start: "The rediscovery and study of Great Zimbabwe in the modern era corrected the misconception that Africans lacked the capacity for sophisticated architecture, urban planning and", "correct": "trade organization.", "wrong": ["confirmed primitive origins.", "showed external influence.", "demonstrated African weakness."] },
-          { start: "Great Zimbabwe shows that medieval African societies achieved levels of political organization, economic development comparable to", "correct": "contemporary civilizations elsewhere.", "wrong": ["no real development.", "no real civilization.", "all achievement came from outside."] }
+          { start: "The decline of Great Zimbabwe likely resulted from a combination of factors: environmental stress (possibly drought), the depletion of easily accessible gold resources, and", "correct": "the emergence of rival centers of power along the coast.", "wrong": ["internal unity.", "stable prosperity.", "unchanged dominance."] },
+          { start: "The abandonment of Great Zimbabwe as a major center by the 15th century does not diminish its achievement; rather it demonstrates that even sophisticated urban centers are vulnerable to", "correct": "environmental change.", "wrong": ["human error.", "economic collapse.", "inevitable failure."] },
+          { start: "The legacy of Great Zimbabwe included establishing that sophisticated urban settlements, stone architecture, and centralized trade control could develop in southern Africa independent of", "correct": "external influence.", "wrong": ["internal collapse.", "cultural stagnation.", "economic failure."] },
+          { start: "The rediscovery and study of Great Zimbabwe in the modern era corrected the misconception that Africans lacked the capacity for sophisticated architecture, urban planning and", "correct": "trade organization.", "wrong": ["cultural decline.", "external dependence.", "historical absence."] },
+          { start: "Great Zimbabwe shows that medieval African societies achieved levels of political organization, economic development comparable to", "correct": "contemporary civilizations elsewhere.", "wrong": ["isolated tribes.", "primitive states.", "foreign control."] }
         ]
       },
       {
         name: "Great Zimbabwe & Regional Trade Networks",
         emoji: "🌍",
         quotes: [
-          { start: "Great Zimbabwe's connections to coastal Swahili cities allowed rulers to establish trade relationships with merchants from", "correct": "the Arab world, Persia, India, and eventually Portugal.", "wrong": ["purely local trade.", "no outside regions at all.", "only nearby inlands."] },
+          { start: "Great Zimbabwe's connections to coastal Swahili cities allowed rulers to establish trade relationships with merchants from the Arab world, Persia, India, and eventually", "correct": "Portugal.", "wrong": ["America.", "Scandinavia.", "Australia."] },
           { start: "The evidence of Indian Ocean trade goods at Great Zimbabwe shows that the city was part of a regional system where", "correct": "foreign products flowed in.", "wrong": ["trade moved in only one direction.", "goods were taken without exchange.", "no meaningful exchange took place."] },
           { start: "Great Zimbabwe served as a trade center because it was", "correct": "a safe and reliable place for trade.", "wrong": ["a market with no wider connections.", "purely local market.", "limited to local exchange."] },
           { start: "Great Zimbabwe’s relationship with Indian Ocean trade was beneficial because foreign merchants gained access to gold and other goods while Great Zimbabwe gained", "correct": "access to foreign products.", "wrong": ["no real advantages.", "no real benefit.", "one-sided trade."] }
@@ -6171,10 +7050,10 @@ export const CIVILIZATIONS = [
         name: "Great Zimbabwe Governance & Administration",
         emoji: "⚖️",
         quotes: [
-          { start: "The governance of Great Zimbabwe required establishing systems to ensure that tribute was collected from subject populations, trade was regulated and", "correct": "wealth could be redistributed.", "wrong": ["no organized system was needed.", "no real system was needed.", "control depended on military force."] },
-          { start: "Great Zimbabwe rulers maintained power by demonstrating that they could provide", "correct": "protection from external threats.", "wrong": ["pure force alone.", "authority without any purpose.", "arbitrary authority."] },
-          { start: "The administrative system at Great Zimbabwe was necessary because", "correct": "the ruler could not personally oversee all activities.", "wrong": ["there was no need for organized oversight.", "officials served only ceremonial roles.", "coordination between activities was unnecessary."] },
-          { start: "Evidence of administration at Great Zimbabwe shows that successful empires require bureaucracies that can manage", "correct": "complex economic and social activities.", "wrong": ["without any organized system.", "with no real coordination.", "through military control."] }
+          { start: "The governance of Great Zimbabwe required establishing systems to ensure that tribute was collected from subject populations, trade was regulated and", "correct": "wealth could be redistributed.", "wrong": ["military force.", "social chaos.", "no system."] },
+          { start: "Great Zimbabwe rulers maintained power by demonstrating that they could provide", "correct": "protection from external threats.", "wrong": ["no defense.", "internal chaos.", "unstable rule."] },
+          { start: "The administrative system at Great Zimbabwe was necessary because the ruler could not personally", "correct": "oversee all activities.", "wrong": ["control everything.", "lack authority.", "ignore governance."] },
+          { start: "Evidence of administration at Great Zimbabwe shows that successful empires require bureaucracies that can manage complex economic and", "correct": "social activities.", "wrong": ["social disorder.", "economic collapse.", "random activity."] }
         ]
       },
       {
@@ -6184,16 +7063,16 @@ export const CIVILIZATIONS = [
           { start: "The construction of Great Zimbabwe's massive stone structures required the organization of labor forces numbering in the thousands because the sheer volume of stone had to be quarried, transported, and", "correct": "fitted together according to a plan.", "wrong": ["handled by only a small workforce.", "put together without coordinated labor.", "small numbers could do it."] },
           { start: "The labor that built Great Zimbabwe came from sources including voluntary participation and possibly enslaved individuals, demonstrating that the ruler had multiple mechanisms", "correct": "for mobilizing and directing labor.", "wrong": ["based on voluntary participation.", "without control.", "without any form of compulsion."] },
           { start: "The coordination of such massive construction projects required the existence of architects or master builders who could design structures, plan construction sequences, and", "correct": "oversee quality control.", "wrong": ["proceed without any planning.", "operate without supervising the work.", "rely on random construction methods."] },
-          { start: "The long duration of Great Zimbabwe's construction—spanning centuries—shows that the project required continuity of vision across multiple rulers' reigns and", "correct": "sustained commitment to the original plan.", "wrong": ["sudden construction.", "individual rulers' whims.", "no real continuity."] }
+          { start: "The long duration of Great Zimbabwe's construction—spanning centuries—shows that the project required continuity of vision across multiple rulers' reigns and sustained commitment to", "correct": "the original plan.", "wrong": ["random change.", "broken design' whims.", "chaotic shifts."] }
         ]
       },
       {
         name: "Great Zimbabwe & Environmental Knowledge",
         emoji: "🌿",
         quotes: [
-          { start: "The location of Great Zimbabwe and the systems for water management suggest that builders and rulers understood the effects of climate and rainfall, and", "correct": "the need to manage water resources.", "wrong": ["no real knowledge.", "random location.", "no planning."] },
-          { start: "The development of agricultural systems that could support the large population of Great Zimbabwe required knowledge of", "correct": "local soil conditions.", "wrong": ["purely pastoral.", "no agriculture.", "imported food."] },
-          { start: "The evidence of settlement patterns and resource management at Great Zimbabwe shows that the population understood how to extract resources sustainably without", "correct": "completely depleting them in the short term.", "wrong": ["purely exploitative.", "complete depletion.", "no planning."] }
+          { start: "The location of Great Zimbabwe and the systems for water management suggest that builders and rulers understood the effects of climate and rainfall, and the need to manage", "correct": "water resources.", "wrong": ["land neglect.", "dry chaos.", "flood disorder."] },
+          { start: "The development of agricultural systems that could support the large population of Great Zimbabwe required knowledge of", "correct": "local soil conditions.", "wrong": ["unknown terrain.", "random planting.", "foreign soil."] },
+          { start: "The evidence of settlement patterns and resource management at Great Zimbabwe shows that the population understood how to extract resources sustainably without completely depleting them in the", "correct": "short term.", "wrong": ["long term.", "long horizon.", "past."] }
         ]
       }
     ]
@@ -6210,22 +7089,22 @@ export const CIVILIZATIONS = [
         name: "Chandragupta I (Founder & Historical Records)",
         emoji: "👑",
         quotes: [
-          { start: "I established the Gupta Empire by uniting the northern Indian kingdoms through a combination of military conquest, strategic marriages, and the winning of allies rather than", "correct": "relying on force alone.", "wrong": ["pure conquest.", "no alliances needed.", "random success."] },
-          { start: "The strategic marriage with the Licchhavi dynasty provided legitimacy because it connected the Gupta family to an established royal line and", "correct": "won the support of a powerful neighboring kingdom.", "wrong": ["had no effect.", "offered no meaningful advantage.", "served only a ceremonial purpose."] },
-          { start: "The establishment of Gupta rule required demonstrating that a new dynasty could provide", "correct": "order, justice, and prosperity.", "wrong": ["pure force alone.", "no real difference.", "no legitimacy."] },
-          { start: "The Gupta approach to conquered territories emphasized that rulers must establish stable governance and", "correct": "ensure that people benefited from Gupta rule.", "wrong": ["erase local cultures.", "exploit resources.", "impose oppressive control."] }
+          { start: "I established the Gupta Empire by uniting the northern Indian kingdoms through a combination of military conquest, strategic marriages, and the winning of allies rather than", "correct": "relying on force alone.", "wrong": ["peaceful unity.", "diplomatic skill.", "stable governance."] },
+          { start: "The strategic marriage with the Licchhavi dynasty provided legitimacy because it connected the Gupta family to an established royal line and", "correct": "won the support of a powerful neighboring kingdom.", "wrong": ["had no effect.", "empty alliance.", "lost influence."] },
+          { start: "The establishment of Gupta rule required demonstrating that a new dynasty could provide order, justice, and", "correct": "prosperity.", "wrong": ["tyranny.", "instability.", "lawlessness."] },
+          { start: "The Gupta approach to conquered territories emphasized that rulers must establish stable governance and ensure that people benefited from", "correct": "Gupta rule.", "wrong": ["destruction.", "neglect.", "chaos."] }
         ]
       },
       {
         name: "Samudragupta (Expansion & Military Conquest)",
         emoji: "⚔️",
         quotes: [
-          { start: "My extensive military campaigns across India demonstrated that a Gupta emperor could defeat rival kingdoms, consolidate power over much of the subcontinent, and", "correct": "establish imperial authority.", "wrong": ["achieve nothing significant.", "rely on a weak military force.", "fail to conquer any territory."] },
-          { start: "The Allahabad Pillar inscription recording my conquests served to publicly proclaim my military achievements and establish", "correct": "my legitimacy as a powerful ruler.", "wrong": ["nothing of real significance.", "a purely ceremonial display.", "no authority."] },
-          { start: "My style of conquest often involved accepting the submission of rival kings rather than destroying them because allowing defeated rulers to retain local authority while accepting Gupta supremacy was", "correct": "more efficient than complete conquest.", "wrong": ["weakness.", "no real control.", "pure mercy."] },
-          { start: "The military organization required for my campaigns showed that the Gupta Empire possessed the administrative capacity to", "correct": "raise armies.", "wrong": ["no real organization.", "weak military.", "no coordination."] },
-          { start: "My use of war elephants, cavalry, and infantry demonstrated that Gupta military strategy involved", "correct": "combining different unit types.", "wrong": ["single unit type.", "no strategy.", "pure numbers."] },
-          { start: "The expansion of Gupta territory under my reign established the foundation for what would become", "correct": "one of India's greatest empires.", "wrong": ["purely military success with no lasting effect.", "no real empire building.", "temporary conquests."] }
+          { start: "My extensive military campaigns across India demonstrated that a Gupta emperor could defeat rival kingdoms, consolidate power over much of the subcontinent, and", "correct": "establish imperial authority.", "wrong": ["lose control.", "collapse effort.", "empty rule."] },
+          { start: "The Allahabad Pillar inscription recording my conquests served to publicly proclaim my military achievements and establish my legitimacy as", "correct": "a powerful ruler.", "wrong": ["false king.", "empty figure.", "weak claimant."] },
+          { start: "My style of conquest often involved accepting the submission of rival kings rather than destroying them because allowing defeated rulers to retain local authority while accepting Gupta supremacy was", "correct": "more efficient than complete conquest.", "wrong": ["weakness.", "failure.", "hesitation."] },
+          { start: "The military organization required for my campaigns showed that the Gupta Empire possessed the administrative capacity to", "correct": "raise armies.", "wrong": ["avoid warfare.", "weak military.", "disband forces."] },
+          { start: "My use of war elephants, cavalry, and infantry demonstrated that Gupta military strategy involved", "correct": "combining different unit types.", "wrong": ["single unit type.", "no strategy.", "no planning."] },
+          { start: "The expansion of Gupta territory under my reign established the foundation for what would become", "correct": "one of India's greatest empires.", "wrong": ["empty victories.", "fragmented rule.", "short-lived gains."] }
         ]
       },
       {
@@ -6233,22 +7112,22 @@ export const CIVILIZATIONS = [
         emoji: "🌟",
         quotes: [
           { start: "I am remembered not only for military victory but also for establishing a golden age of culture because I believed that an empire's true greatness lay in its art, literature, science, and philosophy,", "correct": "not only military power.", "wrong": ["only conquest mattered.", "culture was irrelevant.", "art served no purpose."] },
-          { start: "My patronage of scholars, poets, and artists served multiple purposes: enhancing the prestige of the Gupta court, attracting talented people, and ensuring that knowledge and culture flourished and were transmitted to", "correct": "future generations.", "wrong": ["serve only decorative purposes.", "provide no real benefit.", "provide no lasting benefit."] },
+          { start: "My patronage of scholars, poets, and artists served multiple purposes: enhancing the prestige of the Gupta court, ensuring that knowledge and culture flourished were transmitted to", "correct": "future generations.", "wrong": ["oblivion.", "decay.", "silence."] },
           { start: "The assembly of the 'Nine Gems' (Navratnas)—brilliant scholars and artists at my court—demonstrated that I understood that intellectual and cultural achievement was as important as", "correct": "military power in establishing a great empire.", "wrong": ["simply showing off wealth.", "having no real significance.", "having no real impact."] },
           { start: "My military victories, particularly the conquest of the western regions, were made possible by understanding that economic prosperity and stable governance allowed the empire", "correct": "to finance large military campaigns.", "wrong": ["to rely solely on brute force.", "to succeed without strategy.", "to succeed without planning."] },
           { start: "The defeat of the Shaka Western Kshatrapas brought the western trade ports under Gupta control, which allowed the empire to", "correct": "control maritime trade.", "wrong": ["gain no real benefit.", "ignore overseas commerce.", "have no influence."] },
-          { start: "My promotion of both Hinduism and Buddhism demonstrated that a wise Gupta ruler understood that religious tolerance and the patronage of multiple traditions created", "correct": "stability.", "wrong": ["pure religious dominance.", "one religion only.", "instability."] }
+          { start: "My promotion of both Hinduism and Buddhism demonstrated that a wise Gupta ruler understood that religious tolerance and the patronage of multiple traditions created", "correct": "stability.", "wrong": ["chaos.", "one religion only.", "instability."] }
         ]
       },
       {
         name: "Gupta Scholars & Intellectual Achievement",
         emoji: "📚",
         quotes: [
-          { start: "The Gupta court attracted the greatest scholars of the age because the emperor provided the intellectual freedom to pursue knowledge in", "correct": "mathematics, astronomy, medicine, and literature.", "wrong": ["fields without any real support.", "subjects treated only ceremonially.", "areas where scholars were oppressed."] },
-          { start: "Aryabhata's contributions to mathematics and astronomy, made under Gupta patronage, demonstrated that when scholars receive support and resources, they can make discoveries", "correct": "that advance human knowledge.", "wrong": ["even if patronage is unimportant.", "without any sources.", "without context."] },
-          { start: "The invention of the decimal system and the concept of zero by Indian mathematicians during the Gupta era represented", "correct": "a breakthrough in mathematical understanding.", "wrong": ["only a theoretical idea.", "without any real value.", "something already known."] },
-          { start: "Kalidasa's literary masterpieces, supported by Gupta imperial patronage, showed that cultural achievement requires", "correct": "a ruler's recognition.", "wrong": ["purely individual achievement.", "no real role for patronage.", "art was unimportant."] },
-          { start: "The Gupta approach to supporting scholars included establishing centers of learning where knowledge could be preserved and transmitted because the empire understood that institutionalizing knowledge", "correct": "ensured its survival.", "wrong": ["had no real effect.", "was unnecessary for learning.", "benefited only individuals."] },
+          { start: "The Gupta court attracted the greatest scholars of the age because the emperor provided the intellectual freedom to pursue knowledge in mathematics, astronomy, medicine, and", "correct": "literature.", "wrong": ["superstition.", "chaos.", "oppression."] },
+          { start: "Aryabhata's contributions to mathematics and astronomy, made under Gupta patronage, demonstrated that when scholars receive support and resources, they can make discoveries", "correct": "that advance human knowledge.", "wrong": ["of no value.", "by accident.", "in isolation."] },
+          { start: "The invention of the decimal system and the concept of zero by Indian mathematicians during the Gupta era represented a breakthrough in", "correct": "mathematical understanding.", "wrong": ["mathematical decline.", "numerical confusion.", "basic arithmetic."] },
+          { start: "Kalidasa's literary masterpieces, supported by Gupta imperial patronage, showed that cultural achievement requires", "correct": "a ruler's recognition.", "wrong": ["no support.", "self isolation.", "accidental success."] },
+          { start: "The Gupta approach to supporting scholars included establishing centers of learning where knowledge could be preserved and transmitted because the empire understood that institutionalizing knowledge", "correct": "ensured its survival.", "wrong": ["had no real effect.", "was unnecessary.", "benefited only individuals."] },
           { start: "Gupta support for the study of Sanskrit and the composition of literature in Sanskrit served to establish Sanskrit as the language of the", "correct": "educated elite.", "wrong": ["common people.", "merchants and traders.", "peasants and laborers."] }
         ]
       },
@@ -6256,33 +7135,33 @@ export const CIVILIZATIONS = [
         name: "Gupta Science & Technology",
         emoji: "🔬",
         quotes: [
-          { start: "The achievements in medicine during the Gupta period, including the surgical techniques documented in medical texts, came from", "correct": "accumulation of knowledge over generations preserved through written texts.", "wrong": ["purely spiritual knowledge.", "empirical study did not occur.", "no real medicine."] },
-          { start: "Gupta astronomers made accurate observations and calculations about celestial bodies because they understood that astronomy had practical applications for agriculture and", "correct": "the creation of accurate calendars.", "wrong": ["with purely theoretical interest.", "with no practical applications.", "without any real value."] },
-          { start: "The technological innovations in metallurgy and engineering under the Gupta period, visible in the Iron Pillar of Delhi and other artifacts, demonstrate that the empire possessed sophisticated knowledge of", "correct": "manufacturing techniques.", "wrong": ["no real innovation.", "purely accidental.", "no technology."] },
-          { start: "Gupta support for technological advancement served both practical and symbolic purposes: improving productivity, demonstrating imperial power, and establishing the Gupta Empire as the center", "correct": "of knowledge and civilization.", "wrong": ["without practical matters.", "without any symbolic importance.", "with no real benefit to society."] }
+          { start: "The achievements in medicine during the Gupta period, including the surgical techniques documented in medical texts, came from accumulation of knowledge over generations preserved through", "correct": "written texts.", "wrong": ["oral tradition.", "divine revelation.", "random chance."] },
+          { start: "Gupta astronomers made accurate observations and calculations about celestial bodies because they understood that astronomy had practical applications for agriculture and", "correct": "the creation of accurate calendars.", "wrong": ["astrological superstition.", "random prediction.", "cosmic guessing."] },
+          { start: "The technological innovations in metallurgy and engineering under the Gupta period, visible in the Iron Pillar of Delhi and other artifacts, demonstrate that the empire possessed sophisticated knowledge of", "correct": "manufacturing techniques.", "wrong": ["primitive tools.", "basic materials.", "random processes."] },
+          { start: "Gupta support for technological advancement served both practical and symbolic purposes: improving productivity, demonstrating imperial power, and establishing the Gupta Empire as the center of", "correct": "knowledge and civilization.", "wrong": ["decline.", "isolation.", "disorder."] }
         ]
       },
       {
         name: "Gupta Governance & Administration",
         emoji: "⚖️",
         quotes: [
-          { start: "The Gupta system of governance required establishing a centralized administration with appointed officials in provinces because the emperor could not", "correct": "personally oversee all territories.", "wrong": ["rely on pure feudalism.", "function without any organization.", "practice only decentralization."] },
+          { start: "The Gupta system of governance required establishing a centralized administration with appointed officials in provinces because the emperor could not", "correct": "personally oversee all territories.", "wrong": ["rely on pure feudalism.", "direct control.", "absolute oversight."] },
           { start: "Gupta emperors maintained power by balancing the authority of local rulers and the central authority because allowing local elites some autonomy while maintaining ultimate imperial authority created", "correct": "stability.", "wrong": ["absolute centralization.", "chaos.", "pure military rule."] },
-          { start: "The Gupta legal system, based on written codes and administered by judges, served to", "correct": "provide consistent justice.", "wrong": ["allow arbitrary punishment.", "function without real laws.", "exist purely as a ceremonial system."] },
-          { start: "Gupta taxation required striking a balance between extracting sufficient revenue and not driving the people to rebellion because overtaxation would cause economic collapse and", "correct": "rebellion.", "wrong": ["maximum extraction.", "no limit on taxation.", "no real concern."] },
-          { start: "The Gupta approach to administration of conquered territories involved respecting local customs and allowing some local autonomy because this strategy won", "correct": "the cooperation of local elites.", "wrong": ["cultural erasure.", "pure domination.", "no respect for locals."] },
-          { start: "The stability of Gupta rule for nearly two centuries came from establishing a system where successive emperors understood that maintaining justice, supporting knowledge, and protecting merchants created", "correct": "conditions for prosperity.", "wrong": ["pure military might.", "no real system.", "luck alone."] }
+          { start: "The Gupta legal system, based on written codes and administered by judges, served to", "correct": "provide consistent justice.", "wrong": ["arbitrary rulings.", "lawless chaos.", "symbolic law."] },
+          { start: "Gupta taxation required striking a balance between extracting sufficient revenue and not driving the people to rebellion because overtaxation would cause economic collapse and", "correct": "rebellion.", "wrong": ["state collapse.", "economic stagnation.", "no real concern."] },
+          { start: "The Gupta approach to administration of conquered territories involved respecting local customs and allowing some local autonomy because this strategy won", "correct": "the cooperation of local elites.", "wrong": ["cultural suppression.", "pure domination.", "constant rebellion."] },
+          { start: "The stability of Gupta rule for nearly two centuries came from establishing a system where successive emperors understood that maintaining justice, supporting knowledge, and protecting merchants created", "correct": "conditions for prosperity.", "wrong": ["military dominance.", "random chance.", "sheer luck."] }
         ]
       },
       {
         name: "Gupta Trade & Economic Power",
         emoji: "💰",
         quotes: [
-          { start: "The Gupta control of trade routes—both overland through Central Asia and maritime through the Indian Ocean—gave them wealth through", "correct": "taxation of merchants.", "wrong": ["without any real advantage.", "because trade was unimportant.", "without gaining revenue from trade."] },
-          { start: "The prosperity of merchants during the Gupta period came from the empire's provision of safe roads, protection from bandits and", "correct": "fair taxation.", "wrong": ["pure exploitation.", "no protection.", "arbitrary taxation."] },
-          { start: "The Gupta support for merchant guilds and trade associations served to", "correct": "ensure that merchants had organized forums to settle disputes.", "wrong": ["control merchants completely.", "provide no real benefit.", "act purely as a ceremonial measure."] },
+          { start: "The Gupta control of trade routes—both overland through Central Asia and maritime through the Indian Ocean—gave them wealth through", "correct": "taxation of merchants.", "wrong": ["military plunder.", "royal monopolies.", "agricultural surplus."] },
+          { start: "The prosperity of merchants during the Gupta period came from the empire's provision of safe roads, protection from bandits and", "correct": "fair taxation.", "wrong": ["total neglect.", "no protection.", "arbitrary taxes."] },
+          { start: "The Gupta support for merchant guilds and trade associations served to ensure that merchants had", "correct": "organized forums to settle disputes.", "wrong": ["ceremonial gatherings.", "heavy taxation.", "total royal control."] },
           { start: "The economic prosperity of the Gupta Empire allowed the government to", "correct": "finance military campaigns.", "wrong": ["simply accumulate wealth.", "gain no real benefits from it.", "have no practical use."] },
-          { start: "The Gupta mints produced high-quality coins inscribed with the emperor's names and titles because this served to establish the emperor's face as a symbol of", "correct": "imperial authority.", "wrong": ["purely decorative.", "no real function.", "no practical benefit."] },
+          { start: "The Gupta mints produced high-quality coins inscribed with the emperor's names and titles because this served to establish the emperor's face as a symbol of", "correct": "imperial authority.", "wrong": ["personal vanity.", "economic reform.", "religious devotion."] },
           { start: "The volume of trade during the Gupta period, with goods flowing from China, Central Asia, Persia, Rome, and Southeast Asia, demonstrated that the Gupta Empire was a major node in international trade networks stretching across", "correct": "Eurasia.", "wrong": ["America.", "Scandinavia.", "Antarctica."] }
         ]
       },
@@ -6290,21 +7169,21 @@ export const CIVILIZATIONS = [
         name: "Gupta Art & Architecture",
         emoji: "🏛️",
         quotes: [
-          { start: "The distinctive Gupta style of sculpture, painting, and architecture represented a synthesis because it combined Indian traditions with influences from Hellenistic art encountered through", "correct": "trade and contact.", "wrong": ["relying only on purely local traditions.", "no original innovation.", "purely local traditions."] },
-          { start: "Gupta patronage of Buddhist cave temples and sculptures served both religious and political purposes: demonstrating piety, supporting religion, and establishing the Gupta court as", "correct": "a center of culture and spirituality recognized across Asia.", "wrong": ["purely religious.", "no political benefit.", "no real purpose."] },
-          { start: "The construction of temples and public buildings during the Gupta period reflected the empire's belief that permanent structures demonstrated", "correct": "imperial power.", "wrong": ["purely practical.", "no symbolic value.", "no real purpose."] },
-          { start: "The development of the Gupta artistic style influenced art across Asia because the empire's prestige and the trade networks it controlled allowed its cultural achievements", "correct": "to be widely known and emulated.", "wrong": ["to remain purely local.", "to purely local art.", "to have no real influence."] },
-          { start: "Gupta artists and architects working under imperial patronage created works that demonstrated technical mastery, aesthetic sophistication, and the integration of", "correct": "religious and secular themes.", "wrong": ["primitive techniques.", "no real skill.", "no sophistication."] }
+          { start: "The distinctive Gupta style of sculpture, painting, and architecture represented a synthesis because it combined Indian traditions with influences from Hellenistic art encountered through", "correct": "trade and contact.", "wrong": ["military conquest.", "internal isolation.", "local traditions."] },
+          { start: "Gupta patronage of Buddhist cave temples and sculptures served both religious and political purposes: demonstrating piety, supporting religion, and establishing the Gupta court as a center of culture and", "correct": "spirituality recognized across Asia.", "wrong": ["local influence.", "royal luxury.", "military strength."] },
+          { start: "The construction of temples and public buildings during the Gupta period reflected the empire's belief that permanent structures demonstrated", "correct": "imperial power.", "wrong": ["religious piety.", "artistic skill.", "no real purpose."] },
+          { start: "The development of the Gupta artistic style influenced art across Asia because the empire's prestige and the trade networks it controlled allowed its cultural achievements to", "correct": "be widely known and emulated.", "wrong": ["stay local.", "have minimal impact.", "remain isolated."] },
+          { start: "Gupta artists and architects working under imperial patronage created works that demonstrated technical mastery, aesthetic sophistication, and the integration of", "correct": "religious and secular themes.", "wrong": ["only religious motifs.", "strict Hindu style.", "Buddhist exclusivity."] }
         ]
       },
       {
         name: "Gupta Religion & Philosophy",
         emoji: "🕯️",
         quotes: [
-          { start: "The Gupta approach to religion included patronage of both Hindu temples and Buddhist monasteries because the emperors understood that religious tolerance and support for multiple traditions created", "correct": "stability.", "wrong": ["exclusion of Buddhism.", "no Buddhism.", "widespread religious persecution."] },
-          { start: "The revival of Sanskrit literature and philosophy during the Gupta period served to", "correct": "establish Hindu classical traditions.", "wrong": ["purely Hindu fundamentalism.", "no real synthesis.", "no philosophy."] },
-          { start: "Gupta support for the composition of the Mahabharata and Ramayana in their final forms served to", "correct": "preserve these epic traditions.", "wrong": ["purely entertainment.", "no real purpose.", "no cultural value."] },
-          { start: "The Gupta engagement with Buddhist scholarship and philosophy, particularly at Nalanda University, demonstrated that the empire supported", "correct": "learning across religious traditions.", "wrong": ["oppression of Buddhists.", "without providing any real support.", "no real support."] },
+          { start: "The Gupta approach to religion included patronage of both Hindu temples and Buddhist monasteries because the emperors understood that religious tolerance and support for multiple traditions created", "correct": "stability.", "wrong": ["division.", "conflict.", "intolerance."] },
+          { start: "The revival of Sanskrit literature and philosophy during the Gupta period served to", "correct": "establish Hindu classical traditions.", "wrong": ["create religious divide.", "reject philosophy.", "reject history."] },
+          { start: "Gupta support for the composition of the Mahabharata and Ramayana in their final forms served to", "correct": "preserve these epic traditions.", "wrong": ["entertain people.", "standardize Sanskrit.", "boost Gupta power."] },
+          { start: "The Gupta engagement with Buddhist scholarship and philosophy, particularly at Nalanda University, demonstrated that the empire supported", "correct": "learning across religious traditions.", "wrong": ["oppression of Buddhists.", "learning in one.", "no learning."] },
           { start: "The Gupta period saw the development of Hindu philosophy because thinkers could", "correct": "work freely and access resources.", "wrong": ["produce no real philosophy.", "follow only purely traditional ideas.", "create nothing innovative."] }
         ]
       },
@@ -6312,11 +7191,11 @@ export const CIVILIZATIONS = [
         name: "Gupta Decline & Historical Significance",
         emoji: "📜",
         quotes: [
-          { start: "The decline of the Gupta Empire came from multiple factors: Hun invasions, the fragmentation of central authority, economic decline, and", "correct": "the inability of later emperors to maintain the system of governance.", "wrong": ["purely external conquest.", "single cause.", "sudden collapse."] },
-          { start: "The Gupta inability to completely repel the Huna (Hun) invasions from Central Asia showed that even powerful empires face challenges from determined external enemies with", "correct": "superior military capabilities.", "wrong": ["Gupta weakness.", "inevitable defeat.", "no real resistance."] },
-          { start: "The fragmentation of the Gupta Empire into regional kingdoms after the central authority weakened demonstrated that without a strong central authority and the prosperity that supported it, the system of governance", "correct": "could not be maintained.", "wrong": ["was weak from the start.", "had no real unity.", "inevitable declined."] },
+          { start: "The decline of the Gupta Empire came from multiple factors: Hun invasions, the fragmentation of central authority, economic decline, and the inability of later emperors to", "correct": "maintain the system of governance.", "wrong": ["keep it stable.", "hold power.", "run things properly."] },
+          { start: "The Gupta inability to completely repel the Huna (Hun) invasions from Central Asia showed that even powerful empires face challenges from determined external enemies with", "correct": "superior military capabilities.", "wrong": ["worst weapons.", "less power.", "no real resistance."] },
+          { start: "The fragmentation of the Gupta Empire into regional kingdoms after the central authority weakened demonstrated that without a strong central authority and the prosperity that supported it, the system of governance", "correct": "could not be maintained.", "wrong": ["was weak from the start.", "had no real unity.", "fell apart."] },
           { start: "The legacy of the Gupta Empire included establishing that a civilization that values knowledge, supports cultural achievement, and provides stable governance can", "correct": "create a golden age.", "wrong": ["leave no lasting legacy.", "achieve only military success.", "experience only temporary cultural achievements."] },
-          { start: "The study of the Gupta period demonstrates that in the ancient world mathematical breakthroughs (zero, decimal system) and scientific discoveries could emerge", "correct": "from patronage and institutional support.", "wrong": ["without any organized support.", "completely by random chance.", "because primitiveness was the norm."] }
+          { start: "The study of the Gupta period demonstrates that in the ancient world mathematical breakthroughs (zero, decimal system) and scientific discoveries could emerge", "correct": "from patronage and institutional support.", "wrong": ["without any support.", "completely by random chance.", "just by chance."] }
         ]
       },
       {
@@ -6326,15 +7205,15 @@ export const CIVILIZATIONS = [
           { start: "Women in Gupta society had more restricted roles than in some earlier Indian periods, reflecting that", "correct": "social norms shift over time.", "wrong": ["women had complete freedom.", "no restrictions existed.", "all women were equal."] },
           { start: "The roles of queens and female members of the royal family in Gupta politics showed that even with overall restrictions on women, those with royal birth could", "correct": "exercise significant influence.", "wrong": ["hold no power at all.", "perform purely ceremonial duties.", "have no real influence whatsoever."] },
           { start: "Gupta society was organized hierarchically with brahmins (priests), kshatriyas (warriors), vaishyas (merchants), and shudras (servants) because this varna system provided a social hierarchy that", "correct": "organized society.", "wrong": ["assigned roles randomly.", "offered no real structure.", "was purely based on wealth."] },
-          { start: "The relative stability of Gupta society despite its hierarchical nature came from the fact that each level had defined", "correct": "roles and responsibilities.", "wrong": ["pure oppression.", "no advancement possible.", "constant rebellion."] }
+          { start: "The relative stability of Gupta society despite its hierarchical nature came from the fact that each level had defined", "correct": "roles and responsibilities.", "wrong": ["only chaos.", "no advancement possible.", "constant rebellion."] }
         ]
       },
       {
         name: "Gupta Mathematics & Philosophy",
         emoji: "🧮",
         quotes: [
-          { start: "The Gupta mathematical achievement of developing zero and the decimal system was revolutionary because it allowed for more efficient calculations and would eventually transform", "correct": "mathematics worldwide.", "wrong": ["other unrelated fields.", "without having any real impact.", "other cultures."] },
-          { start: "Gupta philosophers developed sophisticated systems of thought because they worked in an environment that valued intellectual achievement and had access to the patronage and", "correct": "resources necessary for deep study.", "wrong": ["no real philosophy.", "without any support for philosophy.", "no original thought."] },
+          { start: "The Gupta mathematical achievement of developing zero and the decimal system was revolutionary because it allowed for more efficient calculations and would eventually transform", "correct": "mathematics worldwide.", "wrong": ["other unrelated fields.", "math only.", "local ideas."] },
+          { start: "Gupta philosophers developed sophisticated systems of thought because they worked in an environment that valued intellectual achievement and had access to the patronage and", "correct": "resources necessary for deep study.", "wrong": ["no real philosophy.", "no help for thinking.", "no original thought."] },
           { start: "The Gupta synthesis of Greek, Indian, and other philosophical traditions created a distinctive approach that drew from multiple sources while maintaining", "correct": "Indian intellectual traditions.", "wrong": ["American intellectual traditions.", "no intellectual traditions.", "no real synthesis."] }
         ]
       },
@@ -6343,7 +7222,7 @@ export const CIVILIZATIONS = [
         emoji: "🌍",
         quotes: [
           { start: "The Gupta establishment of relationships with distant powers like Rome, China, and Southeast Asian kingdoms showed that an empire's prestige and prosperity made it attractive", "correct": "as a diplomatic partner.", "wrong": ["without engaging in diplomacy.", "with purely military contact.", "without diplomacy."] },
-          { start: "The Gupta exchange of embassies with other states served to establish that the Gupta Empire was recognized as a major power worthy of", "correct": "formal diplomatic recognition.", "wrong": ["purely ceremonial.", "no real benefit.", "no significance."] },
+          { start: "The Gupta exchange of embassies with other states served to establish that the Gupta Empire was recognized as a major power worthy of", "correct": "formal diplomatic recognition.", "wrong": ["no importance.", "no real status.", "no significance."] },
           { start: "The influence of Gupta culture beyond India's borders demonstrated that a great civilization could extend influence", "correct": "far beyond military conquest.", "wrong": ["without having any real influence.", "only within local boundaries.", "through military power alone."] }
         ]
       }
