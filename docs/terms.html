@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Terms of Service</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Global Styles */
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #121212;
+      color: #eee;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+
+    /* Container for content */
+    .container {
+      max-width: 480px;
+      margin: 40px auto;
+      background: #1e1e1e;
+      padding: 30px 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 24px;
+      color: #f9a825;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      font-size: 18px;
+      color: #ffca28;
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 14px;
+      color: #ccc;
+      margin-bottom: 12px;
+    }
+
+    a {
+      color: #69f0ae;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* Optional footer */
+    .footer {
+      text-align: center;
+      font-size: 12px;
+      color: #777;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Terms of Service</h1>
+
+    <p>Welcome to <strong>"Sons of the Land"</strong>. By playing this game, you agree to the following terms:</p>
+    
+    <h2>1. Usage</h2>
+    <p>You may play this game for personal enjoyment only. Commercial use, redistribution, or modification is prohibited without written permission from the developers.</p>
+
+    <h2>2. Data</h2>
+    <p>We may collect anonymous gameplay data to improve the game experience. No personally identifiable information is collected or shared.</p>
+
+    <h2>3. Liability</h2>
+    <p>The developers are not responsible for any device issues, data loss, or other damages resulting from using this game.</p>
+
+    <h2>4. Changes</h2>
+    <p>These terms may be updated at any time. Continued use of the game constitutes acceptance of the updated terms.</p>
+
+    <!-- Back Button -->
+    <div style="text-align:center; margin-top:20px;">
+        <button id="backBtn" style="
+        background-color: #f9a825;
+        color: #1a1208;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 8px;
+        font-size: 14px;
+        cursor: pointer;
+        ">← Go Back</button>
+    </div>
+
+    <div class="footer">
+      &copy; <span id="year"></span> Sons of the Land. All rights reserved.
+    </div>
+  </div>
+<script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    // go back to previous page or close tab when back button is clicked
+    const backBtn = document.getElementById('backBtn');
+    backBtn.addEventListener('click', () => {
+        // If opened in a new tab
+        if (window.opener) {
+        window.close();
+        } else {
+        // Fallback: go back in history
+        window.history.back();
+        }
+    });
+</script>
+</body>
+</html>
