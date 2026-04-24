@@ -3,10 +3,12 @@ apply plugin: 'com.android.application'
 android {
     namespace "com.sonsoftheland.game"
     compileSdkVersion rootProject.ext.compileSdkVersion
+
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_11
         targetCompatibility JavaVersion.VERSION_11
     }
+
     defaultConfig {
         applicationId "com.sonsoftheland.game"
         minSdkVersion rootProject.ext.minSdkVersion
@@ -14,12 +16,12 @@ android {
         versionCode 2
         versionName "1.1"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
         aaptOptions {
-             // Files and dirs to omit from the packaged assets dir, modified to accommodate modern web apps.
-             // Default: https://android.googlesource.com/platform/frameworks/base/+/282e181b58cf72b6ca770dc7ca5f91f135444502/tools/aapt/AaptAssets.cpp#61
             ignoreAssetsPattern '!.svn:!.git:!.ds_store:!*.scc:.*:!CVS:!thumbs.db:!picasa.ini:!*~'
         }
     }
+
     buildTypes {
         release {
             minifyEnabled false
@@ -29,29 +31,34 @@ android {
 }
 
 repositories {
-    flatDir{
+    flatDir {
         dirs '../capacitor-cordova-android-plugins/src/main/libs', 'libs'
     }
 }
 
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
+
     implementation "androidx.appcompat:appcompat:$androidxAppCompatVersion"
     implementation "androidx.coordinatorlayout:coordinatorlayout:$androidxCoordinatorLayoutVersion"
     implementation "androidx.core:core-splashscreen:$coreSplashScreenVersion"
+
     implementation project(':capacitor-android')
+    implementation project(':capacitor-cordova-android-plugins')
+
+    // ✅ Kotlin (μόνο αυτό!)
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:1.8.22"
+
     testImplementation "junit:junit:$junitVersion"
     androidTestImplementation "androidx.test.ext:junit:$androidxJunitVersion"
     androidTestImplementation "androidx.test.espresso:espresso-core:$androidxEspressoCoreVersion"
-    implementation project(':capacitor-cordova-android-plugins')
-    
-    // ✅ FIX: Kotlin version conflict
-    constraints {
-        implementation('org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.22') {
-            because 'kotlin-stdlib-jdk7 needs to be 1.8.22'
-        }
-        implementation('org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.22') {
-            because 'kotlin-stdlib-jdk8 needs to be 1.8.22'
+}
+
+// ✅ FORCE όλες τις Kotlin βιβλιοθήκες στην ίδια έκδοση
+configurations.all {
+    resolutionStrategy.eachDependency { details ->
+        if (details.requested.group == "org.jetbrains.kotlin") {
+            details.useVersion "1.8.22"
         }
     }
 }
@@ -64,5 +71,5 @@ try {
         apply plugin: 'com.google.gms.google-services'
     }
 } catch(Exception e) {
-    logger.info("google-services.json not found, google-services plugin not applied. Push Notifications won't work")
+    logger.info("google-services.json not found, google-services plugin not applied.")
 }
