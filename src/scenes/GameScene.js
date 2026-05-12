@@ -23,13 +23,13 @@ export class GameScene extends Phaser.Scene {
         const difficulty = JSON.parse(difficultyRaw)
         
         // ✅ Set starting lives based on difficulty
-        let startingLives = 3
+        let startingLives = 2
         if (difficulty === 'Easy') {
-            startingLives = 4
-        } else if (difficulty === 'Normal') {
             startingLives = 3
-        } else if (difficulty === 'Hard') {
+        } else if (difficulty === 'Normal') {
             startingLives = 2
+        } else if (difficulty === 'Hard') {
+            startingLives = 1
         }
         
         // ✅ Check if lives from failed attempt
@@ -58,10 +58,10 @@ export class GameScene extends Phaser.Scene {
 
                 const difficulty = JSON.parse(difficultyRaw);
 
-                let bonusLives = 3;
+                let bonusLives = 2; // default for Normal
 
-                if (difficulty === 'Easy') bonusLives = 4;
-                else if (difficulty === 'Hard') bonusLives = 2;
+                if (difficulty === 'Easy') bonusLives = 3;
+                else if (difficulty === 'Hard') bonusLives = 1;
 
                 this.levelLives = bonusLives;
 
@@ -328,8 +328,7 @@ export class GameScene extends Phaser.Scene {
 
     // ✅ Check and grant life bonuses
     async checkLifeBonus() {
-        // Keep checking while score >= 100 and lives < 3
-        while (this.globalScore >= 100 && this.levelLives < 3) {
+        while (this.globalScore >= 100 && this.levelLives < 2) {
             this.levelLives++
             this.globalScore -= 100
             await ProgressStore.updateGlobalScore(this.globalScore)

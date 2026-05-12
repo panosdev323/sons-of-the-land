@@ -128,7 +128,7 @@ export const ProgressStore = {
 
   // ✅ Get lives
   getGlobalLives() {
-    return 3
+    return 2 // this.data.globalLives || 0
   },
 
   // ✅ Get current level lives
