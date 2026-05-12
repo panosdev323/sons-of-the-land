@@ -71,18 +71,22 @@ export class TermsScene extends Phaser.Scene {
 
     // Add each section
     sections.forEach(section => {
-      // Title
-      scrollContainer.add(this.add.text(40, yPos, section.title, {
-        fontSize: '20px', color: '#ffca28', fontStyle: 'bold'
-      }))
-      yPos += 25
+        // Title
+        const titleText = this.add.text(40, yPos, section.title, {
+            fontSize: '20px', color: '#ffca28', fontStyle: 'bold'
+        })
+        scrollContainer.add(titleText)
+        yPos += 30  // Space after title
 
-      // Content
-      scrollContainer.add(this.add.text(40, yPos, section.content, {
-        fontSize: '19px', color: '#ccc',
-        wordWrap: { width: 400 }
-      }))
-      yPos += 100
+        // Content
+        const contentText = this.add.text(40, yPos, section.content, {
+            fontSize: '19px', color: '#ccc',
+            wordWrap: { width: 400 }
+        })
+        scrollContainer.add(contentText)
+        
+        // ✅ Dynamic spacing based on content height
+        yPos += contentText.height + 50  // Προσθέτει το ύψος του κειμένου + 50px κενό
     })
 
     // Footer
