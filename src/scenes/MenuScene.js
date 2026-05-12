@@ -200,23 +200,33 @@ export class MenuScene extends Phaser.Scene {
           drawBg(false)
           nameText.setScale(1)
         })
-        zone.on('pointerdown', () => {
-          this.sound.play('tap')
-          this.tweens.add({
-            targets: [nameText, emojiText],
-            scale: 1.1,
-            duration: 150,
-            yoyo: true
-          })
-          // ✅ FIX: Pass levelScore to GameScene
-          const lastLevel = ProgressStore.getLevel(civ.id)
-          this.scene.start('GameScene', {
-            civId: civ.id,
-            mode: 'mixed',
-            level: lastLevel,
-            levelScore: 0,
-            streak: 0
-          })
+        zone.on('pointerdown', async () => {
+            this.sound.play('tap')
+            this.tweens.add({
+                targets: [nameText, emojiText],
+                scale: 1.1,
+                duration: 150,
+                yoyo: true
+            })
+            
+            const lastLevel = ProgressStore.getLevel(civ.id)
+            // check if lives from failed attempt
+            const storedLives = ProgressStore.getCurrentLevelLives()
+            let levelLivesOverride = undefined
+            
+            if (storedLives !== undefined) {
+                levelLivesOverride = storedLives
+                await ProgressStore.clearCurrentLevelLives()  // Clear after use
+            }
+            
+            this.scene.start('GameScene', {
+                civId: civ.id,
+                mode: 'mixed',
+                level: lastLevel,
+                levelScore: 0,
+                streak: 0,
+                levelLives: levelLivesOverride
+            })
         })
       } else {
         // Completed: subtle pulse on tap but no navigation

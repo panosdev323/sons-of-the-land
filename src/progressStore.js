@@ -5,6 +5,7 @@
  * Structure:
  * {
  *   globalScore: number,        // Cross-civilization score
+ *   currentLevelLives: number,  // Lives from failed attempt
  *   civilizations: {
  *     [civId]: {
  *       completed: boolean,
@@ -22,6 +23,7 @@ const STORAGE_KEY = 'ancientWisdomProgress'
 export const ProgressStore = {
   data: {
     globalScore: 0,
+    currentLevelLives: undefined,  // lives from failed attempt
     civilizations: {}
   },
   pendingUpdates: [],  // Queue updates when offline
@@ -40,6 +42,7 @@ export const ProgressStore = {
 
       this.data = raw ? JSON.parse(raw) : {
         globalScore: 0,
+        currentLevelLives: undefined,
         civilizations: {}
       }
       // Try to sync with backend if online
@@ -50,6 +53,7 @@ export const ProgressStore = {
       console.error('Failed to load progress:', err)
       this.data = {
         globalScore: 0,
+        currentLevelLives: undefined,
         civilizations: {}
       }
     }
@@ -127,6 +131,23 @@ export const ProgressStore = {
     return 3
   },
 
+  // ✅ Get current level lives
+  getCurrentLevelLives() {
+    return this.data.currentLevelLives
+  },
+
+  // ✅ Set current level lives
+  async setCurrentLevelLives(lives) {
+    this.data.currentLevelLives = lives
+    await this.save()
+  },
+
+  // ✅ Clear current level lives
+  async clearCurrentLevelLives() {
+    this.data.currentLevelLives = undefined
+    await this.save()
+  },
+
   // ✅ Complete a level
   async completeLevel(civId, level, totalLevels) {
     if (!this.data.civilizations[civId]) {
@@ -191,6 +212,7 @@ export const ProgressStore = {
   async reset() {
     this.data = {
       globalScore: 0,
+      currentLevelLives: undefined,
       civilizations: {}
     }
     

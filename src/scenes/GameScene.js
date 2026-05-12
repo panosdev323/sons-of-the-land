@@ -16,9 +16,11 @@ export class GameScene extends Phaser.Scene {
         
         // Level-specific score (for feedback)
         this.levelScore = data.levelScore ?? 0
-        //Get difficulty setting
+        
+        // Get difficulty setting
         const difficultyRaw = localStorage.getItem('setting_difficulty') || '"Normal"'
         const difficulty = JSON.parse(difficultyRaw)
+        
         // ✅ Set starting lives based on difficulty
         let startingLives = 3
         if (difficulty === 'Easy') {
@@ -28,8 +30,19 @@ export class GameScene extends Phaser.Scene {
         } else if (difficulty === 'Hard') {
             startingLives = 2
         }
-        this.levelLives = data.levelLives ?? startingLives
+        
+        // ✅ Check if lives from failed attempt
+        const storedLives = ProgressStore.getCurrentLevelLives()
+        if (storedLives !== undefined) {
+            this.levelLives = storedLives
+        } else {
+            this.levelLives = data.levelLives ?? startingLives
+        }
+        
         this.streak = data.streak ?? 0
+        
+        // ✅ show Game Over if player has no lives left (e.g. from failed attempt)
+        this.shouldShowGameOver = this.levelLives === 0
     }
 
     create() {
@@ -66,10 +79,17 @@ export class GameScene extends Phaser.Scene {
         this.qIndex = 0
         this.answered = false
         this.cameras.main.setBackgroundColor(this.civ.bg)
-        this.showQuestion()
+        
+        // ✅ show Game Over if player has no lives left from previous attempt
+        if (this.shouldShowGameOver) {
+            this.showGameOver()
+        } else {
+            this.showQuestion()
+        }
+        
         // ✅ Clean up on scene shutdown
         this.events.on('shutdown', () => {
-        this.children.list.forEach(c => c.destroy())
+            this.children.list.forEach(c => c.destroy())
         })
     }
 
@@ -358,34 +378,63 @@ export class GameScene extends Phaser.Scene {
     showGameOver() {
         this.children.list.slice().forEach(c => c.destroy())
 
-        this.add.text(240, 250, '💀 Game Over', {
+        this.add.text(240, 250, '😰 Game Over', {
             fontSize: '28px', color: '#ff5252'
         }).setOrigin(0.5)
 
-        this.add.text(240, 290, 'The ancients demand more wisdom...', {
+        this.add.text(240, 300, 'Watch an ad to continue?', {
             fontSize: '19px',
             color: '#ffd54f',
             fontStyle: 'italic'
         }).setOrigin(0.5)
 
-        this.add.text(240, 330, `Score: ${this.globalScore}`, {
+        this.add.text(240, 340, `Score: ${this.globalScore}`, {
             fontSize: '19px', color: '#69f0ae'
         }).setOrigin(0.5)
 
-        const retryBtn = this.add.text(240, 400, 'Retry', {
+        // ✅ WATCH AD - lives bonus
+        const watchAdBtn = this.add.text(240, 390, 'Watch Ad for Lives ▶', {
+            fontSize: '19px',
+            backgroundColor: '#1b5e20',
+            padding: { x: 20, y: 14 }
+        }).setOrigin(0.5).setInteractive()
+
+        watchAdBtn.on('pointerdown', async () => {
+            this.sound.play('tap')
+            
+            if (window.MainActivity) {
+                window.MainActivity.showRewardedAd()
+                await new Promise(resolve => this.time.delayedCall(3000, resolve))
+                
+                const difficultyRaw = localStorage.getItem('setting_difficulty') || '"Normal"'
+                const difficulty = JSON.parse(difficultyRaw)
+                
+                let bonusLives = 3
+                if (difficulty === 'Easy') bonusLives = 4
+                else if (difficulty === 'Hard') bonusLives = 2
+                
+                this.levelLives = bonusLives
+                this.answered = false
+                this.qIndex = 0
+                
+                // ✅ ΝΕΟ: Καθάρισε τις αποθηκευμένες ζωές
+                await ProgressStore.clearCurrentLevelLives()
+                
+                this.showQuestion()
+            }
+        })
+
+        // GO BACK - with zero lives to ensure progress loss if they skip the ad
+        const backBtn = this.add.text(240, 460, 'Go Back', {
             fontSize: '19px',
             backgroundColor: '#7f0000',
             padding: { x: 20, y: 14 }
         }).setOrigin(0.5).setInteractive()
 
-        retryBtn.on('pointerdown', () => {
+        backBtn.on('pointerdown', async () => {
             this.sound.play('tap')
-            this.scene.start('GameScene', {
-                civId: this.civId,
-                level: this.level,
-                levelScore: 0,
-                streak: 0
-            })
+            await ProgressStore.setCurrentLevelLives(0)
+            this.scene.start('MenuScene')
         })
     }
 }
