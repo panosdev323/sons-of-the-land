@@ -25,7 +25,7 @@ export class StatsScene extends Phaser.Scene {
     }).setOrigin(0.5)
  
     const backBtn = this.add.text(5, 8, '← Back', {
-      fontSize: '18px', color: '#ffffff', backgroundColor: 'rgba(255,255,255,0.1)', padding: { x: 12, y: 16 }
+      fontSize: '19px', color: '#ffffff', backgroundColor: 'rgba(255,255,255,0.1)', padding: { x: 12, y: 16 }
     }).setInteractive()
     backBtn.on('pointerdown', () => {
       this.sound.play('tap')
@@ -65,11 +65,11 @@ export class StatsScene extends Phaser.Scene {
       }))
       
       scrollContainer.add(this.add.text(100, yPos, civ.id.toUpperCase(), {
-        fontSize: '18px', color: '#fff'
+        fontSize: '19px', color: '#fff'
       }))
       
       scrollContainer.add(this.add.text(w - 50, yPos, score, {
-        fontSize: '18px', color: '#69f0ae'
+        fontSize: '19px', color: '#69f0ae'
       }).setOrigin(1, 0))
  
       yPos += 30
@@ -77,7 +77,7 @@ export class StatsScene extends Phaser.Scene {
  
     if (topCivs.length === 0) {
       scrollContainer.add(this.add.text(50, yPos, 'Play some levels to earn scores!', {
-        fontSize: '18px', color: '#dcdada'
+        fontSize: '19px', color: '#dcdada'
       }))
     }
  
@@ -102,7 +102,7 @@ export class StatsScene extends Phaser.Scene {
         fontSize: '20px', color: '#fff', alpha: opacity
       }))
       scrollContainer.add(this.add.text(50, yPos + 25, ach.desc, {
-        fontSize: '18px', color: '#dcdada', alpha: opacity
+        fontSize: '19px', color: '#dcdada', alpha: opacity
       }))
       yPos += 70
     })
@@ -146,7 +146,7 @@ export class StatsScene extends Phaser.Scene {
     container.add(bg)
  
     const labelText = this.add.text(w / 2, yPos + 15, label, {
-      fontSize: '18px', color: '#dcdada'
+      fontSize: '19px', color: '#dcdada'
     }).setOrigin(0.5)
     container.add(labelText)
  
