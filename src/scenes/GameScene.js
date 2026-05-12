@@ -1,6 +1,6 @@
 import { CIVILIZATIONS } from '../quotes.js'
 import { ProgressStore } from '../progressStore.js'
-import { AdManager } from '../AdManager' 
+import { AdMob } from '@capacitor-community/admob'
 
 export class GameScene extends Phaser.Scene {
     constructor() { super('GameScene') }
@@ -10,7 +10,6 @@ export class GameScene extends Phaser.Scene {
         this.authorName = data.authorName || null
         this.mode = 'mixed'
         this.level = data.level || 1
-        this.isAdShowing = false;
         
         // ✅ Load global score from ProgressStore
         this.globalScore = ProgressStore.getGlobalScore()
@@ -47,7 +46,7 @@ export class GameScene extends Phaser.Scene {
         this.shouldShowGameOver = this.levelLives === 0
     }
 
-    async create() {
+    create() {
         const LEVEL_SIZE = 5
 
         this.civ = CIVILIZATIONS.find(c => c.id === this.civId)
@@ -90,7 +89,7 @@ export class GameScene extends Phaser.Scene {
         }
         
         // ✅ Clean up on scene shutdown
-        this.events.on('shutdown', async () => {
+        this.events.on('shutdown', () => {
             this.children.list.forEach(c => c.destroy())
         })
     }
@@ -291,7 +290,8 @@ export class GameScene extends Phaser.Scene {
 
     // ✅ Check and grant life bonuses
     async checkLifeBonus() {
-        while (this.globalScore >= 100 && this.levelLives < 2) {
+        // Keep checking while score >= 100 and lives < 3
+        while (this.globalScore >= 100 && this.levelLives < 3) {
             this.levelLives++
             this.globalScore -= 100
             await ProgressStore.updateGlobalScore(this.globalScore)
@@ -393,8 +393,6 @@ export class GameScene extends Phaser.Scene {
             fontSize: '19px', color: '#69f0ae'
         }).setOrigin(0.5)
 
-        let isLoadingAd = false; // Local flag
-        
         // ==================== WATCH AD BUTTON ====================
         const watchAdBtn = this.add.text(240, 390, 'Watch Ad for Lives ▶', {
             fontSize: '19px',
@@ -403,101 +401,53 @@ export class GameScene extends Phaser.Scene {
         }).setOrigin(0.5).setInteractive()
 
         watchAdBtn.on('pointerdown', async () => {
-            if (isLoadingAd) return;
-            isLoadingAd = true;
-            
-            this.sound.pauseAll();
-            
-            // Show loading
-            const loadingText = this.add.text(240, 420, 'Loading ad...', {
-                fontSize: '16px', 
-                color: '#ffd54f'
-            }).setOrigin(0.5).setDepth(100);
-            
-            // Force timeout after 5 seconds - give lives anyway
-            const timeoutId = setTimeout(() => {
-                if (loadingText) loadingText.destroy();
-                this.giveRewardAndRestart();
-            }, 5000);
-            
+            this.sound.play('tap')
+
             try {
-                const success = await AdManager.show();
-                clearTimeout(timeoutId);
-                loadingText.destroy();
+                // ==================== ADMOB REWARDED AD ====================
+                await AdMob.prepareRewardVideoAd({
+                    adId: "ca-app-pub-3940256099942544/5224354917", // Test Ad
+                    // production: "ca-app-pub-7222777824759007/1944109420"
+                });
+
+                const reward = await AdMob.showRewardVideoAd();
+                console.log("✅ User earned reward:", reward);
+
+                // === Δώσε Bonus Lives ===
+                const difficultyRaw = localStorage.getItem('setting_difficulty') || '"Normal"';
+                const difficulty = JSON.parse(difficultyRaw);
                 
-                if (success) {
-                    this.giveRewardAndRestart();
-                } else {
-                    // Ad failed, but still give reward (better UX)
-                    this.add.text(240, 420, '⚠️ Ad failed, but here\'s your reward!', {
-                        fontSize: '16px', 
-                        color: '#ff9800'
-                    }).setOrigin(0.5).setDepth(100);
-                    
-                    setTimeout(() => this.giveRewardAndRestart(), 1500);
-                }
+                let bonusLives = 3;
+                if (difficulty === 'Easy') bonusLives = 4;
+                else if (difficulty === 'Hard') bonusLives = 2;
+
+                this.levelLives = bonusLives;
+                this.answered = false;
+                this.qIndex = 0;
+
+                await ProgressStore.clearCurrentLevelLives();
+                this.showQuestion();
+
             } catch (error) {
-                clearTimeout(timeoutId);
-                loadingText.destroy();
-                console.error("Ad error:", error);
+                console.error("Ad error or user closed the ad:", error);
                 
-                // Give reward anyway
-                this.add.text(240, 420, '⚠️ Error, but here\'s your reward!', {
-                    fontSize: '16px', 
-                    color: '#ff9800'
+                this.add.text(240, 420, 'Ad was not completed', {
+                    fontSize: '16px', color: '#ff5252'
                 }).setOrigin(0.5).setDepth(100);
-                
-                setTimeout(() => this.giveRewardAndRestart(), 1500);
             }
-        });
+        })
 
         // ==================== GO BACK BUTTON ====================
         const backBtn = this.add.text(240, 460, 'Go Back', {
             fontSize: '19px',
             backgroundColor: '#7f0000',
             padding: { x: 20, y: 14 }
-        }).setOrigin(0.5).setInteractive();
+        }).setOrigin(0.5).setInteractive()
 
         backBtn.on('pointerdown', async () => {
-            this.sound.play('tap');
-            await ProgressStore.setCurrentLevelLives(0);
-            this.scene.start('MenuScene');
-        });
-    }
-
-    // Helper method to give reward and restart
-    giveRewardAndRestart() {
-        // Give lives based on difficulty
-        const difficultyRaw = localStorage.getItem('setting_difficulty') || '"Normal"';
-        const difficulty = JSON.parse(difficultyRaw);
-        
-        let bonusLives = 3;
-        if (difficulty === 'Easy') bonusLives = 4;
-        else if (difficulty === 'Hard') bonusLives = 2;
-        
-        // Reset game state
-        this.levelLives = bonusLives;
-        this.answered = false;
-        this.qIndex = 0;
-        this.streak = 0;
-        this.levelScore = 0;
-        
-        ProgressStore.clearCurrentLevelLives().then(() => {
-            // Show message
-            this.add.text(240, 420, `✅ +${bonusLives} Lives! Restarting...`, {
-                fontSize: '16px', 
-                color: '#4caf50'
-            }).setOrigin(0.5).setDepth(100);
-            
-            // Restart scene
-            this.time.delayedCall(1000, () => {
-                this.scene.restart({
-                    civId: this.civId,
-                    level: this.level,
-                    levelScore: 0,
-                    streak: 0
-                });
-            });
-        });
+            this.sound.play('tap')
+            await ProgressStore.setCurrentLevelLives(0)
+            this.scene.start('MenuScene')
+        })
     }
 }
