@@ -406,7 +406,8 @@ export class GameScene extends Phaser.Scene {
             try {
                 // ==================== ADMOB REWARDED AD ====================
                 await AdMob.prepareRewardVideoAd({
-                    adId: "ca-app-pub-7222777824759007/1944109420",
+                    adId: "ca-app-pub-3940256099942544/5224354917", // Test Ad
+                    // production: "ca-app-pub-7222777824759007/1944109420"
                 });
 
                 const reward = await AdMob.showRewardVideoAd();
