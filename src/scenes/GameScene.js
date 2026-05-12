@@ -47,6 +47,7 @@ export class GameScene extends Phaser.Scene {
     }
 
     create() {
+        this.isLoadingAd = false
         const LEVEL_SIZE = 5
 
         this.civ = CIVILIZATIONS.find(c => c.id === this.civId)
@@ -401,7 +402,11 @@ export class GameScene extends Phaser.Scene {
         }).setOrigin(0.5).setInteractive()
 
         watchAdBtn.on('pointerdown', async () => {
+            if (this.isLoadingAd) return
+            this.isLoadingAd = true
+
             this.sound.play('tap')
+            this.sound.pauseAll()
 
             try {
                 // ==================== ADMOB REWARDED AD ====================
@@ -434,6 +439,9 @@ export class GameScene extends Phaser.Scene {
                 this.add.text(240, 420, 'Ad was not completed', {
                     fontSize: '16px', color: '#ff5252'
                 }).setOrigin(0.5).setDepth(100);
+            } finally {
+                this.isLoadingAd = false
+                this.sound.resumeAll()
             }
         })
 
