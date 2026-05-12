@@ -46,7 +46,7 @@ dependencies {
     implementation project(':capacitor-android')
     implementation project(':capacitor-cordova-android-plugins')
 
-    // ✅ Kotlin (μόνο αυτό!)
+    // ✅ Kotlin Standard Library
     implementation "org.jetbrains.kotlin:kotlin-stdlib:1.8.22"
 
     testImplementation "junit:junit:$junitVersion"
@@ -55,7 +55,7 @@ dependencies {
     implementation 'com.google.android.gms:play-services-ads:22.6.0'
 }
 
-// ✅ FORCE όλες τις Kotlin βιβλιοθήκες στην ίδια έκδοση
+// ✅ FORCE all Kotlin dependencies to use the same version to avoid conflicts
 configurations.all {
     resolutionStrategy.eachDependency { details ->
         if (details.requested.group == "org.jetbrains.kotlin") {
