@@ -393,6 +393,8 @@ export class GameScene extends Phaser.Scene {
             fontSize: '19px', color: '#69f0ae'
         }).setOrigin(0.5)
 
+        let isLoadingAd = false; // Local flag
+        
         // ==================== WATCH AD BUTTON ====================
         const watchAdBtn = this.add.text(240, 390, 'Watch Ad for Lives ▶', {
             fontSize: '19px',
@@ -401,9 +403,9 @@ export class GameScene extends Phaser.Scene {
         }).setOrigin(0.5).setInteractive()
 
         watchAdBtn.on('pointerdown', async () => {
-            if (this.isAdShowing) return;
+            if (isLoadingAd) return;
+            isLoadingAd = true;
             
-            this.isAdShowing = true;
             this.sound.pauseAll();
             
             // Show loading
@@ -411,63 +413,41 @@ export class GameScene extends Phaser.Scene {
                 fontSize: '16px', 
                 color: '#ffd54f'
             }).setOrigin(0.5).setDepth(100);
-
+            
+            // Force timeout after 5 seconds - give lives anyway
+            const timeoutId = setTimeout(() => {
+                if (loadingText) loadingText.destroy();
+                this.giveRewardAndRestart();
+            }, 5000);
+            
             try {
                 const success = await AdManager.show();
-                
+                clearTimeout(timeoutId);
                 loadingText.destroy();
                 
                 if (success) {
-                    // ✅ GIVE REWARD ALWAYS
-                    const difficultyRaw = localStorage.getItem('setting_difficulty') || '"Normal"';
-                    const difficulty = JSON.parse(difficultyRaw);
-                    
-                    let bonusLives = 3;
-                    if (difficulty === 'Easy') bonusLives = 4;
-                    else if (difficulty === 'Hard') bonusLives = 2;
-                    
-                    // Reset game state
-                    this.levelLives = bonusLives;
-                    this.answered = false;
-                    this.qIndex = 0;
-                    this.streak = 0;
-                    this.levelScore = 0;
-                    
-                    await ProgressStore.clearCurrentLevelLives();
-                    
-                    // Show success and restart
-                    this.add.text(240, 420, '✅ +3 Lives! Restarting...', {
-                        fontSize: '16px', 
-                        color: '#4caf50'
-                    }).setOrigin(0.5).setDepth(100);
-                    
-                    this.time.delayedCall(1000, () => {
-                        this.scene.restart({
-                            civId: this.civId,
-                            level: this.level,
-                            levelScore: 0,
-                            streak: 0
-                        });
-                    });
+                    this.giveRewardAndRestart();
                 } else {
-                    // Ad failed to load
-                    const errorText = this.add.text(240, 420, '⚠️ Ad failed. Please try again.', {
+                    // Ad failed, but still give reward (better UX)
+                    this.add.text(240, 420, '⚠️ Ad failed, but here\'s your reward!', {
                         fontSize: '16px', 
-                        color: '#ff5252'
+                        color: '#ff9800'
                     }).setOrigin(0.5).setDepth(100);
                     
-                    this.time.delayedCall(2000, () => errorText.destroy());
+                    setTimeout(() => this.giveRewardAndRestart(), 1500);
                 }
             } catch (error) {
-                console.error("Ad error:", error);
+                clearTimeout(timeoutId);
                 loadingText.destroy();
-                this.add.text(240, 420, '⚠️ Error. Please try again.', {
+                console.error("Ad error:", error);
+                
+                // Give reward anyway
+                this.add.text(240, 420, '⚠️ Error, but here\'s your reward!', {
                     fontSize: '16px', 
-                    color: '#ff5252'
+                    color: '#ff9800'
                 }).setOrigin(0.5).setDepth(100);
-            } finally {
-                this.isAdShowing = false;
-                this.sound.resumeAll();
+                
+                setTimeout(() => this.giveRewardAndRestart(), 1500);
             }
         });
 
@@ -482,6 +462,42 @@ export class GameScene extends Phaser.Scene {
             this.sound.play('tap');
             await ProgressStore.setCurrentLevelLives(0);
             this.scene.start('MenuScene');
+        });
+    }
+
+    // Helper method to give reward and restart
+    giveRewardAndRestart() {
+        // Give lives based on difficulty
+        const difficultyRaw = localStorage.getItem('setting_difficulty') || '"Normal"';
+        const difficulty = JSON.parse(difficultyRaw);
+        
+        let bonusLives = 3;
+        if (difficulty === 'Easy') bonusLives = 4;
+        else if (difficulty === 'Hard') bonusLives = 2;
+        
+        // Reset game state
+        this.levelLives = bonusLives;
+        this.answered = false;
+        this.qIndex = 0;
+        this.streak = 0;
+        this.levelScore = 0;
+        
+        ProgressStore.clearCurrentLevelLives().then(() => {
+            // Show message
+            this.add.text(240, 420, `✅ +${bonusLives} Lives! Restarting...`, {
+                fontSize: '16px', 
+                color: '#4caf50'
+            }).setOrigin(0.5).setDepth(100);
+            
+            // Restart scene
+            this.time.delayedCall(1000, () => {
+                this.scene.restart({
+                    civId: this.civId,
+                    level: this.level,
+                    levelScore: 0,
+                    streak: 0
+                });
+            });
         });
     }
 }
