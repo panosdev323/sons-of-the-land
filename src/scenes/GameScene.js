@@ -23,13 +23,13 @@ export class GameScene extends Phaser.Scene {
         const difficulty = JSON.parse(difficultyRaw)
         
         // ✅ Set starting lives based on difficulty
-        let startingLives = 2
+        let startingLives = 3
         if (difficulty === 'Easy') {
-            startingLives = 3
+            startingLives = 4
         } else if (difficulty === 'Normal') {
-            startingLives = 2
+            startingLives = 3
         } else if (difficulty === 'Hard') {
-            startingLives = 1
+            startingLives = 2
         }
         
         // ✅ Check if lives from failed attempt
@@ -58,10 +58,10 @@ export class GameScene extends Phaser.Scene {
 
                 const difficulty = JSON.parse(difficultyRaw);
 
-                let bonusLives = 2; // default for Normal
+                let bonusLives = 3; // default for Normal
 
-                if (difficulty === 'Easy') bonusLives = 3;
-                else if (difficulty === 'Hard') bonusLives = 1;
+                if (difficulty === 'Easy') bonusLives = 4;
+                else if (difficulty === 'Hard') bonusLives = 2;
 
                 this.levelLives = bonusLives;
 
