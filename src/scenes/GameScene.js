@@ -46,7 +46,39 @@ export class GameScene extends Phaser.Scene {
         this.shouldShowGameOver = this.levelLives === 0
     }
 
-    create() {
+    async create() {
+
+        this.rewardListener = await AdMob.addListener(
+            'onRewardedVideoAdReward',
+            async () => {
+                this.sound.resumeAll();
+
+                const difficultyRaw =
+                    localStorage.getItem('setting_difficulty') || '"Normal"';
+
+                const difficulty = JSON.parse(difficultyRaw);
+
+                let bonusLives = 3;
+
+                if (difficulty === 'Easy') bonusLives = 4;
+                else if (difficulty === 'Hard') bonusLives = 2;
+
+                this.levelLives = bonusLives;
+
+                this.answered = false;
+                this.qIndex = 0;
+
+                await ProgressStore.clearCurrentLevelLives();
+
+                this.showQuestion();
+            }
+        );
+        this.dismissListener = await AdMob.addListener(
+            'onRewardedVideoAdDismissed',
+            () => {
+                this.sound.resumeAll();
+            }
+        );
         const LEVEL_SIZE = 5
 
         this.civ = CIVILIZATIONS.find(c => c.id === this.civId)
@@ -89,7 +121,13 @@ export class GameScene extends Phaser.Scene {
         }
         
         // ✅ Clean up on scene shutdown
-        this.events.on('shutdown', () => {
+        this.events.on('shutdown', async () => {
+            if (this.rewardListener) {
+                await this.rewardListener.remove();
+            }
+            if (this.dismissListener) {
+                await this.dismissListener.remove();
+            }
             this.children.list.forEach(c => c.destroy())
         })
     }
@@ -401,7 +439,7 @@ export class GameScene extends Phaser.Scene {
         }).setOrigin(0.5).setInteractive()
 
         watchAdBtn.on('pointerdown', async () => {
-            this.sound.play('tap')
+            this.sound.stopAll()
 
             try {
                 // ==================== ADMOB REWARDED AD ====================
@@ -410,27 +448,11 @@ export class GameScene extends Phaser.Scene {
                     // production: "ca-app-pub-7222777824759007/1944109420"
                 });
 
-                const reward = await AdMob.showRewardVideoAd();
-                console.log("✅ User earned reward:", reward);
-
-                // === Give Bonus Lives ===
-                const difficultyRaw = localStorage.getItem('setting_difficulty') || '"Normal"';
-                const difficulty = JSON.parse(difficultyRaw);
-                
-                let bonusLives = 3;
-                if (difficulty === 'Easy') bonusLives = 4;
-                else if (difficulty === 'Hard') bonusLives = 2;
-
-                this.levelLives = bonusLives;
-                this.answered = false;
-                this.qIndex = 0;
-
-                await ProgressStore.clearCurrentLevelLives();
-                this.showQuestion();
+                await AdMob.showRewardVideoAd();
 
             } catch (error) {
                 console.error("Ad error or user closed the ad:", error);
-                
+                this.sound.resumeAll()
                 this.add.text(240, 420, 'Ad was not completed', {
                     fontSize: '16px', color: '#ff5252'
                 }).setOrigin(0.5).setDepth(100);
