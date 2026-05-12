@@ -401,95 +401,87 @@ export class GameScene extends Phaser.Scene {
         }).setOrigin(0.5).setInteractive()
 
         watchAdBtn.on('pointerdown', async () => {
-            if (this.isAdShowing) {
-                console.log('Ad already showing, ignoring click')
-                return
-            }
+            if (this.isAdShowing) return;
             
-            this.isAdShowing = true
-            this.sound.pauseAll()
+            this.isAdShowing = true;
+            this.sound.pauseAll();
             
-            // Show loading indicator
+            // Show loading
             const loadingText = this.add.text(240, 420, 'Loading ad...', {
                 fontSize: '16px', 
                 color: '#ffd54f'
-            }).setOrigin(0.5).setDepth(100)
+            }).setOrigin(0.5).setDepth(100);
 
             try {
-                const completed = await AdManager.show()
+                const success = await AdManager.show();
                 
-                loadingText.destroy()
+                loadingText.destroy();
                 
-                if (completed) {
-                    // Ad completed successfully - give reward
-                    const difficultyRaw = localStorage.getItem('setting_difficulty') || '"Normal"'
-                    const difficulty = JSON.parse(difficultyRaw)
+                if (success) {
+                    // ✅ GIVE REWARD ALWAYS
+                    const difficultyRaw = localStorage.getItem('setting_difficulty') || '"Normal"';
+                    const difficulty = JSON.parse(difficultyRaw);
                     
-                    let bonusLives = 3 // default for Normal
-                    if (difficulty === 'Easy') bonusLives = 4
-                    else if (difficulty === 'Hard') bonusLives = 2
+                    let bonusLives = 3;
+                    if (difficulty === 'Easy') bonusLives = 4;
+                    else if (difficulty === 'Hard') bonusLives = 2;
                     
-                    this.levelLives = bonusLives
-                    this.answered = false
-                    this.qIndex = 0
+                    // Reset game state
+                    this.levelLives = bonusLives;
+                    this.answered = false;
+                    this.qIndex = 0;
+                    this.streak = 0;
+                    this.levelScore = 0;
                     
-                    await ProgressStore.clearCurrentLevelLives()
+                    await ProgressStore.clearCurrentLevelLives();
                     
-                    // Show success message
-                    this.add.text(240, 420, '✅ Ad completed! Restarting level...', {
+                    // Show success and restart
+                    this.add.text(240, 420, '✅ +3 Lives! Restarting...', {
                         fontSize: '16px', 
                         color: '#4caf50'
-                    }).setOrigin(0.5).setDepth(100)
+                    }).setOrigin(0.5).setDepth(100);
                     
-                    // Restart the scene after a short delay
-                    this.time.delayedCall(1500, () => {
+                    this.time.delayedCall(1000, () => {
                         this.scene.restart({
                             civId: this.civId,
                             level: this.level,
                             levelScore: 0,
                             streak: 0
-                        })
-                    })
+                        });
+                    });
                 } else {
-                    // Ad was closed before reward
-                    const failText = this.add.text(240, 420, '❌ Watch the full ad to earn reward', {
+                    // Ad failed to load
+                    const errorText = this.add.text(240, 420, '⚠️ Ad failed. Please try again.', {
                         fontSize: '16px', 
                         color: '#ff5252'
-                    }).setOrigin(0.5).setDepth(100)
+                    }).setOrigin(0.5).setDepth(100);
                     
-                    // Remove message after 2 seconds
-                    this.time.delayedCall(2000, () => {
-                        failText.destroy()
-                    })
+                    this.time.delayedCall(2000, () => errorText.destroy());
                 }
             } catch (error) {
-                console.error("Ad error:", error)
-                loadingText.destroy()
-                const errorText = this.add.text(240, 420, '⚠️ Ad failed to load. Please try again.', {
+                console.error("Ad error:", error);
+                loadingText.destroy();
+                this.add.text(240, 420, '⚠️ Error. Please try again.', {
                     fontSize: '16px', 
                     color: '#ff5252'
-                }).setOrigin(0.5).setDepth(100)
-                
-                this.time.delayedCall(2000, () => {
-                    errorText.destroy()
-                })
+                }).setOrigin(0.5).setDepth(100);
             } finally {
-                this.isAdShowing = false
-                this.sound.resumeAll()
+                this.isAdShowing = false;
+                this.sound.resumeAll();
             }
-        })
+        });
 
         // ==================== GO BACK BUTTON ====================
         const backBtn = this.add.text(240, 460, 'Go Back', {
             fontSize: '19px',
             backgroundColor: '#7f0000',
             padding: { x: 20, y: 14 }
-        }).setOrigin(0.5).setInteractive()
+        }).setOrigin(0.5).setInteractive();
 
         backBtn.on('pointerdown', async () => {
-            this.sound.play('tap')
-            await ProgressStore.setCurrentLevelLives(0)
-            this.scene.start('MenuScene')
-        })
+            this.sound.play('tap');
+            await ProgressStore.setCurrentLevelLives(0);
+            this.scene.start('MenuScene');
+        });
     }
 }
