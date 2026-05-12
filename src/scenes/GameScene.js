@@ -438,6 +438,9 @@ export class GameScene extends Phaser.Scene {
         }).setOrigin(0.5).setInteractive()
 
         watchAdBtn.on('pointerdown', async () => {
+            if (this.isAdShowing) return;
+            this.isAdShowing = true;
+            watchAdBtn.disableInteractive();
             this.sound.stopAll()
 
             try {
@@ -451,10 +454,13 @@ export class GameScene extends Phaser.Scene {
 
             } catch (error) {
                 console.error("Ad error or user closed the ad:", error);
-                this.sound.resumeAll()
                 this.add.text(240, 420, 'Ad was not completed', {
                     fontSize: '16px', color: '#ff5252'
                 }).setOrigin(0.5).setDepth(100);
+            }  finally {
+                watchAdBtn.setInteractive();
+                this.isAdShowing = false;
+                this.sound.resumeAll();
             }
         })
 
