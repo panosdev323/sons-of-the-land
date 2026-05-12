@@ -444,14 +444,7 @@ export class GameScene extends Phaser.Scene {
             this.sound.pauseAll()
 
             try {
-                // ==================== ADMOB REWARDED AD ====================
-                await AdMob.prepareRewardVideoAd({
-                    adId: "ca-app-pub-3940256099942544/5224354917", // Test Ad
-                    // production: "ca-app-pub-7222777824759007/1944109420"
-                });
-
                 await AdMob.showRewardVideoAd();
-
             } catch (error) {
                 console.error("Ad error or user closed the ad:", error);
                 this.add.text(240, 420, 'Ad was not completed', {

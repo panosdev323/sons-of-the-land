@@ -8,7 +8,8 @@ export class BootScene extends Phaser.Scene {
     this.load.audio('bgMusic', 'assets/sounds/bgMusic.mp3')
   }
 
-  create() {
+  async create() {
+    await this.initAdMob()
     // ✅ Start background music
     // Check if already playing (prevent multiple instances)
     if (!this.sound.get('bgMusic')) {
@@ -30,6 +31,17 @@ export class BootScene extends Phaser.Scene {
       this.scene.start('TutorialScene')
     } else {
       this.scene.start('MenuScene')
+    }
+  }
+
+  async initAdMob() {
+    try {
+      await AdMob.prepareRewardVideoAd({
+        adId: "ca-app-pub-3940256099942544/5224354917" 
+        // production: "ca-app-pub-7222777824759007/1944109420"
+      })
+    } catch (e) {
+      console.warn('AdMob preload failed:', e)
     }
   }
 }
