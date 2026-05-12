@@ -10,6 +10,7 @@ export class GameScene extends Phaser.Scene {
         this.authorName = data.authorName || null
         this.mode = 'mixed'
         this.level = data.level || 1
+        this.isAdShowing = false;
         
         // ✅ Load global score from ProgressStore
         this.globalScore = ProgressStore.getGlobalScore()
@@ -440,8 +441,7 @@ export class GameScene extends Phaser.Scene {
         watchAdBtn.on('pointerdown', async () => {
             if (this.isAdShowing) return;
             this.isAdShowing = true;
-            watchAdBtn.disableInteractive();
-            this.sound.stopAll()
+            this.sound.pauseAll()
 
             try {
                 // ==================== ADMOB REWARDED AD ====================
@@ -458,7 +458,6 @@ export class GameScene extends Phaser.Scene {
                     fontSize: '16px', color: '#ff5252'
                 }).setOrigin(0.5).setDepth(100);
             }  finally {
-                watchAdBtn.setInteractive();
                 this.isAdShowing = false;
                 this.sound.resumeAll();
             }
