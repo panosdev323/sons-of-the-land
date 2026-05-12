@@ -1,6 +1,6 @@
 import { CIVILIZATIONS } from '../quotes.js'
 import { ProgressStore } from '../progressStore.js'
-import { AdMob } from '@capacitor-community/admob'
+import { AdManager } from '../AdManager' 
 
 export class GameScene extends Phaser.Scene {
     constructor() { super('GameScene') }
@@ -48,38 +48,6 @@ export class GameScene extends Phaser.Scene {
     }
 
     async create() {
-
-        this.rewardListener = await AdMob.addListener(
-            'onRewardedVideoAdReward',
-            async () => {
-                this.sound.resumeAll();
-
-                const difficultyRaw =
-                    localStorage.getItem('setting_difficulty') || '"Normal"';
-
-                const difficulty = JSON.parse(difficultyRaw);
-
-                let bonusLives = 3; // default for Normal
-
-                if (difficulty === 'Easy') bonusLives = 4;
-                else if (difficulty === 'Hard') bonusLives = 2;
-
-                this.levelLives = bonusLives;
-
-                this.answered = false;
-                this.qIndex = 0;
-
-                await ProgressStore.clearCurrentLevelLives();
-
-                this.showQuestion();
-            }
-        );
-        this.dismissListener = await AdMob.addListener(
-            'onRewardedVideoAdDismissed',
-            () => {
-                this.sound.resumeAll();
-            }
-        );
         const LEVEL_SIZE = 5
 
         this.civ = CIVILIZATIONS.find(c => c.id === this.civId)
@@ -123,12 +91,6 @@ export class GameScene extends Phaser.Scene {
         
         // ✅ Clean up on scene shutdown
         this.events.on('shutdown', async () => {
-            if (this.rewardListener) {
-                await this.rewardListener.remove();
-            }
-            if (this.dismissListener) {
-                await this.dismissListener.remove();
-            }
             this.children.list.forEach(c => c.destroy())
         })
     }
@@ -439,20 +401,81 @@ export class GameScene extends Phaser.Scene {
         }).setOrigin(0.5).setInteractive()
 
         watchAdBtn.on('pointerdown', async () => {
-            if (this.isAdShowing) return;
-            this.isAdShowing = true;
+            if (this.isAdShowing) {
+                console.log('Ad already showing, ignoring click')
+                return
+            }
+            
+            this.isAdShowing = true
             this.sound.pauseAll()
+            
+            // Show loading indicator
+            const loadingText = this.add.text(240, 420, 'Loading ad...', {
+                fontSize: '16px', 
+                color: '#ffd54f'
+            }).setOrigin(0.5).setDepth(100)
 
             try {
-                await AdMob.showRewardVideoAd();
+                const completed = await AdManager.show()
+                
+                loadingText.destroy()
+                
+                if (completed) {
+                    // Ad completed successfully - give reward
+                    const difficultyRaw = localStorage.getItem('setting_difficulty') || '"Normal"'
+                    const difficulty = JSON.parse(difficultyRaw)
+                    
+                    let bonusLives = 3 // default for Normal
+                    if (difficulty === 'Easy') bonusLives = 4
+                    else if (difficulty === 'Hard') bonusLives = 2
+                    
+                    this.levelLives = bonusLives
+                    this.answered = false
+                    this.qIndex = 0
+                    
+                    await ProgressStore.clearCurrentLevelLives()
+                    
+                    // Show success message
+                    this.add.text(240, 420, '✅ Ad completed! Restarting level...', {
+                        fontSize: '16px', 
+                        color: '#4caf50'
+                    }).setOrigin(0.5).setDepth(100)
+                    
+                    // Restart the scene after a short delay
+                    this.time.delayedCall(1500, () => {
+                        this.scene.restart({
+                            civId: this.civId,
+                            level: this.level,
+                            levelScore: 0,
+                            streak: 0
+                        })
+                    })
+                } else {
+                    // Ad was closed before reward
+                    const failText = this.add.text(240, 420, '❌ Watch the full ad to earn reward', {
+                        fontSize: '16px', 
+                        color: '#ff5252'
+                    }).setOrigin(0.5).setDepth(100)
+                    
+                    // Remove message after 2 seconds
+                    this.time.delayedCall(2000, () => {
+                        failText.destroy()
+                    })
+                }
             } catch (error) {
-                console.error("Ad error or user closed the ad:", error);
-                this.add.text(240, 420, 'Ad was not completed', {
-                    fontSize: '16px', color: '#ff5252'
-                }).setOrigin(0.5).setDepth(100);
-            }  finally {
-                this.isAdShowing = false;
-                this.sound.resumeAll();
+                console.error("Ad error:", error)
+                loadingText.destroy()
+                const errorText = this.add.text(240, 420, '⚠️ Ad failed to load. Please try again.', {
+                    fontSize: '16px', 
+                    color: '#ff5252'
+                }).setOrigin(0.5).setDepth(100)
+                
+                this.time.delayedCall(2000, () => {
+                    errorText.destroy()
+                })
+            } finally {
+                this.isAdShowing = false
+                this.sound.resumeAll()
             }
         })
 
