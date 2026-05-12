@@ -1,5 +1,6 @@
 import { CIVILIZATIONS } from '../quotes.js'
 import { ProgressStore } from '../progressStore.js'
+import { AdMob } from '@capacitor-community/admob'
 
 export class GameScene extends Phaser.Scene {
     constructor() { super('GameScene') }
@@ -392,7 +393,7 @@ export class GameScene extends Phaser.Scene {
             fontSize: '19px', color: '#69f0ae'
         }).setOrigin(0.5)
 
-        // ✅ WATCH AD - lives bonus
+        // ==================== WATCH AD BUTTON ====================
         const watchAdBtn = this.add.text(240, 390, 'Watch Ad for Lives ▶', {
             fontSize: '19px',
             backgroundColor: '#1b5e20',
@@ -401,30 +402,41 @@ export class GameScene extends Phaser.Scene {
 
         watchAdBtn.on('pointerdown', async () => {
             this.sound.play('tap')
-            
-            if (window.MainActivity) {
-                window.MainActivity.showRewardedAd()
-                await new Promise(resolve => this.time.delayedCall(3000, resolve))
+
+            try {
+                // ==================== ADMOB REWARDED AD ====================
+                await AdMob.prepareRewardVideoAd({
+                    adId: "ca-app-pub-3940256099942544/5224354917", // Test Ad
+                });
+
+                const reward = await AdMob.showRewardVideoAd();
+                console.log("✅ User earned reward:", reward);
+
+                // === Give Bonus Lives ===
+                const difficultyRaw = localStorage.getItem('setting_difficulty') || '"Normal"';
+                const difficulty = JSON.parse(difficultyRaw);
                 
-                const difficultyRaw = localStorage.getItem('setting_difficulty') || '"Normal"'
-                const difficulty = JSON.parse(difficultyRaw)
+                let bonusLives = 3;
+                if (difficulty === 'Easy') bonusLives = 4;
+                else if (difficulty === 'Hard') bonusLives = 2;
+
+                this.levelLives = bonusLives;
+                this.answered = false;
+                this.qIndex = 0;
+
+                await ProgressStore.clearCurrentLevelLives();
+                this.showQuestion();
+
+            } catch (error) {
+                console.error("Ad error or user closed the ad:", error);
                 
-                let bonusLives = 3
-                if (difficulty === 'Easy') bonusLives = 4
-                else if (difficulty === 'Hard') bonusLives = 2
-                
-                this.levelLives = bonusLives
-                this.answered = false
-                this.qIndex = 0
-                
-                // ✅ ΝΕΟ: Καθάρισε τις αποθηκευμένες ζωές
-                await ProgressStore.clearCurrentLevelLives()
-                
-                this.showQuestion()
+                this.add.text(240, 420, 'Ad was not completed', {
+                    fontSize: '16px', color: '#ff5252'
+                }).setOrigin(0.5).setDepth(100);
             }
         })
 
-        // GO BACK - with zero lives to ensure progress loss if they skip the ad
+        // ==================== GO BACK BUTTON ====================
         const backBtn = this.add.text(240, 460, 'Go Back', {
             fontSize: '19px',
             backgroundColor: '#7f0000',

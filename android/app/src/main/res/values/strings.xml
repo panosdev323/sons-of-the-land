@@ -4,4 +4,6 @@
     <string name="title_activity_main">Sons of the Land</string>
     <string name="package_name">com.sonsoftheland.game</string>
     <string name="custom_url_scheme">com.sonsoftheland.game</string>
+    <!-- AdMob App ID -->
+    <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
 </resources>

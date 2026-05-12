@@ -9,9 +9,22 @@ import { StatsScene } from './scenes/StatsScene.js'
 import { PauseScene } from './scenes/PauseScene.js'
 import { TermsScene } from './scenes/TermsScene.js'
 import { MobileOptimization } from './mobileOptimization.js'
+import { AdMob } from '@capacitor-community/admob';
+
+// Initialize AdMob before game starts
+async function initializeAdMob() {
+    try {
+        await AdMob.initialize();
+        console.log("✅ AdMob initialized successfully");
+        // await AdMob.setTestingOptions({ testMode: true });
+    } catch (error) {
+        console.error("❌ Failed to initialize AdMob:", error);
+    }
+}
 
 // ✅ Apply safe area CSS before game starts
 MobileOptimization.applySafeAreaCSS()
+initializeAdMob();
 
 // ✅ Lock to portrait orientation on mobile (when built with Capacitor)
 // This will work automatically on native mobile builds
