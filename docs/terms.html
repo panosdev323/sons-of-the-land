@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Terms of Service</title>
+  <title>Privacy Policy</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <style>
-    /* Global Styles */
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       background-color: #121212;
@@ -15,7 +15,6 @@
       line-height: 1.6;
     }
 
-    /* Container for content */
     .container {
       max-width: 480px;
       margin: 40px auto;
@@ -39,10 +38,13 @@
       margin-bottom: 10px;
     }
 
-    p {
+    p, li {
       font-size: 14px;
       color: #ccc;
-      margin-bottom: 12px;
+    }
+
+    ul {
+      padding-left: 20px;
     }
 
     a {
@@ -54,82 +56,144 @@
       text-decoration: underline;
     }
 
-    /* Optional footer */
     .footer {
       text-align: center;
       font-size: 12px;
       color: #777;
       margin-top: 30px;
     }
+
+    #backBtn {
+      background-color: #f9a825;
+      color: #1a1208;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 8px;
+      font-size: 14px;
+      cursor: pointer;
+    }
   </style>
 </head>
+
 <body>
   <div class="container">
-    <h1>Terms of Service</h1>
 
-    <p>Welcome to <strong>"Sons of the Land"</strong>. We are committed to protecting your privacy. Here's how we handle your data:</p>
-    
+    <h1>Privacy Policy</h1>
+
+    <p>
+      Welcome to <strong>Sons of the Land</strong>.
+      We value your privacy and are committed to protecting your data.
+    </p>
+
     <h2>1. Information We Collect</h2>
-    <p>Sons of the Land stores game progress locally on your device using browser storage (localStorage). This includes:</p>
+
+    <p>
+      Sons of the Land stores game progress locally on your device using browser storage (localStorage).
+    </p>
+
     <ul>
       <li>Your global score</li>
       <li>Civilization progress and level completion</li>
       <li>High scores per civilization</li>
     </ul>
 
-    <h2>2. Data Storage</h2>
-    <p>All game progress is stored locally on your device only. We:</p>
+    <h2>2. Advertising</h2>
+
+    <p>
+      This app may display advertisements provided by third-party advertising services such as Google AdMob.
+    </p>
+
+    <p>
+      These services may collect limited technical information automatically, including:
+    </p>
+
     <ul>
-      <li>Do NOT send your data to external servers</li>
-      <li>Do NOT share your data with third parties</li>
-      <li>Do NOT collect personal information</li>
-      <li>Do NOT use analytics or tracking</li>
+      <li>Device information</li>
+      <li>Advertising identifiers</li>
+      <li>Crash and performance data</li>
+      <li>General usage information</li>
     </ul>
 
-    <h2>3. Data Safety</h2>
+    <p>
+      This information is handled according to Google's Privacy Policy.
+    </p>
+
+    <h2>3. Data Storage</h2>
+
+    <p>All game progress is stored locally on your device only.</p>
+
+    <p>We do not:</p>
+
     <ul>
-      <li>Data is stored only in your browser's local storage</li>
-      <li>No personal information is collected</li>
-      <li>No third-party tracking or analytics</li>
-      <li>You can clear your data anytime by clearing your browser storage or app cache</li>
+      <li>Send your personal data to our own servers</li>
+      <li>Sell your personal information</li>
+      <li>Require account registration</li>
     </ul>
 
-    <h2>4. Changes to This Policy</h2>
-    <p>We may update this privacy policy from time to time. Your continued use of the game constitutes acceptance of any updates.</p>
+    <h2>4. Third-Party Services</h2>
 
-    <h2>5. Contact</h2>
-    <p>If you have questions about this privacy policy, please contact us.</p>
+    <p>
+      The game may use third-party services including:
+    </p>
 
-    <!-- Back Button -->
+    <ul>
+      <li>Google Play Services</li>
+      <li>Google AdMob</li>
+    </ul>
+
+    <h2>5. Data Safety</h2>
+
+    <ul>
+      <li>Most game data is stored locally on your device</li>
+      <li>No sensitive personal information is collected by us directly</li>
+      <li>You can clear local game data anytime through your device settings</li>
+    </ul>
+
+    <h2>6. Children's Privacy</h2>
+
+    <p>
+      This game does not knowingly collect personal information from children.
+    </p>
+
+    <h2>7. Changes to This Policy</h2>
+
+    <p>
+      We may update this Privacy Policy from time to time.
+      Continued use of the game means you accept any updates.
+    </p>
+
+    <h2>8. Contact</h2>
+
+    <p>
+      If you have questions about this Privacy Policy, contact:
+    </p>
+
+    <p>
+      your@email.com
+    </p>
+
     <div style="text-align:center; margin-top:20px;">
-        <button id="backBtn" style="
-        background-color: #f9a825;
-        color: #1a1208;
-        border: none;
-        padding: 10px 20px;
-        border-radius: 8px;
-        font-size: 14px;
-        cursor: pointer;
-        ">← Go Back</button>
+      <button id="backBtn">← Go Back</button>
     </div>
 
     <div class="footer">
       &copy; <span id="year"></span> Sons of the Land. All rights reserved.
     </div>
+
   </div>
-<script>
+
+  <script>
     document.getElementById('year').textContent = new Date().getFullYear();
-    // go back to previous page or close tab when back button is clicked
+
     const backBtn = document.getElementById('backBtn');
+
     backBtn.addEventListener('click', () => {
-        // If opened in a new tab
-        if (window.opener) {
+      if (window.opener) {
         window.close();
-        } else {
-        // Fallback: go back in history
+      } else {
         window.history.back();
-        }
+      }
     });
-</script>
+  </script>
 </body>
 </html>
