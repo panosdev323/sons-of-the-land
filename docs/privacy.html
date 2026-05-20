@@ -301,7 +301,9 @@
     </div>
 
     <div class="footer">
-      <a class="back-btn" onclick="history.back(); return false;" href="#">← Go Back</a>
+      <a class="back-btn" onclick="if(window.history.length > 1) { history.back(); } 
+      else { window.location.href='https://panosdev323.github.io/sons-of-the-land/'; }
+      return false;" href="https://panosdev323.github.io/sons-of-the-land/">← Go Back</a>
       <p>&copy; <span id="year"></span> Sons of the Land. All rights reserved.</p>
     </div>
 
