@@ -11,20 +11,26 @@ const config: CapacitorConfig = {
   },
   plugins: {
     SplashScreen: {
-      launchShowDuration: 0,  // Don't show splash (we handle it in game)
+      launchShowDuration: 0,
     },
     StatusBar: {
-      style: 'DARK',           // Dark status bar for light backgrounds
+      style: 'DARK',
       backgroundColor: '#1a1208',
-      overlaysWebView: false   // Don't overlap with game content
+      overlaysWebView: false
     },
     Keyboard: {
-      resize: 'none'           // Don't resize when keyboard opens (better for games)
+      resize: 'none'
+    },
+    // ✅ AdMob Configuration
+    AdMob: {
+      appId: 'ca-app-pub-7222777824759007~4356474173',
+      orientation: 'portrait',
+      requestTrackingAuthorization: true
     }
   },
   android: {
     allowMixedContent: true,
-    webContentsDebuggingEnabled: false  // Disable debug in release
+    webContentsDebuggingEnabled: false
   },
   ios: {
     contentInset: 'always'
