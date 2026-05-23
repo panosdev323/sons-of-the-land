@@ -411,6 +411,28 @@ export class GameScene extends Phaser.Scene {
             this.sound.pauseAll()
 
             try {
+                // ✅ Check if AdMob exists (mobile only)
+                if (typeof AdMob === 'undefined') {
+                    console.log('❌ This feature is only available in the mobile app')
+                    
+                    this.add.text(240, 430, '❌ Download the mobile app to continue!', {
+                        fontSize: '16px', color: '#ff5252', wordWrap: { width: 400 }
+                    }).setOrigin(0.5).setDepth(100)
+
+                    // Download link button
+                    const downloadBtn = this.add.text(240, 460, '📱 Get Mobile App', {
+                        fontSize: '19px',
+                        backgroundColor: '#1b5e20',
+                        padding: { x: 20, y: 14 }
+                    }).setOrigin(0.5).setInteractive()
+
+                    downloadBtn.on('pointerdown', () => {
+                        window.location.href = 'https://play.google.com/store/apps/details?id=com.sonsoftheland.game'
+                    })
+
+                    this.isLoadingAd = false
+                    return
+                }
                 // ==================== ADMOB REWARDED AD ====================
                 await AdMob.prepareRewardVideoAd({
                     adId: "ca-app-pub-7222777824759007/1944109420"

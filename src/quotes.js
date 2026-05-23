@@ -923,11 +923,11 @@ export const CIVILIZATIONS = [
         name: 'Ramesses II',
         emoji: '🏛️',
         quotes: [
-          { start: 'I found Rome built of bricks; I leave her clothed in', correct: 'marble.', wrong: ['gold.', 'stone.', 'glory.'] },
-          { start: 'King of Kings am I, Osymandias. If anyone would know how great I am and where I lie, let him surpass one of my', correct: 'works.', wrong: ['battles.', 'victories.', 'temples.'] },
-          { start: 'For her sake, the sun', correct: 'rises.', wrong: ['sets.', 'shines.', 'moves.'] },
-          { start: 'His majesty was like Seth the great when he takes the adornments of war; as he seized his coat of mail, he was like Baal in his', correct: 'hour.', wrong: ['time.', 'day.', 'fault.'] },
-          { start: 'Every country trembled before him, fear was in their hearts; all the rebels came bowing down for fear of the fame of his', correct: 'majesty.', wrong: ['army.', 'name.', 'empire.'] }
+          { start: 'I am Ramesses, called the Great, pharaoh of', correct: 'Egypt.', wrong: ['Rome.', 'Nubia.', 'Africa.'] },
+          { start: 'My name is Ozymandias, king of kings; Look on my works, ye', correct: 'Mighty!', wrong: ['Powerful.', 'Strong.', 'Glorious.'] },
+          { start: 'I have subdued the lands; I have extended the borders of', correct: 'Egypt.', wrong: ['Nubia.', 'Asia.', 'the world.'] },
+          { start: 'Abu Simbel and the temples I built shall be remembered for', correct: 'eternity.', wrong: ['centuries.', 'ages.', 'time.'] },
+          { start: 'Nubians and Hittites alike tremble at the name of', correct: 'Ramesses.', wrong: ['Pharaoh.', 'Egypt.', 'the King.'] }
         ]
       },
       {
