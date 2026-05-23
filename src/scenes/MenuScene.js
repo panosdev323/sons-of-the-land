@@ -213,7 +213,7 @@ export class MenuScene extends Phaser.Scene {
             // check if lives from failed attempt
             const storedLives = ProgressStore.getCurrentLevelLives()
             let levelLivesOverride = undefined
-            
+            console.warn('Stored lives for current level:', storedLives)
             if (storedLives !== undefined) {
                 levelLivesOverride = storedLives
                 await ProgressStore.clearCurrentLevelLives()  // Clear after use

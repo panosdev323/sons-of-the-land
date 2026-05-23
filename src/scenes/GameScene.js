@@ -120,6 +120,7 @@ export class GameScene extends Phaser.Scene {
 
         backBtn.on('pointerdown', () => {
             this.sound.play('tap')
+            ProgressStore.setCurrentLevelLives(this.levelLives)
             this.scene.start('MenuScene')
         })
 
@@ -131,6 +132,7 @@ export class GameScene extends Phaser.Scene {
 
         pauseBtn.on('pointerdown', () => {
             this.sound.play('tap')
+            ProgressStore.setCurrentLevelLives(this.levelLives)
             this.scene.pause()
             this.scene.launch('PauseScene', {
                 gameSceneKey: 'GameScene'
