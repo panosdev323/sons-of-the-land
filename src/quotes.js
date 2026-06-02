@@ -6646,7 +6646,7 @@ export const CIVILIZATIONS = [
           { 
             start: "I, Hammurabi, the exalted prince who feared the gods, established these laws so that the strong should not harm the weak, justice would appear in the land, and",
             correct: "the well-being of mankind would be furthered.",
-            wrong: ["the people would prosper.", "society would flourish.", "civilization would advance."] 
+            wrong: ["the king's glory would endure forever.", "the army would remain victorious.", "the gods would receive more offerings."] 
           },
           { 
             start: "When Marduk sent me to rule over men and give the protection of right to the land, I did right and righteousness because a king must bring about the rule of righteousness, destroy the wicked, and",
@@ -6656,12 +6656,17 @@ export const CIVILIZATIONS = [
           { 
             start: "I set up my stele with these precious words before my image as king of righteousness so that the oppressed who have a case at law could come, read the inscription, understand what is just, and",
             correct: "calm their heart.",
-            wrong: ["find peace.", "accept judgment.", "be satisfied."] 
+            wrong: ["appeal to higher authority.", "seek compensation from the king.", "challenge unjust rulings."] 
           },
           { 
             start: "The laws I inscribed demonstrate that justice must be clear, public, and proportional, applying across social classes while",
             correct: "maintaining order in the realm.",
             wrong: ["preserving social structure.", "ensuring stability.", "promoting harmony."] 
+          },
+          { 
+            start: "The Code of Hammurabi established different penalties for the same crime depending on the social status of the victim, showing that Babylonian justice", 
+            "correct": "reflected and reinforced existing social hierarchies.", 
+            "wrong": ["treated all citizens equally.", "was purely based on merit.", "ignored social distinctions."] 
           }
         ]
       },
@@ -6679,10 +6684,9 @@ export const CIVILIZATIONS = [
             correct: "the name of my reign established forever.",
             wrong: ["my legacy preserved eternally.", "memory endure for ages.", "power remembered always."] 
           },
-          { 
-            start: "My extensive building projects—temples, ziggurats like Etemenanki, and canals—served to restore ancient sanctuaries as they were of yore, provide for the gods, and demonstrate the prosperity and",
-            correct: "divine favor of Babylon.",
-            wrong: ["power of my kingdom.", "strength of my rule.", "glory of my empire."] 
+          { start: "My restoration of the great ziggurat Etemenanki and other ancient sanctuaries demonstrated that Babylonian kings derived legitimacy from", 
+          "correct": "restoring and honoring ancient sacred traditions.", 
+          "wrong": ["building entirely new monuments.", "rejecting earlier religious practices.", "surpassing all previous kings."]
           },
           { 
             start: "I had the widespread people undertake labor for Etemenanki and other works because Marduk granted me dominion over them, and such projects honored the gods while showcasing Babylonian organizational power and",
@@ -6698,7 +6702,7 @@ export const CIVILIZATIONS = [
           { 
             start: "The stars and celestial phenomena recorded in the Enuma Anu Enlil series reveal omens because the gods Anu, Enlil, and Ea designed the heavens, and careful observation allows the wise to interpret divine will for kings and the",
             correct: "land.",
-            wrong: ["people.", "realm.", "kingdom."] 
+            wrong: ["priests alone.", "the military commanders.", "foreign ambassadors."] 
           },
           { 
             start: "Prayer to Marduk, Shamash, or the gods of the night, combined with astronomical observation, maintains balance between human action and divine order, agriculture, and",
@@ -6709,6 +6713,11 @@ export const CIVILIZATIONS = [
             start: "Babylonian scribes and priests compiled thousands of celestial omens and mathematical tables because accurate prediction of lunar phases and planetary movements served both practical administration and",
             correct: "religious divination.",
             wrong: ["spiritual guidance.", "priestly authority.", "sacred interpretation."] 
+          },
+          { 
+            start: "Babylonian astronomers developed the saros cycle — an 18-year period for predicting eclipses — demonstrating that systematic record-keeping over generations could", 
+            "correct": "reveal patterns in celestial phenomena.", 
+            "wrong": ["replace religious interpretation of omens.", "prove the gods controlled the heavens.", "eliminate the need for observation."] 
           }
         ]
       },
@@ -6766,12 +6775,17 @@ export const CIVILIZATIONS = [
           { 
             start: "Babylon's greatness under kings like Hammurabi and Nebuchadnezzar lay in combining law, monumental architecture, trade networks, and celestial science to create a sophisticated civilization that",
             correct: "influenced later empires.",
-            wrong: ["shaped future kingdoms.", "inspired successor states.", "affected subsequent powers."] 
+            wrong: ["disappeared without trace.", "were surpassed immediately by Persia.", "had no impact beyond Mesopotamia."] 
           },
           { 
             start: "Even after political shifts, the Babylonian tradition of scholarship endured because texts on law, astronomy, and literature were copied and studied, transmitting knowledge to",
             correct: "Persians, Greeks, and beyond.",
             wrong: ["Mediterranean civilizations.", "ancient societies.", "neighboring cultures."] 
+          },
+          { 
+            start: "When Cyrus the Great entered Babylon in 539 BCE, he was welcomed by many citizens because he presented himself as a liberator restoring Marduk's worship, demonstrating that how a king frames his conquest can determine whether people resist or", 
+            "correct": "welcome him.", 
+            "wrong": ["negotiate treaties.", "change languages.", "ignore taxation."] 
           }
         ]
       },
@@ -6782,9 +6796,9 @@ export const CIVILIZATIONS = [
           { start: "As Nabopolassar, I pleased the hearts of Nabû and Marduk when I restored the walls of Babylon and strengthened the sanctuaries, laying foundations for the empire's renewed",
           "correct": "greatness.",
             "wrong": ["prosperity.", "glory.", "power."] },
-          { start: "Nabonidus declared that Sin showed him a dream commanding him to rebuild Ehulhul because kings must obey divine signs and restore ancient temples, even distant ones, to secure the favor of the gods for the",
-          "correct": "land.",
-            "wrong": ["people.", "kingdom.", "realm."] }
+          { start: "Nabonidus' devotion to the moon god Sin over Marduk alienated Babylon's powerful priestly class, showing that a king who neglects the chief state religion risks", 
+          "correct": "losing the support of powerful religious institutions.", 
+          "wrong": ["divine punishment alone.", "popular rebellion.", "no real political consequences."]}
         ]
       }
     ]
@@ -6804,12 +6818,12 @@ export const CIVILIZATIONS = [
           { 
             start: "I expanded the Assyrian Empire through relentless military campaigns by understanding that successive conquests could not only add territory but also establish Assyria as a feared power that would",
             correct: "be difficult to challenge.",
-            wrong: ["discourage rebellion.", "deter resistance.", "prevent defiance."] 
+            wrong: ["be seen as culturally sophisticated.", "win the loyalty of subjects.", "be remembered favorably."] 
           },
           { 
             start: "The establishment of Assyrian military superiority required creating a professional standing army because an empire of such size needed forces that could be mobilized quickly and coordinated effectively across",
             correct: "vast distances.",
-            wrong: ["large areas.", "extended territory.", "wide regions."] 
+            wrong: ["seasonal campaigns only.", "local conflicts.", "defensive operations."] 
           },
           { 
             start: "My construction of a new capital at Kalhu (Nimrud) and the palaces within it served to demonstrate that Assyrian power was permanent, that resources were being accumulated, and",
@@ -6879,8 +6893,8 @@ export const CIVILIZATIONS = [
             wrong: ["advanced.", "cultured.", "refined."] 
           },
           { 
-            start: "My famous library at Nineveh was established because rulers understood that controlling knowledge and preserving texts served both practical (administrative, technical) and",
-            correct: "propagandistic (showing Assyrian sophistication) purposes.",
+            start: "My construction of the 'Palace Without Rival' at Nineveh demonstrated Assyrian resources, and later my grandson Ashurbanipal would add a great library, showing that military and cultural achievements could",
+            correct: "coexist within the same dynasty.",
             wrong: ["cultural (preserving traditions) purposes.", "educational (training scribes) purposes.", "scholarly (advancing learning) purposes."] 
           },
           { 
@@ -6915,8 +6929,8 @@ export const CIVILIZATIONS = [
             wrong: ["territorial expansion.", "regional dominance.", "imperial power."] 
           },
           { 
-            start: "The conquest of Egypt, the most distant of my campaigns, required understanding that the logistics of supplying armies across such distances, maintaining communication, and securing conquered territory were as important as",
-            correct: "military victory.",
+            start: "The maintenance of control over Egypt, conquered by my father Esarhaddon, required understanding that the logistics of such distant territories made permanent occupation nearly impossible without",
+            correct: "continuous military presence.",
             wrong: ["battlefield success.", "tactical advantage.", "military triumph."] 
           },
           { 
@@ -6938,7 +6952,7 @@ export const CIVILIZATIONS = [
             { 
               start: "The Assyrian military achieved dominance through a combination of cavalry, chariotry, and infantry because different unit types could work together—cavalry for rapid movement and pursuit,",
               correct: "infantry for holding territory.",
-              wrong: ["soldiers for protection.", "troops for defense.", "forces for control."] 
+              wrong: ["priests for legitimacy.", "scribes for administration.", "merchants for supply."] 
             },
             { 
               start: "The use of siege warfare technology—battering rams, siege towers, sappers—by Assyrian forces allowed them to breach city fortifications that would otherwise have",
@@ -6964,6 +6978,11 @@ export const CIVILIZATIONS = [
               start: "The logistics required to supply large Assyrian armies across vast distances required that the empire establish supply depots, roads and the coordination of",
               correct: "resources across provinces.",
               wrong: ["materials throughout empire.", "supplies among regions.", "goods across territories."] 
+            },
+            { 
+              start: "The Assyrian use of iron weapons and armor, more widely than their contemporaries, gave their armies a decisive advantage because iron was", 
+              "correct": "harder and more widely available than bronze.", 
+              "wrong": ["easier to cast than bronze.", "lighter than copper.", "already used by all major powers."] 
             }
         ]
       },
@@ -6979,7 +6998,7 @@ export const CIVILIZATIONS = [
             { 
               start: "The Assyrian deportation policy aimed to prevent rebellion by dispersing populations, redistributing labor, and ensuring no region remained",
               correct: "strong.",
-              wrong: ["unified.", "rebellious.", "united."] 
+              wrong: ["individually powerful.", "culturally cohesive.", "economically self-sufficient."] 
             },
             { 
               start: "The collection of tribute from vassal states and conquered kingdoms provided the Assyrian treasury with resources that could be used for military campaigns, administrative expenses, and",
@@ -7013,8 +7032,8 @@ export const CIVILIZATIONS = [
             wrong: ["establish trade networks.", "share cultural values.", "coordinate military strategy."] 
           },
           { 
-            start: "The Assyrian alliance with Egypt against the Medes showed that even rivals could cooperate against a common threat, demonstrating that pragmatism could override dominance and",
-            correct: "conquest.",
+            start: "In the final years of the empire, Assyria sought alliances with Egypt against the rising Medo-Babylonian coalition, demonstrating that even dominant empires must seek",
+            correct: "allies when facing existential threats.",
             wrong: ["ambition.", "supremacy.", "control."] 
           },
           { 
@@ -7047,6 +7066,11 @@ export const CIVILIZATIONS = [
             start: "The tolerance of local religions and gods by Assyrian rulers, as long as Assyrian supremacy was acknowledged, served to integrate conquered peoples into the empire while",
             correct: "maintaining religious legitimacy among diverse populations.",
             wrong: ["preserving cultural unity.", "ensuring social stability.", "promoting imperial loyalty."] 
+          },
+          { 
+            start: "The god Ashur, unlike Babylonian Marduk, was explicitly a war god whose worship was inseparable from Assyrian imperial expansion, meaning that military defeat", 
+            "correct": "threatened the religious legitimacy of Assyrian kings.", 
+            "wrong": ["had no religious implications.", "strengthened Ashur's worship.", "was seen as divine testing."] 
           }
         ]
       },
@@ -7088,7 +7112,7 @@ export const CIVILIZATIONS = [
           { 
             start: "The rapid destruction of Nineveh and the complete destruction of Assyrian power by 609 BCE demonstrated that an empire built primarily on military dominance and fear",
             correct: "could collapse quickly when military power failed.",
-            wrong: ["was ultimately fragile.", "lacked true foundation.", "faced inevitable decline."] 
+            wrong: ["could survive through diplomacy alone.", "would be replaced by a similar empire.", "could reform before collapse."] 
           },
           { 
             start: "The final years of the Assyrian Empire, with Assyrian forces fighting defensive campaigns and losing territory, showed that even the greatest military powers cannot maintain dominance indefinitely when facing determined rivals with",
@@ -7104,6 +7128,11 @@ export const CIVILIZATIONS = [
             start: "The Assyrian Library at Nineveh created a legacy of knowledge that would influence the Persian, Greek, and future civilizations, showing that cultural and intellectual achievements could",
             correct: "transcend military and political collapse.",
             wrong: ["survive empires.", "outlast nations.", "endure civilizations."] 
+          },
+          { 
+            start: "The fall of Nineveh in 612 BCE to the combined Median and Babylonian forces was celebrated across the ancient Near East, with texts like the Book of Nahum recording rejoicing, suggesting that Assyrian rule had", 
+            "correct": "generated widespread hatred among subject peoples.", 
+            "wrong": ["been largely popular.", "produced loyal subjects.", "created a stable regional order."] 
           }
         ]
       },
@@ -7176,7 +7205,7 @@ export const CIVILIZATIONS = [
           { 
               start: "A Maya king's authority came from his role as intermediary between the human and divine worlds because the people believed that the king could communicate with the gods and ensure the continuation of cosmic cycles necessary for",
               correct: "survival.",
-              wrong: ["prosperity.", "stability.", "harmony."] 
+              wrong: ["military conquest.", "agricultural abundance.", "trade prosperity."] 
             },
             { 
               start: "The construction of temple-pyramids and palaces served to demonstrate that a king possessed the ability to command vast labor forces, accumulate resources, and", 
@@ -7196,7 +7225,7 @@ export const CIVILIZATIONS = [
             { 
               start: "A successful Maya king demonstrated his power through commissioning inscriptions on stelae and altars recording his victories and divine connections because these texts proclaimed his achievements and",
               correct: "ensured his memory would endure.",
-              wrong: ["preserved his legacy.", "immortalized his name.", "celebrated his deeds."] 
+              wrong: ["intimidated rival cities.", "recorded trade agreements.", "documented astronomical events."] 
             },
             { 
               start: "The organization of Maya kingdoms into city-states meant that a king's power extended primarily over his immediate urban center and surrounding territory, with influence but not direct control over",
@@ -7207,6 +7236,11 @@ export const CIVILIZATIONS = [
               start: "The decline and abandonment of major Maya cities in the Classic period showed that even sophisticated rulers could not prevent the collapse of their kingdoms when facing environmental stress, warfare, or",
               correct: "the breakdown of trade networks.",
               wrong: ["economic decline.", "social upheaval.", "political fragmentation."] 
+            },
+            { 
+              start: "The rivalry between Tikal and Calakmul — two superpowers of the Classic Maya world — shaped the politics of dozens of smaller cities through", 
+              "correct": "alliance networks and proxy warfare.", 
+              "wrong": ["direct military conquest.", "economic domination alone.", "religious authority."] 
             }
         ]
       },
@@ -7215,14 +7249,14 @@ export const CIVILIZATIONS = [
         emoji: "🌌",
         quotes: [
           { 
-            start: "The Maya development of the Long Count calendar—a system counting days from a base date in 3114 BCE—demonstrated that Maya astronomers possessed sophisticated mathematical and",
-            correct: "chronological knowledge.",
+            start: "The Maya Long Count calendar counted days from a mythological base date corresponding to 3114 BCE, demonstrating sophisticated chronological and",
+            correct: "mathematical knowledge.",
             wrong: ["computational skills.", "numerical systems.", "calendrical understanding."] 
           },
           { 
             start: "The accuracy of Maya astronomical predictions, including solar and lunar eclipses, came from centuries of careful",
             correct: "observation.",
-            wrong: ["study.", "records.", "tracking."] 
+            wrong: ["divine revelation.", "mathematical theory alone.", "ritual calendar consultation."] 
           },
           { 
             start: "The 260-day tzolkin (sacred calendar) and the 365-day haab' (solar calendar) worked together in a 52-year cycle because Maya priests understood that this combined system tracked both ritual time and",
@@ -7254,7 +7288,7 @@ export const CIVILIZATIONS = [
           { start: "The contents of Maya texts, recorded on stelae, altars, codices, and buildings, included information about rulers, dates, rituals, and astronomical observations, genealogies, and accounts of warfare and",
           "correct": "divine events.",
             "wrong": ["religious content.", "no historical information.", "basic ceremonial notes."] },
-          { start: "The preservation of Maya texts in codices (bound bark-paper books) allowed for the transmission of knowledge because these documents could record detailed information about",
+          { start: "Of the many Maya codices that once existed, only four survived the Spanish destruction — yet these preserved detailed knowledge about",
           "correct": "astronomy, medicine, ritual, mathematics.",
             "wrong": ["simple mythic symbols.", "purely religious texts.", "oral storytelling only."] },
           { start: "The Maya mathematical system, using a base-20 (vigesimal) system and including the concept of zero, was used for astronomical calculations, calendar computations, and",
@@ -7262,7 +7296,12 @@ export const CIVILIZATIONS = [
             "wrong": ["simple counting only.", "no practical application.", "non-functional symbolism."] },
           { start: "The decipherment of Maya hieroglyphic writing in the 20th century revealed that Maya texts contained historical information, dynastic records, and",
           "correct": "accounts of real events.",
-            "wrong": ["purely religious texts.", "no historical value.", "only mythology."] }
+            "wrong": ["purely religious texts.", "no historical value.", "only mythology."] },
+          { 
+            start: "The decipherment of Maya writing was largely achieved by Yuri Knorozov in the 1950s who proved that the script was", 
+            "correct": "partly phonetic, contrary to what most scholars believed.", 
+            "wrong": ["purely pictographic.", "already understood by scholars.", "based on an alphabet like Greek."] 
+          }
         ]
       },
       {
@@ -7317,9 +7356,12 @@ export const CIVILIZATIONS = [
           { start: "The vulnerability of Maya civilization to drought shows that despite sophisticated agricultural knowledge, the civilization remained dependent on rainfall and was vulnerable to environmental stress when",
           "correct": "water supplies were disrupted.",
             "wrong": ["rainfall increased steadily.", "irrigation systems expanded.", "water supplies were stable."] },
-          { start: "The Maya understanding of wildlife and water in maintaining fertility—is evident in their sustainable use of the landscape for social fragmentation contributed to",
-          "correct": "the decline of Classic period cities.",
-            "wrong": ["no real understanding.", "purely destructive farming.", "no sustainable practices."] }
+          { 
+            start: "The Maya practice of milpa agriculture — clearing, planting, and rotating fields — shows that farmers understood that land needs periods of rest to maintain", 
+            "correct": "fertility over the long term.", 
+            "wrong": ["constant productivity.", "year-round cultivation.", 
+            "maximum short-term yields."] 
+          }
         ]
       },
       {
@@ -7368,7 +7410,7 @@ export const CIVILIZATIONS = [
           { 
             start: "The alliance systems and vassal relationships described in Maya inscriptions show that warfare was sometimes about establishing dominance without conquest, requiring that defeated rulers accept subordinate status while retaining their thrones and",
             correct: "territories.",
-            wrong: ["lands.", "domains.", "regions."] 
+            wrong: ["military forces.", "religious authority.", "divine legitimacy."] 
           }
         ]
       },
@@ -7379,7 +7421,7 @@ export const CIVILIZATIONS = [
           { 
             start: "The evidence of trade goods at Maya sites—obsidian from highlands, jade from specific sources, shells from coasts—demonstrates that Maya cities participated in extensive trade networks exchanging valued",
             correct: "materials across the region.",
-            wrong: ["goods throughout lands.", "items between cities.", "products across areas."] 
+            wrong: ["only local stone tools.", "purely ceremonial objects.", "food products only."] 
           },
           { 
             start: "The control of trade routes and valuable resources by powerful Maya cities gave rulers significant economic and political power because they could accumulate wealth and establish relationships with",
@@ -7478,6 +7520,11 @@ export const CIVILIZATIONS = [
             start: "The study of Maya civilization demonstrates that the Americas developed sophisticated civilizations with complex cities and written systems",
             correct: "independent of Old World influence.",
             wrong: ["without external help.", "without foreign contact.", "in isolation."] 
+          },
+          { 
+            start: "The Terminal Classic drought, documented through lake sediment cores and speleothems, coincided directly with the abandonment of major cities, providing scientific evidence that climate change", 
+            "correct": "was a primary driver of the Classic Maya collapse.", 
+            "wrong": ["had no effect on Maya civilization.", "only affected agriculture slightly.", "was less important than warfare."] 
           }
         ]
       },
@@ -7526,7 +7573,7 @@ export const CIVILIZATIONS = [
         emoji: "👑",
         quotes: [
           { start: "I conquered the kingdom of Kush and established Axumite dominance in the region by combining military campaigns with the establishment of administrative control and the winning of", "correct": "local populations' acceptance.", "wrong": ["forced submission.", "constant fear.", "total destruction."] },
-          { start: "My conversion to Christianity and the establishment of Christianity as the official religion of Axum served to align the kingdom with the broader", "correct": "Christian world.", "wrong": ["Islamic world.", "political benefit.", "Buddhist world."] },
+          { start: "My conversion to Christianity and the establishment of Christianity as the official religion of Axum served to align the kingdom with the broader", "correct": "Christian world.", "wrong": ["Roman imperial world.", "Persian sphere.", "Buddhist world."] },
           { start: "My military campaigns against the Blemmyes and other rivals showed that Axumite power depended on maintaining military strength while establishing diplomatic relationships with", "correct": "neighboring powers.", "wrong": ["enemies.", "friends.", "force alone."] },
           { start: "The consolidation of Axumite power under my reign required understanding that the kingdom's prosperity depended on the ability to control access to the interior of", "correct": "Africa.", "wrong": ["America.", "Europe.", "Asia."] },
           { start: "The establishment of Axum as a major Christian power alongside Rome and Byzantium demonstrated that a kingdom's religious status could equal that of the Mediterranean powers despite being in", "correct": " Africa.", "wrong": ["Europe.", "Asia.", "America."] }
@@ -7569,8 +7616,8 @@ export const CIVILIZATIONS = [
         quotes: [
           { 
             start: "Axumite wealth and power came primarily from control of trade routes connecting the Red Sea, the Mediterranean, and Indian Ocean networks because this allowed the kingdom to",
-            correct: "establish relationships with distant powers.",
-            wrong: ["accumulate riches.", "gain influence.", "access resources."] 
+            "correct": "establish relationships with distant powers.",
+            "wrong": ["tax merchants along routes.", "control production of gold.", "exclude rival traders."]
           },
           { 
             start: "The development of Axumite ports like Adulis as major trade centers provided the kingdom with access to goods, making Axum a crucial node in",
@@ -7584,8 +7631,8 @@ export const CIVILIZATIONS = [
           },
           { 
             start: "The minting of high-quality Axumite coins in gold, silver, and copper served",
-            correct: "to facilitate trade.",
-            wrong: ["to establish currency.", "to enable commerce.", "to standardize exchange."] 
+            correct: "finance military campaigns.",
+            wrong: ["build monuments only.", "pay tribute to Rome.", "fund religious missions only."]
           },
           { 
             start: "Axumite merchants and traders operating under the protection of the crown could accumulate wealth and establish trade networks because the king provided safe passage and access to",
@@ -7605,8 +7652,8 @@ export const CIVILIZATIONS = [
         quotes: [
           { 
             start: "The conversion of Axum to Christianity under Ezana transformed the kingdom's identity because it positioned Axum as part of the Christian world and aligned it with",
-            correct: "the Byzantine Empire.",
-            wrong: ["Mediterranean powers.", "Western Europe.", "Rome."] 
+            correct: "the Alexandrian (Coptic) Christian tradition.",
+            wrong: ["the Roman Catholic church.", "the Byzantine Orthodox church.", "Western Christianity."]
           },
           { 
             start: "The establishment of a Christian church hierarchy in Axum, with bishops and clergy, served to",
@@ -7632,6 +7679,8 @@ export const CIVILIZATIONS = [
             start: "The maintenance of Christian orthodoxy in Axum showed that rulers understood that controlling religious doctrine was essential to",
             correct: "maintaining political unity.",
             wrong: ["ensuring loyalty.", "preserving order.", "preventing conflict."] 
+          },
+          { start: "The Nine Saints (Tsadqan) who arrived from the Byzantine world in the 5th century established monasteries and translated the Bible into Ge'ez, ensuring that", "correct": "Christianity became rooted in local language and culture.", "wrong": ["Greek remained the language of worship.", "Christianity stayed an elite religion.", "monasticism was rejected."]
           }
         ]
       },
@@ -7640,8 +7689,8 @@ export const CIVILIZATIONS = [
         emoji: "⚔️",
         quotes: [
           { 
-            start: "The Axumite military successfully defended the kingdom against invasions from the Persians, the Arabs, and other rivals because Axumite forces possessed",
-            correct: "well-trained soldiers.",
+            start: "The Axumite military maintained power for centuries but eventually lost Arabian territories to Persian forces in 575 CE, demonstrating that even strong kingdoms",
+            correct: "face limits to their power.",
             wrong: ["superior weapons.", "strategic advantages.", "experienced commanders."] 
           },
           { 
@@ -7688,7 +7737,12 @@ export const CIVILIZATIONS = [
           { 
             start: "The preservation of Axumite monuments shows that builders understood that stone structures, when properly constructed could endure for",
             correct: "centuries.",
-            wrong: ["ages.", "generations.", "eras."] 
+            wrong: ["decades only.", "a single ruler's reign.", "a few generations at most."] 
+          },
+          { 
+            start: "The Great Stele of Axum, standing over 33 meters, was the tallest single stone structure in the ancient world, demonstrating that Axumite engineering", 
+            "correct": "rivaled any contemporary civilization.", 
+            "wrong": ["used foreign architects.", "copied Egyptian techniques.", "required supernatural assistance."] 
           }
         ]
       },
@@ -7761,7 +7815,7 @@ export const CIVILIZATIONS = [
           { 
             start: "The development of Axumite written culture, particularly after the conversion to Christianity, created a tradition of literature that would survive and influence Ethiopian culture for",
             correct: "centuries.",
-            wrong: ["generations.", "ages.", "eras."] 
+            wrong: ["decades only.", "a single ruler's reign.", "a few generations at most."] 
           },
           { 
             start: "Axumite scholars and priests engaged with Christian theology and biblical interpretation because the integration of Christian learning into Axumite intellectual life enhanced",
@@ -7808,6 +7862,11 @@ export const CIVILIZATIONS = [
             start: "Axum shows that ancient African civilizations achieved levels comparable to",
             correct: "contemporary powers elsewhere.",
             wrong: ["Mediterranean empires.", "Asian kingdoms.", "Middle Eastern states."] 
+          },
+          { 
+            start: "The Prophet Muhammad instructed early Muslims not to harm Axum because the Axumite king had sheltered Muslim refugees (the First Hijra, 615 CE), creating an unusual period of peaceful coexistence between Axum and", 
+            "correct": "early Islam.", 
+            "wrong": ["the Byzantine Empire.", "European Crusaders.", "the Umayyad Caliphate."] 
           }
         ]
       },
