@@ -7911,6 +7911,12 @@ export const CIVILIZATIONS = [
             start: "The location of Great Zimbabwe on a plateau near water sources and in a region rich in gold and other resources demonstrates that rulers understood the importance of", 
             correct: "strategic location.", 
             wrong: ["environmental control.", "resource access.", "natural protection."] 
+          },
+          { start: "The Zimbabwe birds — soapstone sculptures found only at Great Zimbabwe — likely represented royal ancestors or divine authority, serving as symbols that", "correct": "legitimized the ruler's power through spiritual connection.", "wrong": ["decorated the buildings.", "marked trade boundaries.", "recorded historical events."] },
+          { start: "The title 'Mambo' (king) at Great Zimbabwe carried both political and ritual authority because the ruler was believed to control rain and", "correct": "agricultural fertility through spiritual power.", "wrong": ["military forces alone.", "trade routes only.", "stone construction."] },
+          { 
+            start: "Portuguese records from the 16th century describing Great Zimbabwe as 'Symbaoe' provide external documentary evidence that complements archaeological findings, though by then the city was", "correct": "already largely abandoned.", 
+            "wrong": ["still at its peak.", "recently constructed.", "under Swahili control."] 
           }
         ]
       },
@@ -7964,11 +7970,7 @@ export const CIVILIZATIONS = [
             correct: "redistribution to followers.", 
             wrong: ["military expansion.", "personal luxury.", "religious ceremonies."] 
           },
-          { 
-            start: "Great Zimbabwe's role as an intermediary in the gold trade between interior sources and Arab coastal traders gave the rulers significant power because they could accumulate the foreign goods that", 
-            correct: "trade brought.", 
-            wrong: ["merchants sought.", "routes offered.", "partners desired."] 
-          },
+          { start: "Great Zimbabwe's role as intermediary in the gold trade gave rulers power because controlling trade meant deciding who could access gold and", "correct": "at what price.", "wrong": ["building more stone structures.", "expanding military forces.", "replacing coastal merchants."] },
           { 
             start: "The evidence of trade goods from Persia, Arabia, and the Indian Ocean region found at Great Zimbabwe shows that the city was connected to", 
             correct: "long-distance trade networks.", 
@@ -8076,14 +8078,15 @@ export const CIVILIZATIONS = [
             start: "The religious authority of Great Zimbabwe's rulers was based on their claim to mediate between the human and", 
             correct: "spiritual worlds.", 
             wrong: ["control trade routes.", "command military forces.", "inherit divine status."] 
-          }
+          },
+          { start: "The Great Zimbabwe birds are now the national symbol of Zimbabwe, demonstrating that pre-colonial African heritage", "correct": "remains central to modern national identity.", "wrong": ["has been forgotten.", "is purely archaeological.", "belongs only to academics."] }
         ]
       },
       {
         name: "Great Zimbabwe Decline & Historical Significance",
         emoji: "📜",
         quotes: [
-          { start: "The decline of Great Zimbabwe likely resulted from a combination of factors: environmental stress (possibly drought), the depletion of easily accessible gold resources, and", "correct": "the emergence of rival centers of power along the coast.", "wrong": ["internal unity.", "stable prosperity.", "unchanged dominance."] },
+          { start: "The decline of Great Zimbabwe likely resulted from a combination of factors: environmental stress (possibly drought), the depletion of easily accessible gold resources, and the rise of the Mutapa kingdom to the north which", "correct": "diverted trade routes.", wrong: ["strengthened local trade networks.", "encouraged agricultural expansion.", "unified neighboring ethnic groups."] },
           { start: "The abandonment of Great Zimbabwe as a major center by the 15th century does not diminish its achievement; rather it demonstrates that even sophisticated urban centers are vulnerable to", "correct": "environmental change.", "wrong": ["human error.", "economic collapse.", "inevitable failure."] },
           { start: "The legacy of Great Zimbabwe included establishing that sophisticated urban settlements, stone architecture, and centralized trade control could develop in southern Africa independent of", "correct": "external influence.", "wrong": ["internal collapse.", "cultural stagnation.", "economic failure."] },
           { start: "The rediscovery and study of Great Zimbabwe in the modern era corrected the misconception that Africans lacked the capacity for sophisticated architecture, urban planning and", "correct": "trade organization.", "wrong": ["cultural decline.", "external dependence.", "historical absence."] },
@@ -8094,7 +8097,7 @@ export const CIVILIZATIONS = [
         name: "Great Zimbabwe & Regional Trade Networks",
         emoji: "🌍",
         quotes: [
-          { start: "Great Zimbabwe's connections to coastal Swahili cities allowed rulers to establish trade relationships with merchants from the Arab world, Persia, India, and eventually", "correct": "Portugal.", "wrong": ["America.", "Scandinavia.", "Australia."] },
+          { start: "Great Zimbabwe's connections to coastal Swahili cities allowed rulers to establish trade relationships with merchants from the Arab world, Persia, India, and eventually", "correct": "China and Southeast Asia.", "wrong": ["America.", "Scandinavia.", "Australia."] },
           { start: "The evidence of Indian Ocean trade goods at Great Zimbabwe shows that the city was part of a regional system where", "correct": "foreign products flowed in.", "wrong": ["trade moved in only one direction.", "goods were taken without exchange.", "no meaningful exchange took place."] },
           { start: "Great Zimbabwe served as a trade center because it was", "correct": "a safe and reliable place for trade.", "wrong": ["a market with no wider connections.", "purely local market.", "limited to local exchange."] },
           { start: "Great Zimbabwe’s relationship with Indian Ocean trade was beneficial because foreign merchants gained access to gold and other goods while Great Zimbabwe gained", "correct": "access to foreign products.", "wrong": ["no real advantages.", "no real benefit.", "one-sided trade."] }
@@ -8117,14 +8120,14 @@ export const CIVILIZATIONS = [
           { start: "The construction of Great Zimbabwe's massive stone structures required the organization of labor forces numbering in the thousands because the sheer volume of stone had to be quarried, transported, and", "correct": "fitted together according to a plan.", "wrong": ["handled by only a small workforce.", "put together without coordinated labor.", "small numbers could do it."] },
           { start: "The labor that built Great Zimbabwe came from sources including voluntary participation and possibly enslaved individuals, demonstrating that the ruler had multiple mechanisms", "correct": "for mobilizing and directing labor.", "wrong": ["based on voluntary participation.", "without control.", "without any form of compulsion."] },
           { start: "The coordination of such massive construction projects required the existence of architects or master builders who could design structures, plan construction sequences, and", "correct": "oversee quality control.", "wrong": ["proceed without any planning.", "operate without supervising the work.", "rely on random construction methods."] },
-          { start: "The long duration of Great Zimbabwe's construction—spanning centuries—shows that the project required continuity of vision across multiple rulers' reigns and sustained commitment to", "correct": "the original plan.", "wrong": ["random change.", "broken design' whims.", "chaotic shifts."] }
+          { start: "The long duration of Great Zimbabwe's construction—spanning centuries—shows that the project required continuity of vision across multiple rulers' reigns and sustained commitment to", "correct": "the original plan.", "wrong": ["random experimentation.", "chaotic redesign.", "individual builders' preferences."] }
         ]
       },
       {
         name: "Great Zimbabwe & Environmental Knowledge",
         emoji: "🌿",
         quotes: [
-          { start: "The location of Great Zimbabwe and the systems for water management suggest that builders and rulers understood the effects of climate and rainfall, and the need to manage", "correct": "water resources.", "wrong": ["land neglect.", "dry chaos.", "flood disorder."] },
+          { start: "The location of Great Zimbabwe and the systems for water management suggest that builders and rulers understood the effects of climate and rainfall, and the need to manage", "correct": "water resources.", "wrong": ["agricultural expansion.", "mining operations.", "population growth."] },
           { start: "The development of agricultural systems that could support the large population of Great Zimbabwe required knowledge of", "correct": "local soil conditions.", "wrong": ["unknown terrain.", "random planting.", "foreign soil."] },
           { start: "The evidence of settlement patterns and resource management at Great Zimbabwe shows that the population understood how to extract resources sustainably without completely depleting them in the", "correct": "short term.", "wrong": ["long term.", "long horizon.", "past."] }
         ]
@@ -8145,7 +8148,7 @@ export const CIVILIZATIONS = [
         quotes: [
           { start: "I established the Gupta Empire by uniting the northern Indian kingdoms through a combination of military conquest, strategic marriages, and the winning of allies rather than", "correct": "relying on force alone.", "wrong": ["peaceful unity.", "diplomatic skill.", "stable governance."] },
           { start: "The strategic marriage with the Licchhavi dynasty provided legitimacy because it connected the Gupta family to an established royal line and", "correct": "won the support of a powerful neighboring kingdom.", "wrong": ["had no effect.", "empty alliance.", "lost influence."] },
-          { start: "The establishment of Gupta rule required demonstrating that a new dynasty could provide order, justice, and", "correct": "prosperity.", "wrong": ["tyranny.", "instability.", "lawlessness."] },
+          { start: "The establishment of Gupta rule required demonstrating that a new dynasty could provide order, justice, and", "correct": "prosperity.", "wrong": ["military conquest alone.", "divine appointment.", "inherited privilege."] },
           { start: "The Gupta approach to conquered territories emphasized that rulers must establish stable governance and ensure that people benefited from", "correct": "Gupta rule.", "wrong": ["destruction.", "neglect.", "chaos."] }
         ]
       },
@@ -8154,7 +8157,7 @@ export const CIVILIZATIONS = [
         emoji: "⚔️",
         quotes: [
           { start: "My extensive military campaigns across India demonstrated that a Gupta emperor could defeat rival kingdoms, consolidate power over much of the subcontinent, and", "correct": "establish imperial authority.", "wrong": ["lose control.", "collapse effort.", "empty rule."] },
-          { start: "The Allahabad Pillar inscription recording my conquests served to publicly proclaim my military achievements and establish my legitimacy as", "correct": "a powerful ruler.", "wrong": ["false king.", "empty figure.", "weak claimant."] },
+          { start: "The Allahabad Pillar inscription recording my conquests served to publicly proclaim my military achievements and establish my legitimacy as", "correct": "a powerful ruler.", "wrong": ["a religious leader.", "a peaceful diplomat.", "a scholar-king."] },
           { start: "My style of conquest often involved accepting the submission of rival kings rather than destroying them because allowing defeated rulers to retain local authority while accepting Gupta supremacy was", "correct": "more efficient than complete conquest.", "wrong": ["weakness.", "failure.", "hesitation."] },
           { start: "The military organization required for my campaigns showed that the Gupta Empire possessed the administrative capacity to", "correct": "raise armies.", "wrong": ["avoid warfare.", "weak military.", "disband forces."] },
           { start: "My use of war elephants, cavalry, and infantry demonstrated that Gupta military strategy involved", "correct": "combining different unit types.", "wrong": ["single unit type.", "no strategy.", "no planning."] },
@@ -8177,9 +8180,9 @@ export const CIVILIZATIONS = [
         name: "Gupta Scholars & Intellectual Achievement",
         emoji: "📚",
         quotes: [
-          { start: "The Gupta court attracted the greatest scholars of the age because the emperor provided the intellectual freedom to pursue knowledge in mathematics, astronomy, medicine, and", "correct": "literature.", "wrong": ["superstition.", "chaos.", "oppression."] },
+          { start: "The Gupta court attracted the greatest scholars of the age because the emperor provided the intellectual freedom to pursue knowledge in mathematics, astronomy, medicine, and", "correct": "literature.", "wrong": ["military strategy.", "agricultural science.", "administrative law."] },
           { start: "Aryabhata's contributions to mathematics and astronomy, made under Gupta patronage, demonstrated that when scholars receive support and resources, they can make discoveries", "correct": "that advance human knowledge.", "wrong": ["of no value.", "by accident.", "in isolation."] },
-          { start: "The invention of the decimal system and the concept of zero by Indian mathematicians during the Gupta era represented a breakthrough in", "correct": "mathematical understanding.", "wrong": ["mathematical decline.", "numerical confusion.", "basic arithmetic."] },
+          { start: "The development of positional notation and early concepts of zero by Gupta-era mathematicians like Aryabhata represented a breakthrough in", "correct": "mathematical understanding.", "wrong": ["mathematical decline.", "numerical confusion.", "basic arithmetic."] },
           { start: "Kalidasa's literary masterpieces, supported by Gupta imperial patronage, showed that cultural achievement requires", "correct": "a ruler's recognition.", "wrong": ["no support.", "self isolation.", "accidental success."] },
           { start: "The Gupta approach to supporting scholars included establishing centers of learning where knowledge could be preserved and transmitted because the empire understood that institutionalizing knowledge", "correct": "ensured its survival.", "wrong": ["had no real effect.", "was unnecessary.", "benefited only individuals."] },
           { start: "Gupta support for the study of Sanskrit and the composition of literature in Sanskrit served to establish Sanskrit as the language of the", "correct": "educated elite.", "wrong": ["common people.", "merchants and traders.", "peasants and laborers."] }
@@ -8192,7 +8195,8 @@ export const CIVILIZATIONS = [
           { start: "The achievements in medicine during the Gupta period, including the surgical techniques documented in medical texts, came from accumulation of knowledge over generations preserved through", "correct": "written texts.", "wrong": ["oral tradition.", "divine revelation.", "random chance."] },
           { start: "Gupta astronomers made accurate observations and calculations about celestial bodies because they understood that astronomy had practical applications for agriculture and", "correct": "the creation of accurate calendars.", "wrong": ["astrological superstition.", "random prediction.", "cosmic guessing."] },
           { start: "The technological innovations in metallurgy and engineering under the Gupta period, visible in the Iron Pillar of Delhi and other artifacts, demonstrate that the empire possessed sophisticated knowledge of", "correct": "manufacturing techniques.", "wrong": ["primitive tools.", "basic materials.", "random processes."] },
-          { start: "Gupta support for technological advancement served both practical and symbolic purposes: improving productivity, demonstrating imperial power, and establishing the Gupta Empire as the center of", "correct": "knowledge and civilization.", "wrong": ["decline.", "isolation.", "disorder."] }
+          { start: "Gupta support for technological advancement served both practical and symbolic purposes: improving productivity, demonstrating imperial power, and establishing the Gupta Empire as the center of", "correct": "knowledge and civilization.", "wrong": ["decline.", "isolation.", "disorder."] },
+          { start: "Aryabhata correctly calculated the approximate value of pi and proposed that the Earth rotates on its axis, demonstrating that Gupta science was capable of", "correct": "conclusions that contradicted common assumptions.", "wrong": ["only confirming existing beliefs.", "purely practical calculations.", "religious interpretations of nature."] }
         ]
       },
       {
@@ -8216,7 +8220,8 @@ export const CIVILIZATIONS = [
           { start: "The Gupta support for merchant guilds and trade associations served to ensure that merchants had", "correct": "organized forums to settle disputes.", "wrong": ["ceremonial gatherings.", "heavy taxation.", "total royal control."] },
           { start: "The economic prosperity of the Gupta Empire allowed the government to", "correct": "finance military campaigns.", "wrong": ["simply accumulate wealth.", "gain no real benefits from it.", "have no practical use."] },
           { start: "The Gupta mints produced high-quality coins inscribed with the emperor's names and titles because this served to establish the emperor's face as a symbol of", "correct": "imperial authority.", "wrong": ["personal vanity.", "economic reform.", "religious devotion."] },
-          { start: "The volume of trade during the Gupta period, with goods flowing from China, Central Asia, Persia, Rome, and Southeast Asia, demonstrated that the Gupta Empire was a major node in international trade networks stretching across", "correct": "Eurasia.", "wrong": ["America.", "Scandinavia.", "Antarctica."] }
+          { start: "The volume of trade during the Gupta period, with goods flowing from China, Central Asia, Persia, Rome, and Southeast Asia, demonstrated that the Gupta Empire was a major node in international trade networks stretching across", "correct": "Eurasia.", "wrong": ["America.", "Scandinavia.", "Antarctica."] },
+          { start: "The Gupta port of Tamralipti on the Bay of Bengal served as the main departure point for Buddhist missionaries and traders to Southeast Asia, showing that maritime trade", "correct": "spread both commerce and culture simultaneously.", "wrong": ["was purely economic.", "had no cultural dimension.", "was controlled only by merchants."] }
         ]
       },
       {
@@ -8236,8 +8241,8 @@ export const CIVILIZATIONS = [
         quotes: [
           { start: "The Gupta approach to religion included patronage of both Hindu temples and Buddhist monasteries because the emperors understood that religious tolerance and support for multiple traditions created", "correct": "stability.", "wrong": ["division.", "conflict.", "intolerance."] },
           { start: "The revival of Sanskrit literature and philosophy during the Gupta period served to", "correct": "establish Hindu classical traditions.", "wrong": ["create religious divide.", "reject philosophy.", "reject history."] },
-          { start: "Gupta support for the composition of the Mahabharata and Ramayana in their final forms served to", "correct": "preserve these epic traditions.", "wrong": ["entertain people.", "standardize Sanskrit.", "boost Gupta power."] },
-          { start: "The Gupta engagement with Buddhist scholarship and philosophy, particularly at Nalanda University, demonstrated that the empire supported", "correct": "learning across religious traditions.", "wrong": ["oppression of Buddhists.", "learning in one.", "no learning."] },
+          { start: "Gupta patronage supported the standardization and written preservation of epic traditions like the Mahabharata and Ramayana, which served to", "correct": "preserve these epic traditions.", "wrong": ["entertain people.", "standardize Sanskrit.", "boost Gupta power."] },
+          { start: "The Gupta engagement with Buddhist scholarship, particularly at Nalanda — established under Kumaragupta I — demonstrated that the empire supported", "correct": "learning across religious traditions.", "wrong": ["oppression of Buddhists.", "learning in one.", "no learning."] },
           { start: "The Gupta period saw the development of Hindu philosophy because thinkers could", "correct": "work freely and access resources.", "wrong": ["produce no real philosophy.", "follow only purely traditional ideas.", "create nothing innovative."] }
         ]
       },
@@ -8249,7 +8254,8 @@ export const CIVILIZATIONS = [
           { start: "The Gupta inability to completely repel the Huna (Hun) invasions from Central Asia showed that even powerful empires face challenges from determined external enemies with", "correct": "superior military capabilities.", "wrong": ["worst weapons.", "less power.", "no real resistance."] },
           { start: "The fragmentation of the Gupta Empire into regional kingdoms after the central authority weakened demonstrated that without a strong central authority and the prosperity that supported it, the system of governance", "correct": "could not be maintained.", "wrong": ["was weak from the start.", "had no real unity.", "fell apart."] },
           { start: "The legacy of the Gupta Empire included establishing that a civilization that values knowledge, supports cultural achievement, and provides stable governance can", "correct": "create a golden age.", "wrong": ["leave no lasting legacy.", "achieve only military success.", "experience only temporary cultural achievements."] },
-          { start: "The study of the Gupta period demonstrates that in the ancient world mathematical breakthroughs (zero, decimal system) and scientific discoveries could emerge", "correct": "from patronage and institutional support.", "wrong": ["without any support.", "completely by random chance.", "just by chance."] }
+          { start: "The study of the Gupta period demonstrates that in the ancient world mathematical breakthroughs (zero, decimal system) and scientific discoveries could emerge", "correct": "from patronage and institutional support.", "wrong": ["without any support.", "completely by random chance.", "just by chance."] },
+          { start: "The Huna (Hunas/White Huns) invasions under Toramana and Mihirakula in the late 5th century disrupted Gupta administration so severely that provincial governors", "correct": "began acting as independent rulers.", "wrong": ["remained loyal to the emperor.", "were replaced by Huna administrators.", "continued normal governance."] }
         ]
       },
       {
@@ -8291,7 +8297,7 @@ export const CIVILIZATIONS = [
     bg: "#0a0a0a",
     authors: [
       {
-        name: "Sunni Ali Ber (Founder & Military Conqueror)",
+        name: "Sunni Ali Ber (Conqueror & Expander)",
         emoji: "👑",
         quotes: [
           { start: "I conquered the Mali Empire's former territories by understanding that military strength must be combined with administrative skill and the ability to win", "correct": "the loyalty of conquered peoples.", "wrong": ["without any follow-up administration.", "relying solely on military force.", "only through pure conquest."] },
@@ -8299,7 +8305,8 @@ export const CIVILIZATIONS = [
           { start: "My expansion of Songhai required understanding that the Niger River valley could support a powerful state through", "correct": "control of trade routes and agriculture.", "wrong": ["pure military conquest.", "no economic foundation.", "random expansion."] },
           { start: "The use of military force to consolidate Songhai power also required establishing a navy to control the", "correct": "Niger River.", "wrong": ["land.", "mountains.", "villages."] },
           { start: "My relationship with Islamic leaders and scholars showed that even a warrior king must understand that cultural and religious legitimacy were important to", "correct": "ruling diverse peoples.", "wrong": ["ignore religion.", "use only military force.", "dismiss scholars."] },
-          { start: "The consolidation of Songhai power under my rule required eliminating rival power centers while ensuring that administrators and merchants recognized Songhai authority and", "correct": "benefited from it.", "wrong": ["supported rule.", "shared profit.", "gained power."] }
+          { start: "The consolidation of Songhai power under my rule required eliminating rival power centers while ensuring that administrators and merchants recognized Songhai authority and", "correct": "benefited from it.", "wrong": ["supported rule.", "shared profit.", "gained power."] },
+          { start: "Sunni Ali's complex relationship with Islamic scholars in Timbuktu — sometimes persecuting them — showed that his power was based on", "correct": "military and traditional authority rather than Islamic legitimacy.", "wrong": ["pure Islamic piety.", "scholarly consensus.", "foreign alliances."] }
         ]
       },
       {
@@ -8324,7 +8331,7 @@ export const CIVILIZATIONS = [
           { start: "The Songhai control of the Niger River allowed them to", "correct": "move goods efficiently.", "wrong": ["have no real advantage.", "eliminate trade routes.", "destroy surrounding settlements."] },
           { start: "Songhai merchants and traders became wealthy because they could participate in trade networks stretching from the Mediterranean to", "correct": "the Indian Ocean.", "wrong": ["the Pacific Ocean.", "isolated villages.", "only local markets."] },
           { start: "The Songhai approach to merchants and traders emphasized fairness in taxation, protection from bandits, and the establishment of law and order that", "correct": "enabled commerce to flourish.", "wrong": ["discouraged merchants from trading.", "made commerce dangerous.", "led to frequent confiscation of goods."] },
-          { start: "The economic foundation of Songhai power allowed the empire to maintain", "correct": "a large military.", "wrong": ["isolated villages.", "constant famine.", "isolated villages."] }
+          { start: "The economic foundation of Songhai power allowed the empire to maintain", "correct": "a large military.", "wrong": ["isolated villages.", "constant famine.", "military weakness."] }
         ]
       },
       {
@@ -8332,7 +8339,7 @@ export const CIVILIZATIONS = [
         emoji: "📚",
         quotes: [
           { start: "Timbuktu became a major center of Islamic learning under Songhai rule because the emperors understood that supporting scholars, establishing madrasas (schools), and preserving knowledge", "correct": "enhanced the prestige and legitimacy of Songhai rule.", "wrong": ["did not benefit anyone.", "was completely useless.", "had no impact on the empire."] },
-          { start: "The University of Timbuktu and other institutions of learning attracted scholars from across the Islamic world because Songhai emperors provided", "correct": "financial support.", "wrong": ["forced exile.", "religious bans.", "no support."] },
+          { start: "The Sankore Madrasah of Timbuktu and other institutions of learning attracted scholars from across the Islamic world because Songhai emperors provided", "correct": "financial support.", "wrong": ["forced exile.", "religious bans.", "no support."] },
           { start: "Songhai rulers invested in preserving manuscripts and establishing libraries because they understood that controlling knowledge", "correct": "enhanced their authority.", "wrong": ["was purely altruistic.", "had no political benefit.", "had no real value."] },
           { start: "The scholars and judges of Timbuktu helped Songhai emperors by", "correct": "providing legal knowledge.", "wrong": ["having no real influence.", "serving purely ceremonial roles.", "no practical authority."] },
           { start: "The preservation of African Islamic scholarship in Timbuktu created a legacy because the accumulated knowledge and manuscripts ensured that African Islamic intellectual traditions would survive", "correct": "for future generations.", "wrong": ["without interruption.", "only briefly.", "in isolation."] },
@@ -8369,7 +8376,8 @@ export const CIVILIZATIONS = [
           { start: "Songhai governors were expected to collect taxes, maintain order, and ensure that local merchants prospered because prosperous regions produced", "correct": " more tax revenue.", "wrong": ["purely oppressive taxation.", "no local development.", "less tax revenue."] },
           { start: "The Songhai approach to administering diverse ethnic and religious groups required", "correct": "respecting local traditions.", "wrong": ["pure cultural erasure.", "no respect for locals.", "eliminating administration."] },
           { start: "Songhai corruption of administrators was controlled through a system of checks because rulers understood that officials who embezzled tax revenue weakened imperial power and", "correct": "provoked rebellion.", "wrong": ["strengthened the empire.", "increased loyalty.", "were rarely punished."] },
-          { start: "The capital at Gao served as the center of Songhai administration, housing the emperor, his court, and government officials because a centralized capital allowed the emperor to oversee", "correct": "administration.", "wrong": ["trade routes.", "foreign armies.", "rural villages."] }
+          { start: "The capital at Gao served as the center of Songhai administration, housing the emperor, his court, and government officials because a centralized capital allowed the emperor to oversee", "correct": "administration.", "wrong": ["trade routes.", "foreign armies.", "rural villages."] },
+          { start: "Muhammad Askia divided the empire into provinces each administered by a governor (fari), creating one of the most", "correct": "sophisticated administrative systems in 15th century Africa.", "wrong": ["disorganized systems in the region.", "purely military structures.", "temporary arrangements."] }
         ]
       },
       {
@@ -8388,9 +8396,9 @@ export const CIVILIZATIONS = [
         quotes: [
           { start: "The Songhai adoption of Islam created a framework for governance because it provided a shared set of principles with other", "correct": "Islamic states.", "wrong": ["local villages.", "isolated tribes.", "rural communities."] },
           { start: "The balance Songhai emperors maintained between Islamic law and traditional African practices showed that accepting local traditions while adopting Islam allowed diverse populations to", "correct": "accept Songhai authority.", "wrong": ["resist all rule.", "ignore governance.", "avoid authority."] },
-          { start: "The respect shown to Islamic scholars and judges in Songhai demonstrated that emperors understood that religious and intellectual authority could be as important as", "correct": "military power.", "wrong": ["religious authority.", "scholarly knowledge.", "cultural traditions."] },
+          { start: "The respect shown to Islamic scholars and judges in Songhai demonstrated that emperors understood that religious and intellectual authority could be as important as", "correct": "military power.", "wrong": ["territorial expansion.", "taxation policy.", "military recruitment."] },
           { start: "Songhai artistic and literary traditions flourished under imperial patronage because the emperors believed that supporting cultural expression", "correct": "enhanced the prestige of the empire.", "wrong": ["had no value.", "was purely decorative.", "had no real importance."] },
-          { start: "The preservation of African Islamic culture in Songhai cities created a legacy because African Islamic intellectual", "correct": "was maintained.", "wrong": ["quickly disappeared.", "collapsed immediately.", "failed completely."] }
+          { start: "The preservation of African Islamic culture in Songhai cities created a legacy because African Islamic intellectual tradition", "correct": "was maintained for future generations.", "wrong": ["quickly disappeared.", "collapsed immediately.", "failed completely."] }
         ]
       },
       {
@@ -8401,7 +8409,8 @@ export const CIVILIZATIONS = [
           { start: "The fall of Songhai showed that even well-organized African empires could not resist external military invasion with", "correct": "superior weapons and tactics.", "wrong": ["inferior technology.", "equal resources.", "internal stability."] },
           { start: "The decline of Songhai after the Moroccan invasion resulted from the disruption of trade routes, the fragmentation of the empire into smaller states, and", "correct": "the loss of control over major cities.", "wrong": ["increasing unity.", "immediate collapse.", "expanding territory."] },
           { start: "The legacy of Songhai included the establishment of centers of Islamic learning that preserved", "correct": "African Islamic scholarship.", "wrong": ["no real legacy.", "pure destruction.", "no cultural contribution."] },
-          { start: "The study of Songhai demonstrates that organized African states with justice systems and complex administrations existed well before", "correct": "sophisticated, European colonization.", "wrong": ["modern times.", "any development.", "recorded history."] }
+          { start: "The study of Songhai demonstrates that organized African states with justice systems and complex administrations existed well before", "correct": "European colonization.", "wrong": ["modern times.", "any development.", "recorded history."] },
+          { start: "The Moroccan invasion of 1591 was led by Ahmad al-Mansur who used Sa'adian arquebusiers crossing the Sahara — a military feat that succeeded because Songhai commanders", "correct": "had no effective response to gunpowder weapons.", "wrong": ["refused to fight.", "outnumbered the Moroccans.", "had superior cavalry tactics."] }
         ]
       },
       {
@@ -8435,7 +8444,7 @@ export const CIVILIZATIONS = [
     bg: "#0a0a0a",
     authors: [
       {
-        name: "Arsaces I & Early Parthian Kings (Founders)",
+        name: "Arsaces I & Early Parthian Kings (As Recorded by Appian & Justin)",
         emoji: "👑",
         quotes: [
           { start: "We Parthians broke free from Seleucid rule by understanding that guerrilla warfare, mobility, and control of the steppes could overcome", "correct": "more heavily equipped armies.", "wrong": ["mobile tactics.", "strategy.", "cavalry warfare."] },
@@ -8465,7 +8474,8 @@ export const CIVILIZATIONS = [
           { start: "The Parthian use of combined arms—light cavalry, heavy cavalry, and infantry—showed that effective military strategy required", "correct": "diverse unit types.", "wrong": ["cavalry alone.", "infantry.", "no coordination."] },
           { start: "The Parthian victories against Rome at Carrhae and elsewhere demonstrated that light cavalry could defeat heavy infantry when the cavalry had", "correct": "superior mobility.", "wrong": ["no horses.", "no tactics.", "fixed positions."] },
           { start: "Parthian generals who successfully maintained power understood that preserving their cavalry forces was more important than capturing territory, because without cavalry, Parthian power would", "correct": "collapse.", "wrong": ["remain strong.", "expand easily.", "control lands."] },
-          { start: "The Parthian approach to fortress warfare often involved using siege equipment, cutting supply lines, and exhausting defenders rather than", "correct": "accepting casualties in direct assault.", "wrong": ["avoiding all warfare.", "ignoring fortifications.", "suffering heavy losses."] }
+          { start: "The Parthian approach to fortress warfare often involved using siege equipment, cutting supply lines, and exhausting defenders rather than", "correct": "accepting casualties in direct assault.", "wrong": ["avoiding all warfare.", "ignoring fortifications.", "suffering heavy losses."] },
+          { start: "The Roman general Crassus underestimated Parthian cavalry at Carrhae because he expected a traditional pitched battle, not realizing that Parthian horse archers could maintain pressure without ever", "correct": "closing to hand-to-hand combat.", "wrong": ["retreating from the field.", "running out of arrows.", "losing formation."] }
         ]
       },
       {
@@ -8475,7 +8485,7 @@ export const CIVILIZATIONS = [
           { start: "The Parthian system of government relied on powerful nobles who", "correct": "maintained their own territories.", "wrong": ["served at the king's pleasure.", "had no real power.", "were completely subordinate."] },
           { start: "A Parthian king who tried to centralize power or reduce noble autonomy would", "correct": "face rebellion or deposition.", "wrong": ["succeed easily.", "gain more power.", "be accepted by the nobles."] },
           { start: "The 'King's Friends'—the highest tier of Parthian nobility—held power because they controlled vast territories, commanded military forces, and", "correct": "could make or break a king's reign.", "wrong": ["were chosen at random.", "had no real influence.", "served only as messengers."] },
-          { start: "Parthian succession disputes often involved competing claimants supported by different noble factions because the nobles had the power to choose between candidates and would back", "correct": "those favorable to their interests.", "wrong": ["any candidate at random.", "the king.", "women."] },
+          { start: "Parthian succession disputes often involved competing claimants supported by different noble factions because the nobles had the power to choose between candidates and would back", "correct": "those favorable to their interests.", "wrong": ["any candidate at random.", "the weakest claimant.", "foreign princes."] },
           { start: "The strength of the Parthian feudal system was that it allowed a decentralized structure that could survive the loss of a weak king and adapt to", "correct": "regional differences.", "wrong": ["complete centralization.", "absolute monarchy.", "uniform governance."] },
           { start: "The weakness of the Parthian feudal system was that it", "correct": "made unified action difficult.", "wrong": ["prevented military success.", "made the empire weak.", "allowed easy conquest."] }
         ]
@@ -8484,9 +8494,9 @@ export const CIVILIZATIONS = [
         name: "Parthian Relations with Rome",
         emoji: "⚔️",
         quotes: [
-          { start: "The Parthian Empire's greatest challenge was the rise of Rome because Rome could field massive armies with superior organization and discipline, requiring Parthian strategy to focus on", "correct": "avoiding direct confrontation.", "wrong": ["direct attacks.", "Rome.", "no real danger."] },
+          { start: "The Parthian Empire's greatest challenge was the rise of Rome because Rome could field massive armies with superior organization and discipline, requiring Parthian strategy to focus on", "correct": "avoiding direct confrontation.", "wrong": ["direct frontal assault.", "siege warfare.", "naval confrontation."] },
           { start: "The Parthian strategy against Rome involved defensive campaigns, using terrain advantages, harassing Roman armies, and avoiding large-scale pitched battles when", "correct": "possible.", "wrong": ["unnecessary.", "forbidden.", "advantageous."] },
-          { start: "The Battle of Carrhae in 53 BCE, where Parthian forces under Orodes II defeated the Roman general Crassus, demonstrated that skilled use of cavalry and terrain could overcome even", "correct": "experienced Roman legions.", "wrong": ["untrained soldiers.", "entire Roman armies always.", "ordinary infantry."] },
+          { start: "The Battle of Carrhae in 53 BCE, where Parthian forces under the general Surena defeated Crassus, demonstrated that skilled use of cavalry and terrain could overcome even", "correct": "experienced Roman legions.", "wrong": ["untrained soldiers.", "entire Roman armies always.", "ordinary infantry."] },
           { start: "The long-term conflict between Parthia and Rome remained inconclusive because Parthian light cavalry was superior in open terrain but Romans were superior", "correct": "in siege warfare, creating a strategic stalemate.", "wrong": ["in trade.", "in border treaties.", "in all situations."] },
           { start: "Parthian kings maintained peace with Rome when necessary because they recognized that continuous war with Rome would", "correct": "drain resources.", "wrong": ["make Parthia stronger.", "bring endless prosperity.", "guarantee easy victories."] },
           { start: "The Parthian use of Armenia as a buffer state and zone of competition with Rome showed that control of territories between the two empires was essential to maintaining balance and", "correct": "preventing direct Roman invasion.", "wrong": ["ensuring isolation.", "eliminating diplomacy.", "dissolving borders."] }
@@ -8497,7 +8507,7 @@ export const CIVILIZATIONS = [
         emoji: "💰",
         quotes: [
           { start: "The Parthian control of the Silk Road trade routes gave them enormous power because they could tax merchants, control the flow of goods between China, India, and the Mediterranean, and", "correct": "accumulate wealth.", "wrong": ["lose all income.", "abandon taxation.", "destroy trade networks."] },
-          { start: "Parthian kings used control of trade routes to establish relationships with distant powers like China because trade created mutual interests and opportunities for diplomacy without", "correct": "direct military confrontation.", "wrong": ["war.", "political benefit.", "trade."] },
+          { start: "Parthian kings used control of trade routes to establish relationships with distant powers like China because trade created mutual interests and opportunities for diplomacy without", "correct": "direct military confrontation.", "wrong": ["military alliances.", "political benefit.", "territorial expansion."] },
           { start: "The Parthian approach to merchants and trade emphasized", "correct": "maintaining the flow of commerce.", "wrong": ["no regulations.", "blocking trade routes.", "abolishing commerce."] },
           { start: "Parthian cities like Ctesiphon became wealthy centers of trade and culture because they sat on major trade routes and the kings", "correct": "invested in their development.", "wrong": ["saw no real purpose in them.", "used them only as military bases.", "allowed no trade."] },
           { start: "The Parthian wealth from trade allowed them to maintain a large military, support a court and nobility, and survive periods of", "correct": "conflict with Rome.", "wrong": ["peace.", "isolation.", "economic collapse."] }
@@ -8508,7 +8518,7 @@ export const CIVILIZATIONS = [
         emoji: "⚖️",
         quotes: [
           { start: "The Parthian system of governance combined Persian traditions with new structures appropriate to a feudal state because the empire needed to balance central authority with", "correct": "local autonomy.", "wrong": ["purely Greek systems.", "tradition.", "centralization."] },
-          { start: "Parthian kings maintained legitimacy by positioning themselves as heirs to Persian imperial traditions because this gave them authority over Persian territories that had previously", "correct": "been ruled by Persian emperors.", "wrong": ["resisted all rule.", "lived without rulers.", "no local support."] },
+          { start: "Later Parthian kings increasingly positioned themselves as heirs to Persian imperial traditions because this gave them legitimacy over territories that had previously", "correct": "been ruled by Persian emperors.", "wrong": ["resisted all rule.", "lived without rulers.", "no local support."] },
           { start: "The Parthian use of a capital (first Ctesiphon, then other cities) served to provide a center for administration, display royal power, and serve as a focus for trade and", "correct": "culture.", "wrong": ["chaos.", "decline.", "isolation."] },
           { start: "Parthian administration of conquered territories often involved allowing local rulers to maintain power under Parthian oversight, respecting local traditions, and", "correct": "extracting tribute.", "wrong": ["replacing local rulers.", "imposing uniform governance.", "ending taxation."] },
           { start: "The Parthian approach to governing client kingdoms and vassal states required balancing the autonomy of local rulers with ensuring their loyalty and preventing them from", "correct": "becoming too independent.", "wrong": ["absolute control.", "acting without any limits.", "complete assimilation."] }
@@ -8551,7 +8561,8 @@ export const CIVILIZATIONS = [
           { start: "The weakening of Parthian power came from multiple sources: the rise of the Sassanid Persians, continuing conflict with Rome and", "correct": "the inherent limitations of the feudal system.", "wrong": ["complete stability.", "unified administration.", "sudden collapse."] },
           { start: "The inability of later Parthian kings to maintain unified action against the Sassanid challenge showed that the feudal system's decentralization, which gave strength in other contexts became a weakness when facing", "correct": "a centralized rival.", "wrong": ["peaceful merchants.", "farmers.", "isolated provinces."] },
           { start: "The final collapse of Parthian power to the Sassanids demonstrated that even successful empires that survive for centuries can decline when facing", "correct": "a more effectively organized rival.", "wrong": ["overwhelming enemies.", "unexpected invasions.", "internal weakness."] },
-          { start: "The Parthian legacy included establishing that an empire based on feudal relationships could", "correct": "survive for centuries.", "wrong": ["collapse immediately.", "function without rulers.", "avoid all warfare."] }
+          { start: "The Parthian legacy included establishing that an empire based on feudal relationships could", "correct": "survive for centuries.", "wrong": ["collapse immediately.", "function without rulers.", "avoid all warfare."] },
+          { start: "Ardashir I of the Sassanid dynasty overthrew the last Parthian king Artabanus IV in 224 CE, ending 500 years of Arsacid rule and demonstrating that the feudal system", "correct": "could not withstand a centralized revolutionary movement.", "wrong": ["was perfectly stable.", "collapsed only due to Rome.", "ended peacefully."] }
         ]
       }
     ]
@@ -8565,7 +8576,7 @@ export const CIVILIZATIONS = [
     bg: "#0a0a0a",
     authors: [
       {
-        name: "Seleucus I Nicator (Founder & Historical Records)",
+        name: "Seleucus I Nicator (As Recorded by Appian & Diodorus)",
         emoji: "👑",
         quotes: [
           { start: "I was appointed by Alexander to rule Babylon, and through my skill and determination, I expanded this into an empire stretching from the Mediterranean to", "correct": "India.", "wrong": ["the capital region.", "local provinces.", "a small kingdom."] },
@@ -8602,7 +8613,7 @@ export const CIVILIZATIONS = [
         name: "Seleucid Military & Strategy",
         emoji: "⚔️",
         quotes: [
-          { start: "The Seleucid military was strengthened by recruiting from diverse regions because troops from different backgrounds brought varied", "correct": "skills", "wrong": ["loyalties.", "religions.", "languages."] },
+          { start: "The Seleucid military recruited from diverse regions, combining Macedonian heavy infantry, Iranian cavalry, and local troops, creating an army with varied", "correct": "skills and fighting styles", "wrong": ["uniform training.", "identical equipment.", "single tactical doctrine."] },
           { start: "The use of war elephants by Seleucid forces, inherited from Alexander's campaigns, served as psychological weapons and platforms for commanders giving advantages in", "correct": "specific terrain and situations.", "wrong": ["tax collection.", "diplomatic ceremonies.", "administrative decisions."] },
           { start: "Seleucid military reforms and innovations were necessary because they faced threats from the rising power of Rome, independent Hellenistic kingdoms, and", "correct": "local resistance movements.", "wrong": ["absence of warfare.", "pure dominance.", "no challenges."] },
           { start: "The loss of eastern territories to rising powers like Parthia and the loss of Syria to Egypt demonstrated that even strong military powers cannot maintain all territories when", "correct": "facing multiple determined opponents.", "wrong": ["they face no real opposition.", "no external threats exist.", "decline is unavoidable."] },
@@ -8615,7 +8626,7 @@ export const CIVILIZATIONS = [
         quotes: [
           { start: "The Seleucid policy of promoting Hellenistic culture through architecture, language, and education served to unite diverse conquered territories under a shared cultural framework and", "correct": "legitimize Greek rule.", "wrong": ["prevent administration.", "discourage governance.", "eliminate cities."] },
           { start: "The founding of cities with Greek names, temples to Greek gods, and gymnasiums demonstrated that Seleucid kings believed that Hellenistic culture was", "correct": "a tool to integrate diverse populations.", "wrong": ["unimportant.", "only for show.", "without effect."] },
-          { start: "The Seleucid approach to religion included tolerance for local cults and the introduction of Greek gods because this strategy both respected local populations and", "correct": "promoted a shared cultural identity.", "wrong": ["treated all gods the same.", "was done without purpose.", "suppressed local religious practices."] },
+          { start: "Generally the Seleucid approach to religion included tolerance for local cults, though Antiochus IV was a notable exception. This policy respected local populations and", "correct": "promoted a shared cultural identity.", "wrong": ["treated all gods the same.", "was done without purpose.", "suppressed local religious practices."] },
           { start: "The use of Greek as the administrative language of the Seleucid Empire facilitated communication across the empire and created a common language", "correct": "for educated elites and officials.", "wrong": ["with no real benefit.", "purely for pride.", "only to show prestige."] },
           { start: "The Seleucid promotion of philosophy, art, and literature through patronage served to enhance the prestige of Seleucid kings, attract talented people, and legitimize their rule through", "correct": "cultural achievement.", "wrong": ["war.", "destruction.", "anti-intellectualism."] }
         ]
@@ -8624,7 +8635,7 @@ export const CIVILIZATIONS = [
         name: "Seleucid Economic Systems & Trade",
         emoji: "💰",
         quotes: [
-          { start: "The Seleucid economy depended on control of trade routes between the Mediterranean, Mesopotamia, and", "correct": "Asia.", "wrong": ["Australia.", "America.", "Antarticta."] },
+          { start: "The Seleucid economy depended on control of trade routes between the Mediterranean, Mesopotamia, and", "correct": "Asia.", "wrong": ["Australia.", "America.", "Antarctica."] },
           { start: "Seleucid kings maintained economic power by controlling mints and establishing a standardized coinage because this allowed them to regulate commerce and", "correct": "collect taxes.", "wrong": ["gain no real advantage.", "serve only ceremonial purposes.", "have no economic impact."] },
           { start: "The Seleucid approach to taxation required establishing a balance between extracting sufficient revenue for the state while not", "correct": "driving regions to rebellion.", "wrong": ["overburdening the population.", "collecting nothing.", "treating everyone exactly the same."] },
           { start: "Seleucid cities benefited from their role as centers of trade because they could collect taxes on commerce and grow wealthy through", "correct": "commercial activity.", "wrong": ["isolation from trade.", "abandonment of markets.", "absence of commerce."] },
@@ -8648,18 +8659,20 @@ export const CIVILIZATIONS = [
           { start: "The Seleucid approach to governing diverse ethnic and religious groups required respecting local traditions, allowing local rulers to", "correct": "maintain power under Seleucid oversight.", "wrong": ["enforce cultural erasure.", "ignore local traditions.", "force total assimilation."] },
           { start: "The Seleucid treatment of Jerusalem and Judea showed the limits of cultural tolerance when efforts to impose Greek culture and religious practices on the Jewish population led to", "correct": "the Maccabean Revolt.", "wrong": ["absolute tolerance.", "no resistance.", "complete loyalty."] },
           { start: "The survival of Seleucid rule depended on the willingness of local elites to accept Seleucid authority in exchange for maintaining their local power and", "correct": "the ability to govern their people.", "wrong": ["complete submission.", "no local autonomy.", "forced cultural change."] },
-          { start: "The Seleucid inability to fully assimilate distant territories like Bactria and Parthia demonstrated that vast empires cannot impose uniform culture on all subjects, and", "correct": "distant regions eventually seek independence.", "wrong": ["Seleucid power was unlimited.", "no resistance was possible.", "all territories were equal."] }
+          { start: "The Seleucid inability to fully assimilate distant territories like Bactria and Parthia demonstrated that vast empires cannot impose uniform culture on all subjects, and", "correct": "distant regions eventually seek independence.", "wrong": ["Seleucid power was unlimited.", "no resistance was possible.", "all territories were equal."] },
+          { start: "Antiochus IV's attempt to Hellenize Jerusalem, including desecrating the Temple and banning Jewish practices, directly caused the Maccabean Revolt (167 BCE), showing that forced", "correct": "cultural assimilation provokes violent resistance.", "wrong": ["tolerance prevents all conflict.", "religious policy had no consequences.", "subject peoples accepted Greek culture easily."] }
         ]
       },
       {
         name: "Seleucid Decline & Historical Significance",
         emoji: "📜",
         quotes: [
-          { start: "The decline of the Seleucid Empire resulted from a combination of factors: the rise of Rome, the loss of eastern territories, internal civil conflict, and", "correct": "the inability to effectively govern territories.", "wrong": ["military defeat.", "complete unity.", "inevitable decline."] },
+          { start: "The decline of the Seleucid Empire resulted from a combination of factors: the rise of Rome, the loss of eastern territories, internal civil conflict, and", "correct": "the inability to effectively govern territories.", "wrong": ["military defeat alone.", "complete internal unity.", "foreign cultural influence."] },
           { start: "The Seleucid inability to maintain unity despite founding a vast empire showed that even effective governance systems cannot hold together such diverse territories indefinitely when", "correct": "facing external pressure.", "wrong": ["there is no leadership.", "borders do not matter.", "cities refuse to exist."] },
           { start: "The Seleucid legacy in the regions they ruled included the spread of Hellenistic culture, the founding of cities that continued as important centers, and the establishment of administrative systems that", "correct": "influenced later empires.", "wrong": ["quickly disappeared.", "left no trace.", "failed."] },
-          { start: "The study of the Seleucid Empire demonstrates that even powerful Hellenistic kingdoms could not resist the rising power of Rome and the", "correct": "forces of regional independence.", "wrong": ["absence of conflict.", "stability of borders.", "decline of warfare."] },
-          { start: "The Seleucid attempt to rule diverse territories from the Mediterranean to India was ultimately limited by the technology of the time (slow communication, difficult travel) and the", "correct": "distances involved.", "wrong": ["lack of military power.", "poor leadership.", "internal weakness."] }
+          { start: "The study of the Seleucid Empire demonstrates that even powerful Hellenistic kingdoms could not resist the rising power of Rome and the", "correct": "forces of regional independence.", "wrong": ["absence of conflict.", "stability of borders.", "decline of warfare."] }, 
+          { start: "The Seleucid attempt to rule diverse territories from the Mediterranean to India was ultimately limited by the technology of the time (slow communication, difficult travel) and the", "correct": "distances involved.", "wrong": ["lack of military power.", "poor leadership.", "internal weakness."] },
+          { start: "The Parthian Empire under Mithridates I conquered Media and Mesopotamia from the Seleucids by 141 BCE, demonstrating that the eastern territories were impossible to defend from both eastern and western", "correct": "threats simultaneously.", wrong: ["trade routes effectively.","religious traditions equally.","agricultural regions permanently."] }
         ]
       },
       {
@@ -8669,7 +8682,7 @@ export const CIVILIZATIONS = [
           { start: "Seleucid succession often led to civil conflict because multiple claimants competed for power and generals and officials chose sides based on", "correct": "their interests.", "wrong": ["divine intervention.", "unanimous agreement.", "peaceful transitions."] },
           { start: "The use of dynastic marriages to create alliances with other Hellenistic kingdoms showed that Seleucid kings understood that political relationships based on family ties could be as important as", "correct": "military alliances.", "wrong": ["economic isolation.", "personal beliefs.", "no strategy."] },
           { start: "The co-rule system used by some Seleucid kings (where a son ruled alongside his father) served to prepare the heir for rule, maintain continuity, and", "correct": "prevent rival claimants from gaining power during transition.", "wrong": ["weaken central authority.", "had no real purpose.", "create conflict."] },
-          { start: "The removal of a Seleucid king from power by generals or rivals required demonstrating that he was incompetent, unable to defend the realm, or", "correct": "had lost the support of powerful factions.", "wrong": ["had failed politically.", "lacked legitimacy.", "was unfit to rule."] }
+          { start: "The removal of a Seleucid king from power by generals or rivals required demonstrating that he was incompetent, unable to defend the realm, or", "correct": "had lost the support of powerful factions.", "wrong": ["had too many foreign allies.", "was too generous with wealth.", "had expanded the empire too far."] }
         ]
       },
       {
@@ -8698,7 +8711,7 @@ export const CIVILIZATIONS = [
           { start: "A Celtic chieftain's authority came from his ability to gather warriors, provide protection, and", "correct": "distribute wealth among his followers.", "wrong": ["inherit position without challenge.", "rule unopposed.", "have no rivals."] },
           { start: "Celtic tribes remained independent and often in conflict with each other because each chieftain sought to expand territory, gain prestige, and", "correct": "accumulate treasure and followers.", "wrong": ["unity was their goal.", "no ambition existed.", "they rejected warfare."] },
           { start: "A Celtic leader who lost battles or failed to protect his people would likely lose his warriors' loyalty and", "correct": "be replaced by a more capable rival.", "wrong": ["retain power indefinitely.", "rule unquestioned.", "gain more authority."] },
-          { start: "Celtic warfare between tribes served important purposes: gaining cattle, slaves, and treasure; acquiring prestige; and establishing dominance and", "correct": "the right to levy tribute.", "wrong": ["stopping all trade.", "eliminating agriculture.", "preventing social organization."] },
+          { start: "Celtic warfare between tribes served important purposes: gaining cattle, slaves, and treasure; acquiring prestige; and establishing dominance and", "correct": "the right to levy tribute.", "wrong": ["purely religious devotion.", "artistic expression.", "diplomatic negotiation."] },
           { start: "The Celtic value system emphasized personal bravery and honor because a chieftain's power depended on the loyalty of warriors attracted by his reputation for courage and", "correct": "generosity.", "wrong": ["isolation.", "secrecy.", "silence."] },
           { start: "Celtic chieftains used the redistribution of plunder and wealth to build and maintain relationships with their warriors and establish", "correct": "their status and authority.", "wrong": ["written constitutions.", "astronomical maps.", "agricultural calendars."] },
           { start: "The Celtic practice of taking the heads of enemies as trophies reflected their belief that victory and dominance were demonstrated through the visible", "correct": "conquest of rivals.", "wrong": ["sharing of crops.", "construction of roads.", "writing of poetry."] },
@@ -8711,7 +8724,7 @@ export const CIVILIZATIONS = [
         quotes: [
           { start: "Celtic druids held significant power in tribal societies because they controlled religious knowledge, interpreted omens, conducted sacrifices, and", "correct": "legitimized a chieftain's rule.", "wrong": ["ruled directly.", "had no political influence.", "were purely spiritual."] },
           { start: "The training of druids required years of study in poetry, law, astronomy, and natural philosophy because they", "correct": "served as judges.", "wrong": ["had purely religious purposes.", "had no practical knowledge.", "had only ritual knowledge."] },
-          { start: "Celtic religious practices included human sacrifice because the culture believed that this offering would", "correct": "appease the gods.", "wrong": ["serve no purpose.", "be rejected by the community.", "be considered a sin."] },
+          { start: "Roman writers claimed Celtic religious practices included human sacrifice, though archaeological evidence remains debated. Romans believed this offering would", "correct": "appease the gods.", "wrong": ["serve no purpose.", "be rejected by the community.", "be considered a sin."] },
           { start: "The Celtic belief in an afterlife where warriors continued to feast and fight influenced their society by making warriors", "correct": "less fearful of death.", "wrong": ["focused only on farming.", "dependent on trade laws.", "uninterested in leadership."] },
           { start: "Celtic druids were respected and protected even between warring tribes because they were seen as neutral arbiters,", "correct": "keepers of law and tradition.", "wrong": ["military commanders.", "foreign tax collectors.", "traveling merchants."] },
           { start: "The Celtic understanding of nature included belief in sacred groves and animal spirits because the natural world was understood as inhabited by divine forces that", "correct": "required respect and ritual propitiation.", "wrong": ["were only poetic.", "had no real spiritual significance.", "were purely decorative."] },
@@ -8728,7 +8741,7 @@ export const CIVILIZATIONS = [
           { start: "The Celtic practice of challenging enemies to single combat before general battle served to", "correct": "demonstrate a warrior's courage and skill.", "wrong": ["delay warfare.", "show cowardice.", "serve no purpose."] },
           { start: "Celtic warriors were rewarded for bravery with wealth, cattle, and prestige because the culture believed that martial excellence and courage were the highest", "correct": "virtues.", "wrong": ["currencies.", "inventions.", "landscapes."] },
           { start: "The Celtic use of chariots in warfare gave them advantages in speed and positioning because the elevated platform allowed warriors to survey the battlefield and", "correct": "strike from unexpected angles.", "wrong": ["predict weather changes.", "offered no real advantage.", "harvest crops more efficiently."] },
-          { start: "Celtic warriors often fought shirtless or with minimal armor because they believed that displaying the body demonstrated confidence and that", "correct": "courage could substitute for protection.", "wrong": ["they had no armor available.", "armor was forbidden by law.", "metal was considered sacred."] }
+          { start: "Some Celtic warriors, particularly the Gaesatae of Gaul, fought without armor because they believed that", "correct": "courage could substitute for protection.", "wrong": ["they had no armor available.", "armor was forbidden by law.", "metal was considered sacred."] }
         ]
       },
       {
@@ -8740,7 +8753,7 @@ export const CIVILIZATIONS = [
           { start: "Celtic oral tradition preserved knowledge about law, genealogy, history, and mythology because bards trained for years to memorize vast amounts of material essential to tribal identity and", "correct": "governance.", "wrong": ["industrial production.", "astronomical prediction.", "agricultural irrigation."] },
           { start: "The stories told by Celtic bards about gods, heroes, and ancestors served to teach values, explain natural phenomena, justify the social hierarchy, and", "correct": "inspire warriors.", "wrong": ["replace farming.", "eliminate trade.", "control weather."] },
           { start: "Celtic poetry often used riddles, metaphor, and complex language because the difficulty of the language demonstrated the bard's skill and", "correct": "made the knowledge seem more valuable and sacred.", "wrong": ["showed lack of clarity.", "had no real purpose.", "done only to confuse."] },
-          { start: "The three classes of bards—fili (poets), brehons (jurists), and seers—each held specific roles because", "correct": "the Celtic culture valued specialized knowledge.", "wrong": ["no distinction existed.", "all were equal.", "roles were ceremonial."] },
+          { start: "The learned classes of Celtic society—druids (priests/philosophers), fili (poets), and brehons (judges)—each held specific roles because.", "wrong": ["no distinction existed.", "all were equal.", "roles were ceremonial."] },
           { start: "A Celtic warrior's greatest desire was to be immortalized in the bards' songs because", "correct": "a warrior's fame depended on being remembered.", "wrong": ["material wealth was paramount.", "no real value existed.", "individual glory mattered less."] }
         ]
       },
@@ -8751,7 +8764,7 @@ export const CIVILIZATIONS = [
           { start: "Celtic tribes participated in trade across Europe because they valued foreign goods like wine, olive oil, and luxury items that demonstrated", "correct": "status and could be redistributed.", "wrong": ["only economic gain.", "desire for self-sufficiency.", "no social value."] },
           { start: "Celtic metalwork—swords, shields, torcs, and jewelry—was highly valued across the Mediterranean because Celtic craftspeople possessed superior techniques and created items of both practical and", "correct": "artistic excellence.", "wrong": ["geological mapping.", "astronomical prediction.", "agricultural irrigation."] },
           { start: "The Celtic economy was based on cattle wealth because cattle were both a source of food and a mobile", "correct": "tradable asset.", "wrong": ["written law code.", "metal currency system.", "religious symbol."] },
-          { start: "Celtic trading relationships with Mediterranean civilizations brought wealth to Celtic chieftains through the exchange of metals, agricultural products, oil, and", "correct": "manufactured goods.", "wrong": ["lunar cycles.", "people.", "ocean tides."] },
+          { start: "Celtic trading relationships with Mediterranean civilizations brought wealth to Celtic chieftains through the exchange of metals, agricultural products, oil, and", "correct": "manufactured goods.", "wrong": ["lunar cycles.", "religious artifacts.", "ocean tides."] },
           { start: "The Celtic value placed on gift-giving and wealth redistribution served to build and maintain relationships between chieftains and their warriors, and", "correct": "establish alliances between tribes.", "wrong": ["eliminate warfare entirely.", "prevent trade networks.", "remove social hierarchy."] }
         ]
       },
@@ -8763,7 +8776,8 @@ export const CIVILIZATIONS = [
           { start: "Celtic kinship systems were complex, with loyalty to family and tribe serving as the foundation of social organization because in a society without central government, kinship networks provided", "correct": "security, obligation, and identity.", "wrong": ["no real structure.", "no support or order.", "no practical value."] },
           { start: "Celtic women could own property, divorce, and participate in legal proceedings because Celtic culture recognized women's economic value and", "correct": "their role in maintaining family.", "wrong": ["men were weak.", "women ruled society.", "had no legal identity."] },
           { start: "Fosterage helped create bonds, educate, and", "correct": "build networks of loyalty.", "wrong": ["served no purpose.", "was only symbolic.", "had no lasting impact."] },
-          { start: "Celtic honor codes required that debts be repaid, oaths be honored, and hospitality be offered because in a decentralized society, reputation and trust were", "correct": "essential to survival and success.", "wrong": ["purely ceremonial.", "strictly legal.", "enforced by law."] }
+          { start: "Celtic honor codes required that debts be repaid, oaths be honored, and hospitality be offered because in a decentralized society, reputation and trust were", "correct": "essential to survival and success.", "wrong": ["purely ceremonial.", "strictly legal.", "enforced by law."] },
+          { start: "Historical records describe Celtic queens like Boudicca of the Iceni leading armies against Rome, demonstrating that some Celtic women held", "correct": "significant political and military authority.", "wrong": ["no real power.", "only ceremonial roles.", "authority only in peacetime."] }
         ]
       },
       {
@@ -8784,7 +8798,8 @@ export const CIVILIZATIONS = [
           { start: "Celtic tribes resisted Roman conquest despite military disadvantages because", "correct": "they valued their independence.", "wrong": ["they had superior military power.", "Rome was weak.", "they were united."] },
           { start: "The Celtic adoption of Roman administrative structures and culture in some areas shows that", "correct": "Celtic peoples were pragmatic.", "wrong": ["they completely abandoned tradition.", "Rome conquered through force alone.", "no Celtic culture survived."] },
           { start: "Celtic language and cultural practices survived Roman occupation in areas like Ireland because", "correct": "those regions were never fully conquered.", "wrong": ["Roman rule was weak.", "Celts were superior.", "no real culture survived."] },
-          { start: "The Celtic response to external pressures—sometimes fighting, sometimes trading, sometimes adapting—shows", "correct": "that Celtic societies were diverse.", "wrong": ["that all Celts responded identically.", "purely military resistance.", "no cultural adaptation."] }
+          { start: "The Celtic response to external pressures—sometimes fighting, sometimes trading, sometimes adapting—shows", "correct": "that Celtic societies were diverse.", "wrong": ["that all Celts responded identically.", "purely military resistance.", "no cultural adaptation."] },
+          { start: "The sack of Rome by Gauls in 390 BCE showed the Mediterranean world that Celtic warriors were a", "correct": "serious military force capable of defeating major powers.", "wrong": ["minor regional threat.", "purely defensive people.", "culturally inferior society."] }
         ]
       },
       {
@@ -8804,7 +8819,8 @@ export const CIVILIZATIONS = [
           { start: "Celtic law, preserved in Irish law texts, shows that legal systems existed because societies needed mechanisms to resolve disputes and", "correct": "maintain social order.", "wrong": ["prevent trade entirely.", "pure force determined justice.", "control weather patterns."] },
           { start: "Celtic brehon laws (from the word 'brehon' meaning judge) established fines and compensation for injuries because the society valued restitution and restoration of", "correct": "relationships.", "wrong": ["no justice system.", "purely brutal punishment.", "no real law."] },
           { start: "The Celtic use of oath-taking in legal proceedings reflected their belief that one's word and honor were sacred, and breaking an oath brought divine punishment and", "correct": "social disgrace.", "wrong": ["power.", "peace.", "no real consequences."] },
-          { start: "Celtic judges held high status because they possessed knowledge of complex law and custom, and their decisions were essential to maintaining", "correct": "peace and order.", "wrong": ["chaos.", "constant warfare.", "ocean navigation."] }
+          { start: "Celtic judges held high status because they possessed knowledge of complex law and custom, and their decisions were essential to maintaining", "correct": "peace and order.", "wrong": ["chaos.", "constant warfare.", "ocean navigation."] },
+          { start: "Irish Brehon law texts, preserved in manuscripts like the Senchas Már, are among the most detailed records of Celtic society because they document", "correct": "property rights, family law, and social obligations.", "wrong": ["military tactics only.", "religious ceremonies only.", "trade routes only."] }
         ]
       }
     ]
@@ -8823,7 +8839,7 @@ export const CIVILIZATIONS = [
         quotes: [
           { start: "Mississippian chiefdoms were organized hierarchically with a paramount chief at the top because this system allowed for mobilization of labor and", "correct": "unified response to external threats.", "wrong": ["pure domination through fear.", "no real authority.", "equal distribution of power."] },
           { start: "A Mississippian leader's authority came from control of trade networks and", "correct": "the ability to organize large-scale projects.", "wrong": ["conquest alone.", "supernatural power.", "inherited privilege alone."] },
-          { start: "Mississippian chiefdoms maintained power by controlling access to valuable resources such as shell, copper, mica, and", "correct": "manufactured goods.", "wrong": ["outer space minerals.", "frozen glaciers.", "currencies."] },
+          { start: "Mississippian chiefdoms maintained power by controlling access to valuable resources such as shell, copper, mica, and", "correct": "manufactured goods.", "wrong": ["isolated villages.", "distant foreign lands.", "rival empires."] },
           { start: "The Great Sun (the paramount chief of Natchez and other Mississippian societies) was expected to coordinate ceremonies and", "correct": "ensure the prosperity of the people.", "wrong": ["rule through fear.", "isolate in the palace.", "have no practical duties."] },
           { start: "Mississippian chiefdoms expanded their influence by establishing trade relationships and", "correct": "demonstrating military strength.", "wrong": ["peaceful expansion only.", "no expansion occurred.", "conquest for its own sake."] },
           { start: "A Mississippian chief who failed to provide for his people or protect them from enemies would likely", "correct": "lose support and be replaced or overthrown.", "wrong": ["retain power indefinitely.", "rule unopposed.", "be honored for strength."] },
@@ -8835,13 +8851,14 @@ export const CIVILIZATIONS = [
         name: "Mississippian Mound Building & Engineering",
         emoji: "🏗️",
         quotes: [
-          { start: "The construction of massive earthen mounds at sites like Cahokia required understanding of construction techniques and", "correct": "geometry.", "wrong": ["oceanography.", "meteorology.", "astronomy."] },
+          { start: "The construction of massive earthen mounds at sites like Cahokia required understanding of construction techniques and", "correct": "geometry.", "wrong": ["oceanography.", "meteorology.", "metallurgy."] },
           { start: "The largest mound at Cahokia—Monks Mound—demonstrates that Mississippian societies possessed the ability to", "correct": "mobilize thousands of workers.", "wrong": ["prevent population growth.", "eliminate social organization.", "avoid agriculture."] },
           { start: "The arrangement of mounds in plazas at Mississippian centers like Cahokia shows that architects understood spatial planning and the integration of", "correct": "sacred and civic spaces.", "wrong": ["random placement.", "mechanical engineering systems.", "underground mining systems."] },
           { start: "Mississippian mound-building served multiple purposes: platforms for elite residences and temples, markers of elite status, and ritual centers for", "correct": "ceremonies.", "wrong": ["defensive purposes.", "international trade hubs.", "naval ports."] },
           { start: "The labor required to build Mississippian mounds came from the combined effort of commoners under the direction of", "correct": "elite leaders.", "wrong": ["slavery alone.", "voluntary work only.", "conquest forced labor."] },
           { start: "The precision of Mississippian mound construction, with specific angles and dimensions, indicates that", "correct": "builders understood mathematics, could measure and plan.", "wrong": ["construction was random.", "no planning existed.", "only ritual knowledge was used."] },
-          { start: "The location of Mississippian centers near rivers shows that leaders understood the importance of water access for", "correct": "transportation and trade.", "wrong": ["only ceremonial purposes.", "no practical value.", "defense alone."] }
+          { start: "The location of Mississippian centers near rivers shows that leaders understood the importance of water access for", "correct": "transportation and trade.", "wrong": ["only ceremonial purposes.", "no practical value.", "defense alone."] },
+          { start: "Cahokia Woodhenge—a circle of wooden posts used to track the sun—demonstrates that Mississippian peoples had sophisticated knowledge of", "correct": "solar cycles and seasonal timing.", "wrong": ["ocean navigation.", "metallurgy.", "written mathematics."] }
         ]
       },
       {
@@ -8861,8 +8878,8 @@ export const CIVILIZATIONS = [
         name: "Mississippian Trade & Economic Networks",
         emoji: "💰",
         quotes: [
-          { start: "Mississippian societies controlled trade routes because this allowed them to accumulate wealth and maintain power over", "correct": "surrounding regions.", "wrong": ["outer space colonies.", "distant galaxies.", "ocean currents."] },
-          { start: "The distribution of Mississippian artifacts across vast distances shows that these cultures participated in", "correct": "extensive trade networks.", "wrong": ["agricultural experiments.", "seasonal hunting.", "seasonal hunting migrations."] },
+          { start: "Mississippian societies controlled trade routes because this allowed them to accumulate wealth and maintain power over", "correct": "surrounding regions.", "wrong": ["isolated villages.", "distant foreign lands.", "rival empires."] },
+          { start: "The distribution of Mississippian artifacts across vast distances shows that these cultures participated in", "correct": "extensive trade networks.", "wrong": ["agricultural experiments.", "seasonal hunting.", "isolated local production."] },
           { start: "The control of copper sources and the ability to produce copper artifacts gave Mississippian elites", "correct": "valuable goods for redistribution.", "wrong": ["no advantage.", "no exchange value.", "purely decorative value."] },
           { start: "Mississippian leaders used redistribution of trade goods to build and", "correct": "maintain political relationships.", "wrong": ["avoid agriculture.", "eliminate social roles.", "prevent community growth."] },
           { start: "Shell from the Gulf Coast, found in Mississippian centers far to the north, demonstrates that", "correct": "trade networks connected distant regions.", "wrong": ["conquest brought all goods.", "no real trade occurred.", "local resources only."] }
@@ -8883,7 +8900,7 @@ export const CIVILIZATIONS = [
         name: "Mississippian Agriculture & Food Systems",
         emoji: "🌾",
         quotes: [
-          { start: "Mississippian societies depended on cultivation of beans, squash, supplemented by hunting and", "correct": "fishing", "wrong": ["mining.", "imports alone.", "metalworking."] },
+          { start: "Mississippian societies depended on maize as their primary crop, supplemented by beans, squash, hunting and, squash, supplemented by hunting and", "correct": "fishing", "wrong": ["mining.", "imports alone.", "metalworking."] },
           { start: "The agricultural surplus produced by Mississippian farmers allowed for support of", "correct": "non-agricultural workers.", "wrong": ["only hunters.", "isolated households.", "seasonal visitors."] },
           { start: "Mississippian farmers understood the local environment well enough to", "correct": "cultivate crops suited to river valley climates.", "wrong": ["use no knowledge.", "struggle with crops.", "have no skill."] },
           { start: "The reliance on maize agriculture made Mississippian societies vulnerable to", "correct": "drought and crop failure.", "wrong": ["no environmental stress.", "complete stability.", "no consequences to failure."] },
@@ -8934,10 +8951,11 @@ export const CIVILIZATIONS = [
         name: "Mississippian Decline & Historical Legacy",
         emoji: "📜",
         quotes: [
-          { start: "The decline of major Mississippian chiefdoms by the 16th century may have been caused by a combination of environmental stress (drought, flooding) and", "correct": "disease.", "wrong": ["European contact alone.", "lunar cycles.", "volcanic eruptions."] },
+          { start: "The decline of major Mississippian chiefdoms before European contact was likely caused by drought, environmental stress, and", "correct": "internal political conflict.", "wrong": ["European disease.", "lunar cycles.", "volcanic eruptions."] },
           { start: "The abandonment of Cahokia and other major centers shows that even advanced civilizations are vulnerable to", "correct": "environmental change.", "wrong": ["digital communication.", "weakness from the start.", "inevitable decline."] },
           { start: "The Mississippian legacy influenced later Native American societies in the region through", "correct": "memory of former centers of power.", "wrong": ["European written records.", "industrial manufacturing systems.", "ocean navigation routes."] },
-          { start: "The study of Mississippian culture demonstrates that hierarchical systems existed in pre-Columbian", "correct": "North America.", "wrong": ["Europe.", "Africa.", "Scandinavia."] }
+          { start: "The study of Mississippian culture demonstrates that hierarchical systems existed in pre-Columbian", "correct": "North America.", "wrong": ["Europe.", "Africa.", "Scandinavia."] },
+          { start: "When Hernando de Soto's expedition encountered Mississippian chiefdoms in 1539-1542, they found societies already in decline, suggesting that collapse", "correct": "preceded European contact.", "wrong": ["was caused entirely by Europeans.", "never really happened.", "occurred only after colonization."] }
         ]
       }
     ]
@@ -8974,7 +8992,8 @@ export const CIVILIZATIONS = [
           { start: "The Haudenosaunee required unanimous consent for major decisions because they believed that", "correct": "decisions supported by all nations are stronger.", "wrong": ["majority rule is better.", "quick decisions are best.", "consensus is impossible."] },
           { start: "The Great Law of Peace established that each nation would maintain its own territory and govern its own people while", "correct": "respecting the autonomy and decisions of the other nations.", "wrong": ["surrendering all power to a central authority.", "allowing one nation to dominate.", "eliminating local governance."] },
           { start: "The Iroquois practice of taking decisions to the whole people, not just elites, shows that they valued", "correct": "the wisdom of all members of the nation.", "wrong": ["only leadership opinion.", "pure democracy without structure.", "the opinions of warriors alone."] },
-          { start: "The role of the Onondaga nation as keepers of the council fire demonstrates that even within a confederacy, one group can hold a neutral position that", "correct": "serves all.", "wrong": ["dominates all others.", "collects tribute from others.", "controls military forces."] }
+          { start: "The role of the Onondaga nation as keepers of the council fire demonstrates that even within a confederacy, one group can hold a neutral position that", "correct": "serves all.", "wrong": ["dominates all others.", "collects tribute from others.", "controls military forces."] },
+          { start: "The Tuscarora nation joined the Haudenosaunee as the sixth nation in 1722, showing that the confederacy", "correct": "could expand through peaceful inclusion.", "wrong": ["never changed its structure.", "rejected all new members.", "expanded only through conquest."] }
         ]
       },
       {
@@ -9005,10 +9024,10 @@ export const CIVILIZATIONS = [
         name: "Haudenosaunee Warfare & Peace",
         emoji: "⚔️",
         quotes: [
-          { start: "The Iroquois Confederacy, became powerful because they could resist enemies", "correct": "much larger in number.", "wrong": ["only in myth.", "through written contracts alone.", "without any allies."] },
+          { start: "The Iroquois Confederacy became powerful because unified nations could resist enemies", "correct": "much larger in number.", "wrong": ["only in myth.", "through written contracts alone.", "without any allies."] },
           { start: "Iroquois women had the power to prevent wars or demand their continuation because", "correct": "the society recognized that war affects families.", "wrong": ["women controlled everything.", "men were weak.", "it was purely symbolic."] },
           { start: "The Iroquois adopted captives to strengthen their power through", "correct": "adoption of capable people.", "wrong": ["slavery.", "no military purpose.", "cruelty."] },
-          { start: "Iroquois warriors who killed in defense of the nation were expected to undergo", "correct": "purification rituals.", "wrong": ["shame.", "ceremony.", "alone."] },
+          { start: "Iroquois warriors who killed in defense of the nation were expected to undergo", "correct": "purification rituals.", "wrong": ["public shame.", "exile.", "no ritual at all."] },
           { start: "The Haudenosaunee achieved military dominance in the Northeast not through conquest for territorial expansion, but by", "correct": "building a system that could withstand external pressure.", "wrong": ["pure aggression.", "superior weapons.", "numbers alone."] }
         ]
       },
@@ -9029,7 +9048,7 @@ export const CIVILIZATIONS = [
         quotes: [
           { start: "The Iroquois Confederacy's control of trade routes in the Northeast gave them economic and political influence because", "correct": "control of trade means wealth.", "wrong": ["they conquered all competitors.", "they rejected external trade.", "only military power mattered."] },
           { start: "Haudenosaunee diplomacy was based on principles of respect and reciprocity because the confederacy understood that lasting alliances are built on", "correct": "mutual benefit.", "wrong": ["force.", "power.", "nations."] },
-          { start: "The Iroquois use of wampum—beaded belts—in treaties and exchanges served multiple purposes: recording agreements, honoring relationships, establishing alliances and", "correct": "trade relationships.", "wrong": ["replacing spoken language entirely.", "eliminating the need for diplomacy.", "acting as currency."] },
+          { start: "The Iroquois use of wampum—beaded belts—in treaties and exchanges served multiple purposes: recording agreements, honoring relationships, establishing alliances and", "correct": "trade relationships.", "wrong": ["replacing spoken language entirely.", "eliminating the need for diplomacy.", "serving as purely decorative items."] },
           { start: "Iroquois trading networks connected distant regions because", "correct": "the confederacy's stability made travel through Iroquois territory safe.", "wrong": ["they were isolationist.", "trade was ceremonial.", "no real commerce existed."] }
         ]
       },
@@ -9041,7 +9060,8 @@ export const CIVILIZATIONS = [
           { start: "The Haudenosaunee midwinter festival (Ganyestawadoh) serves to", "correct": "reset the spiritual calendar of the people.", "wrong": ["begin trade negotiations.", "collect taxes.", "mark military victories."] },
           { start: "In Haudenosaunee spirituality, the concept of balance represents the tension between opposing forces that must remain in", "correct": "equilibrium for health and harmony.", "wrong": ["one force triumphing.", "good defeating evil.", "no spiritual complexity."] },
           { start: "Haudenosaunee ceremonies are conducted throughout the year because they maintain the connection between humans and", "correct": "the natural world.", "wrong": ["modern technology.", "served no purpose.", "foreign governments."] },
-          { start: "The Haudenosaunee belief that plants, animals, and natural forces have", "correct": "spirits.", "wrong": ["borders.", "currency.", "governments."] }
+          { start: "The Haudenosaunee belief that plants, animals, and natural forces have", "correct": "spirits.", "wrong": ["borders.", "currency.", "governments."] },
+          { start: "The Code of Handsome Lake (Gaiwi:yo), introduced around 1800, shows that Haudenosaunee spirituality could adapt and respond to colonial pressures while", "correct": "maintaining core values.", "wrong": ["never change.", "completely abandon tradition.", "adopt Christianity entirely."] }
         ]
       },
       {
@@ -9062,7 +9082,7 @@ export const CIVILIZATIONS = [
           { start: "The Haudenosaunee maintained their political systems and cultural identity despite colonization because they protected their lands and", "correct": "transmitted knowledge through families.", "wrong": ["completely rejected outsiders.", "dissolved their clans.", "abandoned all traditions."] },
           { start: "The principle that decisions must benefit seven generations to come allowed Haudenosaunee leaders to", "correct": "resist pressure for short-term gain.", "wrong": ["reject all change.", "live only for today.", "ignore the future."] },
           { start: "Haudenosaunee communities continue to practice traditional governance and ceremonies today because these practices", "correct": "maintain cultural identity.", "wrong": ["are purely nostalgic.", "serve no purpose.", "are outdated."] },
-          { start: "The Haudenosaunee Confederacy influenced democratic thought in", "correct": "North America.", "wrong": ["Europe.", "Africa.", "South America."] }
+          { start: "The Haudenosaunee Confederacy is documented to have influenced the thinking of American founders like Benjamin Franklin, contributing to democratic ideas in", "correct": "the United States Constitution.", "wrong": ["ancient Greek democracy.", "French revolutionary thought.", "British parliamentary law."] }
         ]
       },
       {
@@ -9073,7 +9093,7 @@ export const CIVILIZATIONS = [
           { start: "In Haudenosaunee philosophy, power (skenentoan) means the ability to", "correct": "accomplish good things, protect the people.", "wrong": ["dominate others.", "accumulate wealth.", "display military strength."] },
           { start: "The Haudenosaunee principle of consensus decision-making ensures that no major decision is made that leaves significant portions of the nation", "correct": "resentful.", "wrong": ["unaware.", "uninvolved.", "unaffected."] },
           { start: "The welfare of the children guides Haudenosaunee decision-making because the nation believes that the responsibility to future generations must outweigh", "correct": "personal or short-term interests.", "wrong": ["economic gain.", "military expansion.", "political rivalry."] },
-          { start: "Haudenosaunee stories preserve wisdom about living in balance with", "correct": "nature and community.", "wrong": ["written law.", "stories.", "wisdom."] }
+          { start: "Haudenosaunee stories preserve wisdom about living in balance with", "correct": "nature and community.", "wrong": ["written law alone.", "foreign traditions.", "individual achievement."] }
         ]
       }
     ]
@@ -9133,7 +9153,7 @@ export const CIVILIZATIONS = [
         quotes: [
           { start: "Pueblo dwellings are built in compact clusters because this design provides defense and facilitates community interaction and", "correct": "mutual support.", "wrong": ["shows poverty.", "indicates lack of skill.", "prevents individual development."] },
           { start: "The pueblo use of adobe and stone reflects understanding of the need for structures that are durable and", "correct": "thermally efficient.", "wrong": ["aesthetically pleasing.", "structurally sound.", "economically viable."] },
-          { start: "Pueblo towns built on mesas and plateaus demonstrate that people understood", "correct": "the advantages of elevated locations.", "wrong": ["the behavior of ocean tides.", "the migration patterns of whales.", "the chemistry of metals."] },
+          { start: "Pueblo towns built on mesas and plateaus demonstrate that people understood", "correct": "the advantages of elevated locations.", "wrong": ["the importance of river access.", "the need for flat farmland.", "the advantages of coastal settlement."] },
           { start: "The kiva—built partially underground—serves both practical and spiritual purposes: it", "correct": "provides a sacred space for community.", "wrong": ["only serves ceremonial purposes.", "has no practical value.", "is purely a meeting place."] },
           { start: "Pueblo town planning, with central plazas for ceremonies and markets, shows that", "correct": "communities valued gathering spaces.", "wrong": ["no planning existed.", "only religious considerations mattered.", "practical concerns were ignored."] }
         ]
@@ -9145,7 +9165,7 @@ export const CIVILIZATIONS = [
           { start: "Archaeological evidence shows pueblo communities participated in extensive trade networks because they", "correct": "exchanged agricultural products and crafts.", "wrong": ["were isolated.", "rejected outside contact.", "had no goods to trade."] },
           { start: "Pueblo potters developed distinctive styles that allowed their work to be recognized and valued in distant trade networks because", "correct": "consistent technique made pueblo pottery highly desirable.", "wrong": ["it was the only pottery available.", "trade was purely ceremonial.", "quality did not matter."] },
           { start: "Pueblo trade with coastal peoples provided access to", "correct": "shells, sea products, and items unavailable in the inland Southwest.", "wrong": ["only luxury goods.", "unnecessary imports.", "purely ceremonial items."] },
-          { start: "The exchange of goods between pueblo communities strengthened relationships because it", "correct": "peaceful ties between neighboring groups.", "wrong": ["demonstrated dominance.", "required submission.", "prevented cooperation."] }
+          { start: "The exchange of goods between pueblo communities strengthened relationships because it created peaceful ties between", "correct": "neighboring groups.", "wrong": ["European settlers.", "distant overseas empires.", "Spanish governors."] } 
         ]
       },
       {
@@ -9166,7 +9186,8 @@ export const CIVILIZATIONS = [
           { start: "When Spanish colonizers arrived, pueblo communities responded by sometimes accepting Christianity while", "correct": "maintaining traditional practices.", "wrong": ["complete surrender.", "violent rejection.", "complete abandonment of tradition."] },
           { start: "The Pueblo Revolt of 1680 shows that pueblo peoples united across different communities to resist", "correct": "colonial oppression.", "wrong": ["environmental change.", "trade disagreements.", "agricultural innovation."] },
           { start: "Pueblo communities maintained their cultural identity despite centuries of colonization because they protected sacred knowledge and passed traditions to", "correct": "younger generations.", "wrong": ["foreign rulers.", "written records.", "Spanish missionaries."] },
-          { start: "The pueblo strategy of cultural survival involved", "correct": "selective adoption of external elements.", "wrong": ["total rejection of change.", "complete cultural erasure.", "no resistance."] }
+          { start: "The pueblo strategy of cultural survival involved", "correct": "selective adoption of external elements.", "wrong": ["total rejection of change.", "complete cultural erasure.", "no resistance."] },
+          { start: "After the Pueblo Revolt of 1680, the Spanish returned in 1692 but were forced to govern differently, demonstrating that",  "correct": "resistance changed the terms of colonial rule.", "wrong": ["revolt had no lasting effect.", "Spanish authority was total.", "pueblo peoples lost all rights."] }
         ]
       },
       {
@@ -9188,7 +9209,8 @@ export const CIVILIZATIONS = [
           { start: "Pueblo knowledge is transmitted through stories, ceremonies, and oral tradition because this method", "correct": "preserves cultural values.", "wrong": ["entertains children.", "records history.", "trains warriors."] },
           { start: "Pueblo storytelling includes narratives of creation, and lessons about living in harmony with the", "correct": "land.", "wrong": ["spirits.", "gods.", "ancestors."] },
           { start: "A pueblo person who knows the stories and ceremonies of their community maintains", "correct": "connection to their ancestors.", "wrong": ["only entertainment value.", "no real importance.", "nothing of substance."] },
-          { start: "Pueblo oral traditions preserve knowledge about plant and animal behavior and the consequences of", "correct": "human actions.", "wrong": ["only mythology.", "weather patterns.", "tribal wars."] }
+          { start: "Pueblo oral traditions preserve knowledge about plant and animal behavior and the consequences of", "correct": "human actions.", "wrong": ["only mythology.", "weather patterns.", "tribal wars."] },
+          { start: "The Hopi and Zuni maintain distinct languages and traditions showing that 'Pueblo' describes related but", "correct": "distinct peoples with their own identities.", "wrong": ["identical cultures.", "one unified nation.", "peoples with no differences."] }
         ]
       },
       {
@@ -9198,7 +9220,7 @@ export const CIVILIZATIONS = [
           { start: "Pueblo peoples understand the land as", "correct": "a living entity deserving respect and reciprocal relationship.", "wrong": ["a resource for exploitation.", "something to be conquered.", "purely economic value."] },
           { start: "Sacred places in pueblo geography—springs, mesas, caves—are important because they connect the people to their history and", "correct": "the spiritual forces that sustain life.", "wrong": ["have only ceremonial value.", "are purely symbolic.", "serve no practical purpose."] },
           { start: "Pueblo stewardship of the land demonstrates that respect for nature create abundance and", "correct": "stability.", "wrong": ["scarcity.", "conflict.", "decline."] },
-          { start: "The pueblo return to traditional lands after forced removal shows that connection to specific places", "correct": "is essential to cultural identity.", "wrong": ["could thrive anywhere.", "is unimportant.", "matter."] }
+          { start: "The pueblo return to traditional lands after forced removal shows that connection to specific places", "correct": "is essential to cultural identity.", "wrong": ["could thrive anywhere.", "is unimportant.", "fades over generations."] }
         ]
       }
     ]
@@ -9231,7 +9253,7 @@ export const CIVILIZATIONS = [
         quotes: [
           { start: "The religious iconography of Tiwanaku suggests that the civilization worshipped creator deities, sky gods, and", "correct": "nature spirits tied to the Andes and Lake Titicaca.", "wrong": ["only war gods.", "no spiritual system.", "exclusively local spirits."] },
           { start: "The Staff God depicted on the Gateway of the Sun represents a supreme deity or creator figure central to Tiwanaku", "correct": "religious belief.", "wrong": ["artistic style.", "political power.", "military might."] },
-          { start: "Tiwanaku's religious practices likely included astronomical observations tied to", "correct": "seasonal cycles.", "wrong": ["human sacrifices.", "military campaigns.", "royal coronations."] },
+          { start: "Tiwanaku's religious practices included astronomical observations, communal feasting, and", "correct": "ritual offerings tied to agricultural cycles.", "wrong": ["no organized ceremony.", "purely private worship.", "only military celebrations."]},
           { start: "The sacred nature of Lake Titicaca to Tiwanaku peoples shows that water, fertility, and natural phenomena", "correct": "were central to their cosmology.", "wrong": ["held no significance.", "were ignored entirely.", "were purely economic."] },
           { start: "Tiwanaku's religious art suggests that", "correct": "complex mythology and a hierarchical pantheon of deities existed.", "wrong": ["religion was simple.", "no spiritual system developed.", "only shamanism existed."] },
           { start: "The ritual use of Tiwanaku's public spaces indicates that", "correct": "large gatherings for ceremonies reinforced social cohesion.", "wrong": ["only rulers gathered.", "no communal rituals existed.", "private worship dominated."] },
@@ -9244,7 +9266,7 @@ export const CIVILIZATIONS = [
         quotes: [
           { start: "Tiwanaku's size and complexity indicate that the civilization was led by an organized elite who coordinated labor and", "correct": "distributed resources.", "wrong": ["waged wars.", "performed rituals.", "built monuments."] },
           { start: "The ability to construct monumental buildings shows that Tiwanaku's leaders could", "correct": "mobilize vast labor forces.", "wrong": ["command through fear alone.", "rely only on volunteer work.", "do nothing impressive."] },
-          { start: "Tiwanaku's expansion of influence across the southern Andes required control of valuable resources like tin", "correct": "and copper.", "wrong": ["obsidian.", "gold.", "silver."] },
+          { start: "Tiwanaku's expansion required control of valuable resources like obsidian, textiles, and", "correct": "copper and tin for bronze production.", "wrong": ["gold only.", "silver only.", "precious stones."]},
           { start: "A Tiwanaku leader's authority was based on their ability to organize society and ensure prosperity through", "correct": "ritual and administration.", "wrong": ["pure divine.", "military conquest alone.", "ritual knowledge only."] },
           { start: "The hierarchical layout of Tiwanaku's monumental centers suggests that", "correct": "elite individuals controlled access to sacred spaces.", "wrong": ["no hierarchy existed.", "all had equal access.", "no social structure."] },
           { start: "Tiwanaku's influence over surrounding regions was maintained through", "correct": "control of trade routes.", "wrong": ["only peaceful trade.", "no military power.", "purely cultural dominance."] }
@@ -9254,11 +9276,11 @@ export const CIVILIZATIONS = [
         name: "Tiwanaku Agriculture & Water Management",
         emoji: "🌾",
         quotes: [
-          { start: "Tiwanaku's survival at high altitude was possible because farmers developed", "correct": "sophisticated terracing systems.", "wrong": ["stone walls.", "raised fields.", "irrigation canals."] },
           { start: "The raised field agricultural system around Lake Titicaca shows that Tiwanaku peoples understood", "correct": "water management and soil improvement.", "wrong": ["only ritual agriculture.", "basic farming only.", "no agricultural innovation."] },
           { start: "Tiwanaku's prosperity depended on managing the resources of both the highlands and the", "correct": "lake.", "wrong": ["coast.", "jungle.", "valleys."] },
           { start: "The labor required to build and maintain Tiwanaku's agricultural infrastructure required communal cooperation and", "correct": "long-term planning.", "wrong": ["enslaved populations.", "short-term planning.", "only individual effort."] },
-          { start: "Tiwanaku's agricultural practices were sustainable because they worked with local climate rather than", "correct": "against natural limitations.", "wrong": ["modern techniques.", "imported crops.", "large estates."] }
+          { start: "Tiwanaku's agricultural practices were sustainable because they worked with local climate rather than", "correct": "against natural limitations.", "wrong": ["modern techniques.", "imported crops.", "large estates."] },
+          { start: "Tiwanaku's survival at high altitude was possible because farmers developed", "correct": "raised field systems (suka kollus) that retained heat and managed water.", "wrong": ["simple irrigation only.", "terracing borrowed from neighbors.", "no agricultural innovation."]}
         ]
       },
       {
@@ -9267,7 +9289,7 @@ export const CIVILIZATIONS = [
         quotes: [
           { start: "Tiwanaku's control of valuable resources like copper, tin, and obsidian allowed it to establish trade networks across", "correct": "the Andes.", "wrong": ["Europe.", "Africa.", "Scandinavia."] },
           { start: "Archaeological evidence shows Tiwanaku goods reached distant regions because the civilization was integrated into extensive trade networks across", "correct": "South America.", "wrong": ["the Andes.", "Europe.", "Africa."] },
-          { start: "Tiwanaku merchants and traders likely exchanged Andean goods for resources from other", "correct": "regions.", "wrong": ["temples.", "elites.", "temples."] },
+          { start: "Tiwanaku merchants and traders likely exchanged Andean goods for resources from other", "correct": "regions.", "wrong": ["temples.", "elites.", "isolated villages."] },
           { start: "The economic power of Tiwanaku derived from control of resources and participation", "correct": "in long-distance trade.", "wrong": ["in military conquest alone.", "in theft and plunder.", "in no real commerce."] }
         ]
       },
@@ -9276,7 +9298,7 @@ export const CIVILIZATIONS = [
         emoji: "🎨",
         quotes: [
           { start: "The quality of Tiwanaku textiles, pottery, and metalwork indicates that skilled artisans possessed generations of technical", "correct": "knowledge.", "wrong": ["inspiration.", "equipment.", "materials."] },
-          { start: "Tiwanaku's distinctive artistic style, found across the region, shows that", "correct a shared cultural tradition unified distant communities under": "Tiwanaku influence.", "wrong": ["military conquest.", "economic trade.", "religious conversion."] },
+          { start: "Tiwanaku's distinctive artistic style, found across the region, shows that a shared cultural tradition unified distant communities under", "correct": "Tiwanaku's religious and political influence.", "wrong": ["military conquest.", "economic trade alone.", "religious conversion."]},
           { start: "The symbolic motifs repeated in Tiwanaku art suggest that a coherent religious and cosmological worldview was shared across the", "correct": "civilization.", "wrong": ["isolated regions.", "unrelated villages.", "random settlements."] },
           { start: "Tiwanaku craftspeople mastered bronze working, which allowed them to", "correct": "create superior tools.", "wrong": ["reduce metal use entirely.", "avoid technological change.", "depend only on stone tools."] }
         ]
@@ -9309,7 +9331,8 @@ export const CIVILIZATIONS = [
           { start: "The archaeological evidence of Tiwanaku shows that the society was organized into social classes with rulers, priests, farmers, and", "correct": "traders.", "wrong": ["no social division.", "random population.", "only warriors."] },
           { start: "Elite residences and ceremonial centers at Tiwanaku indicate that powerful individuals controlled resources, and", "correct": "access to sacred knowledge.", "wrong": ["no elites existed.", "all were equal.", "leadership was temporary."] },
           { start: "Tiwanaku's ability to coordinate massive labor projects shows that a centralized authority system could mobilize and", "correct": "organize thousands of workers.", "wrong": ["depend only on small villages.", "ignore labor organization.", "avoid large-scale planning."] },
-          { start: "The role of religious specialists in Tiwanaku society likely included interpreting omens, guiding rituals, and", "correct": "legitimizing the authority of secular rulers.", "wrong": ["complete political power.", "no real influence.", "only personal spirituality."] }
+          { start: "The role of religious specialists in Tiwanaku society likely included interpreting omens, guiding rituals, and", "correct": "legitimizing the authority of secular rulers.", "wrong": ["complete political power.", "no real influence.", "only personal spirituality."] },
+          { start: "Paleoclimatic evidence shows that a prolonged drought around 1000 CE reduced Lake Titicaca's water levels, which directly undermined Tiwanaku's", "correct": "raised field agricultural system.", "wrong": ["trade networks.", "religious authority.", "military power."] }
         ]
       }
     ]
@@ -9323,7 +9346,7 @@ export const CIVILIZATIONS = [
     bg: "#0a0a0a",
     authors: [
       {
-        name: "Lonko (Chiefs) - Documented Historical Records",
+        name: "Lonko (Chiefs) - Reconstructed from Oral Tradition & Colonial Records",
         emoji: "👑",
         quotes: [
           { start: "A lonko's authority comes not from conquest alone but from the respect and", "correct": "consent of his people.", "wrong": ["fear of his warriors.", "wealth he possesses.", "wealth of the elite."] },
@@ -9332,8 +9355,9 @@ export const CIVILIZATIONS = [
           { start: "Mapuche warriors fight to defend their families, their lands, and", "correct": "their way of life.", "wrong": ["conquest and expansion.", "wealth.", "plunder."] },
           { start: "The lonko who listens to his council of elders and warriors makes decisions that", "correct": "benefit the entire community.", "wrong": ["shows weakness.", "loses respect.", "invites betrayal."] },
           { start: "Mapuche independence was preserved for centuries because we adapted our tactics, maintained unity, and", "correct": "refused subjugation.", "wrong": ["refused wealth.", "refused trade.", "refused peace."] },
-          { start: "A leader's legacy is measured by whether his people", "correct": "remained free and preserved their culture.", "wrong": ["accumulated wealth.", "conquered neighbors.", "built monuments."] }
-        ]
+          { start: "A leader's legacy is measured by whether his people", "correct": "remained free and preserved their culture.", "wrong": ["accumulated wealth.", "conquered neighbors.", "built monuments."] },
+          { start: "The Mapuche maintained their independence during the Arauco War (1536-1818) against Spanish conquest because they adapted their tactics and adopted", "correct": "Spanish horses and weapons.", "wrong": ["European farming techniques.", "Catholic religious practices.", "Spanish as their primary language."] }
+        ] 
       },
       {
         name: "Machis (Shamans) - Spiritual & Healing Traditions",
@@ -9357,7 +9381,8 @@ export const CIVILIZATIONS = [
           { start: "The Mapuche maintained their independence for over 300 years against Spanish conquest because", "correct": "they adapted their tactics.", "wrong": ["they were isolationist.", "they rejected all foreign contact.", "they were militarily superior."] },
           { start: "A warrior's courage is shown not by recklessness but by wise decisions that protect his people and", "correct": "land.", "wrong": ["personal glory.", "blind aggression.", "violence."] },
           { start: "Mapuche warriors understand that defending the land is more important than", "correct": "individual glory.", "wrong": ["personal honor.", "wealth.", "peace."] },
-          { start: "The strength of Mapuche resistance lay in unity among diverse groups and", "correct": "adaptation to changing circumstances.", "wrong": ["superior numbers.", "rejection of all trade.", "isolation from neighbors."] }
+          { start: "The strength of Mapuche resistance lay in unity among diverse groups and", "correct": "adaptation to changing circumstances.", "wrong": ["superior numbers.", "rejection of all trade.", "isolation from neighbors."] },
+          { start: "The Treaty of Quilín (1641) was significant because it was one of the few cases where a European colonial power formally recognized", "correct": "the sovereignty of an indigenous people.", "wrong": ["military defeat.", "religious conversion.", "trade agreements only."] }
         ]
       },
       {
@@ -9365,7 +9390,6 @@ export const CIVILIZATIONS = [
         emoji: "🏘️",
         quotes: [
           { start: "Mapuche society values the community above the individual because survival and prosperity depend on cooperation and", "correct": "mutual support.", "wrong": ["constant conflict.", "complete isolation.", "individual competition."] },
-          { start: "The ayllu (extended family group) is the foundation of Mapuche society because it organizes labor, resources, and", "correct": "defense.", "wrong": ["foreign relations.", "the spirits require it.", "religious authority."] },
           { start: "A Mapuche person's responsibility to their ayllu includes contributing labor, defending the land, and", "correct": "supporting the vulnerable.", "wrong": ["absolute obedience.", "sacrificing all individuality.", "ritual participation."] },
           { start: "Mapuche women hold important roles in society including managing households, agriculture, weaving, and", "correct": " participating in decisions.", "wrong": ["servitude alone.", "no authority.", "ritual participation only."] },
           { start: "Respect for elders in Mapuche culture comes from their knowledge, experience, and", "correct": "role in preserving tradition.", "wrong": ["control over resources.", "military authority.", "political dominance."] },
@@ -9390,7 +9414,9 @@ export const CIVILIZATIONS = [
           { start: "Stories told by elders preserve history, values, and knowledge essential to", "correct": "Mapuche survival.", "wrong": [" entertainment.", "secrets of power.", "ritual formulas."] },
           { start: "The transmission of knowledge from elder to youth ensures that traditions, skills, and wisdom survive across", "correct": "generations.", "wrong": ["men.", "women.", "friends."] },
           { start: "A Mapuche person who forgets the stories of their ancestors loses their connection to their people and their", "correct": "land.", "wrong": ["identity.", "history.", "memory."] },
-          { start: "Mapuche language is not merely words but", "correct": "a repository of cultural knowledge and worldview.", "wrong": ["a tool for communication alone.", "a broken form of Spanish.", "a simple spoken dialect."] }
+          { start: "Mapuche language is not merely words but", "correct": "a repository of cultural knowledge and worldview.", "wrong": ["a tool for communication alone.", "a broken form of Spanish.", "a simple spoken dialect."] },
+          { start: "The Mapuche concept of 'Buen Vivir' (küme mongen) teaches that well-being comes from harmony between people,", "correct": "community, and nature together.", "wrong": ["individual achievement.", "material wealth.", "spiritual isolation."] 
+          }
         ]
       },
       {
@@ -9470,7 +9496,7 @@ export const CIVILIZATIONS = [
         quotes: [
           { start: "To rule China, one must understand that Chinese administrative systems are more effective than", "correct": "tribal governance.", "wrong": ["Chinese culture.", "Mongol traditions.", "warfare."] },
           { start: "I employ Chinese scholars and administrators because they understand governance, law, and how to extract", "correct": "revenue fairly.", "wrong": ["gold.", "silver.", "knowledge."] },
-          { start: "The Great Khan tolerates the religions of his subjects because diversity prevents unified rebellion and reduces", "correct": "unrest.", "wrong": ["power.", "faith.", "religion."] },
+          { start: "The Great Khan tolerates the religions of his subjects because Mongol tradition (the Yassa) forbids religious persecution and", "correct": "unrest.", "wrong": ["power.", "faith.", "religion."] },
           { start: "Maritime trade under Mongol protection benefits", "correct": "both the merchants and the Khan through taxation.", "wrong": ["only merchants.", "the Khan alone.", "no one."] },
           { start: "The Mongol rule of China proves that military conquest is only the beginning;", "correct": "administration determines lasting power.", "wrong": ["conquest is all that matters.", "occupation is permanent.", "the conquered always rebel."] },
           { start: "To maintain power in conquered lands, a wise Khan must preserve local structures while ensuring tribute and", "correct": "loyalty.", "wrong": ["destroy all local authority.", "rule with iron fist alone.", "ignore local customs."] }
@@ -9515,7 +9541,7 @@ export const CIVILIZATIONS = [
           { start: "Mongol culture values courage, loyalty, and skill in horsemanship, archery, and", "correct": "wrestling.", "wrong": ["poetry and philosophy.", "ritual and ceremony.", "mercy and compassion."] },
           { start: "The Mongols respect those who face hardship with endurance and", "correct": "adapt to circumstances.", "wrong": ["seek comfort.", "avoid danger.", "remain unchanged."] },
           { start: "To the Mongols, a life well-lived is one spent in service to the Khan and the tribe, with", "correct": "honor in battle.", "wrong": ["pursuit of wealth.", "peaceful retirement.", "spiritual contemplation."] },
-          { start: "Mongol women have more freedom and responsibility than many contemporary societies because they manage households, herds, and are capable of", "correct": "riding and fighting.", "wrong": ["political leadership only.", "religious authority alone.", "economic isolation."] }
+          { start: "Mongol women have more freedom and responsibility than many contemporary societies because they manage households, herds, and are capable of managing the ger and", "correct": "herds independently during campaigns.", "wrong": ["political leadership only.", "religious authority alone.", "economic isolation."] }
         ]
       },
       {
@@ -9525,7 +9551,10 @@ export const CIVILIZATIONS = [
           { start: "The fragmentation of the Mongol Empire occurred because distance, cultural differences, and ambitious regional khans eventually overwhelmed", "correct": "central authority.", "wrong": ["external conquest.", "control.", "the empire."] },
           { start: "Mongol rule in various regions lasted only as long as the Khan could enforce his authority and ensure that local administrators remained", "correct": "loyal.", "wrong": ["peaceful.", "quiet while no resistance emerged.", "perfect."] },
           { start: "The Mongol Empire's greatest strength was its ability to adapt tactics, tolerate diversity, and use existing institutions for ", "correct": "governance.", "wrong": ["cultural isolation.", "war.", "centralized destruction."] },
-          { start: "The Mongol legacy shows that military conquest alone cannot sustain an empire without stable governance and", "correct": "administration.", "wrong": ["continuous warfare.", "war.", "permanent instability."] }
+          { start: "The Mongol legacy shows that military conquest alone cannot sustain an empire without stable governance and", "correct": "administration.", "wrong": ["continuous warfare.", "war.", "permanent instability."] },
+          { 
+            start: "The Black Death spread rapidly across Eurasia partly because Mongol trade routes and armies connected East and West in ways that", "correct": "accelerated the movement of disease.", "wrong": ["prevented all epidemics.", "had no effect on populations.", "only spread culture."] 
+          }
         ]
       }
     ]
@@ -9539,13 +9568,13 @@ export const CIVILIZATIONS = [
     bg: "#0a0a0a",
     authors: [
       {
-        name: "Mansa Musa I (Historical Records)",
+        name: "Mansa Musa I (As Recorded by Arab Chroniclers)",
         emoji: "👑",
         quotes: [
           { start: "I have decided to make a pilgrimage to the Holy City of Mecca, so that the people of my kingdom will", "correct": "know the way.", "wrong": ["follow me blindly.", "forget their traditions.", "fear my absence."] },
           { start: "The pilgrimage to Mecca demonstrated that Mali is a kingdom of", "correct": "wealth, faith, and learning.", "wrong": ["division.", "conquest and fear.", "war and fear."] },
           { start: "Upon my return from Mecca, I established centers of learning because", "correct": "knowledge strengthens the empire.", "wrong": ["knowledge is unnecessary.", "learning weakens authority.", "only gold builds power."] },
-          { start: "The University of Timbuktu was founded to ensure that Mali's scholars could rival those of any", "correct": "nation.", "wrong": ["mistake.", "knowledge.", "person."] },
+          { start: "The Sankore Madrasah of Timbuktu was founded to ensure that Mali's scholars could rival those of any", "correct": "nation.", "wrong": ["mistake.", "knowledge.", "person."] },
           { start: "Gold is valuable, but the prosperity of Mali's people is", "correct": "more valuable still.", "wrong": ["guaranteed by gold alone.", "dependent on conquest.", "only measured in wealth."] },
           { start: "A ruler's generosity is not weakness; it is a sign of", "correct": "strength and confidence.", "wrong": ["foolishness.", "desperation.", "fear of rebellion."] },
           { start: "Mali's power comes not from conquest alone, but from trade, justice, and respect among", "correct": "nations.", "wrong": ["isolated rulers.", "internal conflicts.", "warring factions."] }
@@ -9581,7 +9610,7 @@ export const CIVILIZATIONS = [
           { start: "I was born weak, but I became strong through determination and the support of", "correct": "my people.", "wrong": ["my family.", "my enemies.", "pure chance."] },
           { start: "A true leader unites his people; he does not rule through", "correct": "fear or force alone.", "wrong": ["magic.", "rituals.", "weakness."] },
           { start: "Mali was not built in a day, but through the patience and", "correct": "hard work of many hands.", "wrong": ["sudden fortune.", "single ruler's decree.", "random chance."] },
-          { start: "The battle of Kirina taught that strategy and unity", "correct": "defeat even larger armies.", "wrong": ["always fail in warfare.", "are irrelevant in battles.", "depend only on luck."] },
+          { start: "The battle of Kirina (1235) taught that strategy and unity", "correct": "defeat even larger armies.", "wrong": ["always fail in warfare.", "are irrelevant in battles.", "depend only on luck."] },
           { start: "A kingdom endures when its people believe in", "correct": "its justice and purpose.", "wrong": ["instability.", "constant fear of rulers.", "chaos."] }
         ]
       },
@@ -9593,7 +9622,11 @@ export const CIVILIZATIONS = [
           { start: "Mali's gold drew traders from across the world because honest exchange and stable governance made", "correct": "trade safe.", "wrong": ["trade uncertain.", "trade restricted.", "trade dangerous."] },
           { start: "A merchant of Mali knows that reputation is worth more than", "correct": "a single large profit.", "wrong": ["loyalty.", "gold.", "power."] },
           { start: "The caravans crossing Mali prosper because the empire protects travelers and", "correct": "enforces fair trade.", "wrong": ["bandits never appear.", "routes are easy.", "no one competes."] },
-          { start: "Mali's control of trade routes ensured that wealth flowed into the kingdom through", "correct": "honest commerce.", "wrong": ["military expansion.", "internal taxation.", "forced labor."] }
+          { 
+            start: "Ibn Battuta was surprised to find that women of Mali appeared in public without veils, which he noted was different from", 
+            "correct": "customs in other Muslim lands.", 
+            "wrong": ["Mali's own traditions.", "Islamic law.", "royal decree."] 
+          }
         ]
       },
       {
