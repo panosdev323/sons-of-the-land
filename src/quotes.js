@@ -9776,7 +9776,7 @@ export const CIVILIZATIONS = [
           { start: "My conversion to Christianity and the establishment of Christianity as the official religion of Axum served to align the kingdom with the broader", "correct": "Christian world.", "wrong": ["Roman imperial world.", "Persian sphere.", "Buddhist world."] },
           { start: "My military campaigns against the Blemmyes and other rivals showed that Axumite power depended on maintaining military strength while establishing diplomatic relationships with", "correct": "neighboring powers.", "wrong": ["enemies.", "friends.", "force alone."] },
           { start: "The consolidation of Axumite power under my reign required understanding that the kingdom's prosperity depended on the ability to control access to the interior of", "correct": "Africa.", "wrong": ["America.", "Europe.", "Asia."] },
-          { start: "The establishment of Axum as a major Christian power alongside Rome and Byzantium demonstrated that a kingdom's religious status could equal that of the Mediterranean powers despite being in", "correct": " Africa.", "wrong": ["Europe.", "Asia.", "America."] }
+          { start: "The establishment of Axum as a major Christian power alongside Rome and Byzantium demonstrated that a kingdom's religious status could equal that of the Mediterranean powers despite being in", "correct": "Africa.", "wrong": ["Europe.", "Asia.", "America."] }
         ]
       },
       {
@@ -10632,7 +10632,7 @@ export const CIVILIZATIONS = [
         emoji: "👑",
         quotes: [
           { start: "The Songhai system of government under Muhammad Askia included appointed administrators in major cities because this allowed the emperor to", "correct": "maintain control.", "wrong": ["dissolve the empire.", "lose oversight.", "allow complete independence."] },
-          { start: "Songhai governors were expected to collect taxes, maintain order, and ensure that local merchants prospered because prosperous regions produced", "correct": " more tax revenue.", "wrong": ["purely oppressive taxation.", "no local development.", "less tax revenue."] },
+          { start: "Songhai governors were expected to collect taxes, maintain order, and ensure that local merchants prospered because prosperous regions produced", "correct": "more tax revenue.", "wrong": ["purely oppressive taxation.", "no local development.", "less tax revenue."] },
           { start: "The Songhai approach to administering diverse ethnic and religious groups required", "correct": "respecting local traditions.", "wrong": ["pure cultural erasure.", "no respect for locals.", "eliminating administration."] },
           { start: "Songhai corruption of administrators was controlled through a system of checks because rulers understood that officials who embezzled tax revenue weakened imperial power and", "correct": "provoked rebellion.", "wrong": ["strengthened the empire.", "increased loyalty.", "were rarely punished."] },
           { start: "The capital at Gao served as the center of Songhai administration, housing the emperor, his court, and government officials because a centralized capital allowed the emperor to oversee", "correct": "administration.", "wrong": ["trade routes.", "foreign armies.", "rural villages."] },
@@ -11650,7 +11650,7 @@ export const CIVILIZATIONS = [
         quotes: [
           { start: "Mapuche society values the community above the individual because survival and prosperity depend on cooperation and", "correct": "mutual support.", "wrong": ["constant conflict.", "complete isolation.", "individual competition."] },
           { start: "A Mapuche person's responsibility to their ayllu includes contributing labor, defending the land, and", "correct": "supporting the vulnerable.", "wrong": ["absolute obedience.", "sacrificing all individuality.", "ritual participation."] },
-          { start: "Mapuche women hold important roles in society including managing households, agriculture, weaving, and", "correct": " participating in decisions.", "wrong": ["servitude alone.", "no authority.", "ritual participation only."] },
+          { start: "Mapuche women hold important roles in society including managing households, agriculture, weaving, and", "correct": "participating in decisions.", "wrong": ["servitude alone.", "no authority.", "ritual participation only."] },
           { start: "Respect for elders in Mapuche culture comes from their knowledge, experience, and", "correct": "role in preserving tradition.", "wrong": ["control over resources.", "military authority.", "political dominance."] },
           { start: "The mapuche concept of land ownership differs from Spanish/European models because land is shared communally and belongs to the people who work it,", "correct": "not individuals.", "wrong": ["not communities.", "not families.", "not governments."] }
         ]
@@ -11670,7 +11670,7 @@ export const CIVILIZATIONS = [
         name: "Mapuche Oral History & Cultural Preservation",
         emoji: "📜",
         quotes: [
-          { start: "Stories told by elders preserve history, values, and knowledge essential to", "correct": "Mapuche survival.", "wrong": [" entertainment.", "secrets of power.", "ritual formulas."] },
+          { start: "Stories told by elders preserve history, values, and knowledge essential to", "correct": "Mapuche survival.", "wrong": ["entertainment.", "secrets of power.", "ritual formulas."] },
           { start: "The transmission of knowledge from elder to youth ensures that traditions, skills, and wisdom survive across", "correct": "generations.", "wrong": ["men.", "women.", "friends."] },
           { start: "A Mapuche person who forgets the stories of their ancestors loses their connection to their people and their", "correct": "land.", "wrong": ["identity.", "history.", "memory."] },
           { start: "Mapuche language is not merely words but", "correct": "a repository of cultural knowledge and worldview.", "wrong": ["a tool for communication alone.", "a broken form of Spanish.", "a simple spoken dialect."] },
@@ -11706,7 +11706,7 @@ export const CIVILIZATIONS = [
           { start: "The greatest happiness is to scatter your enemy and drive him before you and take his horses and his goods and hear the", "correct": "lamenting of his women and children.", "wrong": ["joy of peace.", "prayers of gratitude.", "sound of victory."] },
           { start: "A man's greatest work is to break his enemies, to drive them before him, to take their property, and to see those dearest to them wrapped in.", "correct": "tears", "wrong": ["pain.", "peace.", "mercy."] },
           { start: "An army cannot exist without discipline. Discipline cannot exist without", "correct": "unity of command.", "wrong": ["fear.", "constant chaos.", "individual ambition."] },
-          { start: "The Mongol warrior must be prepared to endure hardship and adapt to any terrain or", "correct": "climate.", "wrong": [" comfort.", "luxury.", "predictable conditions."] },
+          { start: "The Mongol warrior must be prepared to endure hardship and adapt to any terrain or", "correct": "climate.", "wrong": ["comfort.", "luxury.", "predictable conditions."] },
           { start: "I will not punish those who surrender willingly, but I will destroy those who", "correct": "resist without cause.", "wrong": ["question my orders.", "show weakness.", "seek peace."] },
           { start: "Loyalty to the Khan is rewarded with", "correct": "wealth, position, and protection.", "wrong": ["mercy alone.", "freedom.", "autonomy."] },
           { start: "The conquered must understand that Mongol rule brings law, order, and", "correct": "the end of internal conflict.", "wrong": ["only hardship.", "only servitude.", "no benefit."] }
@@ -11768,7 +11768,7 @@ export const CIVILIZATIONS = [
           { start: "A Mongol warrior's word is his bond because the Khan's trust depends on", "correct": "the reliability of his commanders.", "wrong": ["fear of punishment.", "random loyalty.", "strict obedience alone."] },
           { start: "To flee battle without orders is", "correct": "shameful and punishable by death.", "wrong": ["sometimes necessary.", "a tactical retreat.", "prudent."] },
           { start: "A warrior who kills without the Khan's permission will be", "correct": "executed, regardless of his rank or previous service.", "wrong": ["forgiven.", "rewarded for ambition.", "promoted."] },
-          { start: "The bond between warrior and Khan is sacred because the empire cannot function without absolute discipline and", "correct": " trust.", "wrong": ["love.", "power.", "it is fair."] },
+          { start: "The bond between warrior and Khan is sacred because the empire cannot function without absolute discipline and", "correct": "trust.", "wrong": ["love.", "power.", "it is fair."] },
           { start: "Mongol warriors respect their enemies when they fight with skill, discipline, and courage, even", "correct": "in defeat.", "wrong": ["when they surrender quickly.", "when they flee without fighting.", "when they show no mercy."] }
         ]
       },
@@ -11855,9 +11855,9 @@ export const CIVILIZATIONS = [
         emoji: "📜",
         quotes: [
           { start: "The griot is the keeper of history and the memory of the", "correct": "people.", "wrong": ["king's secrets.", "positive tales.", "forbidden knowledge."] },
-          { start: "Through the griot's words, the deeds of ancestors are preserved and passed to", "correct": " future generations.", "wrong": ["wrong people.", "hidden enemies.", "gods."] },
+          { start: "Through the griot's words, the deeds of ancestors are preserved and passed to", "correct": "future generations.", "wrong": ["wrong people.", "hidden enemies.", "gods."] },
           { start: "A ruler who ignores the griot's counsel ignores the", "correct": "wisdom of his people.", "wrong": ["strength of his army.", "authority of his laws.", "necessary cruelty."] },
-          { start: "The epic of Sundiata teaches that courage, wisdom, and justice build great", "correct": " empires.", "wrong": ["dreams.", "fear.", "loyalty."] },
+          { start: "The epic of Sundiata teaches that courage, wisdom, and justice build great", "correct": "empires.", "wrong": ["dreams.", "fear.", "loyalty."] },
           { start: "Stories of Mali's founding show that the kingdom was built by united people,", "correct": "not conquest alone.", "wrong": ["and force was all that mattered.", "and one man created it all.", "and no sacrifice was needed."] },
           { start: "The griot reminds rulers that their power is temporary, but their", "correct": "legacy through deeds is eternal.", "wrong": ["wealth is eternal.", "fear lasts forever.", "rituals protect them."] }
         ]
