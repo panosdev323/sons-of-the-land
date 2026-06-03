@@ -332,52 +332,71 @@ export class GameScene extends Phaser.Scene {
             await this.showRewardedInterstitial()
         }
 
-        // ... κανονικά το Level Complete UI
+        // ✅ Level Complete UI — αμετάβλητο από πριν
         this.add.text(240, 200, `Level ${this.level} Complete!`, {
             fontSize: '24px', color: '#ffd700'
         }).setOrigin(0.5)
-        // ...
+
+        this.add.text(240, 250, `Global Score: ${this.globalScore}`, {
+            fontSize: '19px', color: '#69f0ae'
+        }).setOrigin(0.5)
+
+        const nextBtn = this.add.text(240, 400, 'Next Level ▶', {
+            fontSize: '19px',
+            backgroundColor: '#1b5e20',
+            padding: { x: 20, y: 14 }
+        }).setOrigin(0.5).setInteractive()
+
+        nextBtn.on('pointerdown', () => {
+            this.sound.play('tap')
+            this.scene.start('GameScene', {
+                civId: this.civId,
+                level: this.level + 1,
+                levelScore: 0,
+                streak: 0
+            })
+        })
     }
 
-async showRewardedInterstitial() {
-    try {
-        await AdMob.prepareRewardedInterstitialAd({
-            adId: 'ca-app-pub-7222777824759007/1818714828',
-        })
+    async showRewardedInterstitial() {
+        try {
+            await AdMob.prepareRewardedInterstitialAd({
+                adId: 'ca-app-pub-7222777824759007/1818714828',
+            })
 
-        let rewardEarned = false
-        let listenersRemoved = false
-        let onReward, onDismiss
+            let rewardEarned = false
+            let listenersRemoved = false
+            let onReward, onDismiss
 
-        const removeListeners = () => {
-            if (listenersRemoved) return
-            listenersRemoved = true
-            onReward?.remove()
-            onDismiss?.remove()
-        }
+            const removeListeners = () => {
+                if (listenersRemoved) return
+                listenersRemoved = true
+                onReward?.remove()
+                onDismiss?.remove()
+            }
 
-        onReward = await AdMob.addListener(RewardAdPluginEvents.Rewarded, () => {
-            rewardEarned = true
-        })
+            onReward = await AdMob.addListener(RewardAdPluginEvents.Rewarded, () => {
+                rewardEarned = true
+            })
 
-        onDismiss = await AdMob.addListener(RewardAdPluginEvents.Dismissed, () => {
+            onDismiss = await AdMob.addListener(RewardAdPluginEvents.Dismissed, () => {
+                removeListeners()
+            })
+
+            await AdMob.showRewardedInterstitialAd()
             removeListeners()
-        })
 
-        await AdMob.showRewardedInterstitialAd()
-        removeListeners()
+            // ✅ Αν πήρε reward, δώσε bonus πόντους (όχι ζωές — δεν το ζήτησε)
+            if (rewardEarned) {
+                this.globalScore += 25
+                await ProgressStore.updateGlobalScore(this.globalScore)
+            }
 
-        // ✅ Αν πήρε reward, δώσε bonus πόντους (όχι ζωές — δεν το ζήτησε)
-        if (rewardEarned) {
-            this.globalScore += 25
-            await ProgressStore.updateGlobalScore(this.globalScore)
+        } catch (e) {
+            // No fill ή άλλο σφάλμα — συνεχίζει κανονικά χωρίς διαφήμιση
+            console.log('Interstitial not available:', e.message)
         }
-
-    } catch (e) {
-        // No fill ή άλλο σφάλμα — συνεχίζει κανονικά χωρίς διαφήμιση
-        console.log('Interstitial not available:', e.message)
     }
-}
 
     // ✅ FINAL WIN
     async showFinalVictory() {
