@@ -404,7 +404,7 @@ export class GameScene extends Phaser.Scene {
         }).setOrigin(0.5).setInteractive()
 
         // ==================== FALLBACK BUTTON (κρυφό αρχικά) ====================
-        const continueBtn = this.add.text(240, 460, '▶ Continue with 1 Life', {
+        const continueBtn = this.add.text(240, 460, '▶ Continue with 2 Lives', {
             fontSize: '19px',
             backgroundColor: '#5d4037',
             padding: { x: 20, y: 14 }
@@ -412,7 +412,7 @@ export class GameScene extends Phaser.Scene {
 
         continueBtn.on('pointerdown', () => {
             this.sound.play('tap')
-            this.levelLives = 1
+            this.levelLives = 2
             this.answered = false
             this.qIndex = 0
             ProgressStore.clearCurrentLevelLives()
