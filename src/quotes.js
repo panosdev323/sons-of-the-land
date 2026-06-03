@@ -2951,128 +2951,127 @@ export const CIVILIZATIONS = [
     bg: "#0a0a0a",
     authors: [
       {
-        name: "David (Historical & Biblical Perspectives)",
+        name: "David (Biblical Narrative & Archaeological Evidence)",
         emoji: "👑",
         quotes: [
-          { 
-            start: "The historical David, evidenced by the Tel Dan Stele inscription mentioning 'House of David,' was likely a king of a small kingdom in the",
-            "correct": "Levant.",
-            "wrong": ["Arctic regions.", "ocean islands.", "glass-producing centers."] 
+          {
+            start: "The Tel Dan Stele — a 9th-century BCE Aramaic inscription — mentions the 'House of David,' providing rare extrabiblical evidence that David was",
+            correct: "a historical figure, not purely legendary.",
+            wrong: ["a mythological invention entirely.", "a Babylonian god figure.", "identical to the biblical portrait."]
           },
-          { 
-            start: "The biblical narrative presents David as a great military leader who united Israel and conquered vast territories, but archaeological evidence suggests that David's actual kingdom was likely smaller and less powerful than the biblical account",
-            "correct": "portrays.",
-            "wrong": ["contradicts.", "ignores.", "denies."] 
+          {
+            start: "Archaeological evidence suggests David's actual kingdom was considerably smaller than the biblical account portrays — reflecting that ancient texts often",
+            correct: "magnify rulers for theological purposes.",
+            wrong: ["record history with scientific precision.", "understate royal achievements.", "confirm all biblical narratives exactly."]
           },
-          { 
-            start: "The accounts of David's conflicts with the Philistines, his leadership of Israel, and his establishment of Jerusalem as a capital likely contain historical elements mixed with later",
-            "correct": "legendary embellishment.",
-            "wrong": ["complete fabrication.", "pure mythology.", "total invention."] 
+          {
+            start: "The accounts of David's conflicts with the Philistines and his establishment of Jerusalem contain historical elements mixed with",
+            correct: "later legendary embellishment.",
+            wrong: ["complete modern fabrication.", "purely astronomical symbolism.", "Greek mythological borrowings."]
+          },
+          {
+            start: "David's story — shepherd to king, poet to warrior — became foundational to Jewish, Christian, and Islamic traditions, showing that",
+            correct: "historical figures can transcend their historical context.",
+            wrong: ["the biblical account is purely fictional.", "all ancient kings were equally celebrated.", "archaeology always confirms religious texts."]
           }
         ]
       },
       {
-        name: "Solomon (Archaeological vs. Biblical Evidence)",
+        name: "Solomon (Biblical Splendor vs. Archaeological Reality)",
         emoji: "👑",
         quotes: [
-          { 
-            start: "The biblical account of Solomon as the builder of a great temple and the ruler of a vast empire contrasts with archaeological evidence that suggests there is no archaeological evidence of the temple described in the",
-            "correct": "Bible.",
-            "wrong": ["Quran.", "Egyptian records.", "glass inscriptions."] 
+          {
+            start: "No archaeological evidence has been found confirming Solomon's temple as described in the Bible — suggesting either the account is idealized or that",
+            correct: "later construction destroyed all traces.",
+            wrong: ["the temple definitely never existed.", "Babylonians removed all evidence deliberately.", "Egyptian records confirm every detail."]
           },
-          { 
-            start: "The search for archaeological evidence of Solomon's temple in Jerusalem has not yielded conclusive findings, which means that the biblical account of the temple's magnificence cannot be verified through",
-            "correct": "archaeology.",
-            "wrong": ["mythology.", "poetry.", "seafaring accounts."] 
+          {
+            start: "The biblical portrait of Solomon as ruler of a vast empire contrasts with archaeological evidence of a small Iron Age Levantine kingdom — showing that",
+            correct: "biblical texts served theological more than historical purposes.",
+            wrong: ["archaeology always disproves the Bible.", "Solomon was purely mythological.", "the Bible is a reliable historical document."]
           },
-          { 
-            start: "The biblical narrative presents Solomon as the wisest of rulers who brought great prosperity, but this account reflects theological idealization rather than necessarily",
-            "correct": "historical fact.",
-            "wrong": ["complete fabrication.", "pure invention.", "obvious falsehood."] 
+          {
+            start: "The Wisdom of Solomon tradition — presenting him as history's wisest ruler — reflects the Bible's interest in",
+            correct: "theological idealization of the monarchy.",
+            wrong: ["precise biographical documentation.", "Greek philosophical influence on Judaism.", "accurate economic record-keeping."]
           }
         ]
       },
       {
-        name: "The United Kingdom (Historical Reality vs. Biblical Narrative)",
+        name: "The United & Divided Monarchy (Historical Reconstruction)",
         emoji: "⚖️",
         quotes: [
-          { 
-            start: "The biblical account of a 'United Kingdom' of Israel under Saul, David, and Solomon is presented as a period of political unity and",
-            "correct": "military power.",
-            "wrong": ["ocean exploration.", "glass manufacturing.", "textile production."] 
+          {
+            start: "The 'United Kingdom' under Saul, David, and Solomon is presented in the Bible as a golden age — but archaeological evidence suggests it was",
+            correct: "a modest Iron Age chiefdom at most.",
+            wrong: ["larger than the Egyptian empire.", "confirmed in every detail by excavation.", "identical to the Greek city-state system."]
           },
-          { 
-            start: "The extent and power of early Israelite states in the Iron Age, reconstructed from archaeological evidence and extrabiblical texts, shows that the kingdoms of Israel and Judah were small regional powers in the",
-            "correct": "Levant.",
-            "wrong": ["Arctic regions.", "seafaring empires.", "glass-producing centers."] 
+          {
+            start: "The split into northern Israel (capital Samaria) and southern Judah (capital Jerusalem) is confirmed by extrabiblical sources — making it",
+            correct: "one of the most historically secure biblical events.",
+            wrong: ["a purely theological narrative.", "unconfirmed by any external evidence.", "a later invention by Jewish scribes."]
           },
-          { 
-            start: "The lack of archaeological evidence for many biblical narratives—including the conquest of Canaan, the united monarchy, and the events described in the books of kings—indicates that the Bible was written as theology and",
-            "correct": "history combined.",
-            "wrong": ["pure fiction.", "sailing manuals.", "mining guides."] 
+          {
+            start: "The northern kingdom of Israel was likely more populous and powerful than Judah — yet the Bible, written from a Judean perspective, focuses on",
+            correct: "Judah's theological significance.",
+            wrong: ["Israel's military superiority.", "purely economic trade records.", "Phoenician cultural influence."]
+          },
+          {
+            start: "Assyrian inscriptions naming Israelite and Judean kings — Ahab, Jehu, Hezekiah — prove that these rulers were",
+            correct: "historical figures known to neighboring empires.",
+            wrong: ["purely invented by later scribes.", "identical to how the Bible portrays them.", "unknown outside of Jewish tradition."]
           }
         ]
       },
       {
-        name: "The Divided Kingdom (Israel & Judah)",
+        name: "The Kingdom of Judah & Assyrian Pressure",
         emoji: "👑",
         quotes: [
-          { 
-            start: "The historical division of the Israelite kingdoms into northern Israel and southern Judah is confirmed by archaeological evidence and extrabiblical texts like the Tel Dan Stele and",
-            "correct": "Assyrian inscriptions.",
-            "wrong": ["Egyptian hieroglyphics.", "glass factory records.", "textile workshop logs."] 
+          {
+            start: "The Siloam Tunnel inscription — carved in Jerusalem around 700 BCE — and Assyrian records of Sennacherib's siege confirm that",
+            correct: "Hezekiah was a real king facing real threats.",
+            wrong: ["the siege was purely legendary.", "Jerusalem was never actually attacked.", "Assyrian records are unreliable."]
           },
-          { 
-            start: "The kingdom of Israel in the north, with its capital at Samaria, was likely more politically developed and militarily powerful than",
-            "correct": "Judah.",
-            "wrong": ["Egypt.", "Phoenicia.", "Syria."] 
+          {
+            start: "Sennacherib's prism records his siege of Jerusalem but claims tribute rather than conquest — a discrepancy with the Bible that shows",
+            correct: "both sides recorded events favorably.",
+            wrong: ["the Bible is always more reliable.", "Assyrian records are always accurate.", "the siege definitely never happened."]
           },
-          { 
-            start: "The conquest of the northern kingdom of Israel by the Assyrian Empire in 722 BCE is documented in both Assyrian inscriptions and the Bible, confirming that extrabiblical sources and biblical accounts can corroborate",
-            "correct": "major historical events.",
-            "wrong": ["artistic styles.", "textile patterns.", "glass designs."] 
+          {
+            start: "King Josiah's religious reforms — centralizing worship in Jerusalem and eliminating rural shrines — served both theological and",
+            correct: "political centralization purposes.",
+            wrong: ["purely spiritual individual motivations.", "Assyrian imperial demands.", "Babylonian cultural requirements."]
+          },
+          {
+            start: "Josiah's death at Megiddo fighting Pharaoh Necho (609 BCE) ended Judah's brief independence, showing that",
+            correct: "small kingdoms were always vulnerable to imperial powers.",
+            wrong: ["religious reform guarantees political success.", "Egypt was always Judah's ally.", "biblical kings always died peacefully."]
           }
         ]
       },
       {
-        name: "Judean Monarchy & the Kingdom of Judah",
-        emoji: "👑",
-        quotes: [
-          { 
-            start: "The kingdom of Judah, with its capital at Jerusalem, survived longer than its northern counterpart but remained a small regional power on the periphery of major empires, as evidenced by Assyrian, Babylonian, and",
-            "correct": "Egyptian records.",
-            "wrong": ["Arctic explorers.", "glass manufacturers.", "textile producers."] 
-          },
-          { 
-            start: "The reign of King Hezekiah, documented in both biblical accounts and Assyrian inscriptions, shows that Judean kings sometimes rebelled against",
-            "correct": "Assyrian overlordship.",
-            "wrong": ["Egyptian merchants.", "Phoenician traders.", "Persian administrators."] 
-          },
-          { 
-            start: "The later reign of King Josiah, who according to biblical accounts conducted religious reforms and restored Jerusalem's temple, ended with his death at the Battle of",
-            "correct": "Megiddo.",
-            "wrong": ["the Dead Sea.", "Mount Sinai.", "the Jordan River."] 
-          }
-        ]
-      },
-      {
-        name: "The Babylonian Exile & Diaspora",
+        name: "The Babylonian Destruction & Exile",
         emoji: "🏛️",
         quotes: [
-          { 
-            start: "The destruction of Jerusalem by the Babylonian Empire in 586 BCE, the exile of Judean elites, and the later return of some exiles are documented in both biblical accounts and",
-            "correct": "Babylonian records.",
-            "wrong": ["Egyptian hieroglyphics.", "Assyrian clay tablets.", "Persian glass inscriptions."] 
+          {
+            start: "Nebuchadnezzar's destruction of Jerusalem in 586 BCE is confirmed by both the Bible and Babylonian administrative records — one of the best-documented events in",
+            correct: "ancient Near Eastern history.",
+            wrong: ["purely mythological tradition.", "medieval Christian invention.", "Greek historical speculation."]
           },
-          { 
-            start: "The Babylonian exile experience fundamentally changed Judean religion and culture, demonstrating that exile and diaspora experiences shaped the religious traditions that would become",
-            "correct": "Judaism.",
-            "wrong": ["Greek philosophy.", "Roman law.", "Persian astronomy."] 
+          {
+            start: "The exile of Judean elites to Babylon — while most people remained in the land — fundamentally reshaped Israelite religion by forcing it to function",
+            correct: "without a temple or homeland.",
+            wrong: ["without any form of worship.", "under Babylonian religious requirements.", "identically to pre-exile practice."]
           },
-          { 
-            start: "The return of some Judean exiles under the Persian Empire, described in biblical accounts, reflects the Persian policy of allowing conquered peoples some autonomy and",
-            "correct": "religious freedom.",
-            "wrong": ["forced assimilation.", "complete cultural destruction.", "mandatory military service."] 
+          {
+            start: "Much of the Hebrew Bible was likely compiled or edited during and after the Babylonian exile — meaning the Bible we have reflects",
+            correct: "theology shaped by catastrophic national defeat.",
+            wrong: ["purely pre-exile royal court records.", "objective historical documentation.", "Babylonian scribal traditions."]
+          },
+          {
+            start: "Cyrus the Great's decree allowing exiles to return (538 BCE) reflected Persian imperial policy, not divine intervention — though the Bible presents it as",
+            correct: "God using a foreign king to fulfill his purpose.",
+            wrong: ["a military Israelite victory.", "purely accidental Persian policy.", "proof that Cyrus converted to Judaism."]
           }
         ]
       },
@@ -3080,20 +3079,25 @@ export const CIVILIZATIONS = [
         name: "Religious Development & Monotheism",
         emoji: "🕯️",
         quotes: [
-          { 
-            start: "The development of Israelite religion from polytheism (worship of multiple gods) to monotheism (exclusive worship of Yahweh) occurred gradually over centuries, as evidenced by",
-            "correct": "biblical texts themselves.",
-            "wrong": ["ocean navigation charts.", "glass manufacturing records.", "textile production logs."] 
+          {
+            start: "Archaeological finds — household idols, inscriptions mentioning 'Yahweh and his Asherah' — confirm that pre-exilic Israelites often practiced",
+            correct: "polytheism alongside Yahweh worship.",
+            wrong: ["strict biblical monotheism always.", "purely Canaanite paganism.", "Greek-style philosophical deism."]
           },
-          { 
-            start: "The prophetic movement in Israel and Judah, documented in biblical texts, represented a challenge to established religious and",
-            "correct": "political authority.",
-            "wrong": ["seafaring enterprises.", "mining operations.", "artistic traditions."] 
+          {
+            start: "Exclusive monotheism — worshipping only Yahweh — developed gradually through prophetic challenges, royal reforms, and especially",
+            correct: "the trauma of the Babylonian exile.",
+            wrong: ["sudden divine revelation at Sinai.", "Greek philosophical influence alone.", "Egyptian religious reform borrowings."]
           },
-          { 
-            start: "The creation of the Hebrew Bible (Tanakh) as a coherent collection of texts occurred gradually over centuries, with different texts being composed, edited, and compiled at different times, meaning that the Bible is not a unified document but rather a",
-            "correct": "collection of texts.",
-            "wrong": ["single author's work.", "unified narrative.", "coherent biography."] 
+          {
+            start: "The Hebrew prophets challenged kings and priests by claiming divine authority — establishing a tradition where",
+            correct: "moral law could override political power.",
+            wrong: ["priests always controlled prophets.", "kings were always religiously obedient.", "prophecy was purely poetic entertainment."]
+          },
+          {
+            start: "The Torah's dietary laws, Sabbath observance, and circumcision became markers of Jewish identity precisely because they were",
+            correct: "practices that distinguished Jews in diaspora.",
+            wrong: ["borrowed from Babylonian religion.", "invented after the New Testament.", "identical to Egyptian priestly codes."]
           }
         ]
       },
@@ -3101,20 +3105,20 @@ export const CIVILIZATIONS = [
         name: "Archaeological Evidence & Historical Reconstruction",
         emoji: "🏺",
         quotes: [
-          { 
-            start: "Archaeological excavations in the Levant, including at sites like Megiddo, Jerusalem, Samaria, and Shechem, have revealed evidence of human settlement patterns and",
-            "correct": "fortifications.",
-            "wrong": ["ocean navigation.", "glass production.", "textile workshops."] 
+          {
+            start: "The Tel Dan Stele, Mesha Stele, and Siloam Tunnel inscription provide the primary extrabiblical evidence for Israelite and Judean history — all discovered within the last",
+            correct: "150 years of archaeology.",
+            wrong: ["500 years of Christian scholarship.", "3,000 years of Jewish tradition.", "2,000 years of Greek records."]
           },
-          { 
-            start: "The Tel Dan Stele, an inscribed stone from 9th-century BCE Syria that mentions the 'House of David,' provides one of the few extrabiblical references to Israelite or",
-            "correct": "Judean rulers.",
-            "wrong": ["seafaring merchants.", "glass makers.", "textile artisans."] 
+          {
+            start: "The absence of evidence for a massive Exodus from Egypt — no Egyptian records, no archaeological sites, no Sinai encampments for 600,000 people — suggests the Exodus story is",
+            correct: "theological narrative more than literal history.",
+            wrong: ["definitively proven by recent excavations.", "confirmed by all Egyptian sources.", "irrelevant to Jewish religious identity."]
           },
-          { 
-            start: "The absence of archaeological evidence for many biblical narratives—including the exodus from Egypt, the conquest of Canaan as described, and the size and power of Solomon's kingdom—indicates that biblical texts reflect",
-            "correct": "theological interpretation.",
-            "wrong": ["factual accuracy.", "historical precision.", "literal truth."] 
+          {
+            start: "Minimalist scholars argue archaeology disproves most of the Bible; maximalists argue it confirms it — the truth is that the Bible and archaeology address",
+            correct: "different types of questions.",
+            wrong: ["identical factual claims.", "purely contradictory realities.", "only archaeological questions."]
           }
         ]
       },
@@ -3122,20 +3126,20 @@ export const CIVILIZATIONS = [
         name: "Israelite Warfare & Military Organization",
         emoji: "⚔️",
         quotes: [
-          { 
-            start: "The biblical accounts of Israelite warfare, including descriptions of armies, weapons, and tactics, reflect the military practices of the",
-            "correct": "Iron Age Levant.",
-            "wrong": ["Arctic regions.", "oceanic islands.", "glass factories."] 
+          {
+            start: "Israelite military organization reflected typical Iron Age Levantine practice — chariots for elites, infantry conscripts, and city-based fortifications — not fundamentally different from",
+            correct: "neighboring Canaanite and Aramean states.",
+            wrong: ["Roman legion organization.", "Greek hoplite warfare.", "Egyptian chariot-only armies."]
           },
-          { 
-            start: "The conflicts between Israelite kingdoms and their neighbors, are documented in both biblical accounts and extrabiblical sources, confirming that Israel and Judah were engaged in regional conflicts typical of small",
-            "correct": "Iron Age states.",
-            "wrong": ["maritime empires.", "mining colonies.", "textile centers."] 
+          {
+            start: "Extrabiblical sources confirm Israelite and Judean kings fought in the regional power politics of the Levant — making them",
+            correct: "typical small Iron Age kingdoms.",
+            wrong: ["uniquely powerful regional empires.", "purely peaceful religious communities.", "military equals of Assyria."]
           },
-          { 
-            start: "The military vulnerability of Judah to conquest by major powers—the Assyrian Empire destroying Israel in 722 BCE and the Babylonian Empire destroying Judah in 586 BCE—demonstrates that small regional kingdoms could not resist the military power of",
-            "correct": "large imperial states.",
-            "wrong": ["nomadic herders.", "merchant caravans.", "religious communities."] 
+          {
+            start: "Assyria's destruction of northern Israel (722 BCE) and Babylon's destruction of Judah (586 BCE) show that small kingdoms cannot permanently resist",
+            correct: "the organized military of major empires.",
+            wrong: ["internal religious reforms.", "prophetic moral authority.", "divine protection indefinitely."]
           }
         ]
       },
@@ -3143,20 +3147,20 @@ export const CIVILIZATIONS = [
         name: "Social Structure & Daily Life",
         emoji: "🏛️",
         quotes: [
-          { 
-            start: "The social structure of ancient Israel and Judah, reconstructed from archaeological evidence and biblical texts, included a king and royal court, priests and religious specialists, scribes and administrators, merchants and craftspeople, and",
-            "correct": "enslaved persons.",
-            "wrong": ["ocean sailors.", "glass makers.", "textile dyers."] 
+          {
+            start: "Archaeological evidence from Israelite houses, storage jars, and ostraca (pottery inscriptions) reveals a society of",
+            correct: "farmers, herders, and artisans — not temple-centered elites.",
+            wrong: ["wealthy merchants dominating society.", "purely nomadic tribal peoples.", "philosophically sophisticated urban elites."]
           },
-          { 
-            start: "The role of women in ancient Israelite society, as reflected in biblical laws and narratives, indicates that women had fewer legal rights and less political power than men, though women of elite status could exercise",
-            "correct": "some influence.",
-            "wrong": ["military command.", "seafaring navigation.", "mining operations."] 
+          {
+            start: "Biblical law codes — Deuteronomy, Leviticus — regulate slavery, debt, and women's rights, showing that these institutions existed and required",
+            correct: "legal management, not just moral condemnation.",
+            wrong: ["immediate total abolition.", "Greek philosophical justification.", "purely ceremonial acknowledgment."]
           },
-          { 
-            start: "The practice of slavery in ancient Israel and Judah, documented in biblical law codes and reflected in biblical narratives, shows that slavery was an",
-            "correct": "accepted institution.",
-            "wrong": ["forbidden practice.", "mythical invention.", "rare occurrence."] 
+          {
+            start: "Women in ancient Israel had fewer legal rights than men — yet figures like Deborah the judge and Hulda the prophetess appear as authoritative in texts that",
+            correct: "reflect a more complex social reality.",
+            wrong: ["were entirely invented later.", "show women were always equal.", "prove the Bible is unreliable."]
           }
         ]
       },
@@ -3164,20 +3168,20 @@ export const CIVILIZATIONS = [
         name: "Religious Reforms & Textual Development",
         emoji: "📖",
         quotes: [
-          { 
-            start: "The Deuteronomic Reform, emphasized centralization of worship in Jerusalem and adherence to a specific religious law code, suggesting that religious reforms were politically motivated attempts to centralize power and eliminate",
-            "correct": "rival religious centers.",
-            "wrong": ["ocean trade routes.", "mining operations.", "textile workshops."] 
+          {
+            start: "Josiah's Deuteronomic Reform — destroying rural shrines and centralizing worship at Jerusalem — served both religious and",
+            correct: "political power-consolidation purposes.",
+            wrong: ["purely personal spiritual motivation.", "Assyrian imperial requirements.", "Babylonian cultural demands."]
           },
-          { 
-            start: "The composition of the Hebrew Bible involved multiple layers of editing and compilation across several centuries, meaning that the Bible is best understood as a collection of texts with diverse authors, editors, and",
-            "correct": "theological concerns.",
-            "wrong": ["seafaring expertise.", "glass manufacturing.", "military tactics."] 
+          {
+            start: "The Documentary Hypothesis identifies four source traditions (J, E, D, P) compiled into the Torah — suggesting the Bible was",
+            correct: "edited across centuries by multiple authors.",
+            wrong: ["written by Moses at Sinai.", "composed in a single generation.", "entirely authored by Babylonian scribes."]
           },
-          { 
-            start: "The discovery of the Dead Sea Scrolls, ancient biblical manuscripts found in the Qumran caves, reveals textual variations and shows that biblical texts were subject to copying errors and",
-            "correct": "intentional textual variations.",
-            "wrong": ["ocean navigation.", "pottery production.", "weaving patterns."] 
+          {
+            start: "The Dead Sea Scrolls (discovered 1947) contain biblical manuscripts 1,000 years older than previous copies — revealing",
+            correct: "both textual stability and significant variations.",
+            wrong: ["that the Bible was unchanged across millennia.", "that all modern Bibles are inaccurate.", "confirmation of every biblical narrative."]
           }
         ]
       },
@@ -3185,20 +3189,20 @@ export const CIVILIZATIONS = [
         name: "Historical Assessment & Legacy",
         emoji: "📜",
         quotes: [
-          { 
-            start: "The history of ancient Israel and Judah, as reconstructed from archaeological evidence and extrabiblical texts, reveals small regional kingdoms that were marginalized by major empires, experienced",
-            "correct": "internal conflicts.",
-            "wrong": ["ocean exploration.", "glass manufacturing.", "textile innovation."] 
+          {
+            start: "Ancient Israel and Judah were minor Levantine kingdoms — yet their religious texts became foundational to",
+            correct: "Judaism, Christianity, and Islam.",
+            wrong: ["Greek philosophy and Roman law.", "Babylonian and Persian religion.", "Egyptian and Phoenician culture."]
           },
-          { 
-            start: "The fall of Judah to the Babylonians and the subsequent exile and diaspora experiences shaped the development of Judaism as a portable religion based on textual study and",
-            "correct": "ethical observance.",
-            "wrong": ["military conquest.", "seafaring trade.", "mining operations."] 
+          {
+            start: "The Babylonian exile transformed Israelite religion into Judaism — a portable, text-based faith that could survive",
+            correct: "without land, temple, or political power.",
+            wrong: ["only with continuous military victory.", "only through priestly temple ritual.", "only in its ancestral homeland."]
           },
-          { 
-            start: "The scholarly study of ancient Israel and Judah using archaeological evidence, linguistic analysis, comparative ancient Near Eastern studies, and textual criticism reveals that biblical accounts are theological interpretations of",
-            "correct": "history.",
-            "wrong": ["ocean navigation.", "glass production.", "textile weaving."] 
+          {
+            start: "The scholarly tension between biblical narrative and archaeological evidence reflects a broader truth: ancient peoples wrote texts to",
+            correct: "find meaning, not document history precisely.",
+            wrong: ["deceive future generations deliberately.", "satisfy modern historical standards.", "record facts with journalistic accuracy."]
           }
         ]
       }
