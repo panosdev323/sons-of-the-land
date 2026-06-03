@@ -408,7 +408,7 @@ export class GameScene extends Phaser.Scene {
             this.isLoadingAd = true
 
             // ── DISABLED STATE ──
-            watchAdBtn.setInteractive(false)
+            watchAdBtn.disableInteractive()
             watchAdBtn.setAlpha(0.45)
             watchAdBtn.setText('Loading Ad...')
 
@@ -471,9 +471,11 @@ export class GameScene extends Phaser.Scene {
                 this.isLoadingAd = false
                 this.sound.resumeAll()
                 // ── ENABLED STATE ──
-                watchAdBtn.setInteractive()
-                watchAdBtn.setAlpha(1)
-                watchAdBtn.setText('Watch Ad for Lives ▶')
+                if (watchAdBtn && watchAdBtn.active) {
+                    watchAdBtn.setInteractive()
+                    watchAdBtn.setAlpha(1)
+                    watchAdBtn.setText('Watch Ad for Lives ▶')
+                }
             }
         })
 
