@@ -720,7 +720,7 @@ export const CIVILIZATIONS = [
           { start: 'Everything we hear is an opinion, not a fact. Everything we see is a perspective, not the', correct: 'truth.', wrong: ['whole.', 'end.', 'goal.'] },
           { start: 'Waste no more time arguing about what a good man should be.', correct: 'Be one.', wrong: ['wise.', 'rich.', 'strong.'] },
           { start: 'If you are distressed by anything external, the pain is not due to the thing itself, but to your estimate of it; and this you have the power to revoke at any', correct: 'moment.', wrong: ['cost.', 'price.', 'time.'] },
-          { start: 'When you arise in the morning think of what a privilege it is to be alive, to think, to enjoy, to', correct: 'love ...', wrong: ['win.', 'rule.', 'fight.'] },
+          { start: 'When you arise in the morning think of what a privilege it is to be alive, to think, to enjoy, to', correct: 'love', wrong: ['win.', 'rule.', 'fight.'] },
           { start: 'The best revenge is to be unlike him who performed the', correct: 'injury.', wrong: ['deed.', 'act.', 'wrong.'] },
           { start: 'The soul becomes dyed with the colour of its', correct: 'thoughts.', wrong: ['fears.', 'desires.', 'actions.'] },
           { start: 'It is not death that a man should fear, but he should fear never beginning to', correct: 'live.', wrong: ['rule.', 'fight.', 'win.'] }
@@ -892,77 +892,451 @@ export const CIVILIZATIONS = [
     bg: '#0a0a0a',
     authors: [
       {
-        name: 'Ptahhotep',
+        name: 'Ptahhotep (Maxims — Papyrus Prisse)',
         emoji: '📜',
         quotes: [
-          { start: 'Be a craftsman in speech that thou mayest be strong, for the strength of one is the tongue, and speech is mightier than all', correct: 'fighting.', wrong: ['silence.', 'wealth.', 'power.'] },
-          { start: 'Do not be arrogant because of your knowledge, and have no confidence in that you are a learned man. Take counsel with the ignorant as', correct: 'with the wise.', wrong: ['only the wise.', 'only the powerful.', 'only the rich.'] },
-          { start: 'If you are a leader commanding the affairs of the multitude, seek out for yourself every beneficial deed, until it may be that your own affairs', correct: 'are without wrong.', wrong: ['until you are rich.', 'until you are feared.', 'until you are praised.'] },
-          { start: 'The wise man is known by his wisdom, the great man by', correct: 'his good actions.', wrong: ['his wealth.', 'his power.', 'his words.'] },
-          { start: 'Do not be angry with him who is greater than you. If he wrongs you,', correct: 'he will not listen to your complaint.', wrong: ['he will reward you.', 'he will fear you.', 'he will apologize.'] },
-          { start: 'Silence is more profitable than', correct: 'abundance of speech.', wrong: ['more dangerous.', 'more powerful.', 'more useless.'] },
-          { start: 'He who listens is beloved of God; he who does not listen is hated by', correct: 'God.', wrong: ['he who speaks.', 'he who fights.', 'he who rules.'] },
-          { start: 'Do not make yourself the leader of a multitude when you do not even know how to', correct: 'lead yourself.', wrong: ['your family.', 'your city.', 'your empire.'] }
+          {
+            start: 'Maxims of Ptahhotep (Maxim 1): "How hard and painful are the last hours of an aged man! He grows weaker every day; his eyes become dim, his ears deaf; his strength fades; his heart knows',
+            correct: 'peace no longer."',
+            wrong: ['"joy without measure."', '"wisdom at last."', '"the gods\' mercy."']
+          },
+          {
+            start: 'Maxims of Ptahhotep (Maxim 4): "Do not be arrogant because of your knowledge, and have no confidence in that you are a learned man. Take counsel with the ignorant as',
+            correct: 'with the wise."',
+            wrong: ['"with only the powerful."', '"with those above you."', '"with priests alone."']
+          },
+          {
+            start: 'Maxims of Ptahhotep (Maxim 5): "Be a craftsman in speech that you may be strong, for the strength of one is the tongue, and speech is mightier than all',
+            correct: 'fighting."',
+            wrong: ['"silence."', '"gold."', '"armies."']
+          },
+          {
+            start: 'Maxims of Ptahhotep (Maxim 9): "If you meet an opponent in his moment of power — one who is your superior — bend your arms and bow your back. Do not oppose him. He will not be',
+            correct: 'swayed by an argument, and time will show his foolishness."',
+            wrong: ['"impressed by your learning."', '"angered by your silence."', '"defeated by direct confrontation."']
+          },
+          {
+            start: 'Maxims of Ptahhotep (Maxim 21): "How good it is when a son accepts what his father says! Thereby maturity comes to him. He who listens is beloved of',
+            correct: 'god.",',
+            wrong: ['"pharaoh.",', '"the vizier.",', '"the scribes.",']
+          },
+          {
+            start: 'Maxims of Ptahhotep (Maxim 22): "He who does not listen is a fool; he will never attain knowledge or wisdom. He who disobeys,',
+            correct: 'his heart will not hear."',
+            wrong: ['"he will be punished."', '"he angers the gods."', '"the pharaoh will exile him."']
+          },
+          {
+            start: 'Maxims of Ptahhotep (Maxim 32): "If you are a guest at the table of one who is greater than you, take only what he gives you. Do not look',
+            correct: 'greedily at what is before him.",',
+            wrong: ['"away from his gaze.",', '"for a better seat.",', '"to compare your portion with others.",']
+          },
+          {
+            start: 'Maxims of Ptahhotep (Maxim 37): "If you are a leader commanding the affairs of the multitude, seek out for yourself every beneficial deed, until your own affairs are',
+            correct: 'without wrong."',
+            wrong: ['"known to all."', '"praised by the pharaoh."', '"rewarded with gold."']
+          },
+          {
+            start: 'Maxims of Ptahhotep (Maxim 6): "Silence is more profitable than',
+            correct: 'abundance of speech."',
+            wrong: ['"any amount of gold."', '"open confession."', '"any deed."']
+          },
+          {
+            start: 'Maxims of Ptahhotep (Maxim 18): "If you are wise, keep your house and love your wife as is fitting. Fill her belly and clothe her back. The remedy for keeping her',
+            correct: 'is to hold her far from authority — her eye is her storm-wind."',
+            wrong: ['"is to give her gold and jewels freely."', '"is silence and obedience."', '"is to educate her in the scribal arts."']
+          },
+          {
+            // Maxim 41 — on greed and the stomach
+            start: 'Maxims of Ptahhotep (Maxim 41): "If you want friendship to endure in a house that you enter — as master, as brother, or as friend — wherever you enter, beware of approaching the',
+            correct: 'women, for no good comes from that place."',
+            wrong: ['"food and drink of the household."', '"servants of your host."', '"treasury and storeroom."']
+          },
+          {
+            start: 'Maxims of Ptahhotep (closing): "Obedience is an excellent thing and brings peace to the heart. The son who accepts the teaching of his father will grow old',
+            correct: 'in well-being."',
+            wrong: ['"into pharaoh\'s favor."', '"stronger than his enemies."', '"wealthy beyond measure."']
+          }
         ]
       },
       {
-        name: 'Imhotep',
-        emoji: '🛠️',
+        name: 'Story of Sinuhe (Middle Kingdom Literary Text)',
+        emoji: '🌿',
         quotes: [
-          { start: 'Eat, drink, and be merry, for tomorrow we', correct: 'die.', wrong: ['live.', 'forget.', 'suffer.'] },
-          { start: 'The wise man knows that he knows', correct: 'nothing.', wrong: ['everything.', 'much.', 'little.'] },
-          { start: 'Silence is better than speech when speech is', correct: 'foolish.', wrong: ['wise.', 'necessary.', 'kind.'] },
-          { start: 'A good name is better than great', correct: 'riches.', wrong: ['power.', 'fame.', 'honor.'] },
-          { start: 'The heart of the wise is in his', correct: 'head.', wrong: ['hands.', 'mouth.', 'stomach.'] },
-          { start: 'Do not speak against anyone behind his', correct: 'back.', wrong: ['face.', 'name.', 'presence.'] },
-          { start: 'Knowledge is the path to', correct: 'immortality.', wrong: ['wealth.', 'power.', 'pleasure.'] },
-          { start: 'He who learns to control himself learns to control the', correct: 'world.', wrong: ['gods.', 'fate.', 'others.'] }
+          {
+            start: 'Story of Sinuhe (B1–5): The narrative opens with Sinuhe overhearing news of Pharaoh Amenemhat I\'s death and fleeing Egypt in panic — his flight described not as treason but as',
+            correct: 'a sudden terror sent by the god, like a dream of the Delta marshes.',
+            wrong: ['a carefully planned escape to join the Hyksos.', 'a divine command to spread Egyptian culture abroad.', 'a political mission ordered by the crown prince Senusret.']
+          },
+          {
+            start: 'Story of Sinuhe (B30–40): The chieftain Ammunenshi of Upper Retenu (Canaan) welcomed Sinuhe and asked why he had fled — Sinuhe replies he does not know, saying "It is as if the will of',
+            correct: 'a god placed this flight in my heart — as if a man of the Delta had seen himself in the land of the dead."',
+            wrong: ['"the pharaoh himself drove me out by his sacred command."', '"a demon of the eastern desert pursued me through my dreams."', '"the court conspirators threatened my life before I could escape."']
+          },
+          {
+            start: 'Story of Sinuhe (B75–90): Sinuhe praises Pharaoh Senusret I to Ammunenshi — describing him as a god who "knows all lands, and whom all who see him love, for he conquers by',
+            correct: 'love, for his city loves him more than itself."',
+            wrong: ['"fear, for his armies reach the ends of the earth."', '"gold, for his treasury exceeds all kings."', '"magic, for the gods speak through him alone."']
+          },
+          {
+            start: 'Story of Sinuhe (B110–130): The Syrian challenger who fights Sinuhe plans to take his cattle and property — Sinuhe defeats him with his',
+            correct: 'bow before the man can even reach him with his shield and axe.',
+            wrong: ['Egyptian sword, which the Syrians had never seen before.', 'divine amulet given to him by the priests of Amun.', 'chariot team, which broke the champion\'s formation.']
+          },
+          {
+            start: 'Story of Sinuhe (B155–165): Despite his great success in Syria — land, cattle, children, authority — Sinuhe writes that nothing could overcome his longing to see',
+            correct: 'Egypt again and die in the land where he was born.',
+            wrong: ['the court of Senusret and prove his innocence.', 'the Nile flood one final time before old age.', 'his children settled before returning alone.']
+          },
+          {
+            start: 'Story of Sinuhe (B230–250): The royal letter from Senusret I to Sinuhe contains the famous line: "Why are you fleeing? What have you done wrong? You have not spoken against anyone, your words have not been judged false — do not let your heart',
+            correct: 'think of it any more."',
+            wrong: ['"fear the gods of Syria."', '"plan another flight."', '"return without our command."']
+          },
+          {
+            start: 'Story of Sinuhe (B290–305): On returning to Egypt, Sinuhe describes himself as transformed by age and exile — "I was given the house of a courtier; it had a garden and trees and was cool as a temple. I was set',
+            correct: 'at the king\'s table with the children of the king."',
+            wrong: ['"to work in the palace scriptorium."', '"free to live in the Delta as I wished."', '"above all other returning exiles."']
+          },
+          {
+            start: 'Story of Sinuhe (closing): The narrative ends with Senusret ordering Sinuhe be given a fine burial — a pyramid-tomb, gilded statues, funerary priests — symbolizing that the greatest gift Egypt can give is',
+            correct: 'a proper Egyptian death and burial after a life of exile.',
+            wrong: ['royal wealth accumulated across a lifetime of service.', 'divine favor confirmed by the oracle of Amun.', 'the honor of dying in battle for the pharaoh.']
+          }
         ]
       },
       {
-        name: 'Ramesses II',
-        emoji: '🏛️',
+        name: 'Akhenaten (Great Hymn to the Aten & Amarna Inscriptions)',
+        emoji: '☀️',
         quotes: [
-          { start: 'I am Ramesses, called the Great, pharaoh of', correct: 'Egypt.', wrong: ['Rome.', 'Nubia.', 'Africa.'] },
-          { start: 'My name is Ozymandias, king of kings; Look on my works, ye', correct: 'Mighty!', wrong: ['Powerful.', 'Strong.', 'Glorious.'] },
-          { start: 'I have subdued the lands; I have extended the borders of', correct: 'Egypt.', wrong: ['Nubia.', 'Asia.', 'the world.'] },
-          { start: 'Abu Simbel and the temples I built shall be remembered for', correct: 'eternity.', wrong: ['centuries.', 'ages.', 'time.'] },
-          { start: 'Nubians and Hittites alike tremble at the name of', correct: 'Ramesses.', wrong: ['Pharaoh.', 'Egypt.', 'the King.'] }
+          {
+            start: 'Great Hymn to the Aten (lines 1–8): "Beautiful is your rising on the horizon of heaven, O living Aten, the beginning of life! When you rise on the eastern horizon you fill',
+            correct: 'every land with your beauty."',
+            wrong: ['"Egypt alone with divine favor."', '"the Nile with the flood of life."', '"the hearts of kings with awe and terror."']
+          },
+          {
+            start: 'Great Hymn to the Aten (lines 9–20): "When you set on the western horizon, the earth is in darkness, in the manner of death. Every lion comes out of its den; all the snakes bite. Darkness is the only',
+            correct: 'light, and the earth is silent — for he who made them rests beyond the horizon."',
+            wrong: ['"gift of the night to the tired."', '"time when the Aten speaks to the king."', '"protection of the weak against the powerful."']
+          },
+          {
+            start: 'Great Hymn to the Aten (lines 35–50): "How manifold are your works! They are hidden from the face of man. O sole god, like whom there is no other! You created the earth according to your desire, while you were',
+            correct: 'alone — men, cattle, all flocks, everything on earth that walks on feet."',
+            wrong: ['"at rest in the primordial waters."', '"present in every heart that recognizes you."', '"worshipped by the priests of every land."']
+          },
+          {
+            start: 'Great Hymn to the Aten (lines 55–65): The hymn attributes the Nile flood not to the god Hapy (as was traditional) but to the Aten — "You made the Nile in the underworld and bring it where you will to',
+            correct: 'sustain the people of Egypt, for you made them for yourself."',
+            wrong: ['"honor the pharaohs of the Old Kingdom."', '"mark the boundaries of sacred Amarna."', '"fill the temples with offerings for the gods."']
+          },
+          {
+            start: 'Great Hymn to the Aten (lines 70–80): Notably, the hymn describes the Aten as creator not only of Egypt but of all peoples — "Their tongues differ in speech and their characters likewise; their skins differ, for you distinguished',
+            correct: 'people of foreign lands."',
+            wrong: ['"them so Egypt might rule over them."', '"them all from the first Egyptians."', '"the sinful from the righteous."']
+          },
+          {
+            start: 'Great Hymn to the Aten (closing): "You are in my heart; there is no other who knows you except your son Akhenaten. You have made him wise in your plans and your power." This establishes Akhenaten as',
+            correct: 'the sole intermediary between the Aten and all humanity.',
+            wrong: ['an equal co-ruler with the Aten.', 'a priest subject to the traditional temple hierarchy.', 'a servant of the older gods who adopted the Aten additionally.']
+          },
+          {
+            start: 'Amarna Boundary Stelae (Year 5–6 of Akhenaten): Akhenaten declares that Akhetaten (modern Amarna) was chosen by the Aten himself — the king swore he would never',
+            correct: 'extend the city beyond the boundaries the Aten had marked on his first appearance there.',
+            wrong: ['allow traditional priests of Amun to enter the city.', 'build a second capital or maintain Memphis as a royal residence.', 'allow any foreign delegation to enter without Aten worship.']
+          },
+          {
+            start: 'Scholars have noted that the Great Hymn to the Aten shares remarkable structural similarities with',
+            correct: 'Psalm 104 of the Hebrew Bible — though the relationship between them is debated.',
+            wrong: ['the Rigveda hymns of early India.', 'the Homeric Hymn to Helios.', 'Zoroastrian Gathas praising Ahura Mazda.']
+          }
         ]
       },
       {
-        name: 'Amenemope',
+        name: 'Amenemope (Instruction — Papyrus BM 10474)',
         emoji: '📜',
         quotes: [
-          { start: 'Better is a handful of quietness than two hands full of toil and a striving after', correct: 'wind.', wrong: ['wealth.', 'power.', 'fame.'] },
-          { start: 'Do not move the markers on the borders of', correct: 'fields.', wrong: ['the poor.', 'the king.', 'your neighbor.'] },
-          { start: 'The silent man is a find of', correct: 'gold.', wrong: ['a fool.', 'a loudmouth.', 'a coward.'] },
-          { start: 'Do not associate with the', correct: 'hot-tempered man.', wrong: ['the wise man.', 'the rich man.', 'the powerful man.'] },
-          { start: 'Better is poverty in the hand of the god than riches', correct: 'in a storehouse.', wrong: ['in the hand of man.', 'in the treasury.', 'in the palace.'] }
+          {
+            start: 'Instruction of Amenemope (Ch.6): "Better is a bushel given to you by the god than five thousand taken by',
+            correct: 'wrongdoing."',
+            wrong: ['"a powerful man."', '"the treasury."', '"a foreign merchant."']
+          },
+          {
+            start: 'Instruction of Amenemope (Ch.6): "Better is poverty in the hand of the god than riches in a',
+            correct: 'storehouse of wrongdoing."',
+            wrong: ['"temple of false gods."', '"foreign land."', '"house of the loud man."']
+          },
+          {
+            start: 'Instruction of Amenemope (Ch.7): "Do not move the markers on the borders of fields, nor shift the position of the measuring cord. Do not be greedy for a cubit of field, nor encroach on the boundaries of a',
+            correct: 'widow."',
+            wrong: ['"king."', '"temple."', '"nobleman."']
+          },
+          {
+            start: 'Instruction of Amenemope (Ch.9): "The silent man who keeps apart is like a tree growing in a garden — he flowers and produces fruit. The heated man who talks too much is like a tree in',
+            correct: 'a storm — uprooted before its time."',
+            wrong: ['"the desert — dying without water."', '"the river — swept away by the flood."', '"the city — cut down by the woodsman."']
+          },
+          {
+            start: 'Instruction of Amenemope (Ch.10): "Do not associate with a man who is hot-tempered, nor approach him in conversation. Leap not to cleave to such a person, lest a terror',
+            correct: 'carry you away."',
+            wrong: ['"fall on your house."', '"reach the pharaoh\'s ears."', '"destroy your family."']
+          },
+          {
+            start: 'Instruction of Amenemope (Ch.11): "The truly silent man holds himself apart. He is like',
+            correct: 'gold compared to a mountain of silver."',
+            wrong: ['"the sun above the desert sands."', '"a falcon above lesser birds."', '"a tree bearing fruit in all seasons."']
+          },
+          {
+            start: 'Instruction of Amenemope (Ch.20): "Do not move the scales nor alter the weights, nor diminish the fractions of the measure. Do not wish for false measures, for they are an abomination to',
+            correct: 'the god."',
+            wrong: ['"the pharaoh."', '"the vizier."', '"the marketplace."']
+          },
+          {
+            start: 'Instruction of Amenemope (Ch.27): "Do not eat bread before a man of god, nor begin to speak before he does. If he makes a mistake in his words, do not attack him in his weakness — this will bring',
+            correct: 'shame upon you."',
+            wrong: ['"the wrath of Thoth."', '"punishment from the pharaoh."', '"dishonor to your father."']
+          },
+          {
+            start: 'Instruction of Amenemope is particularly significant because Proverbs 22:17 explicitly says "incline your ear and hear the words of the wise" — phrases and structures from Amenemope appear so closely in',
+            correct: 'Proverbs 22:17–24:22 that most scholars accept direct literary borrowing or a shared source.',
+            wrong: ['Psalm 104 that some scholars believe the same author wrote both.', 'the Book of Job that Amenemope is now dated to the Persian period.', 'Ecclesiastes that some scholars identify Amenemope with Qohelet.']
+          }
         ]
       },
       {
-        name: 'Ani',
-        emoji: '📜',
+        name: 'Ipuwer Papyrus (Admonitions of a Sage)',
+        emoji: '⚠️',
         quotes: [
-          { start: 'Do not indulge in drinking beer, for it will lead you to', correct: 'folly.', wrong: ['wisdom.', 'strength.', 'honor.'] },
-          { start: 'A woman who is respected is a woman who is', correct: 'silent.', wrong: ['loud.', 'angry.', 'demanding.'] },
-          { start: 'Do not be arrogant because you are', correct: 'learned.', wrong: ['rich.', 'powerful.', 'famous.'] },
-          { start: 'The house of the silent man is', correct: 'well-ordered.', wrong: ['the loud man.', 'the angry man.', 'the greedy man.'] },
-          { start: 'Do not speak evil of anyone, whether great or', correct: 'small.', wrong: ['only the small.', 'only the great.', 'only your enemies.'] }
+          {
+            start: 'Ipuwer Papyrus (2.1–5): "Indeed, the poor of the land have become the rich. He who could not make sandals for himself is now a possessor of',
+            correct: 'riches."',
+            wrong: ['"armies."', '"temples."', '"the throne."']
+          },
+          {
+            start: 'Ipuwer Papyrus (2.8): "Indeed, the servant girls have become mistresses, and the ladies are',
+            correct: 'compelled to do what their servants do."',
+            wrong: ['"exalted above pharaoh."', '"scattered to foreign lands."', '"permitted to rule the temples."']
+          },
+          {
+            start: 'Ipuwer Papyrus (3.1–3): "Indeed, the river is blood. If one drinks of it, one rejects it — one thirsts for water." Scholars read this as',
+            correct: 'a metaphor for pollution or social breakdown, not a literal plague.',
+            wrong: ['confirmation of the biblical account of Moses.', 'a medical report of a Nile algae bloom.', 'a priestly curse placed on the Delta region.']
+          },
+          {
+            start: 'Ipuwer Papyrus (4.2): "Indeed, the scribes have been destroyed. The records of the scribes are taken from them. The laws of the council chamber are',
+            correct: 'thrown into the hallways — men walk upon them in the streets."',
+            wrong: ['"locked away from the poor forever."', '"recited aloud by the new pharaoh."', '"preserved safely in the temples."']
+          },
+          {
+            start: 'Ipuwer Papyrus (5.8–6.1): The sage turns to address the creator god with a reproach — asking why he permitted this chaos, saying: "Behold, why does he seek to fashion',
+            correct: 'mankind, when the meek are not distinguished from the violent?"',
+            wrong: ['"the pharaoh\'s enemies, when they defeat him always?"', '"the Nile\'s flood, when it destroys more than it gives?"', '"the temples, when the priests corrupt them?"']
+          },
+          {
+            start: 'Ipuwer Papyrus (7.1–3): "Behold, why is the land robbed of the kingship by a few senseless men? Behold, men have fallen into rebellion against the',
+            correct: 'Uraeus serpent."',
+            wrong: ['"armies of the east."', '"priests of Amun."', '"god of the Nile."']
+          },
+          {
+            start: 'The Ipuwer Papyrus is classified by Egyptologists as a work of',
+            correct: '"discourse literature" — a genre of social criticism using an imagined crisis to argue for proper order, not a historical chronicle.',
+            wrong: ['prophetic temple text predicting the Hyksos invasion.', 'official administrative report from a provincial governor.', 'magical spell against political instability.']
+          }
         ]
       },
       {
-        name: 'Merikare',
-        emoji: '📜',
+        name: 'Hatshepsut (Deir el-Bahari & Karnak Inscriptions)',
+        emoji: '👑',
         quotes: [
-          { start: 'Be a craftsman in speech, for the tongue is a sword to', correct: 'a king.', wrong: ['a weapon of war.', 'a tool of peace.', 'a sign of weakness.'] },
-          { start: 'Do justice, that you may live long upon the', correct: 'earth.', wrong: ['gain wealth.', 'win battles.', 'be feared.'] },
-          { start: 'The king who is a ruler of truth is a king who is', correct: 'eternal.', wrong: ['powerful.', 'rich.', 'feared.'] },
-          { start: 'Do not oppress the widow and', correct: 'the orphan.', wrong: ['the rich.', 'the powerful.', 'the priests.'] },
-          { start: 'The throne is established by', correct: 'justice.', wrong: ['fear.', 'wealth.', 'war.'] }
+          {
+            start: 'Deir el-Bahari Inscription: The divine birth narrative depicts Amun visiting her mother and declaring: "This daughter who is born shall be named Hatshepsut — she shall exercise the excellent kingship in this whole land. My soul is hers, my',
+            correct: 'will is hers, my crown is hers."',
+            wrong: ['"power is hers, my army is hers."', '"throne is hers, my strength is hers."', '"love is hers, my temples are hers."']
+          },
+          {
+            start: 'Punt Expedition Inscription (Deir el-Bahari): After the expedition to Punt returned with myrrh trees, ebony, and living animals, Hatshepsut declares that no pharaoh who had come before had brought back',
+            correct: 'living myrrh trees from Punt for transplanting in Egypt.',
+            wrong: ['gold without military conquest.', 'diplomatic marriage alliances with Punt.', 'the sacred texts of the Puntites.']
+          },
+          {
+            start: 'Speos Artemidos Inscription: Hatshepsut declares that she "restored that which was in ruins and rebuilt that which had been destroyed since the Hyksos were in the midst of',
+            correct: 'Avaris of the Northland, with roving hordes overthrowing what had been made."',
+            wrong: ['"Memphis since the reign of the usurper kings."', '"Karnak since the wars with Nubia."', '"Thebes since the priests of Amun rebelled."']
+          },
+          {
+            start: 'Red Chapel (Karnak): Hatshepsut depicts herself celebrating the Heb-Sed festival — a traditionally male royal renewal ritual — demonstrating her',
+            correct: 'full adoption of pharaonic royal ideology and ceremonial roles.',
+            wrong: ['religious reform replacing Amun with female deities.', 'diplomatic marriage alliance with the Nubian kingdom.', 'military victory over the Hittites of northern Syria.']
+          },
+          {
+            start: 'At Deir el-Bahari, Hatshepsut depicted herself in the traditional male pharaonic form — with false beard and male royal regalia — while inscriptions use',
+            correct: 'both masculine and feminine grammatical forms, sometimes within the same text.',
+            wrong: ['only masculine forms, abandoning all reference to her female identity.', 'a new hybrid gender designation invented for her reign.', 'only feminine forms, reforming the masculine pharaonic tradition.']
+          },
+          {
+            start: 'The erasure of Hatshepsut\'s images and name by Thutmose III occurred late in his reign — modern scholars believe this was motivated by',
+            correct: 'a desire to restore the male dynastic succession record, not necessarily personal hatred.',
+            wrong: ['revenge for her having imprisoned him as a young man.', 'religious reform targeting all female religious imagery.', 'Nubian pressure to remove records of female rule.']
+          },
+          {
+            start: 'The Punt expedition (c.1458 BCE) is depicted in detail on the Deir el-Bahari temple walls — the Queen of Punt, shown with a body condition (possibly lipodystrophy), is one of the',
+            correct: 'most realistic depictions of a foreign ruler in all Egyptian art.',
+            wrong: ['earliest depictions of sub-Saharan African peoples in any art form.', 'most idealized royal portraits in the ancient Near East.', 'only Egyptian depictions of a ruling female monarch from abroad.']
+          }
         ]
       },
+      {
+        name: 'Ani (Instruction — Papyrus Boulaq 4)',
+        emoji: '📜',
+        quotes: [
+          {
+            start: 'Instruction of Ani (3.13–14): "Do not boast of your strength during your youth. Beware of the one you do not know. When you go up and down in the hall of drinking, beware of approaching a woman — she lies in wait to capture you like a',
+            correct: 'deep water whose whirlpools are unknown."',
+            wrong: ['"desert wind that brings only thirst."', '"falcon that strikes from the light."', '"scorpion sleeping under the stone."']
+          },
+          {
+            start: 'Instruction of Ani (3.9–10): "Double the food your mother gave you, support her as she supported you. When you were born she carried you, and for three years she suckled you. When you had grown and were trained and learned to write, she watched over you',
+            correct: 'daily with bread and beer from her house."',
+            wrong: ['"nightly with prayers to Hathor."', '"hourly with offerings to Thoth."', '"always with gold and linen for your studies."']
+          },
+          {
+            start: 'Instruction of Ani (7.17–18): "The house of god — do not enter it drunk. Do not let your heart turn away while praying. Do not speak',
+            correct: 'idle words."',
+            wrong: ['"against the priests."', '"too quietly."', '"in the foreign tongue."']
+          },
+          {
+            start: 'Instruction of Ani (8.1–3): "Do not oppress your opponent when he is weak, and do not destroy one who is down. Stretch out your hand to him when he has',
+            correct: 'fallen."',
+            wrong: ['"offended the pharaoh."', '"crossed into your land."', '"lost all his gold."']
+          },
+          {
+            start: 'Instruction of Ani (closing dialogue): Uniquely in Egyptian wisdom literature, Ani\'s son Khonshotep responds to his father\'s teachings by saying: "Do not instruct me with so many admonitions! What you have set down is',
+            correct: 'a great load for one who listens to you — too great for the ordinary man."',
+            wrong: ['"beautiful wisdom that only the scribes can truly follow."', '"already known to every student in the scribal schools."', '"the teaching of Thoth written before your birth."']
+          },
+          {
+            start: 'Instruction of Ani: "Do not speak as a know-it-all at a consultation. Be very careful and you will not be rebuked. If you are mighty and powerful, calm your heart, for it is better to be praised by',
+            correct: 'the god than to be feared by men."',
+            wrong: ['"the pharaoh than to be praised by the priests."', '"your family than to be rich among strangers."', '"the scribes than to be powerful among soldiers."']
+          }
+        ]
+      },
+      {
+        name: 'Instruction for Merikare (First Intermediate Period)',
+        emoji: '📜',
+        quotes: [
+          {
+            start: 'Instruction for Merikare (P46–50): "Be a craftsman in speech — thus shall you prevail, for the tongue of a king is his sword, and speech is',
+            correct: 'mightier than any fighting."',
+            wrong: ['"the gift of Thoth to the pharaoh alone."', '"the weapon the gods fear most."', '"more dangerous than an army."']
+          },
+          {
+            start: 'Instruction for Merikare (P53–57): "Do justice while you live on earth. Calm the one who weeps; do not oppress the widow. Do not expel a man from his father\'s property. Beware lest you punish',
+            correct: 'wrongfully — it is the divine court that will judge you."',
+            wrong: ['"a nobleman whose family has served the pharaoh."', '"the scribes who recorded false accounts."', '"your own son too harshly."']
+          },
+          {
+            start: 'Instruction for Merikare (P120–125): "Well-tended is mankind — the god\'s cattle. He made heaven and earth for their sake, and drove back the greediness of the water. He made the winds so that their nostrils might',
+            correct: 'live.",',
+            wrong: ['"carry prayers to his ears.",', '"cool the desert in summer.",', '"fill the sails of the royal fleet.",']
+          },
+          {
+            start: 'Instruction for Merikare (P128): "He made himself their image, and he listens to what they say. He made plants, cattle, and fish to nourish them. He slays his enemies and destroys his own children because they plot',
+            correct: 'against him."',
+            wrong: ['"against Pharaoh."', '"to worship foreign gods."', '"to flood the delta."']
+          },
+          {
+            start: 'Instruction for Merikare (P132–133): "The divine court that judges the dead is not tolerant on that day of judgment: the court of accusers — do not trust in',
+            correct: 'length of years, for they see a lifetime as a single hour."',
+            wrong: ['"the gold you buried in your tomb."', '"the prayers of your priests."', '"the power of your dynasty."']
+          },
+          {
+            start: 'Instruction for Merikare (P55): "The throne is established by justice alone; it is the heart of the righteous man that',
+            correct: 'is his true monument."',
+            wrong: ['"conquers the nations."', '"pleases the gods of heaven."', '"surpasses the pyramid."']
+          },
+          {
+            start: 'Instruction for Merikare (P100–104): "One brave deed is worth more than a thousand in faint-heartedness. But one eloquent man is worth more than a thousand',
+            correct: 'who fight with their fists."',
+            wrong: ['"who dig the canals."', '"who guard the treasury."', '"who harvest the grain."']
+          }
+        ]
+      },
+      {
+        name: 'Book of the Dead (Papyrus of Ani, c.1275 BCE)',
+        emoji: '⚖️',
+        quotes: [
+          {
+            start: 'Book of the Dead, Chapter 125 (Negative Confession): Before the 42 judges in the Hall of Two Truths, the deceased declares: "I have not done wrong. I have not',
+            correct: 'robbed with violence."',
+            wrong: ['"sacrificed to false gods."', '"disobeyed the pharaoh."', '"spoken against the Nile."']
+          },
+          {
+            start: 'Book of the Dead, Chapter 125 (continued): "I have not slain men or women. I have not stolen grain. I have not defrauded the grain measure. I have not',
+            correct: 'moved the markers of the fields."',
+            wrong: ['"spoken against Osiris."', '"refused to honor the dead."', '"left offerings incomplete."']
+          },
+          {
+            start: 'Book of the Dead, Chapter 125: The deceased\'s heart is weighed against the feather of Maat (truth/justice) — if the heart is heavier than the feather, it is devoured by',
+            correct: 'Ammit (the composite creature — part lion, hippopotamus, and crocodile).',
+            wrong: ['Anubis, who dissolves it in the sacred lake.', 'Set, who scatters it across the desert.', 'Thoth, who records its sins for eternity.']
+          },
+          {
+            start: 'Book of the Dead, Chapter 1: "O you lords of Truth, O you who are in attendance on Osiris, who know no falsehood, I am here in your presence. Bring me no charges of',
+            correct: 'wrongdoing."',
+            wrong: ['"false prayer."', '"unpaid taxes."', '"ritual impurity."']
+          },
+          {
+            start: 'Book of the Dead, Chapter 17: The text identifies the soul with various divine forms — "I am yesterday; I know tomorrow. The battleground of the gods was made when I spoke. I know',
+            correct: 'the name of the great god who is there."',
+            wrong: ['"the weight of the sky and the measure of the earth."', '"which of the dead shall rise and which shall be consumed."', '"the time of the final judgment beyond the stars."']
+          },
+          {
+            start: 'Book of the Dead, Chapter 64 — one of the oldest chapters (found in Old Kingdom Pyramid Texts): "I am the great god who comes forth in truth. I know the name of the great god who is in the boat of millions of years. He is',
+            correct: 'Truth, the Lord of Truth, the King whose name is Truth."',
+            wrong: ['"Amun hidden in all things."', '"Ptah who spoke the world into being."', '"Aten the disc of heaven."']
+          },
+          {
+            start: 'Book of the Dead, Chapter 125: Thoth records the result of the weighing of the heart and reports to Osiris — his role in the judgment scene established',
+            correct: 'the Egyptian concept of divine record-keeping and posthumous moral accounting.',
+            wrong: ['a priestly class who could alter the verdict for payment.', 'the pharaoh\'s right to pardon any soul after death.', 'the principle that only priests could enter the Field of Reeds.']
+          }
+        ]
+      },
+      {
+        name: 'Thutmose III (Karnak Annals & Poetic Stela)',
+        emoji: '⚔️',
+        quotes: [
+          {
+            start: 'Karnak Annals (Year 23): Before the Battle of Megiddo, Thutmose III\'s officers urged him to take the safer road around the mountain — he rejected their advice and took the narrow Aruna pass, saying: "As I live, as Ra loves me, my Majesty shall proceed upon this',
+            correct: 'road of Aruna — let whoever wishes among you go upon the roads you have spoken of, and let whoever wishes among you come in my footsteps."',
+            wrong: ['"road to victory, for Amun has revealed it to me in a dream."', '"road, and let the gods decide which of us reaches Megiddo first."', '"road because fear is the weapon of our enemies, not of Egypt."']
+          },
+          {
+            start: 'Karnak Annals (Year 23): After capturing Megiddo, the annals list the spoils precisely — including 924 chariots, 200 suits of armor, 502 bows, 7 poles of cedar, and',
+            correct: '2,041 horses, 397 stallions, and 1,929 cattle.',
+            wrong: ['the golden throne of the king of Kadesh.', 'the sacred archives of the Canaanite kingdoms.', '47 ships of cedar for the royal fleet.']
+          },
+          {
+            start: 'Poetic Stela of Thutmose III (Karnak): Amun speaks to Thutmose: "I have come, causing you to smite the princes of Zahi. I have hurled them beneath your feet. I have caused them to see Your Majesty as the lord of radiance so that you have',
+            correct: 'shone in their faces like my image."',
+            wrong: ['"driven them into the sea like the enemies of Ra."', '"made them fall like stars from the night sky."', '"scattered them like chaff before the desert wind."']
+          },
+          {
+            start: 'Karnak Annals (Year 33): Thutmose III records crossing the Euphrates River — describing the lands beyond as ones where "the great circuit of the sun encircles it." His victory stele was set',
+            correct: 'beside that of his grandfather Thutmose I across the Euphrates.',
+            wrong: ['at the summit of Mount Lebanon.', 'at the source of the Tigris River.', 'at the boundary stone of the Mitanni kingdom.']
+          },
+          {
+            start: 'Karnak Annals: Thutmose III conducted at least 17 military campaigns in the Levant — establishing a system of annual tribute that transformed Egypt\'s relationship with Canaan from raiding to',
+            correct: 'permanent political and economic domination.',
+            wrong: ['religious conversion to Egyptian worship.', 'colonization by Egyptian settlers.', 'marriage alliances replacing military control.']
+          },
+          {
+            start: 'Thutmose III is often called the "Napoleon of Ancient Egypt" by modern historians — the comparison relates to his systematic use of',
+            correct: 'rapid strategic movement, detailed logistical records, and the building of an empire through successive campaigns.',
+            wrong: ['cavalry and chariot tactics borrowed from the Hittites.', 'naval power to project force across the Mediterranean.', 'religious propaganda to justify aggressive expansion.']
+          }
+        ]
+      }
     ]
   },
   {
@@ -974,103 +1348,403 @@ export const CIVILIZATIONS = [
     bg: '#0a0a0a',
     authors: [
       {
-        name: 'Procopius',
+        // The Secret History was not published in his lifetime — discovered in the Vatican Library (1623).
+        // Procopius served as Belisarius's secretary, giving him firsthand access to court events.
+        name: 'Procopius of Caesarea (Wars & Secret History)',
         emoji: '📜',
         quotes: [
-          { start: 'The emperor and his wife were a pair of bloodthirsty', correct: 'demons.', wrong: ['saints.', 'heroes.', 'lovers.'] },
-          { start: 'Justice was never done in the courts except when it was', correct: 'bought.', wrong: ['always done.', 'never needed.', 'freely given.'] },
-          { start: 'The people of Byzantium were divided into two factions, the Blues and the Greens, and their hatred for each other was greater than their hatred for', correct: 'the Persians.', wrong: ['the emperor.', 'the church.', 'the poor.'] },
-          { start: 'Power tends to corrupt, and absolute power', correct: 'corrupts absolutely.', wrong: ['is always good.', 'is never abused.', 'is divine.'] },
-          { start: 'The secret history reveals what the official history', correct: 'conceals.', wrong: ['celebrates.', 'praises.', 'ignores.'] },
-          { start: 'Theodora was a woman of great beauty and greater', correct: 'ambition.', wrong: ['virtue.', 'piety.', 'humility.'] }
+          {
+            start: 'Secret History (Ch.12): Procopius describes Justinian as "an evil demon" who in human form managed to destroy the whole world — adding that nature seemed to have removed from him all',
+            correct: 'natural human qualities and replaced them with wickedness.',
+            wrong: ['interest in military affairs.', 'capacity for theological debate.', 'affection for the circus factions.']
+          },
+          {
+            start: 'Secret History (Ch.9): Procopius claims Theodora was "the most depraved of all women" who exercised power so total that the emperor did nothing',
+            correct: 'without her consent.',
+            wrong: ['for the church without bribing her.', 'in battle without her blessing.', 'in theology without her approval.']
+          },
+          {
+            start: 'Secret History (Ch.14): Procopius states that under Justinian, justice was never obtained from the courts except by those who',
+            correct: 'paid large sums of money.',
+            wrong: ['were of senatorial rank.', 'brought witnesses from the provinces.', 'had served in the army.']
+          },
+          {
+            start: 'Wars (Book 1, Ch.24): Procopius describes the Nika Riot of 532 CE — the circus factions of the Blues and Greens temporarily united against Justinian, and the emperor considered',
+            correct: 'fleeing Constantinople by ship.',
+            wrong: ['summoning the Pope to mediate.', 'converting to Monophysitism.', 'surrendering to the Goths.']
+          },
+          {
+            start: 'Secret History (Ch.18): Procopius claims that Theodora openly blocked appointments to public office, directing that no official could take up his post without',
+            correct: 'first submitting to her authority.',
+            wrong: ['swearing loyalty to the Greens faction.', 'making a donation to the Hagia Sophia.', 'receiving Belisarius\'s military approval.']
+          },
+          {
+            start: 'Wars (Book 7, Ch.21): Procopius inserts a speech by the Gothic king Totila to his troops arguing that injustice by rulers is what destroys armies — a passage that reflects Procopius\'s method of using',
+            correct: 'set speeches to convey political and moral analysis.',
+            wrong: ['verbatim transcriptions of recorded speeches.', 'Gothic oral tradition he personally collected.', 'Justinian\'s own court documents.']
+          },
+          {
+            start: 'Buildings (Peri Ktismaton, Book 1): In stark contrast to the Secret History, Procopius lavishly praises Justinian as a emperor divinely inspired to build — a contrast scholars use to debate whether Procopius wrote the Buildings as',
+            correct: 'official panegyric, possibly under imperial pressure.',
+            wrong: ['a sincere retraction of his Secret History views.', 'a theological treatise on church architecture.', 'a geography manual for military campaigns.']
+          },
+          {
+            start: 'Secret History (Ch.30): Procopius ends with the claim that Justinian was responsible for the deaths of a trillion (myriads of myriads) people — a figure modern historians read as',
+            correct: 'rhetorical hyperbole expressing his moral condemnation.',
+            wrong: ['a literal census calculation.', 'a theological reference to the Book of Revelation.', 'an estimate by Belisarius\'s quartermaster corps.']
+          }
         ]
       },
       {
-        name: 'Michael Psellos',
+        name: 'Michael Psellos (Chronographia)',
         emoji: '📜',
         quotes: [
-          { start: 'The history of the emperors is a history of human weakness and divine', correct: 'judgment.', wrong: ['mercy.', 'favor.', 'power.'] },
-          { start: 'Ambition is the mother of all', correct: 'vices.', wrong: ['virtues.', 'success.', 'wisdom.'] },
-          { start: 'A ruler who cannot control himself cannot control an', correct: 'empire.', wrong: ['army.', 'people.', 'church.'] },
-          { start: 'The tongue is a little member, but it can set the whole world on', correct: 'fire.', wrong: ['peace.', 'silence.', 'love.'] },
-          { start: 'Fortune is a fickle goddess who raises men up only to cast them', correct: 'down.', wrong: ['higher.', 'aside.', 'away.'] },
-          { start: 'True wisdom lies not in knowledge alone, but in the application of knowledge with', correct: 'virtue.', wrong: ['power.', 'wealth.', 'fame.'] }
+          {
+            start: 'Chronographia (Book 4, §16): Psellos describes Michael IV as a man whose beauty concealed an epileptic condition that the empress Zoe deliberately',
+            correct: 'ignored in order to marry him.',
+            wrong: ['used to control him through his doctors.', 'reported to the Patriarch to annul the marriage.', 'exploited to seize the treasury.']
+          },
+          {
+            start: 'Chronographia (Book 6, §1): Psellos opens his account of Empress Zoe by marvelling that an old woman of such physical weakness could hold power — attributing it to the reverence Byzantines felt for the',
+            correct: 'Macedonian dynasty\'s sacred imperial bloodline.',
+            wrong: ['Orthodox Church\'s endorsement.', 'army\'s loyalty purchased by gold.', 'Senate\'s legal designation.']
+          },
+          {
+            start: 'Chronographia (Book 6, §§160–185): Psellos praises Constantine IX Monomachos for his generosity and love of beauty, but criticizes him for allowing favorites and mistresses to',
+            correct: 'drain the imperial treasury.',
+            wrong: ['command the imperial armies.', 'rewrite the empire\'s laws.', 'appoint foreign rulers to Byzantine provinces.']
+          },
+          {
+            start: 'Chronographia (Book 7): Psellos describes Romanos IV Diogenes — who led the Byzantines to catastrophic defeat at Manzikert (1071 CE) — as a man of great physical courage but',
+            correct: 'deficient in strategic judgment and diplomatic subtlety.',
+            wrong: ['loyal to the church above all else.', 'personally cowardly in battle.', 'secretly sympathetic to the Seljuks.']
+          },
+          {
+            start: 'Chronographia (Prooemion): Psellos opens by stating he will write history in a style combining accuracy with',
+            correct: 'the rhetorical power of classical Greek prose.',
+            wrong: ['strict theological neutrality.', 'the simplicity of vernacular Greek.', 'official court ceremonial language.']
+          },
+          {
+            start: 'Psellos\'s De Omnifaria Doctrina presents philosophy, theology, and natural science as complementary — reflecting his effort to revive',
+            correct: 'Platonic and Neoplatonic philosophy within a Christian framework.',
+            wrong: ['Aristotelian logic as the sole method of theology.', 'Persian Zoroastrian cosmology for Byzantine use.', 'Arabic medicine as Byzantine court practice.']
+          },
+          {
+            start: 'Chronographia (Book 5): In a famous passage, Psellos describes Empress Zoe spending her time in her chambers making perfumes and tending a furnace — noting that despite her age, the heat did not seem to',
+            correct: 'age or wrinkle her skin.',
+            wrong: ['disturb her theological composure.', 'interfere with her command of the fleet.', 'reduce her donations to the Hagia Sophia.']
+          },
+          {
+            start: 'Chronographia: Psellos explicitly states he will not follow the tradition of writing only about military campaigns and victories, but will instead focus on the',
+            correct: 'characters, decisions, and inner lives of the emperors.',
+            wrong: ['theological controversies dividing the church.', 'economic history of the treasury and taxation.', 'architectural projects of the Macedonian dynasty.']
+          }
         ]
       },
       {
-        name: 'Anna Komnene',
+        name: 'Anna Komnene (The Alexiad)',
         emoji: '📜',
         quotes: [
-          { start: 'My father was a man of great courage and even greater', correct: 'wisdom.', wrong: ['ambition.', 'cruelty.', 'weakness.'] },
-          { start: 'Women are not suited to rule, yet necessity sometimes forces them to', correct: 'lead.', wrong: ['obey.', 'follow.', 'submit.'] },
-          { start: 'The history of emperors is written in blood and', correct: 'tears.', wrong: ['gold.', 'glory.', 'silence.'] },
-          { start: 'A ruler must be both lion and', correct: 'fox.', wrong: ['sheep and dove.', 'eagle and serpent.', 'wolf and bear.'] },
-          { start: 'The greatest danger to an empire is not the enemy without, but the traitor', correct: 'within.', wrong: ['above.', 'below.', 'beside.'] }
+          {
+            start: 'Alexiad (Preface, §1): Anna opens the Alexiad by lamenting that "great floods of calamity" have swept over her life — and that she takes up the pen so that the great deeds of her father will not be',
+            correct: 'swallowed by the silence of time and obscured by darkness.',
+            wrong: ['distorted by the lies of his enemies.', 'misunderstood by Western Crusaders.', 'forgotten by the ungrateful Senate.']
+          },
+          {
+            start: 'Alexiad (Preface, §3): Anna claims authority as a historian by stating she was "not ignorant of letters" — having been educated in rhetoric, philosophy, and having read',
+            correct: 'Aristotle and the Platonic dialogues.',
+            wrong: ['Persian chronicles and Arab geography.', 'Latin legal texts and Roman history.', 'the works of Procopius alone.']
+          },
+          {
+            start: 'Alexiad (Book 10, Ch.5): Anna describes the First Crusade armies arriving as an enormous, undisciplined barbarian force — like a river flooding its banks — expressing alarm at how many Frankish warriors there were and how',
+            correct: 'difficult they were for Alexios to control.',
+            wrong: [
+              'eager they were to settle permanently in Constantinople.',
+              'quickly they adopted Byzantine customs and language.',
+              'dependent they were on Byzantine military protection.'
+            ]
+          },
+          {
+            start: 'Alexiad (Book 10, Ch.11): Anna gives a famous description of the Crusader leader Bohemond of Taranto — noting his extraordinary height, blue eyes, and a certain terrifying quality mingled with charm that made him both',
+            correct: 'attractive and unsettling.',
+            wrong: [
+              'humble and easily overlooked.',
+              'deeply pious and indifferent to warfare.',
+              'widely trusted by every Byzantine official.'
+            ]
+          },
+          {
+            start: 'Alexiad (Book 15, Ch.11): Anna describes the death of her father Alexios I at length — her grief is evident but she also records Empress Eirene\'s refusal to',
+            correct: 'leave Alexios\'s bedside, even when advised to rest.',
+            wrong: ['allow physicians to treat him in his final days.', 'inform the Senate of his declining condition.', 'summon the Patriarch for last rites.']
+          },
+          {
+            start: 'Alexiad (Book 15): Historians note that Anna conspired with her husband Nikephoros Bryennios to depose her brother John II after Alexios died — though in the Alexiad she',
+            correct: 'does not directly describe her own role in the conspiracy.',
+            wrong: ['proudly admits her leadership of the coup attempt.', 'blames Empress Eirene entirely for the plot.', 'denies that any conspiracy against John II ever occurred.']
+          },
+          {
+            start: 'Alexiad (Book 1, Ch.1): Anna describes her father Alexios Komnenos before his accession as a young general of outstanding military talent who was already, at a young age, the effective military backbone of an empire that had grown',
+            correct: 'weak under incompetent emperors.',
+            wrong: [
+              'wealthy through successful trade with Italy.',
+              'powerful through a series of territorial conquests.',
+              'stable thanks to decades of peaceful succession.'
+            ]
+          },
+          {
+            start: 'The Alexiad is one of the most important Byzantine primary sources for the First Crusade (1096–1099 CE), providing a Greek Orthodox perspective on events that',
+            correct: 'Latin sources describe very differently.',
+            wrong: [
+              'were ignored by all Western chroniclers.',
+              'took place centuries before the Crusading era.',
+              'involved only Byzantine armies and no Western knights.'
+            ]
+          }
         ]
       },
       {
-        name: 'Justinian I',
+        name: 'Justinian I (Corpus Juris Civilis & Novels)',
         emoji: '🏛️',
         quotes: [
-          { start: 'Justice is the constant and perpetual will to render to every man his', correct: 'due.', wrong: ['share.', 'portion.', 'reward.'] },
-          { start: 'Theodora said: "Purple is the noblest', correct: 'shroud."', wrong: ['color.', 'robe.', 'garment.'] },
-          { start: 'A ruler must be both feared and', correct: 'loved.', wrong: ['hated.', 'ignored.', 'worshipped.'] },
-          { start: 'The law is the king of all mortal and immortal', correct: 'beings.', wrong: ['things.', 'gods.', 'men.'] }
+          {
+            start: 'Corpus Juris Civilis, Institutiones (1.1): "Iustitia est constans et perpetua voluntas ius suum cuique tribuendi" — Justice is the constant and perpetual will to render to every person',
+            correct: 'their due right (ius suum)."',
+            wrong: ['their equal share."', 'what the emperor commands."', 'what God has ordained."']
+          },
+          {
+            start: 'Corpus Juris Civilis, Institutiones (1.1.3): The three precepts of law are stated as: "To live honestly (honeste vivere), to harm no one (alterum non laedere), and to give each his',
+            correct: 'own (suum cuique tribuere)."',
+            wrong: ['due punishment."', 'rightful share of the harvest."', 'place in the divine order."']
+          },
+          {
+            start: 'Digest (1.1.10, from Ulpian, preserved in Justinian\'s compilation): "The study of law (iurisprudentia) is the knowledge of things divine and human, the science of the just and the',
+            correct: 'unjust (iusti atque iniusti scientia)."',
+            wrong: ['royal and the sacred."', 'eternal and the temporal."', 'written and the customary."']
+          },
+          {
+            start: 'Novel 6 (535 CE), Preface: Justinian states that the greatest gifts God has given humanity are "the priesthood (hierosyne) and the imperial authority (basileia)" — and that when both are in',
+            correct: 'harmony, the good of the human race is served.',
+            wrong: ['conflict, the priesthood must prevail.', 'unity, the emperor alone rules the church.', 'agreement, laws become unnecessary.']
+          },
+          {
+            start: 'Procopius, Wars (1.24): During the Nika Riot (532 CE), when Justinian considered fleeing, Theodora reportedly said: "May I never be without this purple robe, nor live to see the day when those who meet me do not call me',
+            correct: 'empress" — adding that the purple was a noble enough shroud.',
+            wrong: ['queen of queens."', 'defender of the faith."', 'mother of the empire."']
+          },
+          {
+            start: 'Procopius, Buildings (1.1): When Hagia Sophia was completed (537 CE), Justinian reportedly exclaimed: "Solomon, I have',
+            correct: 'surpassed you!"',
+            wrong: ['"honored you!"', '"equalled you!"', '"learned from you!"']
+          },
+          {
+            start: 'Codex Justinianus (1.17.2): Justinian justifies the Digest compilation by arguing that emperors have the authority both to create law and to interpret and',
+            correct: 'unify conflicting legal opinions.',
+            wrong: [
+              'abolish all previous Roman legislation.',
+              'replace judges with military commanders.',
+              'delegate legal authority entirely to the Senate.'
+            ]
+          },
+          {
+            start: 'Novel 133 (539 CE): Justinian legislated in detail on monastic life — requiring monks to remain in their monasteries and prohibiting them from',
+            correct: 'wandering the cities or interfering in public legal disputes.',
+            wrong: ['receiving gifts from wealthy donors.', 'studying Greek philosophical texts.', 'corresponding with the Bishop of Rome.']
+          }
         ]
       },
       {
-        name: 'John Chrysostom',
+        name: 'John Chrysostom (Homilies & On the Priesthood)',
         emoji: '📜',
         quotes: [
-          { start: 'The rich man is not he who has much, but he who gives', correct: 'much.', wrong: ['little.', 'nothing.', 'all.'] },
-          { start: 'Hell is paved with the skulls of', correct: 'bishops.', wrong: ['priests.', 'kings.', 'saints.'] },
-          { start: 'The love of money is the root of all', correct: 'evil.', wrong: ['good.', 'power.', 'wisdom.'] },
-          { start: 'To commit a sin is to wound your own', correct: 'soul.', wrong: ['body.', 'mind.', 'reputation.'] }
+          {
+            start: 'Homily on Matthew (77.5): Chrysostom states that adorning the altar with gold while Christ in the form of the poor man starves outside is',
+            correct: 'to dishonor Christ in both cases — at the altar and in the street.',
+            wrong: ['a pious act pleasing to God.', 'permitted if the poor are given their tenth.', 'the duty of the emperor not the bishop.']
+          },
+          {
+            start: 'On the Priesthood (Book 3.9): Chrysostom argues that the priestly office demands more virtue than even the monastic life — because the priest must be',
+            correct: 'pure while living in the world and dealing with sinful people.',
+            wrong: ['wealthier than secular rulers to command respect.', 'trained in Roman law to settle parish disputes.', 'a soldier capable of defending the church physically.']
+          },
+          {
+            start: 'Homily on 1 Corinthians (34.5): "Do you wish to honor the body of Christ? Do not ignore him when he is naked. Do not pay him homage in the temple clad in silk only to neglect him',
+            correct: 'outside where he is cold and ill-clad."',
+            wrong: ['in the street where he begs for bread."', 'when he comes to you as a widow or orphan."', 'when he appears to you in dreams and visions."']
+          },
+          {
+            start: 'Letter to Pope Innocent I (406 CE): During his exile, Chrysostom wrote to the Pope complaining that his deposition was engineered without a proper synod and that he had been expelled from his see by',
+            correct: 'imperial power acting through corrupted bishops.',
+            wrong: ['the legitimate vote of the Constantinople clergy.', 'a council convened according to Nicene canons.', 'the agreement of all five patriarchs.']
+          },
+          {
+            start: 'Homily on Ephesians (11.4): Chrysostom describes marriage as a kind of church — "where a husband and wife come together with the fear of God, virtue, and the right spirit, their household is',
+            correct: 'a little church."',
+            wrong: ['blessed above the monastery."', 'equal to the priesthood."', 'a sacrifice pleasing to God."']
+          },
+          {
+            start: 'The saying "The road to hell is paved with the bones of priests and monks, and the skulls of bishops are the lampposts along the way" circulates as a Chrysostom quote — it appears in no verified Chrysostom text but is traced to',
+            correct: 'later patristic misattribution, possibly from John of the Ladder or later Eastern monastic tradition.',
+            wrong: ['Chrysostom\'s On the Priesthood Book 6.', 'a letter to the Empress Eudoxia (403 CE).', 'the Council of Chalcedon (451 CE) proceedings.']
+          },
+          {
+            start: 'Homily on Acts (11.3): Chrysostom declares that great wealth in the hands of one person is always the result of injustice — either personal or ancestral — since wealth cannot accumulate without',
+            correct: 'someone being deprived.',
+            wrong: [
+              'divine favor being withdrawn.',
+              'extensive foreign trade.',
+              'the support of military force.'
+            ]
+          },
+          {
+            start: 'On the Priesthood (Book 6.13): Chrysostom argues that a bishop who seeks popularity by never rebuking sin is not a shepherd but a',
+            correct: 'flatterer who endangers the souls in his care.',
+            wrong: ['wise administrator preserving church unity.', 'servant of imperial policy.', 'model of evangelical humility.']
+          }
         ]
       },
       {
-        name: 'Leo VI the Wise',
+        name: 'Leo VI the Wise (Taktika & Novels)',
         emoji: '📜',
         quotes: [
-          { start: 'It is not any of those things sought after and esteemed by men that brings such joy to Our Majesty as does the peace and prosperity of our', correct: 'subjects.', wrong: ['enemies.', 'treasury.', 'army.'] },
-          { start: 'The voice of a general is better than the sound of the', correct: 'trumpet.', wrong: ['sword.', 'drum.', 'horn.'] },
-          { start: 'Share on all occasions the work and fatigue of war with those you', correct: 'command.', wrong: ['defeat.', 'rule.', 'fear.'] },
-          { start: 'Your morals must be a model for', correct: 'others.', wrong: ['yourself.', 'the enemy.', 'the court.'] },
-          { start: 'Without divine assistance nothing will', correct: 'succeed.', wrong: ['fail.', 'matter.', 'endure.'] },
-          { start: 'Justice is the constant and perpetual will to render to every man his', correct: 'due.', wrong: ['share.', 'portion.', 'reward.'] },
-          { start: 'A ruler must govern with no other goal than the honor of', correct: 'them.', wrong: ['himself.', 'God alone.', 'the army.'] },
-          { start: 'The multitude of my unmeasured trespasses, rightly and justly I am', correct: 'suffering.', wrong: ['rejoicing.', 'ruling.', 'victorious.'] }
+          {
+            start: 'Taktika (Epilogue, §73): "It is not any of those things sought after and esteemed by men that brings such joy to Our Majesty as does the peace and prosperity of our',
+            correct: 'subjects."',
+            wrong: ['armies."', 'enemies\' defeats."', 'treasury\'s growth."']
+          },
+          {
+            start: 'Taktika (Constitution 2, §11): "The voice of a well-respected general is better than the sound of the',
+            correct: 'trumpet."',
+            wrong: ['sword."', 'charging cavalry."', 'church bell."']
+          },
+          {
+            start: 'Taktika (Constitution 2, §47): "Share on all occasions the work and fatigue of war with those you',
+            correct: 'command."',
+            wrong: ['fear."', 'oppose."', 'train."']
+          },
+          {
+            start: 'Taktika (Epilogue): "Your morals must be a model for',
+            correct: 'those under your command."',
+            wrong: ['the emperor alone."', 'the enemy\'s admiration."', 'the church\'s approval."']
+          },
+          {
+            start: 'Taktika (Constitution 2): "Without divine assistance, no strategy, however well designed, will',
+            correct: 'succeed."',
+            wrong: ['fail outright."', 'satisfy the soldiers."', 'be known to the enemy."']
+          },
+          {
+            start: 'Novel 89: Leo VI issued a Novel prohibiting fourth marriages — then controversially contracted a fourth marriage himself with Zoe Karbonopsina to legitimize his heir Constantine, causing the',
+            correct: 'Tetragamy Controversy that divided the Byzantine church for years.',
+            wrong: ['excommunication of the Patriarch by the Pope.', 'exile of all Eastern bishops who opposed him.', 'immediate recognition of his marriage by Rome.']
+          },
+          {
+            start: 'Taktika (Constitution 20, §§61–63): Leo describes naval warfare and the use of fire weapons — advising that Greek fire should be deployed',
+            correct: 'from the prow of ships against enemy vessels, especially in calm seas.',
+            wrong: ['only when winds favor the Byzantine fleet.', 'from fortified harbors rather than moving ships.', 'exclusively against land-based enemy camps.']
+          },
+          {
+            start: 'Taktika (Constitution 18): Leo stresses that a general must gather detailed intelligence on enemy customs, tactics, and terrain — "a general who does not know his enemy fights',
+            correct: 'in the dark."',
+            wrong: ['for glory alone."', 'against himself."', 'without God\'s favor."']
+          }
         ]
       },
       {
-        name: 'Photios I',
+        name: 'Photios I of Constantinople (Bibliotheca & Letters)',
         emoji: '📜',
         quotes: [
-          { start: 'Nothing is dearer than the', correct: 'Truth.', wrong: ['Power.', 'Wealth.', 'Glory.'] },
-          { start: 'Love virtue more than life. For life passes, but virtue remains with you for', correct: 'eternity.', wrong: ['a moment.', 'fame.', 'riches.'] },
-          { start: 'Hate sin, but not the sinner. Sin is darkness, but man is the image of', correct: 'God.', wrong: ['the devil.', 'dust.', 'nothing.'] },
-          { start: 'Seek wisdom, not worldly glory. Worldly glory is vanity, but wisdom is a gift from God that cannot be taken', correct: 'away.', wrong: ['lightly.', 'back.', 'seriously.'] },
-          { start: 'Speak little, but with meaning. Empty words wound, but words full of grace', correct: 'build up.', wrong: ['destroy.', 'entertain.', 'confuse.'] },
-          { start: 'Be temperate in all things. Temperance guards the soul, brings peace to the mind, and sheds light in', correct: 'decisions.', wrong: ['battles.', 'debates.', 'prayers.'] },
-          { start: 'The peace and happiness of the subjects lie in the agreement and harmony of kingship and', correct: 'priesthood.', wrong: ['war.', 'wealth.', 'power.'] },
-          { start: 'A small deviation in matters of Faith represents a deadly', correct: 'sin.', wrong: ['virtue.', 'mistake.', 'choice.'] }
+          {
+            start: 'Bibliotheca (Prooemion): Photios opens by explaining he compiled the reviews of 279 books for his brother Tarasios who had been absent during his reading — making the Bibliotheca',
+            correct: 'an invaluable record of many ancient texts now otherwise lost.',
+            wrong: ['an imperial library catalogue commissioned by the emperor.', 'a theological index of approved Orthodox texts.', 'a list of books condemned by the Iconoclast councils.']
+          },
+          {
+            start: 'Bibliotheca (Codex 167): In reviewing Diodorus Siculus, Photios notes his style is "clear and pleasant" but criticizes him for credulously including',
+            correct: 'mythological material alongside historical fact.',
+            wrong: ['too much Persian history at the expense of Greek.', 'heretical theological opinions.', 'accounts hostile to the Roman empire.']
+          },
+          {
+            start: 'Letter to Boris I of Bulgaria (c.865 CE): Photios writes detailed advice to the newly-converted Bulgarian king on Christian governance — arguing that the emperor\'s first duty is to',
+            correct: 'rule his own passions before ruling the people.',
+            wrong: ['commission a new law code on the Roman model.', 'expel all pagan priests from Bulgarian territory immediately.', 'place the church above the secular courts.']
+          },
+          {
+            start: 'Mystagogy of the Holy Spirit: Photios argued against the Latin doctrine of the Filioque (the Holy Spirit proceeding from both Father and Son), insisting the Spirit proceeds from the',
+            correct: 'Father alone — a position central to the East-West theological division.',
+            wrong: ['Father and Son equally — agreeing with Rome.', 'Son alone — reversing the Eastern tradition.', 'neither Father nor Son but from the divine essence.']
+          },
+          {
+            start: 'Amphilochia (Introduction): Photios presents theology as requiring both philosophical precision and',
+            correct: 'scriptural grounding — neither alone is sufficient.',
+            wrong: ['imperial authorization to be valid.', 'rejection of all pagan Greek philosophy.', 'mystical vision above rational argument.']
+          },
+          {
+            start: 'Encyclical to Eastern Patriarchs (867 CE): Photios wrote to condemn Pope Nicholas I\'s interference in Bulgarian church affairs and the Filioque addition to the Creed — accusing the Latin church of',
+            correct: 'innovation and corruption of the received faith.',
+            wrong: ['heresy identical to Arianism.', 'violating the Council of Nicaea on baptism.', 'rejecting the authority of the Ecumenical Councils entirely.']
+          },
+          {
+            start: 'Bibliotheca (various Codices): Photios\'s literary reviews assess style, vocabulary, and content — making him one of the earliest systematic',
+            correct: 'literary critics in the Greek tradition.',
+            wrong: ['censors of imperial propaganda.', 'compilers of mathematical and scientific knowledge.', 'translators of Latin theology into Greek.']
+          },
+          {
+            start: 'At the Council of 879–880 CE (sometimes called the Eighth Ecumenical Council by Orthodox Christians), Photios was reconciled with Rome and the council annulled the condemnations against him — though',
+            correct: 'the agreement later broke down.',
+            wrong: [
+              'Photios immediately abdicated the patriarchate.',
+              'the Byzantine emperor rejected the council’s decisions.',
+              'Rome permanently accepted all of Photios’s theological positions.'
+            ]
+          }
         ]
       },
       {
-        name: 'Symeon Metaphrastes',
+        name: 'Symeon the New Theologian (Hymns & Discourses)',
         emoji: '🙏',
         quotes: [
-          { start: 'Burn, O Good Lord, the thorns of my transgressions, cleanse my soul, and purify all my', correct: 'thoughts.', wrong: ['sins.', 'body.', 'heart.'] },
-          { start: 'Ever shelter, guard, and keep me in your', correct: 'love.', wrong: ['grace.', 'mercy.', 'power.'] },
-          { start: 'Chasten me, purify me, control all my', correct: 'passions.', wrong: ['thoughts.', 'desires.', 'words.'] },
-          { start: 'Adorn me, teach me, and enlighten me', correct: 'always.', wrong: ['sometimes.', 'forever.', 'now.'] },
-          { start: 'Show me how to be a tabernacle of your Holy', correct: 'Spirit.', wrong: ['Church.', 'Temple.', 'Body.'] },
-          { start: 'Only spiritual conversation is beneficial; it is better to preserve', correct: 'stillness.', wrong: ['silence.', 'speech.', 'activity.'] },
-          { start: 'The love of money is the root of all', correct: 'evil.', wrong: ['good.', 'power.', 'wisdom.'] },
-          { start: 'Hate sin, but love the', correct: 'sinner.', wrong: ['saint.', 'righteous.', 'poor.'] }
+          {
+            start: 'Hymns of Divine Love (Hymn 1): Symeon describes the mystical experience of divine light as not theoretical but direct and personal — insisting that union with God is not reserved for',
+            correct: 'monks alone or the historical past, but available to every believer who purifies themselves.',
+            wrong: ['those ordained to the priesthood.', 'emperors and patriarchs only.', 'those born into monastic families.']
+          },
+          {
+            start: 'Discourses (22): Symeon teaches that tears of compunction (penthos) are a sign of the soul\'s awakening — and that a Christian who has never wept for their sins has not yet',
+            correct: 'truly understood the weight of their separation from God.',
+            wrong: ['completed the required fasting.', 'received the full benefit of baptism.', 'attained the minimum for salvation.']
+          },
+          {
+            start: 'Theological and Practical Chapters (1.68): Symeon insists that a Christian must be',
+            correct: 'consciously aware of the Holy Spirit\'s presence — not merely trust that baptism conferred grace automatically.',
+            wrong: ['obedient to the bishop above their own conscience.', 'trained in Greek philosophy before reading scripture.', 'a monk before receiving higher divine illumination.']
+          },
+          {
+            start: 'Discourses (6): Symeon criticizes monks who observe the external forms of monastic life — fasting, vigils, prostrations — while remaining',
+            correct: 'inwardly proud, resentful, and without genuine love.',
+            wrong: ['unsure of which theological school to follow.', 'politically active outside the monastery.', 'ignorant of the writings of the Church Fathers.']
+          },
+          {
+            start: 'Hymns of Divine Love (Hymn 25): Symeon describes the divine light (phôs) as something that comes and withdraws, as intimate as a lover and as overwhelming as',
+            correct: 'the sun — blinding the bodily eye but illuminating the spiritual eye.',
+            wrong: ['thunder — shocking the soul into obedience.', 'water — cleansing the mind of all thought.', 'darkness — requiring all external sensation to cease.']
+          },
+          {
+            start: 'Discourses (Introduction): Symeon insists that every Christian seeking union with God must have a living spiritual father (pneumatikos pater) who has themselves experienced',
+            correct: 'the direct vision of God — transmitted from master to disciple across generations.',
+            wrong: ['formal ordination and theological education.', 'imperial appointment to their monastery.', 'approval from the Patriarch of Constantinople.']
+          },
+          {
+            start: 'Symeon was exiled from Constantinople in 1009 CE by the Synkellos Stephanos of Nicomedia — the conflict arose from Symeon\'s insistence on venerating his spiritual father Symeon the Studite as a',
+            correct: 'saint without official church canonization.',
+            wrong: ['theologian superior to John Chrysostom.', 'martyr killed during the Iconoclast controversy.', 'rival patriarch to the current Constantinople incumbent.']
+          },
+          {
+            start: 'Symeon received the title "New Theologian" (Neos Theologos) — placing him in the company of John the Evangelist and Gregory of Nazianzus as one of only three figures in Orthodox tradition honored with the title',
+            correct: '"Theologian."',
+            wrong: ['"Ecumenical Teacher."', '"Equal to the Apostles."', '"Pillar of Orthodoxy."']
+          }
         ]
-      },
-
+      }
     ]
   },
   {
@@ -1082,780 +1756,1338 @@ export const CIVILIZATIONS = [
     bg: '#0a0a0a',
     authors: [
       {
-        name: 'Cyrus the Great',
+        name: 'Cyrus the Great (Cylinder & Herodotus)',
         emoji: '👑',
         quotes: [
-          { start: 'I am Cyrus, king of the world, great king, legitimate king, king of Babylon, king of Sumer and Akkad, king of the four rims of the', correct: 'earth.', wrong: ['heavens.', 'Persia.', 'Greece.'] },
-          { start: 'Whenever you can, act as a', correct: 'liberator.', wrong: ['conqueror.', 'tyrant.', 'ruler.'] },
-          { start: 'Freedom, dignity, wealth — these three together constitute the greatest happiness of', correct: 'humanity.', wrong: ['kings.', 'gods.', 'soldiers.'] },
-          { start: 'Success should always call for showing greater kindness, generosity, and justice — though most people treat it as an occasion for greater', correct: 'greed.', wrong: ['pride.', 'power.', 'wealth.'] },
-          { start: 'Better to live in a rugged land and rule than to cultivate rich plains and be a', correct: 'slave.', wrong: ['king.', 'farmer.', 'warrior.'] },
-          { start: 'I did not allow anyone to terrorize the land. I restored peace to all', correct: 'countries.', wrong: ['cities.', 'temples.', 'armies.'] },
-          { start: 'All men have their frailties; and whoever looks for a friend without imperfections will never find what he', correct: 'seeks.', wrong: ['deserves.', 'wants.', 'needs.'] },
-          { start: 'Even if the skies were shorter than my knees, I would not', correct: 'kneel.', wrong: ['rise.', 'bow.', 'yield.'] },
-          { start: 'A man\'s enjoyment of all good things is in exact proportion to the pains he has undergone to gain', correct: 'them.', wrong: ['wealth.', 'power.', 'fame.'] },
-          { start: 'O man, whoever you are and wherever you come from, for I know you will come — I am Cyrus who won the Persians their empire. Do not therefore begrudge me this bit of earth that covers my', correct: 'bones.', wrong: ['tomb.', 'statue.', 'legacy.'] },
-          { start: 'Soft countries breed soft men. It is not possible for the same land to bear both wonderful fruits and men who are good at', correct: 'war.', wrong: ['peace.', 'trade.', 'rule.'] }
+          {
+            start: 'Cyrus Cylinder (line 20): "I am Cyrus, king of the world, great king, legitimate king, king of Babylon, king of Sumer and Akkad, king of the four rims of the',
+            correct: 'earth."',
+            wrong: ['heavens."', 'Persians."', 'sea."']
+          },
+          {
+            start: 'Cyrus Cylinder (lines 30–32): Cyrus declares that he allowed the peoples he conquered to return to their homes and rebuild their',
+            correct: 'sanctuaries.',
+            wrong: ['armies.', 'palaces.', 'trade routes.']
+          },
+          {
+            start: 'Cyrus Cylinder (line 35): Cyrus states he restored the gods of Sumer and Akkad — whom Nabonidus had brought into Babylon — to their',
+            correct: 'own cities and eternal shrines.',
+            wrong: ['treasury vaults.', 'new temples in Persepolis.', 'royal court.']
+          },
+          {
+            start: 'Cyrus Cylinder (lines 36–37): Cyrus prays that Marduk, who loves his rule, will grant him and his son Cambyses',
+            correct: 'long life and good deeds.',
+            wrong: ['conquest of Greece.', 'dominion over the seas.', 'divine immortality.']
+          },
+          {
+            start: 'Herodotus (1.89): When Cyrus asked the captured Lydian king Croesus what he was doing, Croesus replied he was doing what Cyrus himself had wished — demonstrating the',
+            correct: 'reversal of fortune that the gods impose on the proud.',
+            wrong: ['loyalty of a defeated king.', 'generosity of the Persian court.', 'Persian tradition of ransom.']
+          },
+          {
+            start: 'Herodotus (1.136): Herodotus reports that Persians educate their sons from age five to twenty in only three things: riding, archery, and',
+            correct: 'speaking the truth.',
+            wrong: ['reading and writing.', 'sword-fighting.', 'religious ritual.']
+          },
+          {
+            start: 'Xenophon, Cyropaedia (1.2.1) — a literary work, not strict history: Cyrus is described as possessing a natural character inclined toward',
+            correct: 'honorable ambition and a desire to excel.',
+            wrong: ['military conquest alone.', 'priestly authority.', 'wealth accumulation.']
+          },
+          {
+            start: 'Xenophon, Cyropaedia (8.7.13) — Cyrus\'s reported deathbed speech urges his sons never to quarrel over the kingdom, for nothing destroys power faster than',
+            correct: 'internal strife.',
+            wrong: ['foreign invasion.', 'excessive taxation.', 'the neglect of religious rites.']
+          },
+          {
+            start: 'Herodotus (1.126): Cyrus told the Persians that if they obeyed him, they would enjoy all the good things of the Medes — but if they refused, they would face',
+            correct: 'toils without number.',
+            wrong: ['immediate execution.', 'exile from Persia.', 'divine punishment.']
+          },
+          {
+            start: 'Herodotus (1.153): When a Spartan envoy warned Cyrus not to harm the Greeks, Cyrus reportedly said he had never yet been afraid of men who have a place set apart in the middle of their city for',
+            correct: 'swearing oaths and cheating one another.',
+            wrong: ['worshipping foreign gods.', 'electing their generals.', 'building grand temples.']
+          },
+          {
+            start: 'Edict of Cyrus (Ezra 1:2–3, Hebrew Bible): "The LORD, the God of Heaven, has given me all the kingdoms of the earth and he has appointed me to build a temple for him at',
+            correct: 'Jerusalem in Judah."',
+            wrong: ['"Babylon in Mesopotamia."', '"Persepolis in Persia."', '"Sardis in Lydia."']
+          },
+          {
+            start: 'Isaiah 45:1 (Hebrew Bible): The prophet Isaiah designates Cyrus as the LORD\'s',
+            correct: 'anointed (mashiach)',
+            wrong: ['servant (eved)', 'enemy (oyev)', 'instrument (kli)']
+          },
+          {
+            start: 'Herodotus (1.214): The Massagetae queen Tomyris, after defeating and killing Cyrus, reportedly dipped his head in blood saying she had fulfilled her threat to give him his',
+            correct: 'fill of blood.',
+            wrong: ['just punishment.', 'honorable burial.', 'Persian rites.']
+          }
         ]
       },
       {
-        name: 'Darius I the Great',
+        name: 'Darius I the Great (Behistun & Naqsh-e Rostam)',
         emoji: '👑',
         quotes: [
-          { start: 'I am Darius, the great king, king of kings, king in Persia, king of', correct: 'countries.', wrong: ['Greece.', 'Egypt.', 'Rome.'] },
-          { start: 'By the grace of Ahura Mazda I became king; Ahura Mazda bestowed the kingdom upon', correct: 'me.', wrong: ['my father.', 'the people.', 'my enemies.'] },
-          { start: 'The countries which are subject unto me — by the grace of Ahura Mazda I became king of', correct: 'them.', wrong: ['one.', 'none.', 'all the earth.'] },
-          { start: 'Punish the liar and the rebel severely, that justice may prevail in the', correct: 'land.', wrong: ['empire.', 'army.', 'court.'] },
-          { start: 'What is right, that is what I love. What is not right, that I', correct: 'hate.', wrong: ['ignore.', 'tolerate.', 'praise.'] },
-          { start: 'You who shall be king hereafter, protect this inscription and these sculptures. Do not', correct: 'destroy them.', wrong: ['ignore them.', 'expand them.', 'copy them.'] },
-          { start: 'From antiquity our family have been kings. From antiquity we have been', correct: 'noble.', wrong: ['powerful.', 'rich.', 'feared.'] },
-          { start: 'I rewarded well the man who was loyal; him who was evil, him I punished', correct: 'well.', wrong: ['lightly.', 'harshly.', 'quickly.'] },
+          {
+            start: 'Behistun Inscription (§1): "I am Darius the great king, king of kings, king of Persia, king of',
+            correct: 'countries."',
+            wrong: ['mountains."', 'the earth."', 'the sea."']
+          },
+          {
+            start: 'Behistun Inscription (§5): "By the grace of Ahura Mazda I became king; Ahura Mazda',
+            correct: 'bore me aid."',
+            wrong: ['chose my father."', 'gave me gold."', 'destroyed my enemies alone."']
+          },
+          {
+            start: 'Behistun Inscription (§54): Darius commands future kings: "If you shall think \'May my country be secure\', protect this law which Ahura Mazda has',
+            correct: 'established."',
+            wrong: ['forbidden."', 'hidden."', 'written for priests only."']
+          },
+          {
+            start: 'Naqsh-e Rostam Inscription (DNb, §8): "I am not hot-tempered. I hold firmly under control what comes as anger to my',
+            correct: 'heart.',
+            wrong: ['mind.', 'enemies.', 'subjects.']
+          },
+          {
+            start: 'Naqsh-e Rostam (DNb, §8): "I am not impulsive. When I feel rage, I keep',
+            correct: 'this controlled by my reason."',
+            wrong: ['it secret from all."', 'it known to my generals."', 'it hidden until justice comes."']
+          },
+          {
+            start: 'Naqsh-e Rostam (DNa, §4): Darius states he trained as a horseman, a bowman on foot and on horseback, and as a',
+            correct: 'spearman on foot and on horseback.',
+            wrong: ['charioteer and naval commander.', 'priest of Ahura Mazda.', 'judge and lawgiver.']
+          },
+          {
+            start: 'Behistun Inscription (§5): Darius identifies the greatest crime as "the Lie" (drauga) — his inscription states he punished whoever was',
+            correct: 'a follower of the Lie.',
+            wrong: ['a rebel against taxes.', 'a foreign worshipper.', 'a coward in battle.']
+          },
+          {
+            start: 'Persepolis Fortification Tablets (c.509–494 BCE): These administrative records show that Darius\'s empire paid',
+            correct: 'rations to workers of all nationalities, including women.',
+            wrong: ['only Persian nobles.', 'only soldiers on campaign.', 'only Zoroastrian priests.']
+          },
+          {
+            start: 'Herodotus (3.82): In the "Constitutional Debate," Darius argues that monarchy is superior to oligarchy or democracy because a single excellent ruler can best preserve',
+            correct: 'unity and keep the state free from faction.',
+            wrong: ['religious tradition.', 'military expansion.', 'Zoroastrian law.']
+          },
+          {
+            start: 'Susa Foundation Charter (DSf): Darius lists the peoples who built the palace at Susa — Ionians, Lydians, Babylonians, Egyptians — emphasizing that the empire\'s construction was',
+            correct: 'a collaboration of many subject peoples.',
+            wrong: ['the work of Persian craftsmen alone.', 'completed by slave labor exclusively.', 'a gift from Ahura Mazda without human effort.']
+          }
         ]
       },
       {
-        name: 'Xerxes I',
+        name: 'Xerxes I (Persepolis Inscriptions & Herodotus)',
         emoji: '👑',
         quotes: [
-          { start: 'I am Xerxes, great king, king of kings, king of countries containing all kinds of', correct: 'men.', wrong: ['gods.', 'Persians.', 'Greeks.'] },
-          { start: 'Only by great risks can great', correct: 'results be achieved.', wrong: ['riches.', 'peace.', 'safety.'] },
-          { start: 'We should so extend the boundaries of the Persian territory that the sea will be its boundary on every', correct: 'side.', wrong: ['mountain.', 'river.', 'city.'] },
-          { start: 'I am moved to pity when I think of the brevity of human life, seeing that of all this host of men not one will be alive in a hundred', correct: 'years.', wrong: ['days.', 'battles.', 'generations.'] },
-          { start: 'The best man is he who lays his plans warily, with an eye for every disaster which might occur, but when the time comes, acts', correct: 'boldly.', wrong: ['cautiously.', 'slowly.', 'rashly.'] },
-          { start: 'Great successes are not won save by great', correct: 'risks.', wrong: ['luck.', 'planning.', 'wealth.'] }
+          {
+            start: 'Persepolis Daiva Inscription (XPh, §4): Xerxes declares that among the lands he controlled, there was one where "daivas" (false gods) had been worshipped. He destroyed their temples and',
+            correct: 'proclaimed that Ahura Mazda alone was to be worshipped there.',
+            wrong: ['replaced them with Persian gods.', 'enslaved their priests.', 'burned their sacred texts.']
+          },
+          {
+            start: 'Persepolis Daiva Inscription (XPh, §1): "I am Xerxes, great king, king of kings, king of lands containing many men, king of this great earth',
+            correct: 'far and wide."',
+            wrong: ['"above and below."', '"from sea to sea."', '"of gods and mortals."']
+          },
+          {
+            start: 'Herodotus (7.44): As Xerxes reviewed his entire army and fleet at Abydos, he first declared himself happy, but then',
+            correct: 'wept, realizing no man of all these would be alive in a hundred years.',
+            wrong: ['laughed at the size of his force.', 'prayed to Ahura Mazda for victory.', 'ordered a sacrifice of one thousand oxen.']
+          },
+          {
+            start: 'Herodotus (7.45): The wise counsellor Artabanus told Xerxes that there are things in life even more pitiable than the shortness of life — that in all that short life, no man is so happy that he will not wish, more than once, that he were',
+            correct: 'dead rather than alive.',
+            wrong: ['a king rather than a subject.', 'fighting rather than waiting.', 'in Persia rather than at war.']
+          },
+          {
+            start: 'Herodotus (7.35): When storms destroyed his bridge over the Hellespont, Xerxes reportedly ordered that the sea receive',
+            correct: 'three hundred lashes and a pair of fetters thrown in.',
+            wrong: ['a sacrifice of bulls.', 'a letter of apology from his engineers.', 'prayers to Poseidon.']
+          },
+          {
+            start: 'Aeschylus, Persians (550–557, 472 BCE) — an Athenian dramatic work performed 8 years after Salamis: the ghost of Darius laments that Xerxes foolishly',
+            correct: 'yoked the sacred Hellespont as if it were a slave.',
+            wrong: ['refused to honor Ahura Mazda.', 'ignored the counsel of the Magi.', 'trusted Greek traitors too easily.']
+          },
+          {
+            start: 'Herodotus (7.10): Artabanus warned Xerxes that the two greatest enemies of the Persian expedition to Greece would be',
+            correct: 'the land and the sea — both too great to supply and navigate.',
+            wrong: ['Spartan courage and Athenian ships.', 'the Greek gods and the Greek climate.', 'disease among troops and desertion of allies.']
+          },
+          {
+            start: 'Herodotus (7.226): Persian scouts reported back to Xerxes that the Spartans at Thermopylae were calmly combing their long hair — an act which the exiled Spartan king Demaratus explained to Xerxes meant they were',
+            correct: 'preparing to fight and expected to die there.',
+            wrong: ['performing a religious ritual before retreat.', 'signalling surrender through custom.', 'mocking the Persian approach.']
+          },
+          {
+            start: 'Herodotus (9.108–109): After the Persian defeat, Herodotus reports that Xerxes became infatuated with his brother Masistes\'s wife — an episode presented by Herodotus to illustrate the dangers of',
+            correct: 'unchecked royal desire leading to catastrophic consequences.',
+            wrong: ['Persian religious impurity.', 'court intrigue by Greek advisers.', 'the corruption of the Magi.']
+          }
         ]
       },
       {
-        name: 'Artaxerxes I',
+        name: 'Artaxerxes II (Susa & Persepolis Inscriptions; Plutarch)',
         emoji: '👑',
         quotes: [
-          { start: 'A king should be like the sun — shining equally upon all his', correct: 'subjects.', wrong: ['enemies.', 'friends.', 'nobles.'] },
-          { start: 'Generosity is the mark of a true', correct: 'king.', wrong: ['warrior.', 'priest.', 'merchant.'] },
-          { start: 'Justice delayed is justice', correct: 'denied.', wrong: ['served.', 'forgotten.', 'ignored.'] }
+          {
+            start: 'Artaxerxes II Susa Inscription (A2Sa): "By the favor of Ahura Mazda, Anahita, and Mithra, I built this palace. May Ahura Mazda, Anahita, and Mithra protect me from all',
+            correct: 'evil."',
+            wrong: ['enemies in battle."', 'Greek treachery."', 'priestly conspiracy."']
+          },
+          {
+            start: 'Artaxerxes II\'s Susa inscription (A2Sa) is historically notable because he is the first Achaemenid king to explicitly invoke',
+            correct: 'Anahita and Mithra alongside Ahura Mazda.',
+            wrong: ['Marduk and Bel alongside Ahura Mazda.', 'Zeus and Apollo as Persian gods.', 'Zoroastrian fire temples as imperial symbols.']
+          },
+          {
+            start: 'Artaxerxes II Persepolis Inscription (A2Pd): "By the grace of Ahura Mazda, this palace Artaxerxes the great king built. May Ahura Mazda keep Artaxerxes the great king',
+            correct: 'safe."',
+            wrong: ['victorious."', 'immortal."', 'wise above all kings."']
+          },
+          {
+            start: 'Plutarch, Life of Artaxerxes (Ch.4): At the Battle of Cunaxa (401 BCE), Artaxerxes was wounded but ultimately defeated his rebellious brother Cyrus the Younger, who was killed — the battle that led to Xenophon\'s',
+            correct: 'Anabasis (the march of the Ten Thousand).',
+            wrong: ['Persian Wars.', 'Cyropaedia.', 'History of the Peloponnesian War.']
+          },
+          {
+            start: 'Plutarch (Life of Artaxerxes, Ch.1): Artaxerxes II was described as mild and noble in disposition — his chief weakness being excessive',
+            correct: 'susceptibility to the influence of women and his mother Parysatis.',
+            wrong: ['generosity toward Greek mercenaries.', 'trust in Spartan ambassadors.', 'devotion to Zoroastrian rituals.']
+          },
+          {
+            start: 'Plutarch (Life of Artaxerxes, Ch.21): The "King\'s Peace" (Peace of Antalcidas, 387 BCE) was brokered by Artaxerxes II — it declared that all Greek cities in Asia Minor would belong to',
+            correct: 'Persia, while the Greeks of the mainland were to be autonomous.',
+            wrong: ['Sparta, as reward for Persian support.', 'Athens, in exchange for tribute.', 'local rulers chosen by Persian satraps.']
+          },
+          {
+            start: 'Plutarch (Life of Artaxerxes, Ch.26): Artaxerxes II reportedly had over 360 concubines and more than 115 sons — his long reign ended in a succession crisis because he',
+            correct: 'outlived several of his designated heirs.',
+            wrong: ['refused to name an heir openly.', 'was murdered by his ministers.', 'converted to Babylonian religion.']
+          },
+          {
+            start: 'Artaxerxes II reigned for approximately 45 years (404–358 BCE), making him the',
+            correct: 'longest-reigning Achaemenid king.',
+            wrong: ['first Achaemenid to rule Egypt directly.', 'only Achaemenid king to visit Greece.', 'founder of the Zoroastrian priesthood.']
+          }
         ]
       },
       {
-        name: 'Khosrow I Anushirvan',
-        emoji: '👑',
+        name: 'Darius III & The Fall of Achaemenid Persia',
+        emoji: '⚔️',
         quotes: [
-          { start: 'A king without justice is no better than a', correct: 'bandit.', wrong: ['god.', 'hero.', 'priest.'] },
-          { start: 'The worst ruler is he who rules by fear rather than by', correct: 'justice.', wrong: ['love.', 'wisdom.', 'strength.'] },
-          { start: 'Knowledge without action is like a bow without a', correct: 'string.', wrong: ['arrow.', 'target.', 'archer.'] },
-          { start: 'The throne is established by', correct: 'justice.', wrong: ['fear.', 'wealth.', 'war.'] },
-          { start: 'A ruler must first rule himself before he can rule', correct: 'others.', wrong: ['the empire.', 'the army.', 'the court.'] }
+          {
+            start: 'Arrian, Anabasis (2.14): After the Battle of Issus (333 BCE), Darius III sent Alexander a letter proposing ransom for his captured family and offering',
+            correct: 'friendship and alliance.',
+            wrong: ['immediate surrender of all Persian territory.', 'tribute and hostages.', 'joint rule of the empire.']
+          },
+          {
+            start: 'Arrian, Anabasis (2.25): Alexander\'s response to Darius III\'s peace offer stated that if Darius wanted his mother, wife, and children, he must come to Alexander as',
+            correct: 'a suppliant, for Alexander was now lord of all Asia.',
+            wrong: ['an equal, to negotiate terms.', 'a general, to arrange ransom.', 'a king, under truce conditions.']
+          },
+          {
+            start: 'Arrian, Anabasis (3.11): At the decisive Battle of Gaugamela (331 BCE), Darius III fled the field when Alexander\'s cavalry broke through the Persian center — his flight',
+            correct: 'sealed the collapse of Achaemenid resistance.',
+            wrong: ['was a planned tactical retreat.', 'was ordered by the Magi.', 'led to a successful counter-attack.']
+          },
+          {
+            start: 'Arrian, Anabasis (3.21–22): Darius III was murdered by the Bactrian satrap Bessus in 330 BCE — Alexander, on finding the dying king, reportedly',
+            correct: 'covered the body with his own cloak and ordered a royal funeral.',
+            wrong: ['left the body as a warning to other satraps.', 'sent the body to the Persian nobles.', 'displayed the body at Persepolis.']
+          },
+          {
+            start: 'Diodorus Siculus (17.70): The burning of Persepolis by Alexander in 330 BCE was reported by ancient sources as either a drunken act urged by the Athenian courtesan Thais, or a deliberate act of vengeance for',
+            correct: 'the Persian burning of Athens.',
+            wrong: ['the assassination of Philip II of Macedon.', 'the Persian defeat at the Battle of Gaugamela.', 'the revolt of the Greek cities in Asia Minor.']
+          },
+          {
+            start: 'Plutarch, Life of Alexander (Ch.37): When Alexander captured Persepolis, the treasury contained wealth so vast that it required', 
+            correct: '10,000 pairs of mules and 5,000 camels to carry away.',
+            wrong: ['one hundred ships to transport by sea.', 'three years to count and catalogue.', 'a garrison of ten thousand men to guard.']
+          },
+          {
+            start: 'The Persepolis Fortification Tablets (509–494 BCE), discovered in 1933, are clay administrative tablets proving the Achaemenid empire operated a sophisticated',
+            correct: 'ration and payment system for workers across the empire.',
+            wrong: ['slave-trading network across the Near East.', 'system of religious taxation for Zoroastrian temples.', 'centralized military conscription registry.']
+          },
+          {
+            start: 'The Achaemenid Empire at its height under Darius I and Xerxes I stretched from the Indus Valley in the east to',
+            correct: 'Thrace and Libya in the west.',
+            wrong: ['Rome in the west.', 'China in the east.', 'the Atlantic coast in the west.']
+          }
         ]
       },
+      {
+        name: 'Zarathustra / Zoroaster (Gathas — Avestan Hymns)',
+        emoji: '🔥',
+        quotes: [
+          {
+            start: 'Gathas, Yasna 28.1: Zarathustra opens his hymn by dedicating "all the actions of his good mind" to Ahura Mazda — seeking through',
+            correct: 'righteous action and good thought to benefit all living beings.',
+            wrong: ['sacrifice and priestly ritual alone.', 'military conquest for Persia.', 'astrological observation of the heavens.']
+          },
+          {
+            start: 'Gathas, Yasna 30.3: Zarathustra teaches of two primal spirits — one of truth (asha) and one of the lie (druj) — who made a choice "in the beginning." Their separation produced',
+            correct: 'the dual nature of existence as good and evil.',
+            wrong: ['the Zoroastrian priestly class.', 'the Achaemenid royal lineage.', 'the cycle of seasons and harvests.']
+          },
+          {
+            start: 'Gathas, Yasna 30.2: Zarathustra urges listeners not to be deceived by "evil teachers" but to think for themselves with',
+            correct: 'a discerning mind before choosing between the two paths.',
+            wrong: ['the guidance of Zoroastrian priests only.', 'royal authority as guide.', 'astrological signs as confirmation.']
+          },
+          {
+            start: 'Gathas, Yasna 33.14: Zarathustra prays that Ahura Mazda will grant him strength through',
+            correct: 'Asha (truth/righteousness) to spread the teachings despite opposition.',
+            wrong: ['military victory over his enemies.', 'royal patronage and wealth.', 'sacrificial fires burning without interruption.']
+          },
+          {
+            // Yasna 43.1 — the three pillars: Good Thought (Vohu Manah), Good Word (Asha Vahishta), Good Deed
+            start: '"The Gathas" central ethical teaching is captured in the triad of Humata, Hukhta, Hvarshta — meaning',
+            correct: 'Good Thoughts, Good Words, Good Deeds.',
+            wrong: ['Fire, Water, Earth as sacred elements.', 'Priest, Warrior, Farmer as sacred classes.', 'Ahura Mazda, Mithra, Anahita as the three gods.']
+          },
+          {
+            start: 'Gathas, Yasna 44 (the "Question Gatha"): Zarathustra poses a series of cosmic questions to Ahura Mazda, including "Who is the first father of Asha through',
+            correct: 'creation?"',
+            wrong: ['sacrifice?"', 'the royal line?"', 'fire worship?"']
+          },
+          {
+            start: 'The dates of Zarathustra are historically disputed — scholars range from c.1500–1200 BCE (based on language analysis of the Old Avestan Gathas) to c.600 BCE, making',
+            correct: 'his relationship to the Achaemenid kings chronologically uncertain.',
+            wrong: ['his authorship of the Gathas disproven.', 'the Gathas younger than the Behistun Inscription.', 'his teaching identical to Vedic Hinduism.']
+          },
+          {
+            start: 'The central cosmic conflict in Zoroastrianism — between Asha (truth, order, righteousness) and Druj (the Lie, chaos, wickedness) — is reflected in Darius I\'s Behistun Inscription through his repeated condemnation of',
+            correct: 'drauga (the Lie) as the source of rebellion and evil.',
+            wrong: ['foreign gods as the source of disorder.', 'merchants and traders as agents of chaos.', 'Greek philosophy as corruption of truth.']
+          }
+        ]
+      }
     ]
   },
   {
     id: 'china',
-    name: 'Ancient China',
+    name: 'Ancient China (Evidence-Based)',
     emoji: '🏯',
     color: 0x8b4513,
     colorHex: '#8b4513',
     bg: '#0a0a0a',
     authors: [
       {
-        name: 'Confucius',
+        name: 'Confucius (Analects — Documented)',
         emoji: '🧠',
         quotes: [
-          { start: 'It does not matter how slowly you go as long as you do not', correct: 'stop.', wrong: ['fall.', 'rush.', 'complain.'] },
-          { start: 'The man who moves a mountain begins by carrying away small', correct: 'stones.', wrong: ['boulders.', 'rocks.', 'hills.'] },
-          { start: 'Respect yourself and others will respect', correct: 'you.', wrong: ['your power.', 'your wealth.', 'your words.'] },
-          { start: 'Real knowledge is to know the extent of one\'s', correct: 'ignorance.', wrong: ['wisdom.', 'power.', 'wealth.'] },
-          { start: 'Silence is a true friend who never', correct: 'betrays.', wrong: ['lies.', 'flatters.', 'argues.'] },
-          { start: 'The superior man is modest in his speech, but exceeds in his', correct: 'actions.', wrong: ['promises.', 'wealth.', 'appearance.'] },
-          { start: 'When you see a good man, try to imitate him. When you see a bad man, examine your own', correct: 'heart.', wrong: ['actions.', 'words.', 'wealth.'] },
-          { start: 'To put the world in order, we must first put the nation in order. To put the nation in order, we must first put the family in order... We must first set our', correct: 'hearts right.', wrong: ['minds right.', 'bodies right.', 'kingdom right.'] },
-          { start: 'Everything has its beauty, but not everyone sees', correct: 'it.', wrong: ['it clearly.', 'its value.', 'its truth.'] },
-          { start: 'The man who asks a question is a fool for a minute, the man who does not ask is a fool for', correct: 'life.', wrong: ['a day.', 'an hour.', 'a moment.'] },
-          { start: 'To see what is right and not do it is a lack of', correct: 'courage.', wrong: ['wisdom.', 'knowledge.', 'strength.'] },
-          { start: 'Choose a job you love, and you will never have to work a day in your', correct: 'life.', wrong: ['kingdom.', 'mind.', 'heart.'] },
-          { start: 'Learning without thought is labor lost. Thought without learning is', correct: 'perilous.', wrong: ['useless.', 'wise.', 'safe.'] },
-          { start: 'The superior man understands what is right; the inferior man understands what will', correct: 'sell.', wrong: ['win.', 'gain.', 'please.'] },
-          { start: 'By three methods we may learn wisdom: First, by reflection, which is noblest; second, by imitation, which is easiest; and third by', correct: 'experience.', wrong: ['force.', 'books.', 'teachers.'] },
-          { start: 'It is more shameful to distrust our friends than to be deceived by', correct: 'them.', wrong: ['enemies.', 'strangers.', 'ourselves.'] },
-          { start: 'The strength of a nation derives from the integrity of the', correct: 'home.', wrong: ['army.', 'king.', 'temple.'] },
-          { start: 'Before you embark on a journey of revenge, dig two', correct: 'graves.', wrong: ['trenches.', 'wells.', 'paths.'] },
-          { start: 'Life is really simple, but we insist on making it', correct: 'complicated.', wrong: ['easy.', 'beautiful.', 'long.'] },
-          { start: 'The gentleman seeks truth, the small man seeks', correct: 'profit.', wrong: ['power.', 'fame.', 'pleasure.'] },
-          { start: 'Do not impose on others what you yourself do not', correct: 'desire.', wrong: ['understand.', 'know.', 'possess.'] },
-          { start: 'A gentleman is ashamed to let his words outrun his', correct: 'deeds.', wrong: ['thoughts.', 'wealth.', 'promises.'] },
-          { start: 'To know what you know and to know what you do not know — that is true', correct: 'knowledge.', wrong: ['wisdom.', 'power.', 'humility.'] },
-          { start: 'Hold faithfulness and sincerity as first', correct: 'principles.', wrong: ['duties.', 'goals.', 'virtues.'] },
-          { start: 'The noble-minded are calm and steady. Little people are forever fussing and', correct: 'fretting.', wrong: ['planning.', 'arguing.', 'complaining.'] },
-          { start: 'When anger rises, think of the', correct: 'consequences.', wrong: ['rewards.', 'causes.', 'benefits.'] },
-          { start: 'I hear and I forget. I see and I remember. I do and I', correct: 'understand.', wrong: ['forget.', 'teach.', 'repeat.'] },
-          { start: 'Wheresoever you go, go with all your', correct: 'heart.', wrong: ['mind.', 'strength.', 'wealth.'] },
-          { start: 'The noble-minded cultivate roots. When roots are secure, the Way is', correct: 'born.', wrong: ['lost.', 'forgotten.', 'hidden.'] },
-          { start: 'If you govern the people legalistically and control them by punishment, they will avoid crime, but have no sense of', correct: 'shame.', wrong: ['honor.', 'duty.', 'respect.'] },
-          { start: 'If the people be led by virtue, and uniformity sought to be given them by the rules of propriety, they will have the sense of shame, and moreover will become', correct: 'good.', wrong: ['obedient.', 'rich.', 'powerful.'] },
-          { start: 'The gentleman never shuns humaneness even for the time it takes to finish a', correct: 'meal.', wrong: ['day.', 'battle.', 'journey.'] },
-          { start: 'Virtue is never isolated; it always has', correct: 'neighbors.', wrong: ['enemies.', 'rivals.', 'followers.'] },
-          { start: 'At fifteen I set my heart upon learning. At thirty I stood firm. At forty I had no more doubts. At fifty I knew the mandate of Heaven. At sixty my ear was obedient. At seventy I could follow my heart’s desire without transgressing the', correct: 'norm.', wrong: ['law.', 'rules.', 'boundaries.'] }
+          {
+            start: 'Analects 2.17: "Yu, shall I teach you what knowledge is? When you know a thing, hold that you know it; when you do not know a thing, allow that you do not know it — this is',
+            correct: 'knowledge."',
+            wrong: ['wisdom."', 'virtue."', 'learning."']
+          },
+          {
+            start: 'Analects 4.16: "The gentleman is concerned with',
+            correct: 'righteousness (yi);',
+            wrong: ['profit (li);', 'ritual (li);', 'harmony (he);']
+          },
+          {
+            start: 'Analects 12.1: When asked about benevolence (ren), Confucius said "To master oneself and return to',
+            correct: 'ritual propriety (li)',
+            wrong: ['personal desire', 'state authority', 'ancestral custom']
+          },
+          {
+            start: 'Analects 15.24: When asked if there is a single word to guide one\'s life, Confucius replied: "Is it not shu (reciprocity)? Do not impose on others what you yourself do not',
+            correct: 'desire."',
+            wrong: ['possess."', 'understand."', 'perform."']
+          },
+          {
+            start: 'Analects 2.11: "He who reviews the old and learns the new',
+            correct: 'may be called a teacher."',
+            wrong: ['is a gentleman."', 'knows wisdom."', 'earns respect."']
+          },
+          {
+            start: 'Analects 4.8: "If a man in the morning hears the right Way (Dao), he may die in the evening',
+            correct: 'without regret."',
+            wrong: ['without fear."', 'in peace."', 'with wisdom."']
+          },
+          {
+            start: 'Analects 13.3: When asked about governing, Confucius said the first priority is the "rectification of',
+            correct: 'names" (zhengming).',
+            wrong: ['laws" (fa).', 'rituals" (li).', 'punishments" (xing).']
+          },
+          {
+            start: 'Analects 2.3: "If the people be led by virtue and given uniformity by ritual, they will have a sense of',
+            correct: 'shame and moreover will become good."',
+            wrong: ['obedience and will follow orders."', 'loyalty and will serve the state."', 'fear and will avoid crime."']
+          },
+          {
+            start: 'Analects 7.15: Confucius said he would eat simple food, drink plain water, and use his arm as a pillow — saying riches without righteousness are to him like',
+            correct: 'floating clouds.',
+            wrong: ['deep roots.', 'still water.', 'empty vessels.']
+          },
+          {
+            start: 'Analects 2.4: "At fifteen my mind was bent on',
+            correct: 'learning.',
+            wrong: ['virtue.', 'ritual.', 'service.']
+          },
+          {
+            start: 'At thirty I stood firm. At forty I had no doubts. At fifty I understood Heaven\'s mandate. At sixty my ear received truth. At seventy I could follow my heart without transgressing the',
+            correct: 'norm." (Analects 2.4)',
+            wrong: ['law."', 'ruler."', 'ritual."']
+          },
+          {
+            start: 'Analects 4.25: "Virtue (de) is never solitary; it always has',
+            correct: 'neighbors."',
+            wrong: ['enemies."', 'rewards."', 'followers."']
+          },
+          {
+            start: 'Analects 14.29: "The gentleman is ashamed when his words',
+            correct: 'outrun his deeds."',
+            wrong: ['offend others."', 'contradict ritual."', 'exceed his rank."']
+          },
+          {
+            start: '"Choose a job you love" — frequently attributed to Confucius — cannot be verified in the Analects and is almost certainly',
+            correct: 'a modern invented attribution.',
+            wrong: ['from Analects Book 7.', 'from a lost Confucian text.', 'from Mencius Book 2.']
+          },
+          {
+            start: '"It does not matter how slowly you go as long as you do not stop" — widely attributed to Confucius — also cannot be verified in the Analects and likely represents',
+            correct: 'a modern misattribution.',
+            wrong: ['Analects 9.18.', 'a verified Confucian saying.', 'the Doctrine of the Mean.']
+          }
         ]
       },
       {
-        name: 'Laozi (Lao Tzu)',
+        name: 'Laozi (Daodejing — Documented)',
         emoji: '🌿',
         quotes: [
-          { start: 'Simplicity, patience, compassion. These three are your greatest', correct: 'treasures.', wrong: ['virtues.', 'weapons.', 'goals.'] },
-          { start: 'Knowing others is intelligence; knowing yourself is true', correct: 'wisdom.', wrong: ['power.', 'strength.', 'wealth.'] },
-          { start: 'Mastering others is strength; mastering yourself is true', correct: 'power.', wrong: ['wisdom.', 'victory.', 'peace.'] },
-          { start: 'When you are content to be simply yourself and don\'t compare or compete, everyone will respect', correct: 'you.', wrong: ['fear.', 'envy.', 'ignore.'] },
-          { start: 'The Tao that can be told is not the eternal', correct: 'Tao.', wrong: ['Way.', 'Truth.', 'Path.'] },
-          { start: 'A journey of a thousand miles begins with a single', correct: 'step.', wrong: ['thought.', 'word.', 'plan.'] },
-          { start: 'Nature does not hurry, yet everything is', correct: 'accomplished.', wrong: ['delayed.', 'rushed.', 'perfect.'] },
-          { start: 'He who knows does not speak. He who speaks does not', correct: 'know.', wrong: ['understand.', 'act.', 'win.'] },
-          { start: 'The best fighter is never', correct: 'angry.', wrong: ['afraid.', 'strong.', 'victorious.'] },
-          { start: 'To attain knowledge, add things every day. To attain wisdom, remove things every', correct: 'day.', wrong: ['week.', 'moment.', 'year.'] },
-          { start: 'Be content with what you have; rejoice in the way things are. When you realize there is nothing lacking, the whole world belongs to', correct: 'you.', wrong: ['others.', 'fate.', 'heaven.'] },
-          { start: 'Act without expectation. By letting it go, it all gets', correct: 'done.', wrong: ['ruined.', 'delayed.', 'complicated.'] },
-          { start: 'The flame that burns twice as bright burns half as', correct: 'long.', wrong: ['bright.', 'fast.', 'often.'] },
-          { start: 'If you realize that all things change, there is nothing you will try to', correct: 'hold on to.', wrong: ['understand.', 'control.', 'fear.'] },
-          { start: 'The wise man is one who knows what he does not', correct: 'know.', wrong: ['want.', 'need.', 'have.'] },
-          { start: 'Manifest plainness, embrace simplicity, reduce selfishness, have few', correct: 'desires.', wrong: ['needs.', 'fears.', 'goals.'] },
-          { start: 'Those who know do not speak. Those who speak do not', correct: 'know.', wrong: ['act.', 'win.', 'understand.'] },
-          { start: 'The highest good is like', correct: 'water.', wrong: ['fire.', 'stone.', 'wind.'] },
-          { start: 'Water gives life to the ten thousand things and does not', correct: 'strive.', wrong: ['stop.', 'fight.', 'win.'] },
-          { start: 'The soft overcomes the', correct: 'hard.', wrong: ['weak.', 'strong.', 'fast.'] },
-          { start: 'The Tao is called the Great Mother: empty yet inexhaustible, it gives birth to infinite', correct: 'worlds.', wrong: ['ideas.', 'wars.', 'riches.'] },
-          { start: 'Do the difficult things while they are easy and do the great things while they are', correct: 'small.', wrong: ['big.', 'far.', 'near.'] },
-          { start: 'To the mind that is still, the whole universe', correct: 'surrenders.', wrong: ['fights.', 'opens.', 'closes.'] },
-          { start: 'Being deeply loved by someone gives you strength, while loving someone deeply gives you', correct: 'courage.', wrong: ['wisdom.', 'power.', 'peace.'] },
-          { start: 'If you do not change direction, you may end up where you are', correct: 'heading.', wrong: ['starting.', 'losing.', 'winning.'] },
-          { start: 'The snow goose need not bathe to make itself white. Neither need you do anything but be', correct: 'yourself.', wrong: ['strong.', 'wise.', 'rich.'] },
-          { start: 'True straightness seems', correct: 'crooked.', wrong: ['straight.', 'bent.', 'broken.'] },
-          { start: 'The greatest love seems', correct: 'indifferent.', wrong: ['passionate.', 'strong.', 'loud.'] },
-          { start: 'He who conquers others has force; he who conquers himself is', correct: 'strong.', wrong: ['wise.', 'lucky.', 'happy.'] },
-          { start: 'When nothing disturbs your emotional center, this is true', correct: 'power.', wrong: ['peace.', 'wisdom.', 'strength.'] },
-          { start: 'The wise person acts without effort and teaches by quiet', correct: 'example.', wrong: ['words.', 'force.', 'wealth.'] },
-          { start: 'Hold on to the', correct: 'center.', wrong: ['edge.', 'power.', 'truth.'] },
-          { start: 'Favor and disgrace are equally', correct: 'problematic.', wrong: ['rewarding.', 'useful.', 'harmless.'] },
-          { start: 'Hope and fear are phantoms of the', correct: 'body.', wrong: ['mind.', 'soul.', 'heart.'] }
+          {
+            start: 'Daodejing Ch.1: "The Tao that can be named is not the eternal',
+            correct: 'Tao."',
+            wrong: ['Way."', 'Truth."', 'Path."']
+          },
+          {
+            start: 'Daodejing Ch.8: "The highest good is like water. Water benefits the ten thousand things and does not',
+            correct: 'contend (zheng)."',
+            wrong: ['rest."', 'rise."', 'stop."']
+          },
+          {
+            start: 'Daodejing Ch.33: "Knowing others is',
+            correct: 'wisdom (zhi);',
+            wrong: ['virtue (de);', 'learning (xue);', 'strength (li);']
+          },
+          {
+            start: 'Knowing yourself is enlightenment (ming). Overcoming others requires',
+            correct: 'strength (li);',
+            wrong: ['wisdom (zhi);', 'strategy (mou);', 'deception (zha);']
+          },
+          {
+            start: 'Overcoming yourself requires',
+            correct: 'true power (qiang)." (Daodejing Ch.33)',
+            wrong: ['wisdom (zhi)."', 'ritual (li)."', 'law (fa)."']
+          },
+          {
+            start: 'Daodejing Ch.64: "A journey of a thousand miles begins',
+            correct: 'beneath one\'s feet."',
+            wrong: ['with a single thought."', 'in the mind."', 'with careful planning."']
+          },
+          {
+            start: 'Daodejing Ch.16: "Return to the root is called',
+            correct: 'stillness (jing)."',
+            wrong: ['wisdom (zhi)."', 'virtue (de)."', 'emptiness (xu)."']
+          },
+          {
+            start: 'Daodejing Ch.56: "Those who know do not',
+            correct: 'speak.',
+            wrong: ['teach.', 'act.', 'rest.']
+          },
+          {
+            start: 'Those who speak do not know." (Daodejing Ch.56) This paradox reflects Laozi\'s doctrine of',
+            correct: 'the limits of language.',
+            wrong: ['silent governance.', 'the uselessness of ritual.', 'natural law.']
+          },
+          {
+            start: 'Daodejing Ch.22: "Yield and overcome; bend and be',
+            correct: 'straight."',
+            wrong: ['powerful."', 'wise."', 'respected."']
+          },
+          {
+            start: 'Daodejing Ch.78: "In the world there is nothing more submissive and weak than water, yet nothing is better for attacking the hard and',
+            correct: 'strong."',
+            wrong: ['immovable."', 'unyielding."', 'proud."']
+          },
+          {
+            start: 'Daodejing Ch.81: "True words are not',
+            correct: 'beautiful;',
+            wrong: ['silent;', 'rare;', 'complex;']
+          },
+          {
+            start: 'Beautiful words are not true." (Daodejing Ch.81) This reflects Laozi\'s suspicion of',
+            correct: 'rhetorical eloquence.',
+            wrong: ['philosophical argument.', 'ritual practice.', 'Confucian learning.']
+          },
+          {
+            start: '"The flame that burns twice as bright burns half as long" — often attributed to Laozi — is not found in the Daodejing and is likely',
+            correct: 'a later invented attribution.',
+            wrong: ['from Daodejing Ch.41.', 'a verified Laozi saying.', 'from Zhuangzi Ch.3.']
+          },
+          {
+            start: 'Daodejing Ch.17: "The best ruler is one whose subjects',
+            correct: 'barely know he exists."',
+            wrong: ['fear and obey him."', 'praise and love him."', 'follow his laws willingly."']
+          }
         ]
       },
       {
-        name: 'Sun Tzu',
+        name: 'Sun Tzu (Art of War — Documented)',
         emoji: '⚔️',
         quotes: [
-          { start: 'The supreme art of war is to subdue the enemy without', correct: 'fighting.', wrong: ['effort.', 'strategy.', 'planning.'] },
-          { start: 'Appear weak when you are strong, and strong when you are', correct: 'weak.', wrong: ['ready.', 'afraid.', 'victorious.'] },
-          { start: 'If you know the enemy and know yourself, you need not fear the result of a hundred', correct: 'battles.', wrong: ['days.', 'years.', 'wars.'] },
-          { start: 'Victorious warriors win first and then go to war, while defeated warriors go to war first and then seek to', correct: 'win.', wrong: ['survive.', 'fight.', 'retreat.'] },
-          { start: 'All warfare is based on', correct: 'deception.', wrong: ['strength.', 'honor.', 'truth.'] },
-          { start: 'In the midst of chaos, there is also', correct: 'opportunity.', wrong: ['danger.', 'fear.', 'defeat.'] },
-          { start: 'He will win who knows when to fight and when not to', correct: 'fight.', wrong: ['win.', 'retreat.', 'attack.'] },
-          { start: 'The greatest victory is that which requires no', correct: 'battle.', wrong: ['effort.', 'strategy.', 'sacrifice.'] },
-          { start: 'To win one hundred victories in one hundred battles is not the acme of skill. To subdue the enemy without fighting is the acme of', correct: 'skill.', wrong: ['war.', 'strength.', 'courage.'] },
-          { start: 'Strategy without tactics is the slowest route to victory. Tactics without strategy is the noise before', correct: 'defeat.', wrong: ['victory.', 'battle.', 'war.'] },
-          { start: 'Know thy self, know thy enemy. A thousand battles, a thousand', correct: 'victories.', wrong: ['defeats.', 'draws.', 'losses.'] },
-          { start: 'The general who wins the battle makes many calculations in his temple before the battle is', correct: 'fought.', wrong: ['during the battle.', 'after the battle.', 'never.'] },
-          { start: 'Be extremely subtle, even to the point of formlessness. Be extremely mysterious, even to the point of', correct: 'soundlessness.', wrong: ['loudness.', 'visibility.', 'weakness.'] },
-          { start: 'The skillful leader subdues the enemy\'s troops without', correct: 'battle.', wrong: ['effort.', 'loss.', 'blood.'] },
-          { start: 'Let your plans be dark and impenetrable as', correct: 'night.', wrong: ['day.', 'steel.', 'fire.'] },
-          { start: 'When you surround an army, leave an outlet', correct: 'free.', wrong: ['closed.', 'guarded.', 'blocked.'] },
-          { start: 'The wise warrior avoids what is', correct: 'strong.', wrong: ['weak.', 'easy.', 'obvious.'] },
-          { start: 'Attack is the secret of', correct: 'defense.', wrong: ['victory.', 'defeat.', 'survival.'] },
-          { start: 'He who is prudent and lies in wait for an enemy who is not, will be', correct: 'victorious.', wrong: ['defeated.', 'equal.', 'surprised.'] },
-          { start: 'There is no instance of a country having benefited from prolonged', correct: 'warfare.', wrong: ['peace.', 'victory.', 'battle.'] },
-          { start: 'The clever combatant imposes his will on the enemy, but does not allow the enemy\'s will to be imposed on', correct: 'him.', wrong: ['others.', 'himself.', 'the army.'] },
-          { start: 'Speed is the essence of', correct: 'war.', wrong: ['victory.', 'strategy.', 'peace.'] },
-          { start: 'The opportunity to secure ourselves against defeat lies in our own', correct: 'hands.', wrong: ['enemy.', 'fate.', 'gods.'] },
-          { start: 'If ignorant both of your enemy and yourself, you are certain to be defeated in every', correct: 'battle.', wrong: ['war.', 'skirmish.', 'campaign.'] },
-          { start: 'The art of war teaches us to rely not on the likelihood of the enemy\'s not coming, but on our own readiness to receive', correct: 'him.', wrong: ['defeat.', 'victory.', 'peace.'] },
-          { start: 'Victorious warriors win first and then go to', correct: 'war.', wrong: ['battle.', 'fight.', 'retreat.'] },
-          { start: 'All men can see the tactics whereby I conquer, but what none can see is the strategy out of which victory is', correct: 'evolved.', wrong: ['won.', 'lost.', 'planned.'] }
+          {
+            start: 'Art of War Ch.3: "The supreme excellence is not to win one hundred victories in one hundred battles, but to subdue the enemy',
+            correct: 'without fighting."',
+            wrong: ['through deception."', 'with minimal loss."', 'before they strike."']
+          },
+          {
+            start: 'Art of War Ch.1: "All warfare is based on',
+            correct: 'deception (gui)."',
+            wrong: ['strength."', 'preparation."', 'surprise."']
+          },
+          {
+            start: 'Art of War Ch.3: "Know the enemy and know yourself; in a hundred battles you will never',
+            correct: 'be in peril."',
+            wrong: ['lose."', 'retreat."', 'fail."']
+          },
+          {
+            start: 'Art of War Ch.4: "Victorious warriors win first and then go to war; while defeated warriors go to war first and then seek to',
+            correct: 'win."',
+            wrong: ['retreat."', 'survive."', 'negotiate."']
+          },
+          {
+            start: 'Art of War Ch.5: "Energy (shi) may be likened to the bending of a crossbow; decision (jie) to the releasing of the',
+            correct: 'trigger."',
+            wrong: ['arrow."', 'bowstring."', 'bolt."']
+          },
+          {
+            start: 'Art of War Ch.6: "An army may be likened to water: water shapes its course according to the nature of the ground over which it flows; an army works out its victory in relation to',
+            correct: 'the enemy it faces."',
+            wrong: ['its own strength."', 'the season."', 'the ruler\'s will."']
+          },
+          {
+            start: 'Art of War Ch.2: "There is no instance of a country having benefited from prolonged',
+            correct: 'warfare."',
+            wrong: ['peace."', 'preparation."', 'negotiation."']
+          },
+          {
+            start: 'Art of War Ch.1: "Strategy without tactics is the slowest route to victory. Tactics without strategy is the noise before',
+            correct: 'defeat."',
+            wrong: ['battle."', 'surrender."', 'victory."']
+          },
+          {
+            start: 'Art of War Ch.3: "He will win who knows when to fight and when',
+            correct: 'not to fight."',
+            wrong: ['to retreat."', 'to negotiate."', 'to advance."']
+          },
+          {
+            start: 'Art of War Ch.11: "Place your army in deadly peril and it will',
+            correct: 'survive;',
+            wrong: ['flee;', 'disperse;', 'surrender;']
+          },
+          {
+            start: 'Plunge it into desperate straits and it will come through safely." (Ch.11) This reflects Sun Tzu\'s paradoxical teaching on',
+            correct: 'using extreme conditions to motivate troops.',
+            wrong: ['the inevitability of defeat.', 'the uselessness of strategy.', 'the importance of retreat.']
+          },
+          {
+            start: 'Art of War Ch.6: "Be extremely subtle, even to the point of formlessness. Be extremely mysterious, even to the point of',
+            correct: 'soundlessness."',
+            wrong: ['stillness."', 'invisibility."', 'weakness."']
+          }
         ]
       },
       {
-        name: 'Mencius',
+        name: 'Mencius (Mengzi — Documented)',
         emoji: '🧠',
         quotes: [
-          { start: 'Human nature is', correct: 'good.', wrong: ['evil.', 'neutral.', 'weak.'] },
-          { start: 'The great man is he who does not lose the heart of a', correct: 'child.', wrong: ['king.', 'scholar.', 'warrior.'] },
-          { start: 'He who has a thousand friends has not a single', correct: 'enemy.', wrong: ['doubt.', 'fear.', 'regret.'] },
-          { start: 'A gentleman does not forget his roots even when he reaches', correct: 'high position.', wrong: ['wealth.', 'power.', 'fame.'] },
-          { start: 'The people are the most important element in a nation; the ruler is', correct: 'the least.', wrong: ['the opposite.', 'equally important.', 'the most important.'] },
-          { start: 'If the ruler is benevolent, the people will be', correct: 'benevolent.', wrong: ['obedient.', 'fearful.', 'rich.'] },
-          { start: 'The heart that cannot bear to see the suffering of others is the beginning of', correct: 'benevolence.', wrong: ['wisdom.', 'courage.', 'justice.'] },
-          { start: 'A man must first despise himself before others will despise', correct: 'him.', wrong: ['the ruler.', 'his enemies.', 'his friends.'] },
-          { start: 'He who exerts himself to the utmost knows his', correct: 'nature.', wrong: ['limits.', 'fate.', 'enemies.'] },
-          { start: 'The superior man loves his own soul; the inferior man loves his own', correct: 'body.', wrong: ['wealth.', 'power.', 'fame.'] },
-          { start: 'Benevolence is the heart of man, and righteousness is the path of', correct: 'man.', wrong: ['kings.', 'gods.', 'soldiers.'] },
-          { start: 'The wise man knows his own ignorance; the foolish man knows only the wisdom of', correct: 'others.', wrong: ['himself.', 'the ruler.', 'the crowd.'] },
-          { start: 'If you know the path and walk on it every day, you will eventually reach the', correct: 'destination.', wrong: ['beginning.', 'end.', 'truth.'] }
+          {
+            start: 'Mengzi 2A:6 — Mencius argues that human nature contains four "sprouts" (duan): the sprout of benevolence, righteousness, ritual propriety, and',
+            correct: 'wisdom.',
+            wrong: ['courage.', 'loyalty.', 'harmony.']
+          },
+          {
+            start: 'Mengzi 2A:6 — The heart that cannot bear to see the suffering of others Mencius calls the',
+            correct: 'sprout of benevolence (ren).',
+            wrong: ['sprout of ritual (li).', 'sprout of wisdom (zhi).', 'sprout of righteousness (yi).']
+          },
+          {
+            start: 'Mengzi 1B:8 — On the priority of the people, Mencius states: "The people are the most important; the altars of land and grain come next; the ruler is',
+            correct: 'of least importance."',
+            wrong: ['most important."', 'equally important."', 'above the state."']
+          },
+          {
+            start: 'Mengzi 6A:2 — Mencius argues that human nature (xing) is originally',
+            correct: 'good,',
+            wrong: ['evil,', 'neutral,', 'dual — both good and evil,']
+          },
+          {
+            start: 'Just as water naturally flows',
+            correct: 'downward." (Mengzi 6A:2)',
+            wrong: ['upward."', 'in all directions."', 'according to the ground."']
+          },
+          {
+            start: 'Mengzi 4A:10 — "The great man is he who does not lose the heart of a',
+            correct: 'newborn child."',
+            wrong: ['sage."', 'warrior."', 'scholar."']
+          },
+          {
+            start: 'Mengzi 7A:1 — "He who exerts his mind to the utmost knows his nature (xing). He who knows his nature knows',
+            correct: 'Heaven (tian)."',
+            wrong: ['the ruler."', 'the Way."', 'himself."']
+          },
+          {
+            start: 'Mengzi 3B:9 — Mencius explicitly defends the right of the people to overthrow a ruler who acts like a "robber and a ruffian" — establishing what later scholars call the doctrine of',
+            correct: 'righteous rebellion.',
+            wrong: ['filial loyalty.', 'ritual correction.', 'hereditary succession.']
+          },
+          {
+            start: 'Mengzi 2A:2 — Mencius describes the "flood-like qi" (haoran zhi qi) as a vast, firm energy that fills Heaven and Earth when cultivated through',
+            correct: 'accumulated righteous action.',
+            wrong: ['ritual sacrifice.', 'royal decree.', 'ascetic practice.']
+          },
+          {
+            start: 'Mengzi 6A:8 — Mencius uses the metaphor of a mountain near the capital that was once forested but stripped bare by cutting to argue that human goodness, though often obscured, is',
+            correct: 'originally present and recoverable.',
+            wrong: ['permanently lost.', 'cultivated only by rituals.', 'dependent on the ruler.']
+          }
         ]
       },
       {
-        name: 'Zhuangzi (Chuang Tzu)',
+        name: 'Zhuangzi (Inner Chapters — Documented)',
         emoji: '🌊',
         quotes: [
-          { start: 'The fish trap exists because of the', correct: 'fish.', wrong: ['water.', 'river.', 'net.'] },
-          { start: 'I dreamed I was a butterfly, and when I awoke I did not know whether I was a man who had dreamed he was a butterfly, or a butterfly dreaming he was a', correct: 'man.', wrong: ['god.', 'bird.', 'fish.'] },
-          { start: 'Happiness is the absence of the', correct: 'striving for happiness.', wrong: ['pursuit of pleasure.', 'fear of pain.', 'desire for wealth.'] },
-          { start: 'The perfect man has no', correct: 'self.', wrong: ['fear.', 'desire.', 'ego.'] },
-          { start: 'Flow with whatever may happen and let your mind', correct: 'be free.', wrong: ['resist everything.', 'control everything.', 'fear everything.'] },
-          { start: 'The wise man knows that he is', correct: 'nothing.', wrong: ['everything.', 'wise.', 'powerful.'] },
-          { start: 'A good traveler has no fixed', correct: 'plans.', wrong: ['destination.', 'route.', 'goals.'] },
-          { start: 'Life is a series of natural and spontaneous changes. Do not', correct: 'resist them.', wrong: ['force them.', 'fear them.', 'ignore them.'] },
-          { start: 'The sound of the wind in the trees is the voice of', correct: 'the Tao.', wrong: ['the emperor.', 'the ancestors.', 'the gods.'] },
-          { start: 'When the shoe fits, the foot is', correct: 'forgotten.', wrong: ['happy.', 'free.', 'strong.'] },
-          { start: 'The greatest man is he who does not lose his childlike', correct: 'heart.', wrong: ['mind.', 'strength.', 'ambition.'] }
+          {
+            start: 'Zhuangzi Ch.2 (Qiwulun): "Once upon a time, Zhuangzi dreamt he was a butterfly. When he awoke he did not know whether he was a man who had dreamed of being a butterfly, or a butterfly dreaming of being a',
+            correct: 'man."',
+            wrong: ['god."', 'sage."', 'crane."']
+          },
+          {
+            start: 'Zhuangzi Ch.3 (Yangshengzhu): Cook Ding cuts the ox by following the natural structure of the animal — illustrating the concept of',
+            correct: 'wu wei (effortless action).',
+            wrong: ['li (ritual propriety).', 'yi (righteousness).', 'ren (benevolence).']
+          },
+          {
+            start: 'Zhuangzi Ch.26 (Outer Chapters): "The fish trap exists because of the fish; once you have caught the fish, you can forget the',
+            correct: 'trap."',
+            wrong: ['water."', 'river."', 'net."']
+          },
+          {
+            start: 'Zhuangzi Ch.1 (Xiaoyaoyou): The great Peng bird rises ninety thousand li on the wind — an image of',
+            correct: 'the vastness beyond ordinary perspective.',
+            wrong: ['the power of the emperor.', 'the uselessness of learning.', 'the cycle of seasons.']
+          },
+          {
+            start: 'Zhuangzi Ch.2: "The possible is possible. The impossible is impossible." — used to argue that distinctions like right/wrong are',
+            correct: 'relative to perspective.',
+            wrong: ['absolute and clear.', 'determined by the ruler.', 'based on ritual propriety.']
+          },
+          {
+            start: 'Zhuangzi Ch.6: On the death of his wife, Zhuangzi sang — explaining that she had returned to the transformation of the ten thousand things, demonstrating his view that death is',
+            correct: 'a natural transformation, not a loss.',
+            wrong: ['the beginning of punishment.', 'proof of Heaven\'s will.', 'the end of consciousness.']
+          },
+          {
+            start: 'Zhuangzi Ch.7: The death of Hundun (Chaos) — when the Emperors of South and North Sea bored holes in him out of kindness — illustrates the danger of',
+            correct: 'imposing order on what is naturally formless.',
+            wrong: ['excessive Daoist practice.', 'ignoring ritual propriety.', 'forgetting filial duty.']
+          },
+          {
+            start: 'Zhuangzi uses the phrase "sitting in forgetfulness" (zuowang, Ch.6) to describe a meditative state beyond ritual and benevolence — an idea that influenced later',
+            correct: 'Chan (Zen) Buddhism.',
+            wrong: ['Legalist statecraft.', 'Confucian ritual theory.', 'Mohist ethics.']
+          }
         ]
       },
       {
-        name: 'Han Feizi',
+        name: 'Han Feizi (Legalist Text — Documented)',
         emoji: '⚖️',
         quotes: [
-          { start: 'When the ruler is lawless, the people are', correct: 'disobedient.', wrong: ['obedient.', 'wise.', 'silent.'] },
-          { start: 'A wise ruler uses law and', correct: 'punishment.', wrong: ['mercy.', 'rituals.', 'virtue.'] },
-          { start: 'The strength of the state lies in', correct: 'order and discipline.', wrong: ['compassion.', 'trust.', 'freedom.'] },
-          { start: 'Humans are naturally', correct: 'self-interested.', wrong: ['virtuous.', 'generous.', 'obedient.'] },
-          { start: 'Reward and punishment must be', correct: 'clear and impartial.', wrong: ['hidden and subtle.', 'lenient.', 'flexible.'] },
-          { start: 'Those who are too lenient invite', correct: 'chaos.', wrong: ['loyalty.', 'prosperity.', 'peace.'] },
-          { start: 'The ruler who relies on virtue alone will', correct: 'lose power.', wrong: ['gain respect.', 'control all.', 'be loved.'] },
-          { start: 'Law should be applied', correct: 'equally to all.', wrong: ['only to enemies.', 'only to officials.', 'only to commoners.'] },
-          { start: 'Human nature cannot be changed, but behavior can be', correct: 'controlled.', wrong: ['ignored.', 'cured.', 'worshiped.'] },
-          { start: 'Power is maintained by strict', correct: 'regulations.', wrong: ['trust.', 'forgiveness.', 'ceremony.'] },
-          { start: 'Those who obey laws without understanding them will', correct: 'avoid punishment.', wrong: ['be wise.', 'be praised.', 'gain freedom.'] },
-          { start: 'A ruler who depends on men rather than laws will', correct: 'lose control.', wrong: ['gain loyalty.', 'be respected.', 'achieve peace.'] },
-          { start: 'People will follow rewards, but flee', correct: 'punishment.', wrong: ['virtue.', 'ritual.', 'pleasure.'] },
-          { start: 'Governance is like sharp weapons: it must be', correct: 'handled carefully.', wrong: ['ignored.', 'hidden.', 'trusted blindly.'] },
-          { start: 'Those who seek to be loved by all often', correct: 'fail.', wrong: ['succeed.', 'rule wisely.', 'gain fame.'] },
-          { start: 'Laws are like nets: if they are', correct: 'too wide, the guilty escape.', wrong: ['too strict, they catch nothing.', 'too soft, they bind all.', 'too hidden, they are obeyed.'] },
-          { start: 'A ruler’s mind should be free from', correct: 'personal favor.', wrong: ['laws.', 'rituals.', 'advisors.'] },
-          { start: 'The cleverest ministers cannot save a ruler who', correct: 'ignores the law.', wrong: ['follows tradition.', 'trusts everyone.', 'punishes criminals.'] },
-          { start: 'People obey rules not because they are', correct: 'moral, but because of fear.', wrong: ['wise.', 'good.', 'loyal.'] },
-          { start: 'Reward those who follow the law and punish', correct: 'those who break it.', wrong: ['those who speak.', 'those who fear.', 'those who serve.'] },
-          { start: 'A state without strict law is like a', correct: 'house without walls.', wrong: ['tree without roots.', 'river without water.', 'soldier without armor.'] },
-          { start: 'The foundation of power is', correct: 'control over behavior.', wrong: ['love of virtue.', 'wisdom of advisors.', 'pleasure of people.'] },
-          { start: 'Merit alone cannot sustain a ruler; he must also', correct: 'enforce law.', wrong: ['show mercy.', 'seek loyalty.', 'perform rituals.'] },
-          { start: 'Laws must be impartial, and the ruler must not', correct: 'interfere.', wrong: ['favor relatives.', 'trust ministers.', 'consult spirits.'] },
-          { start: 'Those who are weak or lenient are soon', correct: 'overthrown.', wrong: ['respected.', 'trusted.', 'rewarded.'] },
-          { start: 'Rulers who punish too lightly invite', correct: 'rebellion.', wrong: ['obedience.', 'loyalty.', 'wisdom.'] },
-          { start: 'The wise ruler uses rewards and punishments as', correct: 'tools, not as favors.', wrong: ['miracles.', 'virtue.', 'gifts.'] },
-          { start: 'Virtue without law is like a', correct: 'boat without a rudder.', wrong: ['sword without a handle.', 'tree without roots.', 'shield without armor.'] },
-          { start: 'People’s hearts are drawn more by fear than', correct: 'by love.', wrong: ['rituals.', 'virtue.', 'mercy.'] },
-          { start: 'A ruler must rely on the system, not', correct: 'personal whims.', wrong: ['wise ministers.', 'rituals.', 'his family.'] },
-          { start: 'The state prospers when the laws are', correct: 'strong and clear.', wrong: ['hidden and lenient.', 'flexible and soft.', 'ignored and symbolic.'] }
+          {
+            start: 'Han Feizi Ch.49 (Wu Du): Han Fei identifies five types of people who harm the state — scholars, speechmakers, sword-carriers, shirkers, and merchants — calling them the "five',
+            correct: 'vermin" (wu du).',
+            wrong: ['ministers" (wu chen).', 'dangers" (wu wei).', 'enemies" (wu di).']
+          },
+          {
+            start: 'Han Feizi\'s doctrine of xing-ming (forms and names) holds that a ruler assigns tasks and then measures results against promises — officials who claim more than they deliver or',
+            correct: 'less than they promise must be punished.',
+            wrong: ['more than promised are rewarded equally.', 'exactly on target are promoted.', 'refuse tasks are educated.']
+          },
+          {
+            start: 'Han Feizi argues that a ruler who governs through benevolence (ren) alone will fail, because human nature is fundamentally',
+            correct: 'self-interested.',
+            wrong: ['good by nature.', 'obedient by instinct.', 'shaped by ritual.']
+          },
+          {
+            start: 'Han Feizi Ch.8 (Yang Quan): The two "handles" (er bing) by which a ruler controls ministers are',
+            correct: 'reward and punishment.',
+            wrong: ['ritual and music.', 'learning and example.', 'law and custom.']
+          },
+          {
+            start: 'Han Feizi Ch.14: A ruler must keep his inner thoughts concealed — "If the ruler reveals his desires, ministers will',
+            correct: 'shape their behavior to please him."',
+            wrong: ['serve him loyally."', 'follow the law faithfully."', 'become more virtuous."']
+          },
+          {
+            start: 'Han Feizi distinguishes three pillars of Legalism: law (fa), administrative method (shu), and',
+            correct: 'positional power (shi).',
+            wrong: ['benevolence (ren).', 'ritual (li).', 'loyalty (zhong).']
+          },
+          {
+            start: 'Han Feizi argues that laws must be',
+            correct: 'publicly announced, consistently applied, and impersonal.',
+            wrong: ['secret but severe.', 'flexible and compassionate.', 'enforced only against officials.']
+          },
+          {
+            start: 'Han Feizi criticizes Confucian reliance on virtuous rulers, arguing that good government should not depend on exceptional men but on',
+            correct: 'clear and reliable institutions.',
+            wrong: ['ritual music.', 'filial piety.', 'wise ministers.']
+          }
         ]
       },
       {
-        name: 'Xunzi',
+        name: 'Xunzi (Documented — Ritual & Human Nature)',
         emoji: '📜',
         quotes: [
-          { start: 'Human nature is', correct: 'evil by nature.', wrong: ['good by nature.', 'neutral.', 'divine.'] },
-          { start: 'Education and ritual transform', correct: 'human behavior.', wrong: ['the stars.', 'the gods.', 'fortune.'] },
-          { start: 'The wise ruler governs through', correct: 'ritual and law.', wrong: ['pleasure.', 'fear.', 'force alone.'] },
-          { start: 'A person who is self-disciplined controls', correct: 'their desires.', wrong: ['others.', 'fate.', 'time.'] },
-          { start: 'Learning is the foundation of', correct: 'virtue.', wrong: ['wealth.', 'strength.', 'power.'] },
-          { start: 'Without law, people cannot', correct: 'maintain order.', wrong: ['be happy.', 'gain wisdom.', 'be free.'] },
-          { start: 'He who corrects himself will', correct: 'correct others.', wrong: ['rule the world.', 'gain riches.', 'avoid conflict.'] },
-          { start: 'Desire left unchecked leads to', correct: 'chaos.', wrong: ['peace.', 'freedom.', 'happiness.'] },
-          { start: 'A ruler must be firm, impartial, and', correct: 'wise.', wrong: ['lenient.', 'merciful.', 'secretive.'] },
-          { start: 'Virtue alone cannot govern; one must also use', correct: 'law.', wrong: ['ritual.', 'fear.', 'ritual and fear.'] }
+          {
+            start: 'Xunzi Ch.23 (Xing E): "The nature of man is evil (e); his goodness is',
+            correct: 'the result of deliberate effort (wei)."',
+            wrong: ['innate and recoverable."', 'given by Heaven."', 'preserved by ritual alone."']
+          },
+          {
+            start: 'Xunzi Ch.1 (Quan Xue): "Learning should not',
+            correct: 'stop.",',
+            wrong: ['replace ritual.",', 'precede virtue.",', 'substitute for action.",']
+          },
+          {
+            start: 'Continuing: "The blue dye comes from the indigo plant yet is bluer than the plant" — illustrating that education',
+            correct: 'can surpass natural endowment.',
+            wrong: ['returns one to original nature.', 'reveals innate goodness.', 'is inferior to nature.']
+          },
+          {
+            start: 'Xunzi Ch.19 (Lilun): Ritual (li) serves three roots: Heaven and Earth as the root of life, ancestors as the root of',
+            correct: 'the human species,',
+            wrong: ['moral virtue,', 'social order,', 'ritual performance,']
+          },
+          {
+            start: 'And rulers and teachers as the root of',
+            correct: 'governance." (Xunzi Ch.19)',
+            wrong: ['virtue."', 'ritual."', 'learning."']
+          },
+          {
+            start: 'Xunzi Ch.9 (Wangzhi): A state requires the correct ranking of scholars, farmers, artisans, and merchants — with the gentleman-scholar at the top because he',
+            correct: 'regulates the relations among all.',
+            wrong: ['performs the most labor.', 'collects the most taxes.', 'commands the army.']
+          },
+          {
+            start: 'Xunzi disagrees with Mencius on human nature but agrees with Confucius that',
+            correct: 'ritual and education can transform people.',
+            wrong: ['human nature is innately good.', 'law alone is sufficient.', 'punishment replaces ritual.']
+          },
+          {
+            start: 'Xunzi Ch.17 (Tianlun): Heaven (tian) does not act for human benefit or harm — it operates according to constant patterns, meaning Heaven should be',
+            correct: 'understood and utilized, not worshipped.',
+            wrong: ['obeyed as a moral authority.', 'appeased through sacrifice.', 'feared as a divine judge.']
+          }
         ]
       },
       {
-        name: 'Mozi',
+        // shang xian (meritocracy), jie yong (frugality). Well-documented but often oversimplified.
+        name: 'Mozi (Mohist School — Documented)',
         emoji: '🛡️',
         quotes: [
-          { start: 'Universal love means caring for', correct: 'all people equally.', wrong: ['only family.', 'only friends.', 'the ruler.'] },
-          { start: 'The highest good is', correct: 'benefiting others.', wrong: ['personal happiness.', 'wealth.', 'power.'] },
-          { start: 'Rituals are useless if they', correct: 'waste resources.', wrong: ['honor ancestors.', 'teach morality.', 'bring people together.'] },
-          { start: 'A ruler should appoint officials based on', correct: 'merit.', wrong: ['favor.', 'family ties.', 'popularity.'] },
-          { start: 'War should only be waged for', correct: 'defense.', wrong: ['conquest.', 'glory.', 'ambition.'] },
-          { start: 'Helping others strengthens', correct: 'the state.', wrong: ['personal wealth.', 'social status.', 'rituals.'] },
-          { start: 'Greed and selfishness cause', correct: 'conflict.', wrong: ['prosperity.', 'peace.', 'virtue.'] },
-          { start: 'The people are happiest when rulers are', correct: 'just and caring.', wrong: ['fearsome.', 'distant.', 'ritualistic.'] },
-          { start: 'The foundation of society is', correct: 'mutual benefit.', wrong: ['ritual.', 'power.', 'religion.'] },
-          { start: 'Those who love only themselves bring', correct: 'harm to all.', wrong: ['prosperity.', 'peace.', 'wisdom.'] }
+          {
+            start: 'Mozi Ch.14–16 (Jian Ai): Mozi\'s doctrine of "impartial caring" (jian ai) holds that people should care for others\' states, families, and persons',
+            correct: 'as they do their own.',
+            wrong: ['more than their own.', 'only through ritual.', 'as the ruler commands.']
+          },
+          {
+            start: 'Mozi argues that partial love (bie ai) — caring only for one\'s own — is the',
+            correct: 'root of all social disorder.',
+            wrong: ['basis of virtue.', 'natural human condition to be preserved.', 'teaching of Heaven.']
+          },
+          {
+            start: 'Mozi Ch.17–19 (Fei Gong): Mozi condemns aggressive warfare as',
+            correct: 'large-scale robbery,',
+            wrong: ['justified by ritual,', 'necessary for order,', 'sanctioned by Heaven,']
+          },
+          {
+            start: 'Mozi Ch.8–10 (Shang Xian): Government officials should be chosen on the basis of',
+            correct: 'ability and virtue, regardless of birth.',
+            wrong: ['noble lineage only.', 'wealth and connections.', 'ritual knowledge.']
+          },
+          {
+            start: 'Mozi Ch.20–21 (Jie Yong): Mozi criticizes elaborate funerals and musical performances as wasteful — arguing that resources spent on ritual',
+            correct: 'harm the welfare of the people.',
+            wrong: ['please Heaven.', 'strengthen the state.', 'honor the ancestors rightly.']
+          },
+          {
+            start: 'Mozi\'s utilitarianism is often contrasted with Confucianism — Mozi judges practices by whether they',
+            correct: 'enrich the people, increase the population, and promote order.',
+            wrong: ['conform to ancient ritual.', 'express natural human feeling.', 'please the ruler.']
+          },
+          {
+            start: 'Mozi Ch.26–28 (Tian Zhi): Mozi, unlike most Chinese thinkers, argues that Heaven (tian) has a',
+            correct: 'moral will that commands impartial love.',
+            wrong: ['ritual calendar to be followed.', 'mandate that supports the Zhou dynasty.', 'natural order indifferent to humans.']
+          }
         ]
       },
       {
-        name: 'Liezi',
-        emoji: '🌿',
-        quotes: [
-          { start: 'The wise man is like water, for it', correct: 'flows without force.', wrong: ['controls all.', 'stops often.', 'rises above all.'] },
-          { start: 'Happiness comes when the mind is', correct: 'free and untroubled.', wrong: ['ambitious.', 'controlled.', 'fearful.'] },
-          { start: 'To live fully, one must', correct: 'embrace change.', wrong: ['resist fate.', 'plan everything.', 'seek power.'] },
-          { start: 'A good life is like', correct: 'a natural stream.', wrong: ['a fortified castle.', 'an endless climb.', 'a captured treasure.'] },
-          { start: 'The sage knows the limits of', correct: 'knowledge.', wrong: ['power.', 'desire.', 'honor.'] },
-          { start: 'Freedom is found in', correct: 'letting go.', wrong: ['grasping.', 'planning.', 'fighting.'] },
-          { start: 'The universe does not hurry, yet', correct: 'everything is accomplished.', wrong: ['nothing moves.', 'time stops.', 'chaos reigns.'] },
-          { start: 'All things are connected, and understanding this', correct: 'brings peace.', wrong: ['brings wealth.', 'gives power.', 'creates fear.'] },
-          { start: 'Those who desire control over all will', correct: 'lose themselves.', wrong: ['gain respect.', 'rule easily.', 'find joy.'] },
-          { start: 'Life is short; the sage therefore', correct: 'cherishes the present.', wrong: ['plans endlessly.', 'stores wealth.', 'fights constantly.'] }
-        ]
-      },
-      {
-        name: 'Tao Hongjing',
-        emoji: '🪷',
-        quotes: [
-          { start: 'The sage moves with the', correct: 'flow of nature.', wrong: ['will of men.', 'laws of rulers.', 'force of desire.'] },
-          { start: 'True immortality is found in', correct: 'harmony with the Dao.', wrong: ['wealth.', 'fame.', 'power.'] },
-          { start: 'The mind that seeks stillness finds', correct: 'clarity.', wrong: ['conflict.', 'chaos.', 'desire.'] },
-          { start: 'All things are temporary; only the', correct: 'Dao endures.', wrong: ['emperor endures.', 'mind endures.', 'law endures.'] },
-          { start: 'Nature does not hurry, yet', correct: 'everything is accomplished.', wrong: ['nothing moves.', 'the wise fail.', 'desires flourish.'] },
-          { start: 'The heart that is unattached is', correct: 'free.', wrong: ['troubled.', 'ambitious.', 'fearful.'] },
-          { start: 'To follow the Dao is to', correct: 'live without striving.', wrong: ['control others.', 'seek wealth.', 'seek recognition.'] },
-          { start: 'He who knows simplicity is', correct: 'rich in spirit.', wrong: ['poor in knowledge.', 'weak.', 'powerless.'] },
-          { start: 'Wisdom comes not from learning alone but', correct: 'from observing nature.', wrong: ['from authority.', 'from wealth.', 'from ambition.'] },
-          { start: 'The wise do not speak to show knowledge, they', correct: 'act in accordance with the Dao.', wrong: ['debate endlessly.', 'control others.', 'accumulate wealth.'] }
-        ]
-      },
-      {
-        name: 'Huainanzi',
-        emoji: '📚',
-        quotes: [
-          { start: 'The ruler who understands Heaven and Earth governs', correct: 'without force.', wrong: ['with cruelty.', 'through wealth.', 'with fear.'] },
-          { start: 'He who conquers himself is', correct: 'stronger than one who conquers others.', wrong: ['weak.', 'fearful.', 'confused.'] },
-          { start: 'The wise man adapts to', correct: 'circumstances.', wrong: ['his whims.', 'fortune.', 'the law.'] },
-          { start: 'All things arise from the', correct: 'Dao.', wrong: ['emperor.', 'mind.', 'ritual.'] },
-          { start: 'A good ruler values', correct: 'order and balance.', wrong: ['wealth and fame.', 'ritual alone.', 'fear and force.'] },
-          { start: 'Those who are patient endure', correct: 'all things.', wrong: ['nothing.', 'only wealth.', 'only power.'] },
-          { start: 'The mind that is in harmony with Heaven is', correct: 'at peace.', wrong: ['troubled.', 'restless.', 'ambitious.'] },
-          { start: 'Power without virtue leads to', correct: 'destruction.', wrong: ['success.', 'peace.', 'happiness.'] },
-          { start: 'Knowledge alone is insufficient; it must be', correct: 'applied.', wrong: ['ignored.', 'hidden.', 'praised.'] },
-          { start: 'The greatest ruler governs with', correct: 'quiet influence.', wrong: ['loud commands.', 'force.', 'punishment.'] }
-        ]
-      },
-      {
-        name: 'Shen Buhai',
-        emoji: '⚖️',
-        quotes: [
-          { start: 'A ruler must control the', correct: 'administration.', wrong: ['weather.', 'wealth.', 'rituals.'] },
-          { start: 'Officials must be evaluated by', correct: 'performance, not words.', wrong: ['appearance.', 'family.', 'loyalty.'] },
-          { start: 'Law and method govern better than', correct: 'personal favor.', wrong: ['mercy.', 'virtue.', 'ritual.'] },
-          { start: 'The clever ruler relies on', correct: 'systems, not men.', wrong: ['wisdom alone.', 'fear.', 'ritual.'] },
-          { start: 'To maintain order, the ruler must', correct: 'assign duties clearly.', wrong: ['trust everyone.', 'give freedom.', 'allow chaos.'] },
-          { start: 'An official who does not follow method', correct: 'must be removed.', wrong: ['is praised.', 'is forgiven.', 'is ignored.'] },
-          { start: 'The state prospers when law and', correct: 'administration are clear.', wrong: ['rituals.', 'mercy.', 'virtue.'] },
-          { start: 'Control without clarity leads to', correct: 'confusion.', wrong: ['loyalty.', 'success.', 'peace.'] },
-          { start: 'The ruler’s mind must be', correct: 'calm and impartial.', wrong: ['fearful.', 'ambitious.', 'fickle.'] },
-          { start: 'Those who rely on personal talent rather than method', correct: 'invite failure.', wrong: ['succeed.', 'gain respect.', 'rule wisely.'] }
-        ]
-      },
-      {
-        name: 'Li Kui',
-        emoji: '📏',
-        quotes: [
-          { start: 'The foundation of a state is', correct: 'clear laws.', wrong: ['rituals.', 'virtue.', 'fame.'] },
-          { start: 'Punishment must be', correct: 'strict and impartial.', wrong: ['lenient.', 'hidden.', 'arbitrary.'] },
-          { start: 'Officials should be chosen for', correct: 'merit.', wrong: ['family ties.', 'popularity.', 'wealth.'] },
-          { start: 'The ruler who ignores law invites', correct: 'chaos.', wrong: ['loyalty.', 'prosperity.', 'obedience.'] },
-          { start: 'A law without enforcement is', correct: 'useless.', wrong: ['moral.', 'respected.', 'powerful.'] },
-          { start: 'The wise ruler governs by', correct: 'system, not favor.', wrong: ['virtue alone.', 'rituals.', 'fear.'] },
-          { start: 'Those who break the law must be', correct: 'punished equally.', wrong: ['forgiven.', 'hidden.', 'praised.'] },
-          { start: 'Power depends on', correct: 'order and discipline.', wrong: ['wealth.', 'fear.', 'popularity.'] },
-          { start: 'Officials must follow method and', correct: 'duty.', wrong: ['ambition.', 'desire.', 'ritual.'] },
-          { start: 'A state prospers when the law is', correct: 'clear and consistent.', wrong: ['hidden.', 'flexible.', 'lenient.'] }
-        ]
-      },
-      {
-        name: 'Zengzi',
-        emoji: '🕊️',
-        quotes: [
-          { start: 'Filial piety begins at home and extends to', correct: 'all people.', wrong: ['wealth.', 'power.', 'rituals.'] },
-          { start: 'A person who cultivates virtue becomes', correct: 'respected by all.', wrong: ['fearful.', 'wealthy.', 'ambitious.'] },
-          { start: 'Self-reflection is the path to', correct: 'wisdom.', wrong: ['power.', 'fear.', 'wealth.'] },
-          { start: 'Those who are sincere in heart and action', correct: 'inspire trust.', wrong: ['gain power.', 'accumulate wealth.', 'seek fame.'] },
-          { start: 'Moral character is shown in', correct: 'small daily actions.', wrong: ['grand ceremonies.', 'speech.', 'wealth.'] },
-          { start: 'The filial child respects parents and', correct: 'guides the young.', wrong: ['seeks fame.', 'controls others.', 'ignores others.'] },
-          { start: 'Virtue grows through', correct: 'practice and learning.', wrong: ['inheritance.', 'luck.', 'ritual alone.'] },
-          { start: 'A ruler should value', correct: 'moral ministers.', wrong: ['wealthy ministers.', 'fearful ministers.', 'obedient ministers only.'] },
-          { start: 'Those who act with sincerity', correct: 'win hearts.', wrong: ['gain riches.', 'avoid laws.', 'rule kingdoms.'] },
-          { start: 'A person who cannot govern themselves cannot', correct: 'govern others.', wrong: ['gain wealth.', 'perform rituals.', 'control fate.'] }
-        ]
-      },
-      {
-        name: 'Cao Cao',
-        emoji: '⚔️',
-        quotes: [
-          { start: 'Ambition without action leads to', correct: 'nothing.', wrong: ['success.', 'wisdom.', 'peace.'] },
-          { start: 'He who controls the present shapes', correct: 'the future.', wrong: ['the past.', 'destiny alone.', 'others only.'] },
-          { start: 'A wise man values', correct: 'strategy over force.', wrong: ['strength.', 'ritual.', 'fear.'] },
-          { start: 'Opportunities favor those who', correct: 'act decisively.', wrong: ['wait patiently.', 'speak loudly.', 'seek advice endlessly.'] },
-          { start: 'Life is like a journey; one must', correct: 'adapt to obstacles.', wrong: ['fight all challenges.', 'plan nothing.', 'ignore fate.'] },
-          { start: 'Those who chase fame often', correct: 'lose peace.', wrong: ['gain loyalty.', 'win all.', 'are praised.'] },
-          { start: 'Power is temporary; only wisdom', correct: 'endures.', wrong: ['fame endures.', 'force endures.', 'wealth endures.'] },
-          { start: 'The ruler who trusts only force', correct: 'invites rebellion.', wrong: ['achieves peace.', 'gains love.', 'secures loyalty.'] },
-          { start: 'Courage without planning leads to', correct: 'defeat.', wrong: ['success.', 'prosperity.', 'wisdom.'] },
-          { start: 'He who controls himself can', correct: 'control the world.', wrong: ['gain wealth.', 'avoid fear.', 'ignore law.'] }
-        ]
-      },
-      {
-        name: 'Han Yu',
-        emoji: '🖋️',
-        quotes: [
-          { start: 'The scholar must uphold', correct: 'morality above all.', wrong: ['wealth.', 'fame.', 'comfort.'] },
-          { start: 'Righteousness should guide', correct: 'every action.', wrong: ['only ritual.', 'only law.', 'fortune.'] },
-          { start: 'Those who value virtue over gain', correct: 'earn respect.', wrong: ['gain wealth.', 'avoid laws.', 'seek power.'] },
-          { start: 'Filial piety is the root of', correct: 'all virtue.', wrong: ['ritual.', 'power.', 'learning.'] },
-          { start: 'A true leader governs by', correct: 'principle, not force.', wrong: ['fear.', 'wealth.', 'ceremony.'] },
-          { start: 'Learning without practice is', correct: 'incomplete.', wrong: ['perfect.', 'easy.', 'enough.'] },
-          { start: 'Those who speak truth may', correct: 'face opposition.', wrong: ['gain immediate praise.', 'avoid responsibility.', 'be wealthy.'] },
-          { start: 'The mind that seeks virtue is', correct: 'unshakable.', wrong: ['weak.', 'ambitious.', 'fearful.'] },
-          { start: 'Respect for tradition should not override', correct: 'reason.', wrong: ['ritual.', 'power.', 'fortune.'] },
-          { start: 'A ruler must value', correct: 'honest counsel.', wrong: ['wealthy ministers.', 'ritual alone.', 'fame.'] }
-        ]
-      },
-      {
-        name: 'Liu Zongyuan',
-        emoji: '🍃',
-        quotes: [
-          { start: 'A clear mind perceives', correct: 'the truth of things.', wrong: ['only appearances.', 'fame.', 'wealth.'] },
-          { start: 'Nature teaches us to', correct: 'be patient and enduring.', wrong: ['force events.', 'seek power.', 'ignore virtue.'] },
-          { start: 'A virtuous person is guided by', correct: 'principle.', wrong: ['desire.', 'fear.', 'chance.'] },
-          { start: 'Suffering teaches the wise to', correct: 'be humble.', wrong: ['seek revenge.', 'ignore others.', 'seek power.'] },
-          { start: 'True happiness comes from', correct: 'simplicity and virtue.', wrong: ['wealth.', 'fame.', 'control.'] },
-          { start: 'Those who act with foresight avoid', correct: 'regret.', wrong: ['success.', 'wealth.', 'peace.'] },
-          { start: 'The heart that is untroubled finds', correct: 'peace.', wrong: ['conflict.', 'power.', 'fear.'] },
-          { start: 'Virtue is cultivated through', correct: 'practice and reflection.', wrong: ['luck.', 'wealth.', 'ritual alone.'] },
-          { start: 'A person who ignores nature', correct: 'loses harmony.', wrong: ['gains control.', 'becomes wise.', 'is praised.'] },
-          { start: 'The wise see all things as', correct: 'connected.', wrong: ['separate.', 'random.', 'unimportant.'] }
-        ]
-      },
-      {
-        name: 'Sima Qian',
+        name: 'Sima Qian (Shiji — Historical Methodology)',
         emoji: '📖',
         quotes: [
-          { start: 'History teaches those who', correct: 'learn from it.', wrong: ['ignore it.', 'rewrite it.', 'mock it.'] },
-          { start: 'A life without reflection is', correct: 'wasted.', wrong: ['complete.', 'successful.', 'fortunate.'] },
-          { start: 'The deeds of the past reveal', correct: 'the patterns of human nature.', wrong: ['only wealth.', 'only rulers.', 'only ritual.'] },
-          { start: 'A wise man studies history to', correct: 'guide the present.', wrong: ['gain fame.', 'avoid learning.', 'control others.'] },
-          { start: 'Greatness is measured by', correct: 'impact on others.', wrong: ['wealth.', 'ceremony.', 'power alone.'] },
-          { start: 'Those who ignore history', correct: 'repeat mistakes.', wrong: ['create fortune.', 'gain fame.', 'are free.'] },
-          { start: 'Knowledge without action', correct: 'is incomplete.', wrong: ['is wisdom.', 'is enough.', 'brings success.'] },
-          { start: 'The historian observes', correct: 'patterns and consequences.', wrong: ['rituals only.', 'wealth only.', 'power only.'] },
-          { start: 'A ruler who studies the past', correct: 'avoids failure.', wrong: ['gains power.', 'seeks wealth.', 'ignores laws.'] },
-          { start: 'True understanding comes from', correct: 'careful observation.', wrong: ['blind faith.', 'wealth.', 'ceremony.'] }
+          {
+            start: 'Sima Qian\'s Shiji (Records of the Grand Historian) is organized into five sections: Basic Annals (benji), Chronological Tables (biao), Treatises (shu), Hereditary Houses (shijia), and',
+            correct: 'Biographies (liezhuan).',
+            wrong: ['Military Records (bingzhi).', 'Ritual Codes (lijing).', 'Legal Decisions (xingpan).']
+          },
+          {
+            start: 'In his self-account (Taishigong Zixu), Sima Qian states his purpose: to examine all that concerns Heaven and Man and to trace the changes of the past and present, completing',
+            correct: 'one school of thought (yijia zhi yan).',
+            wrong: ['the official dynasty records.', 'a ritual calendar.', 'a legal code.']
+          },
+          {
+            start: 'Sima Qian was castrated by Emperor Wu as punishment for defending the general Li Ling — he chose castration over death in order to',
+            correct: 'complete the Shiji.',
+            wrong: ['serve the emperor.', 'protect his family.', 'preserve ritual propriety.']
+          },
+          {
+            start: 'Sima Qian\'s Shiji was the model for all later official Chinese dynastic histories (zhengshi), establishing the',
+            correct: 'biographical annals format.',
+            wrong: ['chronicle (bian-nian) format.', 'institutional encyclopedia format.', 'ritual calendar format.']
+          },
+          {
+            start: 'The Shiji includes the biography of Confucius (Book 47), treating him as a "hereditary house" (shijia) — a placement that reflects Sima Qian\'s view that Confucius\'s influence was equivalent to that of a',
+            correct: 'feudal lineage.',
+            wrong: ['minor official.', 'divine sage.', 'royal adviser.']
+          },
+          {
+            start: 'Sima Qian\'s method involved drawing on documents, oral traditions, and personal travel to verify sources — meaning the Shiji is a',
+            correct: 'synthesis requiring critical evaluation.',
+            wrong: ['perfectly objective record.', 'imperial propaganda document.', 'purely mythological text.']
+          }
         ]
       },
+      {
+        name: 'Han Yu (Tang Confucian Revival — Documented)',
+        emoji: '🖋️',
+        quotes: [
+          {
+            start: 'Han Yu\'s Yuan Dao (Inquiry into the Way) argues that the true Confucian "Way" was transmitted from sage-kings through Confucius and Mencius, but then',
+            correct: 'lost — requiring revival.',
+            wrong: ['preserved perfectly in ritual.', 'continued through Buddhism.', 'maintained by the Tang emperor.']
+          },
+          {
+            start: 'In his memorial against the Buddha relic (819 CE), Han Yu argued that Buddhism was a "teaching of barbarians" that threatened to corrupt',
+            correct: 'Chinese civilization.',
+            wrong: ['the imperial ritual calendar.', 'Daoist practice.', 'the examination system.']
+          },
+          {
+            start: 'Han Yu\'s Shi Shuo (On Teachers) argues that a teacher is one from whom one learns the Way, the truth, and how to resolve doubts — regardless of',
+            correct: 'the teacher\'s age or social rank.',
+            wrong: ['the subject being taught.', 'the student\'s family background.', 'the ritual setting.']
+          },
+          {
+            start: 'Han Yu\'s Yuan Xing (Inquiry into Human Nature) distinguishes three grades of human nature — arguing against the simplistic claim that all people\'s nature is',
+            correct: 'uniformly good or uniformly evil.',
+            wrong: ['shaped equally by ritual.', 'determined at birth by Heaven.', 'identical to that of sages.']
+          },
+          {
+            start: 'Han Yu\'s exile to Chaozhou (modern Guangdong) for his anti-Buddhist memorial became legendary — he later became the patron saint of the region, illustrating that',
+            correct: 'political punishment did not erase his reputation.',
+            wrong: ['the Tang emperor later endorsed his views.', 'Buddhism declined after his memorial.', 'the Confucian revival was completed in his lifetime.']
+          }
+        ]
+      },
+      {
+        name: 'Liu Zongyuan (Tang Literature & Social Critique)',
+        emoji: '🍃',
+        quotes: [
+          {
+            start: 'Liu Zongyuan\'s "The Snake Catcher" (Bugou Zhuan) uses the story of a man who prefers dangerous snake-catching to ordinary taxation — arguing that',
+            correct: 'harsh government is more dangerous than poisonous snakes.',
+            wrong: ['nature is more just than the state.', 'poverty is a form of wisdom.', 'officials are naturally corrupt.']
+          },
+          {
+            start: 'Liu Zongyuan\'s Yongzhou nature essays, written during his exile, transform the landscape into a space of',
+            correct: 'philosophical reflection and moral contemplation.',
+            wrong: ['Daoist ritual practice.', 'political propaganda.', 'Buddhist devotion.']
+          },
+          {
+            start: 'Liu Zongyuan\'s "Discourse on Feudalism" (Fengjian Lun) argues that the imperial centralized system, while appearing to end feudal chaos, actually arose from',
+            correct: 'natural historical necessity, not sage design.',
+            wrong: ['the moral virtue of the first emperor.', 'Heaven\'s direct mandate.', 'Confucian ritual planning.']
+          },
+          {
+            start: 'Liu Zongyuan, like his friend Han Yu, was exiled during the Yongzhen Reform (805 CE) — meaning his major literary works were produced under',
+            correct: 'conditions of political marginalization.',
+            wrong: ['imperial patronage and approval.', 'Daoist monastic retirement.', 'academic scholarly freedom.']
+          },
+          {
+            start: 'Liu Zongyuan\'s essay on the gardener Tuo Poppycock (Zhongshu Guo Tuo Zhuan) argues that good governance, like good gardening, requires',
+            correct: 'non-interference with natural growth.',
+            wrong: ['strict pruning and control.', 'daily ritual attention.', 'heavy administrative regulation.']
+          }
+        ]
+      }
     ]
   },
   {
     id: 'india',
-    name: 'Ancient India',
+    name: 'Ancient India (Evidence-Based)',
     emoji: '🕉️',
     color: 0xffd700,
     colorHex: '#ffd700',
     bg: '#0a0a0a',
     authors: [
       {
-        name: 'Bhagavad Gita',
+        name: 'Bhagavad Gita (Documented Philosophical Text)',
         emoji: '📜',
         quotes: [
-          { start: 'You have the right to work, but never to the', correct: 'fruits of work.', wrong: ['results of others.', 'wealth.', 'pleasure.'] },
-          { start: 'Perform your duties without attachment, and you will be', correct: 'free.', wrong: ['bound.', 'confused.', 'afraid.'] },
-          { start: 'The soul is neither born, nor does it', correct: 'die.', wrong: ['age.', 'change.', 'suffer.'] },
-          { start: 'Those who are motivated by desire find', correct: 'pain.', wrong: ['peace.', 'joy.', 'strength.'] },
-          { start: 'A person can control their mind through', correct: 'discipline.', wrong: ['wealth.', 'fame.', 'fear.'] },
-          { start: 'True wisdom is knowing the difference between', correct: 'eternal and temporary.', wrong: ['good and evil.', 'rich and poor.', 'strong and weak.'] },
-          { start: 'Do not be led by selfish desire, but by', correct: 'dharma.', wrong: ['fame.', 'wealth.', 'anger.'] },
-          { start: 'The mind is restless; it can be controlled through', correct: 'meditation.', wrong: ['action.', 'words.', 'rituals.'] },
-          { start: 'Happiness and sorrow arise from', correct: 'attachment.', wrong: ['power.', 'pleasure.', 'fate.'] },
-          { start: 'One who sees all beings in the self, and the self in all beings, never', correct: 'hates.', wrong: ['fears.', 'desires.', 'fails.'] },
-          { start: 'A person who is even-minded in pleasure and pain is considered', correct: 'wise.', wrong: ['weak.', 'powerful.', 'fearful.'] },
-          { start: 'The one who surrenders all actions to the Supreme attains', correct: 'peace.', wrong: ['wealth.', 'fame.', 'pleasure.'] },
-          { start: 'Selfless action leads to', correct: 'liberation.', wrong: ['conflict.', 'power.', 'fear.'] },
-          { start: 'Knowledge alone without action is', correct: 'incomplete.', wrong: ['enough.', 'dangerous.', 'powerful.'] },
-          { start: 'A person who controls anger and greed is truly', correct: 'strong.', wrong: ['weak.', 'fearful.', 'ambitious.'] },
-          { start: 'The wise see the same in all beings, whether', correct: 'friend or enemy.', wrong: ['king or peasant.', 'rich or poor.', 'good or bad.'] },
-          { start: 'He who is devoted to the selfless service of others attains', correct: 'liberation.', wrong: ['wealth.', 'power.', 'pleasure.'] },
-          { start: 'Attachment to results leads to', correct: 'suffering.', wrong: ['freedom.', 'joy.', 'peace.'] },
-          { start: 'Those who remain unattached, even in success or failure, are', correct: 'wise.', wrong: ['weak.', 'fearful.', 'ambitious.'] },
-          { start: 'A disciplined mind is the source of', correct: 'all happiness.', wrong: ['wealth.', 'fame.', 'power.'] },
-          { start: 'The wise do not mourn for the past, nor do they', correct: 'fear the future.', wrong: ['seek wealth.', 'desire fame.', 'ignore others.'] },
-          { start: 'Perform all actions as an offering to', correct: 'the divine.', wrong: ['yourself.', 'others.', 'power.'] },
-          { start: 'Those who meditate steadily and control their mind attain', correct: 'freedom.', wrong: ['fear.', 'conflict.', 'desire.'] },
-          { start: 'One should act according to their dharma without', correct: 'attachment.', wrong: ['fear.', 'anger.', 'greed.'] },
-          { start: 'True wisdom comes from the understanding of', correct: 'self and universe.', wrong: ['wealth and fame.', 'rituals.', 'desire.'] },
-          { start: 'The soul is eternal and cannot be', correct: 'destroyed.', wrong: ['controlled.', 'hidden.', 'created.'] }
+          {
+            start: 'The famous verse karmanye vadhikaraste (Ch.2.47) states: you have the right to perform your duties, but never claim the',
+            correct: 'fruits of your actions.',
+            wrong: ['deeds of others.', 'titles of rulers.', 'praise of teachers.']
+          },
+          {
+            start: 'Chapter 2.20 states the soul (Atman) is never born, nor does it',
+            correct: 'die.',
+            wrong: ['sleep.', 'diminish.', 'reincarnate immediately.']
+          },
+          {
+            start: 'Chapter 3 introduces nishkama karma — acting without attachment to results — as the path to',
+            correct: 'liberation.',
+            wrong: ['royal power.', 'social status.', 'sensory pleasure.']
+          },
+          {
+            start: 'The Gita (Ch.6.5) states: one should lift oneself by one\'s own mind, and not let the mind',
+            correct: 'degrade the self.',
+            wrong: ['seek pleasure.', 'worship kings.', 'ignore others.']
+          },
+          {
+            start: 'Chapter 2.47\'s doctrine of detachment from results (nishkama karma) is contrasted in Ch.3 with sakama karma, which is action motivated by',
+            correct: 'selfish desire.',
+            wrong: ['divine command.', 'social duty.', 'priestly instruction.']
+          },
+          {
+            start: 'The Gita (Ch.2.14) teaches that sensory experiences — heat and cold, pleasure and pain — are temporary and that one should learn to',
+            correct: 'endure them.',
+            wrong: ['intensify them.', 'eliminate the body.', 'seek more of them.']
+          },
+          {
+            start: 'Chapter 18.66, often called the charamasloka or final verse, instructs Arjuna to surrender all dharmas and take refuge in',
+            correct: 'Krishna alone.',
+            wrong: ['the Vedic priests.', 'the warrior code.', 'the cosmic law.']
+          },
+          {
+            start: 'The three gunas described in Ch.14 — sattva, rajas, and tamas — represent qualities that bind the',
+            correct: 'embodied soul.',
+            wrong: ['Brahmin caste.', 'cosmic creator.', 'battlefield warriors.']
+          },
+          {
+            start: 'Chapter 6.6 states that the mind is the enemy of the self for those who cannot control it, but the friend of the self for those who',
+            correct: 'have mastered it.',
+            wrong: ['have renounced all.', 'follow the Vedas strictly.', 'perform rituals daily.']
+          },
+          {
+            start: 'The concept of svadharma (Ch.3.35, Ch.18.47) teaches that it is better to perform one\'s own duty imperfectly than to perform another\'s duty',
+            correct: 'perfectly.',
+            wrong: ['carelessly.', 'willingly.', 'in ignorance.']
+          }
         ]
       },
       {
-        name: 'Upanishads',
+        name: 'Upanishads (Principal Texts, Documented)',
         emoji: '🌿',
         quotes: [
-          { start: 'As one acts, so one', correct: 'becomes.', wrong: ['learns.', 'suffers.', 'changes.'] },
-          { start: 'The Self is hidden in all, yet', correct: 'revealed to the wise.', wrong: ['unknown forever.', 'obscure.', 'lost.'] },
-          { start: 'Know that which pervades all beings and is in all things; that is the', correct: 'Self.', wrong: ['world.', 'mind.', 'body.'] },
-          { start: 'He who sees the eternal in the temporal attains', correct: 'peace.', wrong: ['fear.', 'pleasure.', 'power.'] },
-          { start: 'The wise are united with the', correct: 'Brahman.', wrong: ['king.', 'world.', 'flesh.'] },
-          { start: 'Ignorance binds the soul; knowledge', correct: 'liberates.', wrong: ['confuses.', 'binds.', 'destroys.'] },
-          { start: 'Detach from worldly desires, and the mind becomes', correct: 'free.', wrong: ['restless.', 'strong.', 'weak.'] },
-          { start: 'The eternal is beyond', correct: 'birth and death.', wrong: ['wealth.', 'pleasure.', 'pain.'] },
-          { start: 'Seek truth not from fear or desire, but from', correct: 'wisdom.', wrong: ['power.', 'anger.', 'fame.'] },
-          { start: 'The Self is realized when one sees', correct: 'unity in diversity.', wrong: ['conflict in all.', 'power in all.', 'fear in all.'] },
-          { start: 'He who knows the Self becomes', correct: 'free from sorrow.', wrong: ['wealthy.', 'powerful.', 'feared.'] },
-          { start: 'All beings originate from the', correct: 'Brahman.', wrong: ['king.', 'earth.', 'mind.'] },
-          { start: 'The world is illusion; the wise see', correct: 'truth.', wrong: ['fear.', 'pleasure.', 'wealth.'] },
-          { start: 'The Self cannot be grasped by', correct: 'senses.', wrong: ['wealth.', 'rituals.', 'fame.'] },
-          { start: 'Freedom comes to those who know', correct: 'the eternal Self.', wrong: ['pleasure.', 'desire.', 'power.'] },
-          { start: 'He who is free from attachment experiences', correct: 'bliss.', wrong: ['fear.', 'conflict.', 'power.'] },
-          { start: 'The Self is the same in all; realizing this leads to', correct: 'compassion.', wrong: ['power.', 'pleasure.', 'fear.'] },
-          { start: 'True knowledge is knowing the', correct: 'eternal Self.', wrong: ['worldly law.', 'king.', 'rituals.'] },
-          { start: 'Meditation leads to', correct: 'understanding.', wrong: ['wealth.', 'pleasure.', 'fear.'] },
-          { start: 'Those who realize the Self live', correct: 'without fear.', wrong: ['for power.', 'for wealth.', 'in desire.'] },
-          { start: 'He who acts with knowledge sees all', correct: 'as one.', wrong: ['as separate.', 'as weak.', 'as powerful.'] },
-          { start: 'The eternal is beyond time, and understanding it leads to', correct: 'peace.', wrong: ['fear.', 'desire.', 'conflict.'] },
-          { start: 'Detach from false identification and embrace the', correct: 'true Self.', wrong: ['world.', 'wealth.', 'body.'] },
-          { start: 'The wise see life and death as', correct: 'illusion.', wrong: ['fear.', 'power.', 'pleasure.'] },
-          { start: 'Those who know Brahman are', correct: 'free from sorrow.', wrong: ['wealthy.', 'fearful.', 'ambitious.'] },
-          { start: 'Self-knowledge is the foundation of', correct: 'liberation.', wrong: ['power.', 'pleasure.', 'fame.'] },
-          { start: 'The universe is pervaded by the', correct: 'Self.', wrong: ['king.', 'wealth.', 'body.'] },
-          { start: 'All paths lead to the realization of the', correct: 'Self.', wrong: ['king.', 'world.', 'wealth.'] }
+          {
+            start: 'The Chandogya Upanishad\'s famous phrase "Tat Tvam Asi" (Ch.6) — "That Thou Art" — asserts the identity of the individual self (Atman) with',
+            correct: 'universal Brahman.',
+            wrong: ['the Vedic priests.', 'the cosmic king.', 'the material world.']
+          },
+          {
+            start: 'The Katha Upanishad (1.2.18) states that the Atman is "not born, nor does it die" and is "eternal, ancient, unborn" — a verse also echoed in the',
+            correct: 'Bhagavad Gita Ch.2.',
+            wrong: ['Arthashastra.', 'Yoga Sutras.', 'Mimamsa Sutras.']
+          },
+          {
+            start: 'The Brihadaranyaka Upanishad (1.3.28) contains the prayer "Asato ma sad gamaya" — lead me from untruth to',
+            correct: 'truth.',
+            wrong: ['royal favor.', 'ritual purity.', 'material wealth.']
+          },
+          {
+            start: 'The Mundaka Upanishad (3.2.9) teaches that knowledge of Brahman is not attained through study alone, but through',
+            correct: 'grace and self-surrender.',
+            wrong: ['caste rank.', 'ritual sacrifice only.', 'royal patronage.']
+          },
+          {
+            start: 'The Chandogya Upanishad (3.14.1) states "Sarvam khalvidam Brahma" — all this universe is',
+            correct: 'Brahman.',
+            wrong: ['illusion.', 'matter.', 'the self alone.']
+          },
+          {
+            start: 'The Kena Upanishad (1.3) famously states: "The eye does not go there, nor speech, nor mind" — meaning Brahman cannot be grasped by',
+            correct: 'ordinary perception.',
+            wrong: ['ritual action.', 'royal decree.', 'caste membership.']
+          },
+          {
+            start: 'The Isha Upanishad (verse 1) teaches that the entire universe is pervaded by the Lord (Isha), and one should renounce attachment and not',
+            correct: 'covet another\'s wealth.',
+            wrong: ['study the Vedas.', 'worship the gods.', 'practice austerity.']
+          },
+          {
+            start: 'The Taittiriya Upanishad describes the five koshas (sheaths) — physical, vital, mental, intellectual, bliss — as successive layers that veil the',
+            correct: 'true Self.',
+            wrong: ['Vedic knowledge.', 'ritual fire.', 'worldly dharma.']
+          },
+          {
+            start: 'The Brihadaranyaka Upanishad\'s dialogue between Yajnavalkya and Maitreyi argues that one loves wealth, children, and gods not for their own sake, but for the sake of',
+            correct: 'the Self.',
+            wrong: ['ritual merit.', 'social duty.', 'the king.']
+          },
+          {
+            start: 'The Mandukya Upanishad identifies four states of consciousness: waking, dreaming, deep sleep, and the fourth (turiya), which is the substratum of the other',
+            correct: 'three.',
+            wrong: ['five.', 'seven.', 'two.']
+          }
         ]
       },
       {
-        name: 'Mahabharata',
+        name: 'Mahabharata (Epic & Didactic Sections)',
         emoji: '⚔️',
         quotes: [
-          { start: 'A person who conquers themselves is greater than one who conquers', correct: 'a city.', wrong: ['a king.', 'fame.', 'wealth.'] },
-          { start: 'Anger and greed destroy the', correct: 'mind.', wrong: ['body.', 'wealth.', 'kingdom.'] },
-          { start: 'Fortune comes to those who act with', correct: 'righteousness.', wrong: ['fear.', 'trickery.', 'desire.'] },
-          { start: 'It is better to live your own dharma imperfectly than to live', correct: 'another’s perfectly.', wrong: ['wisely.', 'carefully.', 'powerfully.'] },
-          { start: 'The wise are content with', correct: 'little.', wrong: ['much.', 'pleasure.', 'power.'] },
-          { start: 'Speech should be truthful, pleasant, and', correct: 'beneficial.', wrong: ['clever.', 'loud.', 'wise.'] },
-          { start: 'Those who perform actions without attachment to the results gain', correct: 'freedom.', wrong: ['fear.', 'power.', 'pleasure.'] },
-          { start: 'The heart that is pure sees', correct: 'truth.', wrong: ['illusion.', 'fame.', 'desire.'] },
-          { start: 'Knowledge without humility leads to', correct: 'arrogance.', wrong: ['wisdom.', 'strength.', 'peace.'] },
-          { start: 'A wise person does not grieve for what is', correct: 'lost.', wrong: ['gained.', 'hidden.', 'known.'] },
-          { start: 'One who controls the tongue and mind gains', correct: 'peace.', wrong: ['wealth.', 'power.', 'fame.'] },
-          { start: 'He who gives freely without expectation receives', correct: 'blessings.', wrong: ['nothing.', 'fear.', 'power.'] },
-          { start: 'The path of virtue is difficult, but it leads to', correct: 'liberation.', wrong: ['wealth.', 'power.', 'pleasure.'] },
-          { start: 'A person who is humble in heart attains', correct: 'wisdom.', wrong: ['wealth.', 'fame.', 'strength.'] },
-          { start: 'Control your desires and you will be', correct: 'free.', wrong: ['bound.', 'fearful.', 'weak.'] },
-          { start: 'He who is truthful and just is', correct: 'respected.', wrong: ['feared.', 'ignored.', 'envied.'] },
-          { start: 'The wise choose friends who are', correct: 'virtuous.', wrong: ['powerful.', 'wealthy.', 'famous.'] },
-          { start: 'Anger leads to loss; patience brings', correct: 'strength.', wrong: ['fear.', 'fame.', 'desire.'] },
-          { start: 'Those who follow dharma find', correct: 'peace.', wrong: ['conflict.', 'fear.', 'desire.'] },
-          { start: 'Selfless service is greater than', correct: 'rituals.', wrong: ['knowledge.', 'wealth.', 'power.'] },
-          { start: 'The soul is eternal; the body is', correct: 'temporary.', wrong: ['eternal.', 'powerful.', 'hidden.'] },
-          { start: 'Wisdom is superior to', correct: 'strength.', wrong: ['wealth.', 'ritual.', 'fame.'] },
-          { start: 'He who acts with dharma prospers while avoiding', correct: 'sin.', wrong: ['fear.', 'conflict.', 'desire.'] },
-          { start: 'The mind of the wise is calm like', correct: 'still water.', wrong: ['fire.', 'storm.', 'mountain.'] },
-          { start: 'Truth is the highest', correct: 'virtue.', wrong: ['power.', 'knowledge.', 'wealth.'] },
-          { start: 'A virtuous person benefits not only themselves but', correct: 'all beings.', wrong: ['few friends.', 'family.', 'the king.'] },
-          { start: 'He who meditates steadily conquers', correct: 'the self.', wrong: ['others.', 'wealth.', 'fate.'] }
+          {
+            start: 'The Yaksha Prashna (Aranyakaparva) asks: what is the greatest wonder (adbhuta)? Yudhishthira answers — every day people die, yet those living act as if they will',
+            correct: 'live forever.',
+            wrong: ['die tomorrow.', 'achieve moksha.', 'find the Self.']
+          },
+          {
+            start: 'The Yaksha Prashna asks: what is the path (pantha)? Yudhishthira answers — not the Vedas or traditions, but the path followed by',
+            correct: 'great souls (mahajanas).',
+            wrong: ['wealthy merchants.', 'Brahmin priests.', 'royal lineages.']
+          },
+          {
+            start: 'Vidura Niti (Udyogaparva) teaches that anger is the greatest enemy, and the man who controls it attains',
+            correct: 'victory over all.',
+            wrong: ['ritual purity.', 'royal favor.', 'sensory pleasure.']
+          },
+          {
+            start: 'The Shantiparva (Ch.162) states that ahimsa (non-violence) is the highest dharma: "Ahimsa paramo dharma" — non-harm is the',
+            correct: 'supreme duty.',
+            wrong: ['Brahmin privilege.', 'warrior\'s code.', 'renunciant\'s vow.']
+          },
+          {
+            start: 'The Bhagavad Gita, contained within the Mahabharata (Bhishmaparva, Ch.23–40), frames the doctrine of svadharma — it is better to perform one\'s own duty imperfectly than another\'s',
+            correct: 'perfectly.',
+            wrong: ['carelessly.', 'with devotion.', 'for wealth.']
+          },
+          {
+            start: 'Vidura Niti teaches that one should not trust a person who flatters in public but acts differently in',
+            correct: 'private.',
+            wrong: ['battle.', 'temples.', 'markets.']
+          },
+          {
+            start: 'The Shantiparva teaches that the king who rules according to dharma protects all beings, while a king who rules by desire',
+            correct: 'destroys the kingdom.',
+            wrong: ['gains worship.', 'pleases the gods.', 'earns ritual merit.']
+          },
+          {
+            start: 'The Mahabharata (Shanti Parva 129.25) warns that greed alone is the origin of all sin, and among all enemies',
+            correct: 'greed is hardest to conquer.',
+            wrong: ['sorrow is hardest to bear.', 'death is hardest to accept.', 'exile is hardest to endure.']
+          }
         ]
       },
       {
-        name: 'Chanakya',
+        name: 'Chanakya / Kautilya (Arthashastra & Chanakya Niti)',
         emoji: '🧠',
         quotes: [
-          { start: 'A person should not be too honest. Straight trees are', correct: 'cut first.', wrong: ['planted first.', 'ignored first.', 'blessed first.'] },
-          { start: 'Education is the best friend. An educated person is', correct: 'respected everywhere.', wrong: ['feared everywhere.', 'ignored everywhere.', 'envied everywhere.'] },
-          { start: 'He who is overly attached to his family members experiences', correct: 'sorrow.', wrong: ['joy.', 'peace.', 'freedom.'] },
-          { start: 'Before you start some work, always ask yourself three questions: Why am I doing it, What will the result be, and', correct: 'Will I succeed?', wrong: ['Who will notice?', 'Is it easy?', 'Will others help?'] },
-          { start: 'Test a servant while in the happiness of your', correct: 'prosperity.', wrong: ['poverty.', 'fear.', 'anger.'] },
-          { start: 'There is some self-interest behind every', correct: 'friendship.', wrong: ['gift.', 'action.', 'prayer.'] },
-          { start: 'The king shall lose no time when the opportunity to act', correct: 'arises.', wrong: ['fails.', 'delays.', 'dies.'] },
-          { start: 'As soon as the fear approaches near, attack and', correct: 'destroy it.', wrong: ['run away.', 'ignore it.', 'hesitate.'] },
-          { start: 'Wealth, a friend, and fame are gained easily, but', correct: 'lost quickly.', wrong: ['kept forever.', 'ignored easily.', 'earned slowly.'] },
-          { start: 'Before you start a war, always analyze the enemy’s', correct: 'strengths and weaknesses.', wrong: ['intentions only.', 'fame.', 'wealth.'] },
-          { start: 'The biggest guru-mantra is: Never share your', correct: 'secrets with anyone.', wrong: ['wealth with anyone.', 'power with anyone.', 'food with anyone.'] },
-          { start: 'He who is overly greedy loses', correct: 'everything.', wrong: ['some things.', 'nothing.', 'friends.'] },
-          { start: 'A man is great by deeds, not by', correct: 'birth.', wrong: ['wealth.', 'knowledge.', 'clothes.'] },
-          { start: 'Even if a snake is dead, it can still', correct: 'bite.', wrong: ['slither.', 'hiss.', 'freeze.'] },
-          { start: 'The fragrance of flowers spreads only in', correct: 'the direction of the wind.', wrong: ['all directions.', 'your house.', 'silence.'] },
-          { start: 'Once you start working on something, don’t be afraid of', correct: 'failure.', wrong: ['effort.', 'help.', 'success.'] },
-          { start: 'A person who is too clever is not always', correct: 'wise.', wrong: ['rich.', 'powerful.', 'respected.'] },
-          { start: 'A man is great not by his money but by his', correct: 'character.', wrong: ['weapons.', 'followers.', 'clothes.'] },
-          { start: 'The world\'s biggest enemy is', correct: 'ignorance.', wrong: ['fear.', 'power.', 'greed.'] },
-          { start: 'An uneducated ruler is like a', correct: 'blind man.', wrong: ['strong man.', 'rich man.', 'wise man.'] },
-          { start: 'The wise should always be wary of', correct: 'friends who flatter.', wrong: ['enemies who fight.', 'wealth that grows.', 'power that fades.'] },
-          { start: 'Do not reveal your secrets to a person who', correct: 'cannot keep them.', wrong: ['is weak.', 'is rich.', 'is famous.'] },
-          { start: 'He who is disciplined in thought, speech, and action attains', correct: 'success.', wrong: ['fear.', 'poverty.', 'conflict.'] },
-          { start: 'A person should always be prepared for', correct: 'difficulties.', wrong: ['pleasure.', 'sleep.', 'wealth.'] },
-          { start: 'The greatest wealth is', correct: 'knowledge.', wrong: ['gold.', 'power.', 'friends.'] },
-          { start: 'Do not delay action; the right time is', correct: 'now.', wrong: ['tomorrow.', 'later.', 'never.'] },
-          { start: 'Even a small enemy can', correct: 'cause harm.', wrong: ['do nothing.', 'help.', 'be ignored.'] },
-          { start: 'Success comes to those who are', correct: 'persistent.', wrong: ['lucky.', 'clever.', 'fearful.'] },
-          { start: 'Do not waste energy on', correct: 'useless things.', wrong: ['friends.', 'learning.', 'wealth.'] },
-          { start: 'He who controls his mind and desires gains', correct: 'happiness.', wrong: ['power.', 'fear.', 'fame.'] }
+          {
+            start: 'The Arthashastra (Book 1) opens with the statement that the king\'s happiness lies in the happiness of his subjects, and the king\'s benefit is',
+            correct: 'their benefit.',
+            wrong: ['his treasury.', 'his army.', 'his priests.']
+          },
+          {
+            start: 'Chanakya Niti states "A person should not be too honest; straight trees are cut first, and honest people are',
+            correct: 'dealt with first."',
+            wrong: ['rewarded first."', 'appointed first."', 'trusted first."']
+          },
+          {
+            start: 'The Arthashastra (Book 2) describes the duties of a king\'s minister in detail, arguing that the best minister combines learning with',
+            correct: 'practical judgment.',
+            wrong: ['noble birth.', 'ritual purity.', 'military experience.']
+          },
+          {
+            start: 'Chanakya Niti teaches "Education is the best friend; an educated person is respected everywhere, while',
+            correct: 'beauty and youth fade."',
+            wrong: ['wealth and power fade."', 'friends and family fade."', 'titles and rank fade."']
+          },
+          {
+            start: 'The Arthashastra classifies spies (gudhapurushas) as essential instruments of state — an example of Kautilya\'s doctrine that good ends may require',
+            correct: 'covert means.',
+            wrong: ['religious sanction.', 'Brahmin approval.', 'popular consent.']
+          },
+          {
+            start: 'Chanakya Niti warns "There is some self-interest behind every friendship; no friendship is purely',
+            correct: 'selfless."',
+            wrong: ['honest."', 'lasting."', 'equal."']
+          },
+          {
+            start: 'The Arthashastra distinguishes four methods of statecraft: conciliation (sama), gifts (dana), division (bheda), and force (danda) — advising that force is used',
+            correct: 'only as a last resort.',
+            wrong: ['as a first step.', 'to impress allies.', 'against all enemies.']
+          },
+          {
+            start: 'Chanakya Niti states "The biggest secret is never to share your',
+            correct: 'plans with everyone."',
+            wrong: ['wealth with equals."', 'food with strangers."', 'name with enemies."']
+          },
+          {
+            start: 'The Arthashastra (Book 7) categorizes foreign policy as a set of six strategies including alliance (sandhi) and war (vigraha), always guided by',
+            correct: 'the ruler\'s long-term benefit.',
+            wrong: ['ritual calendar.', 'priestly counsel.', 'popular approval.']
+          },
+          {
+            start: 'Chanakya Niti: "A man is great not by his birth or wealth, but by his',
+            correct: 'character and deeds."',
+            wrong: ['military victories."', 'priestly lineage."', 'royal patronage."']
+          }
         ]
       },
       {
-        name: 'Patanjali',
+        name: 'Patanjali (Yoga Sutras — Documented)',
         emoji: '🧘',
         quotes: [
-          { start: 'Yoga is the cessation of the', correct: 'modifications of the mind.', wrong: ['body’s desires.', 'worldly actions.', 'speech.'] },
-          { start: 'The mind is restless; controlling it brings', correct: 'peace.', wrong: ['fear.', 'wealth.', 'conflict.'] },
-          { start: 'Practice and detachment are the means to', correct: 'liberation.', wrong: ['power.', 'fame.', 'pleasure.'] },
-          { start: 'The disciplined mind sees the same in', correct: 'all beings.', wrong: ['friends only.', 'enemies only.', 'wealthy people.'] },
-          { start: 'Yoga is not about controlling the body, but controlling the', correct: 'mind.', wrong: ['world.', 'fame.', 'speech.'] },
-          { start: 'Meditation is the means to', correct: 'self-realization.', wrong: ['knowledge.', 'power.', 'pleasure.'] },
-          { start: 'Detach from desires, and the mind becomes', correct: 'steady.', wrong: ['restless.', 'fearful.', 'weak.'] },
-          { start: 'The yogi who sees all actions as', correct: 'sacred.', wrong: ['useless.', 'difficult.', 'powerful.'] },
-          { start: 'Freedom comes to those who are free from', correct: 'attachment.', wrong: ['friends.', 'enemies.', 'fear.'] },
-          { start: 'The mind becomes pure through', correct: 'practice.', wrong: ['wealth.', 'power.', 'rituals.'] },
-          { start: 'Yoga unites the individual self with the', correct: 'supreme self.', wrong: ['king.', 'world.', 'body.'] },
-          { start: 'Control of the mind leads to control of the', correct: 'body.', wrong: ['king.', 'wealth.', 'desires.'] },
-          { start: 'The yogi who conquers the mind conquers', correct: 'the world.', wrong: ['enemies.', 'wealth.', 'friends.'] },
-          { start: 'Inner stillness is the gateway to', correct: 'freedom.', wrong: ['pleasure.', 'fear.', 'power.'] },
-          { start: 'The mind can be trained through', correct: 'discipline.', wrong: ['luck.', 'fear.', 'power.'] },
-          { start: 'Steady effort overcomes', correct: 'obstacles.', wrong: ['friends.', 'enemies.', 'wealth.'] },
-          { start: 'A focused mind perceives', correct: 'truth.', wrong: ['illusion.', 'wealth.', 'fear.'] },
-          { start: 'Detachment does not mean indifference; it means', correct: 'freedom.', wrong: ['weakness.', 'fear.', 'ignorance.'] },
-          { start: 'Self-control is stronger than', correct: 'external power.', wrong: ['money.', 'enemies.', 'fame.'] },
-          { start: 'Those who meditate constantly experience', correct: 'bliss.', wrong: ['fear.', 'conflict.', 'weakness.'] },
-          { start: 'The yogi acts without attachment to', correct: 'results.', wrong: ['friends.', 'rituals.', 'power.'] },
-          { start: 'Purity of mind leads to', correct: 'wisdom.', wrong: ['wealth.', 'fear.', 'power.'] },
-          { start: 'A tranquil mind overcomes', correct: 'suffering.', wrong: ['pleasure.', 'fame.', 'weakness.'] },
-          { start: 'Yoga is the path to', correct: 'self-mastery.', wrong: ['wealth.', 'fame.', 'pleasure.'] },
-          { start: 'The yogi perceives the same reality in', correct: 'all beings.', wrong: ['friends only.', 'enemies only.', 'kings only.'] },
-          { start: 'Mindful action without desire leads to', correct: 'peace.', wrong: ['fear.', 'conflict.', 'power.'] },
-          { start: 'The power of yoga lies in', correct: 'self-discipline.', wrong: ['strength.', 'wealth.', 'fame.'] },
-          { start: 'Conquering the mind is more difficult than', correct: 'conquering the world.', wrong: ['fighting enemies.', 'gaining wealth.', 'winning power.'] },
-          { start: 'A controlled mind cannot be', correct: 'disturbed.', wrong: ['weak.', 'ignored.', 'confused.'] },
-          { start: 'Through meditation, the yogi realizes', correct: 'eternal truth.', wrong: ['temporary gains.', 'wealth.', 'power.'] }
+          {
+            start: 'Yoga Sutra 1.2 defines yoga as "yogas chitta vritti nirodhah" — yoga is the cessation of the',
+            correct: 'fluctuations of the mind.',
+            wrong: ['movement of the body.', 'flow of the breath.', 'performance of ritual.']
+          },
+          {
+            start: 'Yoga Sutra 1.3 states that when the fluctuations cease, the seer (drashta) rests in its own',
+            correct: 'essential nature.',
+            wrong: ['bodily form.', 'desire for liberation.', 'ritual duty.']
+          },
+          {
+            start: 'Yoga Sutra 1.12 teaches that both practice (abhyasa) and',
+            correct: 'non-attachment (vairagya)',
+            wrong: ['ritual action (karma)', 'social duty (dharma)', 'sacred knowledge (shruti)']
+          },
+          {
+            start: 'Yoga Sutra 2.3 identifies the five kleshas (afflictions): ignorance (avidya), ego (asmita), attraction (raga), aversion (dvesha), and clinging to life',
+            correct: '(abhinivesha).',
+            wrong: ['(tapas).', '(samadhi).', '(dharana).']
+          },
+          {
+            start: 'Yoga Sutra 2.29 describes the eight limbs (ashtanga) of yoga, beginning with ethical restraints (yama) and ending with',
+            correct: 'absorption (samadhi).',
+            wrong: ['posture (asana).', 'breath control (pranayama).', 'withdrawal (pratyahara).']
+          },
+          {
+            start: 'Yoga Sutra 1.33 recommends cultivating friendliness (maitri) toward the happy, compassion (karuna) toward the suffering, joy (mudita) toward the virtuous, and equanimity (upeksha) toward',
+            correct: 'the wicked.',
+            wrong: ['the wealthy.', 'the ignorant.', 'the teachers.']
+          },
+          {
+            start: 'Yoga Sutra 2.46 defines the yoga posture (asana) as that which is',
+            correct: 'steady and comfortable.',
+            wrong: ['difficult and painful.', 'elaborate and precise.', 'approved by a teacher.']
+          },
+          {
+            start: 'Yoga Sutra 4.34 describes kaivalya (liberation) as the return of the gunas to their source, and the establishment of consciousness in its own',
+            correct: 'essential nature.',
+            wrong: ['body and form.', 'ritual duty.', 'social role.']
+          },
+          {
+            start: 'Yoga Sutra 2.16 states "heyam dukham anagatam" — suffering that has not yet come is',
+            correct: 'to be avoided.',
+            wrong: ['to be endured.', 'inevitable.', 'purifying.']
+          }
         ]
       },
       {
-        name: 'Bhartrihari',
+        name: 'Bhartrihari (Shataka Trilogy — Documented)',
         emoji: '📜',
         quotes: [
-          { start: 'Speech is the bridge between the', correct: 'mind and the world.', wrong: ['body and the soul.', 'king and his subjects.', 'friends and enemies.'] },
-          { start: 'Desire is the root of', correct: 'suffering.', wrong: ['knowledge.', 'power.', 'wealth.'] },
-          { start: 'A man who conquers himself is', correct: 'truly wise.', wrong: ['weak.', 'powerful.', 'rich.'] },
-          { start: 'Words are powerful; choose them with', correct: 'care.', wrong: ['fear.', 'anger.', 'wealth.'] },
-          { start: 'Those who speak without thought cause', correct: 'harm.', wrong: ['joy.', 'wealth.', 'peace.'] },
-          { start: 'Pleasure without discipline leads to', correct: 'pain.', wrong: ['freedom.', 'knowledge.', 'success.'] },
-          { start: 'A virtuous mind sees the same in', correct: 'all beings.', wrong: ['friends only.', 'enemies only.', 'kings only.'] },
-          { start: 'Ignorance is the enemy of', correct: 'wisdom.', wrong: ['strength.', 'wealth.', 'fame.'] },
-          { start: 'He who controls speech and thought attains', correct: 'liberation.', wrong: ['fear.', 'power.', 'desire.'] },
-          { start: 'Happiness is found within, not in', correct: 'external objects.', wrong: ['wealth.', 'fame.', 'friends.'] },
-          { start: 'The wise avoid indulgence in', correct: 'empty pleasures.', wrong: ['food.', 'rituals.', 'study.'] },
-          { start: 'Silence is the companion of', correct: 'wisdom.', wrong: ['wealth.', 'power.', 'fear.'] },
-          { start: 'He who understands the self transcends', correct: 'suffering.', wrong: ['wealth.', 'power.', 'desire.'] },
-          { start: 'Desires are chains that bind the', correct: 'mind.', wrong: ['body.', 'friends.', 'wealth.'] },
-          { start: 'A disciplined life brings', correct: 'peace.', wrong: ['power.', 'fame.', 'fear.'] },
-          { start: 'Truth is the foundation of', correct: 'all virtue.', wrong: ['wealth.', 'power.', 'pleasure.'] },
-          { start: 'Those who understand language grasp', correct: 'reality.', wrong: ['wealth.', 'power.', 'fame.'] },
-          { start: 'Control over words is control over', correct: 'the mind.', wrong: ['the world.', 'wealth.', 'friends.'] },
-          { start: 'He who renounces desire experiences', correct: 'bliss.', wrong: ['fear.', 'conflict.', 'loss.'] },
-          { start: 'The mind is a mirror that reflects', correct: 'truth.', wrong: ['power.', 'wealth.', 'pleasure.'] },
-          { start: 'Attachment leads to suffering, detachment leads to', correct: 'freedom.', wrong: ['fear.', 'wealth.', 'power.'] },
-          { start: 'He who is humble in speech attains', correct: 'wisdom.', wrong: ['wealth.', 'fame.', 'power.'] },
-          { start: 'A wise person speaks only when', correct: 'necessary.', wrong: ['pleasure.', 'angry.', 'desired.'] },
-          { start: 'Knowledge without practice is', correct: 'useless.', wrong: ['powerful.', 'wealthy.', 'pleasurable.'] },
-          { start: 'The heart free of desire is', correct: 'peaceful.', wrong: ['fearful.', 'angry.', 'weak.'] },
-          { start: 'Words can heal or harm; choose', correct: 'carefully.', wrong: ['freely.', 'quickly.', 'easily.'] },
-          { start: 'He who conquers anger and greed gains', correct: 'happiness.', wrong: ['power.', 'fear.', 'fame.'] },
-          { start: 'The wise live by', correct: 'truth.', wrong: ['wealth.', 'pleasure.', 'fear.'] },
-          { start: 'Detach from vanity to find', correct: 'freedom.', wrong: ['power.', 'fame.', 'pleasure.'] },
-          { start: 'Speech without meaning is like a', correct: 'bow without an arrow.', wrong: ['river without water.', 'tree without leaves.', 'horse without rider.'] }
+          {
+            start: 'Nitishataka verse 1 opens by praising vidya (learning) as the secret treasure that cannot be stolen, cannot be shared out, and',
+            correct: 'grows the more it is given.',
+            wrong: ['diminishes with age.', 'belongs to the king.', 'requires ritual purity.']
+          },
+          {
+            start: 'The Vairagyashataka teaches that kings who are proud of their power are like lamps that',
+            correct: 'burn out in the wind.',
+            wrong: ['illuminate the world.', 'grow stronger with time.', 'never truly die.']
+          },
+          {
+            start: 'Nitishataka distinguishes four types of men: the noble (uttama) who acts for others\' benefit, the middling who acts for mutual benefit, the low who acts for self-interest, and the vile who acts to',
+            correct: 'harm others.',
+            wrong: ['please priests.', 'gain ritual merit.', 'obey the king.']
+          },
+          {
+            start: 'The Shringarshataka explores the paradox that beauty enslaves even the wise — "the deer-eyed woman has pierced my heart with her',
+            correct: 'glance, which needs no arrowhead."',
+            wrong: ['wealth, which needs no title."', 'voice, which needs no instrument."', 'virtue, which needs no praise."']
+          },
+          {
+            start: 'The Vairagyashataka (verse 10) states that wealth (artha), sense-pleasure (kama), and virtue (dharma) are three conflicting goals, and those who pursue all three',
+            correct: 'achieve none fully.',
+            wrong: ['achieve all equally.', 'earn royal favor.', 'attain moksha easily.']
+          },
+          {
+            start: 'Nitishataka warns that speaking the truth that is harmful (satyam apriyam) is as wrong as speaking pleasant falsehood — the ideal is truth that is both true and',
+            correct: 'beneficial.',
+            wrong: ['flattering.', 'simple.', 'quiet.']
+          },
+          {
+            start: 'The Vakyapadiya (1.1) opens with the declaration that Brahman is identical with',
+            correct: 'the eternal Word (shabda).',
+            wrong: ['the ritual fire.', 'the Vedic sacrifice.', 'the king\'s command.']
+          },
+          {
+            start: 'The Vairagyashataka\'s central theme is that worldly enjoyments are like a',
+            correct: 'dream or a flash of lightning.',
+            wrong: ['river in flood.', 'mountain at rest.', 'fire that never dies.']
+          }
         ]
       },
       {
-        name: 'Valmiki',
+        name: 'Valmiki (Ramayana — Documented Epic)',
         emoji: '📝',
         quotes: [
-          { start: 'A wise man should act without attachment to', correct: 'results.', wrong: ['friends.', 'enemies.', 'fame.'] },
-          { start: 'The mind guided by dharma leads to', correct: 'peace.', wrong: ['fear.', 'conflict.', 'wealth.'] },
-          { start: 'Righteous action is greater than', correct: 'wealth.', wrong: ['power.', 'pleasure.', 'knowledge.'] },
-          { start: 'A person’s character is revealed in', correct: 'difficult times.', wrong: ['wealthy times.', 'happy times.', 'peaceful times.'] },
-          { start: 'Virtue and truth are the pillars of', correct: 'a great life.', wrong: ['wealth.', 'power.', 'pleasure.'] },
-          { start: 'He who controls his desires gains', correct: 'freedom.', wrong: ['fame.', 'wealth.', 'pleasure.'] },
-          { start: 'Speech should be pure, for words have the power to', correct: 'heal or harm.', wrong: ['entertain.', 'confuse.', 'delay.'] },
-          { start: 'Even the smallest act of kindness can', correct: 'bring great merit.', wrong: ['go unnoticed.', 'cause weakness.', 'be punished.'] },
-          { start: 'A person who respects elders and teachers attains', correct: 'wisdom.', wrong: ['power.', 'fear.', 'pleasure.'] },
-          { start: 'Attachment to wealth and pleasure leads to', correct: 'suffering.', wrong: ['joy.', 'freedom.', 'peace.'] },
-          { start: 'Courage is tested not in peace, but in', correct: 'battle.', wrong: ['wealth.', 'pleasure.', 'celebration.'] },
-          { start: 'A true friend stands by you in', correct: 'adversity.', wrong: ['success only.', 'wealth only.', 'pleasure only.'] },
-          { start: 'Actions done with selfish motives yield', correct: 'sorrow.', wrong: ['joy.', 'peace.', 'strength.'] },
-          { start: 'One should forgive those who', correct: 'repent.', wrong: ['harm you.', 'ignore you.', 'praise you.'] },
-          { start: 'Knowledge gained but not applied is', correct: 'worthless.', wrong: ['powerful.', 'pleasurable.', 'strong.'] },
-          { start: 'The wise man chooses companions who are', correct: 'virtuous.', wrong: ['wealthy.', 'powerful.', 'famous.'] },
-          { start: 'Anger is the enemy of', correct: 'peace.', wrong: ['strength.', 'knowledge.', 'joy.'] },
-          { start: 'Humility is the foundation of', correct: 'greatness.', wrong: ['fame.', 'power.', 'wealth.'] },
-          { start: 'He who controls his mind is', correct: 'truly free.', wrong: ['fearful.', 'powerful.', 'wealthy.'] },
-          { start: 'The path of dharma may be difficult, but it leads to', correct: 'liberation.', wrong: ['fear.', 'loss.', 'conflict.'] },
-          { start: 'A ruler must govern with', correct: 'justice.', wrong: ['fear.', 'power.', 'wealth.'] },
-          { start: 'Even the bravest warrior is defeated by', correct: 'lust and anger.', wrong: ['friends.', 'enemies.', 'fear.'] },
-          { start: 'One’s words reflect one’s', correct: 'character.', wrong: ['wealth.', 'fame.', 'power.'] },
-          { start: 'Greed is the root of', correct: 'all suffering.', wrong: ['all success.', 'all happiness.', 'all knowledge.'] },
-          { start: 'A person who follows dharma conquers', correct: 'fear.', wrong: ['friends.', 'enemies.', 'wealth.'] },
-          { start: 'True happiness comes from', correct: 'righteous living.', wrong: ['wealth.', 'pleasure.', 'power.'] },
-          { start: 'The wise man listens more and', correct: 'speaks less.', wrong: ['speaks more.', 'acts blindly.', 'ignores advice.'] },
-          { start: 'Courage combined with virtue is', correct: 'strength.', wrong: ['fame.', 'fear.', 'pleasure.'] },
-          { start: 'A heart free from hatred attains', correct: 'peace.', wrong: ['power.', 'fear.', 'wealth.'] }
+          {
+            start: 'The Ramayana\'s central theme is the conflict between dharma and desire — Rama\'s choice to honor his father\'s word over kingship illustrates the supremacy of',
+            correct: 'dharmic duty over personal gain.',
+            wrong: ['priestly authority over kings.', 'ritual over ethics.', 'caste duty over family.']
+          },
+          {
+            start: 'Ayodhyakanda (Ch.1) describes the ideal king as one who is learned in the Vedas, skilled in governance, devoted to the welfare of subjects — in a word,',
+            correct: 'dharmaraja.',
+            wrong: ['chakravartin.', 'devaraja.', 'brahmarishi.']
+          },
+          {
+            start: 'The Ramayana\'s characterization of Ravana shows that even a highly learned Brahmin can fall if he is enslaved by',
+            correct: 'desire (kama).',
+            wrong: ['poverty.', 'social humiliation.', 'military defeat.']
+          },
+          {
+            start: 'Uttarakanda (debated as a late addition) contains Rama\'s banishment of Sita — a passage scholars cite as evidence that the Ramayana\'s text was',
+            correct: 'expanded over centuries.',
+            wrong: ['unchanged from origin.', 'composed by Valmiki alone.', 'verified by a single author.']
+          },
+          {
+            start: 'Aranyakanda shows that even the forest exile (vanavas) can be transformed into a path of virtue — reflecting the Ramayana\'s teaching that circumstances are less important than',
+            correct: 'how one responds to them.',
+            wrong: ['royal lineage.', 'priestly blessings.', 'divine favor alone.']
+          },
+          {
+            start: 'The friendship between Rama and Sugriva (Kishkindakanda) is documented as an alliance based on mutual obligation — illustrating the Ramayana\'s teaching on',
+            correct: 'reciprocal dharma.',
+            wrong: ['caste loyalty.', 'warrior kinship only.', 'Brahmin mediation.']
+          }
         ]
       },
       {
-        name: 'Jaimini',
-        emoji: '📖',
+        name: 'Adi Shankaracharya (Advaita Vedanta — Documented)',
+        emoji: '🔥',
         quotes: [
-          { start: 'Actions performed according to dharma yield', correct: 'merit.', wrong: ['fear.', 'loss.', 'conflict.'] },
-          { start: 'The consequences of one’s actions are determined by', correct: 'intentions.', wrong: ['wealth.', 'friends.', 'fame.'] },
-          { start: 'A person who studies the scriptures with diligence gains', correct: 'wisdom.', wrong: ['power.', 'pleasure.', 'fear.'] },
-          { start: 'Knowledge without action is like a', correct: 'tree without fruit.', wrong: ['river without water.', 'house without walls.', 'bird without wings.'] },
-          { start: 'Those who follow dharma without attachment attain', correct: 'peace.', wrong: ['fear.', 'sorrow.', 'power.'] },
-          { start: 'A person’s destiny is shaped by', correct: 'his actions.', wrong: ['fate alone.', 'friends.', 'wealth.'] },
-          { start: 'He who desires only the fruits of his actions suffers', correct: 'pain.', wrong: ['joy.', 'peace.', 'freedom.'] },
-          { start: 'Virtue is the guide to', correct: 'liberation.', wrong: ['wealth.', 'power.', 'pleasure.'] },
-          { start: 'The wise act without attachment and', correct: 'fear.', wrong: ['greed.', 'envy.', 'delay.'] },
-          { start: 'Actions done in ignorance lead to', correct: 'suffering.', wrong: ['wisdom.', 'peace.', 'joy.'] },
-          { start: 'A person who controls speech and thought gains', correct: 'freedom.', wrong: ['wealth.', 'fame.', 'power.'] },
-          { start: 'The fruits of good deeds are always', correct: 'beneficial.', wrong: ['harmful.', 'uncertain.', 'delayed.'] },
-          { start: 'Detachment from desires is the path to', correct: 'liberation.', wrong: ['power.', 'fame.', 'pleasure.'] },
-          { start: 'He who meditates constantly over dharma attains', correct: 'clarity.', wrong: ['confusion.', 'fear.', 'loss.'] },
-          { start: 'Even small virtuous actions lead to', correct: 'great merit.', wrong: ['insignificance.', 'loss.', 'sorrow.'] },
-          { start: 'A wise person chooses companions who are', correct: 'virtuous.', wrong: ['wealthy.', 'powerful.', 'famous.'] },
-          { start: 'One should not act without', correct: 'knowledge.', wrong: ['desire.', 'fear.', 'envy.'] },
-          { start: 'The mind focused on dharma is', correct: 'steady.', wrong: ['restless.', 'fearful.', 'weak.'] },
-          { start: 'Patience and discipline together lead to', correct: 'success.', wrong: ['conflict.', 'loss.', 'fear.'] },
-          { start: 'The consequences of actions cannot be avoided by', correct: 'ignorance.', wrong: ['fear.', 'wealth.', 'fame.'] },
-          { start: 'A life devoted to dharma is a life of', correct: 'freedom.', wrong: ['pleasure.', 'power.', 'fear.'] },
-          { start: 'He who acts with selfish motives binds himself with', correct: 'karma.', wrong: ['wealth.', 'friends.', 'power.'] },
-          { start: 'Knowledge of dharma enlightens the', correct: 'mind.', wrong: ['body.', 'king.', 'world.'] },
-          { start: 'Virtue is superior to', correct: 'strength.', wrong: ['wealth.', 'fame.', 'pleasure.'] },
-          { start: 'One should perform actions without attachment to', correct: 'rewards.', wrong: ['friends.', 'fame.', 'power.'] },
-          { start: 'He who understands dharma transcends', correct: 'fear.', wrong: ['wealth.', 'fame.', 'pleasure.'] },
-          { start: 'Discipline of thought leads to', correct: 'wisdom.', wrong: ['fear.', 'conflict.', 'pleasure.'] },
-          { start: 'The wise see the same reality in', correct: 'all beings.', wrong: ['friends only.', 'enemies only.', 'wealthy people.'] },
-          { start: 'Self-control is the key to', correct: 'liberation.', wrong: ['power.', 'fame.', 'pleasure.'] },
-          { start: 'Those who follow dharma sincerely are', correct: 'blessed.', wrong: ['cursed.', 'ignored.', 'weak.'] }
+          {
+            start: 'Shankara\'s Vivekachudamani (verse 20) teaches that the combination of a human birth, desire for liberation, and the grace of a great teacher is',
+            correct: 'extremely rare.',
+            wrong: ['easily achieved.', 'the result of ritual.', 'available to all equally.']
+          },
+          {
+            start: 'Shankara\'s core Advaita thesis — "Brahma satyam jagan mithya, jivo brahmaiva na parah" — states that Brahman is real, the world is',
+            correct: 'apparent (mithya),',
+            wrong: ['eternal matter,', 'also Brahman fully,', 'the source of dharma,']
+          },
+          {
+            start: 'Shankara\'s commentary on Brahmasutra 1.1.1 argues that inquiry into Brahman (brahma-jijnasa) must precede inquiry into ritual (dharma-jijnasa) because Brahman knowledge leads to',
+            correct: 'final liberation.',
+            wrong: ['ritual efficiency.', 'caste fulfillment.', 'royal merit.']
+          },
+          {
+            start: 'The Vivekachudamani teaches "viveka" (discrimination between the eternal and the non-eternal) as the first qualification for the spiritual student, followed by',
+            correct: 'vairagya (dispassion).',
+            wrong: ['ritual initiation.', 'caste purity.', 'priestly lineage.']
+          },
+          {
+            start: 'Shankara\'s Manasapuja (mental worship) teaching holds that true worship occurs in the mind, not only in',
+            correct: 'external ritual.',
+            wrong: ['the forest.', 'the body.', 'the scriptures.']
+          },
+          {
+            start: 'Shankara established four mathas (monastic centers) at Shringeri, Dwarka, Puri, and Joshi Math — demonstrating that his philosophical reform also had',
+            correct: 'institutional and organizational dimensions.',
+            wrong: ['purely ritual purposes.', 'no lasting impact.', 'royal patronage only.']
+          },
+          {
+            start: 'Shankara\'s commentary on the Mandukya Upanishad argues that turiya (the fourth state of consciousness) is not a fourth state alongside waking, dreaming, and sleep, but the',
+            correct: 'substratum of all three.',
+            wrong: ['deepest form of sleep.', 'state of ritual absorption.', 'goal of daily meditation.']
+          }
         ]
       },
       {
-        name: 'Nagarjuna',
+        name: 'Nagarjuna (Madhyamaka Buddhism — Documented)',
         emoji: '☸️',
         quotes: [
-          { start: 'All phenomena are empty of', correct: 'inherent existence.', wrong: ['beauty.', 'power.', 'desire.'] },
-          { start: 'Nothing arises independently; everything is', correct: 'interdependent.', wrong: ['isolated.', 'eternal.', 'strong.'] },
-          { start: 'Attachment and aversion are the roots of', correct: 'suffering.', wrong: ['joy.', 'knowledge.', 'freedom.'] },
-          { start: 'The mind perceives duality, but true wisdom sees', correct: 'non-duality.', wrong: ['conflict.', 'pleasure.', 'fear.'] },
-          { start: 'Emptiness is not nothingness; it is the absence of', correct: 'inherent self.', wrong: ['value.', 'pain.', 'desire.'] },
-          { start: 'One who understands emptiness is free from', correct: 'delusion.', wrong: ['pleasure.', 'fear.', 'power.'] },
-          { start: 'All conditioned things are', correct: 'impermanent.', wrong: ['eternal.', 'solid.', 'powerful.'] },
-          { start: 'Wisdom arises when one realizes the', correct: 'emptiness of phenomena.', wrong: ['power of kings.', 'pleasure of life.', 'wealth of the world.'] },
-          { start: 'Freedom comes from letting go of', correct: 'clinging.', wrong: ['power.', 'friends.', 'fame.'] },
-          { start: 'Nothing can exist in isolation; everything is', correct: 'connected.', wrong: ['independent.', 'permanent.', 'weak.'] },
-          { start: 'Suffering ceases when the mind sees', correct: 'emptiness.', wrong: ['power.', 'pleasure.', 'fear.'] },
-          { start: 'Desire is rooted in', correct: 'ignorance.', wrong: ['wealth.', 'strength.', 'pleasure.'] },
-          { start: 'The enlightened mind is free from', correct: 'attachment.', wrong: ['pleasure.', 'power.', 'fear.'] },
-          { start: 'All phenomena arise from causes and', correct: 'conditions.', wrong: ['chance.', 'desire.', 'fame.'] },
-          { start: 'Realizing the emptiness of self leads to', correct: 'liberation.', wrong: ['fear.', 'wealth.', 'pleasure.'] },
-          { start: 'The path of wisdom is free from', correct: 'delusion.', wrong: ['pleasure.', 'fear.', 'wealth.'] },
-          { start: 'All distinctions exist only in', correct: 'concepts.', wrong: ['reality.', 'nature.', 'power.'] },
-          { start: 'The wise do not cling to', correct: 'views.', wrong: ['wealth.', 'pleasure.', 'friends.'] },
-          { start: 'Compassion arises when one sees the interconnectedness of all', correct: 'beings.', wrong: ['kings.', 'women.', 'enemies.'] },
-          { start: 'Nothing can be grasped as', correct: 'permanent.', wrong: ['powerful.', 'pleasurable.', 'eternal.'] },
-          { start: 'The mind that perceives emptiness is', correct: 'peaceful.', wrong: ['fearful.', 'confused.', 'restless.'] },
-          { start: 'Attachment binds; understanding emptiness', correct: 'frees.', wrong: ['controls.', 'ignores.', 'creates.'] },
-          { start: 'All dharmas are empty; their essence is', correct: 'dependence.', wrong: ['power.', 'pleasure.', 'fear.'] },
-          { start: 'He who knows emptiness transcends', correct: 'suffering.', wrong: ['wealth.', 'power.', 'pleasure.'] },
-          { start: 'The mind enlightened by emptiness sees', correct: 'truth.', wrong: ['illusion.', 'fear.', 'wealth.'] },
-          { start: 'Non-duality is the state beyond', correct: 'opposites.', wrong: ['pleasure.', 'wealth.', 'power.'] },
-          { start: 'Liberation comes from understanding', correct: 'interdependence.', wrong: ['isolation.', 'power.', 'fear.'] },
-          { start: 'The path of meditation reveals the', correct: 'emptiness of all phenomena.', wrong: ['strength of kings.', 'wealth of the world.', 'pleasure of life.'] },
-          { start: 'Peace arises when the mind is free from', correct: 'clinging.', wrong: ['wealth.', 'fear.', 'power.'] },
-          { start: 'The ultimate wisdom is the realization of', correct: 'emptiness.', wrong: ['pleasure.', 'power.', 'fear.'] }
+          {
+            start: 'The Mulamadhyamakakarika (MMK 1.1) opens by denying that anything arises from itself, from another, from both, or from neither — establishing the core Madhyamaka doctrine of',
+            correct: 'dependent origination (pratityasamutpada).',
+            wrong: ['momentary consciousness only.', 'Brahmanical creation.', 'eternal atomic substances.']
+          },
+          {
+            start: 'MMK Chapter 24 argues that emptiness (shunyata) and dependent origination are not contradictory — emptiness just means that phenomena have no',
+            correct: 'inherent, independent existence.',
+            wrong: ['practical function.', 'moral significance.', 'connection to suffering.']
+          },
+          {
+            start: 'The Vigrahavyavartani defends Nagarjuna against the charge that if all things are empty, his own thesis is also empty — he replies that the thesis is itself',
+            correct: 'dependently arisen and empty.',
+            wrong: ['exempt from analysis.', 'derived from the Buddha alone.', 'immune to objection.']
+          },
+          {
+            start: 'MMK 18.5 states: "Karma and defilements arise from conceptualization (vikalpa); conceptualization arises from',
+            correct: 'mental elaboration (prapanca).',
+            wrong: ['ritual action.', 'caste structure.', 'sensory contact.']
+          },
+          {
+            start: 'MMK 25.19 famously states that nirvana and samsara have no difference whatsoever — their',
+            correct: 'limits are indistinguishable.',
+            wrong: ['origins are identical.', 'goals are opposite.', 'practitioners are the same.']
+          },
+          {
+            start: 'Nagarjuna\'s Ratnavali (attributed) advises the king that good governance requires both',
+            correct: 'wisdom and compassion.',
+            wrong: ['military force and ritual.', 'priestly approval and wealth.', 'caste hierarchy and obedience.']
+          },
+          {
+            start: 'The MMK uses the prasanga (reductio ad absurdum) method — not to establish a positive thesis, but to show that all opponents\' views lead to',
+            correct: 'internal contradiction.',
+            wrong: ['nihilism.', 'Vedantic conclusions.', 'Buddhist theism.']
+          },
+          {
+            start: 'MMK 24.18 — "yah pratityasamutpadah sunyatam tam pracaksmahe" — states that what is dependently co-arising is what is meant by',
+            correct: 'emptiness (shunyata).',
+            wrong: ['nirvana.', 'karma.', 'consciousness.']
+          }
         ]
-      },
+      }
     ]
   },
   {
@@ -1871,19 +3103,19 @@ export const CIVILIZATIONS = [
         emoji: '⚖️',
         quotes: [
           { 
-            start: "The Code of Hammurabi, contains 282 laws that governed Babylonian society, with the famous lex talionis principle (\"an eye for an eye\") documented as law 196: \"If a man put out the eye of another man, his eye shall be.\"",
-            "correct": "put out",
-            "wrong": ["restore.", "strike.", "blind."] 
+            start: "The Code of Hammurabi contains 282 laws that governed Babylonian society, with the famous lex talionis principle (\"an eye for an eye\") documented as law 196: \"If a man put out the eye of another man, his eye shall be",
+            "correct": "put out.\"",
+            "wrong": ["restored.\"", "forgiven.\"", "compensated.\""] 
           },
           { 
             start: "The law \"If a man destroys the eye of another man, they shall destroy his eye\" (law 196) demonstrates the principle of retaliation but also reveals that the code was stratified because different punishments applied based on",
             "correct": "social class.",
-            "wrong": ["gender only.", "no distinctions.", "purely personal factors."] 
+            "wrong": ["gender alone.", "age only.", "regional origin."] 
           },
           { 
-            start: "The law \"If a builder builds a house and it collapses and kills the owner, the builder shall be put to death\" (law 229) shows that the code held professionals accountable for their work, and reflected the code's emphasis on",
+            start: "The law \"If a builder builds a house and it collapses and kills the owner, the builder shall be put to death\" (law 229) shows that the code held professionals accountable for their work, reflecting the code's emphasis on",
             "correct": "accountability.",
-            "wrong": ["arbitrary punishment.", "no standards.", "no responsibility."] 
+            "wrong": ["collective punishment.", "royal discretion.", "divine judgment."] 
           },
           { 
             start: "The law \"If a son strikes his father, his hands shall be cut off\" (law 195) reflects the code's emphasis on family hierarchy and the protection of parental authority, showing that the code served to",
@@ -1893,12 +3125,12 @@ export const CIVILIZATIONS = [
           { 
             start: "The law \"If a man steals property, he shall be put to death\" represents a capital crime only for certain types of theft (particularly of temple or state property), not all theft, indicating that the code",
             "correct": "distinguished carefully.",
-            "wrong": ["treated all equally.", "made no distinctions.", "was uniform."] 
+            "wrong": ["punished all theft equally.", "ignored property crimes.", "delegated to priests."] 
           },
           { 
-            start: "The Code of Hammurabi was not a legal code in the modern sense but rather a collection of case laws and precedents compiled to demonstrate the king's justice and authority, serving to",
-            "correct": "legitimize rule.",
-            "wrong": ["regulate behavior.", "have no political purpose.", "lack ideological function."] 
+            start: "The Code of Hammurabi was not a legal code in the modern sense but rather a collection of case laws and precedents compiled to demonstrate the king's justice, serving primarily to",
+            "correct": "legitimize royal rule.",
+            "wrong": ["replace oral tradition.", "codify religious ritual.", "unify trade standards."] 
           }
         ]
       },
@@ -1909,12 +3141,12 @@ export const CIVILIZATIONS = [
           { 
             start: "The Epic of Gilgamesh, dating to the late 2nd millennium BCE (though with earlier sources), is one of the oldest known literary works and contains multiple versions and translations, indicating that the text requires",
             "correct": "careful interpretation.",
-            "wrong": ["no analysis.", "simple reading.", "surface understanding."] 
+            "wrong": ["no critical analysis.", "purely literal reading.", "rejection as fiction."] 
           },
           { 
-            start: "The famous passage often translated as \"Life which you look for you will never find, for when the gods created man they let death be his share\" (Tablet X, from Siduri's speech) advises accepting human mortality and enjoying",
+            start: "The famous passage often translated as \"Life which you look for you will never find, for when the gods created man they let death be his share\" (Tablet X, Siduri's speech) advises accepting human mortality and enjoying",
             "correct": "life.",
-            "wrong": ["chaos.", "war.", "games."] 
+            "wrong": ["divine favor.", "martial glory.", "royal service."] 
           },
           { 
             start: "The advice \"Fill your belly with good things; day and night, night and day, dance and be merry, let your clothes be fresh, bathe yourself in water, cherish the little child that holds your hand\" is attributed to",
@@ -1922,14 +3154,14 @@ export const CIVILIZATIONS = [
             "wrong": ["Shamash.", "Enkidu.", "Utnapishtim."] 
           },
           { 
-            start: "The epic's central themes—friendship (Gilgamesh and Enkidu), mortality, the search for immortality, and the flood narrative—are well-documented and represent authentic Mesopotamian",
-            "correct": "concerns.",
-            "wrong": ["facts.", "events.", "history."] 
+            start: "The epic's central themes — friendship, mortality, the search for immortality, and the flood narrative — are well-documented and represent authentic Mesopotamian",
+            "correct": "cultural concerns.",
+            "wrong": ["recorded historical events.", "royal propaganda solely.", "purely religious doctrine."] 
           },
           { 
-            start: "The flood narrative in the Epic of Gilgamesh shares similarities with the biblical flood account but also significant differences, indicating that the flood narrative represents",
-            "correct": "recurring theme.",
-            "wrong": ["unique event.", "single source.", "biblical invention."] 
+            start: "The flood narrative in the Epic of Gilgamesh shares similarities with the biblical flood account but also significant differences, indicating that the flood story represents a",
+            "correct": "recurring cross-cultural theme.",
+            "wrong": ["unique one-time event.", "direct biblical source.", "literal historical record."] 
           }
         ]
       },
@@ -1939,23 +3171,23 @@ export const CIVILIZATIONS = [
         quotes: [
           { 
             start: "Sumerian wisdom literature, preserved in cuneiform and translated by the Electronic Text Corpus of Sumerian Literature (ETCSL) project, includes works like the Instructions of Shuruppak, showing that authentic Sumerian wisdom texts",
-            "correct": "exist.",
-            "wrong": ["disappeared.", "never existed.", "were destroyed."] 
+            "correct": "exist and are accessible.",
+            "wrong": ["were entirely destroyed.", "remain undeciphered.", "lack scholarly translation."] 
           },
           { 
-            start: "The proverb \"He who possesses much silver may be happy, he who possesses much barley may be happy, but he who has nothing may sleep\" cannot be verified in the ETCSL collection, indicating that this quote is likely",
+            start: "The proverb \"He who possesses much silver may be happy, he who possesses much barley may be happy, but he who has nothing may sleep\" cannot be verified in the ETCSL collection, indicating that this quote is likely a",
             "correct": "modern invention.",
-            "wrong": ["authentic translation.", "verified source.", "documented proverb."] 
+            "wrong": ["verified ETCSL translation.", "documented cuneiform proverb.", "confirmed Sumerian source."] 
           },
           { 
-            start: "Authentic Sumerian proverbs, documented in cuneiform texts, address practical concerns like agriculture, trade, and proper conduct, such as warnings against laziness and praise for wisdom, showing that Sumerian wisdom literature reflects",
-            "correct": "practical values.",
-            "wrong": ["abstract theory.", "mystical knowledge.", "impractical ideals."] 
+            start: "Authentic Sumerian proverbs, documented in cuneiform texts, address practical concerns like agriculture, trade, and proper conduct — showing that Sumerian wisdom literature reflects",
+            "correct": "practical everyday values.",
+            "wrong": ["pure abstract philosophy.", "exclusively royal concerns.", "religious mysticism only."] 
           },
           { 
-            start: "The Instructions of Shuruppak, is preserved in multiple cuneiform copies and has been translated by scholars, demonstrating that verified Sumerian wisdom texts are",
-            "correct": "accessible.",
-            "wrong": ["lost.", "unknown.", "inaccessible."] 
+            start: "The Instructions of Shuruppak is preserved in multiple cuneiform copies and has been translated by scholars, demonstrating that verified Sumerian wisdom texts are",
+            "correct": "accessible to researchers.",
+            "wrong": ["permanently lost.", "restricted to specialists.", "untranslatable today."] 
           }
         ]
       },
@@ -1964,24 +3196,24 @@ export const CIVILIZATIONS = [
         emoji: '📜',
         quotes: [
           { 
-            start: "Akkadian wisdom literature, preserved in cuneiform and including works like the Counsels of Wisdom and various proverb collections, represents authentic Mesopotamian philosophical thinking, though specific proverbs must be",
-            "correct": "verified carefully.",
-            "wrong": ["accepted blindly.", "assumed true.", "taken literally."] 
+            start: "Akkadian wisdom literature, preserved in cuneiform and including works like the Counsels of Wisdom, represents authentic Mesopotamian philosophical thinking, though specific proverbs must be",
+            "correct": "verified in primary sources.",
+            "wrong": ["accepted without question.", "treated as universal truths.", "read as literal history."] 
           },
           { 
             start: "The proverb \"A man who is wise is known by his deeds, not by his words\" appears in various forms in ancient wisdom literature from multiple cultures (not uniquely Akkadian), showing that such sentiments, while authentic to ancient wisdom, may",
-            "correct": "appear widely.",
-            "wrong": ["originate uniquely.", "derive from one source.", "belong exclusively."] 
+            "correct": "appear across many traditions.",
+            "wrong": ["originate solely in Akkad.", "derive from Hammurabi's code.", "belong exclusively to Babylon."] 
           },
           { 
-            start: "Authentic Akkadian wisdom texts address topics including proper conduct toward superiors and inferiors, the importance of wisdom and self-control, documented in scholarly translations of cuneiform sources, showing that verified Akkadian wisdom reflects",
-            "correct": "practical concerns.",
-            "wrong": ["abstract theory.", "mystical knowledge.", "impractical ideals."] 
+            start: "Authentic Akkadian wisdom texts address topics including proper conduct toward superiors and inferiors, and the importance of self-control — showing that verified Akkadian wisdom reflects",
+            "correct": "practical social concerns.",
+            "wrong": ["pure abstract metaphysics.", "exclusively royal ideology.", "mystical religious experience."] 
           },
           { 
             start: "The phrase \"Speak little, listen much; understanding comes in silence\" appears in various ancient wisdom traditions but cannot be verified as a specific Akkadian proverb in cuneiform sources, indicating that popular wisdom sayings often",
-            "correct": "lack attribution.",
-            "wrong": ["are verified.", "are documented.", "are authenticated."] 
+            "correct": "lack precise attribution.",
+            "wrong": ["are verified in archives.", "are confirmed in cuneiform.", "are authenticated by scholars."] 
           }
         ]
       },
@@ -1990,24 +3222,24 @@ export const CIVILIZATIONS = [
         emoji: '🗡️',
         quotes: [
           { 
-            start: "Assyrian royal inscriptions, preserved in cuneiform and dating from the Assyrian Empire's height (particularly 9th-7th centuries BCE), document the deeds, military campaigns, providing authentic historical material, though these are primarily",
-            "correct": "propaganda.",
-            "wrong": ["objective.", "neutral.", "unbiased."] 
+            start: "Assyrian royal inscriptions, preserved in cuneiform and dating from the Assyrian Empire's height (9th–7th centuries BCE), document military campaigns and royal deeds — but these texts are primarily",
+            "correct": "royal propaganda.",
+            "wrong": ["neutral historical records.", "objective annals.", "administrative accounts."] 
           },
           { 
-            start: "Wisdom attributed to Assyrian kings reflects values documented in royal inscriptions, though specific \"proverbs\" attributed to Assyrian figures often lack verification in primary sources, indicating that Assyrian values can be",
+            start: "Wisdom attributed to Assyrian kings reflects values documented in royal inscriptions, though specific \"proverbs\" attributed to Assyrian figures often lack verification in primary sources, indicating that Assyrian values must be",
             "correct": "reconstructed carefully.",
-            "wrong": ["assumed easily.", "accepted blindly.", "taken literally."] 
+            "wrong": ["accepted at face value.", "assumed from popular quotes.", "derived from Greek sources."] 
           },
           { 
-            start: "The proverb \"A strong city is built not with walls, but with loyal citizens\" reflects a common theme in ancient political philosophy but cannot be verified as an authentic Assyrian proverb, showing that popular proverbs often represent",
-            "correct": "modern sentiments.",
-            "wrong": ["ancient wisdom.", "verified sources.", "historical truth."] 
+            start: "The proverb \"A strong city is built not with walls, but with loyal citizens\" reflects common ancient political philosophy but cannot be verified as an authentic Assyrian proverb, showing that popular proverbs often represent",
+            "correct": "modern invented sentiments.",
+            "wrong": ["verified ancient wisdom.", "documented royal speeches.", "confirmed cuneiform sources."] 
           },
           { 
-            start: "Assyrian military strategy, documented in royal inscriptions describing campaigns, sieges, and military innovations, demonstrates the sophistication of Assyrian military",
+            start: "Assyrian military strategy, documented in royal inscriptions describing campaigns and sieges, demonstrates the sophistication of Assyrian military",
             "correct": "organization.",
-            "wrong": ["power.", "villages.", "society."] 
+            "wrong": ["diplomacy.", "religion.", "agriculture."] 
           }
         ]
       },
@@ -2016,19 +3248,19 @@ export const CIVILIZATIONS = [
         emoji: '🔢',
         quotes: [
           { 
-            start: "Babylonian achievements in mathematics and astronomy, demonstrate sophisticated knowledge of geometry, algebra, and celestial observation, showing that Babylonian intellectual achievements were grounded in",
-            "correct": "empirical knowledge.",
-            "wrong": ["pure magic.", "mystical belief.", "superstitious practice."] 
+            start: "Babylonian achievements in mathematics and astronomy demonstrate sophisticated knowledge of geometry, algebra, and celestial observation, showing that Babylonian intellectual achievements were grounded in",
+            "correct": "empirical observation.",
+            "wrong": ["pure religious ritual.", "magical divination only.", "Greek-derived methods."] 
           },
           { 
-            start: "The famous phrase \"The life of man is like a river; it flows to the sea of death\" represents a common metaphor in ancient wisdom traditions but cannot be verified, indicating that popular philosophical sayings often",
-            "correct": "lack sourcing.",
-            "wrong": ["are verified.", "are documented.", "are authenticated."] 
+            start: "The phrase \"The life of man is like a river; it flows to the sea of death\" represents a common metaphor in ancient wisdom traditions but cannot be verified in cuneiform sources, indicating that popular philosophical sayings often",
+            "correct": "lack precise sourcing.",
+            "wrong": ["are verified in tablets.", "are confirmed by scholars.", "are authenticated in archives."] 
           },
           { 
             start: "Babylonian wisdom literature, when verified in cuneiform sources like the Babylonian Theodicy, provides genuine insight into Babylonian philosophical thinking, showing that authentic Babylonian wisdom texts are",
-            "correct": "accessible.",
-            "wrong": ["lost.", "destroyed.", "unknown."] 
+            "correct": "accessible to researchers.",
+            "wrong": ["permanently destroyed.", "untranslated today.", "lost without trace."] 
           }
         ]
       },
@@ -2037,19 +3269,19 @@ export const CIVILIZATIONS = [
         emoji: '🌍',
         quotes: [
           { 
-            start: "Mesopotamian religious texts, including the Enuma Elish (creation myth) and other mythological narratives, were preserved in cuneiform and provide insight into Mesopotamian cosmology and religious beliefs, though these texts should be understood as",
-            "correct": "mythology.",
-            "wrong": ["history.", "documentation.", "facts."] 
+            start: "Mesopotamian religious texts, including the Enuma Elish (creation myth), were preserved in cuneiform and provide insight into Mesopotamian cosmology and religious beliefs — though these texts should be understood as",
+            "correct": "mythology, not history.",
+            "wrong": ["literal historical records.", "scientific documentation.", "eyewitness accounts."] 
           },
           { 
-            start: "The concept of the gods in Mesopotamian religion, depicted them as powerful but not omnipotent, as sometimes acting against human interests, and as requiring human service and sacrifice, showing that Mesopotamian theology represented",
-            "correct": "complexity.",
-            "wrong": ["benevolence.", "omnipotence.", "perfection."] 
+            start: "The gods in Mesopotamian religion were depicted as powerful but not omnipotent, sometimes acting against human interests and requiring human service and sacrifice, showing that Mesopotamian theology represented",
+            "correct": "a complex, non-benevolent theology.",
+            "wrong": ["purely benevolent divine care.", "a monotheistic belief system.", "gods identical to humans."] 
           },
           { 
-            start: "The role of priests and temples in Mesopotamian society, documented in administrative texts and inscriptions, was central to the functioning of the state, as temples controlled significant resources, indicating that religious institutions were",
-            "correct": "fundamental.",
-            "wrong": ["marginal.", "powerless.", "irrelevant."] 
+            start: "The role of priests and temples in Mesopotamian society, documented in administrative texts and inscriptions, was central to the state — as temples controlled significant resources, indicating that religious institutions were",
+            "correct": "fundamental to state power.",
+            "wrong": ["separate from politics.", "powerless before the king.", "purely ceremonial bodies."] 
           }
         ]
       },
@@ -2058,19 +3290,19 @@ export const CIVILIZATIONS = [
         emoji: '⚖️',
         quotes: [
           { 
-            start: "Mesopotamian society was hierarchically organized with the king at the top, followed by nobles and priests, merchants and craftspeople, farmers, and enslaved persons, as documented in legal codes, showing that Mesopotamian societies were",
-            "correct": "stratified.",
-            "wrong": ["equal.", "unified.", "classless."] 
+            start: "Mesopotamian society was hierarchically organized with the king at the top, followed by nobles, priests, merchants, farmers, and enslaved persons, as documented in legal codes — showing that Mesopotamian societies were",
+            "correct": "rigidly stratified.",
+            "wrong": ["relatively egalitarian.", "organized by merit.", "unified without class."] 
           },
           { 
-            start: "The role of women in Mesopotamian society, documented in legal codes, included property ownership in some cases and legal standing, though women's legal status was generally subordinate to men's, indicating that women had",
-            "correct": "limited rights.",
-            "wrong": ["full equality.", "no restrictions.", "complete freedom."] 
+            start: "The role of women in Mesopotamian society, documented in legal codes, included some property ownership and legal standing — though women's legal status was generally subordinate to men's, indicating that women had",
+            "correct": "limited but real rights.",
+            "wrong": ["full legal equality.", "no legal standing whatsoever.", "greater rights than men."] 
           },
           { 
-            start: "Slavery in Mesopotamian societies, documented in legal codes and administrative texts, was central to the economy, with enslaved persons obtained through debt bondage, war, and trade, showing that enslaved labor was",
-            "correct": "essential.",
-            "wrong": ["forbidden.", "nonexistent.", "unnecessary."] 
+            start: "Slavery in Mesopotamian societies, documented in legal codes and administrative texts, was central to the economy — with enslaved persons obtained through debt bondage, war, and trade — showing that enslaved labor was",
+            "correct": "economically essential.",
+            "wrong": ["legally prohibited.", "rare and exceptional.", "confined to temples."] 
           }
         ]
       },
