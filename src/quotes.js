@@ -2077,583 +2077,593 @@ export const CIVILIZATIONS = [
     ]
   },
   {
-    id: 'japan',
-    name: 'Ancient Japan (Evidence-Based)',
-    emoji: '⛩️',
+    id: "japan",
+    name: "Ancient Japan (Evidence-Based)",
+    emoji: "⛩️",
     color: 0xc62828,
-    colorHex: '#c62828',
-    bg: '#0a0a0a',
+    colorHex: "#c62828",
+    bg: "#0a0a0a",
     authors: [
       {
-        name: 'Miyamoto Musashi (Swordmaster & Historical Figure)',
-        emoji: '⚔️',
+        name: "Miyamoto Musashi (Swordmaster & Historical Figure)",
+        emoji: "⚔️",
         quotes: [
-          { 
-            start: "Miyamoto Musashi (1584-1645) was a legendary swordmaster documented in historical records, but the quotes attributed to him come primarily from his Book of Five Rings (Gorin no Sho), written late in his life, indicating that his exact words are",
-            "correct": "filtered through transmission.",
-            "wrong": ["directly verified.", "purely authentic.", "completely unchanged."] 
+          {
+            start: "Musashi's quotes come primarily from the Book of Five Rings (1645), written late in life — meaning his exact words are",
+            correct: "filtered through late transmission.",
+            wrong: ["directly verified in archives.", "confirmed by multiple eyewitnesses.", "unchanged since composition."]
           },
-          { 
-            start: "The Book of Five Rings, Musashi's treatise on strategy and the way of the warrior, was written around 1645 and primarily discusses swordsmanship, strategy, and martial philosophy as applicable to individual combat, showing that the text is",
-            "correct": "specialized work.",
-            "wrong": ["universal guide.", "general wisdom.", "abstract philosophy."] 
+          {
+            start: "The Book of Five Rings discusses swordsmanship, strategy, and martial philosophy — a",
+            correct: "specialized tactical treatise, not general wisdom.",
+            wrong: ["universal philosophical guide.", "Buddhist religious scripture.", "purely fictional literary work."]
           },
-          { 
-            start: "Musashi's famous duel with Sasaki Kojirou, described in biographical accounts, demonstrates his skill but the details are subject to later embellishment and hagiography, indicating that historical accounts of Musashi contain",
-            "correct": "legendary elements.",
-            "wrong": ["pure facts.", "no exaggeration.", "complete accuracy."] 
+          {
+            start: "The famous duel with Sasaki Kojirou is documented but biographical accounts contain hagiography — historical Musashi records include",
+            correct: "legendary embellishment.",
+            wrong: ["purely factual journalism.", "contemporary video documentation.", "Roman-style official records."]
           },
-          { 
-            start: "Many quotes popularly attributed to Musashi, including \"There is nothing outside of yourself\" and \"Do not sleep under a roof,\" cannot be verified in the Book of Five Rings, suggesting that popular Musashi quotes often come from",
-            "correct": "later inventions.",
-            "wrong": ["authenticated sources.", "verified texts.", "documented statements."] 
+          {
+            start: "Many popular quotes attributed to Musashi — including \"There is nothing outside of yourself\" — cannot be verified in the Book of Five Rings and likely come from",
+            correct: "later invented attributions.",
+            wrong: ["authenticated primary sources.", "Musashi's own sealed letters.", "contemporary samurai witnesses."]
           },
-          { 
-            start: "Musashi's philosophy emphasized direct perception rather than abstract theorizing, which is authentically reflected in the Book of Five Rings' focus on concrete technique and strategy, showing that verified Musashi teachings emphasize",
-            "correct": "empirical mastery.",
-            "wrong": ["abstract theory.", "philosophical speculation.", "intellectual contemplation."] 
+          {
+            start: "Verified Musashi teaching emphasizes direct perception and concrete technique — showing his authentic philosophy prioritized",
+            correct: "empirical mastery over abstraction.",
+            wrong: ["Buddhist religious meditation.", "Confucian scholarly learning.", "Zen philosophical paradox."]
           }
         ]
       },
       {
-        name: 'Matsuo Bashō (Poet & Historical Figure)',
-        emoji: '🌸',
+        name: "Matsuo Bashō (Poet & Historical Figure)",
+        emoji: "🌸",
         quotes: [
-          { 
-            start: "Matsuo Bashō (1644-1694) was a renowned haiku poet whose works are preserved in collections and whose diaries documenting his travels survive, providing authentic records of his thoughts and poetry, though the diaries were",
-            "correct": "edited later.",
-            "wrong": ["written today.", "never compiled.", "purely fictional."] 
+          {
+            start: "Bashō's works survive in documented collections and travel diaries — though the diaries were",
+            correct: "edited after composition.",
+            wrong: ["perfectly preserved unaltered.", "written by his students entirely.", "lost and later reconstructed."]
           },
-          { 
-            start: "The famous haiku \"Old silent pond / A frog jumps into the pond / Splash! Silence again\" (Furuike ya / Kawazu tobikomu / Mizu no oto) is documented in multiple sources and represents authentic Bashō work, but English translations",
-            "correct": "vary in accuracy.",
-            "wrong": ["are identical.", "match perfectly.", "are consistent."] 
+          {
+            start: "The frog haiku (Furuike ya / Kawazu tobikomu / Mizu no oto) is documented in multiple authentic sources — but English translations",
+            correct: "vary significantly in accuracy.",
+            wrong: ["are universally identical.", "perfectly capture Japanese meaning.", "are officially standardized."]
           },
-          { 
-            start: "Bashō's philosophy emphasized direct observation of nature and the principle of \"karumi\" (lightness/levity), documented in his diaries and poetry, showing that Bashō's authentic philosophical positions can be",
-            "correct": "reconstructed from sources.",
-            "wrong": ["completely lost.", "entirely invented.", "never documented."] 
+          {
+            start: "Bashō's philosophy of karumi (lightness) is documented in his diaries and poetry — showing his authentic philosophical positions",
+            correct: "can be reconstructed from sources.",
+            wrong: ["are entirely lost forever.", "were never written down.", "contradict his actual haiku."]
           },
-          { 
-            start: "Quotes attributed to Bashō such as \"Do not seek to follow in the footsteps of the wise\" appear in later biographical compilations but may represent editorial interpretation, indicating that popular Bashō quotes require",
-            "correct": "careful verification.",
-            "wrong": ["blind acceptance.", "no checking.", "automatic belief."] 
+          {
+            start: "Quotes like \"Do not seek to follow in the footsteps of the wise\" appear in later compilations and may represent editorial interpretation — requiring",
+            correct: "careful source verification.",
+            wrong: ["automatic acceptance as authentic.", "complete scholarly rejection.", "purely literary interpretation."]
           },
-          { 
-            start: "Bashō's actual haiku works, documented in collections like Oku no Hosomichi (The Narrow Road to the Deep North), reflect his genuine poetic vision and can be consulted in reliable translations, demonstrating that authentic Bashō material is",
-            "correct": "accessible.",
-            "wrong": ["inaccessible.", "completely lost.", "permanently hidden."] 
+          {
+            start: "Bashō's actual haiku in Oku no Hosomichi represent his genuine poetic vision — authentic material is",
+            correct: "accessible in reliable translations.",
+            wrong: ["permanently inaccessible to non-Japanese.", "lost after the Meiji period.", "only readable in classical Japanese."]
           }
         ]
       },
       {
-        name: 'Tokugawa Ieyasu (Shogun & Historical Figure)',
-        emoji: '🏯',
+        name: "Tokugawa Ieyasu (Founder of the Edo Shogunate)",
+        emoji: "🏯",
         quotes: [
-          { 
-            start: "Tokugawa Ieyasu (1543-1616) was the founder of the Tokugawa Shogunate that ruled Japan for over 250 years, and his historical importance is well-documented in contemporary sources and historical records, though quotes attributed to him come from",
-            "correct": "later sources.",
-            "wrong": ["contemporary records.", "direct transcripts.", "verified documentation."] 
+          {
+            start: "Ieyasu founded the Tokugawa Shogunate that ruled Japan for 250+ years — his importance is well-documented, but quotes attributed to him come from",
+            correct: "later biographical sources.",
+            wrong: ["contemporary court transcripts.", "Ieyasu's own verified writings.", "independent foreign observers."]
           },
-          { 
-            start: "Ieyasu's political philosophy, emphasized stability, hierarchical order, and long-term strategy rather than immediate conquest, showing that his actual philosophy can be inferred from",
-            "correct": "his actions.",
-            "wrong": ["popular quotes.", "legendary accounts.", "invented sayings."] 
+          {
+            start: "Ieyasu's actual philosophy of stability, hierarchy, and long-term strategy is best inferred from",
+            correct: "his documented political actions.",
+            wrong: ["popular inspirational quotes.", "Zen Buddhist scripture.", "Chinese Confucian classics."]
           },
-          { 
-            start: "The quote \"Life is like unto a long journey with a heavy burden\" attributed to Ieyasu cannot be verified in contemporary sources and may represent later editorial invention or paraphrase, indicating that popular Ieyasu quotes require",
-            "correct": "careful verification.",
-            "wrong": ["blind acceptance.", "no questioning.", "automatic belief."] 
+          {
+            start: "\"Life is like a long journey with a heavy burden\" — attributed to Ieyasu — cannot be verified in contemporary sources and likely represents",
+            correct: "later editorial invention.",
+            wrong: ["confirmed primary source material.", "Ieyasu's personal sealed diary.", "official Edo period records."]
           },
-          { 
-            start: "Ieyasu's actual writings and documented statements, provide insight into his thinking on governance and strategy, though these are less commonly quoted than popular aphorisms, showing that authentic Ieyasu material is",
-            "correct": "overshadowed.",
-            "wrong": ["widely celebrated.", "commonly known.", "frequently quoted."] 
+          {
+            start: "Ieyasu's documented political decisions — unifying Japan, closing borders, establishing sankin-kōtai — reveal his thinking more reliably than",
+            correct: "popular aphorisms attributed to him.",
+            wrong: ["Chinese diplomatic records.", "Jesuit missionary accounts only.", "Buddhist temple archives."]
           }
         ]
       },
       {
-        name: 'Yamamoto Tsunetomo (Bushidō Philosopher)',
-        emoji: '🌑',
+        name: "Yamamoto Tsunetomo (Hagakure Author)",
+        emoji: "🌑",
         quotes: [
-          { 
-            start: "Yamamoto Tsunetomo (1659-1719) was a samurai who served the Saga Domain and whose thoughts on bushidō (the way of the samurai) were recorded by his student Hasegawa Dokuzan, indicating that Tsunetomo's words are",
-            "correct": "filtered through interpretation.",
-            "wrong": ["directly transcribed.", "purely authentic.", "unmediated records."] 
+          {
+            start: "The Hagakure records Tsunetomo's thoughts through his student Hasegawa Dokuzan — meaning the words are",
+            correct: "filtered through a student's transcription.",
+            wrong: ["Tsunetomo's own direct writing.", "confirmed by independent witnesses.", "unchanged from dictation."]
           },
-          { 
-            start: "The Hagakure, was not widely known until the 20th century and has been subject to reinterpretation, particularly by Japanese militarists in the 1930s-1940s who used it to support militaristic ideology, showing that the Hagakure's reception has been",
-            "correct": "shaped by context.",
-            "wrong": ["unchanging.", "static interpretation.", "never reinterpreted."] 
+          {
+            start: "Japanese militarists in the 1930s–40s reinterpreted the Hagakure to support war ideology — showing the text's meaning has been",
+            correct: "shaped by its reception context.",
+            wrong: ["always consistently understood.", "immune to political manipulation.", "purely personal and private."]
           },
-          { 
-            start: "The famous opening \"The way of the samurai is found in death\" (Bushido to iu wa, shinu koto to mituke keri) is authentically documented in the Hagakure, showing that verified Hagakure quotes are",
-            "correct": "contextual.",
-            "wrong": ["self-explanatory.", "transparent meaning.", "needing no analysis."] 
+          {
+            start: "\"The way of the samurai is found in death\" (Bushido to iu wa, shinu koto to mituke keri) is authentically documented — but requires",
+            correct: "reading in full Hagakure context.",
+            wrong: ["no contextual analysis.", "purely literal interpretation.", "translation from Chinese sources."]
           },
-          { 
-            start: "Tsunetomo's philosophy emphasized loyalty to one's lord and the acceptance of death as part of the samurai path, documented in the Hagakure, indicating that authentic Tsunetomo philosophy is",
-            "correct": "accessible carefully.",
-            "wrong": ["inaccessible.", "completely lost.", "permanently distorted."] 
+          {
+            start: "The Hagakure was not widely known until the 20th century — meaning its historical influence on actual samurai was",
+            correct: "far smaller than often claimed.",
+            wrong: ["enormous throughout Japanese history.", "identical to its modern influence.", "confirmed by Edo period documents."]
           }
         ]
       },
       {
-        name: 'Takeda Shingen (Warlord & Military Strategist)',
-        emoji: '🦅',
+        name: "Takeda Shingen (Warlord & Military Strategist)",
+        emoji: "🦅",
         quotes: [
-          { 
-            start: "Takeda Shingen (1521-1573) was a powerful daimyo (feudal lord) whose military campaigns and strategies are documented in historical records and contemporary accounts, though quotes attributed to him come from",
-            "correct": "later compilations.",
-            "wrong": ["direct transcripts.", "contemporary records.", "verified sources."] 
+          {
+            start: "Shingen's military campaigns are documented in historical records — but quotes attributed to him come from",
+            correct: "later compiled biographical sources.",
+            wrong: ["Shingen's own sealed letters.", "contemporary battlefield dispatches.", "Jesuit missionary eyewitness accounts."]
           },
-          { 
-            start: "The famous motto \"Swift as the wind, silent as the forest, fierce as fire, immovable as the mountain\" is attributed to Shingen but its historical authenticity is disputed, indicating that popular quotes attributed to Shingen should be",
-            "correct": "treated cautiously.",
-            "wrong": ["accepted completely.", "trusted entirely.", "believed automatically."] 
+          {
+            start: "\"Swift as wind, silent as forest, fierce as fire, immovable as mountain\" — attributed to Shingen — is disputed in authenticity and should be",
+            correct: "treated as uncertain attribution.",
+            wrong: ["accepted as verified primary source.", "confirmed by multiple contemporaries.", "identical to Sun Tzu's text."]
           },
-          { 
-            start: "Shingen's actual military strategy, emphasized organization, supply lines, and careful positioning rather than reckless aggression, showing that his actual strategic philosophy can be",
-            "correct": "inferred from actions.",
-            "wrong": ["ignored entirely.", "dismissed completely.", "overlooked fully."] 
+          {
+            start: "Shingen's actual strategy emphasized supply lines, careful positioning, and organization — inferred from",
+            correct: "documented military campaigns.",
+            wrong: ["popular samurai aphorisms only.", "Chinese tactical manuals solely.", "later fictional dramatizations."]
           },
-          { 
-            start: "Shingen's conflict with Uesugi Kenshin, the neighboring warlord, though the famous \"Battle of Kawanakajima\" accounts include legendary elements, indicating that historical events involving Shingen contain elements of",
-            "correct": "legend and fact.",
-            "wrong": ["pure invention.", "complete fabrication.", "total mythology."] 
+          {
+            start: "The famous battles of Kawanakajima against Uesugi Kenshin are documented but include legendary elements — meaning these events contain",
+            correct: "both historical fact and legend.",
+            wrong: ["purely fabricated mythology.", "no reliable historical basis.", "complete Roman-style documentation."]
           }
         ]
       },
       {
-        name: 'Zen Buddhism & Philosophy (Complex Historical Development)',
-        emoji: '☯️',
+        name: "Zen Buddhism & Philosophy",
+        emoji: "☯️",
         quotes: [
-          { 
-            start: "Zen Buddhism, which developed in China as Chan Buddhism and was transmitted to Japan beginning in the 12th century, emphasizes direct experience and meditation (zazen) over textual study, meaning that Zen teachings",
-            "correct": "accumulated gradually.",
-            "wrong": ["appeared suddenly.", "came from one person.", "have no history."] 
+          {
+            start: "Zen developed from Chinese Chan Buddhism, transmitted to Japan from the 12th century onward — meaning Zen teachings",
+            correct: "accumulated gradually across centuries.",
+            wrong: ["appeared in a single revelation.", "came from one founding master.", "began in Japan independently."]
           },
-          { 
-            start: "Famous Zen sayings like \"The obstacle is the path\" appear in collections of Zen anecdotes (koans) but often lack specific attribution and may represent later compilations, indicating that popular Zen quotes are",
-            "correct": "uncertain in origin.",
-            "wrong": ["completely verified.", "precisely documented.", "clearly sourced."] 
+          {
+            start: "Sayings like \"The obstacle is the path\" appear in koan collections but often lack specific attribution — making popular Zen quotes",
+            correct: "uncertain in precise origin.",
+            wrong: ["directly verified in canonical texts.", "confirmed by the Buddha himself.", "consistently sourced to one teacher."]
           },
-          { 
-            start: "Zen influence on Japanese culture, is well-documented and represents a genuine historical synthesis of Buddhist ideas with Japanese cultural traditions, indicating that Zen's historical influence is real but quotes are",
-            "correct": "uncertain.",
-            "wrong": ["completely fabricated.", "entirely invented.", "purely mythical."] 
+          {
+            start: "Zen's genuine influence on Japanese art, tea ceremony, and martial arts is well-documented — but attributed quotes are",
+            correct: "frequently of uncertain authenticity.",
+            wrong: ["always precisely sourced.", "immune to misattribution.", "fully verified in primary texts."]
           }
         ]
       },
       {
-        name: 'Samurai Code & Bushidō (Historical Development)',
-        emoji: '🗡️',
+        name: "Samurai Code & Bushidō (Historical Development)",
+        emoji: "🗡️",
         quotes: [
-          { 
-            start: "The concept of bushidō (the way of the samurai), was formally systematized and codified as a philosophical system primarily during the Edo period (1603-1868), indicating that bushidō as a coherent ideology developed during",
-            "correct": "peace.",
-            "wrong": ["warfare.", "conquest.", "expansion."] 
+          {
+            start: "Bushidō as a coherent philosophical system was formalized primarily during the Edo period (1603–1868) — developed during extended",
+            correct: "peace, not active warfare.",
+            wrong: ["Mongol invasion resistance.", "the Sengoku civil wars.", "constant military campaigning."]
           },
-          { 
-            start: "The samurai code emphasized loyalty to one's lord (daimyo), martial skill, honor, and acceptance of death, values documented in historical accounts and codified in works like the Hagakure, showing that samurai values",
-            "correct": "evolved.",
-            "wrong": ["stagnated.", "disappeared.", "reversed."] 
+          {
+            start: "Samurai values — loyalty, martial skill, honor, acceptance of death — were documented in the Hagakure and other texts, showing they",
+            correct: "evolved across different periods.",
+            wrong: ["remained completely static.", "disappeared after the Heian period.", "were identical across all Japan."]
           },
-          { 
-            start: "The practice of seppuku (ritual suicide by cutting one's abdomen) was part of samurai culture and is documented in historical records, indicating that extreme samurai practices were",
-            "correct": "limited.",
-            "wrong": ["universal.", "permanent.", "widespread."] 
+          {
+            start: "Seppuku (ritual suicide) is documented in historical records but was",
+            correct: "a formal regulated practice, not common.",
+            wrong: ["universal among all samurai.", "performed daily in battle.", "a purely fictional invention."]
           },
-          { 
-            start: "Popular representations of samurai culture in modern media often romanticize or misrepresent historical bushidō, showing that modern popular culture has",
-            "correct": "distorted it.",
-            "wrong": ["preserved it.", "documented it.", "verified it."] 
+          {
+            start: "Modern popular culture representations of samurai often romanticize historical bushidō — creating images that",
+            correct: "distort rather than reflect reality.",
+            wrong: ["perfectly preserve historical accuracy.", "are confirmed by Japanese scholars.", "match Edo period documentation."]
           }
         ]
       },
       {
-        name: 'Japanese Literature & Poetic Tradition',
-        emoji: '📖',
+        name: "Japanese Literature & Poetic Tradition",
+        emoji: "📖",
         quotes: [
-          { 
-            start: 'Japanese poetic traditions including tanka (31-syllable poems) and haiku (17-syllable poems) developed over centuries with documented practitioners and collections, providing authentic material for',
-            "correct": "study.",
-            "wrong": ["glass production.", "textile manufacturing.", "mining operations."] 
+          {
+            start: "Tanka and haiku developed across centuries with documented practitioners and collections — providing authentic material for",
+            correct: "rigorous scholarly study.",
+            wrong: ["purely decorative social media use.", "greeting card manufacturing.", "motivational poster production."]
           },
-          { 
-            start: 'The most reliable way to encounter authentic Japanese philosophy and aesthetics is through consultation of primary sources in reliable translations, including verified collections of poetry, historical documents, and',
-            "correct": "philosophical texts.",
-            "wrong": ["internet memes.", "greeting cards.", "social media posts."] 
+          {
+            start: "The most reliable way to encounter authentic Japanese philosophy is through primary sources in careful translations — not through",
+            correct: "decontextualized internet quotes.",
+            wrong: ["original Japanese scholarship.", "verified academic translations.", "peer-reviewed literary studies."]
           },
-          { 
-            start: 'Japanese aesthetic principles like wabi-sabi (the beauty of imperfection and impermanence), documented in historical sources and artistic practice, represent genuine cultural values that can be studied directly rather than through',
-            "correct": "invented quotes.",
-            "wrong": ["authentic texts.", "primary sources.", "verified records."] 
+          {
+            start: "Wabi-sabi (beauty of imperfection and impermanence) is documented in historical sources and artistic practice — a genuine aesthetic concept distorted by",
+            correct: "vague Western New Age reinterpretation.",
+            wrong: ["Japanese scholarly consensus.", "Zen Buddhist primary texts.", "authentic tea ceremony tradition."]
           }
         ]
       },
       {
-        name: 'Historical Context & Social Structure',
-        emoji: '🏛️',
+        name: "Historical Context & Social Structure",
+        emoji: "🏛️",
         quotes: [
-          { 
-            start: 'Medieval and early modern Japan (12th-19th centuries) was organized around feudal relationships between daimyo (lords) and samurai (warriors), with a separate merchant and peasant class, documented in historical records and',
-            "correct": "administrative documents.",
-            "wrong": ["production records.", "textile manufacturing logs.", "mining operation reports."] 
+          {
+            start: "Feudal Japan organized daimyo, samurai, merchants, and peasants in a documented hierarchy — a structure preserved in",
+            correct: "administrative and legal records.",
+            wrong: ["purely oral samurai tradition.", "Chinese diplomatic correspondence only.", "Western missionary accounts alone."]
           },
-          { 
-            start: 'The role of women in Japanese society varied by class and period, with elite women sometimes holding significant power, while commoner and peasant women had more',
-            "correct": "restricted roles.",
-            "wrong": ["military authority.", "political leadership.", "religious dominance."] 
+          {
+            start: "Women's roles varied by class and period — elite women could hold significant power while most women had",
+            correct: "more restricted social roles.",
+            wrong: ["identical rights to samurai men.", "greater freedom than European women.", "no household economic authority."]
           },
-          { 
-            start: 'The introduction of Buddhism and Chinese cultural elements into Japan, beginning in the 6th century and continuing through the medieval period, resulted in cultural synthesis rather than',
-            "correct": "cultural replacement.",
-            "wrong": ["complete isolation.", "total rejection.", "unchanged tradition."] 
+          {
+            start: "Buddhism and Chinese cultural elements entered Japan from the 6th century onward — producing cultural synthesis rather than",
+            correct: "replacement of native Shinto traditions.",
+            wrong: ["immediate complete conversion.", "total rejection of foreign influence.", "purely military cultural exchange."]
+          },
+          {
+            start: "The Meiji Restoration (1868) deliberately constructed and promoted bushidō as national ideology — meaning much of what is called traditional samurai culture was",
+            correct: "partly a modern 19th-century invention.",
+            wrong: ["purely medieval in origin.", "confirmed in Heian period texts.", "unchanged from the 8th century."]
           }
         ]
-      },
+      }
     ]
   },
   {
-    id: 'norse',
-    name: 'Norse & Viking (Evidence-Based)',
-    emoji: '⚡',
+    id: "norse",
+    name: "Norse & Viking (Evidence-Based)",
+    emoji: "⚡",
     color: 0x4a6fa5,
-    colorHex: '#4a6fa5',
-    bg: '#0a0a0a',
+    colorHex: "#4a6fa5",
+    bg: "#0a0a0a",
     authors: [
       {
-        name: 'Hávamál (Codex Regius - Actual Norse Text)',
-        emoji: '🐦',
+        name: "Hávamál (Codex Regius — Actual Norse Text)",
+        emoji: "🐦",
         quotes: [
-          { 
-            start: 'The Hávamál, a poem preserved in the 13th-century Codex Regius, presents wisdom attributed to Odin but was composed during the Viking Age or possibly earlier, reflecting that the text represents Viking Age values and',
-            "correct": "worldview.",
-            "wrong": ["glass production techniques.", "textile manufacturing methods.", "mining operations."] 
+          {
+            start: "The Hávamál, preserved in the 13th-century Codex Regius, presents wisdom attributed to Odin but reflects Viking Age values and",
+            correct: "a pragmatic worldview.",
+            wrong: ["purely Christian morality.", "Roman Stoic philosophy.", "Buddhist detachment ideals."]
           },
-          { 
-            start: 'The stanza \"Cattle die, kinsmen die, every man is mortal: but the good name never dies of one who has done well\" reflects the Viking cultural emphasis on achieving lasting fame through',
-            "correct": "deeds.",
-            "wrong": ["wealth accumulation.", "artistic creation.", "scholarly achievement."] 
+          {
+            start: "\"Cattle die, kinsmen die, every man is mortal: but the good name never dies\" — this stanza reveals that Viking culture measured immortality through",
+            correct: "lasting fame from deeds.",
+            wrong: ["gold and silver hoards.", "divine favor in Valhalla.", "scholarly written legacy."]
           },
-          { 
-            start: 'The Hávamál\'s advice about hospitality (\"a guest needs water, towel, and welcome\") and the dangers of over-trust (\"never trust one whose father or brother you have slain\") reflects the social realities of',
-            "correct": "Viking Age Scandinavia.",
-            "wrong": ["Ancient Egypt.", "Medieval Japan.", "Classical Rome."] 
+          {
+            start: "Advice like \"never trust one whose father you have slain\" reflects the social reality that Viking Age life was shaped by",
+            correct: "blood feud obligations.",
+            wrong: ["purely Christian forgiveness ethics.", "Roman legal contract systems.", "peaceful community arbitration."]
           },
-          { 
-            start: 'The advice \"wake early if you want another man\'s life or land\" directly acknowledges that Viking Age societies were characterized by competition for resources, raiding, and',
-            "correct": "territorial conflict.",
-            "wrong": ["peaceful cooperation.", "religious harmony.", "artistic collaboration."] 
+          {
+            start: "\"Wake early if you want another man's life or land\" directly acknowledges that Viking Age Scandinavia was characterized by",
+            correct: "competition and territorial raiding.",
+            wrong: ["peaceful agricultural cooperation.", "democratic resource sharing.", "Buddhist non-violence ideals."]
           },
-          { 
-            start: 'The Hávamál\'s emphasis on moderate wisdom (\"moderately wise a man should be, not too crafty\") and warnings against excessive cleverness reflect that Norse culture valued practical wisdom over',
-            "correct": "theoretical knowledge.",
-            "wrong": ["military strength.", "seafaring ability.", "commercial success."] 
+          {
+            start: "The Hávamál's warning against excessive cleverness and praise of moderate wisdom shows Norse culture valued",
+            correct: "practical wisdom over abstract theory.",
+            wrong: ["military strength above all.", "scholarly philosophical learning.", "poetic composition primarily."]
           }
         ]
       },
       {
-        name: 'Viking Age Society & Social Structure',
-        emoji: '👑',
+        name: "Viking Age Society & Social Structure",
+        emoji: "👑",
         quotes: [
-          { 
-            start: 'Viking Age Scandinavian society (ca. 790-1066 CE) was hierarchically organized into jarl (jarls/nobles), karls (freemen), and thralls (enslaved persons), with the jarls controlling land, military forces, and',
-            "correct": "trade networks.",
-            "wrong": ["glass production.", "textile manufacturing.", "mining operations."] 
+          {
+            start: "Viking Age society (ca. 790–1066 CE) divided into jarls (nobles), karls (freemen), and thralls (enslaved persons) — with jarls controlling land, warriors, and",
+            correct: "trade networks.",
+            wrong: ["purely ceremonial religious duties.", "church administrative functions.", "scholarly monastic roles."]
           },
-          { 
-            start: 'The role of women in Viking Age society included property ownership (in some cases), the management of households and farms, religious leadership as völva (seers), and',
-            "correct": "legal standing in courts.",
-            "wrong": ["military command.", "seafaring expeditions.", "political governance."] 
+          {
+            start: "Women could own property, manage farms, serve as völva (seers), and hold legal standing — more rights than in many contemporary",
+            correct: "medieval European societies.",
+            wrong: ["Viking Age Buddhist cultures.", "pre-Christian Roman society.", "ancient Greek city-states."]
           },
-          { 
-            start: 'The practice of slavery (thralldom) was central to Viking Age economies, with enslaved persons obtained through raiding, war, trade, and debt bondage, providing labor for agriculture and',
-            "correct": "domestic work.",
-            "wrong": ["artistic creation.", "scholarly pursuits.", "religious ceremonies."] 
+          {
+            start: "Thralldom (slavery) was central to the Viking Age economy — enslaved people obtained through raiding, trade, and debt provided essential",
+            correct: "agricultural and domestic labor.",
+            wrong: ["purely religious ceremonial service.", "military combat roles.", "long-distance seafaring work."]
           },
-          { 
-            start: 'The complex web of kinship obligations in Viking Age societies, created systems where injury to one person created obligations for entire family groups, showing that Viking Age societies functioned through networks of',
-            "correct": "mutual obligation.",
-            "wrong": ["complete independence.", "individual autonomy.", "personal isolation."] 
+          {
+            start: "Kinship obligations meant injury to one person created duties for entire family groups — Viking societies functioned through networks of",
+            correct: "mutual obligation and revenge.",
+            wrong: ["purely individual legal contracts.", "state-enforced impartial law.", "Christian forgiveness traditions."]
           }
         ]
       },
       {
-        name: 'Viking Raids & Expansion (Archaeological & Documentary Evidence)',
-        emoji: '🛡️',
+        name: "Viking Raids & Expansion (Archaeological & Documentary Evidence)",
+        emoji: "🛡️",
         quotes: [
-          { 
-            start: 'The Viking raids on European targets, including monasteries, trading centers, and coastal settlements, combined with archaeological evidence of destruction, showing that Viking expansion involved organized',
-            "correct": "military campaigns.",
-            "wrong": ["glass production.", "textile manufacturing.", "religious conversions."] 
+          {
+            start: "Viking raids combined with archaeological destruction evidence confirm that expansion involved organized",
+            correct: "military campaigns, not random piracy.",
+            wrong: ["purely mercantile peaceful trade.", "religious missionary activity.", "diplomatic embassy missions."]
           },
-          { 
-            start: 'The Viking attacks on monasteries like Lindisfarne (793 CE) and Iona targeted institutions known to hold wealth in the form of precious metals, reliquaries, and',
-            "correct": "manuscripts.",
-            "wrong": ["mining equipment.", "agricultural tools.", "pottery vessels."] 
+          {
+            start: "Monasteries like Lindisfarne (793 CE) were targeted because they concentrated wealth in precious metals, reliquaries, and",
+            correct: "manuscripts with no military defenses.",
+            wrong: ["heavily armed professional soldiers.", "Byzantine naval support vessels.", "Frankish cavalry reinforcements."]
           },
-          { 
-            start: 'The Viking settlement of Iceland (beginning ca. 874 CE), documented in medieval sources like Landnámabók and confirmed by archaeological evidence, demonstrates that Vikings engaged in deliberate colonization and',
-            "correct": "settlement.",
-            "wrong": ["piracy.", "permanent raiding.", "seasonal occupation."] 
+          {
+            start: "Iceland's settlement (ca. 874 CE), documented in Landnámabók and confirmed archaeologically, demonstrates that Vikings pursued deliberate",
+            correct: "colonization, not just raiding.",
+            wrong: ["purely seasonal fishing camps.", "temporary military forward bases.", "religious pilgrimage destinations."]
           },
-          { 
-            start: 'The establishment of Viking trading posts and settlements in Russia (Varangian routes through present-day Russia to Constantinople and Baghdad), shows that Viking activities included extensive trade networks and long-distance',
-            "correct": "commerce.",
-            "wrong": ["military conquest.", "religious missions.", "artistic exchange."] 
+          {
+            start: "The Varangian route through Russia to Constantinople and Baghdad shows Viking activities included",
+            correct: "extensive long-distance commerce.",
+            wrong: ["purely Scandinavian-local trade.", "military conquest of Russia only.", "purely religious pilgrimage routes."]
           },
-          { 
-            start: 'The Norman settlement of Normandy (early 10th century), established through agreement with the Frankish king and documented in contemporary sources, demonstrates that some Viking expansion was integrated into existing',
-            "correct": "political structures.",
-            "wrong": ["glass factories.", "textile workshops.", "mining colonies."] 
+          {
+            start: "Norman settlement of Normandy (early 10th century) by agreement with the Frankish king shows Viking expansion was sometimes",
+            correct: "integrated into existing political structures.",
+            wrong: ["always achieved through total conquest.", "rejected by all European rulers.", "purely temporary raiding settlements."]
           }
         ]
       },
       {
-        name: 'Norse Shipbuilding & Maritime Technology',
-        emoji: '⛵',
+        name: "Norse Shipbuilding & Maritime Technology",
+        emoji: "⛵",
         quotes: [
-          { 
-            start: 'The Viking ships (longships), excavated at archaeological sites like Gokstad, Oseberg, and Skuldelev, reveal sophisticated construction techniques including oak construction, clinker-built planking, and',
-            "correct": "shallow drafts.",
-            "wrong": ["glass panels.", "textile sails.", "iron anchors."] 
+          {
+            start: "Ships excavated at Gokstad, Oseberg, and Skuldelev reveal clinker-built oak construction and",
+            correct: "shallow drafts enabling river navigation.",
+            wrong: ["deep keels for ocean stability only.", "purely ceremonial burial vessels.", "Egyptian papyrus construction techniques."]
           },
-          { 
-            start: 'The Oseberg ship burial (ca. 834 CE), excavated in Norway and containing a wealthy woman\'s grave goods including carved wooden items and household goods, shows that Viking Age societies had sophisticated',
-            "correct": "craftsmanship.",
-            "wrong": ["mining operations.", "glass production.", "agricultural methods."] 
+          {
+            start: "The Oseberg ship burial (ca. 834 CE) containing a high-status woman's grave goods demonstrates sophisticated",
+            correct: "craftsmanship and social hierarchy.",
+            wrong: ["purely military naval technology.", "absence of female leadership.", "simple nomadic material culture."]
           },
-          { 
-            start: 'Viking ships\' ability to navigate both open ocean and shallow rivers allowed Vikings to penetrate deep into continental Europe and establish settlements in places that were difficult for other medieval powers to',
-            "correct": "reach.",
-            "wrong": ["fortify.", "abandon.", "destroy."] 
+          {
+            start: "Navigating both open ocean and shallow rivers allowed Vikings to penetrate deep into Europe, reaching places other medieval forces",
+            correct: "could not easily attack.",
+            wrong: ["were always better defended.", "had already abandoned entirely.", "willingly opened to all traders."]
+          },
+          {
+            start: "L'Anse aux Meadows in Newfoundland — confirmed Norse settlement ca. 1000 CE — proves Vikings reached North America",
+            correct: "500 years before Columbus.",
+            wrong: ["after Columbus's 1492 voyages.", "through accidental shipwreck only.", "with permanent lasting colonization."]
           }
         ]
       },
       {
-        name: 'Norse Religion & Cosmology',
-        emoji: '🌍',
+        name: "Norse Religion & Cosmology",
+        emoji: "🌍",
         quotes: [
-          { 
-            start: 'Norse religion, preserved in texts like the Poetic Edda and Prose Edda (compiled in 13th century Iceland but reflecting older traditions), presents a cosmology centered on Yggdrasil (world tree), nine realms, and gods like Odin, Thor, and',
-            "correct": "Freyja.",
-            "wrong": ["Zeus.", "Poseidon.", "Apollo."] 
+          {
+            start: "The Poetic and Prose Eddas, compiled in 13th-century Iceland, preserve Norse cosmology — Yggdrasil, nine realms, and gods including Odin, Thor, and",
+            correct: "Freyja.",
+            wrong: ["Zeus.", "Marduk.", "Vishnu."]
           },
-          { 
-            start: 'The concept of Ragnarök (apocalyptic destruction and renewal), prominent in Norse mythology, reflects a cyclical worldview where death and rebirth are inevitable, possibly related to seasonal cycles in Scandinavian',
-            "correct": "climate.",
-            "wrong": ["glass production.", "textile manufacturing.", "mining operations."] 
+          {
+            start: "Ragnarök — cosmic destruction followed by renewal — reflects a cyclical worldview that may relate to",
+            correct: "Scandinavian seasonal extremes.",
+            wrong: ["pure Christian apocalypse borrowing.", "Babylonian astronomical calculations.", "Egyptian afterlife theology."]
           },
-          { 
-            start: 'The religious emphasis on honor in battle and the concept of Valhalla (afterlife for those who die in combat), documented in literary sources, appears to reflect the cultural values of a warrior society where martial prowess was',
-            "correct": "highly valued.",
-            "wrong": ["discouraged.", "forbidden.", "prohibited."] 
+          {
+            start: "Valhalla and the honor of dying in battle appear to reflect warrior values — but were likely more complex in lived religion than",
+            correct: "simplified modern pop culture suggests.",
+            wrong: ["any medieval Christian ever believed.", "archaeological evidence confirms.", "saga literature ever mentions."]
           },
-          { 
-            start: 'The conversion of Scandinavia to Christianity beginning in the 10th century, documented in contemporary sources and',
-            "correct": "archaeological evidence.",
-            "wrong": ["glass artifacts.", "textile fragments.", "mining tools."] 
+          {
+            start: "Norse mythology was written down by Christian Icelanders centuries after Christianization — meaning the texts reflect",
+            correct: "post-Christian religious syncretism.",
+            wrong: ["perfectly preserved pagan belief.", "unchanged oral tradition accuracy.", "purely anti-Christian Viking resistance."]
           },
-          { 
-            start: 'The preservation of Norse mythology in medieval Icelandic texts written long after Christianization means that the myths were transmitted through a Christian lens and may reflect post-Viking',
-            "correct": "religious syncretism.",
-            "wrong": ["purely pagan beliefs.", "unchanged traditions.", "original practices."] 
+          {
+            start: "Conversion to Christianity (10th–11th centuries) was documented and reflected archaeologically in church building — suggesting it was often",
+            correct: "politically motivated by rulers.",
+            wrong: ["purely spontaneous popular movement.", "forced solely by papal crusades.", "rejected by all Scandinavian people."]
           }
         ]
       },
       {
-        name: 'Viking Age Trade Networks',
-        emoji: '💰',
+        name: "Viking Age Trade Networks",
+        emoji: "💰",
         quotes: [
-          { 
-            start: 'Archaeological evidence and contemporary sources document extensive Viking trade networks extending from Baghdad to',
-            "correct": "the Atlantic.",
-            "wrong": ["the Arctic.", "Australia.", "the Sahara Desert."] 
+          {
+            start: "Archaeological evidence documents Viking trade networks extending from Baghdad to",
+            correct: "the North Atlantic coasts.",
+            wrong: ["Sub-Saharan Africa directly.", "Chinese imperial markets.", "Australian Aboriginal peoples."]
           },
-          { 
-            start: 'The discovery of Arab coins (dirhams) in Scandinavian hoards, with concentrations increasing during the 8th-10th centuries, indicates that Vikings had access to',
-            "correct": "Islamic commercial networks.",
-            "wrong": ["glass manufacturing centers.", "textile production workshops.", "mining operations."] 
+          {
+            start: "Arab dirhams found in Scandinavian hoards show Vikings accessed",
+            correct: "Islamic silver trade networks.",
+            wrong: ["Chinese porcelain manufacturing.", "Byzantine glass production.", "Roman coin minting systems."]
           },
-          { 
-            start: 'The establishment of trading centers like Haithabu (in present-day Germany), Birka (Sweden), and Novgorod (Russia), documented archaeologically and in historical sources, demonstrates that Vikings created sophisticated',
-            "correct": "commercial centers.",
-            "wrong": ["religious monasteries.", "military fortresses.", "artistic studios."] 
+          {
+            start: "Trading centers like Haithabu, Birka, and Novgorod — documented archaeologically — show Vikings created",
+            correct: "sophisticated permanent commercial hubs.",
+            wrong: ["purely seasonal raiding camps.", "exclusively religious pilgrimage sites.", "simple agricultural villages only."]
           },
-          { 
-            start: 'The role of Viking merchants (kaupmen) in establishing trade routes and commercial networks, shows that Viking societies had specialized merchants who conducted commerce alongside warriors and',
-            "correct": "farmers.",
-            "wrong": ["sailors.", "poets.", "priests."] 
+          {
+            start: "Viking societies included specialized kaupmen (merchants) operating alongside warriors and",
+            correct: "farmers — not raiders alone.",
+            wrong: ["exclusively professional soldiers.", "purely nomadic pastoralists.", "monastic religious scholars."]
           }
         ]
       },
       {
-        name: 'Ragnar Lothbrok (Historical Legend vs. Fictional Construction)',
-        emoji: '🪓',
+        name: "Ragnar Lothbrok (Legend vs. Historical Evidence)",
+        emoji: "🪓",
         quotes: [
-          { 
-            start: 'Ragnar Lothbrok (\"Lothbrok the legendary hero\") appears in multiple sources including the Saga of Ragnar Lothbrok and other Norse sagas as a great warrior and king, but modern scholars debate whether he was a historical person or a',
-            "correct": "purely legendary character.",
-            "wrong": ["glass manufacturer.", "textile weaver.", "mining engineer."] 
+          {
+            start: "Ragnar Lothbrok appears in multiple Norse sagas as a legendary warrior-king, but scholars debate whether he was",
+            correct: "historical, legendary, or composite.",
+            wrong: ["definitely real and well-documented.", "purely a 20th-century invention.", "identical to Charlemagne in disguise."]
           },
-          { 
-            start: 'The legendary account of Ragnar\'s conquest of England and his death in a snake pit is presented in Norse sagas but has no corroboration in contemporary sources or',
-            "correct": "archaeological evidence.",
-            "wrong": ["Christian writings.", "Islamic records.", "Japanese chronicles."] 
+          {
+            start: "The legendary account of Ragnar's death in a snake pit has no corroboration in contemporary sources or",
+            correct: "archaeological evidence.",
+            wrong: ["modern popular TV drama.", "later Icelandic sagas exclusively.", "Roman historical records."]
           },
-          { 
-            start: 'If Ragnar was a historical figure, he likely lived in the 9th century, suggesting that legendary sagas may contain kernels of historical events transformed through',
-            "correct": "storytelling.",
-            "wrong": ["complete fabrication.", "deliberate lies.", "total invention."] 
+          {
+            start: "If historical, Ragnar likely lived in the 9th century — showing that legendary sagas may preserve kernels of real events transformed through",
+            correct: "centuries of oral storytelling.",
+            wrong: ["deliberate systematic falsification.", "single author's complete invention.", "Christian monastic distortion alone."]
           }
         ]
       },
       {
-        name: 'Viking Age Warfare & Military Organization',
-        emoji: '⚔️',
+        name: "Viking Age Warfare & Military Organization",
+        emoji: "⚔️",
         quotes: [
-          { 
-            start: 'Viking warfare, reconstructed from archaeological evidence, written sources, and saga accounts, involved shield-wall formations, hand-to-hand combat with swords and axes, and psychological intimidation through',
-            "correct": "noise.",
-            "wrong": ["glass production.", "textile weaving.", "mining operations."] 
+          {
+            start: "Viking warfare used shield-wall formations, axes, swords, and psychological intimidation — reconstructed from archaeology, written sources, and",
+            correct: "saga battle descriptions.",
+            wrong: ["Roman military manuals.", "Chinese tactical treatises.", "Byzantine cavalry handbooks."]
           },
-          { 
-            start: 'The Great Heathen Army\'s invasion of England (865-878 CE), documented in the Anglo-Saxon Chronicle, shows that Vikings conducted organized military campaigns with strategic objectives including conquest and',
-            "correct": "settlement.",
-            "wrong": ["artistic pursuits.", "scholarly research.", "religious conversion."] 
+          {
+            start: "The Great Heathen Army's invasion of England (865–878 CE), documented in the Anglo-Saxon Chronicle, shows organized military campaigns with strategic objectives of",
+            correct: "conquest and permanent settlement.",
+            wrong: ["purely seasonal monastery raiding.", "temporary tribute extraction only.", "religious missionary conversion work."]
           },
-          { 
-            start: 'The resistance to Vikings by figures like King Alfred the Great, documented in contemporary sources, demonstrates that Viking expansion faced organized military opposition and that their success was not',
-            "correct": "inevitable.",
-            "wrong": ["predictable.", "guaranteed.", "assured."] 
+          {
+            start: "King Alfred the Great's organized resistance shows Viking expansion faced serious opposition and was",
+            correct: "never militarily inevitable.",
+            wrong: ["always completely unstoppable.", "never seriously challenged.", "welcomed by all Anglo-Saxons."]
           }
         ]
       },
       {
-        name: 'Scandinavian Political Development',
-        emoji: '👑',
+        name: "Scandinavian Political Development",
+        emoji: "👑",
         quotes: [
-          { 
-            start: 'The unification of Norway under figures like Harald Fairhair (late 9th century), shows that Viking Age Scandinavia experienced political consolidation as regional kingdoms merged into',
-            "correct": "larger units.",
-            "wrong": ["smaller tribes.", "isolated settlements.", "independent city-states."] 
+          {
+            start: "Harald Fairhair's unification of Norway (late 9th century) shows Viking Age Scandinavia was consolidating into",
+            correct: "larger centralized kingdoms.",
+            wrong: ["smaller isolated tribal units.", "Greek-style democratic city-states.", "purely religious monastic communities."]
           },
-          { 
-            start: 'The relationship between Viking raiding and internal Scandinavian politics, suggested by some historians, indicates that the need to control resources and maintain warrior followings may have motivated some Vikings to seek power through',
-            "correct": "raiding.",
-            "wrong": ["glass production.", "textile manufacturing.", "peaceful trade."] 
+          {
+            start: "Some historians suggest raiding abroad helped Viking leaders maintain warrior followings when domestic political competition made",
+            correct: "local power consolidation difficult.",
+            wrong: ["foreign trade impossible.", "religious conversion unavoidable.", "farming economically unviable."]
           },
-          { 
-            start: 'The adoption of Christianity by Scandinavian rulers in the 10th-11th centuries, documented in sources and reflected in archaeological evidence of church building, served political purposes including integration with',
-            "correct": "Christian European powers.",
-            "wrong": ["Islamic empires.", "Buddhist kingdoms.", "Hindu states."] 
+          {
+            start: "Scandinavian rulers adopted Christianity partly for political integration with",
+            correct: "Christian European diplomatic networks.",
+            wrong: ["Islamic caliphate authority.", "Byzantine religious monopoly.", "Roman papal territorial demands."]
           }
         ]
       },
       {
-        name: 'Runic Writing & Literacy',
-        emoji: '📜',
+        name: "Runic Writing & Literacy",
+        emoji: "📜",
         quotes: [
-          { 
-            start: 'Runic inscriptions, found on stones, weapons, and portable objects throughout the Viking Age Scandinavian region, were used for short inscriptions, commemorations, and possibly magical or',
-            "correct": "religious purposes.",
-            "wrong": ["glass production.", "textile dyeing.", "mining operations."] 
+          {
+            start: "Runic inscriptions on stones, weapons, and objects were used for commemoration, ownership marks, and possibly",
+            correct: "magical and religious purposes.",
+            wrong: ["extensive literary composition.", "long administrative records.", "commercial accounting systems."]
           },
-          { 
-            start: 'The extensive use of the Latin alphabet in Viking Age sources, particularly for legal documents and religious texts, demonstrates that as Scandinavian societies became more complex and Christianized, literacy in Latin became',
-            "correct": "important.",
-            "wrong": ["obsolete.", "forgotten.", "prohibited."] 
+          {
+            start: "As Scandinavian societies Christianized, Latin literacy became increasingly important for",
+            correct: "legal documents and church records.",
+            wrong: ["replacing all runic tradition.", "purely military tactical purposes.", "long-distance seafaring navigation."]
           },
-          { 
-            start: 'The limited literacy of most Viking Age people, means that the preservation of sagas and stories through oral tradition before written compilation centuries later introduces possibilities for change and',
-            "correct": "alteration.",
-            "wrong": ["complete accuracy.", "perfect preservation.", "exact reproduction."] 
+          {
+            start: "Oral transmission of sagas before written compilation centuries later introduces significant possibilities for",
+            correct: "change and legendary embellishment.",
+            wrong: ["perfect historical accuracy.", "exact word-for-word preservation.", "deliberate Christian falsification."]
           }
         ]
       },
       {
-        name: 'Archaeological Evidence & Material Culture',
-        emoji: '🏺',
+        name: "Archaeological Evidence & Material Culture",
+        emoji: "🏺",
         quotes: [
-          { 
-            start: 'Archaeological excavations at Viking Age sites like Hedeby, Birka, and Gotland reveal extensive trade networks indicated by artifacts including Byzantine coins, Islamic glass, and',
-            "correct": "rare woods.",
-            "wrong": ["Arctic ice.", "desert sand.", "oceanic salt."] 
+          {
+            start: "Sites like Hedeby, Birka, and Gotland yield Byzantine coins, Islamic glass, and exotic woods — confirming",
+            correct: "far-reaching Viking trade networks.",
+            wrong: ["purely local Scandinavian exchange.", "exclusively military Viking activity.", "absence of Viking peaceful commerce."]
           },
-          { 
-            start: 'The discovery of Viking weapons including swords, axes, and spears with sophisticated metalwork demonstrates that Norse metalworking technology was advanced and produced',
-            "correct": "high-quality weapons.",
-            "wrong": ["artistic sculptures.", "religious reliquaries.", "textile patterns."] 
+          {
+            start: "Sophisticated Viking swords and axes with pattern-welded blades demonstrate Norse metalworking was",
+            correct: "technologically advanced and specialized.",
+            wrong: ["inferior to Frankish weapons always.", "purely ceremonial with no combat use.", "identical to Roman imperial weapons."]
           },
-          { 
-            start: 'The evidence of extensive house settlements and farm structures from the Viking Age shows that most Vikings were farmers and settlers, not raiders, and raiding was',
-            "correct": "seasonal.",
-            "wrong": ["permanent.", "prohibited.", "ceremonial."] 
+          {
+            start: "Farm and settlement archaeology shows most Vikings were farmers — raiding was",
+            correct: "seasonal activity for a minority.",
+            wrong: ["the primary occupation of all Vikings.", "prohibited by Norse law codes.", "purely a Christian myth about Norsemen."]
           }
         ]
       },
       {
-        name: 'Saga Literature & Historical Reliability',
-        emoji: '📖',
+        name: "Saga Literature & Historical Reliability",
+        emoji: "📖",
         quotes: [
-          { 
-            start: 'The Norse sagas, including the Íslendingasögur (Sagas of Icelanders) and other works, were composed and written down primarily in the',
-            "correct": "13th-14th centuries.",
-            "wrong": ["9th century.", "20th century.", "5th century."] 
+          {
+            start: "The Íslendingasögur and other sagas were written primarily in",
+            correct: "13th–14th century Iceland.",
+            wrong: ["9th-century Viking Scandinavia.", "Roman-era Germanic territories.", "20th-century academic institutions."]
           },
-          { 
-            start: 'The sagas contain anachronisms, internal contradictions, and elements of folklore and legend mixed with possible historical kernels, showing that the sagas must be treated as literary sources requiring careful analysis to extract possible',
-            "correct": "historical information.",
-            "wrong": ["glass production techniques.", "textile manufacturing methods.", "mining technology."] 
+          {
+            start: "Sagas contain anachronisms, folklore, and contradictions — requiring careful analysis rather than",
+            correct: "straightforward acceptance as history.",
+            wrong: ["complete scholarly rejection.", "purely archaeological confirmation.", "total disregard as fiction."]
           },
-          { 
-            start: 'The debate among scholars about the historical reliability of specific saga accounts demonstrates that saga narratives cannot be used as straightforward historical sources without',
-            "correct": "corroboration.",
-            "wrong": ["complete acceptance.", "blind faith.", "total rejection."] 
+          {
+            start: "Scholarly debate about saga reliability means specific accounts need",
+            correct: "corroboration from independent sources.",
+            wrong: ["complete acceptance on faith.", "total rejection as invented.", "purely literary interpretation only."]
           }
         ]
       },
       {
-        name: 'Women in Viking Age Society',
-        emoji: '👩',
+        name: "Women in Viking Age Society",
+        emoji: "👩",
         quotes: [
-          { 
-            start: 'The evidence for women\'s roles in Viking Age society, including the Oseberg ship burial containing grave goods indicating a woman of high status, shows that women in Viking societies had more legal authority than their counterparts in many medieval',
-            "correct": "European societies.",
-            "wrong": ["communities.", "villages.", "mining colonies."] 
+          {
+            start: "The Oseberg ship burial — containing a high-status woman with rich grave goods — confirms women could hold",
+            correct: "significant social and ritual authority.",
+            wrong: ["purely ceremonial decorative roles.", "no independent social standing.", "identical roles to men everywhere."]
           },
-          { 
-            start: 'The role of völva (female seers/shamans) in Viking Age religious practice, documented in sagas and supported by archaeological evidence of female religious practitioners, demonstrates that women held important religious and',
-            "correct": "ceremonial roles.",
-            "wrong": ["military positions.", "seafaring duties.", "mining operations."] 
+          {
+            start: "Völva (female seers) documented in sagas and supported archaeologically show women held important",
+            correct: "religious and prophetic roles.",
+            wrong: ["purely domestic household functions.", "military combat leadership only.", "exclusively merchant trading roles."]
           },
-          { 
-            start: 'Women\'s ability to own property, conduct business, and manage farms during the absence of men, documented in saga accounts and legal sources, indicates that women had economic agency and could',
-            "correct": "act independently.",
-            "wrong": ["sail the oceans.", "control politics.", "command armies."] 
+          {
+            start: "Women managing farms, property, and business during men's absence had genuine economic agency — more than",
+            correct: "many contemporary medieval societies allowed.",
+            wrong: ["any pre-Christian culture ever permitted.", "Viking men typically acknowledged.", "modern scholars often recognize."]
           }
         ]
       },
       {
-        name: 'The End of the Viking Age & Integration into European Society',
-        emoji: '⚔️',
+        name: "The End of the Viking Age",
+        emoji: "⚔️",
         quotes: [
-          { 
-            start: 'The end of the Viking Age is conventionally dated to 1066 CE (Battle of Stamford Bridge and Norman Conquest of England), which marks the point when Scandinavian societies had been',
-            "correct": "Christianized.",
-            "wrong": ["industrialized.", "democratized.", "alphabetized."] 
+          {
+            start: "The Viking Age conventionally ends at 1066 CE — by which point Scandinavian societies had largely",
+            correct: "Christianized and joined European feudalism.",
+            wrong: ["conquered all of Western Europe.", "abandoned all seafaring activity.", "reverted to purely nomadic lifestyles."]
           },
-          { 
-            start: 'The transformation of Vikings into European nobility, particularly evident in the Norman conquest of England and the Varangian influence in Constantinople, demonstrates that Vikings adapted to and integrated into existing',
-            "correct": "medieval power structures.",
-            "wrong": ["glass manufacturing systems.", "textile production networks.", "mining operations."] 
+          {
+            start: "Vikings becoming Norman nobility, Varangian guards at Constantinople, and Russian ruling dynasties shows they",
+            correct: "adapted into existing power structures.",
+            wrong: ["always remained culturally isolated.", "never integrated with other peoples.", "maintained purely Norse cultural identity."]
           },
-          { 
-            start: 'The legacy of the Viking Age included the settlement of Iceland, Greenland, and the brief colonization of',
-            "correct": "North America (Vinland).",
-            "wrong": ["Australia.", "Japan.", "the Sahara Desert."] 
+          {
+            start: "The Viking legacy includes Iceland's settlement, Greenland colonization, and the brief North American settlement at",
+            correct: "L'Anse aux Meadows, Newfoundland.",
+            wrong: ["modern-day New York City.", "Caribbean island settlements.", "Pacific Ocean island chains."]
           }
         ]
       }
@@ -2671,20 +2681,25 @@ export const CIVILIZATIONS = [
         name: "Osman I & Early Ottoman Expansion",
         emoji: "👑",
         quotes: [
-          { 
-            start: "Osman I, the founder of the Ottoman Empire in the late 13th century, began as the leader of a small Turkish principality (beylik) in Anatolia that gradually expanded through military conquest and strategic",
-            "correct": "marriages.",
-            "wrong": ["glass production.", "textile weaving.", "mining operations."] 
+          {
+            start: "Osman I began as leader of a small Turkish principality in Anatolia that expanded through military conquest and strategic",
+            correct: "marriages and tribal alliances.",
+            wrong: ["purely Islamic religious authority.", "Byzantine imperial sponsorship.", "Mongol military assistance."]
           },
-          { 
-            start: "The early Ottomans, led by Osman and his successors, systematized military organization and administrative structures that would distinguish them from other Anatolian principalities, allowing them to develop",
-            "correct": "institutional frameworks.",
-            "wrong": ["seafaring fleets.", "artistic traditions.", "scholarly institutions."] 
+          {
+            start: "The early Ottomans developed systematic military and administrative structures that distinguished them from other Anatolian principalities — creating",
+            correct: "durable institutional frameworks.",
+            wrong: ["temporary raiding confederacies.", "purely nomadic tribal structures.", "Greek-style city-state governance."]
           },
-          { 
-            start: "The Ottomans' crossing into the Balkans in the 14th century marked a crucial expansion that transformed them from an Anatolian power into a",
-            "correct": "European power.",
-            "wrong": ["African empire.", "Arctic nation.", "oceanic dominion."] 
+          {
+            start: "Crossing into the Balkans in the 1350s transformed the Ottomans from an Anatolian principality into",
+            correct: "a trans-continental empire.",
+            wrong: ["a purely Asian power.", "a Mongol successor state.", "a Byzantine client kingdom."]
+          },
+          {
+            start: "The Ottoman ghazi warrior ideology — presenting expansion as holy war — provided religious legitimacy that attracted",
+            correct: "Muslim fighters from across Anatolia.",
+            wrong: ["Byzantine Christian recruits.", "purely mercenary paid soldiers.", "Mongol cavalry forces."]
           }
         ]
       },
@@ -2692,20 +2707,25 @@ export const CIVILIZATIONS = [
         name: "Mehmed II & the Conquest of Constantinople",
         emoji: "⚔️",
         quotes: [
-          { 
-            start: "The conquest of Constantinople in 1453 by Mehmed II represented a watershed moment in world history, ending over a thousand years of Byzantine rule and demonstrating that the Ottoman Empire possessed superior military technology, organization, and",
-            "correct": "resources.",
-            "wrong": ["glass production.", "textile manufacturing.", "mining wealth."] 
+          {
+            start: "The conquest of Constantinople in 1453 ended over a thousand years of Byzantine rule — a watershed moment made possible by Ottoman",
+            correct: "superior siege artillery and organization.",
+            wrong: ["purely numerical troop superiority.", "Byzantine internal betrayal alone.", "Greek fire counter-technology."]
           },
-          { 
-            start: "Mehmed II's use of massive bombards and gunpowder artillery at Constantinople showed that early Ottoman military innovations with firearms and siege weaponry were crucial to their",
-            "correct": "conquests.",
-            "wrong": ["artistic achievements.", "scholarly pursuits.", "commercial ventures."] 
+          {
+            start: "Mehmed's massive bombards — some casting stone balls over 600kg — demonstrated that gunpowder technology had rendered",
+            correct: "traditional stone walls obsolete.",
+            wrong: ["cavalry warfare irrelevant.", "naval power unnecessary.", "infantry tactics ineffective."]
           },
-          { 
-            start: "The fall of Constantinople allowed the Ottomans to control the crucial strait connecting Europe and Asia and to establish their capital in Istanbul, which meant that they secured a geopolitically strategic position controlling",
-            "correct": "trade routes.",
-            "wrong": ["Arctic passages.", "desert pathways.", "forest trails."] 
+          {
+            start: "Renaming Constantinople Istanbul and making it the Ottoman capital secured control of the Bosphorus strait — the critical chokepoint linking",
+            correct: "Black Sea and Mediterranean trade.",
+            wrong: ["Atlantic and Pacific oceans.", "Red Sea and Indian Ocean.", "Caspian Sea and Persian Gulf."]
+          },
+          {
+            start: "Mehmed styled himself 'Caesar of Rome' after 1453 — claiming legitimacy over both Islamic and Eastern Christian traditions, showing that",
+            correct: "Ottoman rulers deliberately cultivated multiple imperial identities.",
+            wrong: ["the Ottomans converted to Christianity.", "Byzantine traditions were completely rejected.", "Roman law governed the empire."]
           }
         ]
       },
@@ -2713,20 +2733,25 @@ export const CIVILIZATIONS = [
         name: "The Devshirme System & Janissaries",
         emoji: "🎖️",
         quotes: [
-          { 
-            start: "The Ottoman devshirme system, which recruited boys from conquered Christian territories for training as elite soldiers (Janissaries) or administrators, was a sophisticated mechanism for converting subject populations into",
-            "correct": "loyal imperial servants.",
-            "wrong": ["glass manufacturers.", "textile weavers.", "mining laborers."] 
+          {
+            start: "The devshirme recruited boys from Christian families across the Balkans, trained them as Muslims and soldiers, creating an elite corps",
+            correct: "loyal to the sultan rather than local nobility.",
+            wrong: ["loyal to Christian European powers.", "exempt from all military service.", "primarily employed as merchants."]
           },
-          { 
-            start: "The Janissaries, the elite military corps formed through devshirme, became the Ottoman Empire's most formidable",
-            "correct": "fighting force.",
-            "wrong": ["artistic school.", "scholarly institution.", "merchant guild."] 
+          {
+            start: "The Janissaries were the first standing professional army in the region — giving the Ottomans a decisive advantage over armies of",
+            correct: "feudal levies that disbanded after campaigns.",
+            wrong: ["purely nomadic cavalry forces.", "Greek hoplite citizen soldiers.", "Chinese-style conscript armies."]
           },
-          { 
-            start: "The devshirme system, though based on forced recruitment, created opportunities for social mobility among non-Muslim subjects who could rise to positions of high administrative and",
-            "correct": "military rank.",
-            "wrong": ["religious authority.", "royal marriage.", "imperial lineage."] 
+          {
+            start: "The devshirme created paradoxical social mobility — enslaved boys could rise to become grand viziers — demonstrating that",
+            correct: "Ottoman advancement depended on sultan loyalty, not birth.",
+            wrong: ["slavery was identical to European serfdom.", "Christians were never permitted high office.", "the system was universally resented."]
+          },
+          {
+            start: "By the 17th century the Janissaries had become a hereditary political force that resisted military modernization — transforming from",
+            correct: "an imperial asset into a conservative obstacle.",
+            wrong: ["a loyal military corps always.", "a purely ceremonial palace guard.", "an administrative bureaucracy."]
           }
         ]
       },
@@ -2734,41 +2759,25 @@ export const CIVILIZATIONS = [
         name: "Ottoman Administrative Organization",
         emoji: "📜",
         quotes: [
-          { 
-            start: "The Ottoman administrative system was based on a hierarchical bureaucracy headed by the",
-            "correct": "Sultan.",
-            "wrong": ["Pope.", "Pharaoh.", "Shogun."] 
+          {
+            start: "The sultan held absolute authority in theory, but in practice governance flowed through the grand vizier and the",
+            correct: "imperial divan (council).",
+            wrong: ["Byzantine-inherited senate.", "elected noble assembly.", "Islamic caliphal court."]
           },
-          { 
-            start: "The Ottoman millet system, which granted religious minorities (Christians, Jews, Armenians) legal autonomy in personal and religious matters, was a pragmatic approach to governing a religiously diverse empire that allowed the Ottomans to",
-            "correct": "rule diverse populations.",
-            "wrong": ["eliminate all resistance.", "force religious conversion.", "suppress all minorities."] 
+          {
+            start: "The millet system granted Christians, Jews, and Armenians legal autonomy in personal and religious matters — a pragmatic solution to governing",
+            correct: "a multi-religious empire without constant rebellion.",
+            wrong: ["a purely Muslim population.", "a religiously homogeneous state.", "Greek-style democratic city-states."]
           },
-          { 
-            start: "Ottoman governors (pashas) were appointed by the central government and could be removed and reassigned, unlike the hereditary nobility of many European states, which meant that the Ottoman Empire could maintain",
-            "correct": "tighter central control.",
-            "wrong": ["local autonomy.", "regional independence.", "hereditary authority."] 
-          }
-        ]
-      },
-      {
-        name: "Military Innovations & The Sipahi",
-        emoji: "🏇",
-        quotes: [
-          { 
-            start: "The Ottoman military system, featuring both the elite Janissaries and the sipahi cavalry supported by a land-grant (timar) system, created a standing army and cavalry force capable of sustained",
-            "correct": "imperial expansion.",
-            "wrong": ["glass production.", "textile weaving.", "mining operations."] 
+          {
+            start: "Appointing removable pashas rather than hereditary nobles gave the sultan tighter central control but also made governance dependent on",
+            correct: "constant imperial vigilance.",
+            wrong: ["local noble cooperation.", "hereditary family loyalty.", "purely religious authority."]
           },
-          { 
-            start: "The Ottoman adoption of firearms and gunpowder artillery earlier and more systematically than many European powers gave them a crucial military advantage during the 15th and 16th centuries, allowing them to dominate",
-            "correct": "regional conflicts.",
-            "wrong": ["seafaring expeditions.", "artistic competitions.", "scholarly debates."] 
-          },
-          { 
-            start: "The transformation of the Ottoman military from mounted archer-based to firearms-based combat reflected strategic adaptation to changing military technologies, which demonstrates that the Ottomans were responsive to",
-            "correct": "military innovation.",
-            "wrong": ["agricultural improvement.", "textile development.", "glass manufacturing."] 
+          {
+            start: "The timar system — granting cavalry soldiers land revenues in exchange for military service — funded much of the army without",
+            correct: "draining the central treasury.",
+            wrong: ["requiring any military service.", "giving soldiers permanent land ownership.", "excluding non-Muslims from military roles."]
           }
         ]
       },
@@ -2776,20 +2785,25 @@ export const CIVILIZATIONS = [
         name: "Suleiman the Magnificent & Imperial Zenith",
         emoji: "👑",
         quotes: [
-          { 
-            start: "Suleiman I (r. 1520-1566), known as 'the Magnificent' in the West and 'the Lawgiver' in Turkish tradition, expanded Ottoman territorial control to its greatest extent and established legal codes that defined",
-            "correct": "imperial governance.",
-            "wrong": ["glass production.", "textile manufacturing.", "mining operations."] 
+          {
+            start: "Called 'the Magnificent' in Europe and 'the Lawgiver' at home — the dual titles reflect that Suleiman was both a military conqueror and",
+            correct: "a systematic legal reformer.",
+            wrong: ["purely a religious figure.", "a purely ceremonial sultan.", "a philosopher-king in retirement."]
           },
-          { 
-            start: "During Suleiman's reign, the Ottoman Empire controlled vast territories spanning three continents—from Hungary to Yemen and from North Africa to Iraq—making it one of the largest and most powerful states of the",
-            "correct": "16th century.",
-            "wrong": ["Arctic regions.", "oceanic islands.", "desert settlements."] 
+          {
+            start: "At its peak under Suleiman, the empire spanned from Hungary to Yemen and Morocco to Iraq — one of the largest states of",
+            correct: "the 16th century world.",
+            wrong: ["the 10th century world.", "the 19th century world.", "the 3rd century BCE."]
           },
-          { 
-            start: "Suleiman's legal reforms, including the kanun (Ottoman law code) system that standardized administrative and legal procedures, represented a commitment to rational governance and",
-            "correct": "predictable administration.",
-            "wrong": ["artistic creation.", "scholarly debate.", "commercial expansion."] 
+          {
+            start: "The kanun law codes standardized Ottoman civil and criminal law alongside Sharia — creating a dual legal system that",
+            correct: "extended imperial authority into areas Islamic law did not cover.",
+            wrong: ["replaced Islamic law entirely.", "was identical to Byzantine law.", "applied only to non-Muslim subjects."]
+          },
+          {
+            start: "The siege of Vienna in 1529 failed — marking the high-water mark of Ottoman advance into Europe and demonstrating that",
+            correct: "even the greatest empire has logistical limits.",
+            wrong: ["European armies were always superior.", "the Ottomans never intended to take Vienna.", "gunpowder weapons had become obsolete."]
           }
         ]
       },
@@ -2797,20 +2811,20 @@ export const CIVILIZATIONS = [
         name: "Ottoman Naval Power & Mediterranean Dominance",
         emoji: "⛵",
         quotes: [
-          { 
-            start: "The Ottoman development of a powerful navy under admirals like Barbarossa transformed them into a Mediterranean naval power capable of controlling sea trade, allowing them to challenge Christian European",
-            "correct": "naval powers.",
-            "wrong": ["glass manufacturers.", "textile producers.", "mining operations."] 
+          {
+            start: "Hayreddin Barbarossa transformed the Ottomans into a Mediterranean naval power in the 1530s — making them capable of challenging",
+            correct: "Venetian and Spanish naval dominance.",
+            wrong: ["Portuguese Atlantic monopolies.", "Chinese Ming dynasty fleets.", "English Channel control."]
           },
-          { 
-            start: "The Battle of Lepanto in 1571, while tactically a Christian naval victory, did not significantly alter Ottoman naval dominance because the Ottomans quickly",
-            "correct": "rebuilt their fleet.",
-            "wrong": ["abandoned seafaring.", "ceased naval operations.", "withdrew from the Mediterranean."] 
+          {
+            start: "The Battle of Lepanto (1571) destroyed the Ottoman fleet — yet within two years Ottomans had rebuilt it, showing that",
+            correct: "naval defeats matter less than economic capacity to rebuild.",
+            wrong: ["the Ottomans abandoned Mediterranean ambitions.", "Lepanto permanently ended Ottoman naval power.", "Spain conquered the Ottoman Empire afterwards."]
           },
-          { 
-            start: "Ottoman control of Mediterranean trade routes and ports gave them significant economic advantages and allowed them to tax and monitor commercial activity, contributing to",
-            "correct": "Ottoman wealth.",
-            "wrong": ["military defeat.", "economic poverty.", "cultural decline."] 
+          {
+            start: "Ottoman control of Mediterranean ports and strait-chokepoints generated revenue through taxation of trade — a geographic advantage that",
+            correct: "European Atlantic exploration was designed to bypass.",
+            wrong: ["made the Ottomans irrelevant to trade.", "enriched only Christian merchants.", "was lost after the First Crusade."]
           }
         ]
       },
@@ -2818,20 +2832,20 @@ export const CIVILIZATIONS = [
         name: "Ottoman Culture & Architecture",
         emoji: "🏛️",
         quotes: [
-          { 
-            start: "Ottoman architectural achievements, including the Topkapi Palace, the Blue Mosque, and the Sultan Ahmed Mosque, reflected a synthesis of Islamic, Byzantine, and Persian architectural traditions adapted to",
-            "correct": "Ottoman purposes.",
-            "wrong": ["glass production.", "textile weaving.", "mining operations."] 
+          {
+            start: "The Süleymaniye Mosque and Blue Mosque represent a synthesis of Islamic dome tradition and Byzantine structural engineering — literally built on",
+            correct: "Hagia Sophia's architectural legacy.",
+            wrong: ["purely Arab desert mosque traditions.", "Persian Zoroastrian temple design.", "Greek Parthenon proportions."]
           },
-          { 
-            start: "Ottoman literature, poetry, and calligraphy flourished under imperial patronage, with poets and scholars supported by the sultan's court, showing that Ottoman elites invested in cultural and intellectual pursuits alongside",
-            "correct": "military expansion.",
-            "wrong": ["seafaring exploration.", "glass manufacturing.", "agricultural innovation."] 
+          {
+            start: "Ottoman court poetry in Turkish, alongside Persian and Arabic literature, created a distinctive cultural identity that showed the empire could",
+            correct: "synthesize multiple literary traditions.",
+            wrong: ["replace all non-Turkish culture.", "ignore its Arab and Persian heritage.", "adopt purely Greek artistic models."]
           },
-          { 
-            start: "The development of Ottoman Turkish language and literature created a cultural identity distinct from both Arab and Persian traditions, which helped to forge a sense of Ottoman identity that transcended ethnic and",
-            "correct": "religious boundaries.",
-            "wrong": ["geographic territories.", "military hierarchies.", "economic classes."] 
+          {
+            start: "The Topkapi Palace's organization — outer courts for governance, inner courts for the imperial family — physically encoded the Ottoman principle that",
+            correct: "access to the sultan was power itself.",
+            wrong: ["all subjects were equally welcome.", "military barracks were the true center.", "religious law governed palace architecture."]
           }
         ]
       },
@@ -2839,20 +2853,20 @@ export const CIVILIZATIONS = [
         name: "Economic Organization & Trade",
         emoji: "💰",
         quotes: [
-          { 
-            start: "The Ottoman Empire controlled crucial trade routes connecting Europe, Asia, and Africa, including the overland Silk Road routes and Mediterranean sea routes, which gave them significant economic power through",
-            "correct": "taxation.",
-            "wrong": ["glass production.", "textile manufacturing.", "mining operations."] 
+          {
+            start: "Controlling land routes between Europe and Asia gave the Ottomans enormous revenue — a geographic monopoly that",
+            correct: "motivated European search for sea routes to Asia.",
+            wrong: ["made the Ottomans uninterested in naval power.", "was irrelevant to European commerce.", "was easily bypassed by overland alternatives."]
           },
-          { 
-            start: "Ottoman state monopolies on certain goods (like salt) and control over trade through merchants' guilds and regulations reflected systematic economic organization designed to maximize state revenue and",
-            "correct": "prevent economic competition.",
-            "wrong": ["encourage artistic creation.", "promote scholarly learning.", "advance agricultural innovation."] 
+          {
+            start: "State monopolies on salt, customs duties, and guild regulation maximized revenue — but also created rigidities that eventually made the Ottoman economy",
+            correct: "less adaptable than European commercial rivals.",
+            wrong: ["more prosperous than all European states.", "completely self-sufficient and isolated.", "irrelevant to global trade networks."]
           },
-          { 
-            start: "The Ottoman economy, though initially strong, began to face challenges in the 16th and 17th centuries as European colonial expansion diverted trade away from",
-            "correct": "Ottoman-controlled routes.",
-            "wrong": ["Arctic regions.", "forest settlements.", "glass factories."] 
+          {
+            start: "Vasco da Gama's sea route to India (1498) began bypassing Ottoman-controlled Levantine routes — a shift that gradually",
+            correct: "eroded Ottoman commercial advantages.",
+            wrong: ["had no effect on Ottoman trade revenues.", "increased Ottoman Mediterranean dominance.", "was blocked by Ottoman naval power."]
           }
         ]
       },
@@ -2860,20 +2874,20 @@ export const CIVILIZATIONS = [
         name: "Ottoman Decline & Internal Challenges",
         emoji: "📉",
         quotes: [
-          { 
-            start: "The Ottoman Empire's military power declined relative to European states in the 17th and 18th centuries due to factors including military innovations in Europe, persistent wars on multiple fronts, and",
-            "correct": "internal fiscal problems.",
-            "wrong": ["increased glass production.", "textile expansion.", "mining wealth."] 
+          {
+            start: "Military decline relative to Europe resulted from the Janissaries blocking firearms modernization, fiscal strain from constant warfare, and",
+            correct: "European military revolution passing the Ottomans by.",
+            wrong: ["the Ottomans voluntarily abandoning military investment.", "Islamic law prohibiting firearms use.", "Byzantine resistance slowing expansion."]
           },
-          { 
-            start: "The Janissaries, originally the Ottoman Empire's most formidable military force, became increasingly a conservative force opposed to military reforms, eventually leading to",
-            "correct": "military stagnation.",
-            "wrong": ["artistic flourishing.", "commercial expansion.", "scholarly advancement."] 
+          {
+            start: "The 'Sultanate of Women' period (16th–17th centuries) — when royal mothers wielded enormous influence — shows that Ottoman politics involved",
+            correct: "complex harem and court power dynamics.",
+            wrong: ["purely formal Islamic governance.", "purely military command structures.", "complete democratic participation."]
           },
-          { 
-            start: "Ottoman governance in the later centuries was sometimes destabilized by rapid succession of sultans, court intrigues, and competition between imperial officials, which weakened the",
-            "correct": "centralized control.",
-            "wrong": ["seafaring capability.", "textile production.", "mining operations."] 
+          {
+            start: "Rapid succession of sultans — some reigning only months — undermined institutional continuity and allowed",
+            correct: "viziers and Janissaries to dominate governance.",
+            wrong: ["provincial governors to gain independence immediately.", "European powers to occupy Istanbul.", "Islamic scholars to seize political power."]
           }
         ]
       },
@@ -2881,20 +2895,20 @@ export const CIVILIZATIONS = [
         name: "Relations with Christian Europe",
         emoji: "⛪",
         quotes: [
-          { 
-            start: "Ottoman-European relations in the early modern period were characterized by military competition, with the Ottomans frequently victorious in the 15th and 16th centuries, though by the 17th and 18th centuries European powers increasingly",
-            "correct": "gained the upper hand.",
-            "wrong": ["lost all influence.", "abandoned the region.", "disappeared entirely."] 
+          {
+            start: "Ottoman-European relations combined constant military competition with pragmatic diplomacy — France allied with the Ottomans against the Habsburgs, proving",
+            correct: "religion mattered less than strategic interest.",
+            wrong: ["Christian solidarity always united Europe.", "the Ottomans were universally feared.", "religious war was always the primary motive."]
           },
-          { 
-            start: "The Ottoman threat to European security, particularly the sieges of Vienna in 1529 and 1683, galvanized European coalitions against Ottoman expansion and influenced European",
-            "correct": "political alliances.",
-            "wrong": ["textile production.", "glass manufacturing.", "mining operations."] 
+          {
+            start: "The two Ottoman sieges of Vienna (1529 and 1683) failed — becoming symbolic markers of the",
+            correct: "limit of Ottoman westward expansion.",
+            wrong: ["beginning of permanent Ottoman retreat.", "point where Europe became militarily dominant.", "moment Islam rejected European civilization."]
           },
-          { 
-            start: "Ottoman-European diplomatic and cultural exchanges, show that despite military competition, the Ottoman Empire engaged in regular diplomatic and commercial relations with",
-            "correct": "Christian European states.",
-            "wrong": ["Arctic settlements.", "oceanic nomads.", "desert tribes."] 
+          {
+            start: "The Treaty of Karlowitz (1699) — ceding Hungary and other territories to the Habsburgs — marked the first major Ottoman territorial loss to",
+            correct: "European military pressure.",
+            wrong: ["internal nationalist rebellion.", "voluntary peaceful settlement.", "Islamic scholarly recommendation."]
           }
         ]
       },
@@ -2902,20 +2916,20 @@ export const CIVILIZATIONS = [
         name: "Religious Governance & the Sultanate",
         emoji: "🕌",
         quotes: [
-          { 
-            start: "The Ottoman sultan held both political and religious authority, claiming to be the protector of Islam and the guardian of the holy cities of Mecca and Medina after their conquest in",
-            "correct": "1517.",
-            "wrong": ["1066.", "1492.", "1776."] 
+          {
+            start: "Selim I's conquest of Egypt in 1517 transferred the Abbasid caliphate title to the Ottomans — adding religious authority to their",
+            correct: "existing political and military power.",
+            wrong: ["existing Byzantine Christian legacy.", "existing Mongol imperial claims.", "existing Safavid Shia authority."]
           },
-          { 
-            start: "The Ottoman chief mufti (Shaykh al-Islam) issued legal opinions (fatwas) that interpreted Islamic law for the empire, showing that Ottoman religious governance involved institutional structures interpreting and applying",
-            "correct": "Islamic law.",
-            "wrong": ["Christian doctrine.", "Buddhist teachings.", "Hindu philosophy."] 
+          {
+            start: "The Shaykh al-Islam issued fatwas legitimizing sultans' decisions — a relationship where religious authority served",
+            correct: "imperial power more than it checked it.",
+            wrong: ["as an absolute check on royal power.", "to overthrow unpopular sultans regularly.", "to govern independently of the sultan."]
           },
-          { 
-            start: "Ottoman treatment of non-Muslim subjects through the millet system, while maintaining Islamic state authority and Muslim privilege, was pragmatic rather than",
-            "correct": "egalitarian.",
-            "wrong": ["authoritarian.", "oppressive.", "hierarchical."] 
+          {
+            start: "The millet system gave minorities autonomy in personal law while keeping them politically subordinate — pragmatic coexistence rather than",
+            correct: "equality or universal religious freedom.",
+            wrong: ["persecution and forced conversion.", "complete political integration.", "identical rights to Muslims."]
           }
         ]
       },
@@ -2923,20 +2937,20 @@ export const CIVILIZATIONS = [
         name: "The Long Decline & Modern Reform",
         emoji: "🔄",
         quotes: [
-          { 
-            start: "The Ottoman Empire's territorial losses accelerated in the 19th century as European powers expanded in North Africa and the",
-            "correct": "Balkans.",
-            "wrong": ["Arctic regions.", "glass-producing areas.", "textile workshops."] 
+          {
+            start: "19th-century territorial losses — Greece (1821), Algeria to France (1830), Egypt effectively independent — made the empire known as",
+            correct: "'the sick man of Europe.'",
+            wrong: ["the 'Great Power of Asia.'", "the 'last Islamic caliphate.'", "the 'defender of Christianity.'"]
           },
-          { 
-            start: "Ottoman reform movements in the 19th century, including the Tanzimat reforms attempting to modernize administration and military, reflected an effort to adapt Ottoman institutions to survive",
-            "correct": "changing circumstances.",
-            "wrong": ["ocean exploration.", "glass manufacturing.", "mining operations."] 
+          {
+            start: "The Tanzimat reforms (1839–1876) attempted to modernize administration, introduce equality before the law, and curb corruption — revealing that",
+            correct: "Ottoman leaders understood reform was necessary for survival.",
+            wrong: ["the empire was content with its decline.", "Islamic law prevented all modernization.", "European powers encouraged Ottoman reform."]
           },
-          { 
-            start: "The collapse of the Ottoman Empire at the end of World War I, after centuries of territorial loss and military defeats, marked the end of one of world history's longest-lasting",
-            "correct": "imperial states.",
-            "wrong": ["seafaring nations.", "textile producers.", "glass factories."] 
+          {
+            start: "The empire's collapse after World War I — reduced to Anatolia and partitioned by European powers — ended six centuries of imperial rule and directly produced",
+            correct: "the modern Turkish Republic under Atatürk.",
+            wrong: ["a restored Byzantine Christian state.", "an Arab League controlled territory.", "a permanent European colonial administration."]
           }
         ]
       }
