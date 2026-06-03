@@ -379,7 +379,6 @@ export class GameScene extends Phaser.Scene {
         })
     }
 
-
     showGameOver() {
         this.children.list.slice().forEach(c => c.destroy())
 
@@ -403,6 +402,35 @@ export class GameScene extends Phaser.Scene {
             backgroundColor: '#1b5e20',
             padding: { x: 20, y: 14 }
         }).setOrigin(0.5).setInteractive()
+
+        // ==================== FALLBACK BUTTON (κρυφό αρχικά) ====================
+        const continueBtn = this.add.text(240, 460, '▶ Continue with 1 Life', {
+            fontSize: '19px',
+            backgroundColor: '#5d4037',
+            padding: { x: 20, y: 14 }
+        }).setOrigin(0.5).setInteractive().setVisible(false)
+
+        continueBtn.on('pointerdown', () => {
+            this.sound.play('tap')
+            this.levelLives = 1
+            this.answered = false
+            this.qIndex = 0
+            ProgressStore.clearCurrentLevelLives()
+            this.showQuestion()
+        })
+
+        // ==================== GO BACK BUTTON ====================
+        const backBtn = this.add.text(240, 530, 'Go Back', {
+            fontSize: '19px',
+            backgroundColor: '#7f0000',
+            padding: { x: 20, y: 14 }
+        }).setOrigin(0.5).setInteractive()
+
+        backBtn.on('pointerdown', async () => {
+            this.sound.play('tap')
+            await ProgressStore.setCurrentLevelLives(0)
+            this.scene.start('MenuScene')
+        })
 
         watchAdBtn.on('pointerdown', async () => {
             if (this.isLoadingAd) return
@@ -432,7 +460,7 @@ export class GameScene extends Phaser.Scene {
                         window.location.href = 'https://play.google.com/store/apps/details?id=com.sonsoftheland.game'
                     })
 
-                    return // finally θα κάνει reset το button
+                    return
                 }
 
                 // ==================== ADMOB REWARDED AD ====================
@@ -440,11 +468,13 @@ export class GameScene extends Phaser.Scene {
                     adId: 'ca-app-pub-7222777824759007/1944109420',
                 })
 
+                // ✅ Ad φορτώθηκε — κρύψε το fallback αν το είχαμε δείξει
+                continueBtn.setVisible(false)
+
                 let rewardEarned = false
                 let listenersRemoved = false
                 let onReward, onDismiss
 
-                // ── Helper για να μην κάνουμε remove δύο φορές ──
                 const removeListeners = () => {
                     if (listenersRemoved) return
                     listenersRemoved = true
@@ -452,16 +482,13 @@ export class GameScene extends Phaser.Scene {
                     onDismiss?.remove()
                 }
 
-                // Πυροδοτείται ΜΟΝΟ αν ο χρήστης παρακολούθησε ολόκληρο το ad
                 onReward = await AdMob.addListener(RewardAdPluginEvents.Rewarded, () => {
                     rewardEarned = true
                 })
 
-                // Πυροδοτείται ΠΑΝΤΑ όταν κλείσει το ad (με ή χωρίς reward)
                 onDismiss = await AdMob.addListener(RewardAdPluginEvents.Dismissed, () => {
                     removeListeners()
                     if (!rewardEarned) {
-                        // Έκλεισε νωρίς — δεν πήρε reward
                         this.add.text(240, 420, '⚠️ Ad was not completed', {
                             fontSize: '16px', color: '#ff5252'
                         }).setOrigin(0.5).setDepth(100)
@@ -469,15 +496,11 @@ export class GameScene extends Phaser.Scene {
                 })
 
                 await AdMob.showRewardVideoAd()
-                console.log("AD CLOSED")
-                removeListeners() // cleanup σε περίπτωση που το Dismissed δεν πυροδοτήθηκε
+                removeListeners()
 
-                // Αν δεν πήρε reward, το Dismissed handler ήδη ανέβαλε — σταματάμε εδώ
                 if (!rewardEarned) return
 
-                // ✅ Reward earned — δώσε bonus lives
-                console.log('✅ User earned reward')
-
+                // ✅ Reward earned
                 const difficultyRaw = localStorage.getItem('setting_difficulty') || '"Normal"'
                 const difficulty = JSON.parse(difficultyRaw)
 
@@ -494,33 +517,35 @@ export class GameScene extends Phaser.Scene {
 
             } catch (error) {
                 console.error('Ad error:', error)
-                this.add.text(240, 420, '⚠️ Ad was not completed', {
-                    fontSize: '16px', color: '#ff5252'
-                }).setOrigin(0.5).setDepth(100)
+
+                // ✅ Μόνο αν No Fill → δείξε το fallback button
+                const isNoFill = error?.message?.includes('No fill') ||
+                                error?.message?.includes('no fill') ||
+                                error?.message?.includes('ERROR_CODE_NO_FILL')
+
+                if (isNoFill) {
+                    watchAdBtn.setText('No Ad Available')
+                    watchAdBtn.setAlpha(0.3)
+                    // ❌ Μην ξαναενεργοποιήσεις το watchAdBtn
+                    continueBtn.setVisible(true)
+                } else {
+                    // Άλλο σφάλμα — άσε τον να ξαναπροσπαθήσει
+                    this.add.text(240, 420, '⚠️ Ad failed, please retry', {
+                        fontSize: '16px', color: '#ff5252'
+                    }).setOrigin(0.5).setDepth(100)
+                }
 
             } finally {
-                // Τρέχει ΠΑΝΤΑ — ασφαλές reset της κατάστασης
                 this.isLoadingAd = false
                 this.sound.resumeAll()
-                if (watchAdBtn?.active) {
+
+                // Reset button μόνο αν δεν είναι No Fill
+                if (watchAdBtn?.active && watchAdBtn.text === 'Loading Ad...') {
                     watchAdBtn.setInteractive()
                     watchAdBtn.setAlpha(1)
                     watchAdBtn.setText('Watch Ad for Lives ▶')
                 }
             }
-        })
-
-        // ==================== GO BACK BUTTON ====================
-        const backBtn = this.add.text(240, 460, 'Go Back', {
-            fontSize: '19px',
-            backgroundColor: '#7f0000',
-            padding: { x: 20, y: 14 }
-        }).setOrigin(0.5).setInteractive()
-
-        backBtn.on('pointerdown', async () => {
-            this.sound.play('tap')
-            await ProgressStore.setCurrentLevelLives(0)
-            this.scene.start('MenuScene')
         })
     }
 }
