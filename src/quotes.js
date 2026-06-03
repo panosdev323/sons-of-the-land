@@ -5176,17 +5176,17 @@ export const CIVILIZATIONS = [
             { 
               start: "I overthrew the Parthian Arsacid dynasty by recognizing that their feudal system of powerful nobles had weakened central authority and that a more centralized, efficient administrative system could overcome",
               "correct": "decentralized rival powers.",
-              "wrong": ["fragmented regional authority.", "competing local lords.", "divided noble factions."] 
+              "wrong": ["maintain the feudal noble system.", "rely on traditional Parthian alliances.", "achieve victory through diplomacy alone."] 
             },
             { 
               start: "The establishment of the Sassanid dynasty required demonstrating that the new system could provide better governance than the old, including a more efficient taxation system, a professional bureaucracy, and the ability to",
               "correct": "defend the realm.",
-              "wrong": ["protect the empire.", "maintain security.", "ensure stability."] 
+              "wrong": ["expand into Roman territory.", "convert all subjects to Zoroastrianism.", "eliminate the noble class entirely."] 
             },
             { 
               start: "My adoption of Zoroastrianism as the state religion served to unite the diverse peoples under my rule because it provided a shared spiritual framework, gave legitimacy to my rule through religious authority, and created a sense of",
               "correct": "common identity.",
-              "wrong": ["shared purpose.", "unified values.", "collective belonging."] 
+              "wrong": ["local autonomy.", "tribal independence.", "collective belonging."] 
             },
             { 
               start: "The organization of the empire into provinces with appointed governors and a professional bureaucracy showed that I understood that an empire of such size and diversity required a centralized administrative system more efficient than",
@@ -5226,7 +5226,7 @@ export const CIVILIZATIONS = [
           },
           { 
             start: "My military campaigns against the eastern rivals and the expansion toward India demonstrated that a Sassanid king could project power across vast distances and establish dominance over a region stretching from the Mediterranean to",
-            "correct": "India.",
+            "correct": "the borders of Central Asia and Bactria.",
             "wrong": ["the Indus River.", "Central Asia.", "the Arabian Sea."] 
           }
         ]
@@ -5237,8 +5237,8 @@ export const CIVILIZATIONS = [
         quotes: [
             { 
               start: "I am remembered as 'Anushirvan' (of immortal soul) because my reign was characterized by establishing a system of justice that benefited the people, created stable governance, and made Sassanid rule appear fair and",
-              "correct": "orderly.",
-              "wrong": ["legitimate.", "benevolent.", "just."] 
+              "correct": "efficient and stable.",
+              "wrong": ["prosperous and organized.", "powerful and united.", "wealthy and secure."]
             },
             { 
               start: "My administrative reforms, including the establishment of a professional tax system and a centralized bureaucracy, served to ensure consistent revenue collection, reduce corruption, and make the empire more",
@@ -5269,6 +5269,11 @@ export const CIVILIZATIONS = [
               start: "My continuation and improvement of the Sassanid road and communication systems served to facilitate trade, ensure rapid communication across the empire, and allow the king to maintain control over distant provinces and",
               "correct": "respond quickly to threats.",
               "wrong": ["react swiftly to crises.", "address emergencies promptly.", "mobilize forces rapidly."] 
+            },
+            { 
+              start: "When the Byzantine Emperor Justinian closed the Platonic Academy in Athens in 529 CE, Khosrow I welcomed the fleeing Greek philosophers to his court, demonstrating", 
+              "correct": "that the Sassanid Empire was a refuge for learning that Byzantium rejected.", 
+              "wrong": ["hostility toward Byzantine culture.", "that Zoroastrianism was compatible with Greek philosophy.", "that Khosrow sought to undermine Byzantium culturally."] 
             }
         ]
       },
@@ -5279,7 +5284,7 @@ export const CIVILIZATIONS = [
             { 
               start: "The establishment of Zoroastrianism as the state religion served to create a shared ideology across the diverse peoples of the empire because it provided a philosophical framework (good vs. evil, order vs. chaos) that justified Sassanid rule and",
               "correct": "created common values.",
-              "wrong": ["unified diverse populations.", "bound subjects together.", "fostered cultural cohesion."] 
+              "wrong": ["regional tribal independence.", "tolerance for all local religions equally.", "Greek cultural dominance."] 
             },
             { 
               start: "The role of the Zoroastrian priesthood (Magi) in Sassanid governance meant that religious and political authority were intertwined, allowing the king to draw on religious legitimacy for his authority while the priesthood benefited from",
@@ -5292,7 +5297,7 @@ export const CIVILIZATIONS = [
               "wrong": ["divinely ordained.", "cosmically justified.", "part of universal balance."] 
             },
             { 
-              start: "The Sassanid religious intolerance toward religions other than Zoroastrianism—persecuting Christians, Jews, and other minorities—served the purposes of enforcing",
+              start: "While some Sassanid rulers persecuted Christians and other minorities for political rather than purely religious reasons, the empire's religious policy varied significantly by ruler, ranging from tolerance to active persecution in service of",
               "correct": "ideological unity.",
               "wrong": ["religious conformity.", "spiritual uniformity.", "doctrinal consistency."] 
             },
@@ -5438,8 +5443,8 @@ export const CIVILIZATIONS = [
         quotes: [
           { 
             start: "The centuries-long conflict between Sassanid and Roman/Byzantine empires remained largely inconclusive because both empires had comparable military resources and neither could muster sufficient force to",
-            correct: "completely conquer the other.",
-            wrong: ["decisively defeat its rival.", "fully dominate its enemy.", "permanently overcome opposition."] 
+            "correct": "continuous warfare.",
+            "wrong": ["endless conflict.", "perpetual fighting.", "ongoing battles."]
           },
           { 
             start: "The establishment of border regions, buffer states, and treaty obligations showed that both empires understood that maintaining peace, even if temporary, was sometimes more advantageous than",
@@ -5470,7 +5475,7 @@ export const CIVILIZATIONS = [
           { 
             start: "Women in Sassanid royal families held important roles including serving as regents, advising rulers, managing royal estates, and sometimes participating in governance because elite women could exercise real power and",
             correct: "influence.",
-            wrong: ["authority.", "control.", "dominion."] 
+            wrong: ["no real political agency.", "purely ceremonial roles.", "authority only through male relatives."] 
           },
           { 
             start: "The succession of rulers through the royal family and the sometimes contested nature of Sassanid succession meant that different factions within the royal family could",
@@ -5494,8 +5499,8 @@ export const CIVILIZATIONS = [
             wrong: ["the rise of Islamic powers.", "Arab military expansion.", "Muslim conquest movements."] 
           },
           { 
-            start: "The final destruction of the Sassanid Empire by Arab forces at the Battle of Qadisiyyah in 637 CE demonstrated that even an empire with centuries of military dominance could collapse when facing a new, determined rival with",
-            correct: "comparable military capabilities.",
+            start: "The Battle of Qadisiyyah (~636 CE) broke Sassanid military power, but the empire finally collapsed after Nahavand (642 CE) and the death of Yazdegerd III, showing that even after a decisive defeat",
+            correct: "empires can resist for years before final collapse.",
             wrong: ["sufficient military strength.", "adequate military resources.", "strong military organization."] 
           },
           { 
@@ -5512,6 +5517,11 @@ export const CIVILIZATIONS = [
             start: "The study of the Sassanid Empire demonstrates that it was not merely a continuation of Persian tradition but rather a sophisticated, centralized empire that maintained dominance for nearly",
             correct: "500 years.",
             wrong: ["50 years.", "100 years.", "250 years."] 
+          },
+          { 
+            start: "Khosrow II initially conquered Egypt, Syria, and Anatolia from Byzantium (~619 CE), bringing the Sassanid Empire to its greatest territorial extent, but his overextension was reversed by Heraclius, showing that", 
+            "correct": "military overexpansion can exhaust an empire and create the conditions for its eventual collapse.", 
+            "wrong": ["Byzantine military was always superior.", "territorial gains are always permanent.", "religious wars are inevitably lost."] 
           }
         ]
       },
@@ -5558,37 +5568,37 @@ export const CIVILIZATIONS = [
             { 
               start: "I, Pachacuti, have transformed Cusco from a small valley into the center of a great empire because the Sun God Inti commanded me to expand and organize the realm; I rebuilt Cusco with fine stonework and created the system of",
               correct: "mit'a labor for public works.",
-              wrong: ["taxation.", "universal corvée.", "communal labor."] 
+              wrong: ["direct taxation in silver.", "market trade at fixed prices.", "voluntary gifts to the state."] 
             },
             { 
               start: "A good ruler must care for the people as a father cares for his children because the Sapa Inca is the son of the Sun; he must ensure no one goes hungry, provide for widows and orphans, and maintain justice and",
               correct: "order throughout Tawantinsuyu.",
-              wrong: ["peace across the empire.", "harmony among the kingdoms.", "stability in all lands."] 
+              wrong: ["private wealth for the nobility.", "tribute flowing to Cusco.", "expansion into new territories."] 
             },
             { 
               start: "I saw a vision from the Sun God Inti who told me because I would become the greatest ruler and turn the world upside down (pachacuti); with his help I defeated the Chancas and",
               correct: "began the true expansion of the empire.",
-              wrong: ["established my dynasty.", "secured my power.", "founded imperial rule."] 
+              wrong: ["expelled all foreign priests from Cusco.", "sent envoys to the coast kingdoms.", "divided the empire among my sons."] 
             },
             { 
               start: "The Sapa Inca must act as a father to all his subjects because he should feed the hungry, clothe the naked, and care for the sick and elderly; only then will the people love and obey him as",
               correct: "a true son of Inti.",
-              wrong: ["their divine ruler.", "a son of the Sun.", "the Sun's chosen one."] 
+              wrong: ["a military conqueror.", "an earthly king with no divine claim.", "a ruler who taxes without giving."] 
             },
             { 
               start: "I rebuilt Cusco as the navel of the world because a capital must reflect the glory of Inti and the order of the empire; with fine stonework and planned districts, it became the sacred and",
               correct: "administrative center of Tawantinsuyu.",
-              wrong: ["imperial heart of power.", "spiritual home of the realm.", "governing seat of rule."] 
+              wrong: ["coastal trading hub of the empire.", "site of the largest silver mines.", "marketplace for all subject kingdoms."] 
             },
             { 
               start: "A noble and courageous man is known by his patience in adversity because impatience reveals a vulgar and low mind; a true leader remains calm and wise even in difficult times, just as I did when",
               correct: "facing the Chanca invasion.",
-              wrong: ["threatened by enemies.", "challenged by rivals.", "attacked by foes."] 
+              wrong: ["my own generals urged retreat to the south.", "Cusco seemed certain to fall.", "Inti's oracle gave an unfavorable sign."] 
             },
             { 
               start: "Governors and officials must observe two things with great care because first, they and their subjects must perfectly obey the emperor's laws; second, they must watch over the resources and welfare of their province so that",
               correct: "no one suffers want.",
-              wrong: ["all prosper equally.", "people remain content.", "subjects lack nothing."] 
+              wrong: ["the nobility accumulates private wealth.", "tribute reaches Cusco before the harvest.", "local customs replace imperial law."] 
             }
         ]
       },
@@ -5599,37 +5609,37 @@ export const CIVILIZATIONS = [
           { 
             start: "I extended the empire to the ends of the known world because the Sun commanded it; I conquered lands from Chile to Ecuador, built roads and fortresses, and brought new provinces into the empire through both",
             correct: "war and wise administration.",
-            wrong: ["military conquest and diplomacy.", "force and strategic planning.", "violence and negotiation."] 
+            wrong: ["the mit'a system alone.", "gifts and religious conversion.", "trade agreements without military pressure."] 
           },
           { 
-            start: "When I reached the ocean, I built balsa rafts and sailed westward because I sought new lands and knowledge; the Inca must always push the boundaries of the empire while honoring Inti and",
-            correct: "maintaining order.",
-            wrong: ["preserving peace.", "sustaining stability.", "ensuring unity."] 
+            start: "According to later Spanish chronicles, I sailed westward into the Pacific seeking new lands, though the historical accuracy of this voyage remains debated; what is certain is that I pushed the empire's boundaries to the",
+            correct: "Pacific coast and far south into Chile.",
+            wrong: ["hoarding conquered gold in Cusco.", "excluding foreigners from Inca rites.", "punishing all who refused conversion."] 
           },
           { 
             start: "My father Pachacuti gave me the command to conquer because the Sun God Inti willed that the empire should grow; I marched north and south, subduing kingdoms and bringing them under",
             correct: "the protection of the Inca.",
-            wrong: ["Inca rule.", "imperial control.", "Cusco's authority."] 
+            wrong: ["the oversight of the coastal merchant guilds.", "the priesthood of Inti alone.", "the council of regional governors."] 
           },
           { 
             start: "After conquering the Chimu kingdom, I brought their skilled artisans to Cusco because they were masters of goldwork, textiles, and irrigation; a wise ruler incorporates the knowledge of conquered peoples to",
             correct: "strengthen the entire empire.",
-            wrong: ["enhance imperial power.", "increase state wealth.", "build greater dominion."] 
+            wrong: ["diminish the identity of conquered peoples.", "concentrate all talent in one region.", "prevent future rebellions through displacement."] 
           },
           { 
             start: "I ordered the construction of great fortresses and storehouses throughout the land because the empire must be able to feed its people even in times of drought or war; through the mit'a system and royal warehouses, no one in",
             correct: "Tawantinsuyu went hungry.",
-            wrong: ["the realm starved.", "the empire suffered want.", "our lands went without."] 
+            wrong: ["Cusco paid taxes to subject lords.", "the coastal kingdoms resisted integration.", "the storehouses remained empty."] 
           },
           { 
             start: "When I returned from my campaigns, I inspected the roads and bridges because a well-maintained Qhapaq Ñan allows the Sapa Inca to govern a vast territory; the roads are the veins through which the life of the",
             correct: "empire flows.",
-            wrong: ["realm circulates.", "state moves.", "domain travels."] 
+            wrong: ["merchants profit without the state.", "nobles travel without royal permission.", "tribute disappears before reaching Cusco."] 
           },
           { 
             start: "A true Inca ruler must be both a lion in war and a father in peace because he conquers with strength but rules with justice and generosity; only then will the people obey willingly and the gods continue to",
             correct: "bless the empire.",
-            wrong: ["favor our rule.", "grant us dominion.", "smile upon us."] 
+            wrong: ["demand harsher tribute.", "withhold rain from the terraces.", "withdraw Inti's light from the Andes."] 
           }
         ]
       },
@@ -5641,6 +5651,27 @@ export const CIVILIZATIONS = [
             start: "I ruled the empire at its greatest extent because I continued the work of my father and grandfather; I maintained the roads, storehouses, and administrative system that fed the people and",
             "correct": "supported the army.",
             "wrong": ["enriched the nobles.", "pleased the priests.", "funded luxuries."]
+          },
+          {
+            start: "When a great pestilence — likely smallpox spread ahead of Spanish contact — killed thousands including possibly myself, the empire was left without a clear successor, showing that even the mightiest state can be undone by",
+            "correct": "disease and disputed succession.",
+            "wrong": ["the anger of Inti alone.", "a single military defeat.", "the disloyalty of road builders."]
+          }
+        ]
+      },
+      {
+        name: "Atahualpa & the Spanish Conquest",
+        emoji: "⚔️",
+        quotes: [
+          {
+            start: "When the strangers arrived at Cajamarca, I met them as a ruler secure in his power, not knowing that their small number concealed steel, firearms, and a willingness to violate the sacred rules of encounter; what destroyed the empire was not only Spanish weapons but also",
+            "correct": "the civil war that had already weakened us.",
+            "wrong": ["the cowardice of the Inca army.", "the withdrawal of Inti's favor years earlier.", "the refusal of the nobles to fight."]
+          },
+          {
+            start: "Francisco Pizarro captured me at Cajamarca and demanded a ransom of a room filled with gold and two rooms with silver; I filled them, but the Spaniards executed me anyway, showing that",
+            "correct": "a conqueror's promises cannot be trusted when power is already lost.",
+            "wrong": ["gold was worth less than the Spaniards expected.", "the priests of Inti failed to intercede.", "Atahualpa underestimated Spanish intentions."]
           }
         ]
       },
@@ -5656,7 +5687,12 @@ export const CIVILIZATIONS = [
           {
             start: "We honor Pachamama, the Earth Mother, with offerings because she nourishes the terraces and fields; harmony with her, Inti, and the mountains (apus) ensures good harvests and protects the land from",
             "correct": "disaster.",
-            "wrong": ["rich harvests.", "abundant crops.", "divine favor."]
+            "wrong": ["the anger of Inti alone.", "military invasion from the east.", "drought caused by Pachamama's displeasure."]
+          },
+          {
+            start: "The acllakuna, the chosen women selected from across the empire, lived in the acllahuasi and served Inti through weaving, brewing chicha, and ritual service because their dedication demonstrated that the empire's sacred order extended into every household, not only into",
+            "correct": "the temples and royal palaces.",
+            "wrong": ["the armies and fortresses.", "the marketplace and merchant class.", "the quipu records."]
           }
         ]
       },
@@ -5673,6 +5709,11 @@ export const CIVILIZATIONS = [
             start: "We carved terraces into the steep mountainsides because they prevent erosion, create fertile farmland, and demonstrate our mastery of the land; with irrigation canals and storehouses, we ensured",
             "correct": "food security even in harsh conditions.",
             "wrong": ["wealth for elites.", "dependence on imports.", "frequent famines."]
+          },
+          { 
+            start: "Machu Picchu, built at 2430 meters on a ridge between two mountain peaks, demonstrates that Inca architects understood how to integrate monumental construction with the natural landscape using", 
+            "correct": "earthquake-resistant techniques.", 
+            "wrong": ["floating foundations.", "steel reinforcement beams.", "large defensive walls."] 
           }
         ]
       },
@@ -5684,6 +5725,11 @@ export const CIVILIZATIONS = [
             start: "The Inca laws were few but strictly enforced because they promoted justice, hard work, and respect for authority; no one went hungry in the empire because of the mit'a system and",
             "correct": "royal storehouses.",
             "wrong": ["private farms.", "market trading.", "individual wealth."]
+          },
+          { 
+            start: "The decimal administrative system organized the population into units of 10, 100, 1000, and 10000 households, each with appointed leaders, allowing the state to", 
+            "correct": "mobilize labor, tribute, and military service with precision.", 
+            "wrong": ["collect taxes in gold and silver.", "ignore regional differences.", "rely on voluntary participation."] 
           }
         ]
       },
@@ -5706,6 +5752,11 @@ export const CIVILIZATIONS = [
             start: "We, the quipucamayoc, recorded everything with knotted strings because quipus allowed us to keep exact accounts of tribute, population, livestock, harvests, and history; without them the vast empire could",
             "correct": "not be governed efficiently.",
             "wrong": ["easily be governed.", "remain small forever.", "ignore all records."]
+          },
+          { 
+            start: "Recent research suggests that some quipus may have recorded not only numerical data but also narrative information, meaning the Inca may have had a form of", 
+            "correct": "non-alphabetic writing that remains undeciphered.", 
+            "wrong": ["alphabetic script similar to Spanish.", "purely decorative textile art.", "oral tradition with no written component."] 
           }
         ]
       },
@@ -5719,7 +5770,7 @@ export const CIVILIZATIONS = [
             "wrong": ["the Amazon.", "the desert.", "the islands."]
           }
         ]
-      },
+      }
     ]
   },
   {
@@ -5742,32 +5793,32 @@ export const CIVILIZATIONS = [
           { 
             start: "When the northern princes neglected the temples and lived unclean lives, I marched north because Amun commanded me to restore ma'at (order and justice); I fought with divine support and treated the defeated with compassion when",
             correct: "they submitted.",
-            wrong: ["they begged for mercy.", "they surrendered completely.", "they knelt before me."] 
+            wrong: ["they continued to resist.", "they appealed to foreign kings.", "they fled into the desert."] 
           },
           { 
             start: "Command which My Majesty has spoken: Hear what I did, more than the ancestors because I am the king, the representation of god, who issued from the womb marked as ruler; my father knew and my mother perceived even in the egg that",
             correct: "I would be ruler.",
-            wrong: ["I was destined to rule.", "I would be king.", "I was born to reign."] 
+            wrong: ["the land needed saving.", "Egypt had fallen into chaos.", "Amun required a champion."] 
           },
           { 
             start: "As I live, as Re loves me, as my father Amun favours me, I shall go northward myself because I will overturn what Tefnakht has done and make him retreat from fighting forever; Amun has commanded me to act and",
             correct: "to show forth his might.",
-            wrong: ["to display his power.", "to reveal his strength.", "to demonstrate his wrath."] 
+            wrong: ["to punish the corrupt priests.", "to restore tribute to Napata.", "to crown a loyal prince in Memphis."] 
           },
           { 
             start: "When my troops entered Thebes, I commanded them because purify yourselves in the river, clothe yourselves in fine linen, lay down your bows; fight in the shadow of Amun's strong arm, for he makes the weak strong and",
             correct: "turns multitudes to flight before the few.",
-            wrong: ["defeats countless enemies easily.", "scatters great armies with ease.", "conquers hordes through his power."] 
+            wrong: ["rewards the pious with long life.", "grants wisdom to the humble.", "blesses those who fast before battle."] 
           },
           { 
             start: "When I saw that the horses in the stables of the defeated rulers were starved, I became more angry than at any other crime because the neglect of horses pained my heart greatly; I love horses, and their mistreatment showed the rulers' lack of",
             correct: "proper order and respect.",
-            wrong: ["divine favor and care.", "ma'at and righteousness.", "kingly duty and honor."] 
+            wrong: ["wealth and resources.", "loyalty to their troops.", "interest in governing well."] 
           },
           { 
             start: "I swear: as Re loves me, as my father Amun favours me, this shall befall the city because I shall seize it like a cloudburst; Amun has commanded me, and he has done this expressly to show his wrath and",
             correct: "to cause that his grandeur be seen.",
-            wrong: ["to reveal his magnificent power.", "to display his divine authority.", "to demonstrate his supremacy."] 
+            wrong: ["to punish those who profaned his temples.", "to restore the tribute roads from Memphis.", "to place a Kushite governor in every northern city."] 
           }
         ]
       },
@@ -5778,37 +5829,53 @@ export const CIVILIZATIONS = [
           { 
             start: "O Great God, swift one, who comes to him who calls, watch over my sister because do for her as I have done for you; elevate her children and make them prosper, even as you did for me — for I rebuilt your temples and",
             correct: "honored you in Kawa and Jebel Barkal.",
-            wrong: ["served you at sacred sites.", "worshipped you in holy places.", "revered you at your shrines."] 
+            wrong: ["expelled the Assyrians from your precincts.", "recruited new priests for your festivals.", "funded expeditions to find fresh incense."] 
           },
           { 
             start: "I, Taharqa, beloved of Amun-Re, restored and enlarged the temples because Amun of Napata is my father; through his favor I ruled Egypt and Kush, brought prosperity, and",
             correct: "defended the land against invaders.",
-            wrong: ["protected my kingdom.", "guarded the borders.", "kept enemies at bay."] 
+            wrong: ["extended the southern trade routes.", "reformed the system of royal succession.", "united the priesthoods of Napata and Memphis."] 
           },
           { 
             start: "I was only a youth, but the god Amun placed me on the throne because he knew the heart within me; even when I was a young prince, Amun chose me and raised me up to be king of",
             correct: "Upper and Lower Egypt.",
-            wrong: ["both Egyptian lands.", "the two kingdoms.", "all Egypt."] 
+            wrong: ["the Nile Delta alone.", "Nubia south of the cataracts.", "Thebes and its surrounding nomes."] 
           },
           { 
             start: "Hail to You, Amun-Re, Lord of Maat, whose shrine is hidden because you are the one who made me ruler; I rebuilt your temples at Kawa and filled them with musicians to rattle the sistrum before your beautiful face so that",
             correct: "you may grant me life and prosperity.",
-            wrong: ["you bestow blessings upon me.", "you favor my reign.", "you bless my rule."] 
+            wrong: ["the Assyrians would fear your name.", "my brother's sons would be protected.", "the Nile would flood at the right season."] 
           },
           { 
             start: "When I saw the temple of Amun at Kawa in ruins, my heart was sad until I became king because I restored it in fine sandstone, enlarged it, and endowed it with servants, fields, and musicians so that the god would be pleased and",
             correct: "continue to favor Kush and Egypt.",
-            wrong: ["protect both my kingdoms.", "sustain my rule.", "bless my lands."] 
+            wrong: ["draw pilgrims and tribute from distant regions.", "inspire future kings to build still greater temples.", "grant rain to the fields of the Butana plain."] 
           },
           { 
             start: "O Amun, my father, I have given you gold and many precious things because you gave me the kingship and protected me; in return I filled your house with wealth, servants, and offerings so that you may continue to",
             correct: "give me victory and long life.",
-            wrong: ["grant me power and dominion.", "bestow strength and years.", "provide success and days."] 
+            wrong: ["drive the Assyrians back across the Sinai.", "restore Memphis to my control.", "let my name outlast the pyramids."] 
           },
           { 
             start: "I sailed northward to Thebes with the young men sent by my brother because Amun of Napata guided my steps; through his power I was crowned in Memphis and ruled both Kush and Egypt as",
             correct: "a beloved son of the god.",
-            wrong: ["the chosen of Amun.", "the god's favorite.", "the divine king."] 
+            wrong: ["a ruler feared by the Assyrian court.", "the successor of Shabaka and Shebitku.", "a king who never forgot his Nubian origins."] 
+          }
+        ]
+      },
+      {
+        name: "Taharqa & the Assyrian Conflict",
+        emoji: "⚔️",
+        quotes: [
+          {
+            start: "When Esarhaddon of Assyria invaded Egypt and drove me from Memphis, I withdrew southward but did not abandon my claim because a king who retreats to fight again preserves his people better than one who dies defending",
+            correct: "an already-lost position.",
+            wrong: ["the temples of Amun.", "the loyalty of his vassals.", "the blessing of the gods."]
+          },
+          {
+            start: "The Assyrian inscriptions boast of defeating me twice, but Kush endured because the Nile and the desert protected Napata; great empires can conquer Egypt but struggle to reach the heartland of",
+            correct: "Kush south of the fourth cataract.",
+            wrong: ["the Sahara and its oases.", "Punt and its trade routes.", "the Levantine coast."]
           }
         ]
       },
@@ -5819,22 +5886,22 @@ export const CIVILIZATIONS = [
           { 
             start: "The army and the priests assembled in Napata and asked Amun of Napata to choose the king because the god himself selected me as ruler; I was brought forward and Amun confirmed me, showing that kingship in Kush comes from",
             correct: "divine will, not only birth.",
-            wrong: ["the god's approval alone.", "celestial authority.", "divine mandate."] 
+            wrong: ["military strength alone.", "the consent of the army commanders.", "hereditary descent without divine confirmation."] 
           },
           { 
             start: "When the priests inquired of the god, Amun declared because this is the king who will sit upon the throne; he shall be given life, health, and all good things, for he will honor the gods and",
             correct: "maintain justice.",
-            wrong: ["preserve order.", "ensure prosperity.", "uphold law."] 
+            wrong: ["expand the borders of Kush.", "defeat the enemies of Napata.", "build temples greater than his predecessors."] 
           },
           { 
             start: "The Host of His Majesty gathered after the Falcon flew to heaven and said because we do not know whom we should raise to the throne; the decision belongs to Amun of Napata, our good father, who has been the god of the",
             correct: "kings of Kush since the beginning.",
-            wrong: ["Kushite rulers always.", "monarchs of Napata forever.", "royal line eternally."] 
+            wrong: ["Nile cataracts and their peoples.", "traders on the road to Punt.", "soldiers who defend the southern frontier."] 
           },
           { 
             start: "They prostrated themselves before Amun of Napata and said because O great god, lord of the Thrones of the Two Lands who dwells in the Pure Mountain, choose for us the king who will revive us, build your temples, and",
             correct: "make the land of Kush strong again.",
-            wrong: ["restore Kush to greatness.", "strengthen our kingdom.", "revive our realm."] 
+            wrong: ["reclaim Egypt from foreign rulers.", "push the Assyrians beyond the Sinai.", "bring the treasure of Ophir to Napata."] 
           },
           { 
             start: "The god Amun of Napata then chose me from among the royal brethren because",
@@ -5844,7 +5911,23 @@ export const CIVILIZATIONS = [
           { 
             start: "After the god confirmed me, I entered the sanctuary alone because I received the crowns and the staff of my predecessor from the hand of Amun; then I came forth to the army and the people who acclaimed me as",
             correct: "the true king chosen by the god.",
-            wrong: ["the rightful heir.", "the divine choice.", "the god's selection."] 
+            wrong: ["a king who had earned his throne in battle.", "the eldest surviving son of the last ruler.", "the candidate endorsed by the Napatan merchants."] 
+          }
+        ]
+      },
+      {
+        name: "Kandake (Kushite Queens)",
+        emoji: "👑",
+        quotes: [
+          {
+            start: "The Kandakes of Meroë ruled and commanded armies as autonomous monarchs because Kushite society recognized women as legitimate rulers; a Kandake's authority rested on the same divine foundations as a king's, showing that royal power in Kush was not",
+            correct: "restricted by gender.",
+            wrong: ["granted by Egyptian pharaohs.", "limited to religious ceremonies.", "dependent on male co-regents."]
+          },
+          {
+            start: "When Amanirenas led the Kushite army against Roman forces and sent envoys to negotiate with Augustus at Samos, securing favorable terms, she demonstrated that a Kandake could defend borders through both",
+            correct: "military resistance and skilled diplomacy.",
+            wrong: ["surrender and tribute payments.", "appeals to the Egyptian priesthood.", "alliances with Parthian rivals of Rome."]
           }
         ]
       },
@@ -5852,21 +5935,32 @@ export const CIVILIZATIONS = [
         name: "Priests & Temple Officials",
         emoji: "🕯️",
         quotes: [
-          { start: "The priests of Amun at Jebel Barkal and Napata served because Amun is the king of the gods and father of the ruler; we maintained the rituals, oracles, and temples that gave divine legitimacy to",
-          "correct": "the kings of Kush.",
-            "wrong": ["royal authority.", "the kingdom.", "our rulers."] },
-          { start: "We performed oracles and festivals so that the god could speak directly, choose kings, and grant victory and prosperity to the land when the people and ruler lived",
-          "correct": "in ma'at (truth and justice).",
-            "wrong": ["with devotion.", "in harmony.", "in balance."] }
+          { 
+            start: "The priests of Amun at Jebel Barkal and Napata served because Amun is the king of the gods and father of the ruler; we maintained the rituals, oracles, and temples that gave divine legitimacy to",
+            correct: "the kings of Kush.",
+            wrong: ["the merchants of the Nile routes.", "the generals who led campaigns northward.", "the foreign ambassadors in Napata."] 
+          },
+          { 
+            start: "We performed oracles and festivals so that the god could speak directly, choose kings, and grant victory and prosperity to the land when the people and ruler lived",
+            correct: "in ma'at (truth and justice).",
+            wrong: ["in wealth and military strength.", "in constant war against enemies.", "in isolation from Egyptian traditions."] 
+          }
         ]
       },
       {
         name: "Kings of Meroë (Natakamani & Amanitore)",
         emoji: "🏛️",
         quotes: [
-          { start: "We, Natakamani and Amanitore, built and restored temples at Naqa and Amara because we honored Amun, Apedemak the lion-god, and the other deities; through their favor we maintained prosperity, trade, and the strength of the kingdom in the",
-          "correct": "Meroitic period.",
-            "wrong": ["Nile Valley.", "royal court.", "southern lands."] }
+          { 
+            start: "We, Natakamani and Amanitore, built and restored temples at Naqa and Amara because we honored Amun, Apedemak the lion-god, and the other deities; through their favor we maintained prosperity, trade, and the strength of the kingdom in the",
+            correct: "Meroitic period.",
+            wrong: ["Nile Valley.", "royal court.", "southern lands."]
+          },
+          {
+            start: "The lion-god Apedemak, strong of arm, stands before the armies of Kush because he is a god born of Nubian soil, not borrowed from Egypt; his temple at Naqa shows that Meroë honored its own gods alongside Amun, proving that Kushite religion could",
+            correct: "develop independently from Egyptian tradition.",
+            wrong: ["replace Amun as the supreme deity.", "exclude all foreign religious influence.", "unite every southern kingdom under Meroë."]
+          }
         ]
       },
       {
@@ -5875,8 +5969,18 @@ export const CIVILIZATIONS = [
         quotes: [
           {
             start: "The kings of Kush sent armies against rebels because Amun granted victory when the cause was just; we used cavalry, infantry, and boats effectively while showing mercy to those who submitted, maintaining order across",
-            "correct": "vast territories.",
-            "wrong": ["tiny villages.", "Egypt only.", "desert nomads."]
+            correct: "vast territories.",
+            wrong: ["the Nile Delta alone.", "territories south of the fifth cataract only.", "regions where Egypt had direct control."]
+          },
+          { 
+            start: "The decline of Meroë around 350 CE, possibly accelerated by the Aksumite king Ezana's invasion, shows that even a kingdom that had endured for a thousand years", 
+            "correct": "could fall when trade routes shifted and rivals grew stronger.", 
+            "wrong": ["was destroyed overnight.", "collapsed due to internal religious conflict alone.", "was abandoned without external pressure."] 
+          },
+          { 
+            start: "The Nubian pyramids at Meroë — steeper and narrower than Egyptian ones — demonstrate that Kushite architects", 
+            "correct": "adapted Egyptian forms to create a distinctly Kushite style.", 
+            "wrong": ["copied Egyptian designs without modification.", "rejected all Egyptian architectural influence.", "built pyramids only for religious, not royal, purposes."] 
           }
         ]
       },
@@ -5886,8 +5990,13 @@ export const CIVILIZATIONS = [
         quotes: [
           {
             start: "The Kingdom of Kush grew rich through trade in gold, ivory, ebony, and incense because we controlled the Nile routes and desert caravans; fair dealings and strong royal protection allowed merchants to thrive and bring wealth to the",
-            "correct": "temples and people.",
-            "wrong": ["Egyptian pharaohs.", "Assyrian kings.", "foreign conquerors."]
+            correct: "temples and people.",
+            wrong: ["Egyptian pharaohs.", "Assyrian kings.", "foreign conquerors."]
+          },
+          {
+            start: "Meroë's iron-smelting industry gave Kush a military and economic advantage because iron tools and weapons could be produced locally without dependence on foreign suppliers; control of iron production allowed the kingdom to",
+            correct: "arm its forces and supply local and regional needs.",
+            wrong: ["replace all bronze with iron overnight.", "defeat Rome in open battle.", "force Egypt to pay tribute in ore."]
           }
         ]
       }
@@ -5938,7 +6047,7 @@ export const CIVILIZATIONS = [
           {
             start: "After twenty years, when Solomon gave me twenty cities in Galilee, I came to see them and said 'What cities are these which thou hast given me, my brother?' — yet I still sent Solomon 120 talents of gold and maintained our friendship and",
             "correct": "joint trading voyages to Ophir.",
-            "wrong": ["open hostility.", "military alliance.", "tribute demands."]
+            "wrong": ["a formal defense pact.", "annual tribute in silver.", "control of his northern ports."]
           }
         ]
       },
@@ -5949,12 +6058,12 @@ export const CIVILIZATIONS = [
           {
             start: "I, Eshmunazar, king of the Sidonians, and my mother Amoashtart built temples for the gods because we constructed the house of Baal of Sidon, the house of Astarte, the sanctuary of Eshmun, and other shrines so that the gods would",
             "correct": "bless our city.",
-            "wrong": ["ignore our city.", "punish our city.", "abandon our city."]
+            "wrong": ["demand more tribute.", "send pestilence upon us.", "withdraw their protection entirely."]
           },
           {
             start: "Whoever you are, king or common man, do not open this sarcophagus because may the gods curse anyone who disturbs my resting place; I built these temples and extended Sidon's territory, and my deeds should",
             "correct": "be respected after death.",
-            "wrong": ["be forgotten forever.", "be despised forever.", "bring no honor."]
+            "wrong": ["justify desecrating the tomb.", "be undone by successors.", "count for nothing before the gods."]
           },
           {
             start: "I, Eshmunazar, king of the Sidonians, son of Tabnit, was carried away before my time because I was an orphan, the son of a widow, cut off in the fourteenth year of my reign; I lie in this coffin and tomb which",
@@ -5964,17 +6073,33 @@ export const CIVILIZATIONS = [
           {
             start: "We built temples and shrines for the gods of Sidon because we raised up the house of Baal of Sidon, the house of Astarte in Sidon (the land by the sea), so the gods would",
             "correct": "dwell among us.",
-            "wrong": ["flee from us.", "reject us.", "curse us."]
+            "wrong": ["demand we abandon the city.", "withdraw favor from our fleet.", "raise up a rival dynasty."]
           },
           {
             start: "The Lord of Kings (the Persian king) granted me Dor and Joppa and the rich lands of the Sharon because I performed mighty deeds for him; these territories were added to the borders of Sidon forever so that the gods would be honored and",
             "correct": "my name remembered.",
-            "wrong": ["my name erased.", "my deeds forgotten.", "my rule ended."]
+            "wrong": ["my successors enriched.", "my temples expanded.", "Sidon made tributary to Persia."]
           },
           {
             start: "Whoever opens this resting-place or carries me away from this coffin, may the sacred gods deliver them to destruction; may they have no resting-place among the shades (Rephaim), no burial in a grave, and no son or",
             "correct": "offspring to succeed them.",
-            "wrong": ["many heirs forever.", "great prosperity.", "eternal blessings."]
+            "wrong": ["ally to protect them.", "city to shelter them.", "merchant to trade with them."]
+          }
+        ]
+      },
+      {
+        name: "Dido (Elissa) – Founder of Carthage",
+        emoji: "🏙️",
+        quotes: [
+          {
+            start: "According to ancient tradition, when Elissa fled Tyre after her brother Pygmalion murdered her husband, she led followers westward and — through legendary cleverness with an ox-hide — established",
+            "correct": "Carthage as a refuge and trading center.",
+            "wrong": ["a new capital in Phoenicia.", "an alliance of Mediterranean tribes.", "a religious sanctuary in Cyprus."]
+          },
+          {
+            start: "I founded Carthage — Qart-Hadasht, the New City — as a refuge for exiles and a center for trade, because a city's strength comes not from the wealth of a single king but from the",
+            "correct": "enterprise and loyalty of its people.",
+            "wrong": ["tribute collected from weaker neighbors.", "temples built to please the gods.", "harbors controlled by royal decree."]
           }
         ]
       },
@@ -5991,6 +6116,16 @@ export const CIVILIZATIONS = [
             start: "The Phoenician sailors were renowned because we were the first to 'plough the sea' regularly, using advanced shipbuilding and celestial navigation to dominate",
             "correct": "Mediterranean trade for centuries.",
             "wrong": ["land caravans.", "royal tribute.", "temple rituals."]
+          },
+          {
+            start: "The Periplus of Hanno records that I sailed with sixty ships and thirty thousand colonists — numbers likely exaggerated — beyond the Pillars of Hercules because exploration extended both knowledge and trade; we founded colonies and recorded",
+            "correct": "peoples and lands no Phoenician had seen before.",
+            "wrong": ["routes already known to Egyptians.", "territory claimed by Assyria.", "ports controlled by Greek rivals."]
+          },
+          { 
+            start: "Herodotus records that Phoenician sailors, commissioned by the Egyptian pharaoh Necho II around 600 BCE, circumnavigated Africa — a feat considered plausible by modern historians because they reported the sun on", 
+            "correct": "their right when sailing west.", 
+            "wrong": ["their left when sailing north.", "their stern while crossing deserts.", "their bow during every season."] 
           }
         ]
       },
@@ -6001,12 +6136,17 @@ export const CIVILIZATIONS = [
           {
             start: "Our wealth came from trading purple dye, cedar, glass, and metals because we established fair networks across the Mediterranean, exchanging goods honestly while building trust that turned distant ports into",
             "correct": "reliable partners.",
-            "wrong": ["conquered subjects.", "tribute payers.", "hostile rivals."]
+            "wrong": ["competitors to be undercut.", "ports to be avoided.", "hostile rivals."]
           },
           {
             start: "A merchant's reputation is his greatest asset because trust built over generations allowed us to trade safely in foreign lands; reliable dealings brought more profit than",
             "correct": "short-term deception.",
-            "wrong": ["clever tricks.", "forceful raids.", "royal favors."]
+            "wrong": ["aggressive price manipulation.", "bribing foreign officials.", "breaking contracts when profitable."]
+          },
+          { 
+            start: "Tyrian purple dye, extracted from thousands of murex sea snails to produce a single gram of pigment, was so valuable that it became associated with royalty across the ancient world, showing that", 
+            "correct": "control of a rare resource can define a civilization's identity and wealth.", 
+            "wrong": ["purple was used only for religious purposes.", "the dyeing process was shared freely with competitors.", "Phoenician wealth came mainly from cedar trade."] 
           }
         ]
       },
@@ -6015,14 +6155,19 @@ export const CIVILIZATIONS = [
         emoji: "📜",
         quotes: [
           {
-            start: "We developed a simple alphabetic script of 22 letters because it made writing accessible for trade records, contracts, and administration; this system spread widely and influenced Greek, Latin, and",
+            start: "We refined and spread an alphabetic script of 22 consonants derived from earlier Semitic writing because its simplicity made it accessible for trade; this system was adopted by the Greeks who added vowels, eventually influencing",
             "correct": "many modern alphabets.",
             "wrong": ["cuneiform tablets.", "Egyptian hieroglyphs.", "royal decrees only."]
           },
           {
             start: "Knowledge preserved in writing endures longer than stone monuments or gold; our alphabet allowed merchants, scribes, and future generations to record agreements, stories, and",
             "correct": "learning efficiently.",
-            "wrong": ["secret rituals.", "priestly power.", "elite knowledge."]
+            "wrong": ["divine commands.", "royal genealogies.", "military orders."]
+          },
+          { 
+            start: "The Phoenician alphabet's greatest advantage over cuneiform and hieroglyphics was that it required learning only 22 signs rather than hundreds, making literacy", 
+            "correct": "accessible beyond royal scribal classes for the first time.", 
+            "wrong": ["impossible for common merchants.", "restricted to temple priests.", "dependent on Egyptian teaching traditions."] 
           }
         ]
       },
@@ -6033,7 +6178,7 @@ export const CIVILIZATIONS = [
           {
             start: "The kings of Tyre and Sidon strengthened our cities because we built harbors, temples, and defensive walls while fostering trade and alliances that turned small coastal towns into",
             "correct": "powerful independent centers.",
-            "wrong": ["vassals of Egypt.", "Assyrian provinces.", "Hittite satellites."]
+            "wrong": ["rivals too weak to survive.", "cities abandoned to pirates.", "settlements forgotten by history."]
           }
         ]
       }
@@ -6059,7 +6204,7 @@ export const CIVILIZATIONS = [
           {
             start: "When appointing my successor I declared that the king must speak with one tongue and the land must be united; internal division and betrayal by princes would bring",
             "correct": "ruin to Hatti.",
-            "wrong": ["great strength.", "prosperity forever.", "royal glory."]
+            "wrong": ["temporary weakness but ultimate unity.", "the need for a new dynasty.", "stronger provincial governors."]
           },
           {
             start: "I, the Great King, Tabarna Hattusili, spoke to you saying 'Let the young Labarna sit securely upon the throne' but he showed himself a youth not fit to be seen so I rejected him and declared he is",
@@ -6095,11 +6240,11 @@ export const CIVILIZATIONS = [
           {
             start: "In my treaty with Shattiwaza of Mitanni I declared that the daughter of the King of Hatti shall be queen in Mitanni; treaties sealed with oaths before the gods create lasting alliances stronger than",
             "correct": "raw conquest.",
-            "wrong": ["military force.", "pure violence.", "endless war."]
+            "wrong": ["a temporary occupation.", "gifts alone.", "intimidation without agreement."]
           },
           {
             start: "When I, My Majesty Suppiluliuma, reached the land of Alše and the district of Kutmar, I overpowered the enemy because the Storm God went before me; I plundered the lands west of the Euphrates and annexed",
-            "correct": "Mount Lebanon.",
+            "correct": "Syrian territories including Amurru and Qadesh.",
             "wrong": ["all of Egypt.", "the Hittite heartland.", "Mitanni forever."]
           },
           {
@@ -6108,9 +6253,9 @@ export const CIVILIZATIONS = [
             "wrong": ["total destruction.", "mass executions.", "brutal revenge."]
           },
           {
-            start: "In my letter to the king of Egypt I wrote that your father and I were brothers and desired friendship; whatever he asked I granted, and whatever I asked he granted  — let us now continue in peace and",
+            start: "In my letter to the king of Egypt I wrote that your father and I were brothers and desired friendship; whatever he asked I granted, and whatever I asked he granted — let us now continue in peace and",
             "correct": "mutual help.",
-            "wrong": ["open hostility.", "constant raids.", "total war."]
+            "wrong": ["deliberate silence.", "formal separation.", "competing territorial claims."]
           },
           {
             start: "When the Egyptian queen wrote asking for one of my sons to become her husband and king of Egypt, I first sent a chamberlain to investigate because a Great King must act with",
@@ -6131,37 +6276,52 @@ export const CIVILIZATIONS = [
           {
             start: "When I, Mursili, ascended the throne, the enemy lands said 'His father was a mighty king but now a child sits on the throne' because I first restored the neglected festivals of the Sun-goddess of Arinna and",
             "correct": "prayed for her support.",
-            "wrong": ["ignored the gods.", "neglected the cults.", "trusted only armies."]
+            "wrong": ["raised new armies immediately.", "punished the doubting nobles.", "demanded tribute first."]
           },
           {
             start: "For twenty years the plague has raged in Hatti; I have prayed to the Storm-god and the Assembly of Gods because the plague was divine punishment for sins such as the murder of Tudhaliya the Younger and",
-            "correct": " breaking oaths.",
+            "correct": "breaking oaths.",
             "wrong": ["foreign invasion.", "weak leadership.", "royal neglect."]
           },
           {
             start: "In my annals I recorded that the gods went before me in battle because true victory comes from divine support combined with careful planning and loyal troops; I detailed every campaign so future kings would",
             "correct": "learn from my deeds.",
-            "wrong": ["forget the past.", "ignore my example.", "copy the enemy."]
+            "wrong": ["avoid military campaigns.", "rely only on diplomacy.", "trust in wealth alone."]
           },
           {
             start: "O Sun-goddess of Arinna, my lady, come stand by my side, smite those enemy lands before me, and show that the gods support even a young king who",
             "correct": "honors you.",
-            "wrong": ["neglects you.", "doubts you.", "fears you."]
+            "wrong": ["serves foreign gods.", "makes war without prayer.", "trusts only in chariots."]
           },
           {
             start: "O Storm-god of Hatti, my lord, and all the gods, my lords, what is this that you have done because you have allowed the plague to rage in Hatti for twenty years; under my father, my brother, and now under me, people keep dying —",
             "correct": "will the plague never be eliminated from the land?",
-            "wrong": ["was caused by me?", "pleases the gods?", "brings great glory?"]
+            "wrong": ["was sent by foreign gods?", "can be stopped by sacrifice alone?", "requires a new king to end?"]
           },
           {
             start: "I, Mursili, your servant, confess the sins of my father Suppiluliuma because he broke the oath with Egypt by attacking the land of Amka while Egyptian prisoners brought the plague; I have made restitution and now beg you, gods, to be pacified and",
             "correct": "remove this evil from Hatti.",
-            "wrong": ["punish us more.", "send more death.", "ignore our pleas."]
+            "wrong": ["demand more offerings.", "grant us no mercy.", "turn to Egypt instead."]
           },
           {
             start: "In the land of Hatti I have searched for the cause of the plague through oracles because the gods demand that we discover and correct past offenses; only when the sin is identified, confessed, and atoned for can the land be",
             "correct": "freed from divine wrath.",
-            "wrong": ["ruined forever.", "left to suffer.", "given to enemies."]
+            "wrong": ["praised by foreign nations.", "handed to another dynasty.", "abandoned by its kings."]
+          }
+        ]
+      },
+      {
+        name: "Muwatalli II (Battle of Kadesh)",
+        emoji: "🐎",
+        quotes: [
+          { 
+            start: "At Kadesh (~1274 BCE) I assembled a massive force against Ramesses II; the battle ended inconclusively, but Hittite control of Syria was maintained, showing that", 
+          "correct": "strategic objectives matter more than battlefield glory.", 
+          "wrong": ["Egypt won a decisive victory.", "the Hittites were permanently weakened.", "chariot warfare was ineffective."]},
+          {
+            start: "The battle of Kadesh showed that even when an enemy king like Ramesses rallied his troops and claimed divine protection, the outcome on the ground was determined by numbers, positioning, and the loyalty of",
+            "correct": "chariot forces and allied troops.",
+            "wrong": ["individual royal bravery alone.", "prayers and omens only.", "the size of the capital city."]
           }
         ]
       },
@@ -6172,12 +6332,12 @@ export const CIVILIZATIONS = [
           {
             start: "I, Hattusili, was a sickly child but the goddess Ishtar took me by the hand and made me Great King because divine favor and legitimate grievances against my nephew Urhi-Teshub justified my actions; I defended my rule in the Apology and",
             "correct": "sought peace with Egypt.",
-            "wrong": ["continued the war.", "crushed Egypt.", "ignored diplomacy."]
+            "wrong": ["demanded Urhi-Teshub's execution.", "expelled Egyptian envoys.", "rejected all foreign alliances."]
           },
           {
             start: "In the Eternal Treaty with Ramesses II of Egypt we both swore that we would remain at peace forever, assist each other against enemies, and respect the borders; diplomacy and mutual oaths before the gods",
             "correct": "prevent endless war.",
-            "wrong": ["invite divine wrath.", "weaken the empire.", "betray the gods."]
+            "wrong": ["weaken the empire's frontiers.", "displease the military commanders.", "reduce royal prestige abroad."]
           },
           {
             start: "I, Hattusili, the youngest son of Mursili, was a frail child but the goddess Šaušga of Šamuha requested me from my father because she took me under her protection from childhood; thanks to her favor my health improved and she",
@@ -6185,24 +6345,24 @@ export const CIVILIZATIONS = [
             "wrong": ["abandoned me.", "cursed my rule.", "favored Urhi-Teshub."]
           },
           {
-            start: "After my brother Muwatalli died and his son Urhi-Teshub became king, I served him loyally, but he treated me unjustly and removed my offices. With the support of the goddess Šaušga, I rose against him only when I had",
+            start: "In his Apology, Hattusili claims he rose against Urhi-Teshub only when left with",
             "correct": "no other choice.",
-            "wrong": ["personal ambition.", "thirst for power.", "royal greed."]
+            "wrong": ["secured foreign backing.", "gathered a large enough army.", "received a favorable oracle."]
           },
           {
             start: "I did not take Puduhepa in marriage out of passion but because the goddess commanded it in a dream; she assigned Puduhepa to me, and together we served the goddess and",
             "correct": "strengthened the kingdom.",
-            "wrong": ["gained wealth.", "pleased the court.", "secured allies."]
+            "wrong": ["gained personal wealth.", "pleased the court factions.", "secured the northern borders."]
           },
           {
             start: "In the treaty with Ramesses, Great King of Egypt, my brother, we established that from this day forward there shall be good peace and good brotherhood between us forever; if an enemy comes against one of us, the other shall send troops and",
             "correct": "chariots to help.",
-            "wrong": ["refuse support.", "attack instead.", "stay neutral."]
+            "wrong": ["demand tribute first.", "consult the gods alone.", "send only messengers."]
           },
           {
             start: "We swore before the thousand gods of Hatti and the thousand gods of Egypt because oaths sworn in the presence of the gods, the mountains, rivers, sky, earth, and sea make the treaty binding for eternity; whoever breaks it shall",
             "correct": "be destroyed by the gods.",
-            "wrong": ["gain great power.", "receive blessings.", "rule forever."]
+            "wrong": ["lose the protection of every divine witness.", "be forgiven after paying tribute.", "pass judgment to human courts."]
           }
         ]
       },
@@ -6213,12 +6373,17 @@ export const CIVILIZATIONS = [
           {
             start: "The laws of Hatti state that if anyone kills a man or woman in a quarrel, he shall bring the body for burial and give four persons (heads) in compensation; justice requires restitution rather than",
             "correct": "simple vengeance.",
-            "wrong": ["royal mercy.", "total forgiveness.", "blood revenge."]
+            "wrong": ["enslavement of the offender.", "permanent exile.", "execution by the state."]
           },
           {
             start: "If anyone blinds a free person or knocks out his tooth, he shall pay twenty shekels of silver (reduced from earlier amounts); the laws show a preference for compensation and mercy over",
             "correct": "harsh physical punishment.",
-            "wrong": ["monetary fines.", "lenient settlements.", "full restitution."]
+            "wrong": ["collective family punishment.", "trial by ordeal.", "permanent mutilation in return."]
+          },
+          { 
+            start: "The Hittite laws show an evolution from older to newer versions where punishments were systematically reduced — death penalties replaced by fines — suggesting that Hittite society became", 
+            "correct": "progressively less harsh in its legal approach over time.", 
+            "wrong": ["more brutal as the empire expanded.", "identical to Babylonian law under Hammurabi.", "focused on revenge rather than restitution."] 
           }
         ]
       },
@@ -6234,7 +6399,12 @@ export const CIVILIZATIONS = [
           {
             start: "When marching against rebellious vassals or northern enemies like the Kaska, commanders understood that swift decisive action combined with offers of mercy to those who submitted maintained long-term control over a vast and",
             "correct": "diverse empire.",
-            "wrong": ["unified kingdom.", "homogeneous realm.", "small territory."]
+            "wrong": ["poorly fortified frontier.", "diplomatically isolated state.", "religiously uniform population."]
+          },
+          { 
+            start: "Around 1200 BCE, Hattusa was burned and the Hittite Empire collapsed along with many other Bronze Age civilizations — an event so widespread it suggests systemic causes like climate change, migrations, and trade network collapse rather than", 
+            "correct": "a single enemy.", 
+            "wrong": ["a series of natural disasters.", "a conspiracy.", "a plague."] 
           }
         ]
       },
@@ -6245,12 +6415,17 @@ export const CIVILIZATIONS = [
           {
             start: "Hittite kings performed oracles, prayers, and festivals because the gods demanded proper worship and moral order; neglecting rituals or breaking oaths brought divine punishment such as plague or",
             "correct": "military defeat.",
-            "wrong": ["great prosperity.", "divine blessing.", "eternal peace."]
+            "wrong": ["abundant harvests.", "enemy conversion.", "automatic forgiveness."]
           },
           {
             start: "In treaties and prayers we invoked many gods as witnesses because oaths sworn before the Storm-god, Sun-goddess of Arinna, and others created binding international and internal obligations;",
             "correct": "breaking them invited divine wrath.",
-            "wrong": ["pleased the gods.", "brought good fortune.", "ensured victory."]
+            "wrong": ["honoring them allowed renegotiation.", "reciting them brought automatic success.", "signing them required no further action."]
+          },
+          { 
+            start: "The Hittites were unusual in the ancient Near East for incorporating the gods of conquered peoples into their own pantheon, calling themselves the land of a thousand gods' and using this religious inclusivity to", 
+            "correct": "integrate subject peoples.", 
+            "wrong": ["eliminate all local traditions.", "promote a single state religion.", "suppress dissenting voices."] 
           }
         ]
       }
@@ -6294,7 +6469,7 @@ export const CIVILIZATIONS = [
             "wrong": ["warfare only.", "hunting skills.", "feudal duties."]
           },
           {
-            start: "In the Admonitio Generalis and other capitularies I commanded that priests must preach faithfully and that all believers should know the Lord’s Prayer, the Creed, and",
+            start: "In the Admonitio Generalis and other capitularies I commanded that priests must preach faithfully and that all believers should know the Lord's Prayer, the Creed, and",
             "correct": "the essentials of the faith.",
             "wrong": ["Latin poetry.", "German sagas.", "noble titles."]
           }
@@ -6315,24 +6490,19 @@ export const CIVILIZATIONS = [
             "wrong": ["papal independence.", "ducal power.", "feudal chaos."]
           },
           {
-            start: "When the Magyars invaded in 955, I dismounted and knelt with my army before the Holy Lance because victory comes from God’s favor and the protection of holy relics; true kingship is proven by piety in battle and defense of Christendom against",
+            start: "When the Magyars invaded in 955, I dismounted and knelt with my army before the Holy Lance because victory comes from God's favor and the protection of holy relics; true kingship is proven by piety in battle and defense of Christendom against",
             "correct": "pagans.",
             "wrong": ["Christians.", "the pope.", "internal foes."]
           },
           {
-            start: "After the great victory on the Lechfeld, my troops acclaimed me because God had granted us triumph over the enemies of Christendom; this success confirmed my right to rule and revived the imperial dignity of",
-            "correct": "Charlemagne.",
-            "wrong": ["the pope.", "the dukes.", "the Saxons."]
+            start: "After the great victory on the Lechfeld, my troops acclaimed me because God had granted us triumph over the enemies of Christendom; this success confirmed my right to rule and demonstrated that imperial authority rested on",
+            "correct": "military prowess and divine favor.",
+            "wrong": ["papal blessing.", "noble consent.", "hereditary claim alone."]
           },
           {
             start: "I appointed loyal men from my own chapel and family as bishops because bishops must serve both God and the realm; by investing them with spiritual and temporal authority, I created reliable administrators who strengthened royal power against",
             "correct": "rebellious dukes.",
             "wrong": ["the church.", "the pope.", "papal claims."]
-          },
-          {
-            start: "When I received the imperial crown in Rome in 962, I understood that the emperor’s duty was to protect the church, restore order in Italy, and act as the defender of all Christendom, continuing the work begun by",
-            "correct": "Charlemagne.",
-            "wrong": ["the pope.", "the Byzantines.", "the Saxons."]
           }
         ]
       },
@@ -6356,8 +6526,8 @@ export const CIVILIZATIONS = [
             "wrong": ["German empire.", "feudal realm.", "papal state."]
           },
           {
-            start: "I chose learned men such as Gerbert of Aurillac as my teacher and later made him Pope Sylvester II because wisdom, classical knowledge, and piety must guide the emperor; a renewed Rome required scholars who understood both ancient learning and",
-            "correct": "Christian reform.",
+            start: "I appointed the brilliant scholar Gerbert of Aurillac as Pope Sylvester II, choosing as advisor a man who combined mastery of mathematics, logic, and classical learning, showing that Christian reform and ancient learning could unite in service of",
+            "correct": "the renewed empire.",
             "wrong": ["papal power.", "German custom.", "secular rule."]
           },
           {
@@ -6394,7 +6564,7 @@ export const CIVILIZATIONS = [
           {
             start: "I declared together with our bishops that Gregory must descend from the apostolic chair which he had usurped, because he had trodden under foot the anointed rulers of the church and brought confusion instead of",
             "correct": "order.",
-            "wrong": ["freedom.", "justice.", "reform."]
+            "wrong": ["peace to Christian lands.", "stability to the faithful.", "harmony among bishops."]
           },
           {
             start: "I, Henry, king by the grace of God, with all my bishops say to you: descend, descend, to be damned throughout the ages — because the pope had disturbed the proper order between regnum (royal power) and",
@@ -6404,12 +6574,12 @@ export const CIVILIZATIONS = [
           {
             start: "At Canossa in 1077, standing barefoot in the snow for three days, I performed penance because I sought absolution from excommunication to regain legitimacy and prevent my enemies in Germany from",
             "correct": "using the pope against me.",
-            "wrong": ["supporting my rule.", "obeying my commands.", "losing influence."]
+            "wrong": ["gathering strength for rebellion.", "organizing armed resistance.", "forming papal alliances."]
           },
           {
-            start: "In my oath at Canossa I promised that I would satisfy the grievances of the German princes and bishops according to the pope’s judgment or counsel, and guarantee safe passage and",
+            start: "In my oath at Canossa I promised that I would satisfy the grievances of the German princes and bishops according to the pope's judgment or counsel, and guarantee safe passage and",
             "correct": "protection to Gregory if he came to Germany.",
-            "wrong": ["imprisonment for Gregory.", "revenge on the pope.", "military escort only."]
+            "wrong": ["freedom for the papacy.", "independence for Italian lands.", "autonomy for church officials."]
           }
         ]
       },
@@ -6451,6 +6621,16 @@ export const CIVILIZATIONS = [
             start: "In my conflicts with the papacy I maintained that the empire receives its authority from God through the election of the",
             "correct": "princes.",
             "wrong": ["pope.", "people.", "clergy."]
+          },
+          {
+            start: "My recognition of the Welf family in northern Italy and balance between Guelphs and Ghibellines showed that imperial power derived from managing competing noble factions rather than from any single source, requiring constant",
+            "correct": "negotiation and strategic concessions.",
+            "wrong": ["absolute military dominance.", "papal authorization.", "total centralization."]
+          },
+          { 
+            start: "Frederick Barbarossa drowned in the Saleph River in 1190 during the Third Crusade, and his death caused the German crusading army to dissolve, demonstrating that personal leadership was so central to medieval empire that one death could", 
+            "correct": "destroy a major military campaign.", 
+            "wrong": ["alter succession customs.", "reshape religious doctrine.", "increase royal revenues."] 
           }
         ]
       },
@@ -6461,37 +6641,47 @@ export const CIVILIZATIONS = [
           { 
               start: "In the Constitutions of Melfi (1231) I established that the emperor is the living law upon earth, deriving authority directly from God, with the imperial office as the sole source of temporal justice and",
               correct: "centralized administration.",
-              wrong: ["unified governance.", "absolute rule.", "sovereign control."] 
+              wrong: ["subjugation of the clergy.", "expansion of feudal powers.", "elimination of local traditions."] 
             },
             { 
               start: "My rule in Sicily and the empire showed that effective governance required a hierarchical administrative system, trained lay officials, and strong royal control to replace clerical officialdom and",
               correct: "curb noble autonomy.",
-              wrong: ["limit aristocratic power.", "restrain feudal lords.", "diminish baronial influence."] 
+              wrong: ["strengthen papal influence.", "preserve feudal independence.", "protect diocesan authority."] 
             },
             { 
               start: "We, whom divine providence elevated beyond human hope to the pinnacle of the Roman Empire, have promulgated these laws because the emperor must provide for the common welfare, protect the weak, and ensure justice flows from",
               correct: "the throne alone.",
-              wrong: ["supreme authority.", "imperial power.", "royal command."] 
+              wrong: ["councils of the realm.", "the voice of the people.", "multiple competing authorities."] 
             },
             { 
               start: "In the Kingdom of Sicily I decreed that no one may bear arms without royal license and that all justice must be rendered by royal magistrates alone, so that peace and order replace the chaos of private warfare and",
               correct: "baronial courts.",
-              wrong: ["noble conflicts.", "feudal disorders.", "local justice systems."] 
+              wrong: ["episcopal jurisdiction.", "feudal arbitration.", "noble judgment halls."] 
             },
             { 
-              start: "I prohibited the sale of fiefs and ended subinfeudation because all fiefs ultimately belong to the crown; feudal fragmentation weakens the state, while centralized control ensures loyalty and",
+              start: "In the Kingdom of Sicily I prohibited the sale of fiefs and ended subinfeudation because all fiefs ultimately belong to the crown; this centralization served as a model showing that feudal fragmentation weakens the state while central control ensures",
               correct: "effective administration.",
-              wrong: ["reliable governance.", "strong rule.", "efficient management."] 
+              wrong: ["noble independence.", "vassal autonomy.", "local self-governance."] 
             },
             { 
               start: "Through these constitutions I replaced clerical officials with trained laymen because secular administration by professional officials loyal to the crown creates a more efficient and reliable system of government than",
               correct: "reliance on churchmen with divided loyalties.",
-              wrong: ["dependence on ecclesiastical authority.", "trust in papal officials.", "reliance on religious institutions."] 
+              wrong: ["delegation to the papacy.", "trust in episcopal councils.", "cooperation with religious orders."] 
             },
             { 
               start: "As emperor and king I understood that true authority demands the supremacy of written law, the abolition of trial by ordeal, equality before royal courts for all subjects, and the emperor's role as",
               correct: "the living source of justice.",
-              wrong: ["the supreme judge.", "the final arbiter.", "the ultimate authority."] 
+              wrong: ["interpreter of divine will.", "representative of the church.", "mediator between God and people."] 
+            },
+            { 
+              start: "My patronage of scholars, translation of Arabic texts, and scientific curiosity demonstrated that even an absolute lawgiver understood the value of learning and reason, showing that imperial authority encompassed not just law but also",
+              correct: "advancement of human knowledge.",
+              wrong: ["defense of religious doctrine.", "preservation of feudal traditions.", "protection of noble privileges."] 
+            },
+            { 
+              start: "Frederick II negotiated the return of Jerusalem through diplomacy with the Ayyubid Sultan al-Kamil in 1229 without military conquest, achieving what crusaders had failed to do by force, but was condemned by the Pope for", 
+              "correct": "treating with Muslims rather than fighting them.", 
+              "wrong": ["giving away too much territory.", "returning without papal permission.", "converting to Islam during negotiations."] 
             }
         ]
       },
@@ -6502,37 +6692,42 @@ export const CIVILIZATIONS = [
           { 
             start: "In the Golden Bull of 1356 I decreed that the lands of the prince-electors must remain undivided and pass by primogeniture, so that the pillars of the empire would not collapse and elections could proceed without",
             correct: "dangerous divisions.",
-            wrong: ["internal conflict.", "fragmentation.", "disruption."] 
+            wrong: ["papal interference.", "foreign invasion.", "noble conspiracy."] 
           },
           { 
             start: "I ordained that electors and their heirs be instructed in languages and liberal arts because the emperor must govern diverse nations with different customs and tongues; the electors, as columns of the empire, needed wisdom to",
             correct: "understand and be understood.",
-            wrong: ["communicate effectively.", "relate to subjects.", "govern wisely."] 
+            wrong: ["wage military campaigns.", "collect taxes efficiently.", "command respect through force."] 
           },
           { 
             start: "Every realm that is divided internally will go to ruin because its princes become comrades of thieves; the Lord pours out the spirit of deceit so that they grope in darkness and bring about evil deeds which",
             correct: "occur in disunity.",
-            wrong: ["result from division.", "stem from conflict.", "arise from discord."] 
+            wrong: ["benefit from weakness.", "strengthen external powers.", "create opportunity for invasion."] 
           },
           { 
             start: "I have promulgated these laws for the purpose of cherishing unity among the electors, bringing about a unanimous election, and closing all approach to detestable discord and the various dangers that",
             correct: "arise from it.",
-            wrong: ["flow from it.", "spring from it.", "follow from it."] 
+            wrong: ["weaken competing kingdoms.", "strengthen rival powers.", "threaten Christian lands."] 
           },
           { 
             start: "The seven electors are the columns and sides of the holy empire because through them, as through seven candlesticks, the empire ought to be illumined with the unity of a septiform spirit; when they are shaken,",
             correct: "the whole edifice risks ruin.",
-            wrong: ["stability is threatened.", "structure weakens.", "foundation trembles."] 
+            wrong: ["neighboring kingdoms prosper.", "papal authority increases.", "the church grows stronger."] 
           },
           { 
             start: "I decreed that each elector must ensure safe passage for the others so the royal election proceeds without interference or",
             correct: "fear.",
-            wrong: ["hindrance.", "obstruction.", "violence."] 
+            wrong: ["papal interference.", "noble rivalry.", "foreign bribery."] 
           },
           { 
             start: "Since the Holy Roman Empire governs diverse peoples, the prince electors should learn Italian and Slavic as well as German from age seven so they may understand and rule",
             correct: "effectively.",
-            wrong: ["competently.", "skillfully.", "ably."] 
+            wrong: ["militarily.", "piously.", "justly."] 
+          },
+          {
+            start: "I chose Prague as my imperial capital and founded Charles University in 1348 because the emperor's role extended beyond military conquest to include patronage of learning and urban development, making Prague a center of",
+            "correct": "culture and scholarship.",
+            "wrong": ["military fortification.", "commercial trading.", "religious pilgrimage."]
           }
         ]
       },
@@ -6543,37 +6738,37 @@ export const CIVILIZATIONS = [
           { 
             start: "At the Diet of Worms in 1495 I proclaimed the Perpetual Public Peace because private feuds and wars must end; law and order, enforced through imperial institutions, are necessary to preserve the empire and",
             correct: "defend Christendom.",
-            wrong: ["protect its borders.", "strengthen its unity.", "maintain its peace."] 
+            wrong: ["expand territorial holdings.", "increase imperial revenue.", "subjugate rebellious nobles."] 
           },
           { 
             start: "I introduced the Common Penny tax and supported the Imperial Chamber Court because the empire required new institutions and revenue to resist external enemies like the Turks and to administer",
             correct: "justice across the territories.",
-            wrong: ["law throughout lands.", "order among peoples.", "governance in regions."] 
+            wrong: ["personal wealth for the crown.", "military conquest of neighbors.", "expansion of imperial lands."] 
           },
           { 
             start: "We, Maximilian, Roman King, have seen that Christendom is under threat at the Empire's borders; therefore we establish law and order to",
             correct: "defend it.",
-            wrong: ["destroy it.", "secure it.", "preserve it."] 
+            wrong: ["negotiate tribute payments.", "rely on papal crusade calls alone.", "leave defense to individual princes."] 
           },
           { 
             start: "Following the unanimous counsel of the electors and Estates, We establish a common peace: no one shall wage war, rob, or feud; all disputes must be resolved through",
             correct: "law.",
-            wrong: ["courts.", "justice.", "judgment."] 
+            wrong: ["the sword.", "personal combat.", "noble judgment."] 
           },
           { 
             start: "Whoever has a quarrel with another shall take his case to the courts because the regime of law and order must replace the old right of feud; only through impartial justice can the empire be preserved and its honor, population, and",
             correct: "dignity maintained.",
-            wrong: ["strength preserved.", "power sustained.", "glory endured."] 
+            wrong: ["military might increased.", "economic power expanded.", "territorial borders extended."] 
           },
           { 
             start: "We have also established the Common Penny, a direct tax on every subject, because the empire needs reliable revenue to fund the new imperial institutions and the maintenance of",
             correct: "public peace and justice.",
-            wrong: ["law and order.", "peace and stability.", "order and security."] 
+            wrong: ["personal imperial luxury.", "noble entertainment.", "clerical wealth."] 
           },
           { 
             start: "By creating the Imperial Chamber Court alongside the Perpetual Public Peace, I ensured that justice would be administered according to law so that the strong could no longer oppress the weak and the empire could",
             correct: "function as one body under orderly rule.",
-            wrong: ["operate as unified state.", "exist as cohesive whole.", "stand as integrated realm."] 
+            wrong: ["wage wars of conquest.", "accumulate imperial treasure.", "dominate neighboring states."] 
           }
         ]
       },
@@ -6583,22 +6778,23 @@ export const CIVILIZATIONS = [
         quotes: [
           { start: "A knight must defend the church, protect the weak, and uphold justice because chivalry combined martial skill with Christian duty: fidelity to oaths, mercy to the vulnerable, generosity, and",
           "correct": "service to God, lord, and lady.",
-            "wrong": ["self-interest.", "personal gain.", "selfishness."] },
-          { start: "A knight’s oath binds him to respect weaknesses and constitute himself their defender because true courage requires performing feudal duties faithfully, showing mercy where appropriate, and fighting infidels without",
+            "wrong": ["military glory above all else.", "loyalty to the highest bidder.", "personal honor over sworn oaths."] 
+    },
+          { start: "A knight's oath binds him to respect weaknesses and constitute himself their defender because true courage requires performing feudal duties faithfully, showing mercy where appropriate, and fighting infidels without",
           "correct": "compromise when required.",
-            "wrong": ["honor.", "discipline.", "restraint."] }
+            "wrong": ["hesitation or doubt.", "fear of death.", "concern for personal safety."] }
         ]
       },
       {
         name: "Scholars & Chroniclers (e.g. Otto of Freising)",
         emoji: "📖",
         quotes: [
-          { start: "We chroniclers recorded the deeds of emperors and the history of the two cities because the empire and church together form part of God’s divine order on earth, restraining chaos; knowledge and philosophy guide rulers toward",
+          { start: "We chroniclers recorded the deeds of emperors and the history of the two cities because the empire and church together form part of God's divine order on earth, restraining chaos; knowledge and philosophy guide rulers toward",
           "correct": "just governance.",
-            "wrong": ["poor rule.", "incompetent leadership.", "corruption."] },
+            "wrong": ["military conquest.", "territorial expansion.", "personal enrichment."] },
           { start: "Wisdom serves the empire because a ruler who balances force with justice, education, and awareness of both earthly and heavenly realms better maintains peace and",
           "correct": "legitimacy.",
-            "wrong": ["instability.", "dishonesty.", "tyranny."] }
+            "wrong": ["military supremacy.", "economic dominance.", "hereditary succession."] }
         ]
       },
       {
@@ -6607,10 +6803,15 @@ export const CIVILIZATIONS = [
         quotes: [
           { start: "The Holy Roman Empire endured because its rulers understood that legitimate power required a balance of princely election, often papal coronation, Christian legitimacy, and adaptation to diverse laws and",
           "correct": "territories.",
-            "wrong": ["uniform rule.", "single system.", "central control."] },
+            "wrong": ["military force alone.", "external conquest.", "papal supremacy."] },
           { start: "Despite periods of fragmentation, the empire preserved Roman legal traditions, chivalric ideals, scholarly continuity, and the ideal of a universal Christian order that",
           "correct": "shaped later European institutions.",
-            "wrong": ["faded quickly.", "lost influence.", "had no impact."] }
+            "wrong": ["was completely forgotten.", "had no lasting impact.", "disappeared entirely."] },
+          { 
+            start: "The Concordat of Worms (1122) resolved the Investiture Controversy by distinguishing between spiritual investiture (ring and staff, given by the church) and temporal investiture (scepter, given by the emperor), establishing", 
+            "correct": "a formal separation between spiritual and temporal authority.", 
+            "wrong": ["total papal victory over emperors.", "complete imperial control of church appointments.", "the end of all conflict between pope and emperor."] 
+          }
         ]
       },
       {
@@ -6620,12 +6821,12 @@ export const CIVILIZATIONS = [
           { 
             start: "The empire's gradual decentralization showed that while strong personal leadership and institutions could unify it temporarily, competing princely interests, external pressures, and",
             correct: "evolving European states ultimately limited central authority.",
-            wrong: ["rising nationalism weakened unity.", "internal conflicts fractured power.", "regional forces challenged supremacy."] 
+            wrong: ["the pope's intervention alone.", "the people's rebellion.", "economic depression."] 
           },
           { 
             start: "Even as the empire dissolved in 1806, its legacy demonstrated that the ideal of a Christian universal empire, Roman law, and constitutional experiments like the Golden Bull influenced modern concepts of federalism, law, and",
             correct: "European order.",
-            wrong: ["international relations.", "political systems.", "global governance."] 
+            wrong: ["autocratic rule.", "monarchical supremacy.", "centralized state power."] 
           }
         ]
       }
