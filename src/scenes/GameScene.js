@@ -406,6 +406,10 @@ export class GameScene extends Phaser.Scene {
         watchAdBtn.on('pointerdown', async () => {
             if (this.isLoadingAd) return
             this.isLoadingAd = true
+            // ── DISABLED STATE ──
+            watchAdBtn.setInteractive(false)
+            watchAdBtn.setAlpha(0.45)
+            watchAdBtn.setText('Loading Ad...')
             this.sound.play('tap')
             this.sound.pauseAll()
 
@@ -434,7 +438,7 @@ export class GameScene extends Phaser.Scene {
                 }
                 // ==================== ADMOB REWARDED AD ====================
                 await AdMob.prepareRewardVideoAd({
-                    adId: "ca-app-pub-7222777824759007/1944109420"
+                    adId: "ca-app-pub-3940256099942544/5224354917"
                 });
 
                 const reward = await AdMob.showRewardVideoAd();
@@ -464,6 +468,10 @@ export class GameScene extends Phaser.Scene {
             } finally {
                 this.isLoadingAd = false
                 this.sound.resumeAll()
+                // ── ENABLED STATE ──
+                watchAdBtn.setInteractive()
+                watchAdBtn.setAlpha(1)
+                watchAdBtn.setText('Watch Ad for Lives ▶')
             }
         })
 
