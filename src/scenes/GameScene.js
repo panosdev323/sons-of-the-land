@@ -469,6 +469,7 @@ export class GameScene extends Phaser.Scene {
                 })
 
                 await AdMob.showRewardVideoAd()
+                console.log("AD CLOSED")
                 removeListeners() // cleanup σε περίπτωση που το Dismissed δεν πυροδοτήθηκε
 
                 // Αν δεν πήρε reward, το Dismissed handler ήδη ανέβαλε — σταματάμε εδώ
