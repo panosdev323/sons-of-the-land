@@ -408,7 +408,7 @@ export class GameScene extends Phaser.Scene {
             this.isLoadingAd = true
 
             // ── DISABLED STATE ──
-            watchAdBtn.setInteractive(false)
+            watchAdBtn.disableInteractive()
             watchAdBtn.setAlpha(0.45)
             watchAdBtn.setText('Loading Ad...')
 
