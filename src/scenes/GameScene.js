@@ -1,6 +1,6 @@
 import { CIVILIZATIONS } from '../quotes.js'
 import { ProgressStore } from '../progressStore.js'
-import { AdMob } from '@capacitor-community/admob'
+import { AdMob, RewardAdPluginEvents } from '@capacitor-community/admob'
 
 export class GameScene extends Phaser.Scene {
     constructor() { super('GameScene') }
@@ -379,6 +379,7 @@ export class GameScene extends Phaser.Scene {
         })
     }
 
+
     showGameOver() {
         this.children.list.slice().forEach(c => c.destroy())
 
@@ -407,7 +408,6 @@ export class GameScene extends Phaser.Scene {
             if (this.isLoadingAd) return
             this.isLoadingAd = true
 
-            // ── DISABLED STATE ──
             watchAdBtn.disableInteractive()
             watchAdBtn.setAlpha(0.45)
             watchAdBtn.setText('Loading Ad...')
@@ -416,16 +416,13 @@ export class GameScene extends Phaser.Scene {
             this.sound.pauseAll()
 
             try {
-                // ✅ Check if AdMob exists (mobile only)
+                // ✅ Web fallback — AdMob μόνο σε mobile
                 if (typeof AdMob === 'undefined') {
-                    console.log('❌ This feature is only available in the mobile app')
-                    
                     this.add.text(240, 430, '❌ Download the mobile app to continue!', {
                         fontSize: '16px', color: '#ff5252', wordWrap: { width: 400 }
                     }).setOrigin(0.5).setDepth(100)
 
-                    // Download link button
-                    const downloadBtn = this.add.text(240, 460, '📱 Get Mobile App', {
+                    const downloadBtn = this.add.text(240, 470, '📱 Get Mobile App', {
                         fontSize: '19px',
                         backgroundColor: '#1b5e20',
                         padding: { x: 20, y: 14 }
@@ -435,43 +432,76 @@ export class GameScene extends Phaser.Scene {
                         window.location.href = 'https://play.google.com/store/apps/details?id=com.sonsoftheland.game'
                     })
 
-                    this.isLoadingAd = false
-                    return
+                    return // finally θα κάνει reset το button
                 }
+
                 // ==================== ADMOB REWARDED AD ====================
                 await AdMob.prepareRewardVideoAd({
-                    adId: "ca-app-pub-7222777824759007/1944109420",
-                });
+                    adId: 'ca-app-pub-7222777824759007/1944109420',
+                })
 
-                const reward = await AdMob.showRewardVideoAd();
-                console.log("✅ User earned reward:", reward);
+                let rewardEarned = false
+                let listenersRemoved = false
+                let onReward, onDismiss
 
-                // === Δώσε Bonus Lives ===
-                const difficultyRaw = localStorage.getItem('setting_difficulty') || '"Normal"';
-                const difficulty = JSON.parse(difficultyRaw);
-                
-                let bonusLives = 3;
-                if (difficulty === 'Easy') bonusLives = 4;
-                else if (difficulty === 'Hard') bonusLives = 2;
+                // ── Helper για να μην κάνουμε remove δύο φορές ──
+                const removeListeners = () => {
+                    if (listenersRemoved) return
+                    listenersRemoved = true
+                    onReward?.remove()
+                    onDismiss?.remove()
+                }
 
-                this.levelLives = bonusLives;
-                this.answered = false;
-                this.qIndex = 0;
+                // Πυροδοτείται ΜΟΝΟ αν ο χρήστης παρακολούθησε ολόκληρο το ad
+                onReward = await AdMob.addListener(RewardAdPluginEvents.Rewarded, () => {
+                    rewardEarned = true
+                })
 
-                await ProgressStore.clearCurrentLevelLives();
-                this.showQuestion();
+                // Πυροδοτείται ΠΑΝΤΑ όταν κλείσει το ad (με ή χωρίς reward)
+                onDismiss = await AdMob.addListener(RewardAdPluginEvents.Dismissed, () => {
+                    removeListeners()
+                    if (!rewardEarned) {
+                        // Έκλεισε νωρίς — δεν πήρε reward
+                        this.add.text(240, 420, '⚠️ Ad was not completed', {
+                            fontSize: '16px', color: '#ff5252'
+                        }).setOrigin(0.5).setDepth(100)
+                    }
+                })
+
+                await AdMob.showRewardVideoAd()
+                removeListeners() // cleanup σε περίπτωση που το Dismissed δεν πυροδοτήθηκε
+
+                // Αν δεν πήρε reward, το Dismissed handler ήδη ανέβαλε — σταματάμε εδώ
+                if (!rewardEarned) return
+
+                // ✅ Reward earned — δώσε bonus lives
+                console.log('✅ User earned reward')
+
+                const difficultyRaw = localStorage.getItem('setting_difficulty') || '"Normal"'
+                const difficulty = JSON.parse(difficultyRaw)
+
+                let bonusLives = 3
+                if (difficulty === 'Easy') bonusLives = 4
+                else if (difficulty === 'Hard') bonusLives = 2
+
+                this.levelLives = bonusLives
+                this.answered = false
+                this.qIndex = 0
+
+                await ProgressStore.clearCurrentLevelLives()
+                this.showQuestion()
 
             } catch (error) {
-                console.error("Ad error or user closed the ad:", error);
-                
-                this.add.text(240, 420, 'Ad was not completed', {
+                console.error('Ad error:', error)
+                this.add.text(240, 420, '⚠️ Ad was not completed', {
                     fontSize: '16px', color: '#ff5252'
-                }).setOrigin(0.5).setDepth(100);
+                }).setOrigin(0.5).setDepth(100)
+
             } finally {
+                // Τρέχει ΠΑΝΤΑ — ασφαλές reset της κατάστασης
                 this.isLoadingAd = false
                 this.sound.resumeAll()
-                // ── ENABLED STATE ──
-                if (watchAdBtn && watchAdBtn.active) {
+                if (watchAdBtn?.active) {
                     watchAdBtn.setInteractive()
                     watchAdBtn.setAlpha(1)
                     watchAdBtn.setText('Watch Ad for Lives ▶')
