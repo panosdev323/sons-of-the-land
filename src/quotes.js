@@ -695,192 +695,931 @@ export const CIVILIZATIONS = [
     bg: '#0a0a0a',
     authors: [
       {
-        name: 'Gaius Julius Caesar',
+        // PRIMARY SOURCES: Caesar's own writings — De Bello Gallico (Gallic Wars),
+        // De Bello Civili (Civil War). Suetonius, Lives of the Twelve Caesars (Divus Iulius).
+        // Plutarch, Life of Caesar. Appian, Civil Wars.
+        // NOTE: Many "Caesar quotes" circulating online are modern fabrications.
+        name: 'Gaius Julius Caesar (De Bello Gallico & De Bello Civili)',
         emoji: '⚔️',
         quotes: [
-          { start: 'Veni, vidi,', correct: 'vici.', wrong: ['vici.', 'fui.', 'regnavi.'] },
-          { start: 'In the end, it is impossible not to become what others believe you', correct: 'are.', wrong: ['were.', 'will be.', 'should be.'] },
-          { start: 'Experience is the teacher of all', correct: 'things.', wrong: ['men.', 'gods.', 'wars.'] },
-          { start: 'The greatest enemy will hide in the last place you would ever', correct: 'look.', wrong: ['expect.', 'fear.', 'find.'] },
-          { start: 'It is easier to find men who will volunteer to die, than to find those who are willing to endure pain with', correct: 'patience.', wrong: ['courage.', 'strength.', 'honor.'] },
-          { start: 'I love the name of honor more than I fear', correct: 'death.', wrong: ['life.', 'defeat.', 'betrayal.'] },
-          { start: 'Men are nearly always willing to believe what they', correct: 'wish.', wrong: ['fear.', 'know.', 'hear.'] },
-          { start: 'No one is so brave that he is not disturbed by something', correct: 'unexpected.', wrong: ['great.', 'small.', 'known.'] },
-          { start: 'If you must break the law, do it to seize power: in all other cases', correct: 'observe it.', wrong: ['ignore it.', 'enforce it.', 'change it.'] },
-          { start: 'Divide and', correct: 'Conquer.', wrong: ['Rule.', 'Unite.', 'Fight.'] }
+          {
+            // Suetonius, Divus Iulius 37 — the three words sent after Zela (47 BCE)
+            start: 'Suetonius, Divus Iulius (37): After defeating Pharnaces II at Zela in 47 BCE, Caesar reportedly sent the Senate a message of three words:',
+            correct: '"Veni, vidi, vici" — I came, I saw, I conquered.',
+            wrong: ['"Veni, vidi, fugi" — I came, I saw, I fled.', '"Pugnavi, vici, regnavi" — I fought, I conquered, I ruled.', '"Veni, vidi, paci" — I came, I saw, I made peace.']
+          },
+          {
+            // De Bello Gallico 3.18 — on the nature of the Gauls
+            start: 'De Bello Gallico (3.18): Caesar notes that the Gauls are "fickle in their resolves, fond of change, and not to be trusted" — adding that they love new things and',
+            correct: 'are easily excited by rumor to take counsel.',
+            wrong: ['are formidable only in their cavalry.', 'cannot maintain a siege longer than one season.', 'fear the Romans more than their own chiefs.']
+          },
+          {
+            // De Bello Gallico 1.1 — the famous opening
+            start: 'De Bello Gallico (1.1): Caesar opens with the famous line: "Gallia est omnis divisa in partes tres" —',
+            correct: '"All Gaul is divided into three parts."',
+            wrong: ['"All Gaul is united under one people."', '"All Gaul is conquered and at peace."', '"All Gaul is hostile and must be subdued."']
+          },
+          {
+            // De Bello Civili 1.7 — Caesar crosses the Rubicon; his speech to his troops
+            start: 'De Bello Civili (1.7): When crossing the Rubicon (49 BCE), Caesar addressed his troops — reminding them of the injustice done by his enemies and their violation of his',
+            correct: 'tribunician sacrosanctity by driving the tribunes from Rome.',
+            wrong: ['personal honor in denying him a second consulship.', 'legal right to keep his Gallic provinces.', 'agreement with Pompey under the First Triumvirate.']
+          },
+          {
+            // Suetonius, Divus Iulius 82 — Caesar's last words debate
+            start: 'Suetonius, Divus Iulius (82): On the last words of Caesar at his assassination (44 BCE), Suetonius says some reported he said to Brutus in Greek:',
+            correct: '"Kai su, teknon?" — "You too, child?"',
+            wrong: ['"Et tu, Brute?" — the Latin version is from Shakespeare (1599).', '"Sic semper tyrannis" — attributed to Brutus, not Caesar.', '"Roma, Roma" — recorded only in later Byzantine sources.']
+          },
+          {
+            // De Bello Gallico 7.89 — the conclusion of the Gallic Wars (Vercingetorix surrenders)
+            start: 'De Bello Gallico (7.89): Caesar concludes the account of Alesia (52 BCE) with clinical brevity — he describes Vercingetorix riding out and throwing his arms at Caesar\'s feet, and simply says:',
+            correct: '"Caesar selected one prisoner from each tribe, reserving Vercingetorix for his triumph."',
+            wrong: ['"Caesar pardoned all the Gallic chiefs."', '"Caesar wept at the courage of Vercingetorix."', '"Caesar executed Vercingetorix."']
+          },
+          {
+            // De Bello Gallico 5.44 — on Pullo and Vorenus (the real soldiers)
+            start: 'De Bello Gallico (5.44): Caesar describes the rivalry between centurions Pullo and Vorenus — each trying to outdo the other in a skirmish — calling them "men who were always',
+            correct: 'disputing about rank with each other."',
+            wrong: ['"loyal above all to Caesar personally."', '"feared more than any officer in the army."', '"rewarded with the corona civica."']
+          },
+          {
+            // De Bello Gallico 6.13–14 — on the Druids
+            start: 'De Bello Gallico (6.13): Caesar writes that the Druids hold all knowledge secret and commit nothing to writing — using the Greek alphabet only for ordinary purposes. He claims their main teaching concerns',
+            correct: 'the immortality of the soul and its passing from one body to another after death.',
+            wrong: ['the movements of stars and planets.', 'secret alliances between all the Gallic tribes against Rome.', 'sacrificial rituals.']
+          },
+          {
+            // Suetonius, Divus Iulius 44 — Caesar's unrealized plans
+            start: 'Suetonius, Divus Iulius (44): Among Caesar\'s unrealized plans at his death were a campaign against the Parthians, draining the Fucine Lake, a canal through the Isthmus of Corinth, and',
+            correct: 'codifying Roman law into a single body.',
+            wrong: ['founding a new capital city at Alexandria.', 'abolishing the Senate entirely.', 'extending Roman citizenship to all free men in the empire.']
+          },
+          {
+            // De Bello Gallico 3.13 — on men believing what they wish
+            start: 'De Bello Gallico (3.13): Caesar observes, in the context of a Gallic intelligence failure, that "men are inclined to believe what they',
+            correct: 'wish to be true."',
+            wrong: ['"are told by those in authority."', '"fear most in battle."', '"cannot verify through direct observation."']
+          }
         ]
       },
       {
-        name: 'Marcus Aurelius',
+        name: 'Marcus Aurelius (Meditations — Τὰ εἰς ἑαυτόν)',
         emoji: '🛡️',
         quotes: [
-          { start: 'You have power over your mind - not outside events. Realize this, and you will find', correct: 'strength.', wrong: ['peace.', 'wealth.', 'fame.'] },
-          { start: 'Dwell on the beauty of life. Watch the stars, and see yourself running with', correct: 'them.', wrong: ['fate.', 'time.', 'death.'] },
-          { start: 'The happiness of your life depends upon the quality of your', correct: 'thoughts.', wrong: ['actions.', 'wealth.', 'fame.'] },
-          { start: 'Everything we hear is an opinion, not a fact. Everything we see is a perspective, not the', correct: 'truth.', wrong: ['whole.', 'end.', 'goal.'] },
-          { start: 'Waste no more time arguing about what a good man should be.', correct: 'Be one.', wrong: ['wise.', 'rich.', 'strong.'] },
-          { start: 'If you are distressed by anything external, the pain is not due to the thing itself, but to your estimate of it; and this you have the power to revoke at any', correct: 'moment.', wrong: ['cost.', 'price.', 'time.'] },
-          { start: 'When you arise in the morning think of what a privilege it is to be alive, to think, to enjoy, to', correct: 'love', wrong: ['win.', 'rule.', 'fight.'] },
-          { start: 'The best revenge is to be unlike him who performed the', correct: 'injury.', wrong: ['deed.', 'act.', 'wrong.'] },
-          { start: 'The soul becomes dyed with the colour of its', correct: 'thoughts.', wrong: ['fears.', 'desires.', 'actions.'] },
-          { start: 'It is not death that a man should fear, but he should fear never beginning to', correct: 'live.', wrong: ['rule.', 'fight.', 'win.'] }
+          {
+            // Meditations 6.8
+            start: 'Meditations (6.8): "Do not waste the remainder of your life in thoughts about other people, when you are not thinking with reference to some common good. Reflect: how much strength you have already lost by thinking about',
+            correct: 'what others say, do, or think — and why."',
+            wrong: ['"battles not yet fought and enemies not yet named."', '"wealth you have not earned and honors you have not deserved."', '"pleasures of the body rather than exercises of the mind."']
+          },
+          {
+            start: 'Meditations (4.3): "Men seek retreats for themselves in the country, by the sea, on the mountains. But nowhere can a man find a quieter or more untroubled retreat than in his own soul. Constantly give yourself this',
+            correct: 'retreat and renew yourself."',
+            wrong: ['"garden and you will flourish like a plant."', '"sword and you will conquer your fears."', '"emperor\'s command and you will know peace."']
+          },
+          {
+            start: 'Meditations (2.14): "Even if you were to live three thousand years, or thirty thousand, remember that no one loses any other life than the one now being lived; and the longest lived and the earliest to die suffer',
+            correct: 'the same loss.",',
+            wrong: ['"different sorrows according to their station.",', '"loss only if they have not been virtuous.",', '"nothing, for the soul is immortal.",']
+          },
+          {
+            start: 'Meditations (5.8): "The impediment to action advances action. What stands in the way',
+            correct: 'becomes the way."',
+            wrong: ['"must be removed before wisdom can grow."', '"is the sign of the gods testing your virtue."', '"should be avoided by the wise emperor."']
+          },
+          {
+            start: 'Meditations (8.7): "Ask yourself at every moment: \'Is this necessary?\'" — Marcus uses this to eliminate not just unnecessary actions but unnecessary',
+            correct: 'thoughts and words — especially complaints about others.',
+            wrong: ['pleasures that distract the emperor from duty.', 'philosophical questions without practical application.', 'military campaigns that serve ambition rather than defense.']
+          },
+          {
+            start: 'Meditations (9.6): "Injustice is impiety. The wrongdoer does wrong to the universe itself. The wrongdoer injures himself: he makes himself',
+            correct: 'bad.",',
+            wrong: ['"an enemy of the gods.",', '"unfit to rule.",', '"weaker in body and mind.",']
+          },
+          {
+            // Meditations 4.3 — the soul's colour
+            start: 'Meditations (4.3 / 5.16): "The soul becomes dyed with the colour of its',
+            correct: 'thoughts."',
+            wrong: ['"actions in war and peace."', '"relationship to the divine."', '"masters and teachers."']
+          },
+          {
+            // Meditations 2.5 — on being present
+            start: 'Meditations (2.5): "Confine yourself to the present. The longest-lived and the shortest-lived man lose, at death, the same — for the only thing anyone can lose is',
+            correct: 'the present, since no one possesses the past or the future."',
+            wrong: ['"the memory of their good deeds."', '"the wealth accumulated in life."', '"the respect of those who outlive them."']
+          },
+          {
+            // Meditations 11.18 — on those who wrong us
+            start: 'Meditations (11.18): "The best revenge is not to do as they do. The best reply to an unjust man is',
+            correct: 'not to become like him."',
+            wrong: ['"to shame him before the Senate."', '"to forgive him publicly and punish him privately."', '"to record his injustice for history."']
+          },
+          {
+            // Meditations 7.9 — on our power over our own minds
+            start: 'Meditations (7.9): "You have power over your mind, not outside events. Realize this and you will find',
+            correct: 'strength."',
+            wrong: ['"wealth and honor."', '"the path to divine wisdom."', '"freedom from the emperorship."']
+          },
+          {
+            // Meditations 3.4 — on not wasting time arguing
+            start: 'Meditations (3.4): "Waste no more time arguing what a good man should be.',
+            correct: 'Be one."',
+            wrong: ['"Write it down."', '"Teach it to your sons."', '"Demand it of your generals."']
+          },
+          {
+            // Meditations 9.3 — on gratitude
+            start: 'Meditations (9.3): "Receive without pride, relinquish without struggle." This encapsulates Marcus\'s Stoic approach to fortune — accepting prosperity and adversity equally without',
+            correct: 'clinging to either.',
+            wrong: [
+              'attempting to improve one’s character.',
+              'participating in public life.',
+              'obeying the laws of the empire.'
+            ]
+          }
         ]
       },
       {
-        name: 'Tacitus',
+        name: 'Marcus Tullius Cicero (Orations, Letters & Philosophy)',
         emoji: '📜',
         quotes: [
-          { start: 'The more corrupt the state, the more numerous the', correct: 'laws.', wrong: ['rulers.', 'wars.', 'crimes.'] },
-          { start: 'Men are more ready to repay an injury than a benefit, because gratitude is a burden and revenge a', correct: 'pleasure.', wrong: ['duty.', 'need.', 'right.'] },
-          { start: 'If you would know who controls you see who you may not', correct: 'criticise.', wrong: ['praise.', 'trust.', 'serve.'] },
-          { start: 'They have plundered the world, stripping naked the land in their hunger… they are driven by greed, if their enemy be rich; by ambition, if poor… They ravage, they slaughter, they seize by false pretenses, and all of this they hail as the construction of empire. And when in their wake nothing remains but a desert, they call that', correct: 'peace.', wrong: ['victory.', 'glory.', 'justice.'] },
-          { start: 'Viewed from a distance, everything is', correct: 'beautiful.', wrong: ['clear.', 'simple.', 'true.'] },
-          { start: 'To show resentment at a reproach is to acknowledge that one may have deserved', correct: 'it.', wrong: ['praise.', 'honor.', 'reward.'] },
-          { start: 'The desire for safety stands against every great and noble', correct: 'enterprise.', wrong: ['deed.', 'act.', 'victory.'] },
-          { start: 'They make a desolation and call it', correct: 'peace.', wrong: ['victory.', 'empire.', 'justice.'] }
+          {
+            // De Amicitia 6.20 — on gratitude as the greatest virtue
+            start: 'De Amicitia (6.20): "Gratitude is not only the greatest of virtues, but the parent of all',
+            correct: 'others."',
+            wrong: ['"vices when perverted by the powerful."', '"the virtues the Stoics name."', '"the laws of civilized peoples."']
+          },
+          {
+            // Pro Archia Poeta 16 — on the study of the humanities
+            start: 'Pro Archia Poeta (16): "These studies are the food of youth, the delight of old age; they adorn prosperity and afford a refuge and solace in adversity; they delight at home, and are no encumbrance abroad; they abide with us by night, in our travels, in',
+            correct: 'the country."',
+            wrong: ['"the Senate."', '"the forum."', '"the legions."']
+          },
+          {
+            // De Oratore 2.9.36 — historia magistra vitae
+            start: 'De Oratore (2.9.36): "Historia vero testis temporum, lux veritatis, vita memoriae, magistra vitae, nuntia vetustatis" — History is the witness of ages, the light of truth, the life of memory,',
+            correct: 'the teacher of life, the messenger of antiquity.',
+            wrong: ['the weapon of the Senate, the shield of the law.', 'the servant of the orator, the enemy of tyrants.', 'the judge of emperors, the voice of the dead.']
+          },
+          {
+            // Philippics 2.44.113 — on the Ides of March
+            start: 'Philippics (2.44): Cicero openly celebrated Caesar\'s assassination — writing that the Ides of March was "a glorious deed" achieved by men of',
+            correct: 'heroic spirit and resolution.',
+            wrong: ['treasonous cowardice masking personal grudges.', 'philosophical principle without political vision.', 'Stoic detachment.']
+          },
+          {
+            // De Re Publica 1.7.11 — on the duty of citizens
+            start: 'De Re Publica (1.7.11): "Non nobis solum nati sumus, ortusque nostri partem patria vindicat" —',
+            correct: '"We are not born for ourselves alone; our country claims a part of our birth."',
+            wrong: ['"We are born for Rome and must die for her if required."', '"We are born for glory, not for the quiet of private life."', '"We are not born to serve tyrants, for nature made all men free."']
+          },
+          {
+            // Tusculanae Disputationes 1.1.1 — on being ignorant of history
+            start: 'Tusculanae Disputationes (1.1.1): "To be ignorant of what occurred before you were born is to remain always',
+            correct: 'a child.",',
+            wrong: ['"a barbarian.",', '"a slave to rumor.",', '"at the mercy of demagogues.",']
+          },
+          {
+            // In Catilinam 1.1 — the famous opening challenge
+            start: 'In Catilinam (1.1): Cicero opens his first speech against Catiline with: "Quo usque tandem abutere, Catilina, patientia nostra?" —',
+            correct: '"How long, O Catiline, will you abuse our patience?"',
+            wrong: ['"When, O Catiline, will you finally submit to Roman law?"', '"Why, O Catiline, do you still dare to appear in this Senate?"', '"Who, O Catiline, has given you license to plot against Rome?"']
+          },
+          {
+            // De Officiis 1.7.23 — the foundation of justice
+            start: 'De Officiis (1.7.23): Cicero states the first office of justice is to harm no one unless provoked by injustice. The foundation of justice is',
+            correct: 'good faith (fides) — truth and fidelity to promises and agreements.',
+            wrong: ['military strength sufficient to deter wrongdoing.', 'the authority of the Senate to enforce the laws.', 'religion and the fear of the gods watching all deeds.']
+          },
+          {
+            // Pro Milone 11 — silent laws in war
+            start: 'Pro Milone (11): "Silent enim leges inter arma" —',
+            correct: '"In times of war, the laws are silent."',
+            wrong: ['"In times of peace, the laws are supreme."', '"In times of tyranny, the laws are weapons of the powerful."', '"In times of chaos, the laws must be restored by force."']
+          },
+          {
+            // Ad Atticum 4.18 — the garden and the library
+            start: 'Ad Atticum (4.18): Cicero writes to his friend Atticus: "If you have a garden and a library, you have everything you',
+            correct: 'need."',
+            wrong: ['"could want in old age."', '"require for philosophical contemplation."', '"owe to a life of virtue."']
+          }
         ]
       },
       {
-        name: 'Horace',
+        name: 'Tacitus (Annals, Histories & Agricola)',
+        emoji: '📜',
+        quotes: [
+          {
+            // Annals 3.27 — on the proliferation of laws
+            start: 'Annals (3.27): "The most corrupt state has the most',
+            correct: 'laws." (Corruptissima re publica plurimae leges.)',
+            wrong: ['"rulers competing for power."', '"soldiers willing to betray their generals."', '"senators afraid to speak."']
+          },
+          {
+            // Agricola 30 — the Caledonian chieftain Calgacus's speech (Tacitean rhetoric)
+            start: 'Agricola (30): Tacitus puts a speech in the mouth of the Caledonian leader Calgacus: "They make a desolation and call it',
+            correct: 'peace." (Ubi solitudinem faciunt, pacem appellant.)',
+            wrong: ['"victory." (victoriam appellant)', '"empire." (imperium appellant)', '"glory." (gloriam appellant)']
+          },
+          {
+            // Agricola 30 — the fuller passage from Calgacus
+            start: 'Agricola (30): The fuller passage reads: "Robbery, slaughter, rapine, with a false name they call it empire; and where they make a desolation, they call it',
+            correct: 'peace.",',
+            wrong: ['"civilization.",', '"order.",', '"Roman law.",']
+          },
+          {
+            // Annals 1.1 — Tacitus on his own method and impartiality
+            start: 'Annals (1.1): Tacitus opens by stating he will write the history of the early empire "without anger and without partiality" — the famous phrase',
+            correct: '"sine ira et studio."',
+            wrong: ['"cum veritate et fide."', '"ex documentis et memoria."', '"per rationes et exempla."']
+          },
+          {
+            // Histories 1.49 — obituary of Galba: capax imperii
+            start: 'Histories (1.49): Of the murdered emperor Galba, Tacitus writes one of history\'s most devastating obituaries: "capax imperii nisi imperasset" —',
+            correct: '"He seemed capable of ruling — had he not ruled."',
+            wrong: ['"He was worthy of the throne — until he sat upon it."', '"He could have saved Rome — had Rome not first destroyed him."', '"His virtues were real but his reign made them invisible."']
+          },
+          {
+            // Annals 15.44 — the persecution of Christians under Nero
+            start: 'Annals (15.44): Tacitus records that Nero blamed the Great Fire of Rome (64 CE) on "a class hated for their abominations, called Christians by the populace" — adding that their founder',
+            correct: '"Christus" had been executed under Pontius Pilate during the reign of Tiberius.',
+            wrong: ['had fled to Alexandria before the persecution began.', 'was a Jewish agitator expelled from Rome under Claudius.', 'was identified by Tacitus with the philosopher Apollonius of Tyana.']
+          },
+          {
+            // Annals 4.33 — on the value of recording evil as well as good
+            start: 'Annals (4.33): Tacitus argues that history must record the wicked as well as the virtuous, because posterity\'s condemnation is',
+            correct: 'a form of punishment those who fear nothing else must face.',
+            wrong: ['less effective than the exile or execution available to the living.', 'useless since the dead cannot be shamed or reformed.', 'the only justice available to senators under tyranny.']
+          },
+          {
+            // Germania 19 — on German women and marriage
+            start: 'Germania (19): Tacitus praises the Germans (possibly ironically, to shame Roman decadence) — noting that German women are not corrupted by theatres or dinner-parties, and that',
+            correct: 'adultery is extremely rare and punished immediately by the husband.',
+            wrong: ['Roman women could learn much from their chastity and simplicity.', 'German marriages are arranged by druids rather than by families.', 'polygamy is common among German chiefs but unknown among common men.']
+          },
+          {
+            // Annals 6.51 — character study of Tiberius
+            start: 'Annals (6.51): Tacitus\'s closing assessment of Tiberius tracks his moral collapse — "his character and his fortune both changed" as he aged, and he was noble and of good repute early; then reserved and crafty;',
+            correct: 'finally savage, lecherous, and ruthless on Capri.',
+            wrong: [
+              'eventually beloved by the Senate and people alike.',
+              'ultimately transformed into a model philosopher-king.',
+              'later devoted entirely to military reform.'
+            ]
+          },
+          {
+            // Agricola 3 — on surviving tyranny
+            start: 'Agricola (3): Writing under the mild reign of Nerva after Domitian\'s terror, Tacitus reflects: "We have now returned to consciousness, but even Nerva cannot immediately heal everything. It is human nature to hate those',
+            correct: 'whom you have injured."',
+            wrong: ['"who have seen you at your worst."', '"who outlived your cruelty."', '"who were nobler than their circumstances."']
+          }
+        ]
+      },
+      {
+        // PRIMARY SOURCES: Horace, Odes (Carmina), Satires (Saturae), Epistles (Epistulae),
+        name: 'Horace (Odes, Satires & Epistles)',
         emoji: '📖',
         quotes: [
-          { start: 'Pulvis et umbra sumus.', correct: '(We are but dust and shadow.)', wrong: ['(We are eternal.)', '(We are gods.)', '(We conquer all.)'] },
-          { start: 'Carpe diem.', correct: '(Seize the day.)', wrong: ['(Wait for tomorrow.)', '(Live forever.)', '(Fear nothing.)'] },
-          { start: 'Begin, be bold, and venture to be', correct: 'wise.', wrong: ['rich.', 'strong.', 'famous.'] },
-          { start: 'Caelum non animum mutant qui trans mare currunt.', correct: '(They change their sky, not their soul, who rush across the sea.)', wrong: ['(They find new life.)', '(They escape fate.)', '(They become gods.)'] },
-          { start: 'Rule your mind or it will rule', correct: 'you.', wrong: ['the world.', 'fate.', 'others.'] },
-          { start: 'Happy the man, and happy he alone, he who can call today his own: he who, secure within, can say, Tomorrow do thy worst, for I have lived', correct: 'today.', wrong: ['forever.', 'wisely.', 'bravely.'] },
-          { start: 'Pactum serva" - "Keep the', correct: 'faith.', wrong: ['peace.', 'silence.', 'secret.'] },
-          { start: 'Live as brave men; and if fortune is adverse, front its blows with brave', correct: 'hearts.', wrong: ['minds.', 'words.', 'deeds.'] },
-          { start: 'Dimidium facti qui coepit habet: sapere aude" ("He who has begun is half done: dare to', correct: 'know!").', wrong: ['act!', 'win!', 'live!'] },
-          { start: 'he who is greedy is always in', correct: 'want.', wrong: ['power.', 'control.', 'wealth.'] }
+          {
+            // Odes 1.11.8 — carpe diem
+            start: 'Odes (1.11.8): "Dum loquimur, fugerit invida aetas: carpe diem, quam minimum credula postero" —',
+            correct: '"Seize the day, trusting as little as possible in tomorrow."',
+            wrong: ['"Live today, for tomorrow belongs to the gods."', '"Do not waste the morning waiting for the afternoon."', '"Enjoy the present, for the future is always a lie."']
+          },
+          {
+            // Odes 4.7.16 — pulvis et umbra
+            start: 'Odes (4.7.16): "Pulvis et umbra sumus" —',
+            correct: '"We are but dust and shadow."',
+            wrong: ['"We are eternal, as the stars are eternal."', '"We are nothing, and from nothing we came."', '"We are smoke, and the wind carries us away."']
+          },
+          {
+            // Epistles 1.2.40 — rule your mind
+            start: 'Epistles (1.2.40): "Quisquis erit vitae scribam color" — and "Animum rege" —',
+            correct: '"Rule your mind, or it will rule you."',
+            wrong: ['"Train your body, or the mind will weaken."', '"Guard your speech, for words outlast the speaker."', '"Command your desires, or they will command the state."']
+          },
+          {
+            // Epistles 1.2.40 — sapere aude
+            start: 'Epistles (1.2.40): "Dimidium facti qui coepit habet: sapere aude" —',
+            correct: '"He who has begun is half done: dare to know!"',
+            wrong: ['"He who acts without thinking has already failed."', '"He who begins in courage will end in victory."', '"He who dares to speak truth has done more than half."']
+          },
+          {
+            // Odes 3.1.1 — Odi profanum vulgus
+            start: 'Odes (3.1.1): "Odi profanum vulgus et arceo" —',
+            correct: '"I hate the uninitiated crowd and keep them at a distance."',
+            wrong: ['"I despise the mob and fear their power."', '"I shun the common people and seek the company of sages."', '"I hate those who mock the sacred and drive them from the rites."']
+          },
+          {
+            // Epistles 1.11.27 — caelum non animum
+            start: 'Epistles (1.11.27): "Caelum non animum mutant qui trans mare currunt" —',
+            correct: '"Those who rush across the sea change their sky, not their soul."',
+            wrong: ['"Those who travel far gain wisdom they could not find at home."', '"Those who flee their country find only a new prison."', '"Those who sail to foreign lands bring Rome\'s virtues with them."']
+          },
+          {
+            // Odes 3.30.1 — Exegi monumentum
+            start: 'Odes (3.30.1): "Exegi monumentum aere perennius" —',
+            correct: '"I have built a monument more lasting than bronze."',
+            wrong: ['"I have conquered time itself with my verse."', '"I have left the world something the gods cannot destroy."', '"I have made my name eternal through the power of song."']
+          },
+          {
+            // Satires 1.1.106 — est modus in rebus
+            start: 'Satires (1.1.106): "Est modus in rebus, sunt certi denique fines" —',
+            correct: '"There is a measure in things; there are fixed limits beyond which right cannot be found."',
+            wrong: ['"There is moderation in all things, and virtue lies in the middle."', '"There are rules for living well that reason alone can discover."', '"There are limits to what even the gods can demand of mortal men."']
+          },
+          {
+            // Odes 1.22.1 — Integer vitae
+            start: 'Odes (1.22.1): "Integer vitae scelerisque purus non eget Mauris iaculis neque arcu" —',
+            correct: '"The man of upright life and free from crime needs not the Moorish bow nor quiver."',
+            wrong: ['"The man who fears no god has no need of walls or armies."', '"The man of virtue needs no weapons, for virtue is its own shield."', '"The man who honors the gods needs no amulet against his enemies."']
+          },
+          {
+            // Ars Poetica 343 — on the purpose of poetry
+            start: 'Ars Poetica (343): "Aut prodesse aut delectare poetae / aut simul et iucunda et idonea dicere vitae" —',
+            correct: '"Poets aim either to benefit or to delight — or to say at once what is both pleasing and useful."',
+            wrong: ['"Poets serve the gods by preserving ancient stories for the young."', '"Poets exist to praise great men and condemn the wicked."', '"Poets write for glory, but their true reward is the applause of the wise."']
+          }
         ]
       },
       {
-        name: 'Juvenal',
+        // PRIMARY SOURCES: Juvenal, Satires (Saturae) I–XVI. Decimus Junius Juvenalis (c.55–138 CE).
+        // 16 satires survive. Known for savage wit and moral indignation at Roman decadence.
+        name: 'Juvenal (Satires)',
         emoji: '📜',
         quotes: [
-          { start: 'Quis custodiet ipsos custodes?', correct: '(Who will watch the watchers?)', wrong: ['(Who guards the guards?)', '(Who judges the judges?)', '(Who rules the rulers?)'] },
-          { start: 'Never does Nature say one thing and Wisdom', correct: 'another.', wrong: ['the same.', 'lie.', 'contradict.'] },
-          { start: 'Many commit the same crime with a very different result. One bears a cross for his crime; another a', correct: 'crown.', wrong: ['sword.', 'throne.', 'grave.'] },
-          { start: 'The people that once bestowed commands, consulships, legions, and all else, now concerns itself no more, and longs eagerly for just two things: bread and', correct: 'circuses!', wrong: ['gold.', 'power.', 'wars.'] },
-          { start: 'No man becomes bad all at', correct: 'once.', wrong: ['forever.', 'night.', 'day.'] },
-          { start: 'All wish to possess knowledge, but few, comparatively speaking, are willing to pay the', correct: 'price.', wrong: ['debt.', 'toll.', 'fine.'] },
-          { start: 'Sit mens sana in corpore sano', correct: '(a healthy mind in a healthy body)', wrong: ['(a strong body in a strong mind)', '(a wise soul in a wise heart)', '(a pure spirit in a pure form)'] },
-          { start: 'Many suffer from the incurable disease of writing, and it becomes chronic in their sick', correct: 'minds.', wrong: ['hearts.', 'souls.', 'bodies.'] }
+          {
+            // Satires 10.81 — panem et circenses
+            start: 'Satires (10.81): Juvenal describes Rome\'s degenerate populace as no longer caring about politics — now eagerly wanting only two things:',
+            correct: '"Panem et circenses" — bread and circuses.',
+            wrong: ['"Aurum et victoriam" — gold and military victory.', '"Ludum et quietem" — games and rest.', '"Potestatem et pecuniam" — power and money.']
+          },
+          {
+            // Satires 6.347 — Quis custodiet ipsos custodes
+            start: 'Satires (6.347): "Quis custodiet ipsos custodes?" — originally written about wives and their minders, but now universally applied:',
+            correct: '"Who will watch the watchers themselves?"',
+            wrong: ['"Who guards the guards of Rome\'s laws?"', '"Who shall judge those appointed to judge?"', '"Who will protect us from our protectors?"']
+          },
+          {
+            // Satires 10.356 — mens sana in corpore sano
+            start: 'Satires (10.356): "Orandum est ut sit mens sana in corpore sano" —',
+            correct: '"One should pray for a healthy mind in a healthy body."',
+            wrong: ['"One must train both body and mind equally for virtue."', '"The gods grant a healthy soul only to those with a healthy body."', '"A strong body is the foundation on which a strong mind must be built."']
+          },
+          {
+            // Satires 1.30 — difficile est saturam non scribere
+            start: 'Satires (1.30): Juvenal explains his decision to write satire: "difficile est saturam non scribere" —',
+            correct: '"It is difficult not to write satire" — given the vices he witnesses in Rome.',
+            wrong: ['"It is impossible to stay silent before such wickedness."', '"It is dangerous to write satire but more dangerous to stay silent."', '"It is the philosopher\'s duty to record the failures of the powerful."']
+          },
+          {
+            // Satires 8.20 — nobilitas sola est virtus
+            start: 'Satires (8.20): "Nobilitas sola est atque unica virtus" —',
+            correct: '"Virtue is the one and only true nobility."',
+            wrong: ['"The well-born man is obliged to be virtuous."', '"Noble blood is worthless without noble deeds."', '"Only the soldier who conquers has earned the right to call himself noble."']
+          },
+          {
+            // Satires 10.188 — on Alexander the Great's ambition
+            start: 'Satires (10.168–173): On Alexander the Great, Juvenal writes: one world was not enough for the young Macedonian — he chafed within the narrow limits of his earth "like a giant of Gyara or tiny Seriphus." After conquering the world, he would be content with',
+            correct: 'a little coffin.',
+            wrong: ['the quiet of a philosopher\'s garden.', 'marriage to a Persian princess and Persian customs.', 'the city of Alexandria as his permanent throne.']
+          },
+          {
+            // Satires 13.83 — no man becomes bad all at once
+            start: 'Satires (13.83): "Nemo repente fuit turpissimus" —',
+            correct: '"No man becomes utterly wicked all at once."',
+            wrong: ['"No man is born to be corrupt."', '"No evil springs up overnight in the soul."', '"No crime is committed without a long preparation."']
+          },
+          {
+            // Satires 7.155–157 — on the writing disease
+            start: 'Satires (7.51–52): Juvenal describes the compulsion to write: "tenet insanabile multos scribendi cacoethes" —',
+            correct: '"An incurable itch for writing afflicts many."',
+            wrong: ['"An incurable love of fame drives most men to take up the pen."', '"A sickness of excess words infects those who read too much."', '"Writing is a disease that spreads from teacher to pupil.?"']
+          }
         ]
       },
       {
-        name: 'Marcus Tullius Cicero',
+        // PRIMARY SOURCES: Seneca the Younger, Epistulae Morales ad Lucilium (124 letters),
+        name: 'Seneca the Younger (Epistles & Moral Essays)',
         emoji: '📜',
         quotes: [
-          { start: 'A room without books is like a body without a', correct: 'soul.', wrong: ['mind.', 'heart.', 'brain.'] },
-          { start: 'If you have a garden and a library, you have everything you', correct: 'need.', wrong: ['want.', 'desire.', 'seek.'] },
-          { start: 'To be ignorant of what occurred before you were born is to remain always a', correct: 'child.', wrong: ['fool.', 'youth.', 'student.'] },
-          { start: 'In times of war, the law falls silent. Silent enim leges inter', correct: 'arma', wrong: ['pacem.', 'populum.', 'senatum.'] },
-          { start: 'Read at every wait; read at all hours; read within leisure; read in times of labor; read as one goes in; read as one goest out. The task of the educated mind is simply put: read to', correct: 'lead.', wrong: ['learn.', 'grow.', 'know.'] },
-          { start: 'Non nobis solum nati sumus. (Not for ourselves alone are we', correct: 'born.)', wrong: ['made.', 'created.', 'destined.'] },
-          { start: 'If we are not ashamed to think it, we should not be ashamed to', correct: 'say it.', wrong: ['write it.', 'do it.', 'hide it.'] },
-          { start: 'Gratitude is not only the greatest of virtues, but the parent of all', correct: 'others.', wrong: ['evils.', 'sins.', 'vices.'] },
-          { start: 'Friendship improves happiness, and abates misery, by doubling our joys, and dividing our', correct: 'grief.', wrong: ['pain.', 'sorrow.', 'loss.'] }
+          {
+            // Epistulae Morales 1.1 — on time
+            start: 'Epistulae Morales (1.1): "Ita fac, mi Lucili: vindica te tibi" — "Do this, my Lucilius: claim yourself for yourself." Seneca opens his letters with the command to',
+            correct: 'reclaim every hour wasted on other people\'s business.',
+            wrong: ['study philosophy before undertaking any public duty.', 'write daily to a friend, for friendship preserves wisdom.', 'keep a record of every hour spent and every hour wasted.']
+          },
+          {
+            // De Brevitate Vitae 1.1 — it is not that life is short
+            start: 'De Brevitate Vitae (1.1): "Ita est, Pauline carissime: omnia, Lucili, aliena sunt, tempus tantum nostrum est" — more famously: "Non est quod nos existimemus brevis esse vitam" —',
+            correct: '"It is not that we have a short time to live, but that we waste a great deal of it."',
+            wrong: ['"Life is not too short; only our use of it is too slow."', '"We are not given few years, but we squander many of them."', '"Time is our only possession, and we give it away to strangers."']
+          },
+          {
+            // Epistulae Morales 13.4 — suffering more in imagination
+            start: 'Epistulae Morales (13.4): "Plus autem nos terret imaginatio quam res" —',
+            correct: '"We suffer more often in imagination than in reality."',
+            wrong: ['"We dread more than we endure, and endure more than we should."', '"Fear is the anticipation of pain, not pain itself."', '"The coward dies a thousand deaths, the brave man only once."']
+          },
+          {
+            // Epistulae Morales 78.16 — the actual Seneca "luck" quote
+            start: 'Epistulae Morales (78.16): Seneca\'s actual text on fortune reads: "Non esse fortunam in illam causam conlaturos" — arguing that what looks like luck is',
+            correct: 'virtue in disguise — the prepared mind recognizes and uses what chance offers.',
+            wrong: ['the gods rewarding those who sacrifice most correctly.', 'entirely random and no preparation can guarantee it.', 'the reward the Stoic sage earns through lifelong discipline.']
+          },
+          {
+            // Epistulae Morales 77.20 — how good it is
+            start: 'Epistulae Morales (77.20): "Quomodo fabula, sic vita: non quam diu, sed quam bene acta sit, refert" —',
+            correct: '"As a play, so too life: not how long it runs, but how well it is acted, is what matters."',
+            wrong: ['"As a race, so life: not the distance but the speed of the finish."', '"As a battle, so life: not how long it lasts but whether you win."', '"As a poem, so life: not how many lines, but whether they are beautiful."']
+          },
+          {
+            // De Ira 3.42.1 — on anger and delay
+            start: 'De Ira (3.42.1): Seneca writes that the best remedy for anger is',
+            correct: 'delay — "Omnia, Novate, aliena sunt, tempus tantum nostrum est": give the first burst of passion time to exhaust itself.',
+            wrong: ['immediate confrontation — to speak the anger rather than let it fester.', 'exercise — bodily fatigue removes the fuel that feeds rage.', 'solitude — remove yourself from the cause before you speak.']
+          },
+          {
+            // Epistulae Morales 7.3 — on crowds
+            start: 'Epistulae Morales (7.3): "Recede in te ipse quantum potes; cum his versare qui te meliorem acturi sunt" — "Retreat into yourself as much as possible; spend time with those who will make you',
+            correct: 'better.",',
+            wrong: ['"wealthier and more powerful.",', '"respected by the Senate and feared by your enemies.",', '"famous and remembered by posterity.",']
+          },
+          {
+            // De Vita Beata 4 — on true happiness
+            start: 'De Vita Beata (4): "True happiness is to enjoy the present, without anxious dependence upon the future" — Seneca frames this Stoically: happiness comes not from what you have but from',
+            correct: 'the good state of your soul, which no external thing can give or take.',
+            wrong: ['the approval of wise men whose judgment you can trust.', 'the absence of bodily pain combined with mental calm.', 'the daily practice of philosophy combined with honest friendship.']
+          },
+          {
+            // Epistulae Morales 47.1 — on slaves
+            start: 'Epistulae Morales (47.1): In a famous letter on slavery, Seneca urges Lucilius to live on familiar terms with his slaves, saying: "They are slaves. But they are also',
+            correct: 'men. They are slaves. But they share the same shelter, sleep, and table."',
+            wrong: ['"useful. Treat them well and they will serve you better."', '"human by nature if not by fortune; the Stoics know this well."', '"our equals before the gods, whatever the law of Rome may say."']
+          },
+          {
+            // De Brevitate Vitae 12.1 — on time
+            start: 'De Brevitate Vitae (12.1): "Omnia, Lucili, aliena sunt, tempus tantum nostrum est" —',
+            correct: '"Everything, Lucilius, belongs to others; time alone is ours."',
+            wrong: ['"Nothing, Lucilius, is permanent; only wisdom survives death."', '"All things pass, Lucilius; only the words of the wise endure."', '"Wealth and power belong to fortune, Lucilius; virtue alone is yours."']
+          }
         ]
       },
       {
-        name: 'Augustus',
+        // PRIMARY SOURCES: Augustus, Res Gestae Divi Augusti (My Achievements) —
+        name: 'Augustus (Res Gestae & Suetonius)',
         emoji: '🏛️',
         quotes: [
-          { start: 'I found Rome built of bricks; I leave her clothed in', correct: 'marble.', wrong: ['gold.', 'stone.', 'glory.'] },
-          { start: 'Have I have played my part well in the comedy of life? If so, clap your hands and dismiss me from the stage with', correct: 'applause.', wrong: ['tears.', 'silence.', 'honor.'] },
-          { start: 'Festina Lente!!! (Make Haste,', correct: 'Slowly!!', wrong: ['Quickly!!', 'Boldly!!', 'Wisely!!'] },
-          { start: 'If I have played my part well, clap your hands, and dismiss me with applause from the', correct: 'stage.', wrong: ['world.', 'throne.', 'empire.'] },
-          { start: 'At the age of nineteen, on my own initiative and at my own expense, I raised an army by means of which I restored liberty to the republic, which had been oppressed by the tyranny of a', correct: 'faction.', wrong: ['king.', 'senate.', 'people.'] }
+          {
+            // Res Gestae 1.1 — the beginning of his public career
+            start: 'Res Gestae (1.1): "At the age of nineteen, on my own initiative and at my own expense, I raised an army by means of which I restored liberty to the republic, which had been oppressed by the tyranny of a',
+            correct: 'faction."',
+            wrong: ['"king."', '"senate."', '"people."']
+          },
+          {
+            // Res Gestae 34 — the restoration of the republic
+            start: 'Res Gestae (34): Augustus claims that after ending the civil wars, he "transferred the republic from my own power back to the control of the senate and the Roman people" — receiving in return',
+            correct: 'the title Augustus and a golden shield inscribed with his virtues.',
+            wrong: ['the title of dictator, which he refused but used in all but name.', 'the consulship for life, which he exercised with the Senate\'s blessing.', 'the title of king, which he declined but secretly claimed in the east.']
+          },
+          {
+            // Suetonius, Divus Augustus 25 — Festina lente
+            start: 'Suetonius, Divus Augustus (25): Augustus\'s favorite proverbs included the Greek saying "speude bradeos" — rendered in Latin as "festina lente" —',
+            correct: '"Make haste slowly." He believed nothing was worse in a commander than rashness.',
+            wrong: ['"Fortune favors the bold." He used it to justify his crossing of the Rubicon.', '"The gods help those who help themselves." He applied it to his campaigns in Illyricum.', '"A wise leader waits and a bold one strikes." He said this after Actium.']
+          },
+          {
+            // Suetonius, Divus Augustus 28 — marble claim
+            start: 'Suetonius, Divus Augustus (28): Augustus boasted that he "found Rome built of brick and left it clad in',
+            correct: 'marble."',
+            wrong: ['"gold."', '"glory."', '"stone."']
+          },
+          {
+            // Suetonius, Divus Augustus 99 — the deathbed theater metaphor
+            start: 'Suetonius, Divus Augustus (99): On his deathbed, Augustus asked his friends if he had "played the comedy of life well" — and quoted the Greek theatrical formula: "If I have played my part well, give me your applause and dismiss me from the',
+            correct: 'stage."',
+            wrong: ['"throne."', '"world."', '"forum."']
+          },
+          {
+            // Res Gestae 26–33 — on the expansion of empire
+            start: 'Res Gestae (26–33): Augustus lists the peoples he added to the Roman empire and allies he acquired — claiming that he "extended the borders of all the provinces which were bordered by peoples',
+            correct: 'not yet subject to our empire."',
+            wrong: ['"who had dared to resist Rome\'s rightful authority."', '"who threatened the peace of the Mediterranean world."', '"who refused to recognize the authority of the Senate and People."']
+          },
+          {
+            // Suetonius, Divus Augustus 65 — on his family tragedies
+            start: 'Suetonius, Divus Augustus (65): Augustus was devastated by the exile of his daughter Julia and later his granddaughter Julia — reportedly saying that he would rather have been',
+            correct: '"Phoebe\'s father" — referring to a freedwoman who died of shame rather than dishonor him.',
+            wrong: ['a private citizen than the father of such daughters.', 'childless than the father of those who disgraced his name.', 'Tiberius\'s father, since Tiberius at least brought him no scandal.']
+          }
         ]
       },
       {
-        name: 'Seneca',
+        // PRIMARY SOURCES: Livy (Titus Livius), Ab Urbe Condita ("From the Founding of the City"),
+        // 142 books of which 35 survive complete. c.27 BCE – 9 BCE. Covers 753–9 BCE.
+        // NOTE: "It is better to be feared than loved" = Machiavelli (Il Principe, 1532), not Livy.
+        name: 'Livy (Ab Urbe Condita — From the Founding of the City)',
         emoji: '📜',
         quotes: [
-          { start: 'We suffer more often in imagination than in', correct: 'reality.', wrong: ['dreams.', 'truth.', 'silence.'] },
-          { start: 'It is not that we have a short time to live, but that we waste a lot of', correct: 'it.', wrong: ['life.', 'time.', 'opportunity.'] },
-          { start: 'Luck is what happens when preparation meets', correct: 'opportunity.', wrong: ['fate.', 'chance.', 'hard work.'] },
-          { start: 'All cruelty springs from', correct: 'weakness.', wrong: ['strength.', 'power.', 'anger.'] },
-          { start: 'Difficulties strengthen the mind, as labor does the', correct: 'body.', wrong: ['soul.', 'heart.', 'spirit.'] },
-          { start: 'It is not the man who has too little, but the man who craves more, that is', correct: 'poor.', wrong: ['rich.', 'happy.', 'wise.'] },
-          { start: 'Sometimes even to live is an act of', correct: 'courage.', wrong: ['madness.', 'foolishness.', 'weakness.'] },
-          { start: 'True happiness is to enjoy the present, without anxious dependence upon the', correct: 'future.', wrong: ['past.', 'wealth.', 'fame.'] },
-          { start: 'Wherever there is a human being, there is an opportunity for a', correct: 'kindness.', wrong: ['profit.', 'gain.', 'victory.'] },
-          { start: 'He suffers more than necessary, who suffers before it is', correct: 'necessary.', wrong: ['possible.', 'real.', 'true.'] },
-          { start: 'Begin at once to live, and count each separate day as a separate', correct: 'life.', wrong: ['chance.', 'gift.', 'moment.'] },
-          { start: 'Throw me to the wolves and I will return leading the', correct: 'pack.', wrong: ['way.', 'charge.', 'fight.'] },
-          { start: 'As is a tale, so is life: not how long it is, but how good it is, is what', correct: 'matters.', wrong: ['counts.', 'lasts.', 'ends.'] },
-          { start: 'They lose the day in expectation of the night, and the night in fear of the', correct: 'dawn.', wrong: ['day.', 'future.', 'past.'] },
-          { start: 'Every night before going to sleep, we must ask ourselves: what weakness did I overcome', correct: 'today?', wrong: ['yesterday?', 'tomorrow?', 'now?'] },
-          { start: 'The greatest blessings of mankind are within us and within our', correct: 'reach.', wrong: ['grasp.', 'power.', 'control.'] },
-          { start: 'A gem cannot be polished without friction, nor a man perfected without', correct: 'trials.', wrong: ['pain.', 'suffering.', 'effort.'] },
-          { start: 'It does not matter what you bear, but how you bear', correct: 'it.', wrong: ['suffering.', 'hardship.', 'adversity.'] }
+          {
+            // Ab Urbe Condita, Preface 1 — the purpose of history
+            start: 'Ab Urbe Condita (Preface, 1): "This above all is what makes the study of history wholesome and profitable: to behold evidence of every type of human experience on an illuminated monument; from it you may choose for yourself and your country what to',
+            correct: 'imitate, and what, as being foul in its beginning and foul in its outcome, to avoid."',
+            wrong: ['"teach the young, and what to allow the old to forget."', '"preserve in the archives, and what to leave unrecorded for the sake of peace."', '"tell the Senate, and what to conceal from the people."']
+          },
+          {
+            // Ab Urbe Condita 1.18 — on Numa and divine authority
+            start: 'Ab Urbe Condita (1.18): Livy describes how Romulus\'s successor Numa Pompilius introduced religious customs to a warlike people — arguing that no authority was sufficient to enforce law without',
+            correct: 'the fear of the gods.',
+            wrong: ['the terror of punishment at the hands of the king.', 'the loyalty of the army that had elected him.', 'the example of the great founders before him.']
+          },
+          {
+            // Ab Urbe Condita 2.32 — the parable of the belly and the members
+            start: 'Ab Urbe Condita (2.32): Menenius Agrippa reconciles the plebeians with the Senate using the parable of the body — arguing that the senators are like the stomach, which, though it seems to do nothing, distributes nourishment to all the',
+            correct: 'limbs.',
+            wrong: ['gods.', 'soldiers.', 'slaves.']
+          },
+          {
+            // Ab Urbe Condita 22.39 — Fabius Maximus on patience
+            start: 'Ab Urbe Condita (22.39): Livy defends Fabius Maximus "the Delayer" against criticism — arguing that Fabius\'s strategy of avoiding pitched battle with Hannibal showed that',
+            correct: 'cautious delay saves armies that rashness destroys.',
+            wrong: ['a dictator who avoids battle is only gathering strength for one decisive blow.', 'Rome\'s legions were never designed to fight Carthaginian elephants in the open field.', 'the gods reward patience more reliably than they reward bravery.']
+          },
+          {
+            // Ab Urbe Condita 39.6 — on Rome's corruption after Asian luxury
+            start: 'Ab Urbe Condita (39.6): Livy attributes Rome\'s moral decline to the aftermath of the war with Antiochus — writing that the army returning from Asia first introduced to Rome',
+            correct: 'bronze couches, precious coverlets, tapestries, and one-legged tables — "the beginnings of foreign luxury."',
+            wrong: ['the custom of gladiatorial combat, borrowed from Capuan prisoners.', 'the habit of daily bathing, adopted from Greek cities in the south.', 'wine drinking at noon, learned from Macedonian officers.']
+          },
+          {
+            // Ab Urbe Condita Preface 5 — Rome's growth from humble origins
+            start: 'Ab Urbe Condita (Preface, 5): Livy notes he cannot decide whether to feel more pride or sorrow — since Rome grew from the most humble origins to such greatness that it',
+            correct: 'is now suffering from its own size.',
+            wrong: ['has surpassed all the kingdoms of the ancient world combined.', 'has forgotten the virtues that made its rise possible.', 'has no further worlds left to conquer and so turns on itself.']
+          },
+          {
+            // Ab Urbe Condita 6.34 — vices and their cures
+            start: 'Ab Urbe Condita (6.34 — Preface to the second pentad): "nec vitia nostra nec remedia pati possumus" —',
+            correct: '"We can endure neither our vices nor their remedies."',
+            wrong: ['"We complain of our wounds and refuse the physician."', '"We suffer our corruption and despise those who would correct us."', '"We love our chains and curse the men who try to break them."']
+          }
         ]
       },
       {
-        name: 'Livy',
-        emoji: '📜',
-        quotes: [
-          { start: 'The study of history is the best medicine for a sick mind; for in history you have a record of the infinite variety of human experience, plainly set out for all to see; and in that record you can find for yourself and your country both', correct: 'examples and warnings.', wrong: ['teaches us nothing.', 'repeats itself exactly.', 'the present matters.'] },
-          { start: 'We can endure neither our vices nor their', correct: 'cures.', wrong: ['voices.', 'diseases.', 'vices.'] },
-          { start: 'Men are only too apt to forget their own faults when they are busy exposing', correct: 'those of others.', wrong: ['quick to admit their mistakes.', 'on self-improvement.', 'their faults.'] },
-          { start: 'The greatest remedy for anger is', correct: 'delay.', wrong: ['anger.', 'action.', 'revenge.'] },
-          { start: 'A city is well-fortified which has a wall of men instead of', correct: 'brick.', wrong: ['walls.', 'fortifications.', 'weapons.'] },
-          { start: 'It is better to be feared than loved, if you cannot be', correct: 'both.', wrong: ['conquers.', 'a man.', 'kind.'] },
-          { start: 'History is the witness that testifies to the passing of time; it illumines reality, vitalizes memory, provides guidance in daily life, and brings us tidings of', correct: 'antiquity.', wrong: ['history.', 'the past.', 'be forgotten.'] },
-          { start: 'The worst kind of shame is being ashamed of', correct: 'honesty', wrong: ['speaking the truth.', 'showing integrity.', 'doing what is right.'] }
-        ]
-      },
-      {
-        name: 'Ovid',
+        // PRIMARY SOURCES: Ovid, Metamorphoses, Amores, Ars Amatoria, Tristia, Epistulae ex Ponto,
+        // Fasti, Heroides. Publius Ovidius Naso (43 BCE – 17/18 CE).
+        // Exiled to Tomis (modern Constanța, Romania) by Augustus in 8 CE — never returned to Rome.
+        name: 'Ovid (Metamorphoses, Ars Amatoria & Tristia)',
         emoji: '🏛️',
         quotes: [
-          { start: 'Let others praise ancient times; I am glad I was born in', correct: 'these.', wrong: ['those.', 'future.', 'past.'] },
-          { start: 'Chance is always powerful. Let your hook be always cast; in the pool where you least expect it, there will be a', correct: 'fish.', wrong: ['catch.', 'prize.', 'reward.'] },
-          { start: 'Dripping water hollows out stone, not through force but through', correct: 'persistence.', wrong: ['strength.', 'power.', 'speed.'] },
-          { start: 'Be patient and tough; someday this pain will be useful to', correct: 'you.', wrong: ['me.', 'them.', 'all.'] },
-          { start: 'If you want to be loved, be', correct: 'lovable.', wrong: ['rich.', 'strong.', 'wise.'] },
-          { start: 'Courage conquers all things: it even gives strength to the', correct: 'body.', wrong: ['mind.', 'soul.', 'heart.'] },
-          { start: 'Everything changes, nothing', correct: 'perishes.', wrong: ['lasts.', 'dies.', 'ends.'] },
-          { start: 'Happy is the man who has broken the chains which hurt the mind, and has given up worrying once and for', correct: 'all.', wrong: ['now.', 'ever.', 'more.'] }
+          {
+            // Metamorphoses 15.165 — everything changes, nothing perishes
+            start: 'Metamorphoses (15.165): "Omnia mutantur, nihil interit" —',
+            correct: '"Everything changes, nothing perishes."',
+            wrong: ['"Everything ends, nothing is eternal."', '"All things transform into other things and return."', '"Nothing is created or destroyed; all things only change."']
+          },
+          {
+            // Ars Amatoria 1.99 — if you want to be loved, be lovable
+            start: 'Ars Amatoria (2.107): "Si vis amari, ama" — "If you wish to be loved,',
+            correct: 'love."',
+            wrong: ['"be beautiful."', '"be generous."', '"make yourself indispensable."']
+          },
+          {
+            // Tristia 1.3 — the night of his exile
+            start: 'Tristia (1.3): Ovid describes the night he received Augustus\'s order of banishment — he was at home, carelessly working by lamplight, when suddenly',
+            correct: 'a messenger brought the emperor\'s command, and he was left speechless with grief.',
+            wrong: ['armed soldiers arrived at his door and gave him until dawn to leave Rome.', 'his wife discovered the decree and fainted before he could prepare her.', 'he received the news through a letter that Livia herself had sealed.']
+          },
+          {
+            // Metamorphoses 1.5–9 — the opening of creation
+            start: 'Metamorphoses (1.5–9): Ovid describes chaos before creation as "a rude and undeveloped mass, nothing but weight without activity, a heap of the seeds of things not well combined" — before a god (unnamed) gave it',
+            correct: 'form, separating earth, sea, and sky from each other.',
+            wrong: ['life, breathing consciousness into the first creatures of clay.', 'motion, setting the eternal dance of the elements in action.', 'meaning, writing the laws of nature into the fabric of matter.']
+          },
+          {
+            // Ars Amatoria 1.476 — dripping water hollows stone
+            start: 'Ars Amatoria (1.476): "Gutta cavat lapidem" —',
+            correct: '"A drop hollows out stone" — not by force but by falling often.',
+            wrong: ['"The river defeats the mountain" — not by speed but by patience."', '"Water defeats stone" — not through strength but through persistence."', '"Drops wear away the hardest rock" — so perseverance conquers all."']
+          },
+          {
+            // Metamorphoses 1.84–86 — man upright, looking at the stars
+            start: 'Metamorphoses (1.84–86): Ovid describes man as the creature given an upright posture — alone among living things, capable of lifting his face to look at',
+            correct: 'the stars and the heavens.',
+            wrong: ['the gods who made him.', 'other men with dignity.', 'the sun without fear.']
+          },
+          {
+            // Tristia 4.10.26 — the autobiographical poem
+            start: 'Tristia (4.10): Ovid\'s autobiographical elegy — one of the most important surviving ancient autobiographies — opens: "I am he of whom you have read, the playful poet of soft loves, whom you now know by',
+            correct: 'my own injury", referring to his exile.',
+            wrong: ['my Metamorphoses, the greater work that will outlast it."', 'my friend Horace, who taught me to love the short poem."', 'the name my father gave me, the name Augustus took away."']
+          },
+          {
+            // Amores 1.1 — Cupid's intervention
+            start: 'Amores (1.1): Ovid famously opens by explaining he was preparing to write heroic epic in proper meter — when Cupid stole a foot from the second line, forcing him to write',
+            correct: 'elegy instead of epic.',
+            wrong: ['comedy instead of tragedy.', 'love poetry instead of history.', 'satire instead of panegyric.']
+          }
         ]
       },
       {
-        name: 'Pliny the Younger',
+        // PRIMARY SOURCES: Tacitus, Annals 15.62–64 (death of Seneca — eyewitness-level account).
+        // Pliny the Younger, Epistulae (Letters) — 10 books, the gold standard of Roman letters.
+        // Letters include the eyewitness account of the Vesuvius eruption (Ep. 6.16, 6.20).
+        name: 'Pliny the Younger (Epistulae — Letters)',
         emoji: '📜',
         quotes: [
-          { start: 'The true sign of intelligence is not knowledge but', correct: 'imagination.', wrong: ['memory.', 'wealth.', 'power.'] },
-          { start: 'There is nothing to write about, you say. Well then, write and let me know just this – that there is nothing to write about; or tell me in the good old style if you are well. That\'s right. I am quite content.', correct: '', wrong: ['I am unhappy.', 'Everything is exciting.', 'Life is boring.'] },
-          { start: 'An object in possession seldom retains the same charm that it had in', correct: 'pursuit.', wrong: ['it.', 'time.', 'before it becomes worthless.'] },
-          { start: 'The happier a man is, the more he fears the approach of', correct: 'misfortune.', wrong: ['the less he worries.', 'the more he celebrates.', 'the stronger he becomes.'] },
-          { start: 'It is wonderful how the mind is stirred and quickened into activity by brisk bodily', correct: 'exercise.', wrong: ['rest.', 'sleep.', 'idleness.'] }
+          {
+            // Epistulae 6.16 — eyewitness account of Vesuvius eruption (79 CE)
+            start: 'Epistulae (6.16): Pliny describes the eruption of Vesuvius (79 CE) that killed his uncle Pliny the Elder — the cloud rose "like an umbrella pine" from the mountain, its trunk rising high then spreading into',
+            correct: 'branches — now white, now black, now dirty, as it was loaded with earth or ash.',
+            wrong: ['a vast dark curtain that blocked the sun entirely for three days.', 'a pillar of fire that the soldiers on the beach mistook for a signal.', 'spreading arms of flame that turned the sea itself to steam.']
+          },
+          {
+            // Epistulae 6.20 — Pliny and his mother during the eruption
+            start: 'Epistulae (6.20): While his mother urged him to flee and he urged her to do the same, Pliny records that amid the ash-fall and tremors, people in the darkness held hands and cried out, believing',
+            correct: 'the whole world was dying and they were perishing with it.',
+            wrong: ['the gods were angry at Pompeii for its impiety.', 'a new mountain was being born from the sea.', 'the army of Spartacus had returned from the underworld.']
+          },
+          {
+            // Epistulae 10.96 — the famous letter to Trajan about Christians
+            start: 'Epistulae (10.96): Pliny writes to Emperor Trajan asking how to treat Christians — he had interrogated some and found they did nothing worse than meet before dawn, sing hymns to Christ "as to a god," and bind themselves with an oath to',
+            correct: 'commit no crime, fraud, theft, or adultery.',
+            wrong: ['refuse military service and deny the divinity of the emperor.', 'avoid all contact with pagans and refuse civic offices.', 'destroy statues of the Roman gods wherever they found them.']
+          },
+          {
+            // Epistulae 10.97 — Trajan's reply (important for legal history)
+            start: 'Epistulae (10.97): Trajan\'s reply to Pliny on Christians is historically important — he says Christians are not to be sought out; but if brought before the court and convicted,',
+            correct: 'they must be punished — anonymous accusations must not be accepted.',
+            wrong: [
+              'they should automatically be exiled from the empire.',
+              'they must be executed regardless of age or circumstances.',
+              'their property should be confiscated and given to local temples.'
+            ]
+          },
+          {
+            // Epistulae 1.9 — on how to use time at leisure
+            start: 'Epistulae (1.9): Pliny writes to Minicius Fundanus remarking how, when in Rome, his days slip by full of business — but in the country he can read, write, ride, and "feel how great a void',
+            correct: 'foolish business fills in Rome."',
+            wrong: ['"the city creates in a soul that prefers the country."', '"idle talk makes in the life of the educated man."', '"the forum absorbs from every other part of life."']
+          },
+          {
+            // Epistulae 3.5 — on the habits of his uncle Pliny the Elder
+            start: 'Epistulae (3.5): Pliny describes his uncle Pliny the Elder\'s obsessive work habits — reading and being read to at every meal, while bathing, and in the carriage. He never rested without',
+            correct: 'a book in his hand or a reader at his side.',
+            wrong: ['a pen and wax tablet ready for dictation.', 'a secretary recording his observations in shorthand.', 'a lamp burning and a slave prepared to read through the night.']
+          },
+          {
+            // Epistulae 7.9 — on the object in possession
+            start: 'Epistulae (7.9): Pliny writes: "An object in possession seldom retains the same charm that it had in',
+            correct: 'pursuit."',
+            wrong: ['"the marketplace."', '"the imagination."', '"youth."']
+          }
         ]
       },
       {
-        name: 'Suetonius',
+        // PRIMARY SOURCES: Suetonius, De Vita Caesarum ("Lives of the Twelve Caesars").
+        name: 'Suetonius (Lives of the Twelve Caesars)',
         emoji: '📜',
         quotes: [
-          { start: 'He so improved the city that he justly boasted that he found it brick and left it', correct: 'marble.', wrong: ['gold.', 'stone.', 'glory.'] },
-          { start: 'As the Jews were making constant disturbances at the instigation of Chrestus, he expelled them from', correct: 'Rome.', wrong: ['welcomed them.', 'ignored them.', 'rewarded them.'] },
-          { start: 'He used to say that the lot of emperors was most unhappy, since when they discovered a conspiracy, no one believed them unless', correct: 'they had been killed.', wrong: ['everyone believed them.', 'they were always safe.', 'they had no worries.'] },
-          { start: 'He gave orders that no one was to approach him unless he was alone and without his', correct: 'guards.', wrong: ['people.', 'friends in public.', 'friends.'] },
-          { start: 'Beware the Ides of', correct: 'March.', wrong: ['April.', 'June.', 'July.'] }
+          {
+            // Divus Augustus 28 — brick to marble
+            start: 'Divus Augustus (28): Suetonius records Augustus\'s boast that "he found Rome built of brick and left it clothed in',
+            correct: 'marble.",',
+            wrong: ['"gold.",', '"glory.",', '"stone.",']
+          },
+          {
+            // Divus Claudius 25 — the expulsion of Jews from Rome
+            start: 'Divus Claudius (25): "Iudaeos impulsore Chresto assidue tumultuantes Roma expulit" — Claudius expelled Jews from Rome because they were',
+            correct: 'continuously rioting at the instigation of one Chrestus.',
+            wrong: ['refusing to pay the temple tax to the Roman treasury.', 'practicing religious ceremonies banned by the Senate.', 'sheltering runaway slaves in their quarter of the city.']
+          },
+          {
+            // Domitian 3 — the lot of emperors and conspiracies
+            start: 'Domitian (3): Suetonius records Domitian\'s observation: "The lot of princes is most unhappy, since when they discover a conspiracy, no one believes the information until they have been',
+            correct: 'killed.",',
+            wrong: ['"deposed by the army.",', '"tried by the Senate.",', '"exiled to an island.",']
+          },
+          {
+            // Divus Iulius 81 — the soothsayer warning about the Ides (actual wording)
+            start: 'Divus Iulius (81): Suetonius records that a soothsayer warned Caesar to "beware of the day of March called the Ides." On the morning of 15 March, Caesar reportedly said to the soothsayer:',
+            correct: '"The Ides of March have come" — to which the soothsayer replied: "Yes, but they have not yet gone."',
+            wrong: ['"Beware the Ides of March" — Shakespeare\'s version, written in 1599.', '"I have nothing to fear from this day" — Plutarch\'s version in Life of Caesar.', '"The gods protect those who rule by right" — Appian\'s version in Civil Wars.']
+          },
+          {
+            // Nero 16 — on the Christians
+            start: 'Nero (16): Suetonius records among Nero\'s acts (listed neutrally, not as persecutions): "Punishment was inflicted on the Christians, a class of men given to a new and',
+            correct: 'mischievous superstition."',
+            wrong: ['"dangerous political organization threatening public order."', '"foreign cult hostile to Roman gods and ancestral custom."', '"subversive sect whose leader had been executed under Tiberius."']
+          },
+          {
+            // Divus Iulius 37 — the speed of the Pontic campaign
+            start: 'Divus Iulius (37): Suetonius places "veni, vidi, vici" in the context of the Pontic triumph — Caesar wrote these words on a placard carried in the procession "to indicate the speed of the',
+            correct: 'campaign, rather than record its events."',
+            wrong: ['"victory in a dispatch to the Senate."', '"battle of Zela itself in his own memoirs."', '"triumph over Pharnaces II in a letter to Cicero."']
+          },
+          {
+            // Tiberius 42 — Tiberius on Capri
+            start: 'Tiberius (42): Suetonius describes Tiberius\'s retirement to Capri as the beginning of his worst vices — claiming the emperor took to the island boys trained for what Suetonius calls',
+            correct: 'obscene purposes, among other vices he describes with extreme detail.',
+            wrong: ['philosophy and astrology, abandoning public affairs entirely.', 'Epicurean studies and wine, neglecting correspondence with the Senate.', 'the study of Greek tragedy and mythology in isolation from Rome.']
+          }
         ]
       },
       {
-        name: 'Sallust',
+        // PRIMARY SOURCES: Sallust, Bellum Catilinae (The Conspiracy of Catiline),
+        // Bellum Jugurthinum (The Jugurthine War), Historiae (fragments).
+        // Gaius Sallustius Crispus (86–35 BCE). Caesarian politician turned historian.
+        name: 'Sallust (Bellum Catilinae & Bellum Jugurthinum)',
         emoji: '📜',
         quotes: [
-          { start: 'All our power lies in the mind and in the', correct: 'body.', wrong: ['wealth.', 'fame.', 'gods.'] },
-          { start: 'The renown which riches or beauty confer is fleeting and frail; mental excellence is a splendid and', correct: 'lasting possession.', wrong: ['easily lost.', 'worthless.', 'temporary.'] },
-          { start: 'Ambition drove many men to become false; to have one thought locked in the breast,', correct: 'another ready on the tongue.', wrong: ['honest.', 'loyal.', 'brave.'] },
-          { start: 'The man who is most in the right is he who can endure the', correct: 'most wrongs.', wrong: ['least.', 'fewest.', 'none.'] },
-          { start: 'Few men desire liberty; most men wish only for a', correct: 'just master.', wrong: ['tyrant.', 'king.', 'emperor.'] }
+          {
+            // Bellum Catilinae 1.1 — on the preeminence of the mind
+            start: 'Bellum Catilinae (1.1): "Omnis homines, qui sese student praestare ceteris animalibus, summa ope niti decet ne vitam silentio transeant veluti pecora" — Sallust opens by arguing that all men who wish to be superior to animals must strive so that their lives are not spent in',
+            correct: 'silence like cattle.',
+            wrong: ['private luxury without public purpose.', 'fear of the powerful and contempt for the poor.', 'philosophy rather than action.']
+          },
+          {
+            // Bellum Catilinae 1.2 — the excellence of mental virtue
+            start: 'Bellum Catilinae (1.2): "Sed nostra omnis vis in animo et corpore sita est; animi imperio, corporis servitio magis utimur" — "All our power lies in mind and body; we use the mind to command, the body to',
+            correct: 'serve.",',
+            wrong: ['"fight.",', '"suffer.",', '"obey.",']
+          },
+          {
+            // Bellum Catilinae 10 — how peace and wealth corrupted Rome
+            start: 'Bellum Catilinae (10): Sallust identifies the turning point of Roman corruption as the destruction of Carthage (146 BCE) — when fear of external enemies was removed, "the noblest and most distinguished Romans began to transform virtues into',
+            correct: 'vices — pride, avarice, and ambition replaced modesty, fairness, and virtue."',
+            wrong: ['"offices — the great families taking the consulship generation after generation."', '"riches — spending the plunder of the eastern kingdoms on luxury and excess."', '"alliances — bribing foreign kings rather than conquering them."']
+          },
+          {
+            // Bellum Catilinae 54 — Caesar vs. Cato compared
+            start: 'Bellum Catilinae (54): Sallust\'s famous comparison of Caesar and Cato the Younger — Caesar\'s greatness came from his generosity and gifts; Cato\'s from his',
+            correct: 'integrity of life: Caesar was great through giving, Cato through not needing to give.',
+            wrong: ['rhetorical genius: Cato spoke truth; Caesar spoke what his audience wished to hear.', 'lineage: Caesar traced descent from Venus; Cato from the ancient Porcian family.', 'courage in battle: Cato fought at Pharsalus; Caesar fought only through his generals.']
+          },
+          {
+            // Bellum Jugurthinum 10 — on the corruption of the Roman nobles
+            start: 'Bellum Jugurthinum (10): Jugurtha reportedly quipped after bribing his way out of Roman investigation —',
+            correct: '"O venal city, doomed to perish as soon as it finds a purchaser!"',
+            wrong: ['"The Romans sell justice and call it law."', '"Rome is not a city but a marketplace where everything has a price."', '"Your senators are not men but merchants of power."']
+          },
+          {
+            // Bellum Catilinae 20 — Catiline's speech to his conspirators
+            start: 'Bellum Catilinae (20): Sallust\'s Catiline tells his followers that the state is controlled by a few nobles who monopolize honor and wealth, and "few men desire liberty; most men wish only for a',
+            correct: 'just master."',
+            wrong: ['"peaceful life without ambition."', '"share of the plunder their betters enjoy."', '"return to the republic as it was under Scipio."']
+          },
+          {
+            // Bellum Catilinae 8 — on the power of great writers to preserve fame
+            start: 'Bellum Catilinae (8): Sallust reflects that Athens\'s deeds were great but owed their fame to the greatness of its writers — implying that Rome\'s deeds, equally great, were',
+            correct: 'written about by men of mediocre talent and therefore less celebrated.',
+            wrong: ['so numerous that no single writer could contain them.', 'too recent for history to render proper judgment.', 'better preserved in monuments than in literature.']
+          }
         ]
       },
+      {
+        // PRIMARY SOURCES: Virgil, Aeneid, Georgics, Eclogues.
+        // Publius Vergilius Maro (70–19 BCE). Rome's greatest poet; died before finishing the Aeneid.
+        name: 'Virgil (Aeneid & Georgics)',
+        emoji: '🏛️',
+        quotes: [
+          {
+            // Aeneid 2.3 — Aeneas on the fall of Troy
+            start: 'Aeneid (2.3): When asked to tell the story of Troy\'s fall, Aeneas says: "Infandum, regina, iubes renovare dolorem" —',
+            correct: '"You command me, O queen, to revive an unspeakable sorrow."',
+            wrong: ['"You ask me, O queen, to reopen a wound that has barely closed."', '"You urge me, O queen, to tell of sorrows too great for any tongue."', '"You wish me, O queen, to weep again over what cannot be changed."']
+          },
+          {
+            // Aeneid 1.279 — Jupiter's prophecy: imperium sine fine
+            start: 'Aeneid (1.279): Jupiter prophesies to Venus that Rome will receive "imperium sine fine" —',
+            correct: '"Empire without end" — unlimited in time, not just in space.',
+            wrong: ['"Empire without mercy" — the necessary price of universal dominion.', '"Empire without equal" — no nation will ever match its power."', '"Empire without masters" — Rome shall bow to no foreign king."']
+          },
+          {
+            // Aeneid 4.174 — Fama (Rumor)
+            start: 'Aeneid (4.174): Virgil\'s allegorical description of Fama (Rumor/Fame) — a monster that grows as it travels, "small at first through fear, soon she raises herself into the air and walks upon the ground while hiding her head in the',
+            correct: 'clouds."',
+            wrong: ['"heavens."', '"darkness."', '"storm."']
+          },
+          {
+            // Georgics 2.490 — the happy man who knows the causes of things
+            start: 'Georgics (2.490): "Felix qui potuit rerum cognoscere causas" —',
+            correct: '"Happy the man who has been able to learn the causes of things."',
+            wrong: ['"Happy the man who stands apart from the ambitions of the city."', '"Happy the man who has conquered his own passions and desires."', '"Happy the man who was born when Rome was young and virtuous."']
+          },
+          {
+            // Aeneid 2.325 — una salus victis
+            start: 'Aeneid (2.354): "Una salus victis nullam sperare salutem" —',
+            correct: '"The one salvation of the conquered is to hope for no salvation."',
+            wrong: ['"The one strength of the defeated is the courage of despair."', '"The one gift to the fallen is the memory of their glory."', '"The one hope of the lost is that the gods have not abandoned them."']
+          },
+          {
+            // Eclogues 4.6 — the prophecy of a golden age
+            start: 'Eclogues (4.6): The famous "Messianic Eclogue" prophesies: "magnus ab integro saeclorum nascitur ordo" —',
+            correct: '"The great order of the ages is born anew" — a new age and a child who will bring back the golden race.',
+            wrong: ['"The last age of the world arrives as the Sibyls predicted it."', '"A new Rome rises from the ashes of the old as the fates decreed."', '"The long cycle of war and peace begins again as it always has."']
+          }
+        ]
+      },
+      {
+        // PRIMARY SOURCES: Cato the Elder, De Agri Cultura (On Agriculture) — oldest complete
+        // Latin prose text. Also: Plutarch, Life of Cato the Elder; fragments of speeches.
+        // Cato the Younger: Plutarch, Life of Cato the Younger; Sallust, Bellum Catilinae 52–54.
+        name: 'Cato the Elder & Cato the Younger',
+        emoji: '⚔️',
+        quotes: [
+          {
+            // De Agri Cultura, Preface 1 — on the superiority of farming
+            start: 'De Agri Cultura (Preface, 1): Cato the Elder argues that the farmer is the most reliable citizen and the most sturdy soldier — and that from farmers come the best men and',
+            correct: 'the least covetous, and their work is most righteous and most stable.',
+            wrong: ['the most loyal to the Senate and most obedient to the consul.', 'the least corrupted by Greek philosophy and foreign luxury.', 'the most likely to produce virtuous sons worthy of office.']
+          },
+          {
+            // Plutarch, Life of Cato the Elder 21 — on Greek learning
+            start: 'Plutarch, Cato the Elder (21): Cato warned his son that the Greeks were a "corrupt and unruly race" and that if Rome ever received the full infection of Greek literature, it would',
+            correct: 'lose everything.',
+            wrong: ['forget its ancestral virtues within one generation.', 'become a province of Athens in all but name.', 'cease to produce soldiers and produce only philosophers.']
+          },
+          {
+            // Plutarch, Cato the Elder 8 — his definition of an orator
+            start: 'Plutarch, Cato the Elder (8): Cato defined the ideal orator as "vir bonus dicendi peritus" —',
+            correct: '"A good man skilled in speaking."',
+            wrong: ['"A brave man skilled in argument."', '"A Roman man skilled in winning over the mob."', '"A virtuous man who speaks only when justice requires it."']
+          },
+          {
+            // Plutarch, Cato the Younger 68–70 — Cato's death at Utica (46 BCE)
+            start: 'Plutarch, Cato the Younger (68–70): On the night before his suicide at Utica, after Caesar\'s victory, Cato read Plato\'s Phaedo (on the immortality of the soul) twice — then stabbed himself. When the wound was bandaged, he',
+            correct: 'tore out his own bowels rather than live under Caesar\'s pardon.',
+            wrong: ['dictated final letters to Cicero and Brutus before dying at dawn.', 'asked to be carried to the roof to see the sunrise one last time.', 'ordered his servants to carry his body to Rome for a proper funeral.']
+          },
+          {
+            // Sallust, Bellum Catilinae 52 — Cato's speech against leniency for Catilinarians
+            start: 'Sallust, Bellum Catilinae (52): Cato the Younger\'s Senate speech on the Catilinarian conspirators — he mocks those who speak of mercy, saying that Rome has long since lost true names for things: "giving away other men\'s property is called liberality; recklessness in wrongdoing is called',
+            correct: 'courage.",',
+            wrong: ['"justice.",', '"virtue.",', '"leadership.",']
+          },
+          {
+            // Plutarch, Cato the Elder 16 — on ending speeches with Carthage
+            start: 'Plutarch, Cato the Elder (26–27): Cato the Elder reportedly ended all his Senate speeches, regardless of topic, with the phrase:',
+            correct: '"Ceterum censeo Carthaginem esse delendam" — "Furthermore, I think Carthage must be destroyed."',
+            wrong: ['"Ceterum censeo Hannibalem esse capiendum" — "Furthermore, Hannibal must be captured."', '"Delenda est Graecia" — "Greece must be destroyed" — his actual obsession, not Carthage.', '"Carthago deleta est" — he first said this after the destruction of Carthage in 146 BCE.']
+          }
+        ]
+      },
+      {
+        // PRIMARY SOURCES: Lucretius, De Rerum Natura (On the Nature of Things).
+        // Titus Lucretius Carus (c.99–55 BCE). Epicurean philosophy in verse.
+        // Also: Hadrian, poem "Animula vagula blandula" (preserved in Historia Augusta).
+        // Epictetus, Discourses (recorded by Arrian) — Stoic philosopher and former slave.
+        name: 'Lucretius (De Rerum Natura) & Epictetus (Discourses)',
+        emoji: '📖',
+        quotes: [
+          {
+            // De Rerum Natura 1.101 — on religion inspiring evil
+            start: 'De Rerum Natura (1.101): "Tantum religio potuit suadere malorum" — said in the context of Agamemnon sacrificing his daughter Iphigenia at Aulis:',
+            correct: '"To such heights of evil has religion driven men."',
+            wrong: ['"Such is the power of superstition over the ignorant mind."', '"Religion\'s greatest crime is persuading good men to do evil deeds."', '"So much harm has fear of the gods inflicted on the innocent."']
+          },
+          {
+            // De Rerum Natura 1.146 — the light of reason vs. darkness of superstition
+            start: 'De Rerum Natura (1.146): Lucretius dedicates his poem to dispelling religious terror — "hunc igitur terrorem animi tenebrasque necesse est / non radii solis neque lucida tela diei / discutiant, sed naturae species ratioque" —',
+            correct: '"This terror of the mind and darkness must be scattered not by sunlight but by the study of nature and its rational explanation."',
+            wrong: ['"This fear of the gods must be overcome not by argument but by direct experience of the world."', '"This darkness of superstition must be lit not by priests but by philosophy."', '"This terror must be conquered not by courage alone but by understanding of things."']
+          },
+          {
+            // De Rerum Natura 3.1076 — on the fear of death
+            start: 'De Rerum Natura (3.1076): Lucretius argues against the fear of death: "Nil igitur mors est ad nos neque pertinet hilum" —',
+            correct: '"Death therefore is nothing to us and concerns us not at all" — since death is simply the absence of sensation.',
+            wrong: ['"Death is the equal of all men, the end of ambition and fear alike."', '"Death is not to be feared but accepted as the end of nature\'s loan."', '"Death is nothing but the return of the atoms to their eternal dance."']
+          },
+          {
+            // De Rerum Natura 2.1 — Suave mari magno
+            start: 'De Rerum Natura (2.1): "Suave, mari magno turbantibus aequora ventis / e terra magnum alterius spectare laborem" —',
+            correct: '"Sweet it is, when on the great sea the winds trouble the waters, to gaze from land upon another\'s great struggle."',
+            wrong: ['"Sweet the calm of land when the storm tests those who sail."', '"Sweet to watch from safety the battles of men who seek glory."', '"Sweet is peace to those who remember what war costs."']
+          },
+          {
+            // Epictetus, Discourses 1.1 — on what is in our power
+            start: 'Epictetus, Discourses (1.1): Epictetus opens with the distinction that underlies all Stoic practice: "Some things are in our control and others not. In our control are: opinion,',
+            correct: 'impulse, desire, aversion — in short, all that is our own doing.',
+            wrong: ['virtue, courage, and moderation — the so-called cardinal virtues.', 'thought, speech, and action — the three realms of moral choice.', 'will, reason, and memory — the faculties that define humanity.']
+          },
+          {
+            // Epictetus, Discourses 2.16 — on seeking tranquility
+            start: 'Epictetus, Discourses (2.16): "Seek not that the things which happen should happen as you wish; but wish the things which happen to be as they are, and you will have a',
+            correct: 'tranquil flow of life."',
+            wrong: ['"soul free from all passions."', '"mind clear of all disturbance."', '"heart open to whatever the gods send."']
+          },
+          {
+            // Hadrian — Animula vagula blandula (Historia Augusta, Hadrian 25)
+            start: 'Historia Augusta, Hadrian (25): Hadrian\'s reported deathbed poem: "Animula vagula blandula / hospes comesque corporis" —',
+            correct: '"Little soul, gentle and drifting, guest and companion of my body — where will you go now, into what pale and rigid and naked places, unable to play as before?"',
+            wrong: ['"Little soul, friend and partner of my life — do not fear the dark, for darkness has no pain."', '"Little soul that flew through my body — return to the stars from which you fell."', '"Little soul now homeless — find the Elysian Fields that great men inherit."']
+          }
+        ]
+      }
     ]
   },
   {
