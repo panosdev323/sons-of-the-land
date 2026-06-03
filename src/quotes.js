@@ -3213,69 +3213,69 @@ export const CIVILIZATIONS = [
     bg: "#0a0a0a",
     authors: [
       {
-        name: "Chandragupta Maurya (Founder & Military Conquest)",
+        name: "Chandragupta Maurya (As Recorded by Megasthenes & Later Sources)",
         emoji: "👑",
         quotes: [
-          { 
-            start: "I overthrew the Nanda dynasty and established the Maurya Empire by understanding that military victory alone was insufficient—I needed to consolidate power through establishing",
-            "correct": "administrative systems.",
-            "wrong": ["trade routes.", "glass factories.", "mining operations."] 
+          {
+            start: "I overthrew the Nanda dynasty and founded the Maurya Empire by recognizing that military victory required immediate follow-up through",
+            correct: "sound administrative systems.",
+            wrong: ["Greek-style democratic councils.", "purely religious legitimacy.", "nomadic tribal alliances."]
           },
-          { 
-            start: "The establishment of a capital at Pataliputra served to demonstrate Maurya power and to provide a center from which the empire could be",
-            "correct": "administered.",
-            "wrong": ["explored by sea.", "mined for metals.", "woven into cloth."] 
+          {
+            start: "Pataliputra became the imperial capital — a center from which the vast empire could be",
+            correct: "governed and taxed efficiently.",
+            wrong: ["purely religiously celebrated.", "explored by sea expeditions.", "defended from underground."]
           },
-          { 
-            start: "My reliance on Chanakya (also known as Kautilya) as my chief advisor and minister demonstrates that I understood that military power had to be supplemented by political intelligence and",
-            "correct": "administrative skill.",
-            "wrong": ["seafaring ability.", "glass craftsmanship.", "textile knowledge."] 
+          {
+            start: "My reliance on Chanakya showed that military conquest had to be combined with political intelligence and",
+            correct: "ruthless administrative skill.",
+            wrong: ["Buddhist spiritual virtue.", "Greek philosophical learning.", "purely priestly religious authority."]
           },
-          { 
-            start: "The military campaigns that expanded Maurya territory were sustained by the development of an efficient tax collection system that extracted resources from conquered territories, showing that military expansion depended on",
-            "correct": "economic organization.",
-            "wrong": ["poetic composition.", "artistic creation.", "religious conversion."] 
+          {
+            start: "Efficient tax extraction from conquered territories sustained military campaigns — showing that expansion depended on",
+            correct: "economic organization, not just armies.",
+            wrong: ["divine religious blessing alone.", "purely voluntary tributary payments.", "simple agricultural surplus."]
           },
-          { 
-            start: "My later abdication and conversion to Jainism and renunciation of worldly power shows that despite establishing an empire through military conquest and political maneuvering, I came to embrace spiritual values that rejected the",
-            "correct": "violence.",
-            "wrong": ["scholarship.", "commerce.", "architecture."] 
+          {
+            start: "My abdication and conversion to Jainism — ending life as an ascetic — shows that the man who built India's first empire ultimately rejected",
+            correct: "worldly power and violence.",
+            wrong: ["Buddhist philosophical ideas.", "all forms of taxation.", "the city of Pataliputra."]
           }
         ]
       },
       {
-        name: "Chanakya / Kautilya (Political Theory & Strategy)",
+        name: "Chanakya / Kautilya (The Arthashastra)",
         emoji: "📜",
         quotes: [
-          { 
-            start: "The Arthashastra, the political treatise I composed, including the use of spies and deception, demonstrating that I advocated for a pragmatic approach to governance where ethics were secondary to the state's",
-            "correct": "survival.",
-            "wrong": ["ocean navigation.", "artistic creation.", "textile production."] 
+          {
+            start: "The Arthashastra advocates that the ruler use spies, deception, and strategic marriages — a pragmatic view where ethics serve the state's",
+            correct: "survival, not the other way around.",
+            wrong: ["purely spiritual development.", "Greek philosophical ideals.", "Brahmin priestly approval."]
           },
-          { 
-            start: "My recommendation that the ruler maintain an extensive spy network to monitor the behavior of officials, nobles, and the population itself served the purpose of",
-            "correct": "preventing rebellion.",
-            "wrong": ["encouraging trade.", "promoting scholarship.", "advancing agriculture."] 
+          {
+            start: "An extensive spy network monitoring officials and nobles served one clear purpose:",
+            correct: "detecting and preventing rebellion.",
+            wrong: ["encouraging commercial trade.", "promoting Buddhist dharma.", "measuring agricultural yields."]
           },
-          { 
-            start: "My doctrine of the Mandala (circle of states)—understanding neighboring kingdoms as potential allies or enemies based on strategic position—reflects the realistic understanding that alliances and rivalries were determined by",
-            "correct": "strategic interest.",
-            "wrong": ["shared poetry.", "common cuisine.", "mutual art forms."] 
+          {
+            start: "The Mandala doctrine — classifying neighbors as natural enemies and enemies' enemies as natural allies — reflects the insight that alliances are determined by",
+            correct: "strategic position, not friendship.",
+            wrong: ["shared religious traditions.", "common cultural heritage.", "mutual artistic tastes."]
           },
-          { 
-            start: "My advocacy for the ruler to employ all methods of statecraft—conciliation, gifts, creation of discord, and force—shows that I believed that a successful ruler must be willing to use any tool available to maintain power and achieve",
-            "correct": "state objectives.",
-            "wrong": ["artistic perfection.", "religious enlightenment.", "scholarly achievement."] 
+          {
+            start: "Advising rulers to use conciliation, gifts, discord, and force as needed shows that successful governance requires",
+            correct: "flexibility, not rigid moral principle.",
+            wrong: ["purely military coercion.", "exclusively diplomatic negotiation.", "absolute religious observance."]
           },
-          { 
-            start: "The practical political advice I provided to Chandragupta, including how to gain power, consolidate rule, and manage the kingdom, demonstrates that I understood that political theory must be grounded in practical considerations of",
-            "correct": "power and survival.",
-            "wrong": ["ocean voyages.", "glass manufacturing.", "textile craftsmanship."] 
+          {
+            start: "The Arthashastra's emphasis on economic prosperity as the foundation of military power reflects the insight that",
+            correct: "armies require funded treasuries.",
+            wrong: ["poetry inspires greater loyalty.", "religious faith replaces material wealth.", "trade always causes political instability."]
           },
-          { 
-            start: "My emphasis on the importance of economic prosperity, achieved through taxation and trade regulation, shows that I recognized that military power and political authority depended ultimately on",
-            "correct": "economic resources.",
-            "wrong": ["poetic talent.", "artistic skill.", "religious piety."] 
+          {
+            start: "Chanakya's advice on preventing ministers from accumulating independent power reflects his core belief that the greatest threat to any ruler comes from",
+            correct: "powerful subordinates, not foreign enemies.",
+            wrong: ["ordinary peasant farmers.", "Buddhist religious monks.", "Silk Road merchant caravans."]
           }
         ]
       },
@@ -3283,40 +3283,40 @@ export const CIVILIZATIONS = [
         name: "Ashoka the Great (Transformation & Moral Governance)",
         emoji: "☸️",
         quotes: [
-          { 
-            start: "My bloody conquest of Kalinga, which brought an estimated 100,000 deaths and caused widespread suffering, led me to renounce aggressive expansion and embrace Buddhism and the concept of",
-            "correct": "Dhamma.",
-            "wrong": ["ocean navigation.", "mining wealth.", "glass craftsmanship."] 
+          {
+            start: "The Kalinga war killed an estimated 100,000 people — a scale of destruction that transformed me from a conquering emperor into",
+            correct: "an advocate of non-violence.",
+            wrong: ["a purely military strategist.", "an opponent of all taxation.", "a worshipper of Brahmin gods."]
           },
-          { 
-            start: "The transformation from a ruler who extended Maurya territory through conquest to one who renounced aggressive expansion is documented in my edicts inscribed on rocks and pillars",
-            "correct": "across the empire.",
-            "wrong": ["in foreign lands.", "on ocean vessels.", "beneath mountains."] 
+          {
+            start: "My edicts — inscribed on rocks and pillars across the subcontinent — are among the earliest surviving examples of a ruler addressing",
+            correct: "his subjects directly in their own languages.",
+            wrong: ["purely foreign diplomatic audiences.", "only the Brahmin priestly class.", "exclusively military commanders."]
           },
-          { 
-            start: "My adoption and promotion of Buddhism and Dhamma (righteousness/morality) as the foundation of imperial policy served multiple purposes: creating a new ideology of rule and connecting the Maurya Empire to a",
-            "correct": "broader spiritual tradition.",
-            "wrong": ["maritime trade network.", "mining operation.", "military conquest."] 
+          {
+            start: "Adopting Buddhism and promoting Dhamma served both spiritual and political purposes — creating an imperial ideology that emphasized",
+            correct: "moral conduct over military glory.",
+            wrong: ["military conquest as sacred duty.", "Brahmin ritual supremacy.", "purely economic productivity."]
           },
-          { 
-            start: "My establishment of the position of Dhammamahattas (officers of Dhamma) throughout the empire to promote moral conduct and ensure justice shows that I believed that imperial authority could be exercised through promoting",
-            "correct": "virtue and moral conduct.",
-            "wrong": ["military weapons.", "artistic monuments.", "commercial profit."] 
+          {
+            start: "Dhammamahattas — officers of moral righteousness — were posted across the empire to promote justice and ethical conduct, showing that I tried to govern through",
+            correct: "institutional virtue, not just fear.",
+            wrong: ["purely military garrisons.", "Brahmin priestly networks.", "commercial tax collectors."]
           },
-          { 
-            start: "My promotion of religious tolerance, demonstrates that I understood that an empire ruling over diverse populations required acknowledging and respecting different",
-            "correct": "religious traditions.",
-            "wrong": ["ocean routes.", "mining techniques.", "textile methods."] 
+          {
+            start: "Tolerating multiple religious traditions — Buddhism, Jainism, Brahmanism, Ajivikas — while personally following Buddhism showed that",
+            correct: "pragmatic tolerance serves imperial unity.",
+            wrong: ["all religions are identical in content.", "personal faith must match state religion.", "Buddhist dharma requires eliminating rivals."]
           },
-          { 
-            start: "The edicts I inscribed, which survive to the present day, serve as the primary historical evidence for my reign and show that I used official inscriptions to communicate my ideology, define imperial policy, and create a permanent record of",
-            "correct": "my principles.",
-            "wrong": ["military victories.", "seafaring exploits.", "mining wealth."] 
+          {
+            start: "My edicts survive today on at least 33 rock and pillar inscriptions — making them our primary evidence for Maurya governance and showing that",
+            correct: "stone outlasts even the greatest empires.",
+            wrong: ["Ashoka personally carved every inscription.", "the Arthashastra is a fictional text.", "Greek sources are more reliable than Indian."]
           },
-          { 
-            start: "My renunciation of aggressive expansion, while reducing military glory and territorial growth, allowed the Maurya Empire to consolidate control over existing territories and to focus on",
-            "correct": "internal development.",
-            "wrong": ["ocean exploration.", "glass manufacturing.", "textile innovation."] 
+          {
+            start: "Renouncing aggressive expansion allowed the empire to consolidate what it held while focusing resources on",
+            correct: "roads, hospitals, and welfare.",
+            wrong: ["further military conquest.", "accumulating personal treasury wealth.", "building ocean trading fleets."]
           }
         ]
       },
@@ -3324,30 +3324,30 @@ export const CIVILIZATIONS = [
         name: "Maurya Administrative System & Governance",
         emoji: "⚖️",
         quotes: [
-          { 
-            start: "The Maurya administrative system, established by Chanakya and refined by subsequent emperors, was based on a centralized government with appointed officials responsible for collecting taxes, administering justice, and",
-            "correct": "maintaining order.",
-            "wrong": ["ocean navigation.", "mining operations.", "glass production."] 
+          {
+            start: "Chanakya's administrative system centered on appointed officials extracting taxes, administering justice, and",
+            correct: "maintaining internal order.",
+            wrong: ["conducting ocean trade.", "composing religious texts.", "producing artistic monuments."]
           },
-          { 
-            start: "The division of the empire into provinces (mahajanapadas), each governed by appointed officials, allowed the center to maintain control while delegating",
-            "correct": "administrative responsibilities.",
-            "wrong": ["military weapons.", "artistic creation.", "poetic composition."] 
+          {
+            start: "Dividing the empire into provinces governed by appointed officials allowed central control while delegating",
+            correct: "day-to-day administrative authority.",
+            wrong: ["purely military command decisions.", "religious temple management.", "artistic production oversight."]
           },
-          { 
-            start: "The Maurya taxation system extracted resources from the agricultural base of the empire, with the state claiming a share of production and collecting customs duties on",
-            "correct": "trade.",
-            "wrong": ["ocean voyages.", "mountain expeditions.", "desert pilgrimages."] 
+          {
+            start: "The state claimed roughly one-sixth of agricultural production in taxation — funding the military and administration while leaving",
+            correct: "some surplus for farmers.",
+            wrong: ["farmers completely impoverished.", "no revenue for the central state.", "merchants bearing the entire burden."]
           },
-          { 
-            start: "The maintenance of an extensive network of spies, as advocated by Chanakya, served to",
-            "correct": "prevent rebellion.",
-            "wrong": ["encourage commerce.", "promote scholarship.", "advance agriculture."] 
+          {
+            start: "Standardized weights, measures, and currency across the empire enabled commerce and administration — showing that governance efficiency requires",
+            correct: "consistent systems across diverse regions.",
+            wrong: ["eliminating all local customs.", "purely religious legal codes.", "nomadic tribal organization."]
           },
-          { 
-            start: "The development of a standardized system of weights and measures and administrative procedures shows that the Maurya Empire understood that efficient administration required standardization and the development of consistent systems that could",
-            "correct": "be applied across diverse regions.",
-            "wrong": ["destroy local customs.", "eliminate regional identity.", "suppress cultural traditions."] 
+          {
+            start: "The spy network described in the Arthashastra monitored officials as well as the population — demonstrating that the state distrusted",
+            correct: "its own administrators as much as enemies.",
+            wrong: ["ordinary Buddhist monks.", "foreign Greek ambassadors.", "Silk Road merchant caravans."]
           }
         ]
       },
@@ -3355,30 +3355,30 @@ export const CIVILIZATIONS = [
         name: "Maurya Military Organization & Conquest",
         emoji: "⚔️",
         quotes: [
-          { 
-            start: "The Maurya military, described by classical sources as numbering in the hundreds of thousands of infantry, cavalry, and war elephants, was organized under a central command structure that allowed for coordination across",
-            "correct": "vast distances.",
-            "wrong": ["ocean currents.", "mountain peaks.", "desert sandstorms."] 
+          {
+            start: "Greek ambassador Megasthenes described a Maurya army of 600,000 infantry, 30,000 cavalry, and 9,000 elephants — numbers suggesting",
+            correct: "the largest military force of its era.",
+            wrong: ["a small tribal raiding party.", "a purely ceremonial palace guard.", "a defensive force only."]
           },
-          { 
-            start: "Chandragupta's military campaigns, which extended Maurya territory from the Deccan to much of northern India, were sustained by the combination of military skill, strategic alliances with local rulers, and the wealth extracted from",
-            "correct": "conquered territories.",
-            "wrong": ["ocean voyages.", "mining operations.", "glass factories."] 
+          {
+            start: "Chandragupta's military success combined battlefield skill, strategic alliances with local rulers, and wealth extracted from",
+            correct: "previously conquered regions.",
+            wrong: ["purely religious donations.", "Greek mercenary payments.", "Buddhist monastery treasuries."]
           },
-          { 
-            start: "Ashoka's conquest of Kalinga, described in his edicts as causing massive destruction and suffering, demonstrates that even when military force was successful in conquest, it could create moral and",
-            "correct": "practical problems.",
-            "wrong": ["artistic opportunities.", "scholarly advancement.", "poetic inspiration."] 
+          {
+            start: "Ashoka's Kalinga edict describes the war's horror — an unusually honest royal admission that conquest causes",
+            correct: "suffering that cannot be undone.",
+            wrong: ["inevitable glory and reward.", "purely administrative challenges.", "no moral consequences."]
           },
-          { 
-            start: "The use of war elephants by Maurya forces gave them advantages in certain types of warfare but also created vulnerabilities because elephants could be frightened and turned against",
-            "correct": "their own forces.",
-            "wrong": ["ocean routes.", "merchant ships.", "textile mills."] 
+          {
+            start: "War elephants gave tactical advantages but could be turned by fire or sharp obstacles — making them",
+            correct: "powerful but dangerously unpredictable.",
+            wrong: ["perfectly reliable in all terrain.", "effective only against Greek armies.", "useless against infantry formations."]
           },
-          { 
-            start: "The maintenance of Maurya military dominance required continuous military spending and the stationing of garrisons in",
-            "correct": "conquered territories.",
-            "wrong": ["Arctic regions.", "oceanic islands.", "glass workshops."] 
+          {
+            start: "Maintaining garrisons across conquered territories was expensive — a financial drain that contributed to",
+            correct: "the empire's eventual fiscal strain.",
+            wrong: ["increased agricultural productivity.", "greater trade route security.", "stronger provincial loyalty."]
           }
         ]
       },
@@ -3386,25 +3386,25 @@ export const CIVILIZATIONS = [
         name: "Maurya Economy & Infrastructure",
         emoji: "💰",
         quotes: [
-          { 
-            start: "The Maurya economy was based primarily on agricultural taxation, supplemented by customs duties on trade and the production of state monopoly goods like salt, requiring that the empire develop systems to extract resources from the",
-            "correct": "agricultural population.",
-            "wrong": ["ocean explorers.", "mountain hermits.", "desert nomads."] 
+          {
+            start: "Agricultural taxation supplemented by trade duties and state monopolies on salt and mining provided the empire's revenue — all ultimately resting on",
+            correct: "the labor of rural peasant farmers.",
+            wrong: ["ocean exploration profits.", "purely military plunder.", "Buddhist monastery donations."]
           },
-          { 
-            start: "The construction of roads, wells, and other infrastructure during the Maurya period served multiple purposes: facilitating trade and administration, demonstrating imperial power, and providing tangible benefits to the",
-            "correct": "population.",
-            "wrong": ["merchant ships.", "military weapons.", "artistic sculptures."] 
+          {
+            start: "Roads, rest houses, and wells built across the empire served trade and administration — but also demonstrated that",
+            correct: "infrastructure is a tool of imperial control.",
+            wrong: ["Maurya rulers were purely altruistic.", "military conquest requires no logistics.", "trade was secondary to religious ritual."]
           },
-          { 
-            start: "The development of standardized currency allowed merchants to conduct commerce across long distances, facilitating trade and providing the state with customs revenue, showing that economic development served both private merchants and",
-            "correct": "the state.",
-            "wrong": ["ocean pirates.", "mountain bandits.", "forest hunters."] 
+          {
+            start: "Standardized coinage enabled long-distance commerce across the subcontinent — providing merchants reliable exchange and",
+            correct: "the state predictable customs revenue.",
+            wrong: ["purely decorative royal display.", "Buddhist religious ceremony needs.", "Greek-style democratic economic policy."]
           },
-          { 
-            start: "The Maurya control of the Silk Road trade routes connecting India to Central Asia and China brought wealth to the empire through customs duties and the availability of",
-            "correct": "foreign goods.",
-            "wrong": ["military weapons.", "religious artifacts.", "artistic masterpieces."] 
+          {
+            start: "Maurya control of routes connecting India to Persia and Central Asia brought foreign goods and customs revenue — showing that",
+            correct: "trade route control multiplies state power.",
+            wrong: ["military conquest always beats trade.", "India had no desirable exports.", "Silk Road trade began with the Mughals."]
           }
         ]
       },
@@ -3412,30 +3412,30 @@ export const CIVILIZATIONS = [
         name: "Chanakya's Political Philosophy & The Arthashastra",
         emoji: "📜",
         quotes: [
-          { 
-            start: "The Arthashastra, the treatise I authored, presented a system of governance based on the principle of artha (material prosperity and power), advocating that the ruler should pursue wealth and security through",
-            "correct": "whatever means were effective.",
-            "wrong": ["ocean navigation.", "mining operations.", "glass manufacturing."] 
+          {
+            start: "The Arthashastra's central principle of artha — material prosperity and power — places governance in a pragmatic tradition that treats morality as",
+            correct: "a tool of statecraft, not its foundation.",
+            wrong: ["the supreme guide to all decisions.", "irrelevant to any governance question.", "identical to Greek democratic ideals."]
           },
-          { 
-            start: "My extensive discussion of the use of spies, the manipulation of alliances, and the use of deception shows that I believed that successful governance required the ruler to be willing to use intelligence, deception, and manipulation as",
-            "correct": "tools of statecraft.",
-            "wrong": ["artistic pursuits.", "religious rituals.", "poetic composition."] 
+          {
+            start: "Detailed instructions on spying, seducing enemy ministers, and spreading discord among rivals show that Chanakya viewed statecraft as fundamentally",
+            correct: "amoral and results-oriented.",
+            wrong: ["purely spiritual and dharmic.", "identical to Buddhist teaching.", "based on Brahmin priestly codes."]
           },
-          { 
-            start: "My analysis of the relationship between the ruler and his ministers emphasizes that the ruler must be careful to prevent his ministers from accumulating",
-            "correct": "too much power.",
-            "wrong": ["insufficient wealth.", "scholarly knowledge.", "artistic talent."] 
+          {
+            start: "Chanakya's warning that rulers must prevent ministers from becoming too powerful predates Machiavelli by 1,800 years — suggesting that the problem of",
+            correct: "dangerous subordinates is universal.",
+            wrong: ["democracy is always preferable.", "empires never face internal threats.", "loyalty can be purchased permanently."]
           },
-          { 
-            start: "My emphasis on the importance of the ruler's personal security, including food tasting to prevent poisoning and careful selection of advisors, reflects my understanding that rulers faced constant threats from",
-            "correct": "potential assassins.",
-            "wrong": ["ocean merchants.", "mountain hermits.", "desert traders."] 
+          {
+            start: "Advice on food tasting and bodyguard selection reflects Chanakya's belief that the ruler's greatest vulnerability was",
+            correct: "betrayal from within the palace.",
+            wrong: ["foreign military invasion.", "Buddhist philosophical challenges.", "agricultural tax resistance."]
           },
-          { 
-            start: "The Arthashastra's discussion of different types of government and the selection of the best form for different circumstances shows that I believed that governance should be pragmatic and adapted to",
-            "correct": "local conditions.",
-            "wrong": ["universal principles.", "unchanging traditions.", "absolute ideals."] 
+          {
+            start: "The Arthashastra's pragmatic flexibility — adapting governance to local conditions — contrasts with the rigid universal principles found in",
+            correct: "Platonic or Confucian political philosophy.",
+            wrong: ["all of Buddhist teaching.", "Ashoka's own edicts.", "purely military tactical manuals."]
           }
         ]
       },
@@ -3443,51 +3443,51 @@ export const CIVILIZATIONS = [
         name: "Maurya Decline & Legacy",
         emoji: "📜",
         quotes: [
-          { 
-            start: "The decline of the Maurya Empire in the 2nd century BCE came from multiple factors: the rise of regional powers challenging central authority, the withdrawal of elite support, and the loss of control over",
-            "correct": "distant provinces.",
-            "wrong": ["ocean currents.", "mountain peaks.", "desert sandstorms."] 
+          {
+            start: "Maurya decline in the 2nd century BCE came from overextension, rising regional powers, and the erosion of central authority over",
+            correct: "distant peripheral provinces.",
+            wrong: ["purely religious disagreements.", "Buddhist monastic resistance.", "Greek military invasion."]
           },
-          { 
-            start: "The assassination of Brihadratha, the last Maurya emperor, by his general Pushyamitra Shunga demonstrates that even a large, well-organized empire could be overthrown when central authority",
-            "correct": "weakened.",
-            "wrong": ["strengthened.", "expanded.", "flourished."] 
+          {
+            start: "Pushyamitra Shunga's assassination of the last Maurya emperor — his own general — demonstrates that",
+            correct: "military commanders eventually become threats.",
+            wrong: ["Buddhist dharma prevents violence.", "Chanakya's advice was always followed.", "dynastic succession is always peaceful."]
           },
-          { 
-            start: "The legacy of the Maurya Empire included the establishment of the first large Indian empire, the development of sophisticated administrative systems, the promotion of Buddhism and",
-            "correct": "moral governance.",
-            "wrong": ["ocean navigation.", "mining technology.", "glass production."] 
+          {
+            start: "Ashoka's edicts — surviving on 33 inscriptions across South Asia — represent the most direct documentary evidence of ancient Indian governance, predating",
+            correct: "almost all other Indian historical records.",
+            wrong: ["the Arthashastra by many centuries.", "the existence of the Maurya Empire.", "all forms of Indian literature."]
           },
-          { 
-            start: "The edicts of Ashoka, inscribed on rocks and pillars throughout the empire, represent the primary historical evidence for his reign and demonstrate that Ashoka used official inscriptions to communicate his",
-            "correct": "ideology.",
-            "wrong": ["maritime routes.", "military tactics.", "textile patterns."] 
+          {
+            start: "The Maurya Empire's legacy includes the first pan-Indian political unity, sophisticated administration, promotion of Buddhism, and",
+            correct: "the Arthashastra as political theory.",
+            wrong: ["ocean maritime dominance.", "the invention of zero.", "building the Taj Mahal."]
           },
-          { 
-            start: "The study of the Maurya Empire, based on sources including the Arthashastra, classical Greek and Roman accounts, archaeological evidence, and the edicts of Ashoka, reveals that the empire was a",
-            "correct": "sophisticated state.",
-            "wrong": ["primitive settlement.", "nomadic tribe.", "isolated village."] 
+          {
+            start: "The study of the Maurya Empire — through Greek accounts, archaeological sites, coins, and Ashoka's edicts — demonstrates that ancient India produced",
+            correct: "sophisticated statecraft comparable to any civilization.",
+            wrong: ["only religious and spiritual texts.", "purely mythological narratives.", "no interest in governance theory."]
           }
         ]
       },
       {
-        name: "Bindusara (Transition & Consolidation)",
+        name: "Bindusara (Consolidation & International Recognition)",
         emoji: "👑",
         quotes: [
-          { 
-            start: "My role as Chandragupta's successor required that I consolidate the gains he had made while managing the political complexities of maintaining such a large empire, which required continuing the administrative systems established by",
-            "correct": "my father.",
-            "wrong": ["ocean explorers.", "mining operations.", "glass manufacturers."] 
+          {
+            start: "Inheriting Chandragupta's empire required maintaining administrative systems while managing the political challenge of",
+            correct: "preventing noble fragmentation.",
+            wrong: ["purely ocean exploration.", "converting all subjects to Jainism.", "building Greek-style temples."]
           },
-          { 
-            start: "My reign saw the expansion of Maurya trade relationships with distant powers, including the Seleucid Kingdom and Egypt, demonstrating that the Maurya Empire under my rule was recognized as a major regional power and a valuable",
-            "correct": "trading partner.",
-            "wrong": ["seafaring nation.", "mining colony.", "textile producer."] 
+          {
+            start: "Bindusara maintained trade and diplomatic relations with the Seleucid kingdom and Egypt — showing that Maurya India was recognized as",
+            correct: "a major civilized power.",
+            wrong: ["a purely isolated subcontinent.", "inferior to Hellenistic kingdoms.", "uninterested in foreign contact."]
           },
-          { 
-            start: "The succession struggle following my death, which saw my son Ashoka defeat his rivals to become emperor, demonstrates that even within the royal family, succession was contested and that the strongest contender had to prove his",
-            "correct": "worth.",
-            "wrong": ["artistic talent.", "poetic ability.", "scholarly knowledge."] 
+          {
+            start: "The succession struggle after Bindusara's death — Ashoka reportedly killing rival brothers — illustrates that Maurya succession was",
+            correct: "violent, not ceremonially peaceful.",
+            wrong: ["determined by democratic election.", "always decided by the eldest son.", "governed by Buddhist dharma alone."]
           }
         ]
       },
@@ -3495,25 +3495,25 @@ export const CIVILIZATIONS = [
         name: "Maurya Society & Social Structure",
         emoji: "🏛️",
         quotes: [
-          { 
-            start: "Maurya society was organized into distinct classes: the royal family and nobility, priests and scholars, merchants and craftspeople, farmers and laborers, and enslaved persons, because this hierarchy allowed for",
-            "correct": "specialization.",
-            "wrong": ["ocean navigation.", "mining production.", "glass manufacturing."] 
+          {
+            start: "The varna hierarchy — royalty, Brahmins, merchants, farmers, enslaved persons — concentrated power while providing",
+            correct: "specialized roles for all groups.",
+            wrong: ["complete social equality.", "purely military organization.", "Greek-style democratic councils."]
           },
-          { 
-            start: "The role of the Brahmin priesthood in Maurya society included ritual specialists, advisors to the king, and repositories of knowledge, though their power was somewhat reduced under Ashoka's promotion of",
-            "correct": "Buddhism.",
-            "wrong": ["seafaring exploration.", "military conquest.", "textile production."] 
+          {
+            start: "Brahmin priests served as royal advisors and repositories of legal and ritual knowledge — but their power was challenged by Ashoka's promotion of",
+            correct: "Buddhism as an alternative authority.",
+            wrong: ["ocean maritime culture.", "purely military governance.", "Greek philosophical schools."]
           },
-          { 
-            start: "The status of merchants and craftspeople in Maurya society, while lower than the nobility and priesthood, was important because they generated wealth through trade and production that was",
-            "correct": "taxed by the state.",
-            "wrong": ["abandoned by rulers.", "forbidden by law.", "ignored entirely."] 
+          {
+            start: "Merchants and craftspeople generated taxable wealth — making them economically essential while remaining",
+            correct: "politically subordinate to the nobility.",
+            wrong: ["the empire's actual rulers.", "exempt from all taxation.", "opponents of imperial authority."]
           },
-          { 
-            start: "Women in Maurya society, particularly those of elite status, held some influence through their relationships with male",
-            "correct": "relatives.",
-            "wrong": ["ocean voyages.", "mining operations.", "military campaigns."] 
+          {
+            start: "Megasthenes observed that Maurya society had no widespread chattel slavery — a distinction from the Mediterranean world that suggests",
+            correct: "Indian labor systems differed significantly.",
+            wrong: ["India had no social hierarchy.", "all people were equally free.", "Maurya law was identical to Roman."]
           }
         ]
       },
@@ -3521,20 +3521,20 @@ export const CIVILIZATIONS = [
         name: "Buddhist Influence & Ashoka's Dhamma",
         emoji: "☸️",
         quotes: [
-          { 
-            start: "Ashoka's adoption and promotion of Buddhism transformed the Maurya Empire by establishing Dhamma as the foundation of imperial ideology, which served to create a new framework for imperial legitimacy that emphasized moral conduct rather than",
-            "correct": "only military conquest.",
-            "wrong": ["ocean navigation.", "mining operations.", "glass production."] 
+          {
+            start: "Ashoka's Dhamma was not pure Buddhism but a simplified ethical code promoting non-violence, respect, and charity — designed to appeal across",
+            correct: "religious and social boundaries.",
+            wrong: ["only Buddhist monastic communities.", "purely the Brahmin priestly class.", "exclusively Greek philosophical schools."]
           },
-          { 
-            start: "The promotion of religious tolerance under Ashoka, including the patronage of multiple religions, demonstrates that I understood that an empire ruling over diverse populations required respecting different",
-            "correct": "religious traditions.",
-            "wrong": ["seafaring routes.", "mining techniques.", "textile crafts."] 
+          {
+            start: "Sending Buddhist missionaries to Sri Lanka, Central Asia, and possibly Egypt shows that Ashoka understood",
+            correct: "soft power can extend an empire's influence.",
+            wrong: ["military conquest is always necessary.", "Buddhism spread only through conquest.", "Sri Lanka was part of the Maurya Empire."]
           },
-          { 
-            start: "The edicts of Ashoka promoting moral conduct, including the prohibition of animal slaughter during certain periods, show that I believed that imperial authority could be exercised through promoting",
-            "correct": "virtue and moral conduct.",
-            "wrong": ["military weapons.", "architectural monuments.", "commercial trade."] 
+          {
+            start: "Prohibiting animal slaughter on royal holidays and limiting the royal hunt showed Ashoka's personal Buddhist values influencing",
+            correct: "actual state policy — not just rhetoric.",
+            wrong: ["purely court ceremonial practices.", "Brahmin ritual requirements.", "Silk Road trade regulations."]
           }
         ]
       }
@@ -3549,33 +3549,33 @@ export const CIVILIZATIONS = [
     bg: "#0a0a0a",
     authors: [
       {
-        name: "Akbar the Great (Expansion & Administrative Reform)",
+        name: "Akbar the Great (As Recorded in the Akbarnama)",
         emoji: "👑",
         quotes: [
-          { 
-            start: "I consolidated the Mughal Empire by recognizing that ruling over diverse populations required that religious tolerance and administrative efficiency could coexist, allowing Hindu subjects to maintain their traditions while accepting",
-            "correct": "Mughal authority.",
-            "wrong": ["ocean navigation.", "mining operations.", "glass production."] 
+          {
+            start: "I ruled over a population that was 80% Hindu — making tolerance not just moral policy but a practical necessity for maintaining",
+            correct: "stable Mughal authority.",
+            wrong: ["purely religious purity.", "a small tribal confederation.", "a purely Muslim empire."]
           },
-          { 
-            start: "The abolition of the jizya (tax on non-Muslims) that I implemented demonstrated that I understood that fair taxation that did not discriminate based on religion could increase revenue and reduce resentment among",
-            "correct": "subject populations.",
-            "wrong": ["seafaring merchants.", "mountain hermits.", "desert nomads."] 
+          {
+            start: "Abolishing the jizya tax on non-Muslims reduced resentment and increased revenue by bringing more subjects into willing compliance — showing that",
+            correct: "fairness can be fiscally smart.",
+            wrong: ["religious taxes always maximize revenue.", "discrimination strengthens empires.", "Hindu subjects never paid taxes."]
           },
-          { 
-            start: "The establishment of the mansabdari system—assigning military ranks and land grants based on merit—showed that I believed that military organization required clear hierarchies and incentives for loyalty based on performance rather than",
-            "correct": "purely on birth.",
-            "wrong": ["ocean wealth.", "mining skill.", "artistic talent."] 
+          {
+            start: "The mansabdari system assigned military ranks and land grants based on performance rather than birth — creating incentives for loyalty grounded in",
+            correct: "merit rather than heritage.",
+            wrong: ["purely religious devotion.", "Greek-style democratic election.", "hereditary noble privilege."]
           },
-          { 
-            start: "My collection of the 'Navaratnas' (Nine Gems)—including Abul Fazl, Todar Mal, and Birbal—demonstrated that I understood that a diverse group of talented administrators, scholars, and advisors could strengthen the empire through their",
-            "correct": "specialized knowledge.",
-            "wrong": ["military weapons.", "seafaring abilities.", "glass craftsmanship."] 
+          {
+            start: "My Nine Gems — Abul Fazl, Todar Mal, Birbal, Tansen, and others — showed that diverse talents in administration, finance, and arts could",
+            correct: "strengthen an empire simultaneously.",
+            wrong: ["replace military power entirely.", "eliminate the need for taxation.", "make religious policy irrelevant."]
           },
-          { 
-            start: "The military campaigns that expanded Mughal territory under my rule were possible because I organized the empire to extract resources efficiently through a centralized tax system administered by the",
-            "correct": "diwani (financial minister).",
-            "wrong": ["ocean admiral.", "mining foreman.", "glass manufacturer."] 
+          {
+            start: "Efficient tax collection through the diwani system funded military campaigns and building projects — demonstrating that conquest required",
+            correct: "sound administrative foundations.",
+            wrong: ["purely divine blessing.", "simple brute military force.", "no organizational infrastructure."]
           }
         ]
       },
@@ -3583,82 +3583,82 @@ export const CIVILIZATIONS = [
         name: "Akbar's Religious Policy & Tolerance",
         emoji: "🕌",
         quotes: [
-          { 
-            start: "My policy of religious tolerance, including the abolition of discriminatory taxes and the patronage of Hindu temples and Christian missions, served to reduce",
-            "correct": "religious conflict.",
-            "wrong": ["ocean navigation.", "mining production.", "textile manufacturing."] 
+          {
+            start: "Patronizing Hindu temples, hosting Christian missionaries, and abolishing discriminatory taxes reduced religious conflict while positioning Akbar as",
+            correct: "ruler of all Indians equally.",
+            wrong: ["a secret convert to Hinduism.", "an enemy of Islamic orthodoxy.", "purely a military conqueror."]
           },
-          { 
-            start: "The creation of a Hindu-Muslim administrative partnership, with Hindus and Muslims serving together in the bureaucracy, showed that I believed that competence and loyalty were more important than religious identity in",
-            "correct": "selecting administrators.",
-            "wrong": ["sailing ships.", "forging weapons.", "harvesting crops."] 
+          {
+            start: "Placing Hindus and Muslims together in the bureaucracy based on competence — not religion — showed that administrative efficiency mattered more than",
+            correct: "religious identity in governance.",
+            wrong: ["military conquest outcomes.", "architectural monument quality.", "poetic composition skill."]
           },
-          { 
-            start: "My establishment of the 'Din-i Ilahi' (Divine Faith), which combined elements of various religions and emphasized loyalty to the emperor, demonstrates that I attempted to create a",
-            "correct": "unifying ideology.",
-            "wrong": ["naval fleet.", "mining operation.", "glass factory."] 
+          {
+            start: "The Din-i Ilahi combined elements of Islam, Hinduism, Zoroastrianism, and Christianity — an attempt to create",
+            correct: "an imperial unifying ideology.",
+            wrong: ["a replacement for all religions.", "a purely personal philosophy.", "a new military religion."]
           },
-          { 
-            start: "The limited success of the Din-i Ilahi, despite imperial patronage, shows that even an emperor's attempt to create a new religion faced resistance and that deep religious commitments of the population could not be easily replaced by",
-            "correct": "imperial ideology.",
-            "wrong": ["ocean routes.", "military weapons.", "artistic styles."] 
+          {
+            start: "The Din-i Ilahi attracted only about 18 followers despite imperial patronage — showing that even emperors cannot easily replace",
+            correct: "deeply held religious commitments.",
+            wrong: ["commercial trading interests.", "architectural preferences.", "military tactical choices."]
           }
         ]
       },
       {
-        name: "Shah Jahan (Architectural Grandeur & Military Campaigns)",
+        name: "Shah Jahan (Builder Emperor & Political Prisoner)",
         emoji: "🏛️",
         quotes: [
-          { 
-            start: "My construction of the Taj Mahal as a mausoleum for Mumtaz Mahal, my beloved wife, represented an extraordinary commitment of resources (estimated to have taken 22 years and 20,000 workers) that served to demonstrate Mughal",
-            "correct": "wealth and power.",
-            "wrong": ["maritime navigation.", "mining technology.", "glass craftsmanship."] 
+          {
+            start: "The Taj Mahal — built over 22 years by 20,000 workers for his wife Mumtaz Mahal — represents both extraordinary love and the",
+            correct: "colossal cost of imperial vanity.",
+            wrong: ["cheapest Mughal building project.", "purely military defensive structure.", "a simple garden tomb."]
           },
-          { 
-            start: "The construction of numerous other architectural projects—including mosques, palaces, and gardens—required the extraction of vast resources from the empire, which ultimately contributed to",
-            "correct": "financial strain.",
-            "wrong": ["artistic flourishing.", "military advancement.", "agricultural prosperity."] 
+          {
+            start: "Shah Jahan's massive building program produced magnificent monuments but created",
+            correct: "severe financial strain on the treasury.",
+            wrong: ["increased agricultural productivity.", "stronger military frontier defenses.", "improved trade route security."]
           },
-          { 
-            start: "My military campaigns, which initially expanded Mughal territory in the Deccan, demonstrated military power but also created the pattern of expensive military campaigns that would weaken the empire by",
-            "correct": "draining the treasury.",
-            "wrong": ["encouraging trade.", "promoting scholarship.", "advancing technology."] 
+          {
+            start: "Moving the capital to the new city of Shahjahanabad diverted enormous resources — a symbolic assertion of power that weakened the empire's",
+            correct: "military and fiscal capacity.",
+            wrong: ["artistic production quality.", "textile manufacturing output.", "ocean trade connections."]
           },
-          { 
-            start: "My decision to shift the capital from Agra to Delhi and to construct the new city of Shahjahanabad was justified as a assertion of power and a new beginning, but it also diverted enormous resources that could have been used for",
-            "correct": "military defense.",
-            "wrong": ["ocean exploration.", "textile production.", "glass manufacturing."] 
+          {
+            start: "Shah Jahan was imprisoned by his son Aurangzeb and spent his last years under house arrest viewing the Taj Mahal — showing that imperial succession was",
+            correct: "often violent and ruthless.",
+            wrong: ["always peaceful and ceremonial.", "determined by popular vote.", "decided by Islamic scholars."]
           }
         ]
       },
       {
-        name: "Aurangzeb (Orthodoxy & Overextension)",
+        name: "Aurangzeb (Orthodox Conqueror & Empire Overextender)",
         emoji: "⚖️",
         quotes: [
-          { 
-            start: "My reversal of Akbar's policies of religious tolerance, including the reimposition of the jizya and destruction of Hindu temples, was justified by my interpretation of",
-            "correct": "Islamic law.",
-            "wrong": ["ocean navigation.", "mining techniques.", "textile craftsmanship."] 
+          {
+            start: "Reimposing the jizya and destroying Hindu temples reversed Akbar's tolerance — alienating the Hindu majority and",
+            correct: "fueling resistance across the empire.",
+            wrong: ["strengthening Mughal military power.", "increasing agricultural tax revenue.", "uniting all Muslims behind Mughal rule."]
           },
-          { 
-            start: "My military campaigns in the Deccan, aimed at conquering the Maratha kingdoms and consolidating Mughal control, lasted decades and required enormous resources that left the empire vulnerable to invasion and unable to respond effectively to",
-            "correct": "external threats.",
-            "wrong": ["artistic pursuits.", "poetic composition.", "glass production."] 
+          {
+            start: "The Deccan campaigns against the Marathas lasted 27 years — consuming resources, troops, and Aurangzeb's personal attention while",
+            correct: "the empire frayed at its edges.",
+            wrong: ["the treasury grew steadily larger.", "northern defenses strengthened.", "Hindu-Muslim relations improved."]
           },
-          { 
-            start: "My reign saw the greatest territorial extent of the Mughal Empire, but also the beginning of its",
-            "correct": "decline.",
-            "wrong": ["prosperity.", "expansion.", "unification."] 
+          {
+            start: "Aurangzeb's reign reached the greatest Mughal territorial extent — but simultaneously began its",
+            correct: "irreversible structural decline.",
+            wrong: ["most stable administrative period.", "greatest religious tolerance era.", "peak of architectural achievement."]
           },
-          { 
-            start: "My religious orthodoxy, also alienated the Hindu population and other non-Muslim groups, creating grievances that contributed to the gradual weakening of Mughal authority reducing the legitimacy of Mughal rule among large segments of the population and",
-            "correct": "provoking rebellions.",
-            "wrong": ["encouraging trade.", "promoting scholarship.", "advancing agriculture."] 
+          {
+            start: "The Jat, Rajput, Sikh, and Maratha rebellions during Aurangzeb's reign shared a common cause — resistance to",
+            correct: "religious discrimination and heavy taxation.",
+            wrong: ["purely personal grievances.", "Aurangzeb's building projects.", "his restrictions on poetry."]
           },
-          { 
-            start: "The Mughal Empire's difficulties in the latter part of my reign—including the Jat and Maratha rebellions—demonstrated that even the greatest emperor could not indefinitely maintain an empire built on extraction and",
-            "correct": "religious discrimination.",
-            "wrong": ["maritime exploration.", "mining wealth.", "textile innovation."] 
+          {
+            start: "Aurangzeb's personal piety — he copied Qurans and made prayer caps to earn money — coexisted with brutal political methods, showing that",
+            correct: "personal virtue and political violence can coexist.",
+            wrong: ["religious rulers are always merciful.", "Islamic law prevents political violence.", "piety guarantees administrative success."]
           }
         ]
       },
@@ -3666,30 +3666,30 @@ export const CIVILIZATIONS = [
         name: "Mughal Administrative System & Bureaucracy",
         emoji: "⚖️",
         quotes: [
-          { 
-            start: "The Mughal administrative system, required that the emperor maintain a careful balance between rewarding loyal supporters and ensuring that no individual noble became powerful enough to challenge",
-            "correct": "imperial authority.",
-            "wrong": ["ocean navigation.", "mining operations.", "textile production."] 
+          {
+            start: "The emperor balanced rewarding supporters and preventing any single noble from accumulating enough power to",
+            correct: "challenge the throne.",
+            wrong: ["trade with foreign merchants.", "build private temples.", "compose rival poetry."]
           },
-          { 
-            start: "The role of the diwani (financial administrator), who oversaw the collection of taxes and the administration of revenue, was essential because the empire's military power and architectural projects required enormous resources that had to be extracted efficiently from",
-            "correct": "the agricultural heartland and through taxation of merchants and other subjects.",
-            "wrong": ["Arctic expeditions.", "maritime exploration.", "glass manufacturing."] 
+          {
+            start: "The diwani extracted roughly one-third of agricultural production from peasants — funding the empire's military and monuments while leaving",
+            correct: "most farmers at subsistence level.",
+            wrong: ["peasants wealthy and prosperous.", "rural areas largely untaxed.", "merchants bearing the main burden."]
           },
-          { 
-            start: "The taxation system established under Akbar and maintained by his successors extracted approximately one-third of agricultural production from peasants, which meant that the empire was built on the labor of",
-            "correct": "peasant farmers.",
-            "wrong": ["ocean pirates.", "mountain hermits.", "forest hunters."] 
+          {
+            start: "Akbar's administrative genius was including Hindu Rajput nobles as mansabdars — creating stakeholders in Mughal success who provided",
+            correct: "military forces and regional loyalty.",
+            wrong: ["purely ceremonial court prestige.", "textile production expertise.", "ocean navigation knowledge."]
           },
-          { 
-            start: "The administrative reliance on Hindu bureaucrats and military officers, particularly under Akbar, created a system where Hindus and Muslims",
-            "correct": "worked together.",
-            "wrong": ["remained isolated.", "fought constantly.", "avoided contact."] 
+          {
+            start: "Later Mughal governors retained taxes rather than remitting them to Delhi — a form of administrative decay that",
+            correct: "financially hollowed out central power.",
+            wrong: ["strengthened provincial governance.", "increased overall tax collection.", "improved local service delivery."]
           },
-          { 
-            start: "The corruption that developed in the later Mughal period, as provincial governors and nobles extracted more wealth than they were supposed to remit to the center, weakened imperial finances by reducing the revenue available to the",
-            "correct": "central government.",
-            "wrong": ["Arctic settlements.", "oceanic ports.", "mountain fortresses."] 
+          {
+            start: "The Ain-i Akbari documented every aspect of Mughal administration — a comprehensive record showing that Akbar understood",
+            correct: "knowledge of the state is power.",
+            wrong: ["poetry mattered more than governance.", "religious law replaced civil law.", "merchants ran the empire secretly."]
           }
         ]
       },
@@ -3697,25 +3697,25 @@ export const CIVILIZATIONS = [
         name: "Mughal Military Organization & Campaigns",
         emoji: "⚔️",
         quotes: [
-          { 
-            start: "The Mughal military, organized into cavalry units (particularly the elite Mansabdars' forces), infantry, and artillery, was effective against medieval Indian opponents but faced increasing challenges from external forces and from",
-            "correct": "the Marathas.",
-            "wrong": ["Arctic tribes.", "oceanic merchants.", "desert nomads."] 
+          {
+            start: "Mughal cavalry and artillery dominated medieval Indian opponents but faced growing challenges from the Marathas' guerrilla warfare and",
+            correct: "European-armed coastal powers.",
+            wrong: ["Arctic tribal invasions.", "Chinese naval forces.", "Egyptian military technology."]
           },
-          { 
-            start: "The use of artillery and gunpowder by Mughal forces gave them significant advantages in siege warfare and in pitched battles against opponents with less",
-            "correct": "advanced military technology.",
-            "wrong": ["poetic talent.", "artistic skill.", "agricultural knowledge."] 
+          {
+            start: "Artillery and gunpowder gave Mughal forces decisive advantages in siege warfare over opponents who lacked",
+            correct: "comparable weapons technology.",
+            wrong: ["poetic court culture.", "agricultural management skills.", "textile production expertise."]
           },
-          { 
-            start: "The campaigns in the Deccan against the Maratha kingdoms under Aurangzeb, which lasted for decades, demonstrated that even with superior military organization, the costs of military campaigns could exceed the benefits gained from",
-            "correct": "conquest.",
-            "wrong": ["poetry composition.", "textile production.", "glass manufacturing."] 
+          {
+            start: "Aurangzeb's Deccan campaigns lasted decades — demonstrating that military dominance cannot indefinitely compensate for",
+            correct: "unwinnable guerrilla resistance.",
+            wrong: ["insufficient agricultural taxation.", "absence of court poetry.", "poor glass manufacturing."]
           },
-          { 
-            start: "The naval weakness of the Mughal Empire, despite control of coastal regions, meant that the empire could not effectively resist European naval powers—Portuguese, Dutch, and later British, showing that the Mughal Empire, was vulnerable to",
-            "correct": "sea-based threats.",
-            "wrong": ["desert invasions.", "mountain tribes.", "forest raiders."] 
+          {
+            start: "Mughal naval weakness meant that Portuguese, Dutch, and British maritime powers could establish coastal footholds that would eventually",
+            correct: "undermine Mughal territorial sovereignty.",
+            wrong: ["improve Mughal textile exports.", "increase Mughal pilgrimage revenues.", "strengthen Mughal diplomatic ties."]
           }
         ]
       },
@@ -3723,25 +3723,25 @@ export const CIVILIZATIONS = [
         name: "Mughal Culture & Intellectual Achievement",
         emoji: "📚",
         quotes: [
-          { 
-            start: "The Mughal patronage of Persian literature, architecture, music, and visual arts created a cosmopolitan culture that synthesized Islamic, Hindu, and",
-            "correct": "Persian traditions.",
-            "wrong": ["Arctic customs.", "oceanic practices.", "volcanic beliefs."] 
+          {
+            start: "Mughal court culture synthesized Persian literary tradition, Islamic geometry, Hindu visual iconography, and Indian music — creating",
+            correct: "a genuinely new hybrid civilization.",
+            wrong: ["purely Persian imitation art.", "exclusively Islamic architecture.", "simple tribal folk traditions."]
           },
-          { 
-            start: "The establishment of the court of Akbar as a center of intellectual discussion, demonstrates that intellectual achievement could be supported by royal patronage even when the patron himself lacked",
-            "correct": "formal education.",
-            "wrong": ["military weapons.", "trading goods.", "agricultural land."] 
+          {
+            start: "Akbar — who was likely illiterate — ran one of history's most intellectually vibrant courts, showing that",
+            correct: "patronage matters more than personal learning.",
+            wrong: ["illiteracy always limits rulers.", "scholars need no royal support.", "court culture is purely decorative."]
           },
-          { 
-            start: "The composition of the Akbarnama by Abul Fazl, serves both as a historical record and as propaganda that presents Akbar's rule in the most favorable light, reflect the perspectives of their authors and",
-            "correct": "patrons.",
-            "wrong": ["mining operations.", "seafaring routes.", "glass factories."] 
+          {
+            start: "The Akbarnama presents Akbar as nearly divine — reminding us that court histories are",
+            correct: "propaganda as much as record.",
+            wrong: ["completely objective accounts.", "always confirmed by archaeology.", "neutral administrative documents."]
           },
-          { 
-            start: "The synthesis of Hindi and Persian (creating Hindustani) and the composition of devotional poetry by both Hindu and Muslim poets shows that cultural creativity flourished when different traditions could interact and",
-            "correct": "influence each other.",
-            "wrong": ["destroy one another.", "remain isolated.", "become extinct."] 
+          {
+            start: "Hindi and Persian blending created Hindustani — the ancestor of modern Urdu and Hindi — showing that linguistic fusion can produce",
+            correct: "enduring new cultural forms.",
+            wrong: ["the extinction of both languages.", "purely elite court jargon.", "temporary pidgin trade language."]
           }
         ]
       },
@@ -3749,30 +3749,25 @@ export const CIVILIZATIONS = [
         name: "Mughal Economy & Trade",
         emoji: "💰",
         quotes: [
-          { 
-            start: "The Mughal Empire's economy was based primarily on agricultural taxation, which provided the foundation for military and",
-            "correct": "administrative expenses.",
-            "wrong": ["ocean exploration.", "arctic expeditions.", "glass manufacturing."] 
+          {
+            start: "Agricultural taxation provided roughly 80% of Mughal revenue — making the empire's grandeur dependent on",
+            correct: "the labor of rural peasant farmers.",
+            wrong: ["ocean trade monopolies.", "underground mining operations.", "urban merchant guilds primarily."]
           },
-          { 
-            start: "The Mughal control of key trade routes connecting India to Central Asia and the maritime trade routes to the Indian Ocean gave the empire significant revenue through customs duties and",
-            "correct": "taxation of merchants.",
-            "wrong": ["piracy operations.", "mining activities.", "textile production."] 
+          {
+            start: "Indian cotton textiles were so prized in Europe that Britain eventually banned their import to protect domestic manufacturers — showing Mughal India was",
+            correct: "a global manufacturing powerhouse.",
+            wrong: ["technologically backward in textiles.", "dependent on European cloth imports.", "unable to compete internationally."]
           },
-          { 
-            start: "The Mughal Empire at its peak generated enormous wealth that supported military forces, and architectural projects, but this wealth extraction meant that the peasant majority of the population lived at subsistence levels with",
-            "correct": "little surplus.",
-            "wrong": ["great abundance.", "considerable wealth.", "abundant resources."] 
+          {
+            start: "Mughal banking instruments like hundis (bills of exchange) enabled long-distance commerce — demonstrating a financial sophistication that went well beyond",
+            correct: "simple barter or coin exchange.",
+            wrong: ["Greek-style democratic economics.", "purely religious charity systems.", "nomadic gift exchange traditions."]
           },
-          { 
-            start: "The development of Mughal banking and credit systems, shows that the Mughal economy was sophisticated enough to support commercial instruments beyond",
-            "correct": "simple barter.",
-            "wrong": ["ocean navigation.", "military conquest.", "artistic creation."] 
-          },
-          { 
-            start: "The decline of Mughal revenue in the 18th century, as provincial governors increasingly retained taxes rather than remitting them to the center, demonstrates that the system of centralized revenue collection depended on the",
-            "correct": "willingness of provincial officials to comply.",
-            "wrong": ["discovery of new metals.", "invention of new crops.", "mastery of seafaring."] 
+          {
+            start: "When provincial governors stopped remitting taxes to Delhi in the 18th century, the empire could no longer fund armies — showing that",
+            correct: "revenue collection is imperial survival.",
+            wrong: ["military loyalty is irrelevant to finance.", "architecture was the empire's main cost.", "religious policy drove fiscal collapse."]
           }
         ]
       },
@@ -3780,30 +3775,30 @@ export const CIVILIZATIONS = [
         name: "Mughal Decline & Fall",
         emoji: "📜",
         quotes: [
-          { 
-            start: "The decline of the Mughal Empire from the 18th century onward came from multiple factors: Aurangzeb's overextension, the rise of the Marathas as a rival power, the weakening of central authority and",
-            "correct": "European colonial expansion.",
-            "wrong": ["Arctic exploration.", "oceanic trade routes.", "desert migration."] 
+          {
+            start: "Mughal decline combined Aurangzeb's overextension, Maratha military pressure, succession wars, and",
+            correct: "European colonial encroachment.",
+            wrong: ["sudden climate catastrophe.", "mass conversion to Christianity.", "Chinese military invasion."]
           },
-          { 
-            start: "The increasing inability of the Mughal Empire to maintain control as the 18th century progressed shows that even a large, well-organized empire faced challenges when central authority",
-            "correct": "weakened.",
-            "wrong": ["strengthened.", "expanded.", "flourished."] 
+          {
+            start: "The 1739 sack of Delhi by Nadir Shah of Persia — who carried off the Peacock Throne and Koh-i-Noor diamond — announced to the world that",
+            correct: "Mughal military power had collapsed.",
+            wrong: ["Persia had converted to Islam.", "India had no valuable resources.", "the Marathas had been defeated."]
           },
-          { 
-            start: "The eventual collapse of Mughal political authority in the 18th century and the establishment of British colonial rule demonstrates that even sophisticated empires could be replaced by colonial powers that had",
-            "correct": "superior military technology.",
-            "wrong": ["better poetry.", "stronger pottery.", "finer textiles."] 
+          {
+            start: "The British East India Company exploited Mughal weakness not through direct conquest at first but through",
+            correct: "trade privileges, debt, and divide-and-rule.",
+            wrong: ["purely military invasion from the start.", "religious conversion of the nobility.", "Mughal invitation and consent."]
           },
-          { 
-            start: "The legacy of the Mughal Empire included the integration of Hindi and Persian culture, the development of distinctive architectural styles, the creation of sophisticated administrative systems, and contributions to",
-            "correct": "literature and the arts.",
-            "wrong": ["ocean navigation.", "mining technology.", "glass production."] 
+          {
+            start: "The last Mughal emperor Bahadur Shah Zafar was exiled to Rangoon by the British in 1858 — ending a dynasty that had",
+            correct: "ruled India for over 300 years.",
+            wrong: ["lasted only a single generation.", "been founded by Akbar himself.", "originated in southern India."]
           },
-          { 
-            start: "The study of the Mughal Empire demonstrates that it was a sophisticated state that synthesized different traditions and that its decline came from internal weaknesses and external challenges rather than from",
-            "correct": "primitive origins.",
-            "wrong": ["advanced technology.", "superior organization.", "peaceful intentions."] 
+          {
+            start: "The Mughal legacy — the Taj Mahal, Hindustani music, Urdu literature, and subcontinental cuisine — persists today, proving that",
+            correct: "cultural achievements outlast political power.",
+            wrong: ["empires never truly end.", "British rule erased all Mughal influence.", "only military victories create lasting legacies."]
           }
         ]
       },
@@ -3811,20 +3806,20 @@ export const CIVILIZATIONS = [
         name: "Abul Fazl (Historian & Imperial Ideologist)",
         emoji: "📖",
         quotes: [
-          { 
-            start: "The Akbarnama, the comprehensive history of Akbar's reign compiled by Abul Fazl, served as both a historical record and as imperial propaganda that presented Akbar's rule and policies in favorable terms while downplaying or omitting",
-            "correct": "difficulties.",
-            "wrong": ["ocean navigation.", "mining techniques.", "agricultural methods."] 
+          {
+            start: "Abul Fazl's Akbarnama served simultaneously as historical record and as imperial propaganda — presenting Akbar's policies while systematically minimizing",
+            correct: "failures, revolts, and contradictions.",
+            wrong: ["Akbar's architectural projects.", "the empire's military campaigns.", "Persian cultural influences."]
           },
-          { 
-            start: "Abul Fazl's role as imperial advisor and ideologue, helping to develop the concept of a just, tolerant ruler, shows that intellectuals served important political functions in legitimizing imperial rule and shaping",
-            "correct": "imperial ideology.",
-            "wrong": ["maritime trade routes.", "military weapons.", "architectural designs."] 
+          {
+            start: "As chief ideologue, Abul Fazl developed the concept of Akbar as a divine light (nur) — legitimizing imperial authority through",
+            correct: "quasi-religious royal charisma.",
+            wrong: ["purely Islamic legal authority.", "Hindu priestly endorsement.", "Greek-style democratic mandate."]
           },
-          { 
-            start: "The Ain-i Akbari (Constitution of Akbar), compiled by Abul Fazl, which described the administrative system, military organization, and taxation practices of the empire, serves as a valuable source for understanding Mughal",
-            "correct": "administration.",
-            "wrong": ["ocean exploration.", "glass manufacturing.", "textile production."] 
+          {
+            start: "The Ain-i Akbari documented revenues, military strength, religious practices, and provincial geography — a statistical survey showing that",
+            correct: "information is a tool of governance.",
+            wrong: ["Akbar personally wrote all records.", "the Mughal economy was purely barter.", "administration required no written records."]
           }
         ]
       },
@@ -3832,20 +3827,20 @@ export const CIVILIZATIONS = [
         name: "Mughal Women & Gender Relations",
         emoji: "👩",
         quotes: [
-          { 
-            start: "Women in the Mughal royal family, particularly the mothers and wives of emperors, held significant power and influence over succession and palace politics, demonstrating that even in a patriarchal empire, women with royal status could",
-            "correct": "exercise real power.",
-            "wrong": ["command ocean fleets.", "mine precious metals.", "navigate deserts."] 
+          {
+            start: "Nur Jahan — Jahangir's wife — issued imperial orders, minted coins in her name, and negotiated with foreign powers, demonstrating that a determined royal woman could exercise",
+            correct: "real political and state power.",
+            wrong: ["only ceremonial court influence.", "purely religious authority.", "power only through male proxies."]
           },
-          { 
-            start: "The practice of purdah (seclusion of elite women), which increased during the Mughal period, reflected both Islamic practices and the desire to control the sexuality and marriages of elite women for",
-            "correct": "political purposes.",
-            "wrong": ["maritime expansion.", "agricultural innovation.", "artistic creation."] 
+          {
+            start: "The purdah system confined elite women to the zenana — reflecting Islamic practice and political calculation about controlling",
+            correct: "royal marriages and succession.",
+            wrong: ["purely textile production.", "agricultural land ownership.", "ocean trade permissions."]
           },
-          { 
-            start: "Women of non-elite status in the Mughal Empire had more freedom of movement and economic activity than elite women, as they participated in agriculture, commerce, and",
-            "correct": "crafts.",
-            "wrong": ["military campaigns.", "diplomatic missions.", "scholarly debates."] 
+          {
+            start: "Non-elite women participated in agriculture, trade, and craft production — holding more economic freedom than elite women, showing that",
+            correct: "seclusion was a marker of high status.",
+            wrong: ["poor women had no rights.", "Islamic law banned female labor.", "elite women were more free."]
           }
         ]
       },
@@ -3853,20 +3848,20 @@ export const CIVILIZATIONS = [
         name: "Mughal Legacy & Historical Significance",
         emoji: "📜",
         quotes: [
-          { 
-            start: "The Mughal synthesis of Persian administrative practices, Islamic religious authority, and Indian cultural traditions created a distinctive civilization that influenced later",
-            "correct": "Indian culture.",
-            "wrong": ["European maritime trade.", "Arctic exploration.", "oceanic navigation."] 
+          {
+            start: "The Mughal synthesis of Persian, Islamic, and Indian traditions created a distinctive South Asian civilization whose influence on architecture, cuisine, music, and language",
+            correct: "continues to the present day.",
+            wrong: ["disappeared entirely after 1858.", "was purely limited to Delhi.", "was erased by British colonialism."]
           },
-          { 
-            start: "The Mughal Empire's eventual replacement by British colonial rule demonstrates that European colonial powers possessed military, technological, and organizational advantages that could overcome",
-            "correct": "traditional empires.",
-            "wrong": ["peaceful trading villages.", "nomadic herding tribes.", "isolated island communities."] 
+          {
+            start: "British colonial rule replaced Mughal authority by exploiting internal fragmentation rather than purely military superiority — showing that empires collapse from",
+            correct: "within as much as from outside.",
+            wrong: ["purely external military invasion.", "complete economic collapse alone.", "sudden religious conversion of elites."]
           },
-          { 
-            start: "The study of the Mughal Empire provides insights into how large, multi-ethnic, multi-religious empires could be organized and maintained through a combination of military power, administrative efficiency, and",
-            "correct": "cultural synthesis.",
-            "wrong": ["maritime exploration.", "mining operations.", "glass manufacturing."] 
+          {
+            start: "The Mughal Empire demonstrates how a Muslim ruling minority could govern a Hindu majority for 300 years through",
+            correct: "administrative inclusion, cultural synthesis, and selective coercion.",
+            wrong: ["purely religious persecution.", "complete cultural assimilation.", "continuous genocidal violence."]
           }
         ]
       }
@@ -3884,56 +3879,56 @@ export const CIVILIZATIONS = [
         name: "Pre-Islamic Arabian Tribal Chiefs",
         emoji: "🗡️",
         quotes: [
-          { 
-            start: "A tribe's strength depended on the loyalty of its members, which required that the chief demonstrate fairness in dispute resolution, protection from enemies, and the distribution of wealth from successful raids and",
-            "correct": "trade.",
-            "wrong": ["ocean voyages.", "mining operations.", "astronomical observations."] 
+          {
+            start: "A chief's authority required demonstrating fairness in disputes, protection from enemies, and distribution of wealth from raids and",
+            correct: "trade.",
+            wrong: ["deep sea fishing.", "iron ore mining.", "temple construction."]
           },
-          { 
-            start: "The tribal system of honor and shame, where a chief's reputation was essential to his authority, meant that a chief's actions reflected on the entire tribe and could enhance or damage the",
-            "correct": "tribe's standing.",
-            "wrong": ["merchant profits.", "military weapons.", "artistic creations."] 
+          {
+            start: "In the tribal honor system, a chief's actions reflected on the entire tribe — enhancing or damaging its",
+            correct: "collective standing.",
+            wrong: ["personal merchant profits.", "individual warrior skills.", "scholarly reputation."]
           },
-          { 
-            start: "The practice of raiding neighboring tribes for cattle, camels, and goods served economic purposes but also required understanding that excessive raiding could provoke unified response from victims and create",
-            "correct": "long-term enemies.",
-            "wrong": ["maritime alliances.", "scholarly friendships.", "trading partnerships."] 
+          {
+            start: "Excessive raiding could unify victims against the raider, creating",
+            correct: "dangerous long-term enemies.",
+            wrong: ["willing trade partners.", "loyal tributary states.", "religious converts."]
           },
-          { 
-            start: "The role of the chief as judge and arbiter in disputes served to prevent internal conflict that would weaken the tribe, showing that the chief's legitimacy depended partly on the perception that he could",
-            "correct": "settle disputes fairly.",
-            "wrong": ["navigate oceans.", "mine precious metals.", "compose poetry."] 
+          {
+            start: "The chief served as judge and arbiter because internal conflict would weaken the tribe — legitimacy depended on the perception of",
+            correct: "fair dispute settlement.",
+            wrong: ["ocean navigation skill.", "military weapons quality.", "poetic composition ability."]
           },
-          { 
-            start: "The transmission of tribal leadership through kinship networks, though contested, meant that a chief had to maintain the support of his extended family and powerful allies or face challenges to his authority from",
-            "correct": "rival claimants.",
-            "wrong": ["foreign merchants.", "religious scholars.", "distant kingdoms."] 
+          {
+            start: "Tribal leadership passed through kinship networks but required ongoing support from allies — otherwise facing challenges from",
+            correct: "rival family claimants.",
+            wrong: ["foreign merchant guilds.", "distant Islamic scholars.", "Mediterranean sea powers."]
           }
         ]
       },
       {
-        name: "Pre-Islamic Arabian Poets & Literary Figures",
+        name: "Pre-Islamic Arabian Poets (Mu'allaqat & Jahiliyyah Tradition)",
         emoji: "🖋️",
         quotes: [
-          { 
-            start: "The role of poets in pre-Islamic Arabian society was powerful because they could compose verses that praised or criticized tribal leaders, which were memorized and transmitted, affecting the leader's",
-            "correct": "reputation.",
-            "wrong": ["military weapons.", "cattle herds.", "water supplies."] 
+          {
+            start: "Poets were respected and feared because their verses, memorized and transmitted across Arabia, could permanently shape a leader's",
+            correct: "reputation for good or ill.",
+            wrong: ["cattle herd size.", "water supply access.", "military weapon quality."]
           },
-          { 
-            start: "The Jahiliyyah (pre-Islamic period) poetry preserved in collections like the Mu'allaqat (Hanging Poems) served to record tribal values, historical events, and",
-            "correct": "moral teachings.",
-            "wrong": ["mining techniques.", "maritime routes.", "architectural designs."] 
+          {
+            start: "The Mu'allaqat — seven celebrated poems hung at the Kaaba — preserved tribal values, heroic deeds, and",
+            correct: "the Arabic language at its finest.",
+            wrong: ["precise trade route maps.", "maritime navigation techniques.", "iron smelting instructions."]
           },
-          { 
-            start: "Poets were respected and sometimes feared in Arabian society because their words could enhance or damage a tribal leader's reputation, meaning that poets held real social power through their ability to shape narrative and",
-            "correct": "public opinion.",
-            "wrong": ["ocean currents.", "celestial movements.", "weather patterns."] 
+          {
+            start: "Poetry competitions at the 'Ukaz fair let tribes demonstrate cultural sophistication — the best poet brought prestige comparable to",
+            correct: "winning a military victory.",
+            wrong: ["discovering new trade routes.", "building the largest fort.", "owning the most camels."]
           },
-          { 
-            start: "The composition of poetry about valor, honor, love, and loss allowed Arabian poets to explore themes that reflected the values and experiences of pre-Islamic Arabian society, serving to",
-            "correct": "encode cultural values.",
-            "wrong": ["mine precious stones.", "navigate deserts.", "build fortifications."] 
+          {
+            start: "Pre-Islamic poetry explored love, loss, honor, and the desert — encoding cultural values that Islam would later transform but",
+            correct: "never entirely erase.",
+            wrong: ["immediately and completely abolished.", "replace with pure mathematics.", "convert into legal codes."]
           }
         ]
       },
@@ -3941,30 +3936,30 @@ export const CIVILIZATIONS = [
         name: "Arabian Merchants & Trade Networks",
         emoji: "💰",
         quotes: [
-          { 
-            start: "Arabian merchants, particularly those from Mecca and other trading centers, conducted commerce across vast distances connecting Arabia with the Mediterranean, Africa, Persia, and",
-            "correct": "India.",
-            "wrong": ["Scandinavia.", "the Arctic.", "remote islands."] 
+          {
+            start: "Arabian merchants connected the Mediterranean, East Africa, Persia, and",
+            correct: "India through overland caravan routes.",
+            wrong: ["Scandinavia by sea.", "the Arctic by camel.", "China by underground tunnels."]
           },
-          { 
-            start: "The development of Meccan merchant families' wealth and prestige came from their control of the trans-Arabian trade routes and their protection of merchants, demonstrating that providing security for commerce was essential to",
-            "correct": "building wealth and power.",
-            "wrong": ["constructing temples.", "creating weapons.", "mining metals."] 
+          {
+            start: "Mecca's merchant families built wealth by controlling trans-Arabian routes and providing security — demonstrating that",
+            correct: "protecting commerce generates power.",
+            wrong: ["purely religious authority suffices.", "raiding always beats trading.", "agriculture drives all wealth."]
           },
-          { 
-            start: "The practice of extending credit and establishing partnerships in long-distance trade required that merchants develop systems of trust and reputation because commerce across distances required reliability and the reputation for",
-            "correct": "honoring agreements.",
-            "wrong": ["breaking contracts.", "deceiving partners.", "stealing goods."] 
+          {
+            start: "Long-distance trade required systems of credit and partnership — working only when merchants had a reputation for",
+            correct: "reliably honoring agreements.",
+            wrong: ["breaking contracts opportunistically.", "avoiding all foreign partners.", "paying bribes to officials."]
           },
-          { 
-            start: "The wealth accumulated by Arabian merchants allowed them to fund building projects, support poets and scholars, and participate in",
-            "correct": "political decisions.",
-            "wrong": ["ocean exploration.", "Arctic expeditions.", "astronomical charting."] 
+          {
+            start: "Meccan merchant wealth created social tension with tribal elites — a conflict that contributed directly to",
+            correct: "the conditions that produced Islam.",
+            wrong: ["the spread of Buddhism.", "Persian imperial expansion.", "Byzantine military weakness."]
           },
-          { 
-            start: "The Arabian merchant class, particularly in Mecca, competed with each other and with tribal elites, creating social tension that eventually would contribute to",
-            "correct": "the rise of Islam.",
-            "wrong": ["the development of Buddhism.", "the growth of Christianity.", "the spread of Zoroastrianism."] 
+          {
+            start: "The Quraysh tribe's control of Mecca's sanctuary and trade gave them religious and commercial authority that Muhammad would eventually both challenge and",
+            correct: "ultimately inherit.",
+            wrong: ["completely destroy.", "ignore entirely.", "replace with Persian customs."]
           }
         ]
       },
@@ -3972,25 +3967,25 @@ export const CIVILIZATIONS = [
         name: "Arabian Warriors & Raiding Culture",
         emoji: "⚔️",
         quotes: [
-          { 
-            start: "The raiding culture of pre-Islamic Arabia, where tribes conducted raids on each other for cattle and goods, served economic purposes but also reinforced tested warrior skills and",
-            "correct": "tribal identity.",
-            "wrong": ["maritime navigation.", "agricultural knowledge.", "architectural expertise."] 
+          {
+            start: "Raiding served economic purposes while simultaneously reinforcing warrior skills and",
+            correct: "tribal identity and cohesion.",
+            wrong: ["maritime navigation abilities.", "agricultural calendar knowledge.", "architectural construction skills."]
           },
-          { 
-            start: "The warrior values of pre-Islamic Arabia—courage, loyalty, honor, generosity—were expressed through poetry, through stories of famous warriors, and through the conduct of",
-            "correct": "raids and feuds.",
-            "wrong": ["merchant trading.", "religious ceremonies.", "scholarly debates."] 
+          {
+            start: "The warrior values of pre-Islamic Arabia — courage, loyalty, generosity — were performed through poetry, storytelling, and the conduct of",
+            correct: "raids, feuds, and defense.",
+            wrong: ["peaceful merchant caravans.", "scholarly religious debates.", "temple construction projects."]
           },
-          { 
-            start: "The long-standing feuds between tribes were sometimes resolved through the payment of blood money (diyya) rather than endless cycles of revenge, showing that mechanisms existed for conflict resolution even in a society centered on",
-            "correct": "honor and raiding.",
-            "wrong": ["agricultural cooperation.", "maritime commerce.", "religious pilgrimage."] 
+          {
+            start: "Blood money (diyya) resolved feuds without endless revenge cycles — showing that even honor-based societies develop",
+            correct: "practical conflict resolution mechanisms.",
+            wrong: ["purely pacifist legal systems.", "democratic voting procedures.", "written constitutional laws."]
           },
-          { 
-            start: "The prestige earned by successful warriors, through their feats in battle and their generosity to their followers, created leaders who could command loyalty and organize",
-            "correct": "large groups.",
-            "wrong": ["ocean expeditions.", "mining operations.", "textile factories."] 
+          {
+            start: "Warrior prestige through battlefield courage and generosity to followers created leaders who could mobilize",
+            correct: "large loyal fighting groups.",
+            wrong: ["permanent ocean fleets.", "underground mining operations.", "Greek-style citizen armies."]
           }
         ]
       },
@@ -3998,51 +3993,51 @@ export const CIVILIZATIONS = [
         name: "Arabian Religious Life & Pre-Islamic Beliefs",
         emoji: "🕌",
         quotes: [
-          { 
-            start: "Pre-Islamic Arabian religion included belief in various deities, spirits (jinn), and the veneration of sacred sites including the Kaaba in Mecca, which served to provide a framework for understanding the sacred and reinforce tribal and",
-            "correct": "regional identities.",
-            "wrong": ["maritime trade routes.", "mining operations.", "agricultural harvests."] 
+          {
+            start: "Pre-Islamic Arabia had hundreds of deities — the Kaaba in Mecca alone housed idols representing many tribes, making Mecca a religious center that reinforced",
+            correct: "tribal and regional identities.",
+            wrong: ["purely commercial monopolies.", "agricultural irrigation systems.", "ocean navigation knowledge."]
           },
-          { 
-            start: "The Kaaba and the practice of pilgrimage to Mecca served both religious and commercial purposes, bringing together tribes for trade, marriage arrangements, and the",
-            "correct": "resolution of disputes.",
-            "wrong": ["construction of fortresses.", "manufacture of weapons.", "training of armies."] 
+          {
+            start: "The annual pilgrimage to Mecca served simultaneously as religious observance, trade fair, and forum for",
+            correct: "inter-tribal dispute resolution.",
+            wrong: ["military weapons testing.", "poetry composition contests only.", "camel racing tournaments."]
           },
-          { 
-            start: "The belief in jinn (supernatural beings) and in various forms of divination reflected pre-Islamic Arabian attempts to understand and interact with forces beyond",
-            "correct": "human control.",
-            "wrong": ["ocean navigation.", "astronomical observation.", "glass production."] 
+          {
+            start: "Belief in jinn, divination, and sacred oaths reflected Arabian efforts to understand forces beyond human control — a spiritual framework Islam would later",
+            correct: "partially absorb and partially reject.",
+            wrong: ["completely preserve unchanged.", "ignore as entirely irrelevant.", "replace with Greek philosophy."]
           },
-          { 
-            start: "The veneration of certain deities and the practice of making vows and sacrifices served to reinforce social bonds and provide a framework for moral behavior, with violations of sacred oaths carrying",
-            "correct": "serious consequences.",
-            "wrong": ["financial rewards.", "social advancement.", "military promotion."] 
+          {
+            start: "Violations of sacred oaths carried serious social and spiritual consequences — showing that religion served as",
+            correct: "a moral enforcement mechanism.",
+            wrong: ["a purely decorative tradition.", "a source of financial profit.", "a military recruitment tool."]
           }
         ]
       },
       {
-        name: "Early Islamic Caliphs & Leadership",
+        name: "The Rightly Guided Caliphs (As Recorded in Islamic Sources)",
         emoji: "🕌",
         quotes: [
-          { 
-            start: "The early caliphs (particularly the Rightly Guided Caliphs), who claimed to be the successors of Muhammad and leaders of the Islamic community, derived their authority from their claim to represent",
-            "correct": "Islamic teachings.",
-            "wrong": ["ancient Roman emperors.", "Persian kings.", "tribal customs."] 
+          {
+            start: "The first four caliphs derived authority from their proximity to Muhammad and their claim to represent",
+            correct: "authentic Islamic teaching.",
+            wrong: ["ancient Persian royal lineage.", "Roman imperial succession.", "tribal military dominance."]
           },
-          { 
-            start: "The early caliphate required establishing administrative systems that could collect taxes, maintain armies, and administer justice according to",
-            "correct": "Islamic law (Sharia).",
-            "wrong": ["Buddhist principles.", "Hindu practices.", "Christian doctrines."] 
+          {
+            start: "The early caliphate needed administrative systems for taxation, armies, and justice — imposing a governance structure on what had been",
+            correct: "a decentralized tribal society.",
+            wrong: ["a highly centralized monarchy.", "a democratic Greek-style state.", "a purely religious monastic community."]
           },
-          { 
-            start: "The relationship between the early caliphs and the merchant class, including merchants who had previously been opposed to Islam like 'Umar before his conversion, showed that Islam could integrate diverse elements of",
-            "correct": "Arabian society.",
-            "wrong": ["European kingdoms.", "Asian empires.", "African tribes."] 
+          {
+            start: "The rapid Islamic conquests of Persia, Syria, and Egypt within twenty years of Muhammad's death showed that the new faith provided",
+            correct: "unity, motivation, and military discipline.",
+            wrong: ["superior iron weapons only.", "Byzantine military defectors.", "Persian administrative secrets."]
           },
-          { 
-            start: "The rapid expansion of Islam from Arabia to the Mediterranean, Persia, and beyond in the century after Muhammad's death demonstrated that Islam provided",
-            "correct": "a framework for unity.",
-            "wrong": ["systems of slavery.", "maritime navigation.", "mining technology."] 
+          {
+            start: "The split between Sunni and Shia over Ali's succession shows that questions of legitimate authority were",
+            correct: "unresolved from Islam's earliest days.",
+            wrong: ["settled peacefully by consensus.", "irrelevant to most believers.", "invented centuries later by enemies."]
           }
         ]
       },
@@ -4050,25 +4045,25 @@ export const CIVILIZATIONS = [
         name: "Arabian Trade Routes & Commerce",
         emoji: "💰",
         quotes: [
-          { 
-            start: "The major trade routes of pre-Islamic Arabia, created wealth and power for the tribes and merchants who controlled them because control of valuable goods and the ability to tax trade meant control of",
-            "correct": "wealth and resources.",
-            "wrong": ["ocean currents.", "mountain peaks.", "desert sandstorms."] 
+          {
+            start: "Controlling trade routes between Yemen's frankincense coast and Mediterranean markets meant controlling",
+            correct: "luxury goods entire empires craved.",
+            wrong: ["purely local grain markets.", "Atlantic ocean shipping lanes.", "underground silver mines."]
           },
-          { 
-            start: "The development of the caravan trade, with large organized groups of merchants traveling together for safety and efficiency, required trust, organization, and the development of rules and customs for",
-            "correct": "conducting business.",
-            "wrong": ["building temples.", "crafting weapons.", "mining metals."] 
+          {
+            start: "Caravans required trust, shared rules, and organization — developing proto-commercial institutions long before",
+            correct: "formal written contracts existed.",
+            wrong: ["camels were domesticated.", "Islam was founded.", "Arabia was unified politically."]
           },
-          { 
-            start: "The wealth accumulated by Arabian merchants allowed them to rival tribal leaders in influence and to shape",
-            "correct": "political decisions.",
-            "wrong": ["astronomical charts.", "religious doctrines.", "maritime navigation."] 
+          {
+            start: "Merchant wealth rivaling tribal leaders created social competition that contributed to political instability and eventually to",
+            correct: "the conditions Islam emerged from.",
+            wrong: ["peaceful democratic governance.", "Byzantine military decline.", "Persian agricultural expansion."]
           },
-          { 
-            start: "The location of Mecca on a major trade route and its status as a pilgrimage destination made it ideal for the development of a merchant-dominated society, where merchants could accumulate",
-            "correct": "wealth.",
-            "wrong": ["military weapons.", "architectural knowledge.", "seafaring skills."] 
+          {
+            start: "Mecca's dual role as trade hub and pilgrimage center gave it economic advantages no purely commercial or purely religious city could match — demonstrating that",
+            correct: "combining functions multiplies power.",
+            wrong: ["religion and commerce always conflict.", "trade routes make cities purely secular.", "pilgrimage reduces commercial activity."]
           }
         ]
       },
@@ -4076,25 +4071,25 @@ export const CIVILIZATIONS = [
         name: "Arabian Poetry & Cultural Values",
         emoji: "🖋️",
         quotes: [
-          { 
-            start: "The themes in pre-Islamic Arabian poetry—love, loss, the transience of life, tribal honor, warrior prowess—reflected the values and experiences of Arabian society, serving to",
-            "correct": "transmit cultural values.",
-            "wrong": ["mine precious metals.", "navigate ocean currents.", "build fortifications."] 
+          {
+            start: "Pre-Islamic poetry's themes — love, loss, tribal honor, the harsh desert — transmitted cultural values across generations through",
+            correct: "memorization rather than writing.",
+            wrong: ["stone monument inscriptions.", "royal palace archives.", "temple library collections."]
           },
-          { 
-            start: "The role of poetry competitions and poetry contests at fairs (particularly at 'Ukaz) served to showcase the talents of poets and provide entertainment, but also to enhance the prestige of the tribes that produced the",
-            "correct": "best poets.",
-            "wrong": ["fastest horses.", "sharpest weapons.", "largest herds."] 
+          {
+            start: "Poetry competitions at the 'Ukaz fair elevated the tribes of winning poets — demonstrating that cultural achievement was",
+            correct: "a form of tribal prestige.",
+            wrong: ["irrelevant to political power.", "purely personal entertainment.", "less valued than cattle wealth."]
           },
-          { 
-            start: "The memorization and transmission of poetry as an oral tradition ensured that cultural values and historical events would be remembered even in the absence of",
-            "correct": "written records.",
-            "wrong": ["stone monuments.", "royal palaces.", "military fortresses."] 
+          {
+            start: "The Quran's extraordinary Arabic style was immediately recognized as surpassing existing poetry — Islam leveraged the culture's deep reverence for",
+            correct: "linguistic mastery and eloquence.",
+            wrong: ["purely military conquest.", "commercial accounting skills.", "architectural monument building."]
           },
-          { 
-            start: "The introduction of Islam and the emphasis on the Quran as a literary text that could supersede pre-Islamic poetry indicated that Islam recognized the power of language and poetry to shape",
-            "correct": "values and beliefs.",
-            "wrong": ["ocean navigation.", "mining technology.", "architectural design."] 
+          {
+            start: "Pre-Islamic poetry survived into the Islamic period because scholars recognized its value for understanding Arabic and history — showing that",
+            correct: "cultural inheritance rarely disappears entirely.",
+            wrong: ["Islam banned all pre-Islamic knowledge.", "poetry was considered purely sinful.", "written Arabic predated Islam fully."]
           }
         ]
       },
@@ -4102,25 +4097,25 @@ export const CIVILIZATIONS = [
         name: "Arabian Social Structure & Tribal Organization",
         emoji: "🏛️",
         quotes: [
-          { 
-            start: "Pre-Islamic Arabian society was organized around kinship networks and tribes, where individuals' identities and responsibilities were determined by their membership in a particular family and",
-            "correct": "tribe.",
-            "wrong": ["ocean voyage.", "merchant guild.", "religious monastery."] 
+          {
+            start: "Identity, obligation, and protection in pre-Islamic Arabia flowed primarily through membership in",
+            correct: "a specific tribe and family.",
+            wrong: ["a merchant trading guild.", "a religious monastic order.", "a Greek-style city-state."]
           },
-          { 
-            start: "The system of honor and shame, where an individual's actions reflected on their entire family and tribe, meant that individuals had strong incentives to behave in ways that enhanced rather than damaged their",
-            "correct": "group's reputation.",
-            "wrong": ["personal wealth.", "military equipment.", "agricultural harvest."] 
+          {
+            start: "The honor-shame system meant individuals' actions affected their entire tribe's reputation — creating strong social pressure toward",
+            correct: "collective behavior standards.",
+            wrong: ["purely individual selfishness.", "complete personal freedom.", "Greek democratic individualism."]
           },
-          { 
-            start: "The practice of protecting clients (mawali), showed that even in a kinship-based society, mechanisms existed for incorporating individuals without",
-            "correct": "genealogical connections.",
-            "wrong": ["seafaring skills.", "mining knowledge.", "architectural training."] 
+          {
+            start: "The mawali system — extending tribal protection to non-kinship clients — showed that even kinship societies develop",
+            correct: "flexible incorporation mechanisms.",
+            wrong: ["purely exclusionary practices.", "formal written citizenship laws.", "permanent hereditary slavery only."]
           },
-          { 
-            start: "Women in pre-Islamic Arabian society had diverse roles: some had significant economic power through control of property and trade, some were poets, while others had more",
-            "correct": "restricted roles.",
-            "wrong": ["military authority.", "diplomatic duties.", "priestly functions."] 
+          {
+            start: "Some pre-Islamic Arabian women owned property, led caravans, and composed poetry — Khadijah, Muhammad's first wife, was a wealthy merchant, showing that female roles were",
+            correct: "more varied than stereotypes suggest.",
+            wrong: ["identical to medieval European women.", "purely domestic in all cases.", "defined entirely by Islamic law."]
           }
         ]
       },
@@ -4128,25 +4123,25 @@ export const CIVILIZATIONS = [
         name: "Arabian Economic Foundations",
         emoji: "💰",
         quotes: [
-          { 
-            start: "Pre-Islamic Arabian economy was based on pastoralism (herding camels, sheep, goats), agriculture in limited fertile areas, trade, and",
-            "correct": "raiding.",
-            "wrong": ["deep sea fishing.", "mining precious gems.", "manufacturing textiles."] 
+          {
+            start: "The pre-Islamic Arabian economy combined camel herding, oasis agriculture, long-distance trade, and",
+            correct: "raiding as legitimate income.",
+            wrong: ["deep sea fishing fleets.", "underground gem mining.", "large-scale textile manufacturing."]
           },
-          { 
-            start: "The development of market centers like Mecca, Medina, and Taif served as gathering places for trade fairs where merchants could exchange goods and where poets could compose and perform, demonstrating that economic centers also served social and",
-            "correct": "cultural functions.",
-            "wrong": ["military fortifications.", "religious monasteries.", "royal palaces."] 
+          {
+            start: "Market centers like Mecca, Medina, and Taif hosted trade fairs that simultaneously served commercial, poetic, and",
+            correct: "diplomatic social functions.",
+            wrong: ["purely military fortification purposes.", "royal ceremonial display only.", "Islamic prayer congregation needs."]
           },
-          { 
-            start: "The emergence of a merchant class with wealth and influence comparable to tribal elites created social tensions and power struggles that reflected the competition between old tribal power structures and new",
-            "correct": "mercantile power structures.",
-            "wrong": ["seafaring kingdoms.", "mining colonies.", "agricultural communes."] 
+          {
+            start: "The rise of a merchant class with wealth rivaling tribal elites created structural social tension between",
+            correct: "old kinship power and new commercial power.",
+            wrong: ["seafaring kingdoms and desert tribes.", "mining colonies and farming settlements.", "Buddhist and Islamic religious systems."]
           },
-          { 
-            start: "The integration of diverse economic activities—pastoralism, agriculture, trade, raiding—into a coherent system that sustained Arabian populations showed that pre-Islamic Arabian society had developed sophisticated",
-            "correct": "economic strategies.",
-            "wrong": ["astronomical observatories.", "glass manufacturing.", "ocean navigation systems."] 
+          {
+            start: "Arabia's economic integration of pastoralism, agriculture, trade, and raiding sustained populations in one of the world's most",
+            correct: "challenging environments.",
+            wrong: ["fertile agricultural zones.", "well-watered river valleys.", "richly forested landscapes."]
           }
         ]
       },
@@ -4154,25 +4149,25 @@ export const CIVILIZATIONS = [
         name: "Arabian Transformation & Islamic Influence",
         emoji: "🕌",
         quotes: [
-          { 
-            start: "The rapid adoption of Islam by diverse Arabian groups—wealthy merchants, poor nomads, tribal warriors—shows that Islam offered something valuable to different segments of society, including a",
-            "correct": "new framework for unity.",
-            "wrong": ["system of slavery.", "method of seafaring.", "technique for mining metals."] 
+          {
+            start: "Islam appealed across Arabian social classes — offering wealthy merchants, poor nomads, and tribal warriors different but real",
+            correct: "frameworks for justice and belonging.",
+            wrong: ["purely military conquest opportunities.", "methods for ocean seafaring.", "techniques for metal mining."]
           },
-          { 
-            start: "The transformation of Arabian society from a decentralized system of competing tribes to a unified Islamic state shows that Islam provided organizational structures, shared beliefs, and frameworks for authority that could",
-            "correct": "unite diverse peoples.",
-            "wrong": ["divide tribal groups.", "encourage constant warfare.", "eliminate all governance."] 
+          {
+            start: "The transformation from competing tribes to a unified Islamic state shows that Islam provided the organizational and ideological framework to",
+            correct: "overcome centuries of tribal division.",
+            wrong: ["simply continue existing tribal structures.", "eliminate all pre-Islamic traditions.", "adopt Persian administrative practices."]
           },
-          { 
-            start: "The preservation of Arabian cultural elements—poetry, tribal traditions, certain legal practices—within Islamic civilization shows that Islam was not a complete rejection of Arabian culture but rather a transformation that incorporated and adapted",
-            "correct": "existing traditions.",
-            "wrong": ["European customs.", "Asian agricultural methods.", "African architectural styles."] 
+          {
+            start: "Arabia's tribal poetry traditions, legal customs, and commercial practices were absorbed into Islamic civilization — showing that",
+            correct: "new religions transform rather than erase culture.",
+            wrong: ["Islam rejected all Arabian heritage.", "Arabic culture was entirely foreign to Islam.", "tribal customs disappeared immediately."]
           },
-          { 
-            start: "The role of the Quran in Islamic Arabia, as a literary text that could be memorized and recited, shows that Islam built upon existing Arabian traditions of memorization and oral transmission while introducing a text that",
-            "correct": "unified believers.",
-            "wrong": ["divided communities.", "promoted ignorance.", "encouraged rebellion."] 
+          {
+            start: "The Quran's oral recitation tradition built on Arabia's deep culture of memorization — Islam spread partly because its message fit the",
+            correct: "existing oral communication infrastructure.",
+            wrong: ["extensive written literary tradition.", "established printing press network.", "Greek philosophical academy system."]
           }
         ]
       }
@@ -4187,64 +4182,64 @@ export const CIVILIZATIONS = [
     bg: "#0a0a0a",
     authors: [
       {
-        name: "Sundiata Keita (Founder & Historical Legend)",
+        name: "Sundiata Keita (As Recorded in Oral Tradition & Ibn Khaldun)",
         emoji: "👑",
         quotes: [
-          { 
-            start: "I overcame my physical disability and childhood hardship to unite the Mandinka peoples against the Sosso kingdom because determination, the support of my people, and military strategy could overcome seemingly",
-            "correct": "insurmountable obstacles.",
-            "wrong": ["ocean currents.", "desert sandstorms.", "celestial bodies."] 
+          {
+            start: "I overcame physical disability and childhood hardship to unite the Mandinka peoples because determination and military strategy could overcome seemingly",
+            correct: "insurmountable obstacles.",
+            wrong: ["minor border disputes.", "weak Sosso defenses.", "willing local allies."]
           },
-          { 
-            start: "The victory at the Battle of Kirina in 1235 established Mali as a major power by demonstrating that a united force of diverse Mandinka groups could defeat a",
-            "correct": "militarily entrenched rival.",
-            "wrong": ["peaceful trading village.", "distant sea kingdom.", "nomadic pastoralist tribe."] 
+          {
+            start: "The Battle of Kirina in 1235 established Mali as a major power by proving that united Mandinka groups could defeat",
+            correct: "the militarily dominant Sosso.",
+            wrong: ["peaceful farming villages.", "a distant sea empire.", "nomadic desert traders."]
           },
-          { 
-            start: "The founding of the Mali Empire required establishing control over gold trade routes because gold wealth was essential to funding military forces, supporting administration, and",
-            "correct": "maintaining influence.",
-            "wrong": ["building ocean fleets.", "exploring polar regions.", "developing glass production."] 
+          {
+            start: "Founding the empire required controlling gold trade routes because gold funded armies, administration, and",
+            correct: "political influence.",
+            wrong: ["ocean exploration fleets.", "Arctic territorial claims.", "Greek-style philosophy schools."]
           },
-          { 
-            start: "My establishment of the empire through both military conquest and the winning of alliances showed that successful state-building required the combination of military power and",
-            "correct": "political skill.",
-            "wrong": ["maritime navigation.", "astronomical knowledge.", "glass blowing crafts."] 
+          {
+            start: "Building the empire through both conquest and alliance showed that durable state-building required military power combined with",
+            correct: "diplomatic political skill.",
+            wrong: ["purely religious authority.", "maritime trade dominance.", "astronomical calendar knowledge."]
           },
-          { 
-            start: "The legendary nature of my story, preserved in oral tradition and later accounts, demonstrates that the boundary between historical fact and legendary narrative can blur, with both serving to preserve",
-            "correct": "cultural memory.",
-            "wrong": ["maritime trade routes.", "mining technology.", "architectural blueprints."] 
+          {
+            start: "The Sundiata epic, preserved by griots for eight centuries, shows that oral tradition can maintain",
+            correct: "historical and cultural memory.",
+            wrong: ["precise military blueprints.", "accurate population statistics.", "written legal codes."]
           }
         ]
       },
       {
-        name: "Mansa Musa I (Golden Age & International Influence)",
+        name: "Mansa Musa I (As Recorded by Arab Chroniclers)",
         emoji: "👑",
         quotes: [
-          { 
-            start: "My pilgrimage to Mecca in 1324 served multiple purposes: demonstrating Mali's prosperity and piety, establishing relationships with distant Islamic powers, and showing the Islamic world that Mali was a",
-            "correct": "major power.",
-            "wrong": ["isolated kingdom.", "maritime empire.", "Arctic settlement."] 
+          {
+            start: "My 1324 pilgrimage to Mecca demonstrated Mali's wealth and piety while establishing relationships with Islamic powers, showing the world that Mali was",
+            correct: "a major civilized power.",
+            wrong: ["an isolated forest kingdom.", "a minor tributary state.", "a purely nomadic confederacy."]
           },
-          { 
-            start: "The distribution of gold during my pilgrimage, which caused inflation in Egypt and the Levant, demonstrated both Mali's immense wealth and created a lasting impression of Mali's power and",
-            "correct": "prosperity.",
-            "wrong": ["weakness.", "poverty.", "decline."] 
+          {
+            start: "Distributing so much gold in Egypt that I caused inflation shows both Mali's immense wealth and the danger of",
+            correct: "unplanned generosity destabilizing markets.",
+            wrong: ["hoarding gold domestically.", "refusing Islamic charity obligations.", "taxing Egyptian merchants unfairly."]
           },
-          { 
-            start: "The establishment and patronage of the University of Timbuktu and other centers of Islamic learning served to demonstrate that Mali was a sophisticated civilization capable of supporting scholarship and",
-            "correct": "intellectual pursuits.",
-            "wrong": ["slave labor.", "weapons manufacturing.", "pirate fleets."] 
+          {
+            start: "Patronizing the Sankore Madrasah and other centers of Islamic learning showed the Islamic world that Mali could support",
+            correct: "scholarship alongside military power.",
+            wrong: ["purely military conquest alone.", "simple agricultural production.", "nomadic pastoral traditions."]
           },
-          { 
-            start: "My reign brought Mali to its greatest territorial extent and highest prestige because I understood that controlling trade routes, maintaining military power, and supporting cultural achievement created",
-            "correct": "multiple sources of power.",
-            "wrong": ["complete isolation.", "economic ruin.", "military defeat."] 
+          {
+            start: "Controlling trade routes, maintaining military power, and supporting cultural achievement created",
+            correct: "multiple overlapping sources of power.",
+            wrong: ["complete dependence on gold alone.", "rivalry with all neighbors.", "religious conflict with scholars."]
           },
-          { 
-            start: "The documentation of my pilgrimage by Arab historians and others created a permanent record of Mali's power and prestige, showing that international recognition and documented achievement could enhance a",
-            "correct": "ruler's legacy.",
-            "wrong": ["military defeat.", "religious persecution.", "economic collapse."] 
+          {
+            start: "Arab historians' detailed accounts of my pilgrimage created a permanent international record showing that documentation by literate outsiders could",
+            correct: "preserve a ruler's legacy permanently.",
+            wrong: ["distort all historical facts.", "replace oral tradition entirely.", "create purely mythological figures."]
           }
         ]
       },
@@ -4252,30 +4247,30 @@ export const CIVILIZATIONS = [
         name: "Mali Trade & Economic Power",
         emoji: "💰",
         quotes: [
-          { 
-            start: "Mali's wealth came primarily from control of West African gold sources and the taxation of trade passing through Mali's territory, allowing rulers to accumulate wealth that could be used for military campaigns, building projects, and",
-            "correct": "patronage.",
-            "wrong": ["deep sea fishing.", "Arctic exploration.", "mining of diamonds."] 
+          {
+            start: "Mali's wealth came from taxing gold and salt trade passing through its territory — a system where controlling the route mattered more than",
+            correct: "controlling the mines directly.",
+            wrong: ["having a large army.", "converting traders to Islam.", "building stone fortresses."]
           },
-          { 
-            start: "The establishment of Mali as a node in Saharan trade networks, gave Mali strategic and economic importance because control of trade routes meant control of",
-            "correct": "valuable goods.",
-            "wrong": ["distant ocean currents.", "volcanic mineral deposits.", "polar ice fields."] 
+          {
+            start: "Mali's position in Saharan trade networks made it strategically essential because anyone trading between West Africa and the Mediterranean had to",
+            correct: "pass through Mali territory.",
+            wrong: ["convert to Islam first.", "pay tribute to Egypt.", "avoid all desert routes."]
           },
-          { 
-            start: "Mali merchants and traders, operating under the protection and with the patronage of the Mali rulers, accumulated wealth and established networks that extended Mali's",
-            "correct": "economic influence.",
-            "wrong": ["military conquests.", "religious conversions.", "artistic innovations."] 
+          {
+            start: "Merchants operating under royal protection accumulated wealth and extended Mali's",
+            correct: "commercial reach into distant regions.",
+            wrong: ["military occupation zones.", "purely religious pilgrim routes.", "Antarctic exploration missions."]
           },
-          { 
-            start: "The establishment of Mali's mints and the production of Mali currency helped facilitate long-distance trade and demonstrated that Mali was recognized as a major economic power because Mali currency could be trusted and used in",
-            "correct": "distant markets.",
-            "wrong": ["frozen tundras.", "underwater kingdoms.", "volcanic islands."] 
+          {
+            start: "The wealth from trade funded military expansion and monumental building, proving that in Mali economic and military power were",
+            correct: "fundamentally inseparable.",
+            wrong: ["permanently in conflict.", "separately administered always.", "irrelevant to each other."]
           },
-          { 
-            start: "The wealth from trade allowed Mali to finance the military campaigns that expanded the empire and the building projects that made cities like Timbuktu great centers, showing that economic power and military power were",
-            "correct": "interconnected.",
-            "wrong": ["completely separate.", "mutually destructive.", "historically irrelevant."] 
+          {
+            start: "Mali's decline accelerated when Portuguese ships began trading directly with West African coastal peoples, bypassing the Saharan routes that had been",
+            correct: "the foundation of Mali's wealth.",
+            wrong: ["irrelevant to Mali's economy.", "controlled by Songhai alone.", "purely religious pilgrimage paths."]
           }
         ]
       },
@@ -4283,30 +4278,30 @@ export const CIVILIZATIONS = [
         name: "Mali Rulers & Administration",
         emoji: "⚖️",
         quotes: [
-          { 
-            start: "The Mali system of governance, centered on the Mansa as supreme authority but with input from nobles and councils, required that rulers maintain the loyalty of powerful chiefs and the support of",
-            "correct": "merchant classes.",
-            "wrong": ["fishing communities.", "pastoral herders.", "forest hunters."] 
+          {
+            start: "The Mansa held supreme authority but needed the loyalty of powerful chiefs and the cooperation of",
+            correct: "the merchant and noble classes.",
+            wrong: ["purely fishing communities.", "distant European traders.", "Saharan nomadic raiders."]
           },
-          { 
-            start: "Mali's expansion of territory and influence required establishing administrative systems in conquered regions to ensure that tribute was collected and Malian authority was maintained, showing that military conquest had to be followed by",
-            "correct": "governance and administration.",
-            "wrong": ["complete population relocation.", "destruction of local customs.", "immediate economic collapse."] 
+          {
+            start: "Military conquest had to be followed by administration because territory without governance generates",
+            correct: "rebellion and economic waste.",
+            wrong: ["immediate popular loyalty.", "spontaneous cultural integration.", "automatic tribute collection."]
           },
-          { 
-            start: "The Mali approach to incorporating diverse ethnic groups and previously independent chiefdoms into the empire required that rulers understand that some degree of local autonomy and the recognition of local leaders' authority could maintain",
-            "correct": "stability.",
-            "wrong": ["ocean navigation.", "mineral deposits.", "artistic production."] 
+          {
+            start: "Allowing some local autonomy and recognizing local leaders maintained stability across an empire too large for",
+            correct: "direct central administration.",
+            wrong: ["any military presence.", "Islamic legal authority.", "gold trade taxation."]
           },
-          { 
-            start: "The stability of Mali rule for centuries came from establishing systems where rulers could maintain control without constant military presence in all territories, relying instead on appointed administrators and the benefits that Mali rule",
-            "correct": "provided.",
-            "wrong": ["threatened.", "destroyed.", "diminished."] 
+          {
+            start: "Mali governed vast territories without standing armies everywhere by relying on the credible threat of force and the real",
+            correct: "benefits Mali rule provided.",
+            wrong: ["fear of divine punishment.", "absence of rival powers.", "Greek-style democratic consent."]
           },
-          { 
-            start: "The decline of Mali's power in the 15th century came from multiple factors including the rise of the Songhai Empire, the shift of trade routes, and",
-            "correct": "internal fragmentation.",
-            "wrong": ["improved climate conditions.", "increased literacy rates.", "development of new crops."] 
+          {
+            start: "Mali's 15th-century decline resulted from Songhai's rise, shifting trade routes, and",
+            correct: "succession disputes fragmenting authority.",
+            wrong: ["sudden climate improvement.", "discovery of new crops.", "peaceful dissolution by consent."]
           }
         ]
       },
@@ -4314,51 +4309,51 @@ export const CIVILIZATIONS = [
         name: "Mali Islam & Religious Authority",
         emoji: "🕯️",
         quotes: [
-          { 
-            start: "The adoption of Islam by Mali rulers, particularly Mansa Musa, served multiple purposes: integrating Mali into the Islamic world, providing religious legitimacy, and creating a shared faith identity with North African and",
-            "correct": "Mediterranean Islamic powers.",
-            "wrong": ["Christian kingdoms.", "Asian Buddhist empires.", "Pacific island nations."] 
+          {
+            start: "Mali rulers adopted Islam to integrate into international networks while maintaining traditional practices — a balance Ibn Battuta noted showed",
+            correct: "pragmatic rather than doctrinaire faith.",
+            wrong: ["complete rejection of local customs.", "hostility toward Muslim scholars.", "identical practice to Arabian Islam."]
           },
-          { 
-            start: "The patronage of Islamic scholars and the establishment of Islamic centers of learning demonstrated that Mali rulers understood that supporting religion and learning enhanced the prestige of the ruler and created bonds with",
-            "correct": "Islamic scholars.",
-            "wrong": ["maritime merchants.", "military generals.", "agricultural farmers."] 
+          {
+            start: "Patronizing Islamic scholars created bonds with the broader Islamic world and gave rulers religious legitimacy that",
+            correct: "complemented military authority.",
+            wrong: ["replaced all traditional power.", "angered the griot class entirely.", "required abandoning local customs."]
           },
-          { 
-            start: "The role of Islamic judges and scholars (qadis and ulema) in Mali governance served to provide legal authority based on Islamic law (Sharia) and created a framework for",
-            "correct": "justice.",
-            "wrong": ["military conquest.", "trade monopolies.", "slave markets."] 
+          {
+            start: "Islamic judges and qadis provided legal authority in cities while traditional law operated in rural areas — a dual system that",
+            correct: "managed diversity practically.",
+            wrong: ["caused constant legal conflict.", "was identical to Sharia alone.", "pleased all parties equally."]
           },
-          { 
-            start: "Mali's tolerance of traditional African religious practices alongside Islam showed that rulers understood that religious accommodation could maintain the support of diverse populations while establishing",
-            "correct": "Islamic authority.",
-            "wrong": ["Hindu dominance.", "Christian supremacy.", "Zoroastrian rule."] 
+          {
+            start: "Tolerating traditional African spiritual practices alongside Islam showed that Mali rulers prioritized",
+            correct: "stability over religious purity.",
+            wrong: ["complete conversion of all subjects.", "expelling traditional priests.", "adopting purely Egyptian Islam."]
           }
         ]
       },
       {
-        name: "Timbuktu & Centers of Learning",
+        name: "Sankore Madrasah & Centers of Learning",
         emoji: "📚",
         quotes: [
-          { 
-            start: "The development of Timbuktu as a major center of Islamic scholarship under Mali rule, served to attract scholars from across the Islamic world because Mali rulers provided patronage, and the establishment of madrasas (schools) and",
-            "correct": "libraries.",
-            "wrong": ["military fortresses.", "mining operations.", "agricultural plantations."] 
+          {
+            start: "The Sankore Madrasah in Timbuktu attracted scholars from across the Islamic world because Mali rulers provided patronage and",
+            correct: "a safe prosperous environment.",
+            wrong: ["forced all scholars to attend.", "paid higher than Egyptian universities.", "banned all non-Islamic learning."]
           },
-          { 
-            start: "The University of Timbuktu, though not a formal university in the European sense, functioned as an advanced center of Islamic learning where scholars studied law, theology, mathematics, and",
-            "correct": "medicine.",
-            "wrong": ["seafaring navigation.", "glass blowing.", "bronze casting."] 
+          {
+            start: "Timbuktu's scholars studied law, theology, mathematics, and medicine — subjects that served both",
+            correct: "religious and practical governance needs.",
+            wrong: ["purely ceremonial court entertainment.", "Atlantic ocean navigation.", "bronze and iron metalworking."]
           },
-          { 
-            start: "The preservation of manuscripts and the composition of scholarly works in Timbuktu created a legacy of knowledge that would be destroyed in later conflicts but represented Mali's",
-            "correct": "intellectual achievement.",
-            "wrong": ["military dominance.", "agricultural productivity.", "maritime superiority."] 
+          {
+            start: "Hundreds of thousands of manuscripts were produced and preserved in Timbuktu — many surviving today — representing one of Africa's greatest",
+            correct: "intellectual documentary legacies.",
+            wrong: ["purely decorative artistic traditions.", "secret military codebooks.", "agricultural farming manuals."]
           },
-          { 
-            start: "The role of Timbuktu as a major trade center combined with its function as a center of learning made it an ideal place for the exchange of ideas, goods, and technologies, demonstrating that commerce and intellectual achievement could",
-            "correct": "flourish together.",
-            "wrong": ["lead to warfare.", "cause economic decline.", "prevent exploration."] 
+          {
+            start: "The combination of trade wealth and scholarly reputation made Timbuktu a place where commerce and intellectual achievement",
+            correct: "reinforced each other.",
+            wrong: ["constantly competed for resources.", "were kept strictly separate.", "declined simultaneously after 1400."]
           }
         ]
       },
@@ -4366,25 +4361,25 @@ export const CIVILIZATIONS = [
         name: "Griots & Oral Tradition",
         emoji: "🪕",
         quotes: [
-          { 
-            start: "The role of griots (professional storytellers and historians) in Mali society was essential to preserving history and cultural memory because they memorized vast amounts of information including genealogies, historical events, and",
-            "correct": "moral teachings.",
-            "wrong": ["mathematical formulas.", "architectural blueprints.", "medical prescriptions."] 
+          {
+            start: "Griots memorized genealogies, historical events, and moral teachings — serving as living libraries in a society where",
+            correct: "writing was not widely used.",
+            wrong: ["books were too expensive.", "all records were destroyed.", "rulers banned written records."]
           },
-          { 
-            start: "The authority granted to griots in Mali society, where they served as advisors to rulers and interpreters of tradition, showed that rulers understood that controlling narrative and maintaining historical memory was important to",
-            "correct": "legitimizing rule.",
-            "wrong": ["mining precious metals.", "constructing city walls.", "breeding superior horses."] 
+          {
+            start: "Griots served as royal advisors and interpreters of tradition, showing that controlling narrative and historical memory was",
+            correct: "central to political legitimacy.",
+            wrong: ["purely entertaining to rulers.", "irrelevant to governance decisions.", "less important than military strength."]
           },
-          { 
-            start: "The epic of Sundiata, preserved and transmitted by griots, served both as entertainment and as a teaching tool about leadership, courage, and the",
-            "correct": "founding of the Mali Empire.",
-            "wrong": ["invention of gunpowder.", "discovery of new trade routes.", "development of written language."] 
+          {
+            start: "The Sundiata epic taught values, explained the empire's founding, and justified Keita dynasty rule — combining",
+            correct: "entertainment, history, and propaganda.",
+            wrong: ["purely fictional storytelling.", "accurate census data.", "military tactical manuals."]
           },
-          { 
-            start: "The continued importance of griots in Mali and other West African societies even into modern times shows that oral tradition remained a powerful mechanism for preserving",
-            "correct": "knowledge and identity.",
-            "wrong": ["stone monuments.", "religious artifacts.", "military weapons."] 
+          {
+            start: "Griots remain culturally significant in West Africa today, showing that oral tradition can preserve",
+            correct: "identity across many centuries.",
+            wrong: ["precise geographical maps.", "accurate scientific data.", "detailed architectural plans."]
           }
         ]
       },
@@ -4392,25 +4387,20 @@ export const CIVILIZATIONS = [
         name: "Mali Military & Defense",
         emoji: "⚔️",
         quotes: [
-          { 
-            start: "The Mali military, organized into forces of archers and cavalry, proved effective in controlling large territories and defeating rivals because commanders understood that diverse unit types and coordination could overcome",
-            "correct": "single unit types.",
-            "wrong": ["desert sandstorms.", "epidemic diseases.", "astronomical events."] 
+          {
+            start: "Mali's cavalry-based military proved effective across the savanna because horses gave commanders",
+            correct: "speed and striking power.",
+            wrong: ["immunity to arrows.", "control of river routes.", "automatic noble loyalty."]
           },
-          { 
-            start: "Mali's ability to maintain control over vast territories with relatively dispersed populations required military strength but also the threat of military force and the",
-            "correct": "credibility of that threat.",
-            "wrong": ["control of ocean routes.", "mastery of iron forging.", "knowledge of astronomy."] 
+          {
+            start: "Maintaining control without garrisons everywhere required that the threat of military response remain",
+            correct: "credible and swift.",
+            wrong: ["purely ceremonial and symbolic.", "dependent on foreign mercenaries.", "based on religious curses alone."]
           },
-          { 
-            start: "Mali's military victories, including the expansion of territory under various rulers, were sustained by the ability to maintain supply lines, recruit soldiers, and organize campaigns over",
-            "correct": "long distances.",
-            "wrong": ["frozen tundra.", "tropical rain forests.", "volcanic islands."] 
-          },
-          { 
-            start: "Mali's vulnerability to the rise of the Songhai Empire in the 15th century showed that military power, while important, depended on maintaining political unity and",
-            "correct": "economic strength.",
-            "wrong": ["architectural monuments.", "literary traditions.", "artistic innovations."] 
+          {
+            start: "Mali's vulnerability to Songhai expansion showed that military power ultimately depends on",
+            correct: "economic strength and political unity.",
+            wrong: ["purely defensive fortifications.", "the quality of royal monuments.", "Islamic scholarly support alone."]
           }
         ]
       },
@@ -4418,25 +4408,20 @@ export const CIVILIZATIONS = [
         name: "Mali Society & Social Structure",
         emoji: "🏛️",
         quotes: [
-          { 
-            start: "Mali society was organized into distinct classes: the royal family and nobility, merchants and traders, craftspeople, farmers, and enslaved persons, because this hierarchy allowed for the accumulation of",
-            "correct": "wealth and power.",
-            "wrong": ["artistic talent.", "religious knowledge.", "military weapons."] 
+          {
+            start: "Mali's social hierarchy — royalty, nobility, merchants, craftspeople, farmers, enslaved persons — concentrated wealth while creating",
+            correct: "specialized roles across society.",
+            wrong: ["complete social equality.", "purely religious class divisions.", "Greek-style democratic councils."]
           },
-          { 
-            start: "The status of merchants in Mali was elevated because they contributed to the empire's wealth through trade and were essential to the control of valuable goods, showing that economic power translated into",
-            "correct": "social status.",
-            "wrong": ["military leadership.", "religious authority.", "geographic expansion."] 
+          {
+            start: "Merchants held elevated status because their trade generated the empire's wealth, showing that in Mali economic contribution translated directly into",
+            correct: "social and political standing.",
+            wrong: ["automatic noble titles.", "religious authority over scholars.", "military command positions."]
           },
-          { 
-            start: "Women in Mali society, particularly those of elite status, held important roles in managing households and participating in community life, though political power remained male-dominated, indicating that women had important",
-            "correct": "social and economic roles.",
-            "wrong": ["military positions.", "diplomatic duties.", "judicial responsibilities."] 
-          },
-          { 
-            start: "The existence of enslaved populations in Mali, obtained through trade and warfare, demonstrates that Mali society, despite its cultural and intellectual achievements, relied on enslaved labor to",
-            "correct": "support the economy.",
-            "wrong": ["compose poetry.", "build libraries.", "conduct religious ceremonies."] 
+          {
+            start: "Mali's prosperity depended partly on enslaved labor obtained through warfare and trans-Saharan trade — a fact that complicates any purely celebratory account of",
+            correct: "the empire's golden age.",
+            wrong: ["Mansa Musa's piety.", "griot cultural traditions.", "Islamic scholarly achievement."]
           }
         ]
       },
@@ -4444,30 +4429,30 @@ export const CIVILIZATIONS = [
         name: "Mali Decline & Historical Legacy",
         emoji: "📜",
         quotes: [
-          { 
-            start: "The decline of Mali from its peak in the 14th century came from multiple factors: the rise of the Songhai Empire, shifting trade routes, the loss of control over gold sources, and",
-            "correct": "internal fragmentation.",
-            "wrong": ["agricultural expansion.", "military technology.", "religious unity."] 
+          {
+            start: "Mali's decline came from Songhai's rise, shifting trade routes, and succession disputes — showing that empires built on trade route control are vulnerable when",
+            correct: "routes shift or rivals emerge.",
+            wrong: ["scholars leave the capital.", "rainfall patterns improve.", "new crops are introduced."]
           },
-          { 
-            start: "The gradual loss of territory and influence by Mali in the 15th century demonstrated that empires built on the control of trade routes are vulnerable when those routes shift or when new",
-            "correct": "competitors emerge.",
-            "wrong": ["trading partners disappear.", "religious movements begin.", "artistic styles change."] 
+          {
+            start: "When Portuguese ships began trading directly along the West African coast after 1415, they bypassed the Saharan routes that had",
+            correct: "sustained Mali's economic power.",
+            wrong: ["been irrelevant to Mali.", "been controlled by Songhai only.", "provided purely religious pilgrimage paths."]
           },
-          { 
-            start: "The legacy of Mali included the establishment of great centers of Islamic learning, the demonstration that West African states could become major",
-            "correct": "regional powers.",
-            "wrong": ["maritime explorers.", "agricultural innovators.", "textile manufacturers."] 
+          {
+            start: "Mali left a legacy of Islamic scholarship, trade network organization, and the demonstration that West African states could achieve",
+            correct: "international recognition and sophistication.",
+            wrong: ["Atlantic maritime dominance.", "conquest of North Africa.", "military defeat of Egypt."]
           },
-          { 
-            start: "The memory of Mali and especially of Mansa Musa persisted in Islamic and European historical records, with the Mali Empire remembered as a major power, demonstrating that international recognition and documentation could create a",
-            "correct": "lasting historical legacy.",
-            "wrong": ["forgotten civilization.", "disputed territorial claim.", "mysterious lost culture."] 
+          {
+            start: "Mansa Musa's documented pilgrimage means Mali appears on 14th-century European maps — one of the few sub-Saharan polities recognized as",
+            correct: "a major world power.",
+            wrong: ["a minor trading post.", "a mysterious lost civilization.", "a purely mythological kingdom."]
           },
-          { 
-            start: "The study of Mali demonstrates that African civilizations achieved levels of political organization, economic development, intellectual achievement, and cultural sophistication comparable to contemporary societies elsewhere in the",
-            "correct": "world.",
-            "wrong": ["ocean.", "wilderness.", "mountains."] 
+          {
+            start: "The study of Mali demonstrates that African civilizations achieved political, economic, and intellectual sophistication comparable to",
+            correct: "any contemporary civilization elsewhere.",
+            wrong: ["purely European medieval kingdoms.", "only ancient Greek city-states.", "the Roman Empire alone."]
           }
         ]
       }
@@ -4482,59 +4467,64 @@ export const CIVILIZATIONS = [
     bg: "#0a0a0a",
     authors: [
       {
-        name: "Montezuma I (Expansion & Consolidation)",
+        name: "Montezuma I (As Recorded in Aztec Codices & Spanish Chronicles)",
         emoji: "👑",
         quotes: [
-          { 
-            start: "I expanded the Aztec Empire through military conquest and the establishment of tributary relationships because the empire's survival depended on the constant acquisition of tribute and captives for",
-            "correct": "sacrifice.",
-            "wrong": ["religious rituals.", "ceremonial purposes.", "divine offerings."] 
+          {
+            start: "I expanded the empire through conquest and tribute because the Aztec state depended on a constant flow of goods and captives for",
+            correct: "sacrifice and redistribution.",
+            wrong: ["purely religious ceremonies.", "royal personal luxury.", "feeding the priesthood alone."]
           },
-          { 
-            start: "The construction of the great aqueducts bringing water to Tenochtitlan demonstrated that I understood that infrastructure development was essential to supporting the growing population of the",
-            "correct": "capital.",
-            "wrong": ["city.", "metropolis.", "imperial center."] 
+          {
+            start: "The aqueducts bringing fresh water to Tenochtitlan demonstrated that supporting a city of hundreds of thousands required sophisticated",
+            correct: "hydraulic engineering.",
+            wrong: ["purely magical water rituals.", "Egyptian-style canal systems.", "simple wooden pipe networks."]
           },
-          { 
-            start: "The organization of the empire into tributary provinces required appointing administrators and military governors who could collect tribute, maintain order, prevent rebellion, and",
-            "correct": "serve the emperor's will.",
-            "wrong": ["enforce imperial authority.", "implement royal commands.", "uphold imperial power."] 
+          {
+            start: "Tributary provinces needed governors who could collect goods, prevent rebellion, and enforce",
+            correct: "the emperor's will.",
+            wrong: ["local elected law.", "purely priestly authority.", "the nobility's preferences."]
           },
-          { 
-            start: "The elevation of Huitzilopochtli (the Aztec patron god) and the expansion of human sacrifice served to reinforce Aztec religious ideology, justify imperial expansion as serving divine will, and legitimate the dominance of the",
-            "correct": "Mexica people.",
-            "wrong": ["Aztec nation.", "ruling elite.", "imperial power."] 
+          {
+            start: "Elevating Huitzilopochtli and expanding sacrifice justified imperial expansion as serving divine will and legitimized the dominance of",
+            correct: "the Mexica people.",
+            wrong: ["all Mesoamerican peoples equally.", "purely the priesthood class.", "Spanish colonial ambitions."]
           },
-          { 
-            start: "The wealth accumulated through tribute allowed me to sponsor building projects, support the nobility, maintain the military, and establish Tenochtitlan as the",
-            "correct": "greatest city in Mesoamerica.",
-            "wrong": ["biggest village in the region.", "least important settlement.", "smallest village in the region."] 
+          {
+            start: "Tribute wealth funded building projects, supported the nobility, and established Tenochtitlan as",
+            correct: "the greatest city in Mesoamerica.",
+            wrong: ["a modest regional trading post.", "second to Tlaxcala in size.", "a purely ceremonial center."]
           }
         ]
       },
       {
-        name: "Montezuma II (Empire at Peak & Collapse)",
+        name: "Montezuma II (Empire at Peak & Spanish Arrival)",
         emoji: "👑",
         quotes: [
-          { 
-            start: "I inherited an empire at its greatest extent, but I also inherited the vulnerability that came from ruling through fear and tributary relationships that relied on continuous",
-            "correct": "military success.",
-            "wrong": ["warfare victories.", "military dominance.", "successful campaigns."] 
+          {
+            start: "I inherited an empire at its greatest extent but also its greatest vulnerability — a system that required",
+            correct: "continuous military success.",
+            wrong: ["peaceful diplomatic expansion.", "purely religious legitimacy.", "Greek-style democratic consent."]
           },
-          { 
-            start: "The arrival of Spanish conquistadors posed a challenge that demonstrated the limitations of an empire built on traditional warfare and assumptions about",
-            "correct": "invulnerability.",
-            "wrong": ["superiority.", "invincibility.", "undefeated power."] 
+          {
+            start: "The arrival of Cortés posed a challenge that exposed the limits of an empire built on traditional warfare and assumptions about",
+            correct: "its own invulnerability.",
+            wrong: ["purely agricultural productivity.", "the loyalty of distant allies.", "the priesthood's divine protection."]
           },
-          { 
-            start: "My initial attempts to diplomacy with Cortés rather than immediate military confrontation reflected the complexity of deciding how to respond to an",
-            "correct": "unprecedented threat.",
-            "wrong": ["unknown danger.", "unfamiliar enemy.", "foreign challenge."] 
+          {
+            start: "My initial attempts at diplomacy rather than immediate military confrontation reflected genuine uncertainty about how to respond to an",
+            correct: "entirely unprecedented threat.",
+            wrong: ["ordinary Mayan border dispute.", "familiar nomadic raiding party.", "well-understood tributary revolt."]
           },
-          { 
-            start: "The rapid collapse of the Aztec Empire after Montezuma's death showed that beneath the military power and imperial prestige, the system depended on continuous successful warfare and the fear that made subject peoples accept",
-            "correct": "Aztec rule.",
-            "wrong": ["imperial authority.", "Aztec dominance.", "Aztec sovereignty."] 
+          {
+            start: "The rapid collapse after my death showed that Aztec power rested on fear and continuous victory — once that illusion broke, subject peoples",
+            correct: "joined Cortés against us.",
+            wrong: ["peacefully accepted Spanish rule.", "retreated to their home cities.", "appealed to distant kingdoms for help."]
+          },
+          {
+            start: "The smallpox epidemic that killed perhaps half of Tenochtitlan's population before the final siege demonstrated that biological factors — not just Spanish steel — determined",
+            correct: "the conquest's outcome.",
+            wrong: ["purely military superiority alone.", "the will of Huitzilopochtli.", "Aztec warriors' lack of courage."]
           }
         ]
       },
@@ -4542,30 +4532,30 @@ export const CIVILIZATIONS = [
         name: "Aztec Military Organization & Warfare",
         emoji: "⚔️",
         quotes: [
-          { 
-            start: "The Aztec military was organized into units with different ranks, including the Jaguar Warriors and Eagle Warriors (elite units), and organized conquest required that commanders coordinate large forces and plan multi-year campaigns to",
-            "correct": "expand the empire.",
-            "wrong": ["extend territorial control.", "increase imperial dominion.", "broaden Aztec power."] 
+          {
+            start: "Jaguar Warriors and Eagle Warriors were elite units whose battlefield role and social prestige showed that the Aztec military was",
+            correct: "a structured ranked institution.",
+            wrong: ["a purely voluntary militia.", "a priestly ceremonial body.", "identical to Spanish armies."]
           },
-          { 
-            start: "Aztec warfare emphasized the capture of enemies for sacrifice because the Aztec believed that human blood sustained the sun god Huitzilopochtli and the continuation of the cosmos depended on regular",
-            "correct": "sacrificial offerings.",
-            "wrong": ["ritual bloodshed.", "ceremonial sacrifice.", "sacred offerings."] 
+          {
+            start: "Aztec warfare prioritized capturing enemies alive for sacrifice — a requirement that shaped tactics in ways that sometimes made",
+            correct: "killing enemies secondary to capturing them.",
+            wrong: ["defensive warfare impossible.", "naval combat necessary.", "cavalry attacks essential."]
           },
-          { 
-            start: "The use of obsidian-edged weapons (macuahuitl) by Aztec warriors proved effective in battle, though against Spanish steel and firearms, the weapons were insufficient to overcome",
-            "correct": "technological advantages.",
-            "wrong": ["superior firepower.", "advanced weaponry.", "military innovation."] 
+          {
+            start: "The macuahuitl — an obsidian-edged wooden sword — was devastatingly effective against unarmored opponents but failed against",
+            correct: "Spanish steel armor and firearms.",
+            wrong: ["Mayan wooden shields.", "Tlaxcalan archers exclusively.", "simple leather protection."]
           },
-          { 
-            start: "The Aztec military strategy of 'flower wars'—ritualized warfare with neighboring city-states to capture prisoners—served religious and",
-            "correct": "political purposes.",
-            "wrong": ["strategic goals.", "imperial interests.", "state objectives."] 
+          {
+            start: "Flower wars with neighboring city-states maintained military readiness and secured captives, but also created experienced enemies who later",
+            correct: "allied with Cortés against Tenochtitlan.",
+            wrong: ["peacefully submitted to Spain.", "converted to Christianity willingly.", "became loyal Aztec tributaries."]
           },
-          { 
-            start: "The military organization of the Aztec Empire required a standing army and the capacity to mobilize large forces quickly showing that military power required logistical support, tax collection, and the coordination of resources across",
-            "correct": "the empire.",
-            "wrong": ["vast territories.", "multiple regions.", "conquered lands."] 
+          {
+            start: "Mobilizing armies across the empire required tribute-funded logistics, roads, and coordination — showing military power depended as much on",
+            correct: "administration as on warriors.",
+            wrong: ["purely divine religious favor.", "the emperor's personal bravery.", "spontaneous popular enthusiasm."]
           }
         ]
       },
@@ -4573,30 +4563,30 @@ export const CIVILIZATIONS = [
         name: "Tenochtitlan & Urban Achievement",
         emoji: "🏛️",
         quotes: [
-          { 
-            start: "The construction of Tenochtitlan on an island in Lake Texcoco, complete with aqueducts, causeways, canals, and the Great Temple, demonstrated that Aztec engineers and laborers possessed sophisticated knowledge of",
-            "correct": "hydraulics.",
-            "wrong": ["water management.", "engineering systems.", "construction techniques."] 
+          {
+            start: "Building Tenochtitlan on a lake island with aqueducts, causeways, and floating gardens (chinampas) demonstrated mastery of",
+            correct: "hydraulic engineering and urban planning.",
+            wrong: ["purely religious architectural symbolism.", "Egyptian pyramid construction techniques.", "simple wooden raft technology."]
           },
-          { 
-            start: "The population of Tenochtitlan, estimated at 200,000 to 400,000 people, made it one of the largest cities in the world at the time, requiring the empire to manage food supplies through the",
-            "correct": "tributary system.",
-            "wrong": ["tribute collection.", "imperial logistics.", "resource redistribution."] 
+          {
+            start: "Tenochtitlan's population of 200,000–400,000 made it larger than any contemporary European city, fed through the",
+            correct: "chinampas and tributary food supply.",
+            wrong: ["purely hunting and gathering.", "Egyptian-style grain imports.", "trade with North American peoples."]
           },
-          { 
-            start: "The great marketplace (tianguis) at Tlatelolco served to facilitate commerce, allow the state to collect taxes, and provided information about prices and goods, demonstrating that Aztec rulers understood that markets were both economic and",
-            "correct": "political institutions.",
-            "wrong": ["state institutions.", "governmental tools.", "administrative mechanisms."] 
+          {
+            start: "The Tlatelolco market — witnessed by Spanish conquistadors who compared it favorably to anything in Europe — demonstrated that Aztec commerce was",
+            correct: "highly organized and specialized.",
+            wrong: ["primitive barter without fixed prices.", "controlled entirely by priests.", "limited to local food exchange."]
           },
-          { 
-            start: "The Great Temple (Templo Mayor) at the center of Tenochtitlan served both religious and political purposes: as a place of sacrifice and ritual but also as a visible symbol of Aztec power and the cosmic order they maintained through their",
-            "correct": "rule.",
-            "wrong": ["dominance.", "authority.", "governance."] 
+          {
+            start: "The Templo Mayor sat at the cosmic center of Tenochtitlan, physically representing Aztec belief that their city was the axis around which",
+            correct: "the universe itself turned.",
+            wrong: ["purely regional trade operated.", "Spanish influence would eventually spread.", "Mayan civilization had collapsed."]
           },
-          { 
-            start: "The aqueducts bringing fresh water to Tenochtitlan from mainland sources were essential to supporting the city's large population and represented a significant engineering and",
-            "correct": "logistical achievement.",
-            "wrong": ["infrastructural accomplishment.", "organizational feat.", "administrative accomplishment."] 
+          {
+            start: "Twin aqueducts from Chapultepec brought fresh water while the other was used for cleaning — a system showing the Aztecs understood",
+            correct: "the importance of clean water supply.",
+            wrong: ["purely ceremonial water rituals.", "Greek-style democratic water rights.", "simple seasonal rainfall collection."]
           }
         ]
       },
@@ -4604,30 +4594,30 @@ export const CIVILIZATIONS = [
         name: "Aztec Religion & Cosmology",
         emoji: "🕯️",
         quotes: [
-          { 
-            start: "The Aztec cosmology, centered on the concept of cyclical creation and destruction, understood that the current 'Fifth Sun' (the fifth creation) was sustained by divine energy that required regular renewal through",
-            "correct": "human sacrifice.",
-            "wrong": ["ritual offerings.", "ceremonial bloodshed.", "sacred ceremonies."] 
+          {
+            start: "The Aztec Fifth Sun cosmology held that four previous worlds had been destroyed and the current one could only be sustained through",
+            correct: "regular human sacrifice.",
+            wrong: ["purely animal offerings.", "agricultural harvest festivals.", "peaceful prayer and fasting."]
           },
-          { 
-            start: "The deity Huitzilopochtli, understood as the god of war and the sun, was directly associated with the Mexica people and their divine destiny to rule, serving the purpose of providing religious and ideological justification for Aztec",
-            "correct": "conquest and expansion.",
-            "wrong": ["imperial domination.", "territorial conquest.", "military campaigns."] 
+          {
+            start: "Huitzilopochtli as war god and solar deity linked the Mexica people's divine mission to imperial expansion — conquest was not optional but",
+            correct: "cosmically required.",
+            wrong: ["purely economically motivated.", "the emperor's personal ambition.", "borrowed from Mayan religion."]
           },
-          { 
-            start: "The practice of human sacrifice, which included the sacrifice of captured enemies, some slaves, and occasionally willing participants, was understood by the Aztecs as essential to sustaining the",
-            "correct": "cosmos.",
-            "wrong": ["universe.", "world order.", "divine balance."] 
+          {
+            start: "The scale of sacrifice — potentially thousands per year at peak — served to terrorize subject peoples and demonstrate that Aztec power extended into",
+            correct: "the cosmic order itself.",
+            wrong: ["purely agricultural planning.", "diplomatic relationship management.", "simple population control."]
           },
-          { 
-            start: "The role of the priesthood in Aztec society was powerful because priests maintained religious knowledge, performed essential rituals, and served as advisors to rulers, demonstrating that religious and political authority were",
-            "correct": "closely connected.",
-            "wrong": ["deeply intertwined.", "intimately linked.", "fundamentally united."] 
+          {
+            start: "Priests held real political power because they interpreted omens, managed the calendar, and advised rulers — making religious and political authority",
+            correct: "inseparable in Aztec governance.",
+            wrong: ["permanently in conflict with each other.", "divided strictly between separate institutions.", "irrelevant to military decisions."]
           },
-          { 
-            start: "The tolerance shown by some Aztec rulers toward the gods of conquered peoples, as long as Huitzilopochtli and the Aztec pantheon were acknowledged as superior, served to maintain stability among",
-            "correct": "diverse populations.",
-            "wrong": ["conquered territories.", "subject peoples.", "tributary regions."] 
+          {
+            start: "Aztec rulers incorporated conquered peoples' gods into their pantheon while asserting Huitzilopochtli's supremacy — a religious policy that managed",
+            correct: "diversity while asserting Mexica dominance.",
+            wrong: ["purely theological scholarly debates.", "resistance from all conquered peoples.", "the conversion of subjects to monotheism."]
           }
         ]
       },
@@ -4635,30 +4625,30 @@ export const CIVILIZATIONS = [
         name: "Aztec Trade & Commerce",
         emoji: "💰",
         quotes: [
-          { 
-            start: "The Aztec tributary system required the collection of vast quantities of goods—cacao, jade, feathers, obsidian, cloth, and food—from conquered territories, which were then redistributed to support the empire and demonstrate the emperor's",
-            "correct": "wealth.",
-            "wrong": ["power.", "status.", "prestige."] 
+          {
+            start: "The tributary system collected cacao, jade, feathers, obsidian, and cloth from conquered territories — redistributing this wealth to demonstrate",
+            correct: "the emperor's boundless generosity and power.",
+            wrong: ["purely egalitarian social values.", "the priesthood's economic independence.", "Spanish-style commercial capitalism."]
           },
-          { 
-            start: "Aztec merchants (pochteca) conducted long-distance trade and also served as spies and scouts for the empire, demonstrating that the Aztecs understood that commerce and intelligence gathering could serve both economic and",
-            "correct": "military purposes.",
-            "wrong": ["strategic goals.", "political interests.", "imperial aims."] 
+          {
+            start: "Pochteca merchants conducted long-distance trade and simultaneously gathered intelligence for the military — showing commerce and",
+            correct: "espionage served the state together.",
+            wrong: ["religious pilgrimage were identical activities.", "purely private profit motivated all trade.", "merchants opposed military expansion."]
           },
-          { 
-            start: "The use of cacao beans as a medium of exchange shows that the Aztecs had a sophisticated understanding of currency and that cacao held economic value that transcended its consumption as a",
-            "correct": "luxury drink.",
-            "wrong": ["precious beverage.", "elite commodity.", "valued refreshment."] 
+          {
+            start: "Cacao beans served as currency — a commodity money system showing the Aztecs understood that exchange required a medium that was",
+            correct: "portable, divisible, and broadly valued.",
+            wrong: ["purely edible and perishable.", "controlled only by priests.", "worthless outside Tenochtitlan."]
           },
-          { 
-            start: "The great marketplaces and trade networks connected the Aztec Empire to distant regions, providing access to goods from the coasts, highlands, and the Yucatan, demonstrating that the Aztec economy was integrated into",
-            "correct": "regional trade networks.",
-            "wrong": ["commercial systems.", "exchange systems.", "trading relationships."] 
+          {
+            start: "The Tlatelolco market connected the empire to coastal, highland, and Yucatan trade networks, integrating the Aztec economy into",
+            correct: "a broad Mesoamerican commercial system.",
+            wrong: ["purely local village barter.", "direct Chinese maritime trade.", "North American buffalo trade routes."]
           },
-          { 
-            start: "The wealth accumulated through the tributary system and trade allowed the Aztec state to support a large non-productive",
-            "correct": "population.",
-            "wrong": ["workforce.", "population segment.", "social class."] 
+          {
+            start: "Tribute wealth supported priests, warriors, administrators, and artisans — a large non-productive population that could only exist through",
+            correct: "systematic extraction from subject peoples.",
+            wrong: ["purely voluntary community donations.", "sophisticated agricultural technology alone.", "peaceful trade without coercion."]
           }
         ]
       },
@@ -4666,30 +4656,30 @@ export const CIVILIZATIONS = [
         name: "Aztec Administration & Governance",
         emoji: "⚖️",
         quotes: [
-          { 
-            start: "The Aztec Empire maintained power through a combination of military force, the threat of force and the imposition of Aztec administrators, demonstrating that the empire was held together by coercion and the demonstration of Aztec power rather than",
-            "correct": "by willing consent.",
-            "wrong": ["voluntary acceptance.", "popular support.", "genuine agreement."] 
+          {
+            start: "The Aztec Empire held together through coercion and the demonstration of military power rather than",
+            correct: "the willing consent of subjects.",
+            wrong: ["purely religious legitimacy.", "Spanish-style legal administration.", "Greek democratic participation."]
           },
-          { 
-            start: "The appointment of governors and the establishment of administrative systems in conquered territories served to ensure that tribute was collected, Aztec authority was maintained, and rebellion was prevented or",
-            "correct": "quickly suppressed.",
-            "wrong": ["swiftly crushed.", "rapidly quelled.", "speedily contained."] 
+          {
+            start: "Unlike Rome, Aztec governance left local rulers in place as long as tribute flowed — a system that was efficient but created",
+            correct: "potential allies for any future invader.",
+            wrong: ["permanent loyalty from all subjects.", "purely peaceful inter-city relationships.", "identical governance across all provinces."]
           },
-          { 
-            start: "The Aztec legal system, which maintained different laws and courts for different classes (nobility, commoners, slaves), reflected that the society was hierarchical and that the law reinforced social stratification and Aztec",
-            "correct": "dominance.",
-            "wrong": ["control.", "authority.", "supremacy."] 
+          {
+            start: "The calpulli system organized neighborhoods for labor drafts, military service, and taxation — making the administrative unit the",
+            correct: "clan group, not the individual.",
+            wrong: ["Spanish colonial district.", "purely religious congregation.", "voluntary merchant association."]
           },
-          { 
-            start: "The organization of Aztec society into calpulli (neighborhood/clan groups) served administrative, military, and social purposes, providing that the emperor could organize the population for labor, military service, and",
-            "correct": "tax collection.",
-            "wrong": ["tribute collection.", "resource extraction.", "labor obligation."] 
+          {
+            start: "Aztec law maintained separate courts for nobles and commoners — a dual system that reinforced hierarchy while providing",
+            correct: "some predictable legal order.",
+            wrong: ["purely arbitrary royal judgment.", "complete equality before the law.", "Greek-style jury trials."]
           },
-          { 
-            start: "The imperial court at Tenochtitlan served not only as the seat of government but also as a center of wealth accumulation, cultural production, and religious authority, demonstrating that concentrated power allowed the emperor to",
-            "correct": "shape society.",
-            "wrong": ["mold civilization.", "direct culture.", "influence the people."] 
+          {
+            start: "The imperial court at Tenochtitlan concentrated wealth, religious authority, and administrative power — a system that was effective but dangerously",
+            correct: "dependent on one central city.",
+            wrong: ["distributed across many capitals.", "resistant to military attack.", "acceptable to all subject peoples."]
           }
         ]
       },
@@ -4697,30 +4687,30 @@ export const CIVILIZATIONS = [
         name: "Aztec Culture & Intellectual Life",
         emoji: "📚",
         quotes: [
-          { 
-            start: "The Aztec development of a writing system using pictograms and logograms allowed for the recording of historical events and administrative information, demonstrating that writing served practical governmental and",
-            "correct": "cultural purposes.",
-            "wrong": ["artistic functions.", "intellectual goals.", "social needs."] 
+          {
+            start: "Aztec pictographic writing recorded history, tribute lists, and religious knowledge — a system practical for administration but less flexible than",
+            correct: "fully phonetic alphabetic scripts.",
+            wrong: ["Egyptian hieroglyphs.", "Mayan glyphs.", "Mesopotamian cuneiform."]
           },
-          { 
-            start: "Aztec scholars and priests possessed sophisticated knowledge of mathematics, astronomy, and the calendar, creating calendar systems of remarkable accuracy and maintaining long-term historical records, showing that the Aztecs valued and",
-            "correct": "systematically pursued knowledge.",
-            "wrong": ["actively sought understanding.", "deliberately accumulated learning.", "methodically advanced science."] 
+          {
+            start: "Aztec astronomers tracked Venus, predicted solar eclipses, and maintained two interlocking calendars — a 365-day solar year and a 260-day ritual cycle — demonstrating",
+            correct: "sophisticated mathematical and astronomical knowledge.",
+            wrong: ["purely magical star reading.", "simple seasonal farming guides.", "borrowed Egyptian astronomy."]
           },
-          { 
-            start: "The Aztec appreciation for poetry, rhetoric, and oratory, with educated nobles trained in elegant speech and the composition of poems, reflected that intellectual and cultural achievement was valued alongside",
-            "correct": "military prowess.",
-            "wrong": ["martial accomplishment.", "warrior skill.", "combat ability."] 
+          {
+            start: "Aztec nobles were trained in cuicacalli (houses of song) to master poetry, rhetoric, and oratory — showing that intellectual achievement was valued alongside",
+            correct: "military and religious roles.",
+            wrong: ["purely commercial skills.", "Spanish-style scholastic philosophy.", "agricultural management training."]
           },
-          { 
-            start: "The preservation of knowledge through oral tradition served to transmit knowledge across generations, demonstrating that written and oral traditions could work together to preserve and",
-            "correct": "transmit knowledge.",
-            "wrong": ["communicate information.", "perpetuate learning.", "maintain understanding."] 
+          {
+            start: "The Florentine Codex, compiled by Sahagún with indigenous informants after conquest, is our richest source on Aztec life — but it reflects",
+            correct: "both Aztec knowledge and colonial filtering.",
+            wrong: ["purely objective neutral observation.", "entirely the Spanish perspective.", "Hannibal's own military writings."]
           },
-          { 
-            start: "The Aztec engagement with the arts—sculpture and architecture created a distinctive aesthetic that reflected their cosmology and values, showing that cultural and artistic achievement was integrated into religious and",
-            "correct": "political life.",
-            "wrong": ["civic society.", "state functions.", "governmental structures."] 
+          {
+            start: "Aztec sculpture — from the Sun Stone to Coatlicue — encoded cosmological beliefs in stone, showing that monumental art served",
+            correct: "religious and political propaganda simultaneously.",
+            wrong: ["purely decorative aesthetic purposes.", "mathematical calculation functions.", "agricultural calendar marking only."]
           }
         ]
       },
@@ -4728,30 +4718,30 @@ export const CIVILIZATIONS = [
         name: "Aztec Social Structure & Hierarchy",
         emoji: "🏛️",
         quotes: [
-          { 
-            start: "Aztec society was organized into distinct classes: the royal family and nobility (pipiltin), commoners (macehualtin), and slaves (tlacotin), with the emperor at the apex, because this hierarchy allowed for the",
-            "correct": "concentration of wealth.",
-            "wrong": ["accumulation of resources.", "consolidation of power.", "control of assets."] 
+          {
+            start: "The pipiltin (nobility), macehualtin (commoners), and tlacotin (slaves) formed a rigid hierarchy where birth largely determined",
+            correct: "status, occupation, and legal rights.",
+            wrong: ["purely religious roles only.", "access to military service exclusively.", "the amount of tribute owed."]
           },
-          { 
-            start: "The role of women in Aztec society included participation in commerce, religious practice, and household management, with elite women holding significant status and influence, though overall political power remained",
-            "correct": "male-dominated.",
-            "wrong": ["controlled by men.", "in male hands.", "male-centered."] 
+          {
+            start: "Elite women managed households, participated in commerce, and served as priestesses — holding real influence within a society where ultimate political power remained",
+            correct: "in male noble hands.",
+            wrong: ["equally distributed by gender.", "controlled by the merchant class.", "determined by combat prowess."]
           },
-          { 
-            start: "The system of slavery in Aztec society differed from European slavery in that enslaved persons could achieve freedom in certain circumstances, including the purchase of their freedom or",
-            "correct": "service for a specific time.",
-            "wrong": ["completion of a term.", "fulfillment of obligations.", "passage of years."] 
+          {
+            start: "Unlike chattel slavery in the Atlantic world, Aztec slaves could own property, marry, and in some cases purchase their freedom — showing Aztec slavery was",
+            correct: "a distinct institution with specific rules.",
+            wrong: ["identical to Roman slavery.", "voluntary and temporary always.", "purely a religious practice."]
           },
-          { 
-            start: "The nobility maintained their status through control of land, access to tribute, and the performance of important administrative and religious roles, creating that elite status was reinforced through multiple mechanisms beyond",
-            "correct": "birth alone.",
-            "wrong": ["inheritance alone.", "lineage alone.", "family descent alone."] 
+          {
+            start: "The pochteca merchant class occupied an unusual position — wealthier than ordinary commoners but kept ritually separate from nobility, reflecting",
+            correct: "tension between commercial and warrior values.",
+            wrong: ["purely accidental social placement.", "Spanish influence on Aztec society.", "the priesthood's deliberate design."]
           },
-          { 
-            start: "The existence of a merchant class (pochteca) that held higher status than ordinary commoners but remained beneath the nobility reflected that the Aztec society recognized the importance of commerce and trade while",
-            "correct": "maintaining overall class hierarchy.",
-            "wrong": ["preserving social stratification.", "upholding class divisions.", "sustaining the class system."] 
+          {
+            start: "Military success was one of the few paths for a commoner to rise in status — a social mobility mechanism that",
+            correct: "incentivized aggressive warfare.",
+            wrong: ["discouraged voluntary military service.", "created a pacifist merchant class.", "undermined the priestly hierarchy."]
           }
         ]
       },
@@ -4759,30 +4749,30 @@ export const CIVILIZATIONS = [
         name: "Aztec Decline & Spanish Conquest",
         emoji: "📜",
         quotes: [
-          { 
-            start: "The Spanish conquest of the Aztec Empire, achieved in 1521 after the siege of",
-            "correct": "Tenochtitlan.",
-            "wrong": ["Mexico City.", "the Aztec capital.", "the great city."] 
+          {
+            start: "The Spanish conquest succeeded not through Spanish military superiority alone but through an alliance with Tlaxcala and other peoples who",
+            correct: "resented Aztec tributary domination.",
+            wrong: ["were paid in Spanish gold.", "had converted to Christianity.", "feared Aztec supernatural power."]
           },
-          { 
-            start: "The rapid collapse of Aztec political authority after military defeat demonstrated that the empire had been held together by the fear of Aztec military power and the belief in",
-            "correct": "its invincibility.",
-            "wrong": ["its superiority.", "its dominance.", "its military might."] 
+          {
+            start: "The smallpox epidemic of 1520 — spreading ahead of Spanish forces — killed perhaps half of Tenochtitlan's population, demonstrating that",
+            correct: "disease was the conquest's most powerful weapon.",
+            wrong: ["Spanish cannons were invincible.", "Aztec gods had abandoned their people.", "Cortés was militarily undefeatable."]
           },
-          { 
-            start: "The death of Montezuma II and the subsequent leadership struggles within the Aztec military and political establishment weakened the empire's capacity to mount a unified response to the",
-            "correct": "Spanish.",
-            "wrong": ["invaders.", "conquistadors.", "foreign threat."] 
+          {
+            start: "The eighty-day siege of Tenochtitlan in 1521 ended with the city's systematic destruction — Cortés demolished it deliberately to",
+            correct: "build Mexico City on its ruins.",
+            wrong: ["eliminate all Aztec religious sites only.", "punish the nobility specifically.", "prevent the city from ever flooding."]
           },
-          { 
-            start: "The final siege of Tenochtitlan, conducted by Spanish forces and indigenous allies over a period of months, resulted in the destruction of the city and the elimination of Aztec",
-            "correct": "political power.",
-            "wrong": ["imperial authority.", "governmental control.", "state sovereignty."] 
+          {
+            start: "The Spanish destruction of Aztec codices — books burned by Diego de Landa-style campaigns — meant that most of what we know about Aztec civilization comes through",
+            correct: "colonial-era reconstruction and surviving fragments.",
+            wrong: ["complete unbiased archival records.", "purely archaeological excavation.", "Aztec oral traditions alone."]
           },
-          { 
-            start: "The legacy of the Aztec Empire included sophisticated urban planning and an administrative system that the Spanish would adapt for colonial rule, showing that cultural and intellectual achievements could survive",
-            "correct": "political conquest.",
-            "wrong": ["military defeat.", "imperial collapse.", "territorial loss."] 
+          {
+            start: "The Aztec administrative system — tribute networks, roads, local governance — was partly preserved and adapted by Spain, showing that conquest",
+            correct: "often builds on what it destroys.",
+            wrong: ["always eliminates all prior institutions.", "was purely destructive in nature.", "created entirely new social structures."]
           }
         ]
       },
@@ -4790,20 +4780,20 @@ export const CIVILIZATIONS = [
         name: "Aztec Writing & Record-Keeping",
         emoji: "📜",
         quotes: [
-          { 
-            start: "The Aztec development of a writing system using pictographic and logographic elements allowed for the creation of codices (bark-paper books) that recorded historical events, religious knowledge, and",
-            "correct": "administrative information.",
-            "wrong": ["governmental records.", "bureaucratic data.", "official documents."] 
+          {
+            start: "Aztec codices recorded tribute obligations, religious calendars, and historical annals — making them administrative and",
+            correct: "sacred documents simultaneously.",
+            wrong: ["purely decorative artistic works.", "private merchant account books.", "military tactical manuals."]
           },
-          { 
-            start: "The codices that survived Spanish conquest—including the Florentine Codex, showing that the sources for understanding Aztec civilization are fragmentary and influenced by",
-            "correct": "colonial perspectives.",
-            "wrong": ["European viewpoints.", "Spanish interpretations.", "foreign biases."] 
+          {
+            start: "The Florentine Codex compiled by Sahagún represents the most comprehensive record of Aztec life but was created under Spanish supervision, meaning its contents reflect",
+            correct: "indigenous knowledge filtered through colonial purpose.",
+            wrong: ["purely objective pre-conquest Aztec views.", "entirely Spanish invented descriptions.", "Mayan rather than Aztec traditions."]
           },
-          { 
-            start: "The Spanish destruction of Aztec codices resulted in the loss of vast amounts of knowledge about Aztec history, religion, and culture, demonstrating that colonial conquest led to the destruction of indigenous",
-            "correct": "knowledge systems.",
-            "wrong": ["cultural heritage.", "intellectual traditions.", "recorded history."] 
+          {
+            start: "The Spanish burning of Aztec books — which one bishop estimated numbered in the thousands — was one of history's greatest",
+            correct: "deliberate destructions of human knowledge.",
+            wrong: ["accidental archival losses.", "natural disaster outcomes.", "Aztec self-initiated acts."]
           }
         ]
       },
@@ -4811,20 +4801,20 @@ export const CIVILIZATIONS = [
         name: "Aztec Warfare & Conquest Methods",
         emoji: "⚔️",
         quotes: [
-          { 
-            start: "The Aztec system of warfare, which emphasized the capture of enemies for sacrifice rather than the complete annihilation of enemy forces showing that the religious requirement for captives shaped military strategy in ways that affected long-term",
-            "correct": "political stability.",
-            "wrong": ["territorial control.", "imperial security.", "diplomatic relations."] 
+          {
+            start: "Prioritizing capture over killing shaped Aztec tactics in ways that proved strategically counterproductive against Spanish enemies who",
+            correct: "fought to kill, not capture.",
+            wrong: ["also preferred taking prisoners.", "used identical ritual warfare rules.", "feared Aztec religious power equally."]
           },
-          { 
-            start: "The Aztec establishment of tributary relationships with conquered territories, rather than complete assimilation, allowed conquered peoples to maintain local authority while",
-            "correct": "paying tribute.",
-            "wrong": ["providing resources.", "supplying goods.", "offering payments."] 
+          {
+            start: "Leaving local rulers in place as tributary vassals was administratively efficient but created a fragile empire where subject peoples were",
+            correct: "always potential rebel allies.",
+            wrong: ["permanently loyal through shared religion.", "integrated into Mexica culture fully.", "protected from all outside contact."]
           },
-          { 
-            start: "The Aztec use of 'flower wars' with neighboring city-states served to maintain military readiness and obtain captives for sacrifice, but the ritualized nature of this warfare meant that the combatants sometimes had",
-            "correct": "prior arrangements.",
-            "wrong": ["agreed protocols.", "predetermined rules.", "mutual understanding."] 
+          {
+            start: "Flower wars maintained mutual military readiness between Aztec and Tlaxcalan warriors — but also kept Tlaxcala strong enough to become",
+            correct: "Cortés' most decisive ally.",
+            wrong: ["a permanent peaceful partner.", "a tributary state after 1450.", "irrelevant to the Spanish conquest."]
           }
         ]
       }
@@ -4839,38 +4829,43 @@ export const CIVILIZATIONS = [
     bg: "#0a0a0a",
     authors: [
       {
-        name: "Hannibal Barca (Military Genius & Historical Records)",
+        name: "Hannibal Barca (As Recorded by Polybius & Livy)",
         emoji: "🐘",
         quotes: [
-          { 
-            start: "I defeated the Roman legions at Cannae by understanding that the center could be weakened while stronger forces enveloped the enemy from the",
-            "correct": "sides.",
-            "wrong": ["flanks.", "wings.", "lateral positions."] 
+          {
+            start: "At Cannae I weakened my center deliberately, drawing the Romans in, then crushed them from both sides with my stronger wings — a double envelopment that destroyed an army because I understood",
+            correct: "encirclement beats brute force.",
+            wrong: ["frontal assault wins battles.", "cavalry alone decides wars.", "defense is always superior."]
           },
-          { 
-            start: "The crossing of the Alps with elephants and a large army demonstrated that careful planning, knowledge of terrain, and determination could overcome seemingly",
-            "correct": "impossible obstacles.",
-            "wrong": ["insurmountable challenges.", "impassable barriers.", "overwhelming difficulties."] 
+          {
+            start: "The crossing of the Alps with elephants demonstrated that careful planning and knowledge of terrain could overcome seemingly",
+            correct: "impossible obstacles.",
+            wrong: ["minor logistical problems.", "well-defended Roman passes.", "the Senate's objections."]
           },
-          { 
-            start: "My campaigns in Italy, despite initial victories, ultimately failed because Rome could replace its losses, maintain control of its homeland, and eventually bring overwhelming force against",
-            "correct": "Carthage.",
-            "wrong": ["my forces.", "my army.", "my position."] 
+          {
+            start: "After Cannae, when Maharbal urged me to march on Rome, I hesitated — a decision history judges harshly, showing that even a tactical genius can lose a war through",
+            correct: "strategic indecision.",
+            wrong: ["too many battlefield victories.", "excessive caution in diplomacy.", "underestimating Roman morale."]
           },
-          { 
-            start: "The use of Carthaginian and allied forces—Libyans, Numidians, Spanish mercenaries—showed that I understood that diverse unit types, each with different strengths, could be coordinated into a",
-            "correct": "powerful force.",
-            "wrong": ["formidable army.", "devastating military machine.", "unified command."] 
+          {
+            start: "My campaigns in Italy ultimately failed because Rome could replace its losses, hold its allies, and eventually bring Scipio's forces against",
+            correct: "Carthage itself.",
+            wrong: ["my Numidian cavalry.", "my Spanish recruits.", "my supply lines."]
           },
-          { 
-            start: "My inability to completely destroy Rome despite years of campaigning demonstrated that military genius, while powerful, could not overcome Rome's larger population, resources, and the strategic advantage of fighting on",
-            "correct": "home territory.",
-            "wrong": ["their own soil.", "their homeland.", "familiar ground."] 
+          {
+            start: "Coordinating Libyans, Numidians, and Spanish mercenaries showed that diverse unit types, each with different strengths, could be combined into a",
+            correct: "decisive combined force.",
+            wrong: ["reliable citizen army.", "purely cavalry force.", "simple infantry line."]
           },
-          { 
-            start: "The political conflicts between myself and the Carthaginian government showed that even a great military leader could be undermined by political rivalries at home and insufficient support from",
-            "correct": "the civilian government.",
-            "wrong": ["political authorities.", "the home government.", "civilian leadership."] 
+          {
+            start: "Political rivals in Carthage withheld reinforcements, showing that a great field commander can be undone by",
+            correct: "a hostile home government.",
+            wrong: ["too many battlefield victories.", "generous terms to enemies.", "slow marching speeds."]
+          },
+          {
+            start: "Scipio Africanus defeated me at Zama by turning my own Numidian cavalry against me after Rome won that alliance, proving that",
+            correct: "losing key allies can reverse any advantage.",
+            wrong: ["Roman legions always defeat Carthaginians.", "elephants are useless in battle.", "tactics matter less than numbers."]
           }
         ]
       },
@@ -4878,30 +4873,35 @@ export const CIVILIZATIONS = [
         name: "Carthaginian Generals & Military Strategy",
         emoji: "⚔️",
         quotes: [
-          { 
-            start: "The Carthaginian military, built on mercenaries and allied forces rather than a citizen army, required that commanders understand how to motivate diverse troops, manage pay and logistics, and maintain discipline among forces with",
-            "correct": "different backgrounds.",
-            "wrong": ["varied origins.", "diverse loyalties.", "varied experiences."] 
+          {
+            start: "The Carthaginian military, built on mercenaries rather than citizens, required commanders who could motivate troops of",
+            correct: "different cultures and loyalties.",
+            wrong: ["identical training and background.", "purely Phoenician heritage.", "Roman-style discipline."]
           },
-          { 
-            start: "The use of war elephants by Carthaginian commanders served purposes including psychological intimidation, breaking enemy formations, and providing a platform for archers and a visible symbol of Carthaginian",
-            "correct": "military power.",
-            "wrong": ["strength.", "dominance.", "might."] 
+          {
+            start: "War elephants served Carthaginian commanders as psychological weapons, formation-breakers, and symbols of",
+            correct: "overwhelming exotic power.",
+            wrong: ["purely ceremonial display.", "defensive battlefield anchors.", "cheap replaceable units."]
           },
-          { 
-            start: "Carthaginian naval dominance in the Mediterranean, established through superior seamanship and fleet organization, allowed the empire to control trade routes, transport armies, and prevent enemies from",
-            "correct": "conducting operations at sea.",
-            "wrong": ["engaging in naval warfare.", "mounting maritime attacks.", "launching naval campaigns."] 
+          {
+            start: "The Mercenary War (241–238 BCE), where unpaid soldiers nearly destroyed Carthage after the First Punic War, exposed the fatal vulnerability of",
+            correct: "armies loyal to pay, not country.",
+            wrong: ["democratic governance in crisis.", "trading cities against land powers.", "wealthy oligarchies under pressure."]
           },
-          { 
-            start: "The Carthaginian strategy of bringing conflict to Rome's territory rather than defending Carthage showed that commanders understood that fighting on enemy territory could disrupt their resources, and demonstrate Carthaginian",
-            "correct": "power.",
-            "wrong": ["weakness.", "military capability.", "resolve."] 
+          {
+            start: "Carthaginian naval dominance allowed the empire to control trade routes and prevent enemies from",
+            correct: "operating freely at sea.",
+            wrong: ["trading with North Africa.", "building their own warships.", "recruiting Numidian cavalry."]
           },
-          { 
-            start: "The defeats suffered by Carthaginian forces against Rome demonstrated that despite military skill and innovation, Rome's larger population, greater resources, and the ability to replace losses eventually overcame Carthaginian",
-            "correct": "forces.",
-            "wrong": ["armies.", "military strength.", "resistance."] 
+          {
+            start: "Taking war into Italy rather than defending Carthage showed commanders understood that offensive pressure could disrupt Rome's",
+            correct: "agricultural base and Italian allies.",
+            wrong: ["senate's decision-making.", "purely ceremonial military parades.", "gold reserves in the treasury."]
+          },
+          {
+            start: "Rome's eventual superiority showed that military innovation cannot permanently overcome a rival with vastly greater",
+            correct: "manpower and replacement capacity.",
+            wrong: ["naval shipbuilding tradition.", "diplomatic skill in Africa.", "religious unity at home."]
           }
         ]
       },
@@ -4909,30 +4909,30 @@ export const CIVILIZATIONS = [
         name: "Carthaginian Trade & Economic Power",
         emoji: "💰",
         quotes: [
-          { 
-            start: "Carthaginian wealth came from control of Mediterranean trade routes connecting North Africa, the Levant, Egypt, and the western Mediterranean, allowing the city to tax merchants and accumulate wealth from",
-            "correct": "commerce.",
-            "wrong": ["mercantile activity.", "trading networks.", "commercial enterprise."] 
+          {
+            start: "Carthaginian wealth came from taxing Mediterranean trade routes connecting North Africa, the Levant, and the western Mediterranean — wealth built on",
+            correct: "controlling commercial chokepoints.",
+            wrong: ["farming the North African interior.", "tribute from Roman allies.", "Egyptian grain monopolies."]
           },
-          { 
-            start: "The Carthaginian establishment of trading colonies and settlements across the Mediterranean served to extend Carthaginian commercial reach, establish supply depots for naval operations, and secure",
-            "correct": "valuable resources.",
-            "wrong": ["essential materials.", "strategic goods.", "precious commodities."] 
+          {
+            start: "Trading colonies across the Mediterranean extended Carthage's commercial reach and secured",
+            correct: "resources unavailable locally.",
+            wrong: ["purely military garrison positions.", "religious pilgrimage networks.", "grain stores for Carthage alone."]
           },
-          { 
-            start: "The wealth accumulated through trade allowed Carthage to finance large military forces, build a powerful navy, and maintain influence, demonstrating that economic power and military power were",
-            "correct": "closely connected.",
-            "wrong": ["intimately linked.", "deeply intertwined.", "fundamentally related."] 
+          {
+            start: "Carthage's control of Atlantic tin routes and Baltic amber routes demonstrated that prosperity required",
+            correct: "mastering long-distance trade networks.",
+            wrong: ["conquering producing regions militarily.", "sharing routes with Greek rivals.", "relying only on local resources."]
           },
-          { 
-            start: "Carthaginian merchants and traders conducted business across the Mediterranean, building networks that connected diverse regions and cultures, showing that commerce created relationships and dependencies that transcended purely",
-            "correct": "military considerations.",
-            "wrong": ["strategic interests.", "political boundaries.", "territorial concerns."] 
+          {
+            start: "The wealth from trade funded Carthage's navy and mercenary armies, proving that economic and military power were",
+            correct: "inseparable in Carthage's system.",
+            wrong: ["always in tension with each other.", "independently managed by the Senate.", "irrelevant to battlefield outcomes."]
           },
-          { 
-            start: "The Carthaginian control of tin routes from the Atlantic and amber routes from the Baltic gave the city access to valuable goods that could be traded for profit, demonstrating that control of long-distance trade networks was essential to",
-            "correct": "Carthaginian prosperity.",
-            "wrong": ["Carthaginian wealth.", "Carthaginian economic power.", "Carthaginian success."] 
+          {
+            start: "Carthaginian commerce built relationships across cultures, showing that trade created dependencies that outlasted",
+            correct: "purely military alliances.",
+            wrong: ["religious and cultural differences.", "the lifespan of individual merchants.", "the Senate's political decisions."]
           }
         ]
       },
@@ -4940,30 +4940,30 @@ export const CIVILIZATIONS = [
         name: "Carthaginian Government & Administration",
         emoji: "⚖️",
         quotes: [
-          { 
-            start: "Carthaginian government, dominated by wealthy merchant families and the Carthaginian senate, required that power be shared among the aristocracy, which sometimes led to conflicts between",
-            "correct": "different factions.",
-            "wrong": ["rival families.", "competing interests.", "opposing groups."] 
+          {
+            start: "Carthage's oligarchic senate, dominated by merchant families, sometimes prioritized factional interests over",
+            correct: "unified national strategy.",
+            wrong: ["religious ceremonial duties.", "the welfare of mercenary troops.", "Hannibal's tactical preferences."]
           },
-          { 
-            start: "The reliance on mercenary forces rather than a citizen army gave Carthage military flexibility but also created vulnerabilities because mercenaries required",
-            "correct": "constant payment.",
-            "wrong": ["continuous funding.", "regular compensation.", "ongoing wages."] 
+          {
+            start: "Relying on mercenaries gave military flexibility but created vulnerability because armies dissolved without",
+            correct: "continuous reliable payment.",
+            wrong: ["Carthaginian citizenship rights.", "a charismatic Barcid commander.", "strong naval support."]
           },
-          { 
-            start: "The political struggles between military generals (like Hannibal's family) and the Carthaginian senate demonstrated that even successful military leaders could face opposition at home from politicians who feared their power or",
-            "correct": "pursued different strategies.",
-            "wrong": ["disagreed with their methods.", "advocated alternative approaches.", "favored different policies."] 
+          {
+            start: "The Barcid family's independent power base in Spain — essentially a private empire — showed that Carthage's fractured politics allowed generals to operate",
+            correct: "almost independently of the Senate.",
+            wrong: ["only with papal-style authority.", "strictly under Senate supervision.", "purely as mercenary contractors."]
           },
-          { 
-            start: "The Carthaginian system of government, which distributed power among wealthy families, meant that decisions sometimes reflected factional interests rather than unified national strategy, which weakened the state's ability to",
-            "correct": "respond to threats.",
-            "wrong": ["react to crises.", "address emergencies.", "confront challenges."] 
+          {
+            start: "Factional politics meant Carthage struggled to send Hannibal the reinforcements that might have",
+            correct: "changed the Second Punic War's outcome.",
+            wrong: ["prevented the First Punic War.", "satisfied Roman peace terms.", "kept Sicily in Carthaginian hands."]
           },
-          { 
-            start: "The management of Carthaginian territories in North Africa, Spain, and the Mediterranean required establishing systems to collect tribute and",
-            "correct": "maintain control.",
-            "wrong": ["enforce authority.", "assert dominance.", "preserve order."] 
+          {
+            start: "Managing territories in North Africa, Spain, and the islands required tribute systems and local arrangements because Carthage lacked",
+            correct: "Rome's integrated provincial administration.",
+            wrong: ["the population to garrison them.", "interest in overseas territories.", "naval forces to connect them."]
           }
         ]
       },
@@ -4971,25 +4971,30 @@ export const CIVILIZATIONS = [
         name: "Carthaginian Religion & Culture",
         emoji: "🕯️",
         quotes: [
-          { 
-            start: "Carthaginian religious practices, including sacrifice and the veneration of gods like Baal Hammon and Tanit, served to reinforce community cohesion and provided divine legitimacy for rulers' decisions and",
-            "correct": "military campaigns.",
-            "wrong": ["warfare.", "conquest.", "armed conflicts."] 
+          {
+            start: "Ancient sources describe child sacrifice at Carthage's tophet sanctuary, but modern archaeologists debate whether these were ritual sacrifices or infant burials — showing that our understanding of Carthage depends heavily on",
+            correct: "often hostile Roman sources.",
+            wrong: ["confirmed Carthaginian written records.", "neutral Greek archaeological reports.", "Hannibal's own memoirs."]
           },
-          { 
-            start: "The role of religious festivals and public ceremonies in Carthaginian life served to gather the people, reinforce social bonds, and demonstrate the wealth and power of the city, showing that religion had both spiritual and",
-            "correct": "social/political functions.",
-            "wrong": ["civic purposes.", "governmental roles.", "public significance."] 
+          {
+            start: "The goddess Tanit and the god Baal Hammon were Carthage's supreme deities, whose worship reinforced community identity and provided divine legitimacy for",
+            correct: "rulers and military campaigns.",
+            wrong: ["purely private household rituals.", "Greek philosophical schools.", "the Roman Senate's decisions."]
           },
-          { 
-            start: "Carthaginian art, characterized by Phoenician and Hellenistic influences, reflected that the city was exposed to diverse cultural traditions and could synthesize foreign elements while maintaining its",
-            "correct": "identity.",
-            "wrong": ["distinctive character.", "cultural heritage.", "traditions."] 
+          {
+            start: "Religious festivals and public ceremonies demonstrated Carthage's wealth and reinforced social bonds, showing religion served both spiritual and",
+            correct: "civic political functions.",
+            wrong: ["purely entertainment purposes.", "military recruitment goals.", "anti-Roman propaganda needs."]
           },
-          { 
-            start: "The Carthaginian adoption of Greek cultural elements—literature, philosophy, art—alongside Phoenician traditions shows that contact with other civilizations allowed for cultural exchange and",
-            "correct": "enrichment.",
-            "wrong": ["intellectual growth.", "artistic development.", "cultural development."] 
+          {
+            start: "Carthaginian art blended Phoenician and Hellenistic influences, showing that a trading civilization could absorb foreign styles while maintaining",
+            correct: "a distinctive local identity.",
+            wrong: ["strict artistic isolation.", "purely Egyptian artistic traditions.", "Roman artistic dominance."]
+          },
+          {
+            start: "Because Rome destroyed Carthage's libraries and records in 146 BCE, almost everything we know about Carthaginian culture comes from",
+            correct: "enemies and outside observers.",
+            wrong: ["well-preserved Punic archives.", "Hannibal's personal letters.", "neutral Etruscan records."]
           }
         ]
       },
@@ -4998,29 +5003,29 @@ export const CIVILIZATIONS = [
         emoji: "⛵",
         quotes: [
           {
-            "start": "Carthaginian naval superiority in the Mediterranean, built on centuries of maritime tradition and advanced shipbuilding, gave the city the ability to control sea lanes, transport commerce safely, and project power across",
-            "correct": "the Mediterranean.",
-            "wrong": ["North Africa.", "the Italian peninsula exclusively.", "the Iberian interior."]
+            start: "Centuries of maritime tradition gave Carthage the ability to control Mediterranean sea lanes and project power across",
+            correct: "the entire Mediterranean basin.",
+            wrong: ["the North African interior exclusively.", "the Iberian interior only.", "the Red Sea trade routes."]
           },
           {
-            "start": "The construction of harbors and naval bases at Carthage and other cities served to support the large navy that was essential to Carthaginian power, demonstrating that naval dominance required infrastructure investment and the",
-            "correct": "continuous building of ships.",
-            "wrong": ["abandonment of trade.", "replacement of sailors.", "elimination of coastal cities."]
+            start: "The cothon — Carthage's unique circular military harbor — demonstrated that naval dominance required permanent",
+            correct: "purpose-built infrastructure investment.",
+            wrong: ["reliance on hired Greek shipwrights.", "seasonal fleet deployments only.", "open beach landing sites."]
           },
           {
-            "start": "The use of naval forces to transport armies, protect merchants, and conduct amphibious operations showed that Carthaginian commanders understood that controlling the sea allowed for military flexibility and",
-            "correct": "strategic advantages.",
-            "wrong": ["political isolation.", "economic collapse.", "territorial fragmentation."]
+            start: "Carthaginian naval forces transported armies, protected merchants, and conducted amphibious operations, showing that sea control provided",
+            correct: "strategic flexibility land powers lacked.",
+            wrong: ["cheaper armies than mercenaries.", "immunity from Roman land attack.", "automatic control of Sicily."]
           },
           {
-            "start": "The Carthaginian loss of naval dominance to Rome in the Punic Wars demonstrated that even superior seamanship could be overcome when an enemy developed comparable naval capabilities and had",
-            "correct": "greater resources.",
-            "wrong": ["smaller armies.", "weaker alliances.", "limited geography."]
+            start: "Rome built its first serious navy using a captured Carthaginian ship as a template and added the corvus boarding bridge — defeating Carthage by",
+            correct: "copying and then improving on its technology.",
+            wrong: ["bribing Carthaginian naval commanders.", "avoiding sea battles entirely.", "using only allied Greek fleets."]
           },
           {
-            "start": "The exploration and trade voyages conducted by Carthaginian sailors and explorers, including Hanno's famous voyage to West Africa, demonstrated that Carthage was a society of seafarers who valued knowledge and commercial opportunity beyond",
-            "correct": "the Mediterranean.",
-            "wrong": ["military conquest.", "agricultural expansion.", "religious pilgrimage routes."]
+            start: "Hanno's voyage along the West African coast showed Carthage valued commercial knowledge and exploration beyond",
+            correct: "the Pillars of Hercules.",
+            wrong: ["military conquest of new lands.", "purely religious pilgrimage routes.", "established Greek trading zones."]
           }
         ]
       },
@@ -5029,24 +5034,29 @@ export const CIVILIZATIONS = [
         emoji: "⚔️",
         quotes: [
           {
-            "start": "The Punic Wars between Carthage and Rome showed that the two powers competed for dominance in the Mediterranean, with fundamental differences in strategy: Carthage relied on naval power and economic strength while Rome relied on",
-            "correct": "military conquest.",
-            "wrong": ["diplomatic isolation.", "religious unity.", "commercial dominance through trade networks."]
+            start: "The Punic Wars revealed a fundamental strategic contrast: Carthage relied on naval power and merchant wealth while Rome relied on",
+            correct: "citizen legions and Italian alliances.",
+            wrong: ["diplomatic isolation of Carthage.", "Greek mercenary superiority.", "religious crusading ideology."]
           },
           {
-            "start": "The ultimate Roman victory over Carthage demonstrated that while Carthage had advantages in naval power and wealth, Rome's advantages included a larger population that could replace military losses and the ability to unite",
-            "correct": "Italian allies.",
-            "wrong": ["Greek mercenary forces.", "North African kingdoms.", "Egyptian dynastic support."]
+            start: "Rome's ultimate victory depended not only on defeating Carthaginian armies but on holding the loyalty of",
+            correct: "its Italian allied states.",
+            wrong: ["Greek city-states in Sicily.", "North African Berber kingdoms.", "Egyptian Ptolemaic support."]
           },
           {
-            "start": "The destruction of Carthage after the Third Punic War showed the brutal logic of ancient warfare, where complete defeat could mean the physical destruction of a city, though this also demonstrated that Rome viewed Carthage as",
-            "correct": "a fundamental threat.",
-            "wrong": ["a trading partner.", "a buffer state.", "a military ally."]
+            start: "The destruction of Carthage in 146 BCE — the city burned for seventeen days — showed Rome viewed Carthage not as a rival to manage but as",
+            correct: "an existential threat to eliminate.",
+            wrong: ["a potential commercial partner.", "a useful Mediterranean buffer state.", "a source of skilled administrators."]
           },
           {
-            "start": "The strategic brilliance of Hannibal’s campaigns contrasted with the political-strategic vision of Rome’s leadership, which understood that winning required not only defeating Carthaginian armies but also denying Carthage the resources necessary to",
-            "correct": "continue the conflict.",
-            "wrong": ["negotiate peace terms.", "withdraw from Sicily.", "abandon its naval forces."]
+            start: "Scipio Africanus took the war to Africa, forcing Hannibal home from Italy — demonstrating that Rome's strategic genius lay in",
+            correct: "attacking the enemy's base, not just his army.",
+            wrong: ["superior numbers on every battlefield.", "purchasing Numidian betrayal with gold.", "waiting for Hannibal to retreat voluntarily."]
+          },
+          {
+            start: "The outcome of the Punic Wars was not inevitable — had Carthage reinforced Hannibal after Cannae, the Mediterranean world might have looked",
+            correct: "fundamentally different today.",
+            wrong: ["exactly as it does now.", "more Greek than Roman.", "dominated by the Seleucid Empire."]
           }
         ]
       },
@@ -5054,25 +5064,25 @@ export const CIVILIZATIONS = [
         name: "Carthaginian Society & Social Structure",
         emoji: "🏛️",
         quotes: [
-          { 
-            start: "Carthaginian society was dominated by wealthy merchant families who held political and military power, creating a system where economic elite also held political authority, which sometimes led to policies that",
-            "correct": "favored merchant interests.",
-            "wrong": ["prioritized commercial expansion.", "benefited trading classes.", "advanced mercantile goals."] 
+          {
+            start: "Wealth and political power coincided in Carthage — merchant families controlled both the Senate and military appointments, producing policies that often",
+            correct: "prioritized commercial over military needs.",
+            wrong: ["favored the poorest citizens first.", "gave generals unlimited authority.", "ignored the merchant class entirely."]
           },
-          { 
-            start: "The reliance on mercenary forces in Carthage meant that power was distributed to generals and commanders who could pay and lead these troops, creating relationships where military leaders held significant influence, as demonstrated by Hannibal's",
-            "correct": "family's power in Spain.",
-            "wrong": ["family's dominance in Iberia.", "military commanders' autonomy.", "control of Iberian territories."] 
+          {
+            start: "The Barcid family's independent control of Spain demonstrated that Carthage's political structure allowed successful generals to build",
+            correct: "personal empires within the empire.",
+            wrong: ["purely symbolic honorific positions.", "strictly Senate-approved outposts.", "temporary seasonal encampments."]
           },
-          { 
-            start: "Women in Carthaginian society, particularly those of elite status, held more freedom and economic rights than in some contemporary societies showing that Phoenician tradition allowed for",
-            "correct": "female economic participation.",
-            "wrong": ["property ownership.", "commercial involvement.", "women's business activities."] 
+          {
+            start: "Elite Carthaginian women held more property rights and economic freedom than in many contemporary Mediterranean societies, reflecting",
+            correct: "the Phoenician commercial tradition of female participation.",
+            wrong: ["Roman legal influence on Carthaginian law.", "Greek philosophical ideas about gender.", "purely ceremonial royal privileges."]
           },
-          { 
-            start: "The enslaved populations in Carthage, obtained through trade and conquest, provided labor for agriculture, manufacturing, and the military, demonstrating that Carthaginian prosperity was built partly on",
-            "correct": "enslaved labor.",
-            "wrong": ["unfree workers.", "forced servitude.", "coerced labor systems."] 
+          {
+            start: "Enslaved people — obtained through trade and conquest — provided the agricultural labor that underpinned Carthaginian prosperity, meaning the city's wealth was built partly on",
+            correct: "systematic forced labor.",
+            wrong: ["purely voluntary hired workers.", "tribute paid in Roman silver.", "Greek artisan immigration."]
           }
         ]
       },
@@ -5080,30 +5090,30 @@ export const CIVILIZATIONS = [
         name: "Carthaginian Decline & Fall",
         emoji: "📜",
         quotes: [
-          { 
-            start: "The decline of Carthage came from multiple factors: military defeats by Rome, the loss of naval dominance, the destruction of Carthaginian commerce during the wars, and the political divisions within Carthage that prevented unified response to",
-            "correct": "existential threats.",
-            "wrong": ["mortal dangers.", "critical crises.", "overwhelming challenges."] 
+          {
+            start: "Carthage's decline combined military defeats, loss of naval dominance, commercial disruption, and Senate factionalism that prevented",
+            correct: "a unified response to Roman pressure.",
+            wrong: ["any diplomatic contact with Rome.", "mercenary recruitment in Spain.", "the construction of new warships."]
           },
-          { 
-            start: "The final destruction of Carthage in 146 BCE after the Third Punic War demonstrated that Rome was willing to completely destroy a rival to eliminate any possibility of",
-            "correct": "future threat.",
-            "wrong": ["renewed conflict.", "future resurgence.", "potential revival."] 
+          {
+            start: "The Third Punic War began when Rome demanded Carthage relocate inland — effectively destroying a sea-trading civilization by separating it from",
+            correct: "its harbor and maritime identity.",
+            wrong: ["its North African grain supply.", "its Greek cultural connections.", "its Numidian cavalry allies."]
           },
-          { 
-            start: "The rapid redevelopment of Carthage as a Roman city centuries later shows that the site itself remained valuable, though the Carthaginian civilization and power had been",
-            "correct": "completely destroyed.",
-            "wrong": ["utterly obliterated.", "totally eliminated.", "entirely eradicated."] 
+          {
+            start: "Rome rebuilt Carthage as a prosperous Roman city — showing the site retained value, but the Carthaginian civilization had been",
+            correct: "completely and deliberately erased.",
+            wrong: ["peacefully absorbed into Roman culture.", "partially preserved in written records.", "continued secretly by Punic communities."]
           },
-          { 
-            start: "The legacy of Carthage included its development of maritime power, extensive trade networks, military innovation (like the use of war elephants), and cultural influence, but ultimately the city is remembered as the great rival of Rome that failed to",
-            "correct": "achieve permanent dominance.",
-            "wrong": ["establish lasting supremacy.", "secure enduring control.", "maintain lasting power."] 
+          {
+            start: "The myth that Rome 'salted the earth' of Carthage is modern invention — the real destruction was of its people, archives, and culture, meaning we know Carthage almost entirely through",
+            correct: "the accounts of those who destroyed it.",
+            wrong: ["Hannibal's own written memoirs.", "neutral Etruscan historical records.", "Greek archaeological excavations."]
           },
-          { 
-            start: "The study of Carthage demonstrates that the ancient Mediterranean world was not predetermined to be Roman, but rather Rome had to fight for dominance against a worthy competitor, and the outcome could have been different if Hannibal had",
-            "correct": "received the resources he needed.",
-            "wrong": ["secured sufficient support.", "obtained adequate reinforcements.", "commanded greater forces."] 
+          {
+            start: "The study of Carthage demonstrates that the Mediterranean world was not destined to be Roman — the outcome could have been different if",
+            correct: "Carthage had reinforced Hannibal after Cannae.",
+            wrong: ["Rome had never built a navy.", "Hannibal had avoided the Alps entirely.", "the Senate had been more democratic."]
           }
         ]
       },
@@ -5111,25 +5121,25 @@ export const CIVILIZATIONS = [
         name: "Carthaginian Commerce & Merchants",
         emoji: "💰",
         quotes: [
-          { 
-            start: "Carthaginian merchants conducted trade across vast distances, from the Atlantic to the Indian Ocean, through their own networks and through intermediaries, establishing that Carthage was a major node in global trade networks connecting",
-            "correct": "diverse regions and peoples.",
-            "wrong": ["distant continents.", "multiple continents.", "far-flung lands and societies."] 
+          {
+            start: "Carthaginian merchants built networks from the Atlantic coasts of Africa and Britain to the eastern Mediterranean, making the city a dominant commercial hub connecting",
+            correct: "western and eastern Mediterranean worlds.",
+            wrong: ["the Indian Ocean to the Baltic.", "China to the Saharan interior.", "Rome to Persia directly."]
           },
-          { 
-            start: "The wealth accumulated by Carthaginian merchants allowed them to influence political decisions and fund military campaigns, demonstrating that economic power translated directly to",
-            "correct": "political influence.",
-            "wrong": ["military strength.", "state authority.", "governmental power."] 
+          {
+            start: "Merchant wealth translated directly into political power in Carthage because the Senate was dominated by",
+            correct: "the same families who controlled trade.",
+            wrong: ["hereditary military aristocrats.", "elected popular assemblies.", "Zoroastrian priestly classes."]
           },
-          { 
-            start: "The Carthaginian establishment of trading posts and colonies served multiple purposes: securing supplies, controlling trade routes, establishing forward bases for naval operations, and extending Carthaginian cultural and",
-            "correct": "economic influence.",
-            "wrong": ["commercial dominance.", "trading power.", "mercantile reach."] 
+          {
+            start: "Trading posts served multiple purposes: securing supplies, controlling routes, supporting naval operations, and extending Carthaginian",
+            correct: "cultural and economic presence abroad.",
+            wrong: ["purely military garrison networks.", "religious missionary activities.", "agricultural colonial settlements."]
           },
-          { 
-            start: "The reliance on merchants for revenue through customs duties and trade taxes meant that Carthaginian rulers understood that facilitating commerce and protecting merchants was essential to",
-            "correct": "state revenue.",
-            "wrong": ["imperial prosperity.", "governmental income.", "fiscal stability."] 
+          {
+            start: "Customs duties and trade taxes meant Carthaginian rulers understood that protecting merchants was essential to",
+            correct: "funding the state itself.",
+            wrong: ["pleasing the priestly class.", "satisfying Roman treaty demands.", "preventing Greek competition."]
           }
         ]
       },
@@ -5137,25 +5147,25 @@ export const CIVILIZATIONS = [
         name: "Carthaginian Influence & Cultural Legacy",
         emoji: "🌍",
         quotes: [
-          { 
-            start: "The Carthaginian influence on the Mediterranean, through trade, colonization, and cultural exchange, shaped the region even after Carthage's destruction, showing that cultural and economic influence could outlast",
-            "correct": "political power.",
-            "wrong": ["military dominance.", "imperial control.", "territorial conquest."] 
+          {
+            start: "Carthaginian commercial and colonial influence shaped the western Mediterranean even after 146 BCE, showing that economic networks outlast",
+            correct: "the political power that built them.",
+            wrong: ["the military forces that protected them.", "the merchants who created them.", "the religious institutions behind them."]
           },
-          { 
-            start: "The Carthaginian adoption and adaptation of Phoenician traditions, combined with Greek and local influences, created a distinctive culture that reflected the city's position as a commercial and",
-            "correct": "military power.",
-            "wrong": ["imperial force.", "naval superpower.", "strategic stronghold."] 
+          {
+            start: "Carthaginian culture blended Phoenician foundations with Greek and North African influences, creating something distinctive that reflected its position as a",
+            correct: "crossroads commercial civilization.",
+            wrong: ["purely military empire.", "Greek philosophical colony.", "Egyptian religious satellite."]
           },
-          { 
-            start: "The Carthaginian military innovations—tactics, weapons, organization—influenced later military thinking, showing that even defeated powers could contribute to",
-            "correct": "human knowledge.",
-            "wrong": ["historical understanding.", "future generations.", "military science."] 
+          {
+            start: "Hannibal's tactical innovations — the double envelopment, combined arms coordination, strategic use of terrain — were studied by commanders from Scipio to Napoleon, showing that",
+            correct: "military genius transcends the civilization that produced it.",
+            wrong: ["Roman generals always surpassed Carthaginian ones.", "elephants remained central to later warfare.", "Carthaginian tactics were purely defensive."]
           },
-          { 
-            start: "The memory of Carthage and especially of Hannibal persisted in later historical and cultural traditions, with the Carthaginian general remembered as one of history's greatest",
-            "correct": "military strategists.",
-            "wrong": ["military commanders.", "tactical geniuses.", "generals of antiquity."] 
+          {
+            start: "Because Rome destroyed Carthage's written records, Hannibal is remembered almost entirely through Roman eyes — which means history's portrait of him reflects",
+            correct: "the perspective of those he nearly defeated.",
+            wrong: ["objective neutral Greek historians.", "Hannibal's own surviving letters.", "confirmed Carthaginian royal inscriptions."]
           }
         ]
       }
