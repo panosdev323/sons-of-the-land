@@ -1650,8 +1650,8 @@ export const CIVILIZATIONS = [
             wrong: ['"silence."', '"gold."', '"armies."']
           },
           {
-            start: 'Maxims of Ptahhotep (Maxim 9): "If you meet an opponent in his moment of power — one who is your superior — bend your arms and bow your back. Do not oppose him. He will not be',
-            correct: 'swayed by an argument, and time will show his foolishness."',
+            start: 'Maxims of Ptahhotep (Maxim 9): "If you meet an opponent in his moment of power — one who is your superior — bend your arms and bow your back. Do not oppose him. He will not be swayed by an argument,',
+            correct: 'and time will show his foolishness."',
             wrong: ['"impressed by your learning."', '"angered by your silence."', '"defeated by direct confrontation."']
           },
           {
@@ -1680,15 +1680,23 @@ export const CIVILIZATIONS = [
             wrong: ['"any amount of gold."', '"open confession."', '"any deed."']
           },
           {
-            start: 'Maxims of Ptahhotep (Maxim 18): "If you are wise, keep your house and love your wife as is fitting. Fill her belly and clothe her back. The remedy for keeping her',
-            correct: 'is to hold her far from authority — her eye is her storm-wind."',
-            wrong: ['"is to give her gold and jewels freely."', '"is silence and obedience."', '"is to educate her in the scribal arts."']
+            start: 'Maxims of Ptahhotep (Maxim 18): "If you are wise, keep your house and love your wife as is fitting. Fill her belly and clothe her back. The remedy for keeping her is to hold her far from authority —',
+            correct: 'her eye is her storm-wind."',
+            wrong: [
+              'give gold and jewels.',
+              'silence and obedience.',
+              'scribal education.'
+            ]          
           },
           {
             // Maxim 41 — on greed and the stomach
-            start: 'Maxims of Ptahhotep (Maxim 41): "If you want friendship to endure in a house that you enter — as master, as brother, or as friend — wherever you enter, beware of approaching the',
-            correct: 'women, for no good comes from that place."',
-            wrong: ['"food and drink of the household."', '"servants of your host."', '"treasury and storeroom."']
+            start: 'Maxims of Ptahhotep (Maxim 41): "If you want friendship to endure in a house that you enter — as master, as brother, or as friend — wherever you enter, beware of approaching the women, for no good comes',
+            correct: 'from that place."',
+            wrong: [
+              'from women’s company.',
+              'from household women.',
+              'from private chambers.'
+            ]
           },
           {
             start: 'Maxims of Ptahhotep (closing): "Obedience is an excellent thing and brings peace to the heart. The son who accepts the teaching of his father will grow old',
@@ -1702,44 +1710,68 @@ export const CIVILIZATIONS = [
         emoji: '🌿',
         quotes: [
           {
-            start: 'Story of Sinuhe (B1–5): The narrative opens with Sinuhe overhearing news of Pharaoh Amenemhat I\'s death and fleeing Egypt in panic — his flight described not as treason but as',
-            correct: 'a sudden terror sent by the god, like a dream of the Delta marshes.',
-            wrong: ['a carefully planned escape to join the Hyksos.', 'a divine command to spread Egyptian culture abroad.', 'a political mission ordered by the crown prince Senusret.']
+            start: 'Story of Sinuhe (B1–5): The narrative opens with Sinuhe overhearing news of Pharaoh Amenemhat I\'s death and fleeing Egypt in panic — his flight described not as treason but as a sudden terror sent by the god,',
+            correct: 'like a dream of the Delta marshes.',
+            wrong: [
+              'planned Hyksos escape.',
+              'divine cultural mission.',
+              'royal political assignment.'
+            ]
           },
           {
             start: 'Story of Sinuhe (B30–40): The chieftain Ammunenshi of Upper Retenu (Canaan) welcomed Sinuhe and asked why he had fled — Sinuhe replies he does not know, saying "It is as if the will of',
-            correct: 'a god placed this flight in my heart — as if a man of the Delta had seen himself in the land of the dead."',
-            wrong: ['"the pharaoh himself drove me out by his sacred command."', '"a demon of the eastern desert pursued me through my dreams."', '"the court conspirators threatened my life before I could escape."']
+            correct: 'a god placed this flight in my heart.',
+            wrong: [
+              'pharaoh ordered my exile.',
+              'desert demon pursued me.',
+              'court conspirators threatened me.'
+            ]
           },
           {
-            start: 'Story of Sinuhe (B75–90): Sinuhe praises Pharaoh Senusret I to Ammunenshi — describing him as a god who "knows all lands, and whom all who see him love, for he conquers by',
-            correct: 'love, for his city loves him more than itself."',
-            wrong: ['"fear, for his armies reach the ends of the earth."', '"gold, for his treasury exceeds all kings."', '"magic, for the gods speak through him alone."']
+            start: 'Story of Sinuhe (B75–90): Sinuhe praises Pharaoh Senusret I to Ammunenshi — describing him as a god who "knows all lands, and whom all who see him love, for he conquers by love, for his city loves him more than',
+            correct: 'itself."',
+            wrong: ['fear alone."', 'forced obedience."', 'his wisdom alone."']
           },
           {
-            start: 'Story of Sinuhe (B110–130): The Syrian challenger who fights Sinuhe plans to take his cattle and property — Sinuhe defeats him with his',
-            correct: 'bow before the man can even reach him with his shield and axe.',
-            wrong: ['Egyptian sword, which the Syrians had never seen before.', 'divine amulet given to him by the priests of Amun.', 'chariot team, which broke the champion\'s formation.']
+            start: 'Story of Sinuhe (B110–130): The Syrian challenger who fights Sinuhe plans to take his cattle and property — Sinuhe defeats him with his bow before the man can even reach him with',
+            correct: 'his shield and axe.',
+            wrong: [
+              'his Egyptian sword.',
+              'a divine amulet.',
+              'a chariot team.'
+            ]
           },
           {
-            start: 'Story of Sinuhe (B155–165): Despite his great success in Syria — land, cattle, children, authority — Sinuhe writes that nothing could overcome his longing to see',
-            correct: 'Egypt again and die in the land where he was born.',
-            wrong: ['the court of Senusret and prove his innocence.', 'the Nile flood one final time before old age.', 'his children settled before returning alone.']
+            start: 'Story of Sinuhe (B155–165): Despite his great success in Syria — land, cattle, children, authority — Sinuhe writes that nothing could overcome his longing to see Egypt again and',
+            correct: 'die in the land where he was born.',
+            wrong: [
+              'live and die in Syria.',
+              'serve foreign kings forever.',
+              'his children settled before return.'
+            ]
           },
           {
             start: 'Story of Sinuhe (B230–250): The royal letter from Senusret I to Sinuhe contains the famous line: "Why are you fleeing? What have you done wrong? You have not spoken against anyone, your words have not been judged false — do not let your heart',
             correct: 'think of it any more."',
-            wrong: ['"fear the gods of Syria."', '"plan another flight."', '"return without our command."']
+            wrong: ['fear the gods of Syria."', 'plan another flight."', 'return without our command."']
           },
           {
-            start: 'Story of Sinuhe (B290–305): On returning to Egypt, Sinuhe describes himself as transformed by age and exile — "I was given the house of a courtier; it had a garden and trees and was cool as a temple. I was set',
-            correct: 'at the king\'s table with the children of the king."',
-            wrong: ['"to work in the palace scriptorium."', '"free to live in the Delta as I wished."', '"above all other returning exiles."']
+            start: 'Story of Sinuhe (B290–305): On returning to Egypt, Sinuhe describes himself as transformed by age and exile — "I was given the house of a courtier; it had a garden and trees and was cool as a temple. I was set at the king\'s table with',
+            correct: 'the children of the king."',
+            wrong: [
+              'foreign nobles of Syria."',
+              'servants of the palace."',
+              'prisoners of war."'
+            ]
           },
           {
-            start: 'Story of Sinuhe (closing): The narrative ends with Senusret ordering Sinuhe be given a fine burial — a pyramid-tomb, gilded statues, funerary priests — symbolizing that the greatest gift Egypt can give is',
-            correct: 'a proper Egyptian death and burial after a life of exile.',
-            wrong: ['royal wealth accumulated across a lifetime of service.', 'divine favor confirmed by the oracle of Amun.', 'the honor of dying in battle for the pharaoh.']
+            start: 'Story of Sinuhe (closing): The narrative ends with Senusret ordering Sinuhe be given a fine burial — a pyramid-tomb, gilded statues, funerary priests — symbolizing that the greatest gift Egypt can give is a proper Egyptian death and',
+            correct: 'burial after a life of exile.',
+            wrong: [
+              'death in foreign lands.',
+              'royal military honors.',
+              'eternal wandering abroad.'
+            ]
           }
         ]
       },
@@ -1750,42 +1782,66 @@ export const CIVILIZATIONS = [
           {
             start: 'Great Hymn to the Aten (lines 1–8): "Beautiful is your rising on the horizon of heaven, O living Aten, the beginning of life! When you rise on the eastern horizon you fill',
             correct: 'every land with your beauty."',
-            wrong: ['"Egypt alone with divine favor."', '"the Nile with the flood of life."', '"the hearts of kings with awe and terror."']
+            wrong: ['"Egypt alone with divine favor."', '"the Nile with the flood of life."', '"the hearts of kings with terror."']
           },
           {
             start: 'Great Hymn to the Aten (lines 9–20): "When you set on the western horizon, the earth is in darkness, in the manner of death. Every lion comes out of its den; all the snakes bite. Darkness is the only',
-            correct: 'light, and the earth is silent — for he who made them rests beyond the horizon."',
-            wrong: ['"gift of the night to the tired."', '"time when the Aten speaks to the king."', '"protection of the weak against the powerful."']
+            correct: 'light, and the earth is silent."',
+            wrong: [
+              'gift of the night."',
+              'protection of sleepers."',
+              'time of divine speech."'
+            ]
           },
           {
-            start: 'Great Hymn to the Aten (lines 35–50): "How manifold are your works! They are hidden from the face of man. O sole god, like whom there is no other! You created the earth according to your desire, while you were',
-            correct: 'alone — men, cattle, all flocks, everything on earth that walks on feet."',
-            wrong: ['"at rest in the primordial waters."', '"present in every heart that recognizes you."', '"worshipped by the priests of every land."']
+            start: 'Great Hymn to the Aten (lines 35–50): "How manifold are your works! They are hidden from the face of man. O sole god, like whom there is no other! You created the earth according to your desire, cattle, all flocks, everything on',
+            correct: 'earth that walks on feet."',
+            wrong: [
+              'sea that moves in waters.',
+              'sky that holds the stars.',
+              'desert that knows no life.'
+            ]
           },
           {
-            start: 'Great Hymn to the Aten (lines 55–65): The hymn attributes the Nile flood not to the god Hapy (as was traditional) but to the Aten — "You made the Nile in the underworld and bring it where you will to',
-            correct: 'sustain the people of Egypt, for you made them for yourself."',
-            wrong: ['"honor the pharaohs of the Old Kingdom."', '"mark the boundaries of sacred Amarna."', '"fill the temples with offerings for the gods."']
+            start: 'Great Hymn to the Aten (lines 55–65): The hymn attributes the Nile flood not to the god Hapy (as was traditional) but to the Aten — "You made the Nile in the underworld and bring it where you will to sustain the people of Egypt,',
+            correct: 'for you made them for yourself."',
+            wrong: [
+              'to honor Hapy in his hidden realm."',
+              'by command of Osiris in the Duat."',
+              'for the kings of Egypt alone."'
+            ]
           },
           {
             start: 'Great Hymn to the Aten (lines 70–80): Notably, the hymn describes the Aten as creator not only of Egypt but of all peoples — "Their tongues differ in speech and their characters likewise; their skins differ, for you distinguished',
             correct: 'people of foreign lands."',
-            wrong: ['"them so Egypt might rule over them."', '"them all from the first Egyptians."', '"the sinful from the righteous."']
+            wrong: ['the tribes of Egypt alone."', '"the children of the Nile."', '"the followers of the pharaoh."']
           },
           {
-            start: 'Great Hymn to the Aten (closing): "You are in my heart; there is no other who knows you except your son Akhenaten. You have made him wise in your plans and your power." This establishes Akhenaten as',
-            correct: 'the sole intermediary between the Aten and all humanity.',
-            wrong: ['an equal co-ruler with the Aten.', 'a priest subject to the traditional temple hierarchy.', 'a servant of the older gods who adopted the Aten additionally.']
+            start: 'Great Hymn to the Aten (closing): "You are in my heart; there is no other who knows you except your son Akhenaten. You have made him wise in your plans and your power." This establishes Akhenaten as the sole intermediary between the Aten and',
+            correct: 'all humanity.',
+            wrong: [
+              'the traditional Egyptian priesthood.',
+              'the gods of the old pantheon.',
+              'the royal family alone.'
+            ]
           },
           {
-            start: 'Amarna Boundary Stelae (Year 5–6 of Akhenaten): Akhenaten declares that Akhetaten (modern Amarna) was chosen by the Aten himself — the king swore he would never',
-            correct: 'extend the city beyond the boundaries the Aten had marked on his first appearance there.',
-            wrong: ['allow traditional priests of Amun to enter the city.', 'build a second capital or maintain Memphis as a royal residence.', 'allow any foreign delegation to enter without Aten worship.']
+            start: 'Amarna Boundary Stelae (Year 5–6 of Akhenaten): Akhenaten declares that Akhetaten (modern Amarna) was chosen by the Aten himself — the king swore he would never extend the city beyond the boundaries the Aten',
+            correct: 'had marked on his first appearance there.',
+            wrong: [
+              'had assigned to the god Amun.',
+              'set for expansion.',
+              'designated for future royal tombs.'
+            ]
           },
           {
-            start: 'Scholars have noted that the Great Hymn to the Aten shares remarkable structural similarities with',
-            correct: 'Psalm 104 of the Hebrew Bible — though the relationship between them is debated.',
-            wrong: ['the Rigveda hymns of early India.', 'the Homeric Hymn to Helios.', 'Zoroastrian Gathas praising Ahura Mazda.']
+            start: 'Scholars have noted that the Great Hymn to the Aten shares remarkable structural similarities with Psalm 104 of the Hebrew Bible — though the relationship between them is',
+            correct: 'debated.',
+            wrong: [
+              'not yet settled among scholars.',
+              'still actively discussed in academic literature.',
+              'interpreted differently across modern scholarship.'
+            ]
           }
         ]
       },
@@ -1819,9 +1875,13 @@ export const CIVILIZATIONS = [
             wrong: ['"fall on your house."', '"reach the pharaoh\'s ears."', '"destroy your family."']
           },
           {
-            start: 'Instruction of Amenemope (Ch.11): "The truly silent man holds himself apart. He is like',
-            correct: 'gold compared to a mountain of silver."',
-            wrong: ['"the sun above the desert sands."', '"a falcon above lesser birds."', '"a tree bearing fruit in all seasons."']
+            start: 'Instruction of Amenemope (Ch.11): "The truly silent man holds himself apart. He is like gold compared to',
+            correct: 'a mountain of silver."',
+            wrong: [
+              'a field of copper ore.',
+              'a chest of bronze coins.',
+              'a heap of iron in the forge.'
+            ]
           },
           {
             start: 'Instruction of Amenemope (Ch.20): "Do not move the scales nor alter the weights, nor diminish the fractions of the measure. Do not wish for false measures, for they are an abomination to',
@@ -1834,9 +1894,13 @@ export const CIVILIZATIONS = [
             wrong: ['"the wrath of Thoth."', '"punishment from the pharaoh."', '"dishonor to your father."']
           },
           {
-            start: 'Instruction of Amenemope is particularly significant because Proverbs 22:17 explicitly says "incline your ear and hear the words of the wise" — phrases and structures from Amenemope appear so closely in',
-            correct: 'Proverbs 22:17–24:22 that most scholars accept direct literary borrowing or a shared source.',
-            wrong: ['Psalm 104 shows no literary connection.', 'the Book of Job that Amenemope is now dated to the Persian period.', 'Ecclesiastes that some scholars identify Amenemope with Qohelet.']
+            start: 'Instruction of Amenemope is particularly significant because Proverbs 22:17 explicitly says "incline your ear and hear the words of the wise" — parallels in wording and structure appear most clearly in',
+            correct: 'Proverbs 22:17–24:22.',
+            wrong: [
+              'Psalm 104.',
+              'the Book of Job.',
+              'Ecclesiastes.'
+            ]
           }
         ]
       },
@@ -1850,24 +1914,40 @@ export const CIVILIZATIONS = [
             wrong: ['"armies."', '"temples."', '"the throne."']
           },
           {
-            start: 'Ipuwer Papyrus (2.8): "Indeed, the servant girls have become mistresses, and the ladies are',
-            correct: 'compelled to do what their servants do."',
-            wrong: ['"exalted above pharaoh."', '"scattered to foreign lands."', '"permitted to rule the temples."']
+            start: 'Ipuwer Papyrus (2.8): "Indeed, the servant girls have become mistresses, and the ladies are compelled to do what',
+            correct: 'their servants do."',
+            wrong: [
+              'the noble ones command."',
+              'befits their high status."',
+              'the gods have ordained for them."'
+            ]
           },
           {
-            start: 'Ipuwer Papyrus (3.1–3): "Indeed, the river is blood. If one drinks of it, one rejects it — one thirsts for water." Scholars read this as',
-            correct: 'a metaphor for pollution or social breakdown, not a literal plague.',
-            wrong: ['confirmation of the biblical account of Moses.', 'a medical report of a Nile algae bloom.', 'a priestly curse placed on the Delta region.']
+            start: 'Ipuwer Papyrus (3.1–3): "Indeed, the river is blood. If one drinks of it, one rejects it — one thirsts for water." Scholars read this as a metaphor for pollution or social breakdown, not a',
+            correct: 'literal plague.',
+            wrong: [
+              'poetic exaggeration.',
+              'religious ritual description.',
+              'historical flood account.'
+            ]
           },
           {
-            start: 'Ipuwer Papyrus (4.2): "Indeed, the scribes have been destroyed. The records of the scribes are taken from them. The laws of the council chamber are',
-            correct: 'thrown into the hallways — men walk upon them in the streets."',
-            wrong: ['"locked away from the poor forever."', '"recited aloud by the new pharaoh."', '"preserved safely in the temples."']
+            start: 'Ipuwer Papyrus (4.2): "Indeed, the scribes have been destroyed. The records of the scribes are taken from them. The laws of the council chamber are thrown into the hallways — men walk upon them in',
+            correct: 'the streets."',
+            wrong: [
+              'open defiance."',
+              'reverent procession."',
+              'silent mourning."'
+            ]
           },
           {
-            start: 'Ipuwer Papyrus (5.8–6.1): The sage turns to address the creator god with a reproach — asking why he permitted this chaos, saying: "Behold, why does he seek to fashion',
-            correct: 'mankind, when the meek are not distinguished from the violent?"',
-            wrong: ['"the pharaoh\'s enemies, when they defeat him always?"', '"the Nile\'s flood, when it destroys more than it gives?"', '"the temples, when the priests corrupt them?"']
+            start: 'Ipuwer Papyrus (5.8–6.1): The sage turns to address the creator god with a reproach — asking why he permitted this chaos, saying: "Behold, why does he seek to fashion mankind, when the meek are not distinguished from',
+            correct: 'the violent?"',
+            wrong: [
+              'the righteous?"',
+              'the divine?"',
+              'the forgotten?"'
+            ]
           },
           {
             start: 'Ipuwer Papyrus (7.1–3): "Behold, why is the land robbed of the kingship by a few senseless men? Behold, men have fallen into rebellion against the',
@@ -1875,9 +1955,13 @@ export const CIVILIZATIONS = [
             wrong: ['"armies of the east."', '"priests of Amun."', '"god of the Nile."']
           },
           {
-            start: 'The Ipuwer Papyrus is classified by Egyptologists as a work of',
-            correct: '"discourse literature" — a genre of social criticism using an imagined crisis to argue for proper order, not a historical chronicle.',
-            wrong: ['prophetic temple text predicting the Hyksos invasion.', 'official administrative report from a provincial governor.', 'magical spell against political instability.']
+            start: 'The Ipuwer Papyrus is classified by Egyptologists as a work of discourse literature" — a genre of social criticism using an imagined crisis to argue for proper order, not a',
+            correct: '"historical chronicle.',
+            wrong: [
+              'religious hymn.',
+              'funerary text.',
+              'diplomatic record.'
+            ]
           }
         ]
       },
@@ -1891,34 +1975,58 @@ export const CIVILIZATIONS = [
             wrong: ['"power is hers, my army is hers."', '"throne is hers, my strength is hers."', '"love is hers, my temples are hers."']
           },
           {
-            start: 'Punt Expedition Inscription (Deir el-Bahari): After the expedition to Punt returned with myrrh trees, ebony, and living animals, Hatshepsut declares that no pharaoh who had come before had brought back',
-            correct: 'living myrrh trees from Punt for transplanting in Egypt.',
-            wrong: ['gold without military conquest.', 'diplomatic marriage alliances with Punt.', 'the sacred texts of the Puntites.']
+            start: 'Punt Expedition Inscription (Deir el-Bahari): After the expedition to Punt returned with myrrh trees, ebony, and living animals, Hatshepsut declares that no pharaoh who had come before had brought back living myrrh trees from Punt for',
+            correct: 'transplanting in Egypt.',
+            wrong: [
+              'offering to foreign kings.',
+              'study by royal scribes.',
+              'display in the royal palace.'
+            ]
           },
           {
-            start: 'Speos Artemidos Inscription: Hatshepsut declares that she "restored that which was in ruins and rebuilt that which had been destroyed since the Hyksos were in the midst of',
-            correct: 'Avaris of the Northland, with roving hordes overthrowing what had been made."',
-            wrong: ['"Memphis since the reign of the usurper kings."', '"Karnak since the wars with Nubia."', '"Thebes since the priests of Amun rebelled."']
+            start: 'Speos Artemidos Inscription: Hatshepsut declares that she "restored that which was in ruins and rebuilt that which had been destroyed since the Hyksos were in the midst of Avaris of the Northland, with roving hordes',
+            correct: 'overthrowing what had been made."',
+            wrong: [
+              'ruling without the gods\' blessing."',
+              'burning the sacred temples."',
+              'defiling the ancient tombs."'
+            ]
           },
           {
-            start: 'Red Chapel (Karnak): Hatshepsut depicts herself celebrating the Heb-Sed festival — a traditionally male royal renewal ritual — demonstrating her',
-            correct: 'full adoption of pharaonic royal ideology and ceremonial roles.',
-            wrong: ['religious reform replacing Amun with female deities.', 'diplomatic marriage alliance with the Nubian kingdom.', 'military victory over the Hittites of northern Syria.']
+            start: 'Red Chapel (Karnak): Hatshepsut depicts herself celebrating the Heb-Sed festival — a traditionally male royal renewal ritual — demonstrating her full adoption of pharaonic royal ideology and',
+            correct: 'ceremonial roles.',
+            wrong: [
+              'military titles.',
+              'divine parentage claims.',
+              'priestly functions.'
+            ]
           },
           {
-            start: 'At Deir el-Bahari, Hatshepsut depicted herself in the traditional male pharaonic form — with false beard and male royal regalia — while inscriptions use',
-            correct: 'both masculine and feminine grammatical forms, sometimes within the same text.',
-            wrong: ['only masculine forms, abandoning all reference to her female identity.', 'a new hybrid gender designation invented for her reign.', 'only feminine forms, reforming the masculine pharaonic tradition.']
+            start: 'At Deir el-Bahari, Hatshepsut depicted herself in the traditional male pharaonic form — with false beard and male royal regalia — while inscriptions use both masculine and feminine grammatical forms, sometimes',
+            correct: 'within the same text.',
+            wrong: [
+              'in separate temple chambers.',
+              'to distinguish her two roles.',
+              'according to the scribe\'s preference.'
+            ]
           },
           {
-            start: 'The erasure of Hatshepsut\'s images and name by Thutmose III occurred late in his reign — modern scholars believe this was motivated by',
-            correct: 'a desire to restore the male dynastic succession record, not necessarily personal hatred.',
-            wrong: ['revenge for her having imprisoned him as a young man.', 'religious reform targeting all female religious imagery.', 'Nubian pressure to remove records of female rule.']
+            start: 'The erasure of Hatshepsut\'s images and name by Thutmose III occurred late in his reign — modern scholars believe this was motivated by a desire to restore the male dynastic succession record, not',
+            correct: 'necessarily personal hatred.',
+            wrong: [
+              'personal revenge.',
+              'a religious reform targeting female imagery.',
+              'political pressure from the priesthood.'
+            ]
           },
           {
-            start: 'The Punt expedition (c.1458 BCE) is depicted in detail on the Deir el-Bahari temple walls — the Queen of Punt, shown with a body condition (possibly lipodystrophy), is one of the',
-            correct: 'most realistic depictions of a foreign ruler in all Egyptian art.',
-            wrong: ['earliest depictions of sub-Saharan African peoples in any art form.', 'most idealized royal portraits in the ancient Near East.', 'only Egyptian depictions of a ruling female monarch from abroad.']
+            start: 'The Punt expedition (c.1458 BCE) is depicted in detail on the Deir el-Bahari temple walls — the Queen of Punt, shown with a body condition (possibly lipodystrophy), is one of the most realistic depictions of',
+            correct: 'a foreign ruler in all Egyptian art.',
+            wrong: [
+              'disease in the ancient world.',
+              'a female figure in temple reliefs.',
+              'trade goods and exotic animals.'
+            ]
           }
         ]
       },
@@ -1934,7 +2042,7 @@ export const CIVILIZATIONS = [
           {
             start: 'Instruction of Ani (3.9–10): "Double the food your mother gave you, support her as she supported you. When you were born she carried you, and for three years she suckled you. When you had grown and were trained and learned to write, she watched over you',
             correct: 'daily with bread and beer from her house."',
-            wrong: ['"nightly with prayers to Hathor."', '"hourly with offerings to Thoth."', '"always with gold and linen for your studies."']
+            wrong: ['"nightly with prayers to Hathor."', '"hourly with offerings to Thoth."', '"always with gold."']
           },
           {
             start: 'Instruction of Ani (7.17–18): "The house of god — do not enter it drunk. Do not let your heart turn away while praying. Do not speak',
@@ -1947,14 +2055,22 @@ export const CIVILIZATIONS = [
             wrong: ['"offended the pharaoh."', '"crossed into your land."', '"lost all his gold."']
           },
           {
-            start: 'Instruction of Ani (closing dialogue): Uniquely in Egyptian wisdom literature, Ani\'s son Khonshotep responds to his father\'s teachings by saying: "Do not instruct me with so many admonitions! What you have set down is',
-            correct: 'a great load for one who listens to you — too great for the ordinary man."',
-            wrong: ['"beautiful wisdom that only the scribes can truly follow."', '"already known to every student in the scribal schools."', '"the teaching of Thoth written before your birth."']
+            start: 'Instruction of Ani (closing dialogue): Uniquely in Egyptian wisdom literature, Ani\'s son Khonshotep responds to his father\'s teachings by saying: "Do not instruct me with so many admonitions! What you have set down is a great load for',
+            correct: 'one who listens to you."',
+            wrong: [
+              'a man of lesser years."',
+              'one without noble birth."',
+              'the untrained mind."'
+            ]
           },
           {
-            start: 'Instruction of Ani: "Do not speak as a know-it-all at a consultation. Be very careful and you will not be rebuked. If you are mighty and powerful, calm your heart, for it is better to be praised by',
-            correct: 'the god than to be feared by men."',
-            wrong: ['"the pharaoh than to be praised by the priests."', '"your family than to be rich among strangers."', '"the scribes than to be powerful among soldiers."']
+            start: 'Instruction of Ani: "Do not speak as a know-it-all at a consultation. Be very careful and you will not be rebuked. If you are mighty and powerful, calm your heart, for it is better to be praised by the god than to be feared by',
+            correct: 'men."',
+            wrong: [
+              'your enemies."',
+              'the weak."',
+              'your household."'
+            ]
           }
         ]
       },
@@ -1965,17 +2081,21 @@ export const CIVILIZATIONS = [
           {
             start: 'Instruction for Merikare (P46–50): "Be a craftsman in speech — thus shall you prevail, for the tongue of a king is his sword, and speech is',
             correct: 'mightier than any fighting."',
-            wrong: ['"the gift of Thoth to the pharaoh alone."', '"the weapon the gods fear most."', '"more dangerous than an army."']
+            wrong: ['"the gift of Thoth."', '"the weapon the gods fear most."', '"more dangerous than an army."']
           },
           {
-            start: 'Instruction for Merikare (P53–57): "Do justice while you live on earth. Calm the one who weeps; do not oppress the widow. Do not expel a man from his father\'s property. Beware lest you punish',
-            correct: 'wrongfully — it is the divine court that will judge you."',
-            wrong: ['"a nobleman whose family has served the pharaoh."', '"the scribes who recorded false accounts."', '"your own son too harshly."']
+            start: 'Instruction for Merikare (P53–57): "Do justice while you live on earth. Calm the one who weeps; do not oppress the widow. Do not expel a man from his father\'s property. Beware lest you punish wrongfully — it is the divine court that',
+            correct: 'will judge you."',
+            wrong: [
+              'sees all things."',
+              'your scribes must answer to."',
+              'outlasts all earthly kings."'
+            ]
           },
           {
             start: 'Instruction for Merikare (P120–125): "Well-tended is mankind — the god\'s cattle. He made heaven and earth for their sake, and drove back the greediness of the water. He made the winds so that their nostrils might',
-            correct: 'live.",',
-            wrong: ['"carry prayers to his ears.",', '"cool the desert in summer.",', '"fill the sails of the royal fleet.",']
+            correct: 'live."',
+            wrong: ['"carry prayers to his ears."', '"cool the desert in summer."', '"fill the sails of the royal fleet."']
           },
           {
             start: 'Instruction for Merikare (P128): "He made himself their image, and he listens to what they say. He made plants, cattle, and fish to nourish them. He slays his enemies and destroys his own children because they plot',
@@ -1983,9 +2103,9 @@ export const CIVILIZATIONS = [
             wrong: ['"against Pharaoh."', '"to worship foreign gods."', '"to flood the delta."']
           },
           {
-            start: 'Instruction for Merikare (P132–133): "The divine court that judges the dead is not tolerant on that day of judgment: the court of accusers — do not trust in',
-            correct: 'length of years, for they see a lifetime as a single hour."',
-            wrong: ['"the gold you buried in your tomb."', '"the prayers of your priests."', '"the power of your dynasty."']
+            start: 'Instruction for Merikare (P132–133): "The divine court that judges the dead is not tolerant on that day of judgment: the court of accusers — do not trust in length of years, for they see a lifetime as',
+            correct: 'a single hour."',
+            wrong: ['a long journey."', 'a fleeting moment."', 'a day and a night."']
           },
           {
             start: 'Instruction for Merikare (P55): "The throne is established by justice alone; it is the heart of the righteous man that',
@@ -2014,9 +2134,13 @@ export const CIVILIZATIONS = [
             wrong: ['"spoken against Osiris."', '"refused to honor the dead."', '"left offerings incomplete."']
           },
           {
-            start: 'Book of the Dead, Chapter 125: The deceased\'s heart is weighed against the feather of Maat (truth/justice) — if the heart is heavier than the feather, it is devoured by',
-            correct: 'Ammit (the composite creature — part lion, hippopotamus, and crocodile).',
-            wrong: ['Anubis, who dissolves it in the sacred lake.', 'Set, who scatters it across the desert.', 'Thoth, who records its sins for eternity.']
+            start: 'Book of the Dead, Chapter 125: The deceased\'s heart is weighed against the feather of Maat (truth/justice) — if the heart is heavier than the feather, it is devoured by Ammit (the composite creature — part lion, hippopotamus, and',
+            correct: 'crocodile).',
+            wrong: [
+              'jackal).',
+              'serpent).',
+              'falcon).'
+            ]
           },
           {
             start: 'Book of the Dead, Chapter 1: "O you lords of Truth, O you who are in attendance on Osiris, who know no falsehood, I am here in your presence. Bring me no charges of',
@@ -2024,19 +2148,31 @@ export const CIVILIZATIONS = [
             wrong: ['"false prayer."', '"unpaid taxes."', '"ritual impurity."']
           },
           {
-            start: 'Book of the Dead, Chapter 17: The text identifies the soul with various divine forms — "I am yesterday; I know tomorrow. The battleground of the gods was made when I spoke. I know',
-            correct: 'the name of the great god who is there."',
-            wrong: ['"the weight of the sky and the measure of the earth."', '"which of the dead shall rise and which shall be consumed."', '"the time of the final judgment beyond the stars."']
+            start: 'Book of the Dead, Chapter 17: The text identifies the soul with various divine forms — "I am yesterday; I know tomorrow. The battleground of the gods was made when I spoke. I know the name of the great god who',
+            correct: 'is there."',
+            wrong: [
+              'guards the horizon."',
+              'judges the dead."',
+              'created the world."'
+            ]
           },
           {
-            start: 'Book of the Dead, Chapter 64 — one of the oldest chapters (found in Old Kingdom Pyramid Texts): "I am the great god who comes forth in truth. I know the name of the great god who is in the boat of millions of years. He is',
-            correct: 'Truth, the Lord of Truth, the King whose name is Truth."',
-            wrong: ['"Amun hidden in all things."', '"Ptah who spoke the world into being."', '"Aten the disc of heaven."']
+            start: 'Book of the Dead, Chapter 64 — one of the oldest chapters (found in Old Kingdom Pyramid Texts): "I am the great god who comes forth in truth. I know the name of the great god who is in the boat of',
+            correct: 'millions of years."',
+            wrong: [
+              'the eternal horizon."',
+              'Ra\'s daily crossing."',
+              'the sacred Nile."'
+            ]
           },
           {
-            start: 'Book of the Dead, Chapter 125: Thoth records the result of the weighing of the heart and reports to Osiris — his role in the judgment scene established',
-            correct: 'the Egyptian concept of divine record-keeping and posthumous moral accounting.',
-            wrong: ['a priestly class who could alter the verdict for payment.', 'the pharaoh\'s right to pardon any soul after death.', 'the principle that only priests could enter the Field of Reeds.']
+            start: 'Book of the Dead, Chapter 125: Thoth records the result of the weighing of the heart and reports to Osiris — his role in the judgment scene established the Egyptian concept of divine record-keeping and',
+            correct: 'posthumous moral accounting.',
+            wrong: [
+              'celestial cartography.',
+              'priestly hierarchy.',
+              'royal succession rights.'
+            ]
           }
         ]
       },
@@ -2044,35 +2180,64 @@ export const CIVILIZATIONS = [
         name: 'Thutmose III (Karnak Annals & Poetic Stela)',
         emoji: '⚔️',
         quotes: [
-          {
-            start: 'Karnak Annals (Year 23): Before the Battle of Megiddo, Thutmose III\'s officers urged him to take the safer road around the mountain — he rejected their advice and took the narrow Aruna pass, saying: "As I live, as Ra loves me, my Majesty shall proceed upon this',
-            correct: 'road of Aruna — let whoever wishes among you go upon the roads you have spoken of, and let whoever wishes among you come in my footsteps."',
-            wrong: ['"road to victory, for Amun has revealed it to me in a dream."', '"road, and let the gods decide which of us reaches Megiddo first."', '"road because fear is the weapon of our enemies, not of Egypt."']
+{
+            start: 'Karnak Annals: Before the Battle of Megiddo, Thutmose III\'s officers urged him to take the safer road — he rejected their advice and took the narrow Aruna pass, saying: "As I live, as Ra loves me, my Majesty shall proceed upon this',
+            correct: 'road of Aruna."',
+            wrong: [
+              'road to victory."',
+              'road alone."',
+              'road, and let the gods decide our fate."'
+            ]
           },
           {
-            start: 'Karnak Annals (Year 23): After capturing Megiddo, the annals list the spoils precisely — including 924 chariots, 200 suits of armor, 502 bows, 7 poles of cedar, and',
-            correct: '2,041 horses, 397 stallions, and 1,929 cattle.',
-            wrong: ['the golden throne of the king of Kadesh.', 'the sacred archives of the Canaanite kingdoms.', '47 ships of cedar for the royal fleet.']
+            start: 'Karnak Annals (Year 23): After Thutmose III announced he would take the Aruna pass, he added: "Let whoever wishes among you go upon the roads you have spoken of, and let whoever wishes among you come',
+            correct: 'in my footsteps."',
+            wrong: [
+              'before me as vanguard."',
+              'bearing the standard of Amun."',
+              'only if your heart is without fear."'
+            ]
           },
           {
-            start: 'Poetic Stela of Thutmose III (Karnak): Amun speaks to Thutmose: "I have come, causing you to smite the princes of Zahi. I have hurled them beneath your feet. I have caused them to see Your Majesty as the lord of radiance so that you have',
-            correct: 'shone in their faces like my image."',
-            wrong: ['"driven them into the sea like the enemies of Ra."', '"made them fall like stars from the night sky."', '"scattered them like chaff before the desert wind."']
+            start: 'Karnak Annals (Year 23): After capturing Megiddo, the annals list the spoils precisely — including 924 chariots, 200 suits of armor, 502 bows, 7 poles of cedar, and 2,041 horses, 397 stallions, and',
+            correct: '1,929 cattle.',
+            wrong: ['1,000 camels.', '500 slaves.', '100 elephants.']
           },
           {
-            start: 'Karnak Annals (Year 33): Thutmose III records crossing the Euphrates River — describing the lands beyond as ones where "the great circuit of the sun encircles it." His victory stele was set',
-            correct: 'beside that of his grandfather Thutmose I across the Euphrates.',
-            wrong: ['at the summit of Mount Lebanon.', 'at the source of the Tigris River.', 'at the boundary stone of the Mitanni kingdom.']
+            start: 'Poetic Stela of Thutmose III (Karnak): Amun speaks to Thutmose: "I have come, causing you to smite the princes of Zahi. I have hurled them beneath your feet. I have caused them to see Your Majesty as',
+            correct: 'the lord of radiance."',
+            wrong: [
+              'a falcon among sparrows."',
+              'the son of Ra himself."',
+              'the scourge of all lands."'
+            ]
           },
           {
-            start: 'Karnak Annals: Thutmose III conducted at least 17 military campaigns in the Levant — establishing a system of annual tribute that transformed Egypt\'s relationship with Canaan from raiding to',
-            correct: 'permanent political and economic domination.',
-            wrong: ['religious conversion to Egyptian worship.', 'colonization by Egyptian settlers.', 'marriage alliances replacing military control.']
+            start: 'Karnak Annals (Year 33): Thutmose III records crossing the Euphrates River — describing the lands beyond as ones where "the great circuit of the sun encircles it." His victory stele was set beside that of his grandfather Thutmose I',
+            correct: 'across the Euphrates.',
+            wrong: [
+              'at the walls of Kadesh.',
+              'in the temples of Nubia.',
+              'upon the shores of the Great Sea.'
+            ]
           },
           {
-            start: 'Thutmose III is often called the "Napoleon of Ancient Egypt" by modern historians — the comparison relates to his systematic use of',
-            correct: 'rapid strategic movement, detailed logistical records, and the building of an empire through successive campaigns.',
-            wrong: ['cavalry and chariot tactics borrowed from the Hittites.', 'naval power to project force across the Mediterranean.', 'religious propaganda to justify aggressive expansion.']
+            start: 'Karnak Annals: Thutmose III conducted at least 17 military campaigns in the Levant — establishing a system of annual tribute that transformed Egypt\'s relationship with Canaan from raiding to permanent political and',
+            correct: 'economic domination.',
+            wrong: [
+              'religious conversion.',
+              'cultural assimilation.',
+              'diplomatic alliance.'
+            ]
+          },
+          {
+            start: 'Thutmose III is often called the "Napoleon of Ancient Egypt" by modern historians — the comparison relates to his systematic use of rapid strategic movement, detailed logistical records, and the building of an empire through',
+            correct: 'successive campaigns.',
+            wrong: [
+              'divine mandate.',
+              'naval supremacy.',
+              'dynastic marriages.'
+            ]
           }
         ]
       },
@@ -2081,29 +2246,49 @@ export const CIVILIZATIONS = [
         emoji: '📜',
         quotes: [
           {
-            start: 'Instruction of Kagemni (Maxim 1): “Silence is a great virtue when”',
-            correct: 'a man does not know.',
-            wrong: ['speech is always better.', 'kings prefer noise.', 'knowledge is unnecessary.']
+            start: 'Instruction of Kagemni: "If you sit with a company of people, do not reach for the bread before',
+            correct: 'your host does."',
+            wrong: [
+              'all others are served."',
+              'the eldest speaks."',
+              'the offering is made."'
+            ]
           },
           {
-            start: 'Instruction of Kagemni (Maxim 2): “Do not be greedy at table”',
-            correct: "in another man's house.",
-            wrong: ['take all food offered', 'shame follows gluttony', 'eat beyond your portion']
+            start: 'Instruction of Kagemni: "The man who is modest in the presence of his superior — his name is good in the mouth of',
+            correct: 'the god."',
+            wrong: [
+              'his neighbors."',
+              'the pharaoh\'s court."',
+              'all who know him."'
+            ]
           },
           {
-            start: 'Instruction of Kagemni (Maxim 3): “Respect elders and those wiser”',
-            correct: 'than yourself in council.',
-            wrong: ['only young men matter', 'age gives no wisdom', 'power replaces tradition']
+            start: 'Instruction of Kagemni: "If you are great after having been humble, and have acquired wealth after having been poor, do not let your heart become hard',
+            correct: 'because of your wealth."',
+            wrong: [
+              'against the gods."',
+              'toward the king."',
+              'toward your family."'
+            ]
           },
           {
-            start: 'Instruction of Kagemni (Maxim 4): “Do not interrupt a speaker”',
-            correct: 'until he has finished.',
-            wrong: ['unless you are noble', 'speakers should be stopped', 'silence is a weakness']
+            start: 'Instruction of Kagemni (closing): The vizier Kagemni\'s sons were judged "excellent in character" after reading the scroll — the text ends with the vizier being appointed to the position of',
+            correct: 'governor of a city.',
+            wrong: [
+              'high priest of Ptah.',
+              'royal scribe of Pharaoh.',
+              'commander of the army.'
+            ]
           },
           {
-            start: 'Instruction of Kagemni (Maxim 5): “A humble man is favored”',
-            correct: 'by god and society.',
-            wrong: ['only by wealthy men', 'never in royal courts', 'rejected by all rulers']
+            start: 'Instruction of Kagemni: "Silence is more profitable to you than abundance of',
+            correct: 'speech."',
+            wrong: [
+              'gold."',
+              'prayers."',
+              'feasting."'
+            ]
           }
         ]
       }
@@ -2124,19 +2309,19 @@ export const CIVILIZATIONS = [
         emoji: '📜',
         quotes: [
           {
-            start: 'Secret History (Ch.12): Procopius describes Justinian as "an evil demon" who in human form managed to destroy the whole world — adding that nature seemed to have removed from him all',
-            correct: 'natural human qualities and replaced them with wickedness.',
+            start: 'Secret History (Ch.12): Procopius describes Justinian as "an evil demon" who in human form managed to destroy the whole world — adding that nature seemed to have removed from him all natural human qualities and',
+            correct: 'replaced them with wickedness.',
             wrong: ['interest in military affairs.', 'capacity for theological debate.', 'affection for the circus factions.']
           },
           {
             start: 'Secret History (Ch.9): Procopius claims Theodora was "the most depraved of all women" who exercised power so total that the emperor did nothing',
             correct: 'without her consent.',
-            wrong: ['for the church without bribing her.', 'in battle without her blessing.', 'in theology without her approval.']
+            wrong: ['for the church.', 'in battle without her blessing.', 'in theology without her approval.']
           },
           {
             start: 'Secret History (Ch.14): Procopius states that under Justinian, justice was never obtained from the courts except by those who',
             correct: 'paid large sums of money.',
-            wrong: ['were of senatorial rank.', 'brought witnesses from the provinces.', 'had served in the army.']
+            wrong: ['were of senatorial rank.', 'brought witnesses.', 'had served in the army.']
           },
           {
             start: 'Wars (Book 1, Ch.24): Procopius describes the Nika Riot of 532 CE — the circus factions of the Blues and Greens temporarily united against Justinian, and the emperor considered',
@@ -2146,22 +2331,34 @@ export const CIVILIZATIONS = [
           {
             start: 'Secret History (Ch.18): Procopius claims that Theodora openly blocked appointments to public office, directing that no official could take up his post without',
             correct: 'first submitting to her authority.',
-            wrong: ['swearing loyalty to the Greens faction.', 'making a donation to the Hagia Sophia.', 'receiving Belisarius\'s military approval.']
+            wrong: ['swearing loyalty.', 'making a donation to the Hagia Sophia.', 'receiving Belisarius\'s military approval.']
           },
           {
-            start: 'Wars (Book 7, Ch.21): Procopius inserts a speech by the Gothic king Totila to his troops arguing that injustice by rulers is what destroys armies — a passage that reflects Procopius\'s method of using',
-            correct: 'set speeches to convey political and moral analysis.',
-            wrong: ['verbatim transcriptions of recorded speeches.', 'Gothic oral tradition he personally collected.', 'Justinian\'s own court documents.']
+            start: 'Wars (Book 7, Ch.21): Procopius inserts a speech by the Gothic king Totila to his troops arguing that injustice by rulers is what destroys armies — a passage that reflects Procopius\'s method of using set speeches to convey political and',
+            correct: 'moral analysis.',
+            wrong: [
+              'verbatim court records.',
+              'Gothic oral tradition.',
+              'imperial propaganda.'
+            ]
           },
           {
             start: 'Buildings (Peri Ktismaton, Book 1): In stark contrast to the Secret History, Procopius lavishly praises Justinian as a emperor divinely inspired to build — a contrast scholars use to debate whether Procopius wrote the Buildings as',
-            correct: 'official panegyric, possibly under imperial pressure.',
-            wrong: ['a retraction of Secret History views.', 'a theological treatise on church architecture.', 'a military geography manual.']
+            correct: 'official panegyric.',
+            wrong: [
+              'a private recantation.',
+              'a theological treatise.',
+              'a military geography manual.'
+            ]
           },
           {
-            start: 'Secret History (Ch.30): Procopius ends with the claim that Justinian was responsible for the deaths of a trillion (myriads of myriads) people — a figure modern historians read as',
-            correct: 'rhetorical hyperbole expressing his moral condemnation.',
-            wrong: ['a literal census calculation.', 'a theological reference to the Book of Revelation.', 'an estimate by Belisarius\'s quartermaster corps.']
+            start: 'Secret History (Ch.30): Procopius ends with the claim that Justinian was responsible for the deaths of a trillion (myriads of myriads) people — a figure modern historians read as rhetorical hyperbole expressing',
+            correct: 'his moral condemnation.',
+            wrong: [
+              'a literal census estimate.',
+              'a Revelation-inspired number.',
+              'Belisarius\'s battlefield accounting.'
+            ]
           }
         ]
       },
@@ -2170,9 +2367,9 @@ export const CIVILIZATIONS = [
         emoji: '📜',
         quotes: [
           {
-            start: 'Chronographia (Book 4, §16): Psellos describes Michael IV as a man whose beauty concealed an epileptic condition that the empress Zoe deliberately',
-            correct: 'ignored in order to marry him.',
-            wrong: ['used to control him.', 'reported to the Patriarch to annul the marriage.', 'exploited to seize the treasury.']
+            start: 'Chronographia (Book 4, §16): Psellos describes Michael IV as a man whose beauty concealed an epileptic condition that the empress Zoe deliberately ignored in order to',
+            correct: 'marry him.',
+            wrong: ['secure his loyalty to the throne.', 'avoid a political marriage.', 'gain the support of the army.']
           },
           {
             start: 'Chronographia (Book 6, §1): Psellos opens his account of Empress Zoe by marvelling that an old woman of such physical weakness could hold power — attributing it to the reverence Byzantines felt for the',
@@ -2185,19 +2382,27 @@ export const CIVILIZATIONS = [
             wrong: ['command the imperial armies.', 'rewrite the empire\'s laws.', 'appoint foreign rulers to Byzantine provinces.']
           },
           {
-            start: 'Chronographia (Book 7): Psellos describes Romanos IV Diogenes — who led the Byzantines to catastrophic defeat at Manzikert (1071 CE) — as a man of great physical courage but',
-            correct: 'deficient in strategic judgment and diplomatic subtlety.',
-            wrong: ['loyal to the church above all else.', 'personally cowardly in battle.', 'secretly sympathetic to the Seljuks.']
+            start: 'Chronographia (Book 7): Psellos describes Romanos IV Diogenes — who led the Byzantines to catastrophic defeat at Manzikert (1071 CE) — as a man of great physical courage but deficient in strategic judgment and',
+            correct: 'diplomatic subtlety.',
+            wrong: ['loyal to the church.', 'personally cowardly in battle.', 'secretly sympathetic to the Seljuks.']
           },
           {
-            start: 'Chronographia (Prooemion): Psellos opens by stating he will write history in a style combining accuracy with',
-            correct: 'the rhetorical power of classical Greek prose.',
-            wrong: ['strict theological neutrality.', 'the simplicity of vernacular Greek.', 'official court ceremonial language.']
+            start: 'Chronographia (Prooemion): Psellos opens by stating he will write history in a style combining accuracy with the rhetorical power of',
+            correct: 'classical Greek prose.',
+            wrong: [
+              'vernacular Byzantine Greek.',
+              'official court ceremonial language.',
+              'Thucydidean simplicity.'
+            ]
           },
           {
-            start: 'Psellos\'s De Omnifaria Doctrina presents philosophy, theology, and natural science as complementary — reflecting his effort to revive',
-            correct: 'Platonic and Neoplatonic philosophy within a Christian framework.',
-            wrong: ['Aristotelian logic as sole theology.', 'Persian Zoroastrian cosmology in Byzantium.', 'Arabic medicine in Byzantine court.']
+            start: 'Psellos\'s De Omnifaria Doctrina presents philosophy, theology, and natural science as complementary — reflecting his effort to revive Platonic and Neoplatonic philosophy within',
+            correct: 'a Christian framework.',
+            wrong: [
+              'an Aristotelian system.',
+              'the imperial court curriculum.',
+              'a Persian cosmological tradition.'
+            ]
           },
           {
             start: 'Chronographia (Book 5): In a famous passage, Psellos describes Empress Zoe spending her time in her chambers making perfumes and tending a furnace — noting that despite her age, the heat did not seem to',
@@ -2205,9 +2410,9 @@ export const CIVILIZATIONS = [
             wrong: ['disturb her theological composure.', 'interfere with her command of the fleet.', 'reduce her donations to the Hagia Sophia.']
           },
           {
-            start: 'Chronographia: Psellos explicitly states he will not follow the tradition of writing only about military campaigns and victories, but will instead focus on the',
-            correct: 'characters, decisions, and inner lives of the emperors.',
-            wrong: ['church theological controversies.', 'treasury and taxation history.', 'architectural projects of the Macedonian dynasty.']
+            start: 'Chronographia: Psellos explicitly states he will not follow the tradition of writing only about military campaigns and victories, but will instead focus on the characters, decisions, and',
+            correct: 'inner lives of the emperors.',
+            wrong: ['church theological controversies.', 'taxation history.', 'architectural projects.']
           }
         ]
       },
@@ -2221,9 +2426,9 @@ export const CIVILIZATIONS = [
             wrong: ['distorted by the lies of his enemies.', 'misunderstood by Western Crusaders.', 'forgotten by the ungrateful Senate.']
           },
           {
-            start: 'Alexiad (Preface, §3): Anna claims authority as a historian by stating she was "not ignorant of letters" — having been educated in rhetoric, philosophy, and having read',
-            correct: 'Aristotle and the Platonic dialogues.',
-            wrong: ['Persian chronicles and Arab geography.', 'Latin legal texts.', 'Roman history.']
+            start: 'Alexiad (Preface, §3): Anna claims authority as a historian by stating she was "not ignorant of letters" — having been educated in rhetoric, philosophy, and having read Aristotle and',
+            correct: 'the Platonic dialogues.',
+            wrong: ['Persian chronicles.', 'Latin legal texts.', 'Roman history.']
           },
           {
             start: 'Alexiad (Book 10, Ch.5): Anna describes the First Crusade armies arriving as an enormous, undisciplined barbarian force — like a river flooding its banks — expressing alarm at how many Frankish warriors there were and how',
@@ -2240,13 +2445,17 @@ export const CIVILIZATIONS = [
             wrong: [
               'humble and easily overlooked.',
               'deeply pious and indifferent to warfare.',
-              'widely trusted by every Byzantine official.'
+              'trusted by every Byzantine official.'
             ]
           },
           {
-            start: 'Alexiad (Book 15, Ch.11): Anna describes the death of her father Alexios I at length — her grief is evident but she also records Empress Eirene\'s refusal to',
-            correct: 'leave Alexios\'s bedside, even when advised to rest.',
-            wrong: ['allow physicians to treat him.', 'inform the Senate.', 'summon the Patriarch.']
+            start: 'Alexiad (Book 15, Ch.11): Anna describes the death of her father Alexios I at length — her grief is evident but she also records Empress Eirene\'s refusal to leave Alexios\'s bedside, even',
+            correct: 'when advised to rest.',
+            wrong: [
+              'after his final breath.',
+              'when the Patriarch arrived.',
+              'as John claimed the throne.'
+            ]
           },
           {
             start: 'Alexiad (Book 15): Historians note that Anna conspired with her husband Nikephoros Bryennios to depose her brother John II after Alexios died — though in the Alexiad she does not directly describe her own role in the',
@@ -2263,12 +2472,12 @@ export const CIVILIZATIONS = [
             ]
           },
           {
-            start: 'The Alexiad is one of the most important Byzantine primary sources for the First Crusade (1096–1099 CE), providing a Greek Orthodox perspective on events that',
-            correct: 'Latin sources describe very differently.',
+            start: 'The Alexiad is one of the most important Byzantine primary sources for the First Crusade (1096–1099 CE), providing a Greek Orthodox perspective on events that Latin sources describe',
+            correct: 'very differently.',
             wrong: [
-              'ignored by Western chroniclers.',
-              'before the Crusading era.',
-              'only Byzantine armies involved.'
+              'in greater detail.',
+              'with equal bias.',
+              'from a shared viewpoint.'
             ]
           }
         ]
@@ -2290,15 +2499,15 @@ export const CIVILIZATIONS = [
           {
             start: 'Digest (1.1.10, from Ulpian, preserved in Justinian\'s compilation): "The study of law (iurisprudentia) is the knowledge of things divine and human, the science of the just and the',
             correct: 'unjust (iusti atque iniusti scientia)."',
-            wrong: ['royal and the sacred."', 'eternal and the temporal."', 'written and the customary."']
+            wrong: ['sacred."', 'eternal and the temporal."', 'moment."']
           },
           {
-            start: 'Novel 6 (535 CE), Preface: Justinian states that the greatest gifts God has given humanity are "the priesthood (hierosyne) and the imperial authority (basileia)" — and that when both are in',
-            correct: 'harmony, the good of the human race is served.',
+            start: 'Novel 6 (535 CE), Preface: Justinian states that the greatest gifts God has given humanity are "the priesthood (hierosyne) and the imperial authority (basileia)" — and that when both are in harmony, the good of the human race is',
+            correct: 'served.',
             wrong: [
-              'conflict favors priesthood.',
-              'emperor alone rules church.',
-              'laws become unnecessary.'
+              'guaranteed by God.',
+              'secured by law.',
+              'made perfect.'
             ]
           },
           {
@@ -2350,21 +2559,21 @@ export const CIVILIZATIONS = [
             wrong: ['wealthier than secular rulers.', 'trained in Roman law.', 'a soldier capable of defending the church.']
           },
           {
-            start: 'Homily on 1 Corinthians (34.5): "Do you wish to honor the body of Christ? Do not ignore him when he is naked. Do not pay him homage in the temple clad in silk only to neglect him',
-            correct: 'outside where he is cold and ill-clad."',
+            start: 'Homily on 1 Corinthians (34.5): "Do you wish to honor the body of Christ? Do not ignore him when he is naked. Do not pay him homage in the temple clad in silk only to neglect him outside where he is cold and',
+            correct: 'ill-clad."',
             wrong: [
-              'in street begging for bread.',
-              'as widow or orphan.',
-              'in dreams and visions.'
+              'hungry."',
+              'forgotten."',
+              'without shelter."'
             ]
           },
           {
-            start: 'Letter to Pope Innocent I (406 CE): During his exile, Chrysostom wrote to the Pope complaining that his deposition was engineered without a proper synod and that he had been expelled from his see by',
-            correct: 'imperial power acting through corrupted bishops.',
+            start: 'Letter to Pope Innocent I (406 CE): During his exile, Chrysostom wrote to the Pope complaining that his deposition was engineered without a proper synod and that he had been expelled from his see by imperial power acting through',
+            correct: 'corrupted bishops.',
             wrong: [
-              'legitimate Constantinople clergy vote.',
-              'Nicene canonical council.',
-              'agreement of five patriarchs.'
+              'a forged synod decree.',
+              'the Empress Eudoxia directly.',
+              'a legitimate clergy vote.'
             ]
           },
           {
@@ -2391,9 +2600,13 @@ export const CIVILIZATIONS = [
             ]
           },
           {
-            start: 'On the Priesthood (Book 6.13): Chrysostom argues that a bishop who seeks popularity by never rebuking sin is not a shepherd but a',
-            correct: 'flatterer who endangers the souls in his care.',
-            wrong: ['preserving church unity.', 'servant of imperial policy.', 'model of humility.']
+            start: 'On the Priesthood (Book 6.13): Chrysostom argues that a bishop who seeks popularity by never rebuking sin is not a shepherd but a flatterer who',
+            correct: 'endangers the souls in his care.',
+            wrong: [
+              'serves imperial interests.',
+              'betrays the apostolic tradition.',
+              'corrupts the liturgy itself.'
+            ]
           }
         ]
       },
@@ -2470,12 +2683,12 @@ export const CIVILIZATIONS = [
             wrong: ['too much Persian history.', 'heretical theological opinions.', 'accounts hostile to the Roman empire.']
           },
           {
-            start: 'Letter to Boris I of Bulgaria (c.865 CE): Photios writes detailed advice to the newly-converted Bulgarian king on Christian governance — arguing that the emperor\'s first duty is to',
-            correct: 'rule his own passions before ruling the people.',
+            start: 'Letter to Boris I of Bulgaria (c.865 CE): Photios writes detailed advice to the newly-converted Bulgarian king on Christian governance — arguing that the emperor\'s first duty is to rule his own passions before',
+            correct: 'ruling the people.',
             wrong: [
-              'commission Roman law code.',
-              'expel pagan priests immediately.',
-              'place church above courts.'
+              'building the church.',
+              'expelling pagan priests.',
+              'commissioning a law code.'
             ]
           },
           {
@@ -2497,26 +2710,30 @@ export const CIVILIZATIONS = [
             ]
           },
           {
-            start: 'Encyclical to Eastern Patriarchs (867 CE): Photios wrote to condemn Pope Nicholas I\'s interference in Bulgarian church affairs and the Filioque addition to the Creed — accusing the Latin church of',
-            correct: 'innovation and corruption of the received faith.',
+            start: 'Encyclical to Eastern Patriarchs (867 CE): Photios wrote to condemn Pope Nicholas I\'s interference in Bulgarian church affairs and the Filioque addition to the Creed — accusing the Latin church of innovation and',
+            correct: 'corruption of the received faith.',
             wrong: [
-              'heresy.',
-              'Nicaean baptism violation.',
-              'rejecting all councils.'
+              'rejection of all councils.',
+              'heresy against the Trinity.',
+              'illegal seizure of Bulgaria.'
             ]
           },
           {
-            start: 'Bibliotheca (various Codices): Photios\'s literary reviews assess style, vocabulary, and content — making him one of the earliest systematic',
-            correct: 'literary critics in the Greek tradition.',
-            wrong: ['censors of imperial propaganda.', 'compilers of mathematical knowledge.', 'translators of Latin theology into Greek.']
+            start: 'Bibliotheca (various Codices): Photios\'s literary reviews assess style, vocabulary, and content — making him one of the earliest systematic literary critics in the',
+            correct: 'Greek tradition.',
+            wrong: [
+              'Byzantine imperial court.',
+              'Christian monastic tradition.',
+              'medieval scholarly world.'
+            ]
           },
           {
-            start: 'At the Council of 879–880 CE (sometimes called the Eighth Ecumenical Council by Orthodox Christians), Photios was reconciled with Rome and the council annulled the condemnations against him — though',
-            correct: 'the agreement later broke down.',
+            start: 'At the Council of 879–880 CE (sometimes called the Eighth Ecumenical Council by Orthodox Christians), Photios was reconciled with Rome and the council annulled the condemnations against him — though the agreement later',
+            correct: 'broke down.',
             wrong: [
-              'Photios abdicated immediately.',
-              'Byzantine emperor rejected council.',
-              'Rome fully accepted Photios.'
+              'was rejected by Photios.',
+              'was never ratified by Rome.',
+              'led to permanent schism.'
             ]
           }
         ]
@@ -2528,7 +2745,7 @@ export const CIVILIZATIONS = [
           {
             start: 'Hymns of Divine Love (Hymn 1): Symeon describes the mystical experience of divine light as not theoretical but direct and personal — insisting that union with God is not reserved for monks alone, but available to',
             correct: 'every believer who purifies themselves.',
-            wrong: ['those ordained to the priesthood.', 'emperors and patriarchs only.', 'those born into monastic families.']
+            wrong: ['those ordained to the priesthood.', 'emperors and patriarchs.', 'those born into monastic families.']
           },
           {
             start: 'Discourses (22): Symeon teaches that tears of compunction (penthos) are a sign of the soul\'s awakening — and that a Christian who has never wept for their sins has not yet truly understood the weight of their',
@@ -2588,6 +2805,75 @@ export const CIVILIZATIONS = [
             start: 'Symeon received the title "New Theologian" (Neos Theologos) — placing him in the company of John the Evangelist and Gregory of Nazianzus as one of only three figures in Orthodox tradition honored with the title',
             correct: '"Theologian."',
             wrong: ['"Ecumenical Teacher."', '"Equal to the Apostles."', '"Pillar of Orthodoxy."']
+          }
+        ]
+      },
+      {
+        name: 'Constantine VII Porphyrogennetos (De Administrando Imperio & De Ceremoniis)',
+        emoji: '👑',
+        quotes: [
+          {
+            start: 'De Administrando Imperio (Proem): Constantine addresses the work directly to his son Romanos — writing that he wishes to pass on the knowledge of how to govern, so that his son will not be caught ignorant by foreign ambassadors or',
+            correct: 'deceived by their flattery.',
+            wrong: [
+              'outwitted in battle.',
+              'misled by corrupt ministers.',
+              'shamed before the Senate.'
+            ]
+          },
+          {
+            start: 'De Administrando Imperio (Ch.13): Constantine warns that the Pechenegs are the key to Byzantine security in the north — arguing that as long as the emperor maintains friendship with them, neither the Rus nor the Hungarians can',
+            correct: 'threaten Byzantine territory.',
+            wrong: [
+              'cross the Danube safely.',
+              'form a lasting alliance.',
+              'attack Constantinople by sea.'
+            ]
+          },
+          {
+            start: 'De Administrando Imperio (Ch.9): Constantine gives one of the earliest detailed descriptions of the Rus — describing how they travel down the Dnieper river each year, carrying their boats overland around the rapids, constantly threatened by',
+            correct: 'Pecheneg ambushes.',
+            wrong: [
+              'Bulgarian river patrols.',
+              'Khazar toll collectors.',
+              'Byzantine naval blockades.'
+            ]
+          },
+          {
+            start: 'De Ceremoniis (Book 1, Preface): Constantine describes the imperial ceremonial as the force that gives the empire its beauty and order — arguing that without proper ceremony, the imperial office would appear',
+            correct: 'unadorned and lacking dignity.',
+            wrong: [
+              'weak to foreign rulers.',
+              'offensive to the church.',
+              'identical to mere kingship.'
+            ]
+          },
+          {
+            start: 'De Administrando Imperio (Ch.1): Constantine advises his son that when foreign nations request gifts of imperial regalia, Greek fire, or the secret of its manufacture, the emperor must always refuse — claiming these were',
+            correct: 'revealed by an angel to Constantine the Great.',
+            wrong: [
+              'state secrets protected by law.',
+              'sacred relics not to be traded.',
+              'weapons blessed by the Patriarch.'
+            ]
+          },
+          {
+            start: 'De Administrando Imperio (Ch.48): Constantine preserves a detailed account of the origins of the Armenians, Iberians, and Albanians — making the text one of the primary sources for the early medieval history of',
+            correct: 'the Caucasus region.',
+            wrong: [
+              'Anatolia and Syria.',
+              'the Balkan peninsula.',
+              'Crimea and the Black Sea.'
+            ]
+          },
+          {
+            start: 'Constantine VII earned the epithet "Porphyrogennetos" (Born in the Purple) — referring to his birth in the Porphyra chamber of the imperial palace, a detail that distinguished legitimate imperial children from those born before their father\'s',
+            correct: 'accession to the throne.',
+            wrong: [
+              'conversion to Orthodoxy.',
+              'coronation by the Patriarch.',
+              'recognition by the Senate.'
+            ]
           }
         ]
       }
