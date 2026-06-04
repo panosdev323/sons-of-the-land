@@ -31,8 +31,8 @@ export class MenuScene extends Phaser.Scene {
     }).setOrigin(0.5)
 
     // ✅ Drag instruction (professional, white color)
-    this.add.text(w / 2, 262, `Drag on empty areas (left/right of buttons) to scroll and view all civilizations`, {
-      fontSize: '19px', color: '#ffffff',
+    this.add.text(w / 2, 270, `Drag on empty areas (left/right of buttons) to scroll and view all civilizations`, {
+      fontSize: '16px', color: '#ffffff',
       wordWrap: { width: w - 40 }
     }).setOrigin(0.5)
 
