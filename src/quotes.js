@@ -3436,13 +3436,13 @@ export const CIVILIZATIONS = [
           },
           {
             start: 'Analects 4.16: "The gentleman is concerned with',
-            correct: 'righteousness (yi);',
-            wrong: ['profit (li);', 'ritual (li);', 'harmony (he);']
+            correct: 'righteousness (yi).',
+            wrong: ['profit (li).', 'ritual (li).', 'harmony (he).']
           },
           {
             start: 'Analects 12.1: When asked about benevolence (ren), Confucius said "To master oneself and return to',
-            correct: 'ritual propriety (li)',
-            wrong: ['personal desire', 'state authority', 'ancestral custom']
+            correct: 'ritual propriety (li).',
+            wrong: ['personal desire.', 'state authority.', 'ancestral custom.']
           },
           {
             start: 'Analects 15.24: When asked if there is a single word to guide one\'s life, Confucius replied: "Is it not shu (reciprocity)? Do not impose on others what you yourself do not',
@@ -3522,13 +3522,13 @@ export const CIVILIZATIONS = [
           },
           {
             start: 'Daodejing Ch.33: "Knowing others is',
-            correct: 'wisdom (zhi);',
-            wrong: ['virtue (de);', 'learning (xue);', 'strength (li);']
+            correct: 'wisdom (zhi).',
+            wrong: ['virtue (de).', 'learning (xue).', 'strength (li).']
           },
           {
             start: 'Knowing yourself is enlightenment (ming). Overcoming others requires',
-            correct: 'strength (li);',
-            wrong: ['wisdom (zhi);', 'strategy (mou);', 'deception (zha);']
+            correct: 'strength (li).',
+            wrong: ['wisdom (zhi).', 'strategy (mou).', 'deception (zha).']
           },
           {
             start: 'Overcoming yourself requires',
@@ -3567,8 +3567,8 @@ export const CIVILIZATIONS = [
           },
           {
             start: 'Daodejing Ch.81: "True words are not',
-            correct: 'beautiful;',
-            wrong: ['silent;', 'rare;', 'complex;']
+            correct: 'beautiful.',
+            wrong: ['silent.', 'rare.', 'complex.']
           },
           {
             start: 'Beautiful words are not true." (Daodejing Ch.81) This reflects Laozi\'s suspicion of',
@@ -3638,8 +3638,8 @@ export const CIVILIZATIONS = [
           },
           {
             start: 'Art of War Ch.11: "Place your army in deadly peril and it will',
-            correct: 'survive;',
-            wrong: ['flee;', 'disperse;', 'surrender;']
+            correct: 'survive.',
+            wrong: ['flee.', 'disperse.', 'surrender.']
           },
           {
             start: 'Plunge it into desperate straits and it will come through safely." (Ch.11) This reflects Sun Tzu\'s paradoxical teaching on',
@@ -9705,7 +9705,7 @@ export const CIVILIZATIONS = [
           },
           {
             // CTH 6 col. ii — the king must speak with one tongue
-            start: "Political Testament (CTH 6, col. ii): The king must speak with one tongue. His word must not be two. If the king speaks one thing and a noble another,",
+            start: "Political Testament (CTH 6, col. ii): The king must speak with one tongue. His word must not be two. If the king speaks one thing and a noble another",
             correct: "the land will be divided.",
             wrong: ["the gods will punish.", "war will follow immediately.", "the nobles will rebel."]
           },
@@ -9803,7 +9803,7 @@ export const CIVILIZATIONS = [
           },
           {
             // CTH 378.II (Second Plague Prayer) — oracle investigation
-            start: "Second Plague Prayer (CTH 378.II): I, Mursili, investigated the cause of the plague through oracles. The oracle revealed: the soul of Tudhaliya the Younger, whom my father killed,",
+            start: "Second Plague Prayer (CTH 378.II): I, Mursili, investigated the cause of the plague through oracles. The oracle revealed: the soul of Tudhaliya the Younger, whom my father killed",
             correct: "demands ritual restitution.",
             wrong: ["cursed the royal bloodline.", "asks for a new temple.", "requires a royal sacrifice."]
           },
@@ -9942,7 +9942,7 @@ export const CIVILIZATIONS = [
           },
           {
             // CTH 291, §7 — on striking a pregnant woman
-            start: "Hittite Laws (CTH 291, §7): If anyone strikes a free woman so that she drops her fetus, if it is her tenth month, he shall pay ten shekels of silver; if it is her fifth month,",
+            start: "Hittite Laws (CTH 291, §7): If anyone strikes a free woman so that she drops her fetus, if it is her tenth month, he shall pay ten shekels of silver; if it is her fifth month",
             correct: "five shekels of silver.",
             wrong: ["two persons as slaves.", "one ox as restitution.", "no penalty applies."]
           },
@@ -9954,7 +9954,7 @@ export const CIVILIZATIONS = [
           },
           {
             // CTH 291, §187 — bestiality (capital offenses that remained)
-            start: "Hittite Laws (CTH 291, §187): Not all punishments were reduced — certain offenses remained capital crimes, including sexual relations with animals. The laws state: If a man does evil with a horse or mule,",
+            start: "Hittite Laws (CTH 291, §187): Not all punishments were reduced — certain offenses remained capital crimes, including sexual relations with animals. The laws state: If a man does evil with a horse or mule",
             correct: "not a capital offense but barred from king.",
             wrong: ["he shall be killed immediately.", "he shall pay one hundred shekels.", "his family shall be expelled."]
           },
@@ -10209,12 +10209,12 @@ export const CIVILIZATIONS = [
         emoji: "⚔️",
         quotes: [
           {
-            start: "Henry IV's Letter to Gregory VII (January 24, 1076): Henry's letter begins: Henry, king not through usurpation but through holy ordination, to Hildebrand,",
+            start: "Henry IV's Letter to Gregory VII (January 24, 1076): Henry's letter begins: Henry, king not through usurpation but through holy ordination, to Hildebrand",
             correct: "at present not pope but false monk.",
             wrong: ["enemy of Christian order and peace.", "servant of Satan in shepherd's robes.", "usurper of the apostolic throne."]
           },
           {
-            start: "Henry IV's Letter (1076): Henry concludes: I, Henry, king by the grace of God, say to you: descend, descend,",
+            start: "Henry IV's Letter (1076): Henry concludes: I, Henry, king by the grace of God, say to you: descend, descend",
             correct: "to be damned throughout the ages.",
             wrong: ["and submit to imperial judgment.", "and face the betrayed council.", "before God destroys your throne."]
           },
@@ -10332,7 +10332,7 @@ export const CIVILIZATIONS = [
             wrong: ["papal confirmation before transfer.", "annual tribute to the imperial treasury.", "military service for all imperial campaigns."]
           },
           {
-            start: "Golden Bull (1356), Chapter 2: Charles IV describes the seven electors as seven candlesticks — if these columns are shaken,",
+            start: "Golden Bull (1356), Chapter 2: Charles IV describes the seven electors as seven candlesticks — if these columns are shaken",
             correct: "the whole edifice risks ruin.",
             wrong: ["the pope resolves the dispute.", "the empire dissolves legally.", "all other candidates must yield."]
           },
@@ -10511,7 +10511,7 @@ export const CIVILIZATIONS = [
             wrong: ["are legitimate but abused by corrupt popes.", "were created by Constantine to be undone.", "are reformable from within by a council."]
           },
           {
-            start: "The Freedom of a Christian (1520): Luther opens: A Christian is a perfectly free lord of all, subject to none. A Christian is a perfectly dutiful servant of all,",
+            start: "The Freedom of a Christian (1520): Luther opens: A Christian is a perfectly free lord of all, subject to none. A Christian is a perfectly dutiful servant of all",
             correct: "subject to all.",
             wrong: ["bound to the church alone.", "answerable to God alone.", "free from sin and consequences."]
           },
@@ -10958,7 +10958,7 @@ export const CIVILIZATIONS = [
           {
             start: "The Taylor Prism (British Museum) records Sennacherib's siege of Jerusalem (701 BCE) — he claims he shut King Hezekiah in Jerusalem",
             correct: "like a bird in a cage",
-            wrong: ["behind walls of iron", "in the palm of my hand", "beneath the feet of Ashur"]
+            wrong: ["behind walls of iron", "in the palm of my hand", "beneath the feet of Ashur."]
           },
           {
             start: "The Taylor Prism (British Museum) records Sennacherib's siege of Jerusalem (701 BCE) — he claims he shut King Hezekiah in Jerusalem but notably does NOT claim to have",
@@ -11309,8 +11309,8 @@ export const CIVILIZATIONS = [
         quotes: [
           {
             start: "Tikal's Temple I (Temple of the Great Jaguar) stands approximately",
-            correct: "47 meters tall",
-            wrong: ["150 meters tall", "20 meters tall", "100 meters tall"]
+            correct: "47 meters tall.",
+            wrong: ["150 meters tall.", "20 meters tall.", "100 meters tall."]
           },
           {
             start: "Tikal's Temple I (Temple of the Great Jaguar) stands approximately 47 meters tall and was built as the funerary monument of",
@@ -11406,7 +11406,7 @@ export const CIVILIZATIONS = [
             wrong: ["a feathered headdress and jaguar pelt.", "a sun disk and serpent scepter.", "a corn plant and water vessel."]
           },
           {
-            start: "The murals of Bonampak (~790 CE) are important because they depict, in vivid detail,",
+            start: "The murals of Bonampak (~790 CE) are important because they depict, in vivid detail",
             correct: "a military campaign, captive torture, and royal ceremony.",
             wrong: ["astronomical observations by priests.", "the founding of the city.", "trade negotiations with Teotihuacan."]
           }
@@ -11459,8 +11459,8 @@ export const CIVILIZATIONS = [
           },
           {
             start: "Chichen Itza rose to prominence in the",
-            correct: "Terminal Classic–Postclassic period (~800–1200 CE),",
-            wrong: ["Early Classic period (~250–400 CE),", "Preclassic period (~300 BCE),", "Spanish colonial period (after 1519),"]
+            correct: "Terminal Classic–Postclassic period (~800–1200 CE).",
+            wrong: ["Early Classic period (~250–400 CE).", "Preclassic period (~300 BCE).", "Spanish colonial period (after 1519)."]
           },
           {
             start: "Chichen Itza rose to prominence in the Terminal Classic–Postclassic period (~800–1200 CE), showing that Maya civilization continued and",
@@ -15171,8 +15171,8 @@ export const CIVILIZATIONS = [
           },
           {
             start: "The Tuscarora nation joined the Haudenosaunee as the sixth nation in approximately",
-            correct: "1722,",
-            wrong: ["1650,", "1776,", "1800,"]
+            correct: "1722.",
+            wrong: ["1650.", "1776.", "1800."]
           },
           {
             start: "The Tuscarora nation joined the Haudenosaunee as the sixth nation in approximately 1722 after being displaced from",
@@ -15243,8 +15243,8 @@ export const CIVILIZATIONS = [
           },
           {
             start: "The Haudenosaunee Confederacy's founding is attributed to the Peacemaker (Deganawida) and his speaker",
-            correct: "Hiawatha (Ayenwatha),",
-            wrong: ["Handsome Lake (Sganyodaiyo),", "Cornplanter,", "Joseph Brant (Thayendanegea),"]
+            correct: "Hiawatha (Ayenwatha).",
+            wrong: ["Handsome Lake (Sganyodaiyo).", "Cornplanter.", "Joseph Brant (Thayendanegea)."]
           },
           {
             start: "The Haudenosaunee Confederacy's founding is attributed to the Peacemaker (Deganawida) and his speaker Hiawatha (Ayenwatha) who together convinced the warring nations — including the previously resistant",
@@ -15581,8 +15581,8 @@ export const CIVILIZATIONS = [
           },
           {
             start: "Corn (maize) arrived in the Southwest from Mesoamerica approximately",
-            correct: "4,000 years ago,",
-            wrong: ["500 years ago,", "10,000 years ago,", "2,000 years ago,"]
+            correct: "4,000 years ago.",
+            wrong: ["500 years ago.", "10,000 years ago.", "2,000 years ago."]
           },
           {
             start: "Corn (maize) arrived in the Southwest from Mesoamerica approximately 4,000 years ago and was gradually adapted through selective breeding to",
@@ -15604,8 +15604,8 @@ export const CIVILIZATIONS = [
           },
           {
             start: "Mesa Verde cliff dwellings were occupied approximately from",
-            correct: "600 to 1300 CE,",
-            wrong: ["1400 to 1600 CE,", "100 to 400 CE,", "1200 to 1800 CE,"]
+            correct: "600 to 1300 CE.",
+            wrong: ["1400 to 1600 CE.", "100 to 400 CE.", "1200 to 1800 CE."]
           },
           {
             start: "Mesa Verde cliff dwellings were occupied approximately from 600 to 1300 CE, with the most famous structure, Cliff Palace, containing approximately",
@@ -16023,8 +16023,8 @@ export const CIVILIZATIONS = [
         quotes: [
           {
             start: "Sediment core analysis from Lake Titicaca provides evidence of a severe drought beginning around 1000 CE that lasted approximately",
-            correct: "200–300 years,",
-            wrong: ["10–20 years,", "50 years,", "500 years,"]
+            correct: "200–300 years.",
+            wrong: ["10–20 years.", "50 years.", "500 years."]
           },
           {
             start: "A severe drought beginning around 1000 CE is directly correlating with the collapse of",
@@ -16071,8 +16071,8 @@ export const CIVILIZATIONS = [
           },
           {
             start: "Tiwanaku's urban core (where monumental architecture is concentrated) covered approximately",
-            correct: "4–6 square kilometers,",
-            wrong: ["40–60 square kilometers,", "1 square kilometer,", "20 square kilometers,"]
+            correct: "4–6 square kilometers.",
+            wrong: ["40–60 square kilometers.", "1 square kilometer.", "20 square kilometers."]
           },
           {
             start: "Total population estimated by archaeologists at",
@@ -16481,8 +16481,8 @@ export const CIVILIZATIONS = [
           },
           {
             start: "The quote The greatest happiness is to scatter your enemy is attributed to Genghis Khan by the Persian historian",
-            correct: "Rashid al-Din,",
-            wrong: ["Juvayni,", "Marco Polo,", "Ibn Battuta,"]
+            correct: "Rashid al-Din.",
+            wrong: ["Juvayni.", "Marco Polo.", "Ibn Battuta."]
           },
           {
             start: "The quote The greatest happiness is to scatter your enemy is attributed to Genghis Khan by the Persian historian Rashid al-Din, writing roughly",
@@ -16920,7 +16920,7 @@ export const CIVILIZATIONS = [
         emoji: "🏺",
         quotes: [
           {
-            start: "ETCSL 6.1.01 proverb: The fox said to his father-in-law: 'I did not bring you bread,",
+            start: "ETCSL 6.1.01 proverb: The fox said to his father-in-law: 'I did not bring you bread",
             correct: "yet you praise me?'",
             wrong: ["yet you feed me?'", "yet you trust me?'", "yet you fear me?'"]
           },
@@ -16980,13 +16980,13 @@ export const CIVILIZATIONS = [
         quotes: [
           {
             start: "The Enuma Elish opens: When on high the heavens had not been named, firm ground below had not been called by",
-            correct: "name",
-            wrong: ["the gods", "Marduk", "Tiamat"]
+            correct: "name.",
+            wrong: ["the gods.", "Marduk.", "Tiamat."]
           },
           {
             start: "The Enuma Elish is a creation myth, not a wisdom text — meaning its content reflects Babylonian",
-            correct: "cosmology and theology,",
-            wrong: ["legal codes,", "historical records,", "practical philosophy,"]
+            correct: "cosmology and theology.",
+            wrong: ["legal codes.", "historical records.", "practical philosophy."]
           },
           {
             start: "In the Enuma Elish, Marduk defeats Tiamat (the primordial salt-water ocean) and creates the world from",
@@ -16995,8 +16995,8 @@ export const CIVILIZATIONS = [
           },
           {
             start: "The Enuma Elish (Tablet 6) states that Marduk created humans from the blood of",
-            correct: "Kingu,",
-            wrong: ["Tiamat,", "Apsu,", "Enlil,"]
+            correct: "Kingu.",
+            wrong: ["Tiamat.", "Apsu.", "Enlil."]
           },
           {
             start: "The Enuma Elish (Tablet 6) states that Marduk created humans from the blood of Kingu so that humans would perform",
@@ -17005,8 +17005,8 @@ export const CIVILIZATIONS = [
           },
           {
             start: "The Enuma Elish was recited at the Babylonian New Year festival (Akitu) — showing it served a",
-            correct: "ritual and political function,",
-            wrong: ["purely literary function,", "legal and administrative function,", "historical documentation function,"]
+            correct: "ritual and political function.",
+            wrong: ["purely literary function.", "legal and administrative function.", "historical documentation function."]
           },
           {
             start: "The Enuma Elish was recited at the Babylonian New Year festival (Akitu) — showing it served a ritual and political function not just a",
