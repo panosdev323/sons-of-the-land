@@ -310,7 +310,7 @@ export const CIVILIZATIONS = [
         name: 'Diogenes of Sinope',
         emoji: '🏺',
         quotes: [
-          { start: 'It is not that I am mad, it is only that my head is different from', correct: 'yours.', wrong: ['theirs.', 'Alexander\'s.', 'the gods\'.'] },
+          { start: 'It is not that I am mad, it is only that my head is different from', correct: 'yours.', wrong: ['theirs.', 'Alexander\'s.', 'the gods.'] },
           { start: 'Of what use is a philosopher who doesn\'t hurt anybody\'s', correct: 'feelings?', wrong: ['wallet.', 'pride.', 'sleep.'] },
           { start: 'In a rich man\'s house there is no place to spit but his', correct: 'face.', wrong: ['floor.', 'table.', 'hands.'] },
           { start: 'It is the privilege of the gods to want nothing, and of godlike men to want', correct: 'little.', wrong: ['much.', 'everything.', 'power.'] },
@@ -2702,7 +2702,7 @@ export const CIVILIZATIONS = [
           },
           {
             start: 'Procopius, Wars (1.24): During the Nika Riot (532 CE), when Justinian considered fleeing, Theodora reportedly said: "May I never be without this purple robe, nor live to see the day when those who meet me do not call me',
-            correct: 'empress".',
+            correct: 'empress.',
             wrong: ['queen of queens.', 'defender of the faith.', 'mother of the empire.']
           },
           {
@@ -4163,7 +4163,7 @@ export const CIVILIZATIONS = [
           {
             start: 'The Shantiparva (Ch.162) states that ahimsa (non-violence) is the highest dharma: "Ahimsa paramo dharma" — non-harm is the',
             correct: 'supreme duty.',
-            wrong: ['Brahmin privilege.', 'warrior\'s code.', 'renunciant\'s vow.']
+            wrong: ['Brahmin privilege.', 'warrior"s code.', 'renunciant"s vow.']
           },
           {
             start: 'The Bhagavad Gita, contained within the Mahabharata (Bhishmaparva, Ch.23–40), frames the doctrine of svadharma — it is better to perform one\'s own duty imperfectly than another\'s',
@@ -4233,7 +4233,7 @@ export const CIVILIZATIONS = [
           },
           {
             start: 'The Arthashastra (Book 7) categorizes foreign policy as a set of six strategies including alliance (sandhi) and war (vigraha), always guided by',
-            correct: 'the ruler\'s long-term benefit.',
+            correct: 'the ruler"s long-term benefit.',
             wrong: ['ritual calendar.', 'priestly counsel.', 'popular approval.']
           },
           {
@@ -4331,7 +4331,7 @@ export const CIVILIZATIONS = [
           {
             start: 'The Vakyapadiya (1.1) opens with the declaration that Brahman is identical with',
             correct: 'the eternal Word (shabda).',
-            wrong: ['the ritual fire.', 'the Vedic sacrifice.', 'the king\'s command.']
+            wrong: ['the ritual fire.', 'the Vedic sacrifice.', 'the king"s command.']
           },
           {
             start: 'The Vairagyashataka\'s central theme is that worldly enjoyments are like a',
@@ -4411,7 +4411,7 @@ export const CIVILIZATIONS = [
             wrong: ['purely ritual purposes.', 'no lasting impact.', 'royal patronage only.']
           },
           {
-            start: 'Shankara\'s commentary on the Mandukya Upanishad argues that turiya (the fourth state of consciousness) is not a fourth state alongside waking, dreaming, and sleep, but the',
+            start: 'Shankara"s commentary on the Mandukya Upanishad argues that turiya (the fourth state of consciousness) is not a fourth state alongside waking, dreaming, and sleep, but the',
             correct: 'substratum of all three.',
             wrong: ['deepest form of sleep.', 'state of ritual absorption.', 'goal of daily meditation.']
           }
@@ -4447,12 +4447,12 @@ export const CIVILIZATIONS = [
             wrong: ['origins are identical.', 'goals are opposite.', 'practitioners are the same.']
           },
           {
-            start: 'Nagarjuna\'s Ratnavali (attributed) advises the king that good governance requires both',
+            start: 'Nagarjuna"s Ratnavali (attributed) advises the king that good governance requires both',
             correct: 'wisdom and compassion.',
             wrong: ['military force and ritual.', 'priestly approval and wealth.', 'caste hierarchy and obedience.']
           },
           {
-            start: 'The MMK uses the prasanga (reductio ad absurdum) method — not to establish a positive thesis, but to show that all opponents\' views lead to',
+            start: 'The MMK uses the prasanga (reductio ad absurdum) method — not to establish a positive thesis, but to show that all opponents views lead to',
             correct: 'internal contradiction.',
             wrong: ['nihilism.', 'Vedantic conclusions.', 'Buddhist theism.']
           },
@@ -4626,27 +4626,27 @@ export const CIVILIZATIONS = [
         emoji: '⚖️',
         quotes: [
           { 
-            start: "The Code of Hammurabi contains 282 laws that governed Babylonian society, with the famous lex talionis principle (\"an eye for an eye\") documented as law 196: \"If a man put out the eye of another man, his eye shall be",
-            "correct": "put out.\"",
-            "wrong": ["restored.\"", "forgiven.\"", "compensated.\""] 
+            start: "The Code of Hammurabi contains 282 laws that governed Babylonian society, with the famous lex talionis principle ('an eye for an eye') documented as law 196: If a man put out the eye of another man, his eye shall be",
+            "correct": "put out.",
+            "wrong": ["restored.", "forgiven.", "compensated."] 
           },
           { 
-            start: "The law \"If a man destroys the eye of another man, they shall destroy his eye\" (law 196) demonstrates the principle of retaliation but also reveals that the code was stratified because different punishments applied based on",
+            start: "The law 'If a man destroys the eye of another man, they shall destroy his eye' (law 196) demonstrates the principle of retaliation but also reveals that the code was stratified because different punishments applied based on",
             "correct": "social class.",
             "wrong": ["gender alone.", "age only.", "regional origin."] 
           },
           { 
-            start: "The law \"If a builder builds a house and it collapses and kills the owner, the builder shall be put to death\" (law 229) shows that the code held professionals accountable for their work, reflecting the code's emphasis on",
+            start: "The law If a builder builds a house and it collapses and kills the owner, the builder shall be put to death (law 229) shows that the code held professionals accountable for their work, reflecting the code's emphasis on",
             "correct": "accountability.",
             "wrong": ["collective punishment.", "royal discretion.", "divine judgment."] 
           },
           { 
-            start: "The law \"If a son strikes his father, his hands shall be cut off\" (law 195) reflects the code's emphasis on family hierarchy and the protection of parental authority, showing that the code served to",
+            start: "The law If a son strikes his father, his hands shall be cut off (law 195) reflects the code's emphasis on family hierarchy and the protection of parental authority, showing that the code served to",
             "correct": "reinforce hierarchy.",
             "wrong": ["promote equality.", "challenge authority.", "eliminate tradition."] 
           },
           { 
-            start: "The law \"If a man steals property, he shall be put to death\" represents a capital crime only for certain types of theft (particularly of temple or state property), not all theft, indicating that the code",
+            start: "The law If a man steals property, he shall be put to death represents a capital crime only for certain types of theft (particularly of temple or state property), not all theft, indicating that the code",
             "correct": "distinguished carefully.",
             "wrong": ["punished all theft equally.", "ignored property crimes.", "delegated to priests."] 
           },
@@ -4667,12 +4667,12 @@ export const CIVILIZATIONS = [
             "wrong": ["no critical analysis.", "purely literal reading.", "rejection as fiction."] 
           },
           { 
-            start: "The famous passage often translated as \"Life which you look for you will never find, for when the gods created man they let death be his share\" (Tablet X, Siduri's speech) advises accepting human mortality and enjoying",
+            start: "The famous passage often translated as Life which you look for you will never find, for when the gods created man they let death be his share (Tablet X, Siduri's speech) advises accepting human mortality and enjoying",
             "correct": "life.",
             "wrong": ["divine favor.", "martial glory.", "royal service."] 
           },
           { 
-            start: "The advice \"Fill your belly with good things; day and night, night and day, dance and be merry, let your clothes be fresh, bathe yourself in water, cherish the little child that holds your hand\" is attributed to",
+            start: "The advice Fill your belly with good things; day and night, night and day, dance and be merry, let your clothes be fresh, bathe yourself in water, cherish the little child that holds your hand is attributed to",
             "correct": "Siduri.",
             "wrong": ["Shamash.", "Enkidu.", "Utnapishtim."] 
           },
@@ -4698,7 +4698,7 @@ export const CIVILIZATIONS = [
             "wrong": ["were entirely destroyed.", "remain undeciphered.", "lack scholarly translation."] 
           },
           { 
-            start: "The proverb \"He who possesses much silver may be happy, he who possesses much barley may be happy, but he who has nothing may sleep\" cannot be verified in the ETCSL collection, indicating that this quote is likely a",
+            start: "The proverb He who possesses much silver may be happy, he who possesses much barley may be happy, but he who has nothing may sleep cannot be verified in the ETCSL collection, indicating that this quote is likely a",
             "correct": "modern invention.",
             "wrong": ["verified ETCSL translation.", "documented cuneiform proverb.", "confirmed Sumerian source."] 
           },
@@ -4724,7 +4724,7 @@ export const CIVILIZATIONS = [
             "wrong": ["accepted without question.", "treated as universal truths.", "read as literal history."] 
           },
           { 
-            start: "The proverb \"A man who is wise is known by his deeds, not by his words\" appears in various forms in ancient wisdom literature from multiple cultures (not uniquely Akkadian), showing that such sentiments, while authentic to ancient wisdom, may",
+            start: "The proverb A man who is wise is known by his deeds, not by his words appears in various forms in ancient wisdom literature from multiple cultures (not uniquely Akkadian), showing that such sentiments, while authentic to ancient wisdom, may",
             "correct": "appear across many traditions.",
             "wrong": ["originate solely in Akkad.", "derive from Hammurabi's code.", "belong exclusively to Babylon."] 
           },
@@ -4734,7 +4734,7 @@ export const CIVILIZATIONS = [
             "wrong": ["pure abstract metaphysics.", "exclusively royal ideology.", "mystical religious experience."] 
           },
           { 
-            start: "The phrase \"Speak little, listen much; understanding comes in silence\" appears in various ancient wisdom traditions but cannot be verified as a specific Akkadian proverb in cuneiform sources, indicating that popular wisdom sayings often",
+            start: "The phrase Speak little, listen much; understanding comes in silence appears in various ancient wisdom traditions but cannot be verified as a specific Akkadian proverb in cuneiform sources, indicating that popular wisdom sayings often",
             "correct": "lack precise attribution.",
             "wrong": ["are verified in archives.", "are confirmed in cuneiform.", "are authenticated by scholars."] 
           }
@@ -4750,12 +4750,12 @@ export const CIVILIZATIONS = [
             "wrong": ["neutral historical records.", "objective annals.", "administrative accounts."] 
           },
           { 
-            start: "Wisdom attributed to Assyrian kings reflects values documented in royal inscriptions, though specific \"proverbs\" attributed to Assyrian figures often lack verification in primary sources, indicating that Assyrian values must be",
+            start: "Wisdom attributed to Assyrian kings reflects values documented in royal inscriptions, though specific proverbs attributed to Assyrian figures often lack verification in primary sources, indicating that Assyrian values must be",
             "correct": "reconstructed carefully.",
             "wrong": ["accepted at face value.", "assumed from popular quotes.", "derived from Greek sources."] 
           },
           { 
-            start: "The proverb \"A strong city is built not with walls, but with loyal citizens\" reflects common ancient political philosophy but cannot be verified as an authentic Assyrian proverb, showing that popular proverbs often represent",
+            start: "The proverb A strong city is built not with walls, but with loyal citizens reflects common ancient political philosophy but cannot be verified as an authentic Assyrian proverb, showing that popular proverbs often represent",
             "correct": "modern invented sentiments.",
             "wrong": ["verified ancient wisdom.", "documented royal speeches.", "confirmed cuneiform sources."] 
           },
@@ -4776,7 +4776,7 @@ export const CIVILIZATIONS = [
             "wrong": ["pure religious ritual.", "magical divination only.", "Greek-derived methods."] 
           },
           { 
-            start: "The phrase \"The life of man is like a river; it flows to the sea of death\" represents a common metaphor in ancient wisdom traditions but cannot be verified in cuneiform sources, indicating that popular philosophical sayings often",
+            start: "The phrase The life of man is like a river; it flows to the sea of death represents a common metaphor in ancient wisdom traditions but cannot be verified in cuneiform sources, indicating that popular philosophical sayings often",
             "correct": "lack precise sourcing.",
             "wrong": ["are verified in tablets.", "are confirmed by scholars.", "are authenticated in archives."] 
           },
@@ -4880,7 +4880,7 @@ export const CIVILIZATIONS = [
             wrong: ["purely factual journalism.", "contemporary video documentation.", "Roman-style official records."]
           },
           {
-            start: "Many popular quotes attributed to Musashi — including \"There is nothing outside of yourself\" — cannot be verified in the Book of Five Rings and likely come from",
+            start: "Many popular quotes attributed to Musashi — including There is nothing outside of yourself — cannot be verified in the Book of Five Rings and likely come from",
             correct: "later invented attributions.",
             wrong: ["authenticated primary sources.", "Musashi's own sealed letters.", "contemporary samurai witnesses."]
           },
@@ -4911,7 +4911,7 @@ export const CIVILIZATIONS = [
             wrong: ["are entirely lost forever.", "were never written down.", "contradict his actual haiku."]
           },
           {
-            start: "Quotes like \"Do not seek to follow in the footsteps of the wise\" appear in later compilations and may represent editorial interpretation — requiring",
+            start: "Quotes like Do not seek to follow in the footsteps of the wise appear in later compilations and may represent editorial interpretation — requiring",
             correct: "careful source verification.",
             wrong: ["automatic acceptance as authentic.", "complete scholarly rejection.", "purely literary interpretation."]
           },
@@ -4937,7 +4937,7 @@ export const CIVILIZATIONS = [
             wrong: ["popular inspirational quotes.", "Zen Buddhist scripture.", "Chinese Confucian classics."]
           },
           {
-            start: "\"Life is like a long journey with a heavy burden\" — attributed to Ieyasu — cannot be verified in contemporary sources and likely represents",
+            start: "Life is like a long journey with a heavy burden — attributed to Ieyasu — cannot be verified in contemporary sources and likely represents",
             correct: "later editorial invention.",
             wrong: ["confirmed primary source material.", "Ieyasu's personal sealed diary.", "official Edo period records."]
           },
@@ -4963,7 +4963,7 @@ export const CIVILIZATIONS = [
             wrong: ["always consistently understood.", "immune to political manipulation.", "purely personal and private."]
           },
           {
-            start: "\"The way of the samurai is found in death\" (Bushido to iu wa, shinu koto to mituke keri) is authentically documented — but requires",
+            start: "The way of the samurai is found in death (Bushido to iu wa, shinu koto to mituke keri) is authentically documented — but requires",
             correct: "reading in full Hagakure context.",
             wrong: ["no contextual analysis.", "purely literal interpretation.", "translation from Chinese sources."]
           },
@@ -4984,7 +4984,7 @@ export const CIVILIZATIONS = [
             wrong: ["Shingen's own sealed letters.", "contemporary battlefield dispatches.", "Jesuit missionary eyewitness accounts."]
           },
           {
-            start: "\"Swift as wind, silent as forest, fierce as fire, immovable as mountain\" — attributed to Shingen — is disputed in authenticity and should be",
+            start: "Swift as wind, silent as forest, fierce as fire, immovable as mountain — attributed to Shingen — is disputed in authenticity and should be",
             correct: "treated as uncertain attribution.",
             wrong: ["accepted as verified primary source.", "confirmed by multiple contemporaries.", "identical to Sun Tzu's text."]
           },
@@ -5010,7 +5010,7 @@ export const CIVILIZATIONS = [
             wrong: ["appeared in a single revelation.", "came from one founding master.", "began in Japan independently."]
           },
           {
-            start: "Sayings like \"The obstacle is the path\" appear in koan collections but often lack specific attribution — making popular Zen quotes",
+            start: "Sayings like The obstacle is the path appear in koan collections but often lack specific attribution — making popular Zen quotes",
             correct: "uncertain in precise origin.",
             wrong: ["directly verified in canonical texts.", "confirmed by the Buddha himself.", "consistently sourced to one teacher."]
           },
@@ -5135,17 +5135,17 @@ export const CIVILIZATIONS = [
             wrong: ["purely Christian morality.", "Roman Stoic philosophy.", "Buddhist detachment ideals."]
           },
           {
-            start: "\"Cattle die, kinsmen die, every man is mortal: but the good name never dies\" — this stanza reveals that Viking culture measured immortality through",
+            start: "Cattle die, kinsmen die, every man is mortal: but the good name never dies — this stanza reveals that Viking culture measured immortality through",
             correct: "lasting fame from deeds.",
             wrong: ["gold and silver hoards.", "divine favor in Valhalla.", "scholarly written legacy."]
           },
           {
-            start: "Advice like \"never trust one whose father you have slain\" reflects the social reality that Viking Age life was shaped by",
+            start: "Advice like never trust one whose father you have slain reflects the social reality that Viking Age life was shaped by",
             correct: "blood feud obligations.",
             wrong: ["purely Christian forgiveness ethics.", "Roman legal contract systems.", "peaceful community arbitration."]
           },
           {
-            start: "\"Wake early if you want another man's life or land\" directly acknowledges that Viking Age Scandinavia was characterized by",
+            start: "Wake early if you want another man's life or land directly acknowledges that Viking Age Scandinavia was characterized by",
             correct: "competition and territorial raiding.",
             wrong: ["peaceful agricultural cooperation.", "democratic resource sharing.", "Buddhist non-violence ideals."]
           },
@@ -9687,25 +9687,25 @@ export const CIVILIZATIONS = [
         quotes: [
           {
             // CTH 6 (KBo 3.67) col. i — disinheritance of Labarna
-            start: "Political Testament of Hattusili I (CTH 6, col. i): \"I, the Great King, Tabarna Hattusili, called the young Labarna to the throne — but he showed himself a youth unfit. He shed no tears, showed no pity; he was cold and heartless. I therefore declare: he is",
+            start: "Political Testament of Hattusili I (CTH 6, col. i): I, the Great King, Tabarna Hattusili, called the young Labarna to the throne — but he showed himself a youth unfit. He shed no tears, showed no pity; he was cold and heartless. I therefore declare: he is",
             correct: "no longer my son.",
             wrong: ["still my heir apparent.", "a traitor to Hatti.", "unfit for any office."]
           },
           {
             // CTH 6 col. i — the king's speech to the assembly
-            start: "Political Testament (CTH 6, col. i): \"Look — I have fallen ill. The young Mursili shall sit upon the throne. You, my servants and nobles, must acknowledge him and",
+            start: "Political Testament (CTH 6, col. i): Look — I have fallen ill. The young Mursili shall sit upon the throne. You, my servants and nobles, must acknowledge him and",
             correct: "guard him faithfully.",
             wrong: ["crown him immediately.", "teach him to fight.", "divide the treasury."]
           },
           {
             // CTH 6 col. ii — on unity and succession
-            start: "Political Testament (CTH 6, col. ii): \"Let no one raise the son of a sister to kingship in the future! Only one who is truly a son —",
+            start: "Political Testament (CTH 6, col. ii): Let no one raise the son of a sister to kingship in the future! Only one who is truly a son —",
             correct: "him alone make king.",
             wrong: ["chosen by the nobles.", "approved by the priests.", "born of a queen."]
           },
           {
             // CTH 6 col. ii — the king must speak with one tongue
-            start: "Political Testament (CTH 6, col. ii): \"The king must speak with one tongue. His word must not be two. If the king speaks one thing and a noble another,",
+            start: "Political Testament (CTH 6, col. ii): The king must speak with one tongue. His word must not be two. If the king speaks one thing and a noble another,",
             correct: "the land will be divided.",
             wrong: ["the gods will punish.", "war will follow immediately.", "the nobles will rebel."]
           },
@@ -9745,7 +9745,7 @@ export const CIVILIZATIONS = [
           },
           {
             // Shattiwaza Treaty (CTH 51) — preamble and divine witnesses
-            start: "Shattiwaza Treaty (CTH 51), Preamble: Suppiluliuma establishes Shattiwaza as king of Mitanni and gives him his daughter in marriage — the treaty is witnessed by \"the thousand gods of Hatti and the thousand gods of",
+            start: "Shattiwaza Treaty (CTH 51), Preamble: Suppiluliuma establishes Shattiwaza as king of Mitanni and gives him his daughter in marriage — the treaty is witnessed by the thousand gods of Hatti and the thousand gods of",
             correct: "Mitanni.",
             wrong: ["Egypt.", "Babylon.", "Assyria."]
           },
@@ -9757,25 +9757,25 @@ export const CIVILIZATIONS = [
           },
           {
             // CTH 40 — the Dakhamunzu Affair (Egyptian queen's letter)
-            start: "Deeds of Suppiluliuma I (CTH 40): An Egyptian queen (possibly widow of Tutankhamun) sent a letter: \"My husband has died and I have no son. They say you have many sons. Give me one of your sons and I will make him",
+            start: "Deeds of Suppiluliuma I (CTH 40): An Egyptian queen (possibly widow of Tutankhamun) sent a letter: My husband has died and I have no son. They say you have many sons. Give me one of your sons and I will make him",
             correct: "king of Egypt.",
             wrong: ["my husband's successor.", "ruler of Canaan.", "high priest of Amun."]
           },
           {
             // CTH 40 — Suppiluliuma's suspicion and investigation
-            start: "Deeds of Suppiluliuma I (CTH 40): Suppiluliuma wrote back in disbelief — \"This has never happened before in all my life!\" — and sent a chamberlain to Egypt to investigate whether the request was",
+            start: "Deeds of Suppiluliuma I (CTH 40): Suppiluliuma wrote back in disbelief — This has never happened before in all my life! — and sent a chamberlain to Egypt to investigate whether the request was",
             correct: "genuine or a deception.",
             wrong: ["approved by all nobles.", "permitted by Hittite custom.", "sanctioned by the Storm-god."]
           },
           {
             // CTH 40 — death of the Hittite prince Zannanza
-            start: "Deeds of Suppiluliuma I (CTH 40): After investigation, Suppiluliuma sent his son Zannanza to Egypt — but the prince was murdered en route, leading Suppiluliuma to rage: \"They have killed my son!\" and launch",
+            start: "Deeds of Suppiluliuma I (CTH 40): After investigation, Suppiluliuma sent his son Zannanza to Egypt — but the prince was murdered en route, leading Suppiluliuma to rage: They have killed my son! and launch",
             correct: "war against Egypt.",
             wrong: ["a diplomatic protest only.", "a plague prayer to the gods.", "a trial of the Egyptian envoys."]
           },
           {
             // Amarna Letter EA 41 — Suppiluliuma to Amenhotep III
-            start: "Amarna Letter EA 41: Suppiluliuma writes to the Egyptian pharaoh establishing brotherhood: \"Between Great Kings, gold is exchanged as a gift — send me much gold, and I will send you",
+            start: "Amarna Letter EA 41: Suppiluliuma writes to the Egyptian pharaoh establishing brotherhood: Between Great Kings, gold is exchanged as a gift — send me much gold, and I will send you",
             correct: "whatever you ask.",
             wrong: ["silver and horses.", "Mitanni prisoners.", "Hittite merchants."]
           }
@@ -9791,43 +9791,43 @@ export const CIVILIZATIONS = [
         quotes: [
           {
             // CTH 378.I (First Plague Prayer) — the accusation against the gods
-            start: "First Plague Prayer (CTH 378.I): \"O Storm-god of Hatti, my lord, and you gods, my lords — what is this that you have done? A plague you have let into Hatti. Hatti is very badly afflicted by the plague. For twenty years now",
+            start: "First Plague Prayer (CTH 378.I): O Storm-god of Hatti, my lord, and you gods, my lords — what is this that you have done? A plague you have let into Hatti. Hatti is very badly afflicted by the plague. For twenty years now",
             correct: "people have been dying.",
             wrong: ["the harvests have failed.", "the gods have been silent.", "armies have refused to fight."]
           },
           {
             // CTH 378.I — Mursili confesses Suppiluliuma's sins
-            start: "First Plague Prayer (CTH 378.I): \"The matter of the tablet of Mala: my father sinned against the Storm-god by attacking the land of Amka, a vassal of Egypt, in violation of an oath. I have confessed this sin — I have made restitution. Be",
+            start: "First Plague Prayer (CTH 378.I): The matter of the tablet of Mala: my father sinned against the Storm-god by attacking the land of Amka, a vassal of Egypt, in violation of an oath. I have confessed this sin — I have made restitution. Be",
             correct: "appeased, O Storm-god.",
             wrong: ["merciful, O Sun-goddess.", "pacified, O gods all.", "satisfied with our offerings."]
           },
           {
             // CTH 378.II (Second Plague Prayer) — oracle investigation
-            start: "Second Plague Prayer (CTH 378.II): \"I, Mursili, investigated the cause of the plague through oracles. The oracle revealed: the soul of Tudhaliya the Younger, whom my father killed,",
+            start: "Second Plague Prayer (CTH 378.II): I, Mursili, investigated the cause of the plague through oracles. The oracle revealed: the soul of Tudhaliya the Younger, whom my father killed,",
             correct: "demands ritual restitution.",
             wrong: ["cursed the royal bloodline.", "asks for a new temple.", "requires a royal sacrifice."]
           },
           {
             // CTH 378.III (Third Plague Prayer) — Mursili's personal anguish
-            start: "Third Plague Prayer (CTH 378.III): \"O Storm-god of Hatti, my lord — take pity on Hatti! The land of Hatti has been cut down like a forest. Hatti suffers greatly and I, Mursili, am personally",
+            start: "Third Plague Prayer (CTH 378.III): O Storm-god of Hatti, my lord — take pity on Hatti! The land of Hatti has been cut down like a forest. Hatti suffers greatly and I, Mursili, am personally",
             correct: "overwhelmed by anguish and weeping.",
             wrong: ["unable to govern any longer.", "ready to abdicate the throne.", "begging Egypt for medicine."]
           },
           {
             // CTH 61.I (Ten-Year Annals) — opening statement on accession
-            start: "Ten-Year Annals (CTH 61.I): \"When I sat on my father's throne, the enemy lands said: ‛His father who had no rival in battle — his son now sits on the throne, a young man who cannot defend Hatti.' So I went to war and",
+            start: "Ten-Year Annals (CTH 61.I): When I sat on my father's throne, the enemy lands said: ‛His father who had no rival in battle — his son now sits on the throne, a young man who cannot defend Hatti.' So I went to war and",
             correct: "proved them wrong.",
             wrong: ["sought divine guidance first.", "assembled all vassal kings.", "asked Egypt for a truce."]
           },
           {
             // CTH 61.I — the role of the Sun-goddess of Arinna
-            start: "Ten-Year Annals (CTH 61.I): Mursili attributes each of his military victories to the Sun-goddess of Arinna — \"She ran before me. Because the Sun-goddess of Arinna, my lady, loved me, she",
+            start: "Ten-Year Annals (CTH 61.I): Mursili attributes each of his military victories to the Sun-goddess of Arinna — She ran before me. Because the Sun-goddess of Arinna, my lady, loved me, she",
             correct: "gave the enemy into my hand.",
             wrong: ["appeared on the battlefield herself.", "sent the Storm-god to fight.", "turned their chariots to dust."]
           },
           {
             // CTH 378.IV (Fourth Plague Prayer) — Mursili appeals on behalf of Hatti
-            start: "Fourth Plague Prayer (CTH 378.IV): \"The sin that was committed — let the gods not hold it against Hatti. Let them hold it against the one who sinned. But since that person is dead, let the one who",
+            start: "Fourth Plague Prayer (CTH 378.IV): The sin that was committed — let the gods not hold it against Hatti. Let them hold it against the one who sinned. But since that person is dead, let the one who",
             correct: "remains not also die for it.",
             wrong: ["confesses be immediately forgiven.", "offers temples be spared.", "rules now bear all punishment."]
           }
@@ -9843,13 +9843,13 @@ export const CIVILIZATIONS = [
         quotes: [
           {
             // CTH 381 — Prayer of Muwatalli II to the Storm-god of Lightning
-            start: "Prayer of Muwatalli II to the Storm-god of Lightning (CTH 381): \"O Storm-god of Lightning, my lord! The land of Hatti has sinned before you. But the enemy lands have not sinned less than Hatti — now march against the enemy and",
+            start: "Prayer of Muwatalli II to the Storm-god of Lightning (CTH 381): O Storm-god of Lightning, my lord! The land of Hatti has sinned before you. But the enemy lands have not sinned less than Hatti — now march against the enemy and",
             correct: "give me the victory.",
             wrong: ["destroy their harvest first.", "send plague upon Egypt.", "blind their chariot drivers."]
           },
           {
             // CTH 381 — on the king's personal relationship with the god
-            start: "Prayer of Muwatalli II (CTH 381): \"I, Muwatalli, am your servant. I have never transgressed your commands. I have maintained your festivals and your cult. Therefore, O Storm-god, do not",
+            start: "Prayer of Muwatalli II (CTH 381): I, Muwatalli, am your servant. I have never transgressed your commands. I have maintained your festivals and your cult. Therefore, O Storm-god, do not",
             correct: "abandon me in battle.",
             wrong: ["punish Hatti for old sins.", "forget the oaths I swore.", "withhold your divine sign."]
           },
@@ -9883,7 +9883,7 @@ export const CIVILIZATIONS = [
         quotes: [
           {
             // CTH 81 (Apology) — opening: the goddess Shaushka
-            start: "Apology of Hattusili III (CTH 81): \"I am Hattusili, the Great King. I was a sickly child. But the goddess Shaushka of Shamuha took me, a child, by the hand and",
+            start: "Apology of Hattusili III (CTH 81): I am Hattusili, the Great King. I was a sickly child. But the goddess Shaushka of Shamuha took me, a child, by the hand and",
             correct: "guided me under her protection.",
             wrong: ["granted me military victories.", "gave me Puduhepa as wife.", "commanded me to seize the throne."]
           },
@@ -9895,19 +9895,19 @@ export const CIVILIZATIONS = [
           },
           {
             // CTH 81 — on Puduhepa (their marriage through divine command)
-            start: "Apology of Hattusili III (CTH 81): \"The goddess commanded me in a dream to take Puduhepa, daughter of Pentipsharri the priest, as my wife. I married her by the will of the goddess, and together we",
+            start: "Apology of Hattusili III (CTH 81): The goddess commanded me in a dream to take Puduhepa, daughter of Pentipsharri the priest, as my wife. I married her by the will of the goddess, and together we",
             correct: "served Shaushka as a couple.",
             wrong: ["ruled the kingdom jointly.", "performed her rituals daily.", "defeated Urhi-Teshub together."]
           },
           {
             // CTH 91 (Treaty of Kadesh) — the peace and brotherhood clause
-            start: "Treaty of Kadesh (CTH 91): \"From this day forward, good peace and good brotherhood shall exist between Ramesses, Great King of Egypt, and Hattusili, Great King of Hatti. They shall be at peace and",
+            start: "Treaty of Kadesh (CTH 91): From this day forward, good peace and good brotherhood shall exist between Ramesses, Great King of Egypt, and Hattusili, Great King of Hatti. They shall be at peace and",
             correct: "brothers forever.",
             wrong: ["allies in all wars.", "trading partners equally.", "co-rulers of Canaan."]
           },
           {
             // CTH 91 — mutual defense clause
-            start: "Treaty of Kadesh (CTH 91): \"If an enemy comes against the lands of Ramesses, and he sends word to Hattusili, the Great King of Hatti shall come to his aid with",
+            start: "Treaty of Kadesh (CTH 91): If an enemy comes against the lands of Ramesses, and he sends word to Hattusili, the Great King of Hatti shall come to his aid with",
             correct: "foot soldiers and chariots.",
             wrong: ["gold and provisions.", "envoys and prayers.", "horses and silver."]
           },
@@ -9920,8 +9920,8 @@ export const CIVILIZATIONS = [
           {
             // CTH 176 — Puduhepa's letter to Ramesses II
             start: "Puduhepa's Letter to Ramesses II (CTH 176): Queen Puduhepa writes independently to Ramesses — complaining that Hatti is poor and cannot send the gold he has requested, saying:",
-            correct: "\"Hatti's god has not given us silver.\"",
-            wrong: ["\"Send fewer demands and more friendship.\"", "\"Ask my husband, not me, for gold.\"", "\"The war destroyed our treasury entirely.\""]
+            correct: "Hatti's god has not given us silver.",
+            wrong: ["Send fewer demands and more friendship.", "Ask my husband, not me, for gold.", "The war destroyed our treasury entirely."]
           }
         ]
       },
@@ -9936,25 +9936,25 @@ export const CIVILIZATIONS = [
         quotes: [
           {
             // CTH 291, §1 — homicide (older: death; later: compensation)
-            start: "Hittite Laws (CTH 291, §1): \"If anyone kills a man or a woman in a quarrel, he shall bring him for burial and shall give four persons — two men and two women. He shall look to his",
+            start: "Hittite Laws (CTH 291, §1): If anyone kills a man or a woman in a quarrel, he shall bring him for burial and shall give four persons — two men and two women. He shall look to his",
             correct: "house for it.",
             wrong: ["lord for permission.", "gods for guidance.", "king for judgment."]
           },
           {
             // CTH 291, §7 — on striking a pregnant woman
-            start: "Hittite Laws (CTH 291, §7): \"If anyone strikes a free woman so that she drops her fetus, if it is her tenth month, he shall pay ten shekels of silver; if it is her fifth month,",
+            start: "Hittite Laws (CTH 291, §7): If anyone strikes a free woman so that she drops her fetus, if it is her tenth month, he shall pay ten shekels of silver; if it is her fifth month,",
             correct: "five shekels of silver.",
             wrong: ["two persons as slaves.", "one ox as restitution.", "no penalty applies."]
           },
           {
             // CTH 291, §17 — serial reduction of penalty (the key legal evolution)
-            start: "Hittite Laws (CTH 291, §17): The older tablet says \"formerly they used to kill him [the ox-thief] — now he shall pay\" — demonstrating the systematic shift from",
+            start: "Hittite Laws (CTH 291, §17): The older tablet says formerly they used to kill him [the ox-thief] — now he shall pay — demonstrating the systematic shift from",
             correct: "execution to financial compensation.",
             wrong: ["compensation to exile.", "fines to physical punishment.", "mercy to strict enforcement."]
           },
           {
             // CTH 291, §187 — bestiality (capital offenses that remained)
-            start: "Hittite Laws (CTH 291, §187): Not all punishments were reduced — certain offenses remained capital crimes, including sexual relations with animals. The laws state: \"If a man does evil with a horse or mule,",
+            start: "Hittite Laws (CTH 291, §187): Not all punishments were reduced — certain offenses remained capital crimes, including sexual relations with animals. The laws state: If a man does evil with a horse or mule,",
             correct: "not a capital offense but barred from king.",
             wrong: ["he shall be killed immediately.", "he shall pay one hundred shekels.", "his family shall be expelled."]
           },
@@ -9973,8 +9973,8 @@ export const CIVILIZATIONS = [
           {
             // Comparison with Hammurabi — Hittite laws as less harsh
             start: "Scholars comparing the Hittite Laws (CTH 291) with Hammurabi's Code note that Hittite law is systematically less brutal — favoring restitution over mutilation — a distinction visible in the phrase",
-            correct: "\"formerly they killed — now he shall pay.\"",
-            wrong: ["\"the gods judge the guilty man.\"", "\"the king alone decides the punishment.\"", "\"the victim chooses the compensation.\""]
+            correct: "formerly they killed — now he shall pay.",
+            wrong: ["the gods judge the guilty man.", "the king alone decides the punishment.", "the victim chooses the compensation."]
           }
         ]
       },
@@ -9988,13 +9988,13 @@ export const CIVILIZATIONS = [
         quotes: [
           {
             // CTH 384 — Puduhepa's prayer to the Sun-goddess of Arinna
-            start: "Puduhepa's Prayer to the Sun-goddess of Arinna (CTH 384): \"O Sun-goddess of Arinna, my lady! Among queens, you are the most honored. Your name is great among all gods. You elevated me, Puduhepa, your handmaid, and made me",
+            start: "Puduhepa's Prayer to the Sun-goddess of Arinna (CTH 384): O Sun-goddess of Arinna, my lady! Among queens, you are the most honored. Your name is great among all gods. You elevated me, Puduhepa, your handmaid, and made me",
             correct: "sit beside the Great King.",
             wrong: ["priestess above all others.", "a vessel of divine vision.", "ruler of the northern lands."]
           },
           {
             // CTH 384 — Puduhepa appeals on behalf of her husband's illness
-            start: "Puduhepa's Prayer (CTH 384): \"My lady, Sun-goddess of Arinna — my husband is sick. Has he sinned against a god? Give him life, years, and health. Let not my husband",
+            start: "Puduhepa's Prayer (CTH 384): My lady, Sun-goddess of Arinna — my husband is sick. Has he sinned against a god? Give him life, years, and health. Let not my husband",
             correct: "die of this illness.",
             wrong: ["lose his divine mandate.", "be taken to the underworld.", "suffer the gods' full wrath."]
           },
@@ -10006,7 +10006,7 @@ export const CIVILIZATIONS = [
           },
           {
             // CTH 176 — Puduhepa's complaint about Egypt's wealth demands
-            start: "Puduhepa's Letter to Ramesses II (CTH 176): \"Does my brother [Ramesses] lack anything? Hatti is devastated. We have nothing. The god has given us no silver. Send your envoy and I will send",
+            start: "Puduhepa's Letter to Ramesses II (CTH 176): Does my brother [Ramesses] lack anything? Hatti is devastated. We have nothing. The god has given us no silver. Send your envoy and I will send",
             correct: "what little I can find.",
             wrong: ["the promised princess soon.", "my husband's reply separately.", "peace rather than gifts."]
           },
@@ -10018,7 +10018,7 @@ export const CIVILIZATIONS = [
           },
           {
             // Tudhaliya IV's dedication to his mother Puduhepa
-            start: "Tudhaliya IV dedicated religious buildings and texts to his mother Puduhepa — one text reads: \"For Puduhepa, Great Queen, my mother, who is beloved of the Sun-goddess of Arinna\" — treating her as",
+            start: "Tudhaliya IV dedicated religious buildings and texts to his mother Puduhepa — one text reads: For Puduhepa, Great Queen, my mother, who is beloved of the Sun-goddess of Arinna — treating her as",
             correct: "a living religious authority.",
             wrong: ["a retired political figure.", "the goddess incarnate herself.", "equal in rank to the Storm-god."]
           }
@@ -10034,19 +10034,19 @@ export const CIVILIZATIONS = [
         quotes: [
           {
             // RS 20.238 — the last letter from Ugarit (c.1185 BCE)
-            start: "Ugarit Letter RS 20.238 (c.1185 BCE): The last known letter from Ugarit, sent to the Hittite king, reports: \"The enemy ships came — my cities were burned and terrible things were done.",
-            correct: "Save me if you can.\"",
-            wrong: ["The king of Alashiya attacks us.\"", "Egypt has abandoned us.\"", "The grain ships never arrived.\""]
+            start: "Ugarit Letter RS 20.238 (c.1185 BCE): The last known letter from Ugarit, sent to the Hittite king, reports: The enemy ships came — my cities were burned and terrible things were done.",
+            correct: "Save me if you can.",
+            wrong: ["The king of Alashiya attacks us.", "Egypt has abandoned us.", "The grain ships never arrived."]
           },
           {
             // CTH 121 — Tudhaliya IV's grain crisis letter
-            start: "Tudhaliya IV's Letter on the Grain Crisis (CTH 121, c.1230 BCE): The Hittite king writes to Egypt that Hatti faces famine and demands grain urgently, saying: \"It is a matter of life and death\" — documenting that the empire was already under severe",
+            start: "Tudhaliya IV's Letter on the Grain Crisis (CTH 121, c.1230 BCE): The Hittite king writes to Egypt that Hatti faces famine and demands grain urgently, saying: It is a matter of life and death — documenting that the empire was already under severe",
             correct: "food supply stress before collapse.",
             wrong: ["military pressure from Assyria.", "internal political rebellion.", "religious crisis and plague."]
           },
           {
             // Ammurapi of Ugarit's letter to Alashiya (Cyprus) — RS 20.18
-            start: "Ugarit Letter RS 20.18 (Ammurapi to the king of Alashiya, c.1185 BCE): \"My father, the enemy ships are at sea! They have been attacking and burning my cities. All my troops are in Hatti; all my ships",
+            start: "Ugarit Letter RS 20.18 (Ammurapi to the king of Alashiya, c.1185 BCE): My father, the enemy ships are at sea! They have been attacking and burning my cities. All my troops are in Hatti; all my ships",
             correct: "are in Lycia — the land is abandoned.",
             wrong: ["were sunk in battle.", "sailed to Egypt for aid.", "refused to return from Hatti."]
           },
@@ -10138,8 +10138,8 @@ export const CIVILIZATIONS = [
         quotes: [
           {
             start: "Widukind of Corvey, Res Gestae Saxonicae (3.44): After the victory at Lechfeld (955 CE) over the Magyars, the army acclaimed Otto as",
-            correct: "\"father of the fatherland\" and \"emperor.\"",
-            wrong: ["\"lord of all Christian kings.\"", "\"successor to Charlemagne alone.\"", "\"champion of the Holy Lance.\""]
+            correct: "father of the fatherland and emperor.",
+            wrong: ["lord of all Christian kings.", "successor to Charlemagne alone.", "champion of the Holy Lance."]
           },
           {
             start: "Widukind (3.44): Otto at Lechfeld carried the Holy Lance and standard of Archangel Michael — presenting the victory as",
@@ -10163,8 +10163,8 @@ export const CIVILIZATIONS = [
           },
           {
             start: "Liutprand of Cremona, Relatio de Legatione (968 CE): The Byzantines refused Otto's imperial title, calling him",
-            correct: "\"king of the barbarians\" rather than emperor.",
-            wrong: ["\"usurper of Rome's rightful throne.\"", "\"pope's puppet lacking real power.\"", "\"king of Saxons and nothing more.\""]
+            correct: "king of the barbarians rather than emperor.",
+            wrong: ["usurper of Rome's rightful throne.", "pope's puppet lacking real power.", "king of Saxons and nothing more."]
           }
         ]
       },
@@ -10173,7 +10173,7 @@ export const CIVILIZATIONS = [
         emoji: "📜",
         quotes: [
           {
-            start: "Otto III's imperial seal bore the inscription \"Renovatio Imperii Romanorum\" — signaling his program blending",
+            start: "Otto III's imperial seal bore the inscription Renovatio Imperii Romanorum — signaling his program blending",
             correct: "Roman, German, and Byzantine imperial traditions.",
             wrong: ["papal supremacy over secular rulers.", "German custom over Roman precedent.", "Frankish inheritance above all claims."]
           },
@@ -10209,24 +10209,24 @@ export const CIVILIZATIONS = [
         emoji: "⚔️",
         quotes: [
           {
-            start: "Henry IV's Letter to Gregory VII (January 24, 1076): Henry's letter begins: \"Henry, king not through usurpation but through holy ordination, to Hildebrand,",
-            correct: "at present not pope but false monk.\"",
-            wrong: ["enemy of Christian order and peace.\"", "servant of Satan in shepherd's robes.\"", "usurper of the apostolic throne.\""]
+            start: "Henry IV's Letter to Gregory VII (January 24, 1076): Henry's letter begins: Henry, king not through usurpation but through holy ordination, to Hildebrand,",
+            correct: "at present not pope but false monk.",
+            wrong: ["enemy of Christian order and peace.", "servant of Satan in shepherd's robes.", "usurper of the apostolic throne."]
           },
           {
-            start: "Henry IV's Letter (1076): Henry concludes: \"I, Henry, king by the grace of God, say to you: descend, descend,",
-            correct: "to be damned throughout the ages.\"",
-            wrong: ["and submit to imperial judgment.\"", "and face the betrayed council.\"", "before God destroys your throne.\""]
+            start: "Henry IV's Letter (1076): Henry concludes: I, Henry, king by the grace of God, say to you: descend, descend,",
+            correct: "to be damned throughout the ages.",
+            wrong: ["and submit to imperial judgment.", "and face the betrayed council.", "before God destroys your throne."]
           },
           {
-            start: "Gregory VII, Dictatus Papae (1075), Thesis 12: \"That it may be permitted to him to depose",
-            correct: "emperors.\"",
-            wrong: ["bishops who disobey canon law.\"", "kings who commit public mortal sin.\"", "cardinals who support simony.\""]
+            start: "Gregory VII, Dictatus Papae (1075), Thesis 12: That it may be permitted to him to depose",
+            correct: "emperors.",
+            wrong: ["bishops who disobey canon law.", "kings who commit public mortal sin.", "cardinals who support simony."]
           },
           {
-            start: "Gregory VII, Dictatus Papae (1075), Thesis 9: \"That all princes shall kiss the feet of",
-            correct: "the pope alone.\"",
-            wrong: ["the emperor as Christ's vicar.\"", "bishops as apostolic successors.\"", "abbots as guardians of the Rule.\""]
+            start: "Gregory VII, Dictatus Papae (1075), Thesis 9: That all princes shall kiss the feet of",
+            correct: "the pope alone.",
+            wrong: ["the emperor as Christ's vicar.", "bishops as apostolic successors.", "abbots as guardians of the Rule."]
           },
           {
             start: "Henry IV's Oath at Canossa (February 1077), as reported by Gregory VII: Henry swore to satisfy German princes' grievances and guarantee",
@@ -10250,9 +10250,9 @@ export const CIVILIZATIONS = [
         emoji: "🛡️",
         quotes: [
           {
-            start: "Frederick I's Letter to Pope Adrian IV (c.1157): Frederick asserts: \"The kingdom and the empire are ours by the election of the princes",
-            correct: "from God alone, not the pope.\"",
-            wrong: ["by hereditary Hohenstaufen right.\"", "by Charlemagne's founding grant.\"", "by consent of the German princes.\""]
+            start: "Frederick I's Letter to Pope Adrian IV (c.1157): Frederick asserts: The kingdom and the empire are ours by the election of the princes",
+            correct: "from God alone, not the pope.",
+            wrong: ["by hereditary Hohenstaufen right.", "by Charlemagne's founding grant.", "by consent of the German princes."]
           },
           {
             start: "Diet of Roncaglia (1158): Advised by Bologna's Roman law doctors, Frederick decreed all regalian rights — tolls, mints, markets, judicial authority — belonged",
@@ -10301,7 +10301,7 @@ export const CIVILIZATIONS = [
             wrong: ["deeper Roman law knowledge than clergy.", "military training clergy could not provide.", "theological neutrality the church lacked."]
           },
           {
-            start: "De Arte Venandi cum Avibus (c.1244), Preface: Frederick II states his intention to describe things \"as they really are\" — criticizing those who repeat authorities without",
+            start: "De Arte Venandi cum Avibus (c.1244), Preface: Frederick II states his intention to describe things as they really are — criticizing those who repeat authorities without",
             correct: "verifying through personal observation.",
             wrong: ["understanding the original language.", "testing against theological doctrine.", "consulting practical experts first."]
           },
@@ -10316,9 +10316,9 @@ export const CIVILIZATIONS = [
             wrong: ["three prophets of equal religious truth.", "three figures whose teachings ultimately agreed.", "three men whose followers corrupted them."]
           },
           {
-            start: "Matthew Paris, Chronica Majora: The phrase applied to Frederick II by contemporaries was \"Stupor mundi\" —",
-            correct: "\"The wonder of the world.\"",
-            wrong: ["\"The scourge of God and popes.\"", "\"The last Roman and first modern king.\"", "\"The emperor who sold Jerusalem.\""]
+            start: "Matthew Paris, Chronica Majora: The phrase applied to Frederick II by contemporaries was Stupor mundi —",
+            correct: "The wonder of the world.",
+            wrong: ["The scourge of God and popes.", "The last Roman and first modern king.", "The emperor who sold Jerusalem."]
           }
         ]
       },
@@ -10332,7 +10332,7 @@ export const CIVILIZATIONS = [
             wrong: ["papal confirmation before transfer.", "annual tribute to the imperial treasury.", "military service for all imperial campaigns."]
           },
           {
-            start: "Golden Bull (1356), Chapter 2: Charles IV describes the seven electors as \"seven candlesticks\" — if these columns are shaken,",
+            start: "Golden Bull (1356), Chapter 2: Charles IV describes the seven electors as seven candlesticks — if these columns are shaken,",
             correct: "the whole edifice risks ruin.",
             wrong: ["the pope resolves the dispute.", "the empire dissolves legally.", "all other candidates must yield."]
           },
@@ -10378,7 +10378,7 @@ export const CIVILIZATIONS = [
             wrong: ["the feudal lord of the aggrieved party.", "negotiation overseen by local bishops.", "the emperor's direct personal judgment."]
           },
           {
-            start: "Perpetual Public Peace (1495): \"No one shall commit feuds, wage war against another, rob or seize him\" — replacing the old right of feud (Fehderecht) with",
+            start: "Perpetual Public Peace (1495): No one shall commit feuds, wage war against another, rob or seize him — replacing the old right of feud (Fehderecht) with",
             correct: "compulsory recourse to imperial law courts.",
             wrong: ["voluntary arbitration by noble peers.", "resolution by territorial princes alone.", "direct imperial military enforcement."]
           },
@@ -10388,12 +10388,12 @@ export const CIVILIZATIONS = [
             wrong: ["the pope and College of Cardinals.", "the seven electoral princes exclusively.", "the leading cities of the empire."]
           },
           {
-            start: "Wormser Reichsabschluss (1495): The \"Common Penny\" direct tax ultimately failed because",
+            start: "Wormser Reichsabschluss (1495): The Common Penny direct tax ultimately failed because",
             correct: "princes and cities refused to collect it.",
             wrong: ["the pope declared it an unjust burden.", "Italian cities revolted against the demand.", "the Ottoman threat ended before collection."]
           },
           {
-            start: "Maximilian I's Weisskunig (c.1505–1516): This semi-autobiographical narrative presents Maximilian as \"the White King\" — reflecting his deliberate cultivation of",
+            start: "Maximilian I's Weisskunig (c.1505–1516): This semi-autobiographical narrative presents Maximilian as the White King — reflecting his deliberate cultivation of",
             correct: "his image as universal Renaissance monarch.",
             wrong: ["the traditional German warrior-king legend.", "obedient defender of church and papacy.", "Burgundian chivalric knight above all."]
           },
@@ -10403,7 +10403,7 @@ export const CIVILIZATIONS = [
             wrong: ["through the empire's churches as devotional imagery.", "through universities as educational material.", "through rival courts as diplomatic gifts."]
           },
           {
-            start: "Maximilian I never received a papal coronation — assuming the title \"elected Roman emperor\" in 1508 by proclamation, making him",
+            start: "Maximilian I never received a papal coronation — assuming the title elected Roman emperor in 1508 by proclamation, making him",
             correct: "the first emperor without papal coronation.",
             wrong: ["the last to attempt Italian coronation.", "the only emperor the pope invalidated.", "the first to renounce the imperial title."]
           }
@@ -10414,7 +10414,7 @@ export const CIVILIZATIONS = [
         emoji: "📖",
         quotes: [
           {
-            start: "Chronica (Preface, c.1143): Otto of Freising says he is writing \"not a history of joyful events but a most miserable tragedy\" — because all earthly kingdoms are marked by",
+            start: "Chronica (Preface, c.1143): Otto of Freising says he is writing not a history of joyful events but a most miserable tragedy — because all earthly kingdoms are marked by",
             correct: "mutability and inevitable decline.",
             wrong: ["the sin of their founders.", "divine punishment for disobedience.", "the corruption of wealth and luxury."]
           },
@@ -10450,7 +10450,7 @@ export const CIVILIZATIONS = [
         emoji: "🕯️",
         quotes: [
           {
-            start: "Meister Eckhart, German Sermon 52: \"The poor in spirit are those who know nothing, want nothing, and have nothing\" — union with God requires",
+            start: "Meister Eckhart, German Sermon 52: The poor in spirit are those who know nothing, want nothing, and have nothing — union with God requires",
             correct: "total self-emptying of will and images.",
             wrong: ["daily performance of the liturgical offices.", "strict observance of Dominican rules.", "rejection of secular learning for scripture."]
           },
@@ -10470,7 +10470,7 @@ export const CIVILIZATIONS = [
             wrong: ["through the Archangel Gabriel alone.", "in states of fever and illness.", "only in her confessor Volmar's presence."]
           },
           {
-            start: "Hildegard, Letter to Bernard of Clairvaux (c.1146): Hildegard describes herself as a \"poor little womanly shape\" lacking",
+            start: "Hildegard, Letter to Bernard of Clairvaux (c.1146): Hildegard describes herself as a poor little womanly shape lacking",
             correct: "the education male theologians possess.",
             wrong: ["authority to publish without papal permission.", "courage to share visions alone.", "Latin to write unaided."]
           },
@@ -10501,9 +10501,9 @@ export const CIVILIZATIONS = [
             wrong: ["is released by divine grace alone.", "rises through genuine priestly intercession.", "ascends only by the pope's authority."]
           },
           {
-            start: "Diet of Worms (April 18, 1521): When asked to recant, Luther replied his conscience was captive to the Word of God — \"to go against conscience is neither",
-            correct: "right nor safe. Here I stand.\"",
-            wrong: ["honorable nor Christian for a believer.\"", "possible nor permissible for a priest.\"", "safe nor scriptural for a theologian.\""]
+            start: "Diet of Worms (April 18, 1521): When asked to recant, Luther replied his conscience was captive to the Word of God — to go against conscience is neither",
+            correct: "right nor safe. Here I stand.",
+            wrong: ["honorable nor Christian for a believer.", "possible nor permissible for a priest.", "safe nor scriptural for a theologian."]
           },
           {
             start: "Address to the Christian Nobility (1520): Luther argues the papacy erected three walls against reform — and that all three walls",
@@ -10511,9 +10511,9 @@ export const CIVILIZATIONS = [
             wrong: ["are legitimate but abused by corrupt popes.", "were created by Constantine to be undone.", "are reformable from within by a council."]
           },
           {
-            start: "The Freedom of a Christian (1520): Luther opens: \"A Christian is a perfectly free lord of all, subject to none. A Christian is a perfectly dutiful servant of all,",
-            correct: "subject to all.\"",
-            wrong: ["bound to the church alone.\"", "answerable to God alone.\"", "free from sin and consequences.\""]
+            start: "The Freedom of a Christian (1520): Luther opens: A Christian is a perfectly free lord of all, subject to none. A Christian is a perfectly dutiful servant of all,",
+            correct: "subject to all.",
+            wrong: ["bound to the church alone.", "answerable to God alone.", "free from sin and consequences."]
           },
           {
             start: "Edict of Worms (May 1521): Charles V declared Luther an outlaw — but Luther was protected by Elector Frederick the Wise, who arranged his",
@@ -10527,7 +10527,7 @@ export const CIVILIZATIONS = [
         emoji: "📜",
         quotes: [
           {
-            start: "Peace of Augsburg (1555): The principle \"cuius regio, eius religio\" established that",
+            start: "Peace of Augsburg (1555): The principle cuius regio, eius religio established that",
             correct: "each prince chose his territory's religion.",
             wrong: ["the emperor chose religion for all Germany.", "individuals could freely choose their own faith.", "the pope mediated all religious disputes."]
           },
@@ -10566,12 +10566,12 @@ export const CIVILIZATIONS = [
         emoji: "👑",
         quotes: [
           {
-            start: "The prologue of Hammurabi's Code states its purpose: \"so that the strong might not oppress the weak, and to give justice to",
-            correct: "the orphan and the widow.\"",
-            wrong: ["all citizens equally.\"", "the merchants and scribes.\"", "those who worship Marduk.\""]
+            start: "The prologue of Hammurabi's Code states its purpose: so that the strong might not oppress the weak, and to give justice to",
+            correct: "the orphan and the widow.",
+            wrong: ["all citizens equally.", "the merchants and scribes.", "those who worship Marduk."]
           },
           {
-            start: "The epilogue of the Code states that the stele was set up publicly so that \"the oppressed man who has a case\" could",
+            start: "The epilogue of the Code states that the stele was set up publicly so that the oppressed man who has a case could",
             correct: "come, read the inscription, and understand his rights.",
             wrong: ["appeal directly to the king.", "seek a priest's interpretation.", "pay a fee for legal advice."]
           },
@@ -10586,7 +10586,7 @@ export const CIVILIZATIONS = [
             wrong: ["Lipit-Ishtar code (~1930 BCE).", "Eshnunna laws (~1800 BCE).", "Egyptian Book of the Dead."]
           },
           {
-            start: "Law 196 of Hammurabi's Code — \"if a man puts out the eye of another man, his eye shall be put out\" — is the famous lex talionis, but the code also shows that the same injury had different penalties depending on whether the victim was",
+            start: "Law 196 of Hammurabi's Code — if a man puts out the eye of another man, his eye shall be put out — is the famous lex talionis, but the code also shows that the same injury had different penalties depending on whether the victim was",
             correct: "a free man, a freed slave, or an enslaved person.",
             wrong: ["a citizen or a foreigner.", "young or old.", "male or female."]
           },
@@ -10636,7 +10636,7 @@ export const CIVILIZATIONS = [
             wrong: ["Ur, built by Ur-Nammu.", "Persepolis, built by Darius I.", "Memphis, built for an Egyptian queen."]
           },
           {
-            start: "Nebuchadnezzar II's Etemenanki ziggurat (\"House of the Foundation of Heaven and Earth\") is believed to have inspired",
+            start: "Nebuchadnezzar II's Etemenanki ziggurat (House of the Foundation of Heaven and Earth) is believed to have inspired",
             correct: "the biblical Tower of Babel narrative.",
             wrong: ["the Egyptian pyramids.", "the Assyrian palace complex at Nineveh.", "the Persian palace at Persepolis."]
           }
@@ -10665,7 +10665,7 @@ export const CIVILIZATIONS = [
             wrong: ["28 lunar mansions.", "36 decans as in Egypt.", "7 planetary spheres."]
           },
           {
-            start: "The Babylonian mathematical astronomy system called the \"ephemeris\" calculated future planetary positions using",
+            start: "The Babylonian mathematical astronomy system called the ephemeris calculated future planetary positions using",
             correct: "arithmetic progressions, not geometric models.",
             wrong: ["circular orbit calculations like the Greeks.", "observational data alone.", "divination and star omens."]
           },
@@ -10808,7 +10808,7 @@ export const CIVILIZATIONS = [
             wrong: ["the 12-month calendar.", "the 7-day week.", "the 10-based decimal system."]
           },
           {
-            start: "The Hebrew Bible's description of the \"Tower of Babel\" (Genesis 11) most likely references",
+            start: "The Hebrew Bible's description of the Tower of Babel (Genesis 11) most likely references",
             correct: "the Etemenanki ziggurat of Babylon.",
             wrong: ["the Assyrian capital at Nineveh.", "the Sumerian ziggurat at Ur.", "an Egyptian obelisk in Memphis."]
           },
@@ -10957,8 +10957,8 @@ export const CIVILIZATIONS = [
         quotes: [
           {
             start: "The Taylor Prism (British Museum) records Sennacherib's siege of Jerusalem (701 BCE) — he claims he shut King Hezekiah in Jerusalem",
-            correct: "\"like a bird in a cage\"",
-            wrong: ["\"behind walls of iron\"", "\"in the palm of my hand\"", "\"beneath the feet of Ashur\""]
+            correct: "like a bird in a cage",
+            wrong: ["behind walls of iron", "in the palm of my hand", "beneath the feet of Ashur"]
           },
           {
             start: "The Taylor Prism (British Museum) records Sennacherib's siege of Jerusalem (701 BCE) — he claims he shut King Hezekiah in Jerusalem but notably does NOT claim to have",
@@ -10981,7 +10981,7 @@ export const CIVILIZATIONS = [
             wrong: ["contradict each other on the details.", "attribute his death to illness.", "report he died in battle."]
           },
           {
-            start: "Sennacherib's new palace at Nineveh — the \"Palace Without Rival\" — was decorated with approximately",
+            start: "Sennacherib's new palace at Nineveh — the Palace Without Rival — was decorated with approximately",
             correct: "3,000 meters of carved stone reliefs.",
             wrong: ["100 meters of carved stone reliefs.", "10,000 meters of carved stone reliefs.", "500 painted wall murals."]
           }
@@ -11187,7 +11187,7 @@ export const CIVILIZATIONS = [
         emoji: "👑",
         quotes: [
           {
-            start: "The title K'uhul Ajaw — meaning \"Holy Lord\" — indicates that Maya kings were understood as",
+            start: "The title K'uhul Ajaw — meaning Holy Lord — indicates that Maya kings were understood as",
             correct: "both political rulers and divine intermediaries.",
             wrong: ["purely military commanders.", "elected representatives of cities.", "appointed by a council of priests."]
           },
@@ -11212,7 +11212,7 @@ export const CIVILIZATIONS = [
             wrong: ["ascending to the sun god.", "riding a feathered serpent.", "receiving the maize god's blessing."]
           },
           {
-            start: "The \"Star Wars\" (waxaklahun ubah kan) — Maya warfare timed to Venus's position — shows that military campaigns were",
+            start: "The Star Wars (waxaklahun ubah kan) — Maya warfare timed to Venus's position — shows that military campaigns were",
             correct: "coordinated with astronomical events.",
             wrong: ["purely defensive in nature.", "decided by a council of priests.", "conducted only in the dry season."]
           },
@@ -11256,7 +11256,7 @@ export const CIVILIZATIONS = [
             wrong: ["the harvest season only.", "the king's birthday celebrations.", "peaceful diplomatic missions."]
           },
           {
-            start: "The \"2012 phenomenon\" (claims the Maya predicted world end on December 21, 2012) misunderstood the Long Count — the date",
+            start: "The 2012 phenomenon (claims the Maya predicted world end on December 21, 2012) misunderstood the Long Count — the date",
             correct: "marked the end of a b'ak'tun cycle.",
             wrong: ["was never in any Maya text.", "was a colonial Spanish misinterpretation.", "referred to a future solar eclipse."]
           }
@@ -11276,7 +11276,7 @@ export const CIVILIZATIONS = [
           },
           {
             start: "Soviet linguist Yuri Knorozov cracked the phonetic basis of Maya writing in 1952 using",
-            correct: "Diego de Landa's 16th-century \"alphabet\" as a key.",
+            correct: "Diego de Landa's 16th-century alphabet as a key.",
             wrong: ["the Rosetta Stone approach.", "bilingual Maya-Spanish texts.", "computer analysis of glyph frequency."]
           },
           {
@@ -11296,7 +11296,7 @@ export const CIVILIZATIONS = [
           },
           {
             start: "Bishop Diego de Landa (1562) ordered the burning of Maya manuscripts — he later claimed only",
-            correct: "\"a few books\" were burned.",
+            correct: "a few books were burned.",
             wrong: ["none were burned, only confiscated.", "all manuscripts were already lost.", "the books were sent to Spain safely."]
           }
         ]
@@ -11308,12 +11308,12 @@ export const CIVILIZATIONS = [
         emoji: "🏛️",
         quotes: [
           {
-            start: "Tikal's Temple I (\"Temple of the Great Jaguar\") stands approximately",
+            start: "Tikal's Temple I (Temple of the Great Jaguar) stands approximately",
             correct: "47 meters tall",
             wrong: ["150 meters tall", "20 meters tall", "100 meters tall"]
           },
           {
-            start: "Tikal's Temple I (\"Temple of the Great Jaguar\") stands approximately 47 meters tall and was built as the funerary monument of",
+            start: "Tikal's Temple I (Temple of the Great Jaguar) stands approximately 47 meters tall and was built as the funerary monument of",
             correct: "Jasaw Chan K'awil I (r. 682–734 CE).",
             wrong: ["K'inich Janaab' Pakal.", "Siyaj Chan K'awil II.", "Spearthrower Owl."]
           },
@@ -11434,7 +11434,7 @@ export const CIVILIZATIONS = [
             wrong: ["cacao used only for elite drinking.", "cacao grown only at Chichen Itza.", "cacao traded exclusively with Teotihuacan."]
           },
           {
-            start: "Teotihuacan's influence on Classic Maya cities is documented at Tikal — a figure called \"Spearthrower Owl\" from Teotihuacan may have",
+            start: "Teotihuacan's influence on Classic Maya cities is documented at Tikal — a figure called Spearthrower Owl from Teotihuacan may have",
             correct: "placed his son on Tikal's throne in 379 CE.",
             wrong: ["conquered Tikal militarily in 250 CE.", "introduced writing to the Maya.", "built Tikal's tallest pyramids."]
           },
@@ -11474,7 +11474,7 @@ export const CIVILIZATIONS = [
           },
           {
             start: "Today approximately 6–7 million Maya people live in Mexico and Central America — meaning Maya civilization did not",
-            correct: "\"collapse\" — the people and culture survived.",
+            correct: "collapse — the people and culture survived.",
             wrong: ["produce any living descendants.", "maintain any traditional practices.", "preserve any original languages."]
           },
           {
@@ -11547,8 +11547,8 @@ export const CIVILIZATIONS = [
           },
           {
             start: "Ezana's inscription describes his conquest of the kingdom of Kush (Meroe) — he refers to himself by the title",
-            correct: "\"King of Kings\" (negusa nagast).",
-            wrong: ["\"Defender of the Faith\".", "\"Emperor of Africa\".", "\"Guardian of the Red Sea\"."]
+            correct: "King of Kings (negusa nagast).",
+            wrong: ["Defender of the Faith.", "Emperor of Africa.", "Guardian of the Red Sea."]
           },
           {
             start: "Ezana's conversion to Christianity is associated with two Syrian missionaries:",
@@ -11585,9 +11585,9 @@ export const CIVILIZATIONS = [
             wrong: ["paying tribute to Byzantium.", "religious offerings.", "military wages only."]
           },
           {
-            start: "Many Axumite gold coins carry the Greek inscription \"TOUTO ARESE TI HORA\" — meaning",
-            correct: "\"May this please the country.\"",
-            wrong: ["\"In God We Trust.\"", "\"King of Kings of Axum.\"", "\"By the grace of Christ.\""]
+            start: "Many Axumite gold coins carry the Greek inscription TOUTO ARESE TI HORA — meaning",
+            correct: "May this please the country.",
+            wrong: ["In God We Trust.", "King of Kings of Axum.", "By the grace of Christ."]
           },
           {
             start: "The shift from the disc-and-crescent symbol to the cross on Axumite coins (~333 CE) under Ezana is one of the clearest archaeological markers of",
@@ -11638,7 +11638,7 @@ export const CIVILIZATIONS = [
             wrong: ["Central Asia and China.", "sub-Saharan West Africa.", "the Americas."]
           },
           {
-            start: "The \"Monumentum Adulitanum\" — a Greek inscription copied by the monk Cosmas Indicopleustes (~525 CE) — records an Axumite king's military campaigns and titles, showing Adulis also functioned as",
+            start: "The Monumentum Adulitanum — a Greek inscription copied by the monk Cosmas Indicopleustes (~525 CE) — records an Axumite king's military campaigns and titles, showing Adulis also functioned as",
             correct: "a site for royal commemorative inscriptions.",
             wrong: ["a Christian pilgrimage destination.", "a Buddhist trading post.", "a Persian administrative center."]
           }
@@ -11673,7 +11673,7 @@ export const CIVILIZATIONS = [
           },
           {
             start: "Axumite architecture features a distinctive stepped style with alternating projecting and recessed sections — a style called",
-            correct: "\"monkey heads\" (the protruding wooden beam ends).",
+            correct: "monkey heads (the protruding wooden beam ends).",
             wrong: ["Nubian coursed masonry.", "Sabaean post-and-lintel.", "Byzantine basilica style."]
           },
           {
@@ -11717,8 +11717,8 @@ export const CIVILIZATIONS = [
           },
           {
             start: "Because of the First Hijra, early Islamic tradition held that Axum should not be attacked — a position sometimes expressed as",
-            correct: "\"Leave the Abyssinians in peace.\"",
-            wrong: ["\"Axum is a friend of the faith.\"", "\"The Negus is a hidden Muslim.\"", "\"Africa belongs to peaceful peoples.\""]
+            correct: "Leave the Abyssinians in peace.",
+            wrong: ["Axum is a friend of the faith.", "The Negus is a hidden Muslim.", "Africa belongs to peaceful peoples."]
           },
           {
             start: "The Ge’ez Bible translation helped establish one of the world’s oldest continuous",
@@ -11787,7 +11787,7 @@ export const CIVILIZATIONS = [
             wrong: ["all Ethiopian languages.", "the Coptic Church of Egypt.", "East African Islam."]
           },
           {
-            start: "The Kebra Nagast (\"Glory of Kings\") — which narrates the Queen of Sheba's visit to Solomon and the origins of the Solomonic dynasty — was compiled around the",
+            start: "The Kebra Nagast (Glory of Kings) — which narrates the Queen of Sheba's visit to Solomon and the origins of the Solomonic dynasty — was compiled around the",
             correct: "13th–14th centuries CE, after Axum's fall.",
             wrong: ["4th century CE during Ezana's reign.", "1st century BCE.", "6th century CE under Kaleb."]
           },
@@ -11942,7 +11942,7 @@ export const CIVILIZATIONS = [
             wrong: ["Nguni peoples.", "Swahili coastal traders.", "Rozvi who came later."]
           },
           {
-            start: "Portuguese records from the 16th century refer to Great Zimbabwe as \"Symbaoe\" — but by this time the city was",
+            start: "Portuguese records from the 16th century refer to Great Zimbabwe as Symbaoe — but by this time the city was",
             correct: "already largely abandoned.",
             wrong: ["at its construction peak.", "under Swahili control.", "recently built by the Mutapa."]
           },
@@ -12128,7 +12128,7 @@ export const CIVILIZATIONS = [
           {
             start: "Zimbabwe's independence in 1980 — and its choice of name — directly references",
             correct: "the site of Great Zimbabwe as a symbol of pre-colonial achievement.",
-            wrong: ["a Shona word meaning 'land of gold'.", "the Mutapa kingdom's official title.", "a Portuguese colonial administrative term."]
+            wrong: ["a Shona word meaning 'land of gold.", "the Mutapa kingdom's official title.", "a Portuguese colonial administrative term."]
           }
         ]
       },
@@ -15180,7 +15180,7 @@ export const CIVILIZATIONS = [
             wrong: ["New York by Dutch settlers.", "Canada by French forces.", "Virginia by English planters."]
           },
           {
-            start: "The \"seven generations\" principle — considering impacts seven generations ahead — is widely attributed to the Great Law, but scholars note the specific phrase",
+            start: "The seven generations principle — considering impacts seven generations ahead — is widely attributed to the Great Law, but scholars note the specific phrase",
             correct: "does not appear in documented versions of the Great Law.",
             wrong: ["appears in all written versions.", "is confirmed in the 1916 Parker transcription.", "is in Seth Newhouse's original manuscript."]
           }
@@ -15205,11 +15205,11 @@ export const CIVILIZATIONS = [
           },
           {
             start: "The removal process for a sachem who failed his duties involved the Clan Mother first warning him, then warning again, and finally",
-            correct: "\"dehorning\" him — removing his antler headdress of office.",
+            correct: "dehorning him — removing his antler headdress of office.",
             wrong: ["banishing him from the nation.", "a vote of all warriors.", "a trial before the full council."]
           },
           {
-            start: "Lewis Henry Morgan's \"League of the Iroquois\" (1851) was the first systematic study of Haudenosaunee governance — written with the help of",
+            start: "Lewis Henry Morgan's League of the Iroquois (1851) was the first systematic study of Haudenosaunee governance — written with the help of",
             correct: "Ely S. Parker, a Seneca scholar.",
             wrong: ["Benjamin Franklin's notes.", "Jesuit missionary records.", "British colonial archives."]
           },
@@ -15298,7 +15298,7 @@ export const CIVILIZATIONS = [
         emoji: "⚔️",
         quotes: [
           {
-            start: "The \"mourning war\" practice involved raiding to capture people who would be adopted to replace deceased clan members — documented by",
+            start: "The mourning war practice involved raiding to capture people who would be adopted to replace deceased clan members — documented by",
             correct: "17th-century Jesuit and Dutch colonial sources.",
             wrong: ["Lewis Henry Morgan in 1851.", "British military records only.", "post-Revolutionary American sources."]
           },
@@ -15331,7 +15331,7 @@ export const CIVILIZATIONS = [
         emoji: "🕯️",
         quotes: [
           {
-            start: "The Thanksgiving Address (Ganöhönyohk / \"Words Before All Else\") opens all Haudenosaunee gatherings — it acknowledges the natural world in a fixed sequence beginning with",
+            start: "The Thanksgiving Address (Ganöhönyohk / Words Before All Else) opens all Haudenosaunee gatherings — it acknowledges the natural world in a fixed sequence beginning with",
             correct: "the people themselves, then the earth.",
             wrong: ["the Creator first, then the people.", "the sachems, then the nations.", "the sky world, then the earth."]
           },
@@ -15346,8 +15346,8 @@ export const CIVILIZATIONS = [
             wrong: ["an extinct practice documented only in archives.", "identical to Christianity in all respects.", "practiced only by the Seneca nation."]
           },
           {
-            start: "In the original text, \"Ganiodaio\" is the Seneca name for Handsome Lake himself — NOT for the Creator. The Haudenosaunee word for the Creator is",
-            correct: "Shonkwaia'tíson (\"the one who completed us\").",
+            start: "In the original text, Ganiodaio is the Seneca name for Handsome Lake himself — NOT for the Creator. The Haudenosaunee word for the Creator is",
+            correct: "Shonkwaia'tíson (the one who completed us).",
             wrong: ["Gayanashagowa.", "Skennen'kó:wa.", "Orenda."]
           },
           {
@@ -15493,7 +15493,7 @@ export const CIVILIZATIONS = [
         emoji: "👑",
         quotes: [
           {
-            start: "\"Pueblo\" is a Spanish term applied to many distinct peoples — including Hopi, Zuni, Acoma, and the Rio Grande pueblos — who share architectural traditions but have",
+            start: "Pueblo is a Spanish term applied to many distinct peoples — including Hopi, Zuni, Acoma, and the Rio Grande pueblos — who share architectural traditions but have",
             correct: "distinct languages, governance, and ceremonies.",
             wrong: ["identical religious practices.", "a single unified government.", "the same origin myths."]
           },
@@ -15598,7 +15598,7 @@ export const CIVILIZATIONS = [
         emoji: "🏘️",
         quotes: [
           {
-            start: "Chaco Canyon (~850–1150 CE) contained \"great houses\" — multi-story masonry structures with hundreds of rooms — the largest of which, Pueblo Bonito, had approximately",
+            start: "Chaco Canyon (~850–1150 CE) contained great houses — multi-story masonry structures with hundreds of rooms — the largest of which, Pueblo Bonito, had approximately",
             correct: "650 rooms.",
             wrong: ["100 rooms.", "2,000 rooms.", "50 rooms."]
           },
@@ -15670,7 +15670,7 @@ export const CIVILIZATIONS = [
           },
           {
             start: "Mimbres pottery (~1000–1150 CE, southern New Mexico) is famous for its intricate black-on-white geometric and figurative designs — and for the practice of",
-            correct: "\"killing\" pots (punching a hole) before placing them in burials.",
+            correct: "killing pots (punching a hole) before placing them in burials.",
             wrong: ["painting only abstract geometric patterns.", "firing at very high temperatures.", "exclusively depicting warfare."]
           },
           {
@@ -15730,7 +15730,7 @@ export const CIVILIZATIONS = [
             wrong: ["dialects of the same language.", "derived from Nahuatl.", "related to Navajo (Athabaskan)."]
           },
           {
-            start: "The linguistic diversity of Pueblo peoples indicates that they do NOT descend from a single ancestral group — \"Pueblo\" describes",
+            start: "The linguistic diversity of Pueblo peoples indicates that they do NOT descend from a single ancestral group — Pueblo describes",
             correct: "a shared architectural and agricultural tradition, not a single ethnicity.",
             wrong: ["a single ethnic group with one origin.", "peoples unified before Spanish contact.", "groups sharing one common language root."]
           },
@@ -15745,7 +15745,7 @@ export const CIVILIZATIONS = [
             wrong: ["discouraged by tribal governments.", "identical across all pueblos.", "primarily funded by the US federal government."]
           },
           {
-            start: "The ancestral Pueblo archaeological tradition (formerly called \"Anasazi\" — a Navajo term now considered inappropriate) is more accurately called",
+            start: "The ancestral Pueblo archaeological tradition (formerly called Anasazi — a Navajo term now considered inappropriate) is more accurately called",
             correct: "Ancestral Puebloans.",
             wrong: ["Ancient Ones.", "Pre-Columbian Cliff Dwellers.", "Hohokam."]
           }
@@ -15900,7 +15900,7 @@ export const CIVILIZATIONS = [
             wrong: ["purely military empire.", "loose trading network only.", "theocratic monarchy."]
           },
           {
-            start: "Tiwanaku's influence spread across the Andes through what archaeologists call the \"enclave\" model — establishing",
+            start: "Tiwanaku's influence spread across the Andes through what archaeologists call the enclave model — establishing",
             correct: "colonies in distant valleys like Moquegua.",
             wrong: ["military garrisons throughout the Andes.", "purely religious missions.", "trade posts only without settlers."]
           },
@@ -16042,7 +16042,7 @@ export const CIVILIZATIONS = [
             wrong: ["Alan Kolata in the 1980s.", "Hiram Bingham in the 1910s.", "Arthur Posnansky in the 1900s."]
           },
           {
-            start: "A common pseudoarchaeological claim is that Tiwanaku's construction required advanced technology \"beyond\" ancient human capability — mainstream archaeology attributes the construction to",
+            start: "A common pseudoarchaeological claim is that Tiwanaku's construction required advanced technology beyond ancient human capability — mainstream archaeology attributes the construction to",
             correct: "organized human labor and empirical engineering knowledge.",
             wrong: ["extraterrestrial assistance.", "a lost advanced civilization.", "technology inherited from Atlantis."]
           }
@@ -16256,7 +16256,7 @@ export const CIVILIZATIONS = [
             wrong: ["independent until 1541.", "absorbed by the Inca before Spain.", "formally ceded to Argentina."]
           },
           {
-            start: "The \"Pacification of Araucanía\" (1861–1883) — the Chilean state's military campaign — is the documented end of",
+            start: "The Pacification of Araucanía (1861–1883) — the Chilean state's military campaign — is the documented end of",
             correct: "formal Mapuche territorial independence.",
             wrong: ["Mapuche culture and language.", "all Mapuche resistance.", "the Arauco War treaty system."]
           }
@@ -16348,7 +16348,7 @@ export const CIVILIZATIONS = [
             wrong: ["Spanish colonial missionaries.", "the Treaty of Quilín scribes.", "Chilean government anthropologists."]
           },
           {
-            start: "The concept of küme mongen (living well/good life) is documented in Mapudungun — but its equation with the Andean political concept \"Buen Vivir\" is",
+            start: "The concept of küme mongen (living well/good life) is documented in Mapudungun — but its equation with the Andean political concept Buen Vivir is",
             correct: "a recent activist and scholarly construction.",
             wrong: ["confirmed in pre-colonial sources.", "identical in meaning to Quechua sumak kawsay.", "documented by colonial Spanish observers."]
           },
@@ -16371,7 +16371,7 @@ export const CIVILIZATIONS = [
         emoji: "🛡️",
         quotes: [
           {
-            start: "After the \"Pacification of Araucanía\" (1861–1883), the Chilean state reduced Mapuche territory from approximately 10 million to",
+            start: "After the Pacification of Araucanía (1861–1883), the Chilean state reduced Mapuche territory from approximately 10 million to",
             correct: "500,000 hectares through the reduction system.",
             wrong: ["2 million hectares.", "zero — all land was taken.", "5 million hectares."]
           },
@@ -16470,9 +16470,9 @@ export const CIVILIZATIONS = [
         emoji: "👑",
         quotes: [
           {
-            start: "Juvayni records Genghis Khan addressing the people of Bukhara: \"I am the punishment of God. If you had not committed great sins, God would not have sent",
-            correct: "a punishment like me upon you.\"",
-            wrong: ["a divine protector for you.\"", "a peaceful messenger to you.\"", "a warning before destroying you.\""]
+            start: "Juvayni records Genghis Khan addressing the people of Bukhara: I am the punishment of God. If you had not committed great sins, God would not have sent",
+            correct: "a punishment like me upon you.",
+            wrong: ["a divine protector for you.", "a peaceful messenger to you.", "a warning before destroying you."]
           },
           {
             start: "The Secret History of the Mongols is our most important source for Genghis Khan's life — but it was compiled",
@@ -16480,12 +16480,12 @@ export const CIVILIZATIONS = [
             wrong: ["during his lifetime.", "by Chinese court historians.", "by Persian scholars he employed."]
           },
           {
-            start: "The quote \"The greatest happiness is to scatter your enemy\" is attributed to Genghis Khan by the Persian historian",
+            start: "The quote The greatest happiness is to scatter your enemy is attributed to Genghis Khan by the Persian historian",
             correct: "Rashid al-Din,",
             wrong: ["Juvayni,", "Marco Polo,", "Ibn Battuta,"]
           },
           {
-            start: "The quote \"The greatest happiness is to scatter your enemy\" is attributed to Genghis Khan by the Persian historian Rashid al-Din, writing roughly",
+            start: "The quote The greatest happiness is to scatter your enemy is attributed to Genghis Khan by the Persian historian Rashid al-Din, writing roughly",
             correct: "70 years after Genghis Khan's death.",
             wrong: ["during Genghis Khan's lifetime.", "10 years after his death.", "500 years later."]
           },
@@ -16500,7 +16500,7 @@ export const CIVILIZATIONS = [
             wrong: ["preserved in the Secret History.", "archived in Beijing.", "confirmed by Chinese records."]
           },
           {
-            start: "Most inspirational quotes attributed to Genghis Khan online — including \"If you're afraid, don't do it\" — cannot be verified in any",
+            start: "Most inspirational quotes attributed to Genghis Khan online — including If you're afraid, don't do it — cannot be verified in any",
             correct: "primary chronicle source.",
             wrong: ["Chinese dynastic history.", "Secret History passage.", "Persian translation."]
           }
@@ -16684,7 +16684,7 @@ export const CIVILIZATIONS = [
         emoji: "💰",
         quotes: [
           {
-            start: "The term \"Pax Mongolica\" describes the relative peace and trade connectivity across Eurasia from roughly",
+            start: "The term Pax Mongolica describes the relative peace and trade connectivity across Eurasia from roughly",
             correct: "1250 to 1350 CE.",
             wrong: ["1100 to 1200 CE.", "1350 to 1450 CE.", "1200 to 1400 CE."]
           },
@@ -16861,9 +16861,9 @@ export const CIVILIZATIONS = [
         emoji: "📜",
         quotes: [
           {
-            start: "The opening line of the Instructions frames the text as a father's speech: \"Shuruppak gave instructions to his son; he gave instructions to",
-            correct: "Ziusudra.\"",
-            wrong: ["the king.\"", "the priests.\"", "all people.\""]
+            start: "The opening line of the Instructions frames the text as a father's speech: Shuruppak gave instructions to his son; he gave instructions to",
+            correct: "Ziusudra.",
+            wrong: ["the king.", "the priests.", "all people."]
           },
           {
             start: "The Instructions warn repeatedly against associating with a violent man, because violence",
@@ -16871,9 +16871,9 @@ export const CIVILIZATIONS = [
             wrong: ["earns respect.", "builds power.", "serves the gods."]
           },
           {
-            start: "The text advises: \"Do not commit robbery; do not",
-            correct: "cut yourself off from the son of a man.\"",
-            wrong: ["betray the king.\"", "ignore the priests.\"", "harm the temple.\""]
+            start: "The text advises: Do not commit robbery; do not",
+            correct: "cut yourself off from the son of a man.",
+            wrong: ["betray the king.", "ignore the priests.", "harm the temple."]
           },
           {
             start: "The Instructions warn against slander and false accusation — saying a man who speaks falsely will be",
@@ -16881,19 +16881,19 @@ export const CIVILIZATIONS = [
             wrong: ["praised by the powerful.", "ignored by officials.", "rewarded by rivals."]
           },
           {
-            start: "The text advises the son: \"You should not speak arrogantly to your mother; that causes",
-            correct: "hatred for you.\"",
-            wrong: ["dishonor to the gods.\"", "shame for the temple.\"", "conflict with the king.\""]
+            start: "The text advises the son: You should not speak arrogantly to your mother; that causes",
+            correct: "hatred for you.",
+            wrong: ["dishonor to the gods.", "shame for the temple.", "conflict with the king."]
           },
           {
-            start: "The Instructions state: \"Do not utter lies — in the assembly, your",
-            correct: "word should be true.\"",
-            wrong: ["silence is respected.\"", "wealth is preserved.\"", "rank is maintained.\""]
+            start: "The Instructions state: Do not utter lies — in the assembly, your",
+            correct: "word should be true.",
+            wrong: ["silence is respected.", "wealth is preserved.", "rank is maintained."]
           },
           {
-            start: "The text warns: \"A man who is not careful in speech — his",
-            correct: "life will be short.\"",
-            wrong: ["wealth will vanish.\"", "fields will fail.\"", "sons will suffer.\""]
+            start: "The text warns: A man who is not careful in speech — his",
+            correct: "life will be short.",
+            wrong: ["wealth will vanish.", "fields will fail.", "sons will suffer."]
           },
           {
             start: "The Instructions advise against guaranteeing a loan for another person, because",
@@ -16920,54 +16920,54 @@ export const CIVILIZATIONS = [
         emoji: "🏺",
         quotes: [
           {
-            start: "ETCSL 6.1.01 proverb: \"The fox said to his father-in-law: 'I did not bring you bread,",
-            correct: "yet you praise me?'\"",
-            wrong: ["yet you feed me?'\"", "yet you trust me?'\"", "yet you fear me?'\""]
+            start: "ETCSL 6.1.01 proverb: The fox said to his father-in-law: 'I did not bring you bread,",
+            correct: "yet you praise me?'",
+            wrong: ["yet you feed me?'", "yet you trust me?'", "yet you fear me?'"]
           },
           {
-            start: "Documented proverb: \"Wealth is hard to come by, but",
-            correct: "poverty is always at hand.\"",
-            wrong: ["wisdom is free.\"", "the gods provide.\"", "the king protects.\""]
+            start: "Documented proverb: Wealth is hard to come by, but",
+            correct: "poverty is always at hand.",
+            wrong: ["wisdom is free.", "the gods provide.", "the king protects."]
           },
           {
-            start: "ETCSL proverb: \"A sweet word is",
-            correct: "like honey.\"",
-            wrong: ["like silver.\"", "like water.\"", "like fire.\""]
+            start: "ETCSL proverb: A sweet word is",
+            correct: "like honey.",
+            wrong: ["like silver.", "like water.", "like fire."]
           },
           {
-            start: "Documented proverb from Nippur tablets: \"Examine the tablets and you will find that the scribal art is",
-            correct: "older than any other craft.\"",
-            wrong: ["equal to farming.\"", "less valued than metalwork.\"", "a royal invention.\""]
+            start: "Documented proverb from Nippur tablets: Examine the tablets and you will find that the scribal art is",
+            correct: "older than any other craft.",
+            wrong: ["equal to farming.", "less valued than metalwork.", "a royal invention."]
           },
           {
-            start: "A proverb verified in Alster's collection: \"Possessions are sparrows in flight —",
-            correct: "they cannot be caught.\"",
-            wrong: ["they multiply daily.\"", "they belong to the gods.\"", "they outlast their owners.\""]
+            start: "A proverb verified in Alster's collection: Possessions are sparrows in flight —",
+            correct: "they cannot be caught.",
+            wrong: ["they multiply daily.", "they belong to the gods.", "they outlast their owners."]
           },
           {
-            start: "ETCSL 6.2.03 proverb: \"The gods gave me many things, but then they also gave",
-            correct: "hunger.\"",
-            wrong: ["enemies.\"", "suffering.\"", "injustice.\""]
+            start: "ETCSL 6.2.03 proverb: The gods gave me many things, but then they also gave",
+            correct: "hunger.",
+            wrong: ["enemies.", "suffering.", "injustice."]
           },
           {
-            start: "Documented proverb: \"A scribe who does not know Sumerian — what kind of scribe is",
-            correct: "that?\"",
-            wrong: ["he rewarded?\"", "he trusted?\"", "he obeyed?\""]
+            start: "Documented proverb: A scribe who does not know Sumerian — what kind of scribe is",
+            correct: "that?",
+            wrong: ["he rewarded?", "he trusted?", "he obeyed?"]
           },
           {
-            start: "The proverb \"He who possesses much silver may be happy; he who possesses much barley may be happy; but he who has nothing may sleep\" — this quote",
+            start: "The proverb He who possesses much silver may be happy; he who possesses much barley may be happy; but he who has nothing may sleep — this quote",
             correct: "cannot be verified in the ETCSL and is likely a modern invention.",
             wrong: ["is from ETCSL 6.1.02.", "is from the Instructions of Shuruppak.", "is from a Nippur temple inscription."]
           },
           {
-            start: "Documented ETCSL proverb: \"The strong man lives by his own wages; the weak man lives",
-            correct: "by the wages of another.\"",
-            wrong: ["by the king's generosity.\"", "by the temple's grain.\"", "by borrowing silver.\""]
+            start: "Documented ETCSL proverb: The strong man lives by his own wages; the weak man lives",
+            correct: "by the wages of another.",
+            wrong: ["by the king's generosity.", "by the temple's grain.", "by borrowing silver."]
           },
           {
-            start: "ETCSL proverb on speech: \"What is said in the heart of a man —",
-            correct: "that is what his face shows.\"",
-            wrong: ["only the gods know.\"", "the scribe records.\"", "the king ignores.\""]
+            start: "ETCSL proverb on speech: What is said in the heart of a man —",
+            correct: "that is what his face shows.",
+            wrong: ["only the gods know.", "the scribe records.", "the king ignores."]
           }
         ]
       },
@@ -16979,9 +16979,9 @@ export const CIVILIZATIONS = [
         emoji: "🌍",
         quotes: [
           {
-            start: "The Enuma Elish opens: \"When on high the heavens had not been named, firm ground below had not been called by",
-            correct: "name\"",
-            wrong: ["the gods\"", "Marduk\"", "Tiamat\""]
+            start: "The Enuma Elish opens: When on high the heavens had not been named, firm ground below had not been called by",
+            correct: "name",
+            wrong: ["the gods", "Marduk", "Tiamat"]
           },
           {
             start: "The Enuma Elish is a creation myth, not a wisdom text — meaning its content reflects Babylonian",
@@ -17027,9 +17027,9 @@ export const CIVILIZATIONS = [
             wrong: ["100 years.", "50 years.", "500 years."]
           },
           {
-            start: "The Ur-Nammu code's prologue states the king's purpose: \"to establish equity in the land, to eliminate the wicked and evil, and to prevent the",
-            correct: "strong from oppressing the weak.\"",
-            wrong: ["poor from challenging rulers.\"", "priests from controlling law.\"", "merchants from gaining power.\""]
+            start: "The Ur-Nammu code's prologue states the king's purpose: to establish equity in the land, to eliminate the wicked and evil, and to prevent the",
+            correct: "strong from oppressing the weak.",
+            wrong: ["poor from challenging rulers.", "priests from controlling law.", "merchants from gaining power."]
           },
           {
             start: "Unlike Hammurabi's lex talionis (eye for an eye), the Ur-Nammu code typically prescribes",
@@ -17037,9 +17037,9 @@ export const CIVILIZATIONS = [
             wrong: ["equivalent bodily punishment.", "exile for all crimes.", "death for property theft."]
           },
           {
-            start: "Ur-Nammu law: \"If a man commits a murder, that man must be",
-            correct: "killed.\"",
-            wrong: ["fined in silver.\"", "exiled.\"", "enslaved.\""]
+            start: "Ur-Nammu law: If a man commits a murder, that man must be",
+            correct: "killed.",
+            wrong: ["fined in silver.", "exiled.", "enslaved."]
           },
           {
             start: "Sumerian administrative texts (from Ur III period, ~2100–2000 BCE) show that temple institutions managed grain storage, labor allocation, and trade — demonstrating that",
@@ -17075,9 +17075,9 @@ export const CIVILIZATIONS = [
             wrong: ["entirely dependent on temple direction.", "based primarily on divine omens.", "identical to Egyptian methods."]
           },
           {
-            start: "The Farmer's Almanac advises: \"Keep a sharp eye on the opening of the furrows —",
-            correct: "the barley should be sown evenly.\"",
-            wrong: ["the gods will determine the yield.\"", "the king's share is taken first.\"", "the priests bless the seeds.\""]
+            start: "The Farmer's Almanac advises: Keep a sharp eye on the opening of the furrows —",
+            correct: "the barley should be sown evenly.",
+            wrong: ["the gods will determine the yield.", "the king's share is taken first.", "the priests bless the seeds."]
           },
           {
             start: "Sumerian irrigation management is documented in thousands of administrative tablets — showing that water distribution was",
