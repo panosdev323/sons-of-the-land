@@ -388,7 +388,7 @@ export const CIVILIZATIONS = [
           { start: 'There is only one way to happiness and that is to cease worrying about things which are beyond the power of our', correct: 'will.', wrong: ['control.', 'desire.', 'fate.'] },
           { start: 'Don\'t explain your philosophy. Embody', correct: 'it.', wrong: ['it in words.', 'your success.', 'your knowledge.'] },
           { start: 'Wealth consists not in having great possessions, but in having few', correct: 'wants.', wrong: ['needs.', 'desires.', 'fears.'] },
-          { start: 'If anyone tells you that a certain person speaks ill of you, do not make excuses but answer, "He was ignorant of my other faults, else he would not have mentioned these', correct: 'alone."', wrong: ['at all."', 'publicly."', 'loudly."'] },
+          { start: 'If anyone tells you that a certain person speaks ill of you, do not make excuses but answer, "He was ignorant of my other faults, else he would not have mentioned these', correct: 'alone.', wrong: ['at all.', 'publicly.', 'loudly.'] },
           { start: 'Man is not worried by real problems so much as by his imagined anxieties about real', correct: 'problems.', wrong: ['people.', 'future.', 'past.'] },
           { start: 'First say to yourself what you would be; and then do what you have to', correct: 'do.', wrong: ['say.', 'think.', 'feel.'] },
           { start: 'Any person capable of angering you becomes your master; he can anger you only when you permit yourself to be disturbed by', correct: 'him.', wrong: ['them.', 'it.', 'fate.'] },
@@ -764,33 +764,33 @@ export const CIVILIZATIONS = [
         quotes: [
           {
             start: 'Meditations (5.8): "The impediment to action advances action. What stands in the way',
-            correct: 'becomes the way."',
-            wrong: ['must be removed."', 'is the gods testing virtue."', 'should be avoided by the wise."']
+            correct: 'becomes the way.',
+            wrong: ['must be removed.', 'is the gods testing virtue.', 'should be avoided by the wise.']
           },
           {
             start: 'Meditations (4.3 / 5.16): "The soul becomes dyed with the colour of its',
-            correct: 'thoughts."',
-            wrong: ['actions in war and peace."', 'relationship to the divine."', 'masters and teachers."']
+            correct: 'thoughts.',
+            wrong: ['actions in war and peace.', 'relationship to the divine.', 'masters and teachers.']
           },
           {
             start: 'Meditations (3.4): "Waste no more time arguing what a good man should be.',
-            correct: 'Be one."',
-            wrong: ['Write it down."', 'Teach it to your sons."', 'Demand it of your generals."']
+            correct: 'Be one.',
+            wrong: ['Write it down.', 'Teach it to your sons.', 'Demand it of your generals.']
           },
           {
             start: 'Meditations (9.6): "The wrongdoer injures himself: he makes himself',
-            correct: 'bad."',
-            wrong: ['an enemy of the gods."', 'unfit to rule."', 'weaker in body and mind."']
+            correct: 'bad.',
+            wrong: ['an enemy of the gods.', 'unfit to rule.', 'weaker in body and mind.']
           },
           {
             start: 'Meditations (7.9): "You have power over your mind, not outside events. Realize this and you will find',
-            correct: 'strength."',
-            wrong: ['wealth and honor."', 'the path to wisdom."', 'freedom from the emperorship."']
+            correct: 'strength.',
+            wrong: ['wealth and honor.', 'the path to wisdom.', 'freedom from the emperorship.']
           },
           {
             start: 'Meditations (11.18): "The best reply to an unjust man is',
-            correct: 'not to become like him."',
-            wrong: ['to shame him publicly."', 'to forgive and punish privately."', 'to record his injustice."']
+            correct: 'not to become like him.',
+            wrong: ['to shame him publicly.', 'to forgive and punish privately.', 'to record his injustice.']
           },
           {
             start: 'Meditations (6.8): Marcus warns against wasting strength on',
@@ -799,8 +799,8 @@ export const CIVILIZATIONS = [
           },
           {
             start: 'Meditations (4.3): "Nowhere can a man find a quieter retreat than in his own soul. Constantly give yourself this',
-            correct: 'retreat and renew yourself."',
-            wrong: ['garden and flourish."', 'sword and conquer fears."', 'emperor\'s command."']
+            correct: 'retreat and renew yourself.',
+            wrong: ['garden and flourish.', 'sword and conquer fears.', 'emperor\'s command.']
           },
           {
             start: 'Meditations (2.14): The longest-lived and the earliest to die suffer',
@@ -819,8 +819,8 @@ export const CIVILIZATIONS = [
           },
           {
             start: 'Meditations (2.5): "The only thing anyone can lose is the present — no one possesses past or',
-            correct: 'future."',
-            wrong: ['"memory of good deeds."', '"the wealth accumulated in life."', '"the respect of survivors."']
+            correct: 'future.',
+            wrong: ['memory of good deeds.', 'the wealth accumulated in life.', 'the respect of survivors.']
           }
         ]
       },
@@ -830,8 +830,8 @@ export const CIVILIZATIONS = [
         quotes: [
           {
             start: 'De Amicitia (6.20): "Gratitude is not only the greatest of virtues, but the parent of all',
-            correct: 'others."',
-            wrong: ['vices when perverted."', 'the virtues Stoics name."', 'the laws of civilization."']
+            correct: 'others.',
+            wrong: ['vices when perverted.', 'the virtues Stoics name.', 'the laws of civilization.']
           },
           {
             start: 'De Oratore (2.9.36): History is the witness of ages, the light of truth, the life of memory, the teacher of life',
@@ -840,25 +840,25 @@ export const CIVILIZATIONS = [
           },
           {
             start: 'De Re Publica (1.7.11): "Non nobis solum nati sumus" — We are not born for ourselves alone; our country',
-            correct: 'claims a part of us."',
+            correct: 'claims a part of us.',
             wrong: [
-              'expects our obedience."',
-              'demands our loyalty."',
-              'guides our destiny."'
+              'expects our obedience.',
+              'demands our loyalty.',
+              'guides our destiny.'
             ]
           },
           {
             start: 'Tusculanae Disputationes (1.1.1): "To be ignorant of what occurred before you were born is to remain always',
-            correct: 'a child."',
-            wrong: ['a barbarian."', 'a slave to rumor."', 'at the mercy of demagogues."']
+            correct: 'a child.',
+            wrong: ['a barbarian.', 'a slave to rumor.', 'at the mercy of demagogues.']
           },
           {
             start: 'In Catilinam (1.1): "Quo usque tandem abutere, Catilina, patientia nostra?" — How long, O Catiline, will you',
-            correct: 'abuse our patience?"',
+            correct: 'abuse our patience?',
             wrong: [
-              'defy the Senate?"',
-              'threaten the Republic?"',
-              'deceive the people?"'
+              'defy the Senate?',
+              'threaten the Republic?',
+              'deceive the people?'
             ]
           },
           {
@@ -872,17 +872,17 @@ export const CIVILIZATIONS = [
           },
           {
             start: 'Pro Milone (11): "Silent enim leges inter arma" — In times of war, the laws are',
-            correct: 'silent."',
+            correct: 'silent.',
             wrong: [
-              'strengthened."',
-              'rewritten."',
-              'forgotten."'
+              'strengthened.',
+              'rewritten.',
+              'forgotten.'
             ]
           },
           {
             start: 'Ad Atticum (4.18): Cicero writes to Atticus: "If you have a garden and a library, you have everything you',
-            correct: 'need."',
-            wrong: ['could want in old age."', 'require for contemplation."', 'owe to virtue."']
+            correct: 'need.',
+            wrong: ['could want in old age.', 'require for contemplation.', 'owe to virtue.']
           },
           {
             start: 'Philippics (2.44): Cicero openly celebrated Caesar\'s assassination — writing that the Ides of March was "a glorious deed" achieved by men of heroic spirit and',
@@ -896,7 +896,7 @@ export const CIVILIZATIONS = [
           {
             start: 'Pro Archia Poeta (16): Literary studies adorn prosperity and afford refuge in adversity — they abide with us by night, in our travels, in',
             correct: 'the country.',
-            wrong: ['"the Senate."', '"the forum."', '"the legions."']
+            wrong: ['the Senate.', 'the forum.', 'the legions.']
           }
         ]
       },
@@ -906,30 +906,30 @@ export const CIVILIZATIONS = [
         quotes: [
           {
             start: 'Annals (3.27): "Corruptissima re publica plurimae leges" — The most corrupt state has the most',
-            correct: 'laws."',
-            wrong: ['rulers."', 'soldiers."', 'senators."']
+            correct: 'laws.',
+            wrong: ['rulers.', 'soldiers.', 'senators.']
           },
           {
             start: 'Agricola (30): Tacitus puts in Calgacus\'s mouth: "They make a desolation and call it',
-            correct: 'peace."',
-            wrong: ['war."', 'empire."', 'glory."']
+            correct: 'peace.',
+            wrong: ['war.', 'empire.', 'glory.']
           },
           {
             start: 'Annals (1.1): Tacitus states he will write "without anger and without',
-            correct: 'partiality."',
+            correct: 'partiality.',
             wrong: [
-              'fear."',
-              'favor."',
-              'prejudice."'
+              'fear.',
+              'favor.',
+              'prejudice.'
             ]
           },
           {
             start: 'Histories (1.49): Of emperor Galba, Tacitus writes: "capax imperii nisi imperasset" — Seemed capable of ruling — had he not',
-            correct: 'ruled."',
+            correct: 'ruled.',
             wrong: [
-              'grown old."',
-              'taken power."',
-              'faced rebellion."'
+              'grown old.',
+              'taken power.',
+              'faced rebellion.'
             ]
           },
           {
@@ -957,11 +957,11 @@ export const CIVILIZATIONS = [
           },
           {
             start: 'Agricola (3): "It is human nature to hate those',
-            correct: 'whom you have injured."',
+            correct: 'whom you have injured.',
             wrong: [
-              'who surpass you."',
-              'who judge you."',
-              'who oppose you."'
+              'who surpass you.',
+              'who judge you.',
+              'who oppose you.'
             ]
           },
           {
@@ -991,11 +991,11 @@ export const CIVILIZATIONS = [
         quotes: [
           {
             start: 'Odes (1.11.8): "Carpe diem, quam minimum credula postero" — Seize the day, trusting as little as',
-            correct: 'possible in tomorrow."',
+            correct: 'possible in tomorrow.',
             wrong: [
-              'fate."',
-              'fortune."',
-              'chance."'
+              'fate.',
+              'fortune.',
+              'chance.'
             ]
           },
           {
@@ -1009,38 +1009,38 @@ export const CIVILIZATIONS = [
           },
           {
             start: 'Epistles (1.2.40): "Animum rege" — Rule your mind, or',
-            correct: 'it will rule you."',
+            correct: 'it will rule you.',
             wrong: [
-              'it will wander."',
-              'it will fail you."',
-              'it will deceive you."'
+              'it will wander.',
+              'it will fail you.',
+              'it will deceive you.'
             ]
           },
           {
             start: 'Epistles (1.2.40): "Sapere aude" —',
-            correct: '"Dare to know!"',
+            correct: 'Dare to know!',
             wrong: [
-              '"Dare to act!"',
-              '"Dare to speak!"',
-              '"Dare to lead!"'
+              'Dare to act!',
+              'Dare to speak!',
+              'Dare to lead!'
             ]
           },
           {
             start: 'Odes (3.1.1): "Odi profanum vulgus et arceo" — I hate the uninitiated crowd an',
-            correct: 'keep them away."',
+            correct: 'keep them away.',
             wrong: [
-              'exclude them."',
-              'shun them."',
-              'avoid them."'
+              'exclude them.',
+              'shun them.',
+              'avoid them.'
             ]
           },
           {
             start: 'Epistles (1.11.27): "Caelum non animum mutant qui trans mare currunt" — Those who rush across the sea change their sky, not',
-            correct: 'their soul."',
+            correct: 'their soul.',
             wrong: [
-              'their nature."',
-              'their mind."',
-              'their character."'
+              'their nature.',
+              'their mind.',
+              'their character.'
             ]
           },
           {
@@ -1072,11 +1072,11 @@ export const CIVILIZATIONS = [
           },
           {
             start: 'Odes (3.2.13): "Dulce et decorum est pro patria mori" — It is sweet and fitting to die for',
-            correct: 'one\'s country."',
+            correct: 'one\'s country.',
             wrong: [
-              'one\'s honor."',
-              'one\'s freedom."',
-              'one\'s gods."'
+              'one\'s honor.',
+              'one\'s freedom.',
+              'one\'s gods.'
             ]
           },
         ]
@@ -1105,7 +1105,7 @@ export const CIVILIZATIONS = [
             ]
           },
           {
-            start: 'Satires (1.30): Juvenal explains his decision to write satire: "difficile est saturam non scribere" — "It is difficult not to write satire"',
+            start: 'Satires (1.30): Juvenal explains his decision to write satire: "difficile est saturam non scribere" — "It is difficult not to write satire',
             correct: 'given Rome\'s vices.',
             wrong: [
               'in times of peace.',
@@ -1194,8 +1194,8 @@ export const CIVILIZATIONS = [
           },
           {
             start: 'Epistulae Morales (7.3): "Recede in te ipse" — "Spend time with those who will make you',
-            correct: 'better."',
-            wrong: ['"wealthier and more powerful."', '"respected."', '"famous."']
+            correct: 'better.',
+            wrong: ['wealthier and more powerful.', 'respected.', 'famous.']
           },
           {
             start: 'De Ira (3.42.1): Seneca writes that the best remedy for anger is delay — give the first burst of passion time to',
@@ -1208,7 +1208,7 @@ export const CIVILIZATIONS = [
           },
           {
             start: 'Epistulae Morales (47.1): In a famous letter on slavery, Seneca says: "They are slaves. But they are also men — sharing the same shelter, sleep, and',
-            correct: 'table."',
+            correct: 'table.',
             wrong: [
               'work.',
               'burdens.',
@@ -1232,8 +1232,8 @@ export const CIVILIZATIONS = [
         quotes: [
           {
             start: 'Res Gestae (1.1): Augustus writes: "At the age of nineteen, on my own initiative and at my own expense, I raised an army by means of which I restored liberty to the republic, which had been oppressed by the tyranny of a',
-            correct: 'faction."',
-            wrong: ['"king."', '"senate."', '"people."']
+            correct: 'faction.',
+            wrong: ['king.', 'senate.', 'people.']
           },
           {
             start: 'Res Gestae (34): After the civil wars, Augustus claims he transferred the republic back to the Senate and people — receiving in return the title Augustus and a golden shield inscribed with',
@@ -1255,13 +1255,13 @@ export const CIVILIZATIONS = [
           },
           {
             start: 'Suetonius, Divus Augustus (28): Augustus boasted he "found Rome built of brick and left it clad in',
-            correct: 'marble."',
-            wrong: ['"gold."', '"glory."', '"stone."']
+            correct: 'marble.',
+            wrong: ['gold.', 'glory.', 'stone.']
           },
           {
             start: 'Suetonius, Divus Augustus (99): On his deathbed, Augustus asked if he had "played the comedy of life well" — then quoted the theatrical formula: dismiss me from the',
-            correct: 'stage."',
-            wrong: ['"throne."', '"world."', '"forum."']
+            correct: 'stage.',
+            wrong: ['throne.', 'world.', 'forum.']
           },
           {
             start: 'Suetonius, Divus Augustus (65): Augustus was devastated by his daughter Julia\'s exile — reportedly saying he would rather have been "Phoebe\'s father" — a freedwoman who',
@@ -1352,8 +1352,8 @@ export const CIVILIZATIONS = [
           },
           {
             start: 'Ars Amatoria (2.107): "Si vis amari, ama" — "If you wish to be loved,',
-            correct: 'love."',
-            wrong: ['be beautiful."', 'be generous."', 'make yourself indispensable."']
+            correct: 'love.',
+            wrong: ['be beautiful.', 'be generous.', 'make yourself indispensable.']
           },
           {
             start: 'Ars Amatoria (1.476): "Gutta cavat lapidem" — "A drop hollows out stone" — not by force but',
@@ -1439,8 +1439,8 @@ export const CIVILIZATIONS = [
           },
           {
             start: 'Epistulae (7.9): "An object in possession seldom retains the same charm that it had in',
-            correct: 'pursuit."',
-            wrong: ['the marketplace."', 'the imagination."', 'youth."']
+            correct: 'pursuit.',
+            wrong: ['the marketplace.', 'the imagination.', 'youth.']
           },
           {
             start: 'Epistulae (1.9): Pliny contrasts city and country life — in Rome his days slip by in business; in the country he can read, write, and feel how great a void',
@@ -1468,8 +1468,8 @@ export const CIVILIZATIONS = [
           },
           {
             start: 'Domitian (3): Suetonius records Domitian\'s observation: "The lot of princes is unhappy — when they discover a conspiracy, no one believes it until they have been',
-            correct: 'killed."',
-            wrong: ['"deposed by the army."', '"tried by the Senate."', '"exiled to an island."']
+            correct: 'killed.',
+            wrong: ['deposed by the army.', 'tried by the Senate.', 'exiled to an island.']
           },
           {
             start: 'Divus Iulius (81): Caesar was warned to beware the Ides of March. On the morning of March 15, Caesar reportedly said to the soothsayer: "The Ides of March have come" — to which the soothsayer replied:',
@@ -1478,13 +1478,13 @@ export const CIVILIZATIONS = [
           },
           {
             start: 'Nero (16): Suetonius records among Nero\'s acts: punishment inflicted on Christians, "a class given to a new and',
-            correct: 'mischievous superstition."',
-            wrong: ['dangerous political organization."', 'foreign cult."', 'subversive sect."']
+            correct: 'mischievous superstition.',
+            wrong: ['dangerous political organization.', 'foreign cult.', 'subversive sect.']
           },
           {
             start: 'Divus Iulius (37): Suetonius places "veni, vidi, vici" in the context of the Pontic triumph — Caesar wrote these words on a placard to indicate the speed of the',
             correct: 'campaign, rather than record its events.',
-            wrong: ['victory in a dispatch to the Senate."', 'battle of Zela."', 'triumph in a letter to Cicero."']
+            wrong: ['victory in a dispatch to the Senate.', 'battle of Zela.', 'triumph in a letter to Cicero.']
           },
           {
             // NEW: Caligula 37 — on spending
@@ -1494,11 +1494,11 @@ export const CIVILIZATIONS = [
           },
           {
             start: 'Vespasian (23): Suetonius records that on his deathbed Vespasian joked: "Vae, puto deus fio" —',
-            correct: 'Alas, I think I am becoming a god."',
+            correct: 'Alas, I think I am becoming a god.',
             wrong: [
-              'Alas, I think I am dying."',
-              'Alas, I think I am losing power."',
-              'Alas, I think I am leaving Rome."'
+              'Alas, I think I am dying.',
+              'Alas, I think I am losing power.',
+              'Alas, I think I am leaving Rome.'
             ]
           },
         ]
@@ -1537,8 +1537,8 @@ export const CIVILIZATIONS = [
           },
           {
             start: 'Bellum Catilinae (1.2): "Animi imperio, corporis servitio magis utimur" — "We use the mind to command, the body to',
-            correct: 'serve."',
-            wrong: ['"fight."', '"suffer."', '"obey."']
+            correct: 'serve.',
+            wrong: ['fight.', 'suffer.', 'obey.']
           }
         ]
       },
@@ -1621,8 +1621,8 @@ export const CIVILIZATIONS = [
           },
           {
             start: 'Plutarch, Cato the Elder (8): Cato defined the ideal orator as "vir bonus dicendi peritus" —',
-            correct: '"A good man skilled in speaking."',
-            wrong: ['"A brave man skilled in argument."', '"A Roman skilled in winning over the mob."', '"A virtuous man who speaks only for justice."']
+            correct: 'A good man skilled in speaking.',
+            wrong: ['A brave man skilled in argument.', 'A Roman skilled in winning over the mob.', 'A virtuous man who speaks only for justice.']
           },
           {
             start: 'Plutarch, Cato the Younger (68–70): On the night before his suicide at Utica, Cato read Plato\'s Phaedo twice — then stabbed himself. When the wound was bandaged, he tore out his own bowels rather than',
@@ -1635,8 +1635,8 @@ export const CIVILIZATIONS = [
           },
           {
             start: 'Sallust, Bellum Catilinae (52): Cato the Younger mocks those who speak of mercy — saying Rome has lost true names for things: "recklessness in wrongdoing is called',
-            correct: 'courage."',
-            wrong: ['"justice."', '"virtue."', '"leadership."']
+            correct: 'courage.',
+            wrong: ['justice.', 'virtue.', 'leadership.']
           },
           {
             start: 'Plutarch, Cato the Elder (26–27): Cato the Elder reportedly ended all his Senate speeches, regardless of topic, with: Ceterum censeo Carthaginem esse delendam" — Carthage must be',
@@ -1687,14 +1687,14 @@ export const CIVILIZATIONS = [
           },
           {
             start: 'Epictetus, Discourses (2.16): "Wish the things which happen to be as they are, and you will have a',
-            correct: 'tranquil flow of life."',
-            wrong: ['"soul free from passions."', '"mind clear of disturbance."', '"heart open to whatever the gods send."']
+            correct: 'tranquil flow of life.',
+            wrong: ['soul free from passions.', 'mind clear of disturbance.', 'heart open to whatever the gods send.']
           },
           {
             // NEW: Enchiridion 5 — on what disturbs men
             start: 'Epictetus, Enchiridion (5): "Men are disturbed not by the things which happen, but by the',
-            correct: 'opinions about things."',
-            wrong: ['"gods who send them."', '"actions of their enemies."', '"weight of their past mistakes."']
+            correct: 'opinions about things.',
+            wrong: ['gods who send them.', 'actions of their enemies.', 'weight of their past mistakes.']
           }
         ]
       },
@@ -1724,8 +1724,8 @@ export const CIVILIZATIONS = [
           },
           {
             start: 'Historia Naturalis (7.1): Pliny opens his book on humans: "Of all the animals, man alone knows nothing at birth — he must learn everything, even how to',
-            correct: 'speak, walk, and eat."',
-            wrong: ['"worship the gods."', '"recognize his enemies."', '"find shelter and warmth."']
+            correct: 'speak, walk, and eat.',
+            wrong: ['worship the gods.', 'recognize his enemies.', 'find shelter and warmth.']
           },
           {
             start: 'Pliny the Elder died during the eruption of Vesuvius (79 CE) — his nephew Pliny the Younger records that he sailed toward Vesuvius to observe the eruption and',
@@ -1826,52 +1826,52 @@ export const CIVILIZATIONS = [
         quotes: [
           {
             start: 'Maxims of Ptahhotep (Maxim 1): "How hard and painful are the last hours of an aged man! He grows weaker every day; his eyes become dim, his ears deaf; his strength fades; his heart knows',
-            correct: 'peace no longer."',
-            wrong: ['"joy without measure."', '"wisdom at last."', '"the gods\' mercy."']
+            correct: 'peace no longer.',
+            wrong: ['joy without measure.', 'wisdom at last.', 'the gods\' mercy.']
           },
           {
             start: 'Maxims of Ptahhotep (Maxim 4): "Do not be arrogant because of your knowledge, and have no confidence in that you are a learned man. Take counsel with the ignorant as',
-            correct: 'with the wise."',
-            wrong: ['"with only the powerful."', '"with those above you."', '"with priests alone."']
+            correct: 'with the wise.',
+            wrong: ['with only the powerful.', 'with those above you.', 'with priests alone.']
           },
           {
             start: 'Maxims of Ptahhotep (Maxim 5): "Be a craftsman in speech that you may be strong, for the strength of one is the tongue, and speech is mightier than all',
-            correct: 'fighting."',
-            wrong: ['"silence."', '"gold."', '"armies."']
+            correct: 'fighting.',
+            wrong: ['silence.', 'gold.', 'armies.']
           },
           {
             start: 'Maxims of Ptahhotep (Maxim 9): "If you meet an opponent in his moment of power — one who is your superior — bend your arms and bow your back. Do not oppose him. He will not be swayed by an argument,',
-            correct: 'and time will show his foolishness."',
-            wrong: ['"impressed by your learning."', '"angered by your silence."', '"defeated by direct confrontation."']
+            correct: 'and time will show his foolishness.',
+            wrong: ['impressed by your learning.', 'angered by your silence.', 'defeated by direct confrontation.']
           },
           {
             start: 'Maxims of Ptahhotep (Maxim 21): "How good it is when a son accepts what his father says! Thereby maturity comes to him. He who listens is beloved of',
             correct: 'god.",',
-            wrong: ['"pharaoh.",', '"the vizier.",', '"the scribes.",']
+            wrong: ['pharaoh.",', 'the vizier.",', 'the scribes.",']
           },
           {
             start: 'Maxims of Ptahhotep (Maxim 22): "He who does not listen is a fool; he will never attain knowledge or wisdom. He who disobeys,',
-            correct: 'his heart will not hear."',
-            wrong: ['"he will be punished."', '"he angers the gods."', '"the pharaoh will exile him."']
+            correct: 'his heart will not hear.',
+            wrong: ['he will be punished.', 'he angers the gods.', 'the pharaoh will exile him.']
           },
           {
             start: 'Maxims of Ptahhotep (Maxim 32): "If you are a guest at the table of one who is greater than you, take only what he gives you. Do not look',
             correct: 'greedily at what is before him.",',
-            wrong: ['"away from his gaze.",', '"for a better seat.",', '"to compare your portion with others.",']
+            wrong: ['away from his gaze.",', 'for a better seat.",', 'to compare your portion with others.",']
           },
           {
             start: 'Maxims of Ptahhotep (Maxim 37): "If you are a leader commanding the affairs of the multitude, seek out for yourself every beneficial deed, until your own affairs are',
-            correct: 'without wrong."',
-            wrong: ['"known to all."', '"praised by the pharaoh."', '"rewarded with gold."']
+            correct: 'without wrong.',
+            wrong: ['known to all.', 'praised by the pharaoh.', 'rewarded with gold.']
           },
           {
             start: 'Maxims of Ptahhotep (Maxim 6): "Silence is more profitable than',
-            correct: 'abundance of speech."',
-            wrong: ['"any amount of gold."', '"open confession."', '"any deed."']
+            correct: 'abundance of speech.',
+            wrong: ['any amount of gold.', 'open confession.', 'any deed.']
           },
           {
             start: 'Maxims of Ptahhotep (Maxim 18): "If you are wise, keep your house and love your wife as is fitting. Fill her belly and clothe her back. The remedy for keeping her is to hold her far from authority —',
-            correct: 'her eye is her storm-wind."',
+            correct: 'her eye is her storm-wind.',
             wrong: [
               'give gold and jewels.',
               'silence and obedience.',
@@ -1881,7 +1881,7 @@ export const CIVILIZATIONS = [
           {
             // Maxim 41 — on greed and the stomach
             start: 'Maxims of Ptahhotep (Maxim 41): "If you want friendship to endure in a house that you enter — as master, as brother, or as friend — wherever you enter, beware of approaching the women, for no good comes',
-            correct: 'from that place."',
+            correct: 'from that place.',
             wrong: [
               'from women’s company.',
               'from household women.',
@@ -1890,8 +1890,8 @@ export const CIVILIZATIONS = [
           },
           {
             start: 'Maxims of Ptahhotep (closing): "Obedience is an excellent thing and brings peace to the heart. The son who accepts the teaching of his father will grow old',
-            correct: 'in well-being."',
-            wrong: ['"into pharaoh\'s favor."', '"stronger than his enemies."', '"wealthy beyond measure."']
+            correct: 'in well-being.',
+            wrong: ['into pharaoh\'s favor.', 'stronger than his enemies.', 'wealthy beyond measure.']
           }
         ]
       },
@@ -1919,8 +1919,8 @@ export const CIVILIZATIONS = [
           },
           {
             start: 'Story of Sinuhe (B75–90): Sinuhe praises Pharaoh Senusret I to Ammunenshi — describing him as a god who "knows all lands, and whom all who see him love, for he conquers by love, for his city loves him more than',
-            correct: 'itself."',
-            wrong: ['fear alone."', 'forced obedience."', 'his wisdom alone."']
+            correct: 'itself.',
+            wrong: ['fear alone.', 'forced obedience.', 'his wisdom alone.']
           },
           {
             start: 'Story of Sinuhe (B110–130): The Syrian challenger who fights Sinuhe plans to take his cattle and property — Sinuhe defeats him with his bow before the man can even reach him with',
@@ -1942,16 +1942,16 @@ export const CIVILIZATIONS = [
           },
           {
             start: 'Story of Sinuhe (B230–250): The royal letter from Senusret I to Sinuhe contains the famous line: "Why are you fleeing? What have you done wrong? You have not spoken against anyone, your words have not been judged false — do not let your heart',
-            correct: 'think of it any more."',
-            wrong: ['fear the gods of Syria."', 'plan another flight."', 'return without our command."']
+            correct: 'think of it any more.',
+            wrong: ['fear the gods of Syria.', 'plan another flight.', 'return without our command.']
           },
           {
             start: 'Story of Sinuhe (B290–305): On returning to Egypt, Sinuhe describes himself as transformed by age and exile — "I was given the house of a courtier; it had a garden and trees and was cool as a temple. I was set at the king\'s table with',
-            correct: 'the children of the king."',
+            correct: 'the children of the king.',
             wrong: [
-              'foreign nobles of Syria."',
-              'servants of the palace."',
-              'prisoners of war."'
+              'foreign nobles of Syria.',
+              'servants of the palace.',
+              'prisoners of war.'
             ]
           },
           {
@@ -1971,21 +1971,21 @@ export const CIVILIZATIONS = [
         quotes: [
           {
             start: 'Great Hymn to the Aten (lines 1–8): "Beautiful is your rising on the horizon of heaven, O living Aten, the beginning of life! When you rise on the eastern horizon you fill',
-            correct: 'every land with your beauty."',
-            wrong: ['"Egypt alone with divine favor."', '"the Nile with the flood of life."', '"the hearts of kings with terror."']
+            correct: 'every land with your beauty.',
+            wrong: ['Egypt alone with divine favor.', 'the Nile with the flood of life.', 'the hearts of kings with terror.']
           },
           {
             start: 'Great Hymn to the Aten (lines 9–20): "When you set on the western horizon, the earth is in darkness, in the manner of death. Every lion comes out of its den; all the snakes bite. Darkness is the only',
-            correct: 'light, and the earth is silent."',
+            correct: 'light, and the earth is silent.',
             wrong: [
-              'gift of the night."',
-              'protection of sleepers."',
-              'time of divine speech."'
+              'gift of the night.',
+              'protection of sleepers.',
+              'time of divine speech.'
             ]
           },
           {
             start: 'Great Hymn to the Aten (lines 35–50): "How manifold are your works! They are hidden from the face of man. O sole god, like whom there is no other! You created the earth according to your desire, cattle, all flocks, everything on',
-            correct: 'earth that walks on feet."',
+            correct: 'earth that walks on feet.',
             wrong: [
               'sea that moves in waters.',
               'sky that holds the stars.',
@@ -1994,17 +1994,17 @@ export const CIVILIZATIONS = [
           },
           {
             start: 'Great Hymn to the Aten (lines 55–65): The hymn attributes the Nile flood not to the god Hapy (as was traditional) but to the Aten — "You made the Nile in the underworld and bring it where you will to sustain the people of Egypt,',
-            correct: 'for you made them for yourself."',
+            correct: 'for you made them for yourself.',
             wrong: [
-              'to honor Hapy in his hidden realm."',
-              'by command of Osiris in the Duat."',
-              'for the kings of Egypt alone."'
+              'to honor Hapy in his hidden realm.',
+              'by command of Osiris in the Duat.',
+              'for the kings of Egypt alone.'
             ]
           },
           {
             start: 'Great Hymn to the Aten (lines 70–80): Notably, the hymn describes the Aten as creator not only of Egypt but of all peoples — "Their tongues differ in speech and their characters likewise; their skins differ, for you distinguished',
-            correct: 'people of foreign lands."',
-            wrong: ['the tribes of Egypt alone."', '"the children of the Nile."', '"the followers of the pharaoh."']
+            correct: 'people of foreign lands.',
+            wrong: ['the tribes of Egypt alone.', 'the children of the Nile.', 'the followers of the pharaoh.']
           },
           {
             start: 'Great Hymn to the Aten (closing): "You are in my heart; there is no other who knows you except your son Akhenaten. You have made him wise in your plans and your power." This establishes Akhenaten as the sole intermediary between the Aten and',
@@ -2041,32 +2041,32 @@ export const CIVILIZATIONS = [
         quotes: [
           {
             start: 'Instruction of Amenemope (Ch.6): "Better is a bushel given to you by the god than five thousand taken by',
-            correct: 'wrongdoing."',
-            wrong: ['"a powerful man."', '"the treasury."', '"a foreign merchant."']
+            correct: 'wrongdoing.',
+            wrong: ['a powerful man.', 'the treasury.', 'a foreign merchant.']
           },
           {
             start: 'Instruction of Amenemope (Ch.6): "Better is poverty in the hand of the god than riches in a',
-            correct: 'storehouse of wrongdoing."',
-            wrong: ['"temple of false gods."', '"foreign land."', '"house of the loud man."']
+            correct: 'storehouse of wrongdoing.',
+            wrong: ['temple of false gods.', 'foreign land.', 'house of the loud man.']
           },
           {
             start: 'Instruction of Amenemope (Ch.7): "Do not move the markers on the borders of fields, nor shift the position of the measuring cord. Do not be greedy for a cubit of field, nor encroach on the boundaries of a',
-            correct: 'widow."',
-            wrong: ['"king."', '"temple."', '"nobleman."']
+            correct: 'widow.',
+            wrong: ['king.', 'temple.', 'nobleman.']
           },
           {
             start: 'Instruction of Amenemope (Ch.9): "The silent man who keeps apart is like a tree growing in a garden — he flowers and produces fruit. The heated man who talks too much is like a tree in',
-            correct: 'a storm — uprooted before its time."',
-            wrong: ['"the desert — dying without water."', '"the river — swept away by the flood."', '"the city — cut down by the woodsman."']
+            correct: 'a storm — uprooted before its time.',
+            wrong: ['the desert — dying without water.', 'the river — swept away by the flood.', 'the city — cut down by the woodsman.']
           },
           {
             start: 'Instruction of Amenemope (Ch.10): "Do not associate with a man who is hot-tempered, nor approach him in conversation. Leap not to cleave to such a person, lest a terror',
-            correct: 'carry you away."',
-            wrong: ['"fall on your house."', '"reach the pharaoh\'s ears."', '"destroy your family."']
+            correct: 'carry you away.',
+            wrong: ['fall on your house.', 'reach the pharaoh\'s ears.', 'destroy your family.']
           },
           {
             start: 'Instruction of Amenemope (Ch.11): "The truly silent man holds himself apart. He is like gold compared to',
-            correct: 'a mountain of silver."',
+            correct: 'a mountain of silver.',
             wrong: [
               'a field of copper ore.',
               'a chest of bronze coins.',
@@ -2075,13 +2075,13 @@ export const CIVILIZATIONS = [
           },
           {
             start: 'Instruction of Amenemope (Ch.20): "Do not move the scales nor alter the weights, nor diminish the fractions of the measure. Do not wish for false measures, for they are an abomination to',
-            correct: 'the god."',
-            wrong: ['"the pharaoh."', '"the vizier."', '"the marketplace."']
+            correct: 'the god.',
+            wrong: ['the pharaoh.', 'the vizier.', 'the marketplace.']
           },
           {
             start: 'Instruction of Amenemope (Ch.27): "Do not eat bread before a man of god, nor begin to speak before he does. If he makes a mistake in his words, do not attack him in his weakness — this will bring',
-            correct: 'shame upon you."',
-            wrong: ['"the wrath of Thoth."', '"punishment from the pharaoh."', '"dishonor to your father."']
+            correct: 'shame upon you.',
+            wrong: ['the wrath of Thoth.', 'punishment from the pharaoh.', 'dishonor to your father.']
           },
           {
             start: 'Instruction of Amenemope is particularly significant because Proverbs 22:17 explicitly says "incline your ear and hear the words of the wise" — parallels in wording and structure appear most clearly in',
@@ -2100,16 +2100,16 @@ export const CIVILIZATIONS = [
         quotes: [
           {
             start: 'Ipuwer Papyrus (2.1–5): "Indeed, the poor of the land have become the rich. He who could not make sandals for himself is now a possessor of',
-            correct: 'riches."',
-            wrong: ['"armies."', '"temples."', '"the throne."']
+            correct: 'riches.',
+            wrong: ['armies.', 'temples.', 'the throne.']
           },
           {
             start: 'Ipuwer Papyrus (2.8): "Indeed, the servant girls have become mistresses, and the ladies are compelled to do what',
-            correct: 'their servants do."',
+            correct: 'their servants do.',
             wrong: [
-              'the noble ones command."',
-              'befits their high status."',
-              'the gods have ordained for them."'
+              'the noble ones command.',
+              'befits their high status.',
+              'the gods have ordained for them.'
             ]
           },
           {
@@ -2123,30 +2123,30 @@ export const CIVILIZATIONS = [
           },
           {
             start: 'Ipuwer Papyrus (4.2): "Indeed, the scribes have been destroyed. The records of the scribes are taken from them. The laws of the council chamber are thrown into the hallways — men walk upon them in',
-            correct: 'the streets."',
+            correct: 'the streets.',
             wrong: [
-              'open defiance."',
-              'reverent procession."',
-              'silent mourning."'
+              'open defiance.',
+              'reverent procession.',
+              'silent mourning.'
             ]
           },
           {
             start: 'Ipuwer Papyrus (5.8–6.1): The sage turns to address the creator god with a reproach — asking why he permitted this chaos, saying: "Behold, why does he seek to fashion mankind, when the meek are not distinguished from',
-            correct: 'the violent?"',
+            correct: 'the violent?',
             wrong: [
-              'the righteous?"',
-              'the divine?"',
-              'the forgotten?"'
+              'the righteous?',
+              'the divine?',
+              'the forgotten?'
             ]
           },
           {
             start: 'Ipuwer Papyrus (7.1–3): "Behold, why is the land robbed of the kingship by a few senseless men? Behold, men have fallen into rebellion against the',
-            correct: 'Uraeus serpent."',
-            wrong: ['"armies of the east."', '"priests of Amun."', '"god of the Nile."']
+            correct: 'Uraeus serpent.',
+            wrong: ['armies of the east.', 'priests of Amun.', 'god of the Nile.']
           },
           {
             start: 'The Ipuwer Papyrus is classified by Egyptologists as a work of discourse literature" — a genre of social criticism using an imagined crisis to argue for proper order, not a',
-            correct: '"historical chronicle.',
+            correct: 'historical chronicle.',
             wrong: [
               'religious hymn.',
               'funerary text.',
@@ -2161,8 +2161,8 @@ export const CIVILIZATIONS = [
         quotes: [
           {
             start: 'Deir el-Bahari Inscription: The divine birth narrative depicts Amun visiting her mother and declaring: "This daughter who is born shall be named Hatshepsut — she shall exercise the excellent kingship in this whole land. My soul is hers, my',
-            correct: 'will is hers, my crown is hers."',
-            wrong: ['"power is hers, my army is hers."', '"throne is hers, my strength is hers."', '"love is hers, my temples are hers."']
+            correct: 'will is hers, my crown is hers.',
+            wrong: ['power is hers, my army is hers.', 'throne is hers, my strength is hers.', 'love is hers, my temples are hers.']
           },
           {
             start: 'Punt Expedition Inscription (Deir el-Bahari): After the expedition to Punt returned with myrrh trees, ebony, and living animals, Hatshepsut declares that no pharaoh who had come before had brought back living myrrh trees from Punt for',
@@ -2175,11 +2175,11 @@ export const CIVILIZATIONS = [
           },
           {
             start: 'Speos Artemidos Inscription: Hatshepsut declares that she "restored that which was in ruins and rebuilt that which had been destroyed since the Hyksos were in the midst of Avaris of the Northland, with roving hordes',
-            correct: 'overthrowing what had been made."',
+            correct: 'overthrowing what had been made.',
             wrong: [
-              'ruling without the gods\' blessing."',
-              'burning the sacred temples."',
-              'defiling the ancient tombs."'
+              'ruling without the gods\' blessing.',
+              'burning the sacred temples.',
+              'defiling the ancient tombs.'
             ]
           },
           {
@@ -2226,40 +2226,40 @@ export const CIVILIZATIONS = [
         quotes: [
           {
             start: 'Instruction of Ani (3.13–14): "Do not boast of your strength during your youth. Beware of the one you do not know. When you go up and down in the hall of drinking, beware of approaching a woman — she lies in wait to capture you like a',
-            correct: 'deep water whose whirlpools are unknown."',
-            wrong: ['"desert wind that brings only thirst."', '"falcon that strikes from the light."', '"scorpion sleeping under the stone."']
+            correct: 'deep water whose whirlpools are unknown.',
+            wrong: ['desert wind that brings only thirst.', 'falcon that strikes from the light.', 'scorpion sleeping under the stone.']
           },
           {
             start: 'Instruction of Ani (3.9–10): "Double the food your mother gave you, support her as she supported you. When you were born she carried you, and for three years she suckled you. When you had grown and were trained and learned to write, she watched over you',
-            correct: 'daily with bread and beer from her house."',
-            wrong: ['"nightly with prayers to Hathor."', '"hourly with offerings to Thoth."', '"always with gold."']
+            correct: 'daily with bread and beer from her house.',
+            wrong: ['nightly with prayers to Hathor.', 'hourly with offerings to Thoth.', 'always with gold.']
           },
           {
             start: 'Instruction of Ani (7.17–18): "The house of god — do not enter it drunk. Do not let your heart turn away while praying. Do not speak',
-            correct: 'idle words."',
-            wrong: ['"against the priests."', '"too quietly."', '"in the foreign tongue."']
+            correct: 'idle words.',
+            wrong: ['against the priests.', 'too quietly.', 'in the foreign tongue.']
           },
           {
             start: 'Instruction of Ani (8.1–3): "Do not oppress your opponent when he is weak, and do not destroy one who is down. Stretch out your hand to him when he has',
-            correct: 'fallen."',
-            wrong: ['"offended the pharaoh."', '"crossed into your land."', '"lost all his gold."']
+            correct: 'fallen.',
+            wrong: ['offended the pharaoh.', 'crossed into your land.', 'lost all his gold.']
           },
           {
             start: 'Instruction of Ani (closing dialogue): Uniquely in Egyptian wisdom literature, Ani\'s son Khonshotep responds to his father\'s teachings by saying: "Do not instruct me with so many admonitions! What you have set down is a great load for',
-            correct: 'one who listens to you."',
+            correct: 'one who listens to you.',
             wrong: [
-              'a man of lesser years."',
-              'one without noble birth."',
-              'the untrained mind."'
+              'a man of lesser years.',
+              'one without noble birth.',
+              'the untrained mind.'
             ]
           },
           {
             start: 'Instruction of Ani: "Do not speak as a know-it-all at a consultation. Be very careful and you will not be rebuked. If you are mighty and powerful, calm your heart, for it is better to be praised by the god than to be feared by',
-            correct: 'men."',
+            correct: 'men.',
             wrong: [
-              'your enemies."',
-              'the weak."',
-              'your household."'
+              'your enemies.',
+              'the weak.',
+              'your household.'
             ]
           }
         ]
@@ -2270,42 +2270,42 @@ export const CIVILIZATIONS = [
         quotes: [
           {
             start: 'Instruction for Merikare (P46–50): "Be a craftsman in speech — thus shall you prevail, for the tongue of a king is his sword, and speech is',
-            correct: 'mightier than any fighting."',
-            wrong: ['"the gift of Thoth."', '"the weapon the gods fear most."', '"more dangerous than an army."']
+            correct: 'mightier than any fighting.',
+            wrong: ['the gift of Thoth.', 'the weapon the gods fear most.', 'more dangerous than an army.']
           },
           {
             start: 'Instruction for Merikare (P53–57): "Do justice while you live on earth. Calm the one who weeps; do not oppress the widow. Do not expel a man from his father\'s property. Beware lest you punish wrongfully — it is the divine court that',
-            correct: 'will judge you."',
+            correct: 'will judge you.',
             wrong: [
-              'sees all things."',
-              'your scribes must answer to."',
-              'outlasts all earthly kings."'
+              'sees all things.',
+              'your scribes must answer to.',
+              'outlasts all earthly kings.'
             ]
           },
           {
             start: 'Instruction for Merikare (P120–125): "Well-tended is mankind — the god\'s cattle. He made heaven and earth for their sake, and drove back the greediness of the water. He made the winds so that their nostrils might',
-            correct: 'live."',
-            wrong: ['"carry prayers to his ears."', '"cool the desert in summer."', '"fill the sails of the royal fleet."']
+            correct: 'live.',
+            wrong: ['carry prayers to his ears.', 'cool the desert in summer.', 'fill the sails of the royal fleet.']
           },
           {
             start: 'Instruction for Merikare (P128): "He made himself their image, and he listens to what they say. He made plants, cattle, and fish to nourish them. He slays his enemies and destroys his own children because they plot',
-            correct: 'against him."',
-            wrong: ['"against Pharaoh."', '"to worship foreign gods."', '"to flood the delta."']
+            correct: 'against him.',
+            wrong: ['against Pharaoh.', 'to worship foreign gods.', 'to flood the delta.']
           },
           {
             start: 'Instruction for Merikare (P132–133): "The divine court that judges the dead is not tolerant on that day of judgment: the court of accusers — do not trust in length of years, for they see a lifetime as',
-            correct: 'a single hour."',
-            wrong: ['a long journey."', 'a fleeting moment."', 'a day and a night."']
+            correct: 'a single hour.',
+            wrong: ['a long journey.', 'a fleeting moment.', 'a day and a night.']
           },
           {
             start: 'Instruction for Merikare (P55): "The throne is established by justice alone; it is the heart of the righteous man that',
-            correct: 'is his true monument."',
-            wrong: ['"conquers the nations."', '"pleases the gods of heaven."', '"surpasses the pyramid."']
+            correct: 'is his true monument.',
+            wrong: ['conquers the nations.', 'pleases the gods of heaven.', 'surpasses the pyramid.']
           },
           {
             start: 'Instruction for Merikare (P100–104): "One brave deed is worth more than a thousand in faint-heartedness. But one eloquent man is worth more than a thousand',
-            correct: 'who fight with their fists."',
-            wrong: ['"who dig the canals."', '"who guard the treasury."', '"who harvest the grain."']
+            correct: 'who fight with their fists.',
+            wrong: ['who dig the canals.', 'who guard the treasury.', 'who harvest the grain.']
           }
         ]
       },
@@ -2315,13 +2315,13 @@ export const CIVILIZATIONS = [
         quotes: [
           {
             start: 'Book of the Dead, Chapter 125 (Negative Confession): Before the 42 judges in the Hall of Two Truths, the deceased declares: "I have not done wrong. I have not',
-            correct: 'robbed with violence."',
-            wrong: ['"sacrificed to false gods."', '"disobeyed the pharaoh."', '"spoken against the Nile."']
+            correct: 'robbed with violence.',
+            wrong: ['sacrificed to false gods.', 'disobeyed the pharaoh.', 'spoken against the Nile.']
           },
           {
             start: 'Book of the Dead, Chapter 125 (continued): "I have not slain men or women. I have not stolen grain. I have not defrauded the grain measure. I have not',
-            correct: 'moved the markers of the fields."',
-            wrong: ['"spoken against Osiris."', '"refused to honor the dead."', '"left offerings incomplete."']
+            correct: 'moved the markers of the fields.',
+            wrong: ['spoken against Osiris.', 'refused to honor the dead.', 'left offerings incomplete.']
           },
           {
             start: 'Book of the Dead, Chapter 125: The deceased\'s heart is weighed against the feather of Maat (truth/justice) — if the heart is heavier than the feather, it is devoured by Ammit (the composite creature — part lion, hippopotamus, and',
@@ -2334,25 +2334,25 @@ export const CIVILIZATIONS = [
           },
           {
             start: 'Book of the Dead, Chapter 1: "O you lords of Truth, O you who are in attendance on Osiris, who know no falsehood, I am here in your presence. Bring me no charges of',
-            correct: 'wrongdoing."',
-            wrong: ['"false prayer."', '"unpaid taxes."', '"ritual impurity."']
+            correct: 'wrongdoing.',
+            wrong: ['false prayer.', 'unpaid taxes.', 'ritual impurity.']
           },
           {
             start: 'Book of the Dead, Chapter 17: The text identifies the soul with various divine forms — "I am yesterday; I know tomorrow. The battleground of the gods was made when I spoke. I know the name of the great god who',
-            correct: 'is there."',
+            correct: 'is there.',
             wrong: [
-              'guards the horizon."',
-              'judges the dead."',
-              'created the world."'
+              'guards the horizon.',
+              'judges the dead.',
+              'created the world.'
             ]
           },
           {
             start: 'Book of the Dead, Chapter 64 — one of the oldest chapters (found in Old Kingdom Pyramid Texts): "I am the great god who comes forth in truth. I know the name of the great god who is in the boat of',
-            correct: 'millions of years."',
+            correct: 'millions of years.',
             wrong: [
-              'the eternal horizon."',
-              'Ra\'s daily crossing."',
-              'the sacred Nile."'
+              'the eternal horizon.',
+              'Ra\'s daily crossing.',
+              'the sacred Nile.'
             ]
           },
           {
@@ -2372,20 +2372,20 @@ export const CIVILIZATIONS = [
         quotes: [
 {
             start: 'Karnak Annals: Before the Battle of Megiddo, Thutmose III\'s officers urged him to take the safer road — he rejected their advice and took the narrow Aruna pass, saying: "As I live, as Ra loves me, my Majesty shall proceed upon this',
-            correct: 'road of Aruna."',
+            correct: 'road of Aruna.',
             wrong: [
-              'road to victory."',
-              'road alone."',
-              'road, and let the gods decide our fate."'
+              'road to victory.',
+              'road alone.',
+              'road, and let the gods decide our fate.'
             ]
           },
           {
             start: 'Karnak Annals (Year 23): After Thutmose III announced he would take the Aruna pass, he added: "Let whoever wishes among you go upon the roads you have spoken of, and let whoever wishes among you come',
-            correct: 'in my footsteps."',
+            correct: 'in my footsteps.',
             wrong: [
-              'before me as vanguard."',
-              'bearing the standard of Amun."',
-              'only if your heart is without fear."'
+              'before me as vanguard.',
+              'bearing the standard of Amun.',
+              'only if your heart is without fear.'
             ]
           },
           {
@@ -2395,11 +2395,11 @@ export const CIVILIZATIONS = [
           },
           {
             start: 'Poetic Stela of Thutmose III (Karnak): Amun speaks to Thutmose: "I have come, causing you to smite the princes of Zahi. I have hurled them beneath your feet. I have caused them to see Your Majesty as',
-            correct: 'the lord of radiance."',
+            correct: 'the lord of radiance.',
             wrong: [
-              'a falcon among sparrows."',
-              'the son of Ra himself."',
-              'the scourge of all lands."'
+              'a falcon among sparrows.',
+              'the son of Ra himself.',
+              'the scourge of all lands.'
             ]
           },
           {
@@ -2437,29 +2437,29 @@ export const CIVILIZATIONS = [
         quotes: [
           {
             start: 'Instruction of Kagemni: "If you sit with a company of people, do not reach for the bread before',
-            correct: 'your host does."',
+            correct: 'your host does.',
             wrong: [
-              'all others are served."',
-              'the eldest speaks."',
-              'the offering is made."'
+              'all others are served.',
+              'the eldest speaks.',
+              'the offering is made.'
             ]
           },
           {
             start: 'Instruction of Kagemni: "The man who is modest in the presence of his superior — his name is good in the mouth of',
-            correct: 'the god."',
+            correct: 'the god.',
             wrong: [
-              'his neighbors."',
-              'the pharaoh\'s court."',
-              'all who know him."'
+              'his neighbors.',
+              'the pharaoh\'s court.',
+              'all who know him.'
             ]
           },
           {
             start: 'Instruction of Kagemni: "If you are great after having been humble, and have acquired wealth after having been poor, do not let your heart become hard',
-            correct: 'because of your wealth."',
+            correct: 'because of your wealth.',
             wrong: [
-              'against the gods."',
-              'toward the king."',
-              'toward your family."'
+              'against the gods.',
+              'toward the king.',
+              'toward your family.'
             ]
           },
           {
@@ -2473,11 +2473,11 @@ export const CIVILIZATIONS = [
           },
           {
             start: 'Instruction of Kagemni: "Silence is more profitable to you than abundance of',
-            correct: 'speech."',
+            correct: 'speech.',
             wrong: [
-              'gold."',
-              'prayers."',
-              'feasting."'
+              'gold.',
+              'prayers.',
+              'feasting.'
             ]
           }
         ]
@@ -2678,18 +2678,18 @@ export const CIVILIZATIONS = [
         quotes: [
           {
             start: 'Corpus Juris Civilis, Institutiones (1.1): "Iustitia est constans et perpetua voluntas ius suum cuique tribuendi" — Justice is the constant and perpetual will to render to every person',
-            correct: 'their due right (ius suum)."',
-            wrong: ['their equal share."', 'what the emperor commands."', 'what God has ordained."']
+            correct: 'their due right (ius suum).',
+            wrong: ['their equal share.', 'what the emperor commands.', 'what God has ordained.']
           },
           {
             start: 'Corpus Juris Civilis, Institutiones (1.1.3): The three precepts of law are stated as: "To live honestly (honeste vivere), to harm no one (alterum non laedere), and to give each his',
-            correct: 'own (suum cuique tribuere)."',
-            wrong: ['due punishment."', 'rightful share of the harvest."', 'place in the divine order."']
+            correct: 'own (suum cuique tribuere).',
+            wrong: ['due punishment.', 'rightful share of the harvest.', 'place in the divine order.']
           },
           {
             start: 'Digest (1.1.10, from Ulpian, preserved in Justinian\'s compilation): "The study of law (iurisprudentia) is the knowledge of things divine and human, the science of the just and the',
-            correct: 'unjust (iusti atque iniusti scientia)."',
-            wrong: ['sacred."', 'eternal and the temporal."', 'moment."']
+            correct: 'unjust (iusti atque iniusti scientia).',
+            wrong: ['sacred.', 'eternal and the temporal.', 'moment.']
           },
           {
             start: 'Novel 6 (535 CE), Preface: Justinian states that the greatest gifts God has given humanity are "the priesthood (hierosyne) and the imperial authority (basileia)" — and that when both are in harmony, the good of the human race is',
@@ -2703,12 +2703,12 @@ export const CIVILIZATIONS = [
           {
             start: 'Procopius, Wars (1.24): During the Nika Riot (532 CE), when Justinian considered fleeing, Theodora reportedly said: "May I never be without this purple robe, nor live to see the day when those who meet me do not call me',
             correct: 'empress".',
-            wrong: ['queen of queens."', 'defender of the faith."', 'mother of the empire."']
+            wrong: ['queen of queens.', 'defender of the faith.', 'mother of the empire.']
           },
           {
             start: 'Procopius, Buildings (1.1): When Hagia Sophia was completed (537 CE), Justinian reportedly exclaimed: "Solomon, I have',
-            correct: 'surpassed you!"',
-            wrong: ['"honored you!"', '"equalled you!"', '"learned from you!"']
+            correct: 'surpassed you!',
+            wrong: ['honored you!', 'equalled you!', 'learned from you!']
           },
           {
             start: 'Codex Justinianus (1.17.2): Justinian justifies the Digest compilation by arguing that emperors have the authority both to create law and to interpret and',
@@ -2750,11 +2750,11 @@ export const CIVILIZATIONS = [
           },
           {
             start: 'Homily on 1 Corinthians (34.5): "Do you wish to honor the body of Christ? Do not ignore him when he is naked. Do not pay him homage in the temple clad in silk only to neglect him outside where he is cold and',
-            correct: 'ill-clad."',
+            correct: 'ill-clad.',
             wrong: [
-              'hungry."',
-              'forgotten."',
-              'without shelter."'
+              'hungry.',
+              'forgotten.',
+              'without shelter.'
             ]
           },
           {
@@ -2768,8 +2768,8 @@ export const CIVILIZATIONS = [
           },
           {
             start: 'Homily on Ephesians (11.4): Chrysostom describes marriage as a kind of church — "where a husband and wife come together with the fear of God, virtue, and the right spirit, their household is',
-            correct: 'a little church."',
-            wrong: ['blessed above the monastery."', 'equal to the priesthood."', 'a sacrifice pleasing to God."']
+            correct: 'a little church.',
+            wrong: ['blessed above the monastery.', 'equal to the priesthood.', 'a sacrifice pleasing to God.']
           },
           {
             start: 'The saying "The road to hell is paved with the bones of priests and monks, and the skulls of bishops are the lampposts along the way" circulates as a Chrysostom quote — it appears in no verified Chrysostom text but is traced to',
@@ -2806,28 +2806,28 @@ export const CIVILIZATIONS = [
         quotes: [
           {
             start: 'Taktika (Epilogue, §73): "It is not any of those things sought after and esteemed by men that brings such joy to Our Majesty as does the peace and prosperity of our',
-            correct: 'subjects."',
-            wrong: ['armies."', 'enemies\' defeats."', 'treasury\'s growth."']
+            correct: 'subjects.',
+            wrong: ['armies.', 'enemies\' defeats.', 'treasury\'s growth.']
           },
           {
             start: 'Taktika (Constitution 2, §11): "The voice of a well-respected general is better than the sound of the',
-            correct: 'trumpet."',
-            wrong: ['sword."', 'charging cavalry."', 'church bell."']
+            correct: 'trumpet.',
+            wrong: ['sword.', 'charging cavalry.', 'church bell.']
           },
           {
             start: 'Taktika (Constitution 2, §47): "Share on all occasions the work and fatigue of war with those you',
-            correct: 'command."',
-            wrong: ['fear."', 'oppose."', 'train."']
+            correct: 'command.',
+            wrong: ['fear.', 'oppose.', 'train.']
           },
           {
             start: 'Taktika (Epilogue): "Your morals must be a model for',
-            correct: 'those under your command."',
-            wrong: ['the emperor alone."', 'the enemy\'s admiration."', 'the church\'s approval."']
+            correct: 'those under your command.',
+            wrong: ['the emperor alone.', 'the enemy\'s admiration.', 'the church\'s approval.']
           },
           {
             start: 'Taktika (Constitution 2): "Without divine assistance, no strategy, however well designed, will',
-            correct: 'succeed."',
-            wrong: ['fail outright."', 'satisfy the soldiers."', 'be known to the enemy."']
+            correct: 'succeed.',
+            wrong: ['fail outright.', 'satisfy the soldiers.', 'be known to the enemy.']
           },
           {
             start: 'Novel 89: Leo VI issued a Novel prohibiting fourth marriages — then controversially contracted a fourth marriage himself with Zoe Karbonopsina to legitimize his heir Constantine, causing the',
@@ -2849,8 +2849,8 @@ export const CIVILIZATIONS = [
           },
           {
             start: 'Taktika (Constitution 18): Leo stresses that a general must gather detailed intelligence on enemy customs, tactics, and terrain — "a general who does not know his enemy fights',
-            correct: 'in the dark."',
-            wrong: ['for glory alone."', 'against himself."', 'without God\'s favor."']
+            correct: 'in the dark.',
+            wrong: ['for glory alone.', 'against himself.', 'without God\'s favor.']
           }
         ]
       },
@@ -2993,8 +2993,8 @@ export const CIVILIZATIONS = [
           },
           {
             start: 'Symeon received the title "New Theologian" (Neos Theologos) — placing him in the company of John the Evangelist and Gregory of Nazianzus as one of only three figures in Orthodox tradition honored with the title',
-            correct: '"Theologian."',
-            wrong: ['"Ecumenical Teacher."', '"Equal to the Apostles."', '"Pillar of Orthodoxy."']
+            correct: 'Theologian.',
+            wrong: ['Ecumenical Teacher.', 'Equal to the Apostles.', 'Pillar of Orthodoxy.']
           }
         ]
       },
@@ -3083,8 +3083,8 @@ export const CIVILIZATIONS = [
         quotes: [
           {
             start: 'Cyrus Cylinder (line 20): "I am Cyrus, king of the world, great king, legitimate king, king of Babylon, king of Sumer and Akkad, king of the four rims of the',
-            correct: 'earth."',
-            wrong: ['heavens."', 'Persians."', 'sea."']
+            correct: 'earth.',
+            wrong: ['heavens.', 'Persians.', 'sea.']
           },
           {
             start: 'Cyrus Cylinder (lines 30–32): Cyrus declares that he allowed the peoples he conquered to return to their homes and rebuild their',
@@ -3133,8 +3133,8 @@ export const CIVILIZATIONS = [
           },
           {
             start: 'Edict of Cyrus (Ezra 1:2–3, Hebrew Bible): "The LORD, the God of Heaven, has given me all the kingdoms of the earth and he has appointed me to build a temple for him at',
-            correct: 'Jerusalem in Judah."',
-            wrong: ['"Babylon in Mesopotamia."', '"Persepolis in Persia."', '"Sardis in Lydia."']
+            correct: 'Jerusalem in Judah.',
+            wrong: ['Babylon in Mesopotamia.', 'Persepolis in Persia.', 'Sardis in Lydia.']
           },
           {
             start: 'Isaiah 45:1 (Hebrew Bible): The prophet Isaiah designates Cyrus as the LORD\'s',
@@ -3154,18 +3154,18 @@ export const CIVILIZATIONS = [
         quotes: [
           {
             start: 'Behistun Inscription (§1): "I am Darius the great king, king of kings, king of Persia, king of',
-            correct: 'countries."',
-            wrong: ['mountains."', 'the earth."', 'the sea."']
+            correct: 'countries.',
+            wrong: ['mountains.', 'the earth.', 'the sea.']
           },
           {
             start: 'Behistun Inscription (§5): "By the grace of Ahura Mazda I became king; Ahura Mazda',
-            correct: 'bore me aid."',
-            wrong: ['chose my father."', 'gave me gold."', 'destroyed my enemies alone."']
+            correct: 'bore me aid.',
+            wrong: ['chose my father.', 'gave me gold.', 'destroyed my enemies alone.']
           },
           {
             start: 'Behistun Inscription (§54): Darius commands future kings: "If you shall think \'May my country be secure\', protect this law which Ahura Mazda has',
-            correct: 'established."',
-            wrong: ['forbidden."', 'hidden."', 'written for priests only."']
+            correct: 'established.',
+            wrong: ['forbidden.', 'hidden.', 'written for priests only.']
           },
           {
             start: 'Naqsh-e Rostam Inscription (DNb, §8): "I am not hot-tempered. I hold firmly under control what comes as anger to my',
@@ -3174,8 +3174,8 @@ export const CIVILIZATIONS = [
           },
           {
             start: 'Naqsh-e Rostam (DNb, §8): "I am not impulsive. When I feel rage, I keep',
-            correct: 'this controlled by my reason."',
-            wrong: ['it secret from all."', 'it known to my generals."', 'it hidden until justice comes."']
+            correct: 'this controlled by my reason.',
+            wrong: ['it secret from all.', 'it known to my generals.', 'it hidden until justice comes.']
           },
           {
             start: 'Naqsh-e Rostam (DNa, §4): Darius states he trained as a horseman, a bowman on foot and on horseback, and as a',
@@ -3215,8 +3215,8 @@ export const CIVILIZATIONS = [
           },
           {
             start: 'Persepolis Daiva Inscription (XPh, §1): "I am Xerxes, great king, king of kings, king of lands containing many men, king of this great earth',
-            correct: 'far and wide."',
-            wrong: ['"above and below."', '"from sea to sea."', '"of gods and mortals."']
+            correct: 'far and wide.',
+            wrong: ['above and below.', 'from sea to sea.', 'of gods and mortals.']
           },
           {
             start: 'Herodotus (7.44): As Xerxes reviewed his entire army and fleet at Abydos, he first declared himself happy, but then',
@@ -3261,8 +3261,8 @@ export const CIVILIZATIONS = [
         quotes: [
           {
             start: 'Artaxerxes II Susa Inscription (A2Sa): "By the favor of Ahura Mazda, Anahita, and Mithra, I built this palace. May Ahura Mazda, Anahita, and Mithra protect me from all',
-            correct: 'evil."',
-            wrong: ['enemies in battle."', 'Greek treachery."', 'priestly conspiracy."']
+            correct: 'evil.',
+            wrong: ['enemies in battle.', 'Greek treachery.', 'priestly conspiracy.']
           },
           {
             start: 'Artaxerxes II\'s Susa inscription (A2Sa) is historically notable because he is the first Achaemenid king to explicitly invoke',
@@ -3271,8 +3271,8 @@ export const CIVILIZATIONS = [
           },
           {
             start: 'Artaxerxes II Persepolis Inscription (A2Pd): "By the grace of Ahura Mazda, this palace Artaxerxes the great king built. May Ahura Mazda keep Artaxerxes the great king',
-            correct: 'safe."',
-            wrong: ['victorious."', 'immortal."', 'wise above all kings."']
+            correct: 'safe.',
+            wrong: ['victorious.', 'immortal.', 'wise above all kings.']
           },
           {
             start: 'Plutarch, Life of Artaxerxes (Ch.4): At the Battle of Cunaxa (401 BCE), Artaxerxes was wounded but ultimately defeated his rebellious brother Cyrus the Younger, who was killed — the battle that led to Xenophon\'s',
@@ -3373,14 +3373,14 @@ export const CIVILIZATIONS = [
           },
           {
             // Yasna 43.1 — the three pillars: Good Thought (Vohu Manah), Good Word (Asha Vahishta), Good Deed
-            start: '"The Gathas" central ethical teaching is captured in the triad of Humata, Hukhta, Hvarshta — meaning',
+            start: 'The Gathas" central ethical teaching is captured in the triad of Humata, Hukhta, Hvarshta — meaning',
             correct: 'Good Thoughts, Good Words, Good Deeds.',
             wrong: ['Fire, Water, Earth as sacred elements.', 'Priest, Warrior, Farmer as sacred classes.', 'Ahura Mazda, Mithra, Anahita as the three gods.']
           },
           {
             start: 'Gathas, Yasna 44 (the "Question Gatha"): Zarathustra poses a series of cosmic questions to Ahura Mazda, including "Who is the first father of Asha through',
-            correct: 'creation?"',
-            wrong: ['sacrifice?"', 'the royal line?"', 'fire worship?"']
+            correct: 'creation?',
+            wrong: ['sacrifice?', 'the royal line?', 'fire worship?']
           },
           {
             start: 'The dates of Zarathustra are historically disputed — scholars range from c.1500–1200 BCE (based on language analysis of the Old Avestan Gathas) to c.600 BCE, making',
@@ -3431,8 +3431,8 @@ export const CIVILIZATIONS = [
         quotes: [
           {
             start: 'Analects 2.17: "Yu, shall I teach you what knowledge is? When you know a thing, hold that you know it; when you do not know a thing, allow that you do not know it — this is',
-            correct: 'knowledge."',
-            wrong: ['wisdom."', 'virtue."', 'learning."']
+            correct: 'knowledge.',
+            wrong: ['wisdom.', 'virtue.', 'learning.']
           },
           {
             start: 'Analects 4.16: "The gentleman is concerned with',
@@ -3446,18 +3446,18 @@ export const CIVILIZATIONS = [
           },
           {
             start: 'Analects 15.24: When asked if there is a single word to guide one\'s life, Confucius replied: "Is it not shu (reciprocity)? Do not impose on others what you yourself do not',
-            correct: 'desire."',
-            wrong: ['possess."', 'understand."', 'perform."']
+            correct: 'desire.',
+            wrong: ['possess.', 'understand.', 'perform.']
           },
           {
             start: 'Analects 2.11: "He who reviews the old and learns the new',
-            correct: 'may be called a teacher."',
-            wrong: ['is a gentleman."', 'knows wisdom."', 'earns respect."']
+            correct: 'may be called a teacher.',
+            wrong: ['is a gentleman.', 'knows wisdom.', 'earns respect.']
           },
           {
             start: 'Analects 4.8: "If a man in the morning hears the right Way (Dao), he may die in the evening',
-            correct: 'without regret."',
-            wrong: ['without fear."', 'in peace."', 'with wisdom."']
+            correct: 'without regret.',
+            wrong: ['without fear.', 'in peace.', 'with wisdom.']
           },
           {
             start: 'Analects 13.3: When asked about governing, Confucius said the first priority is the "rectification of',
@@ -3466,8 +3466,8 @@ export const CIVILIZATIONS = [
           },
           {
             start: 'Analects 2.3: "If the people be led by virtue and given uniformity by ritual, they will have a sense of',
-            correct: 'shame and moreover will become good."',
-            wrong: ['obedience and will follow orders."', 'loyalty and will serve the state."', 'fear and will avoid crime."']
+            correct: 'shame and moreover will become good.',
+            wrong: ['obedience and will follow orders.', 'loyalty and will serve the state.', 'fear and will avoid crime.']
           },
           {
             start: 'Analects 7.15: Confucius said he would eat simple food, drink plain water, and use his arm as a pillow — saying riches without righteousness are to him like',
@@ -3482,25 +3482,25 @@ export const CIVILIZATIONS = [
           {
             start: 'At thirty I stood firm. At forty I had no doubts. At fifty I understood Heaven\'s mandate. At sixty my ear received truth. At seventy I could follow my heart without transgressing the',
             correct: 'norm." (Analects 2.4)',
-            wrong: ['law."', 'ruler."', 'ritual."']
+            wrong: ['law.', 'ruler.', 'ritual.']
           },
           {
             start: 'Analects 4.25: "Virtue (de) is never solitary; it always has',
-            correct: 'neighbors."',
-            wrong: ['enemies."', 'rewards."', 'followers."']
+            correct: 'neighbors.',
+            wrong: ['enemies.', 'rewards.', 'followers.']
           },
           {
             start: 'Analects 14.29: "The gentleman is ashamed when his words',
-            correct: 'outrun his deeds."',
-            wrong: ['offend others."', 'contradict ritual."', 'exceed his rank."']
+            correct: 'outrun his deeds.',
+            wrong: ['offend others.', 'contradict ritual.', 'exceed his rank.']
           },
           {
-            start: '"Choose a job you love" — frequently attributed to Confucius — cannot be verified in the Analects and is almost certainly',
+            start: 'Choose a job you love" — frequently attributed to Confucius — cannot be verified in the Analects and is almost certainly',
             correct: 'a modern invented attribution.',
             wrong: ['from Analects Book 7.', 'from a lost Confucian text.', 'from Mencius Book 2.']
           },
           {
-            start: '"It does not matter how slowly you go as long as you do not stop" — widely attributed to Confucius — also cannot be verified in the Analects and likely represents',
+            start: 'It does not matter how slowly you go as long as you do not stop" — widely attributed to Confucius — also cannot be verified in the Analects and likely represents',
             correct: 'a modern misattribution.',
             wrong: ['Analects 9.18.', 'a verified Confucian saying.', 'the Doctrine of the Mean.']
           }
@@ -3512,13 +3512,13 @@ export const CIVILIZATIONS = [
         quotes: [
           {
             start: 'Daodejing Ch.1: "The Tao that can be named is not the eternal',
-            correct: 'Tao."',
-            wrong: ['Way."', 'Truth."', 'Path."']
+            correct: 'Tao.',
+            wrong: ['Way.', 'Truth.', 'Path.']
           },
           {
             start: 'Daodejing Ch.8: "The highest good is like water. Water benefits the ten thousand things and does not',
-            correct: 'contend (zheng)."',
-            wrong: ['rest."', 'rise."', 'stop."']
+            correct: 'contend (zheng).',
+            wrong: ['rest.', 'rise.', 'stop.']
           },
           {
             start: 'Daodejing Ch.33: "Knowing others is',
@@ -3533,17 +3533,17 @@ export const CIVILIZATIONS = [
           {
             start: 'Overcoming yourself requires',
             correct: 'true power (qiang)." (Daodejing Ch.33)',
-            wrong: ['wisdom (zhi)."', 'ritual (li)."', 'law (fa)."']
+            wrong: ['wisdom (zhi).', 'ritual (li).', 'law (fa).']
           },
           {
             start: 'Daodejing Ch.64: "A journey of a thousand miles begins',
-            correct: 'beneath one\'s feet."',
-            wrong: ['with a single thought."', 'in the mind."', 'with careful planning."']
+            correct: 'beneath one\'s feet.',
+            wrong: ['with a single thought.', 'in the mind.', 'with careful planning.']
           },
           {
             start: 'Daodejing Ch.16: "Return to the root is called',
-            correct: 'stillness (jing)."',
-            wrong: ['wisdom (zhi)."', 'virtue (de)."', 'emptiness (xu)."']
+            correct: 'stillness (jing).',
+            wrong: ['wisdom (zhi).', 'virtue (de).', 'emptiness (xu).']
           },
           {
             start: 'Daodejing Ch.56: "Those who know do not',
@@ -3557,13 +3557,13 @@ export const CIVILIZATIONS = [
           },
           {
             start: 'Daodejing Ch.22: "Yield and overcome; bend and be',
-            correct: 'straight."',
-            wrong: ['powerful."', 'wise."', 'respected."']
+            correct: 'straight.',
+            wrong: ['powerful.', 'wise.', 'respected.']
           },
           {
             start: 'Daodejing Ch.78: "In the world there is nothing more submissive and weak than water, yet nothing is better for attacking the hard and',
-            correct: 'strong."',
-            wrong: ['immovable."', 'unyielding."', 'proud."']
+            correct: 'strong.',
+            wrong: ['immovable.', 'unyielding.', 'proud.']
           },
           {
             start: 'Daodejing Ch.81: "True words are not',
@@ -3576,14 +3576,14 @@ export const CIVILIZATIONS = [
             wrong: ['philosophical argument.', 'ritual practice.', 'Confucian learning.']
           },
           {
-            start: '"The flame that burns twice as bright burns half as long" — often attributed to Laozi — is not found in the Daodejing and is likely',
+            start: 'The flame that burns twice as bright burns half as long" — often attributed to Laozi — is not found in the Daodejing and is likely',
             correct: 'a later invented attribution.',
             wrong: ['from Daodejing Ch.41.', 'a verified Laozi saying.', 'from Zhuangzi Ch.3.']
           },
           {
             start: 'Daodejing Ch.17: "The best ruler is one whose subjects',
-            correct: 'barely know he exists."',
-            wrong: ['fear and obey him."', 'praise and love him."', 'follow his laws willingly."']
+            correct: 'barely know he exists.',
+            wrong: ['fear and obey him.', 'praise and love him.', 'follow his laws willingly.']
           }
         ]
       },
@@ -3593,48 +3593,48 @@ export const CIVILIZATIONS = [
         quotes: [
           {
             start: 'Art of War Ch.3: "The supreme excellence is not to win one hundred victories in one hundred battles, but to subdue the enemy',
-            correct: 'without fighting."',
-            wrong: ['through deception."', 'with minimal loss."', 'before they strike."']
+            correct: 'without fighting.',
+            wrong: ['through deception.', 'with minimal loss.', 'before they strike.']
           },
           {
             start: 'Art of War Ch.1: "All warfare is based on',
-            correct: 'deception (gui)."',
-            wrong: ['strength."', 'preparation."', 'surprise."']
+            correct: 'deception (gui).',
+            wrong: ['strength.', 'preparation.', 'surprise.']
           },
           {
             start: 'Art of War Ch.3: "Know the enemy and know yourself; in a hundred battles you will never',
-            correct: 'be in peril."',
-            wrong: ['lose."', 'retreat."', 'fail."']
+            correct: 'be in peril.',
+            wrong: ['lose.', 'retreat.', 'fail.']
           },
           {
             start: 'Art of War Ch.4: "Victorious warriors win first and then go to war; while defeated warriors go to war first and then seek to',
-            correct: 'win."',
-            wrong: ['retreat."', 'survive."', 'negotiate."']
+            correct: 'win.',
+            wrong: ['retreat.', 'survive.', 'negotiate.']
           },
           {
             start: 'Art of War Ch.5: "Energy (shi) may be likened to the bending of a crossbow; decision (jie) to the releasing of the',
-            correct: 'trigger."',
-            wrong: ['arrow."', 'bowstring."', 'bolt."']
+            correct: 'trigger.',
+            wrong: ['arrow.', 'bowstring.', 'bolt.']
           },
           {
             start: 'Art of War Ch.6: "An army may be likened to water: water shapes its course according to the nature of the ground over which it flows; an army works out its victory in relation to',
-            correct: 'the enemy it faces."',
-            wrong: ['its own strength."', 'the season."', 'the ruler\'s will."']
+            correct: 'the enemy it faces.',
+            wrong: ['its own strength.', 'the season.', 'the ruler\'s will.']
           },
           {
             start: 'Art of War Ch.2: "There is no instance of a country having benefited from prolonged',
-            correct: 'warfare."',
-            wrong: ['peace."', 'preparation."', 'negotiation."']
+            correct: 'warfare.',
+            wrong: ['peace.', 'preparation.', 'negotiation.']
           },
           {
             start: 'Art of War Ch.1: "Strategy without tactics is the slowest route to victory. Tactics without strategy is the noise before',
-            correct: 'defeat."',
-            wrong: ['battle."', 'surrender."', 'victory."']
+            correct: 'defeat.',
+            wrong: ['battle.', 'surrender.', 'victory.']
           },
           {
             start: 'Art of War Ch.3: "He will win who knows when to fight and when',
-            correct: 'not to fight."',
-            wrong: ['to retreat."', 'to negotiate."', 'to advance."']
+            correct: 'not to fight.',
+            wrong: ['to retreat.', 'to negotiate.', 'to advance.']
           },
           {
             start: 'Art of War Ch.11: "Place your army in deadly peril and it will',
@@ -3648,8 +3648,8 @@ export const CIVILIZATIONS = [
           },
           {
             start: 'Art of War Ch.6: "Be extremely subtle, even to the point of formlessness. Be extremely mysterious, even to the point of',
-            correct: 'soundlessness."',
-            wrong: ['stillness."', 'invisibility."', 'weakness."']
+            correct: 'soundlessness.',
+            wrong: ['stillness.', 'invisibility.', 'weakness.']
           }
         ]
       },
@@ -3669,8 +3669,8 @@ export const CIVILIZATIONS = [
           },
           {
             start: 'Mengzi 1B:8 — On the priority of the people, Mencius states: "The people are the most important; the altars of land and grain come next; the ruler is',
-            correct: 'of least importance."',
-            wrong: ['most important."', 'equally important."', 'above the state."']
+            correct: 'of least importance.',
+            wrong: ['most important.', 'equally important.', 'above the state.']
           },
           {
             start: 'Mengzi 6A:2 — Mencius argues that human nature (xing) is originally',
@@ -3680,17 +3680,17 @@ export const CIVILIZATIONS = [
           {
             start: 'Just as water naturally flows',
             correct: 'downward." (Mengzi 6A:2)',
-            wrong: ['upward."', 'in all directions."', 'according to the ground."']
+            wrong: ['upward.', 'in all directions.', 'according to the ground.']
           },
           {
             start: 'Mengzi 4A:10 — "The great man is he who does not lose the heart of a',
-            correct: 'newborn child."',
-            wrong: ['sage."', 'warrior."', 'scholar."']
+            correct: 'newborn child.',
+            wrong: ['sage.', 'warrior.', 'scholar.']
           },
           {
             start: 'Mengzi 7A:1 — "He who exerts his mind to the utmost knows his nature (xing). He who knows his nature knows',
-            correct: 'Heaven (tian)."',
-            wrong: ['the ruler."', 'the Way."', 'himself."']
+            correct: 'Heaven (tian).',
+            wrong: ['the ruler.', 'the Way.', 'himself.']
           },
           {
             start: 'Mengzi 3B:9 — Mencius explicitly defends the right of the people to overthrow a ruler who acts like a "robber and a ruffian" — establishing what later scholars call the doctrine of',
@@ -3715,8 +3715,8 @@ export const CIVILIZATIONS = [
         quotes: [
           {
             start: 'Zhuangzi Ch.2 (Qiwulun): "Once upon a time, Zhuangzi dreamt he was a butterfly. When he awoke he did not know whether he was a man who had dreamed of being a butterfly, or a butterfly dreaming of being a',
-            correct: 'man."',
-            wrong: ['god."', 'sage."', 'crane."']
+            correct: 'man.',
+            wrong: ['god.', 'sage.', 'crane.']
           },
           {
             start: 'Zhuangzi Ch.3 (Yangshengzhu): Cook Ding cuts the ox by following the natural structure of the animal — illustrating the concept of',
@@ -3725,8 +3725,8 @@ export const CIVILIZATIONS = [
           },
           {
             start: 'Zhuangzi Ch.26 (Outer Chapters): "The fish trap exists because of the fish; once you have caught the fish, you can forget the',
-            correct: 'trap."',
-            wrong: ['water."', 'river."', 'net."']
+            correct: 'trap.',
+            wrong: ['water.', 'river.', 'net.']
           },
           {
             start: 'Zhuangzi Ch.1 (Xiaoyaoyou): The great Peng bird rises ninety thousand li on the wind — an image of',
@@ -3781,8 +3781,8 @@ export const CIVILIZATIONS = [
           },
           {
             start: 'Han Feizi Ch.14: A ruler must keep his inner thoughts concealed — "If the ruler reveals his desires, ministers will',
-            correct: 'shape their behavior to please him."',
-            wrong: ['serve him loyally."', 'follow the law faithfully."', 'become more virtuous."']
+            correct: 'shape their behavior to please him.',
+            wrong: ['serve him loyally.', 'follow the law faithfully.', 'become more virtuous.']
           },
           {
             start: 'Han Feizi distinguishes three pillars of Legalism: law (fa), administrative method (shu), and',
@@ -3807,8 +3807,8 @@ export const CIVILIZATIONS = [
         quotes: [
           {
             start: 'Xunzi Ch.23 (Xing E): "The nature of man is evil (e); his goodness is',
-            correct: 'the result of deliberate effort (wei)."',
-            wrong: ['innate and recoverable."', 'given by Heaven."', 'preserved by ritual alone."']
+            correct: 'the result of deliberate effort (wei).',
+            wrong: ['innate and recoverable.', 'given by Heaven.', 'preserved by ritual alone.']
           },
           {
             start: 'Xunzi Ch.1 (Quan Xue): "Learning should not',
@@ -3828,7 +3828,7 @@ export const CIVILIZATIONS = [
           {
             start: 'And rulers and teachers as the root of',
             correct: 'governance." (Xunzi Ch.19)',
-            wrong: ['virtue."', 'ritual."', 'learning."']
+            wrong: ['virtue.', 'ritual.', 'learning.']
           },
           {
             start: 'Xunzi Ch.9 (Wangzhi): A state requires the correct ranking of scholars, farmers, artisans, and merchants — with the gentleman-scholar at the top because he',
@@ -4198,8 +4198,8 @@ export const CIVILIZATIONS = [
           },
           {
             start: 'Chanakya Niti states "A person should not be too honest; straight trees are cut first, and honest people are',
-            correct: 'dealt with first."',
-            wrong: ['rewarded first."', 'appointed first."', 'trusted first."']
+            correct: 'dealt with first.',
+            wrong: ['rewarded first.', 'appointed first.', 'trusted first.']
           },
           {
             start: 'The Arthashastra (Book 2) describes the duties of a king\'s minister in detail, arguing that the best minister combines learning with',
@@ -4208,8 +4208,8 @@ export const CIVILIZATIONS = [
           },
           {
             start: 'Chanakya Niti teaches "Education is the best friend; an educated person is respected everywhere, while',
-            correct: 'beauty and youth fade."',
-            wrong: ['wealth and power fade."', 'friends and family fade."', 'titles and rank fade."']
+            correct: 'beauty and youth fade.',
+            wrong: ['wealth and power fade.', 'friends and family fade.', 'titles and rank fade.']
           },
           {
             start: 'The Arthashastra classifies spies (gudhapurushas) as essential instruments of state — an example of Kautilya\'s doctrine that good ends may require',
@@ -4218,8 +4218,8 @@ export const CIVILIZATIONS = [
           },
           {
             start: 'Chanakya Niti warns "There is some self-interest behind every friendship; no friendship is purely',
-            correct: 'selfless."',
-            wrong: ['honest."', 'lasting."', 'equal."']
+            correct: 'selfless.',
+            wrong: ['honest.', 'lasting.', 'equal.']
           },
           {
             start: 'The Arthashastra distinguishes four methods of statecraft: conciliation (sama), gifts (dana), division (bheda), and force (danda) — advising that force is used',
@@ -4228,8 +4228,8 @@ export const CIVILIZATIONS = [
           },
           {
             start: 'Chanakya Niti states "The biggest secret is never to share your',
-            correct: 'plans with everyone."',
-            wrong: ['wealth with equals."', 'food with strangers."', 'name with enemies."']
+            correct: 'plans with everyone.',
+            wrong: ['wealth with equals.', 'food with strangers.', 'name with enemies.']
           },
           {
             start: 'The Arthashastra (Book 7) categorizes foreign policy as a set of six strategies including alliance (sandhi) and war (vigraha), always guided by',
@@ -4238,8 +4238,8 @@ export const CIVILIZATIONS = [
           },
           {
             start: 'Chanakya Niti: "A man is great not by his birth or wealth, but by his',
-            correct: 'character and deeds."',
-            wrong: ['military victories."', 'priestly lineage."', 'royal patronage."']
+            correct: 'character and deeds.',
+            wrong: ['military victories.', 'priestly lineage.', 'royal patronage.']
           }
         ]
       },
@@ -4315,8 +4315,8 @@ export const CIVILIZATIONS = [
           },
           {
             start: 'The Shringarshataka explores the paradox that beauty enslaves even the wise — "the deer-eyed woman has pierced my heart with her',
-            correct: 'glance, which needs no arrowhead."',
-            wrong: ['wealth, which needs no title."', 'voice, which needs no instrument."', 'virtue, which needs no praise."']
+            correct: 'glance, which needs no arrowhead.',
+            wrong: ['wealth, which needs no title.', 'voice, which needs no instrument.', 'virtue, which needs no praise.']
           },
           {
             start: 'The Vairagyashataka (verse 10) states that wealth (artha), sense-pleasure (kama), and virtue (dharma) are three conflicting goals, and those who pursue all three',
@@ -5862,8 +5862,8 @@ export const CIVILIZATIONS = [
         quotes: [
           {
             start: "19th-century territorial losses — Greece (1821), Algeria to France (1830), Egypt effectively independent — made the empire known as",
-            correct: "'the sick man of Europe.'",
-            wrong: ["the 'Great Power of Asia.'", "the 'last Islamic caliphate.'", "the 'defender of Christianity.'"]
+            correct: "the sick man of Europe.",
+            wrong: ["the 'Great Power of Asia.", "the 'last Islamic caliphate.", "the 'defender of Christianity."]
           },
           {
             start: "The Tanzimat reforms (1839–1876) attempted to modernize administration, introduce equality before the law, and curb corruption — revealing that",
@@ -15547,7 +15547,7 @@ export const CIVILIZATIONS = [
             wrong: ["disputes over land boundaries.", "trade disagreements with the Spanish.", "a drought that the Spanish caused."]
           },
           {
-            start: "Pueblo religious knowledge is deliberately not fully shared with outsiders — many ceremonies are closed, reflecting communities'",
+            start: "Pueblo religious knowledge is deliberately not fully shared with outsiders — many ceremonies are closed, reflecting communities",
             correct: "right to maintain sacred privacy.",
             wrong: ["fear of anthropologists.", "legal obligation under US law.", "lack of interest in documentation."]
           }
