@@ -1836,7 +1836,7 @@ export const CIVILIZATIONS = [
           {
             start: 'Instruction of Amenemope is particularly significant because Proverbs 22:17 explicitly says "incline your ear and hear the words of the wise" — phrases and structures from Amenemope appear so closely in',
             correct: 'Proverbs 22:17–24:22 that most scholars accept direct literary borrowing or a shared source.',
-            wrong: ['Psalm 104 that some scholars believe the same author wrote both.', 'the Book of Job that Amenemope is now dated to the Persian period.', 'Ecclesiastes that some scholars identify Amenemope with Qohelet.']
+            wrong: ['Psalm 104 shows no literary connection.', 'the Book of Job that Amenemope is now dated to the Persian period.', 'Ecclesiastes that some scholars identify Amenemope with Qohelet.']
           }
         ]
       },
@@ -2075,6 +2075,37 @@ export const CIVILIZATIONS = [
             wrong: ['cavalry and chariot tactics borrowed from the Hittites.', 'naval power to project force across the Mediterranean.', 'religious propaganda to justify aggressive expansion.']
           }
         ]
+      },
+      {
+        name: 'Instruction of Kagemni (Old Kingdom Wisdom Text)',
+        emoji: '📜',
+        quotes: [
+          {
+            start: 'Instruction of Kagemni (Maxim 1): “Silence is a great virtue when”',
+            correct: 'a man does not know.',
+            wrong: ['speech is always better.', 'kings prefer noise.', 'knowledge is unnecessary.']
+          },
+          {
+            start: 'Instruction of Kagemni (Maxim 2): “Do not be greedy at table”',
+            correct: "in another man's house.",
+            wrong: ['take all food offered', 'shame follows gluttony', 'eat beyond your portion']
+          },
+          {
+            start: 'Instruction of Kagemni (Maxim 3): “Respect elders and those wiser”',
+            correct: 'than yourself in council.',
+            wrong: ['only young men matter', 'age gives no wisdom', 'power replaces tradition']
+          },
+          {
+            start: 'Instruction of Kagemni (Maxim 4): “Do not interrupt a speaker”',
+            correct: 'until he has finished.',
+            wrong: ['unless you are noble', 'speakers should be stopped', 'silence is a weakness']
+          },
+          {
+            start: 'Instruction of Kagemni (Maxim 5): “A humble man is favored”',
+            correct: 'by god and society.',
+            wrong: ['only by wealthy men', 'never in royal courts', 'rejected by all rulers']
+          }
+        ]
       }
     ]
   },
@@ -2125,7 +2156,7 @@ export const CIVILIZATIONS = [
           {
             start: 'Buildings (Peri Ktismaton, Book 1): In stark contrast to the Secret History, Procopius lavishly praises Justinian as a emperor divinely inspired to build — a contrast scholars use to debate whether Procopius wrote the Buildings as',
             correct: 'official panegyric, possibly under imperial pressure.',
-            wrong: ['a sincere retraction of his Secret History views.', 'a theological treatise on church architecture.', 'a geography manual for military campaigns.']
+            wrong: ['a retraction of Secret History views.', 'a theological treatise on church architecture.', 'a military geography manual.']
           },
           {
             start: 'Secret History (Ch.30): Procopius ends with the claim that Justinian was responsible for the deaths of a trillion (myriads of myriads) people — a figure modern historians read as',
@@ -2141,7 +2172,7 @@ export const CIVILIZATIONS = [
           {
             start: 'Chronographia (Book 4, §16): Psellos describes Michael IV as a man whose beauty concealed an epileptic condition that the empress Zoe deliberately',
             correct: 'ignored in order to marry him.',
-            wrong: ['used to control him through his doctors.', 'reported to the Patriarch to annul the marriage.', 'exploited to seize the treasury.']
+            wrong: ['used to control him.', 'reported to the Patriarch to annul the marriage.', 'exploited to seize the treasury.']
           },
           {
             start: 'Chronographia (Book 6, §1): Psellos opens his account of Empress Zoe by marvelling that an old woman of such physical weakness could hold power — attributing it to the reverence Byzantines felt for the',
@@ -2166,7 +2197,7 @@ export const CIVILIZATIONS = [
           {
             start: 'Psellos\'s De Omnifaria Doctrina presents philosophy, theology, and natural science as complementary — reflecting his effort to revive',
             correct: 'Platonic and Neoplatonic philosophy within a Christian framework.',
-            wrong: ['Aristotelian logic as the sole method of theology.', 'Persian Zoroastrian cosmology for Byzantine use.', 'Arabic medicine as Byzantine court practice.']
+            wrong: ['Aristotelian logic as sole theology.', 'Persian Zoroastrian cosmology in Byzantium.', 'Arabic medicine in Byzantine court.']
           },
           {
             start: 'Chronographia (Book 5): In a famous passage, Psellos describes Empress Zoe spending her time in her chambers making perfumes and tending a furnace — noting that despite her age, the heat did not seem to',
@@ -2176,7 +2207,7 @@ export const CIVILIZATIONS = [
           {
             start: 'Chronographia: Psellos explicitly states he will not follow the tradition of writing only about military campaigns and victories, but will instead focus on the',
             correct: 'characters, decisions, and inner lives of the emperors.',
-            wrong: ['theological controversies dividing the church.', 'economic history of the treasury and taxation.', 'architectural projects of the Macedonian dynasty.']
+            wrong: ['church theological controversies.', 'treasury and taxation history.', 'architectural projects of the Macedonian dynasty.']
           }
         ]
       },
@@ -2192,15 +2223,15 @@ export const CIVILIZATIONS = [
           {
             start: 'Alexiad (Preface, §3): Anna claims authority as a historian by stating she was "not ignorant of letters" — having been educated in rhetoric, philosophy, and having read',
             correct: 'Aristotle and the Platonic dialogues.',
-            wrong: ['Persian chronicles and Arab geography.', 'Latin legal texts and Roman history.', 'the works of Procopius alone.']
+            wrong: ['Persian chronicles and Arab geography.', 'Latin legal texts.', 'Roman history.']
           },
           {
             start: 'Alexiad (Book 10, Ch.5): Anna describes the First Crusade armies arriving as an enormous, undisciplined barbarian force — like a river flooding its banks — expressing alarm at how many Frankish warriors there were and how',
             correct: 'difficult they were for Alexios to control.',
             wrong: [
-              'eager they were to settle permanently in Constantinople.',
-              'quickly they adopted Byzantine customs and language.',
-              'dependent they were on Byzantine military protection.'
+              'eager to settle in Constantinople.',
+              'quickly adopting Byzantine customs.',
+              'dependent on Byzantine protection.'
             ]
           },
           {
@@ -2215,7 +2246,7 @@ export const CIVILIZATIONS = [
           {
             start: 'Alexiad (Book 15, Ch.11): Anna describes the death of her father Alexios I at length — her grief is evident but she also records Empress Eirene\'s refusal to',
             correct: 'leave Alexios\'s bedside, even when advised to rest.',
-            wrong: ['allow physicians to treat him.', 'inform the Senate of his declining condition.', 'summon the Patriarch for last rites.']
+            wrong: ['allow physicians to treat him.', 'inform the Senate.', 'summon the Patriarch.']
           },
           {
             start: 'Alexiad (Book 15): Historians note that Anna conspired with her husband Nikephoros Bryennios to depose her brother John II after Alexios died — though in the Alexiad she does not directly describe her own role in the',
@@ -2226,18 +2257,18 @@ export const CIVILIZATIONS = [
             start: 'Alexiad (Book 1, Ch.1): Anna describes her father Alexios Komnenos before his accession as a young general of outstanding military talent who was already, at a young age, the effective military backbone of an empire that had grown',
             correct: 'weak under incompetent emperors.',
             wrong: [
-              'wealthy through successful trade with Italy.',
-              'powerful through a series of territorial conquests.',
-              'stable thanks to decades of peaceful succession.'
+              'wealthy via Italian trade.',
+              'powerful via territorial conquests.',
+              'stable via peaceful succession.'
             ]
           },
           {
             start: 'The Alexiad is one of the most important Byzantine primary sources for the First Crusade (1096–1099 CE), providing a Greek Orthodox perspective on events that',
             correct: 'Latin sources describe very differently.',
             wrong: [
-              'were ignored by all Western chroniclers.',
-              'took place centuries before the Crusading era.',
-              'involved only Byzantine armies and no Western knights.'
+              'ignored by Western chroniclers.',
+              'before the Crusading era.',
+              'only Byzantine armies involved.'
             ]
           }
         ]
@@ -2264,11 +2295,15 @@ export const CIVILIZATIONS = [
           {
             start: 'Novel 6 (535 CE), Preface: Justinian states that the greatest gifts God has given humanity are "the priesthood (hierosyne) and the imperial authority (basileia)" — and that when both are in',
             correct: 'harmony, the good of the human race is served.',
-            wrong: ['conflict, the priesthood must prevail.', 'unity, the emperor alone rules the church.', 'agreement, laws become unnecessary.']
+            wrong: [
+              'conflict favors priesthood.',
+              'emperor alone rules church.',
+              'laws become unnecessary.'
+            ]
           },
           {
             start: 'Procopius, Wars (1.24): During the Nika Riot (532 CE), when Justinian considered fleeing, Theodora reportedly said: "May I never be without this purple robe, nor live to see the day when those who meet me do not call me',
-            correct: 'empress" — adding that the purple was a noble enough shroud.',
+            correct: 'empress".',
             wrong: ['queen of queens."', 'defender of the faith."', 'mother of the empire."']
           },
           {
@@ -2280,15 +2315,19 @@ export const CIVILIZATIONS = [
             start: 'Codex Justinianus (1.17.2): Justinian justifies the Digest compilation by arguing that emperors have the authority both to create law and to interpret and',
             correct: 'unify conflicting legal opinions.',
             wrong: [
-              'abolish all previous Roman legislation.',
-              'replace judges with military commanders.',
-              'delegate legal authority entirely to the Senate.'
+              'abolish Roman legislation.',
+              'replace judges with commanders.',
+              'delegate law to Senate.'
             ]
           },
           {
-            start: 'Novel 133 (539 CE): Justinian legislated in detail on monastic life — requiring monks to remain in their monasteries and prohibiting them from',
-            correct: 'wandering the cities or interfering in public legal disputes.',
-            wrong: ['receiving gifts from wealthy donors.', 'studying Greek philosophical texts.', 'corresponding with the Bishop of Rome.']
+            start: 'Novel 133 (539 CE): Justinian legislated in detail on monastic life — requiring monks to remain in their monasteries and prohibiting them from wandering the cities or',
+            correct: 'interfering in public legal disputes.',
+            wrong: [
+              'receiving wealthy donor gifts.',
+              'studying Greek philosophy.',
+              'corresponding with Rome.'
+            ]
           }
         ]
       },
@@ -2297,24 +2336,36 @@ export const CIVILIZATIONS = [
         emoji: '📜',
         quotes: [
           {
-            start: 'Homily on Matthew (77.5): Chrysostom states that adorning the altar with gold while Christ in the form of the poor man starves outside is',
-            correct: 'to dishonor Christ at altar and street.',
-            wrong: ['a pious act pleasing to God.', 'permitted if the poor are given their tenth.', 'the duty of the emperor not the bishop.']
+            start: 'Homily on Matthew (77.5): Chrysostom states that adorning the altar with gold while Christ in the form of the poor man starves outside is to dishonor Christ at',
+            correct: 'altar and street.',
+            wrong: [
+              'altar but not street.',
+              'street but not altar.',
+              'church without poor.'
+            ]
           },
           {
             start: 'On the Priesthood (Book 3.9): Chrysostom argues that the priestly office demands more virtue than even the monastic life — because the priest must be',
             correct: 'pure while living among sinful people.',
-            wrong: ['wealthier than secular rulers to command respect.', 'trained in Roman law to settle parish disputes.', 'a soldier capable of defending the church physically.']
+            wrong: ['wealthier than secular rulers.', 'trained in Roman law.', 'a soldier capable of defending the church.']
           },
           {
             start: 'Homily on 1 Corinthians (34.5): "Do you wish to honor the body of Christ? Do not ignore him when he is naked. Do not pay him homage in the temple clad in silk only to neglect him',
             correct: 'outside where he is cold and ill-clad."',
-            wrong: ['in the street where he begs for bread."', 'when he comes to you as a widow or orphan."', 'when he appears to you in dreams and visions."']
+            wrong: [
+              'in street begging for bread.',
+              'as widow or orphan.',
+              'in dreams and visions.'
+            ]
           },
           {
             start: 'Letter to Pope Innocent I (406 CE): During his exile, Chrysostom wrote to the Pope complaining that his deposition was engineered without a proper synod and that he had been expelled from his see by',
             correct: 'imperial power acting through corrupted bishops.',
-            wrong: ['the legitimate vote of the Constantinople clergy.', 'a council convened according to Nicene canons.', 'the agreement of all five patriarchs.']
+            wrong: [
+              'legitimate Constantinople clergy vote.',
+              'Nicene canonical council.',
+              'agreement of five patriarchs.'
+            ]
           },
           {
             start: 'Homily on Ephesians (11.4): Chrysostom describes marriage as a kind of church — "where a husband and wife come together with the fear of God, virtue, and the right spirit, their household is',
@@ -2323,8 +2374,12 @@ export const CIVILIZATIONS = [
           },
           {
             start: 'The saying "The road to hell is paved with the bones of priests and monks, and the skulls of bishops are the lampposts along the way" circulates as a Chrysostom quote — it appears in no verified Chrysostom text but is traced to',
-            correct: 'later patristic misattribution, possibly from John of the Ladder or later Eastern monastic tradition.',
-            wrong: ['Chrysostom\'s On the Priesthood Book 6.', 'a letter to the Empress Eudoxia (403 CE).', 'the Council of Chalcedon (451 CE) proceedings.']
+            correct: 'later patristic misattribution.',
+            wrong: [
+              'the Priesthood Book 6.',
+              'Empress Eudoxia.',
+              'Chalcedon proceedings.'
+            ]
           },
           {
             start: 'Homily on Acts (11.3): Chrysostom declares that great wealth in the hands of one person is always the result of injustice — either personal or ancestral — since wealth cannot accumulate without',
@@ -2338,7 +2393,7 @@ export const CIVILIZATIONS = [
           {
             start: 'On the Priesthood (Book 6.13): Chrysostom argues that a bishop who seeks popularity by never rebuking sin is not a shepherd but a',
             correct: 'flatterer who endangers the souls in his care.',
-            wrong: ['wise administrator preserving church unity.', 'servant of imperial policy.', 'model of evangelical humility.']
+            wrong: ['preserving church unity.', 'servant of imperial policy.', 'model of humility.']
           }
         ]
       },
@@ -2373,13 +2428,21 @@ export const CIVILIZATIONS = [
           },
           {
             start: 'Novel 89: Leo VI issued a Novel prohibiting fourth marriages — then controversially contracted a fourth marriage himself with Zoe Karbonopsina to legitimize his heir Constantine, causing the',
-            correct: 'Tetragamy Controversy that divided the Byzantine church for years.',
-            wrong: ['excommunication of the Patriarch by the Pope.', 'exile of all Eastern bishops who opposed him.', 'immediate recognition of his marriage by Rome.']
+            correct: 'Tetragamy Controversy.',
+            wrong: [
+              'Papal excommunication of Patriarch.',
+              'exile of opposing bishops.',
+              'immediate Roman recognition.'
+            ]
           },
           {
-            start: 'Taktika (Constitution 20, §§61–63): Leo describes naval warfare and the use of fire weapons — advising that Greek fire should be deployed',
-            correct: 'from the prow of ships against enemy vessels, especially in calm seas.',
-            wrong: ['only when winds favor the Byzantine fleet.', 'from fortified harbors rather than moving ships.', 'exclusively against land-based enemy camps.']
+            start: 'Taktika (Constitution 20, §§61–63): Leo describes naval warfare and the use of fire weapons — advising that Greek fire should be deployed from the prow of ships against enemy vessels, especially in',
+            correct: 'calm seas.',
+            wrong: [
+              'stormy seas.',
+              'harbor defenses.',
+              'land-based camps.'
+            ]
           },
           {
             start: 'Taktika (Constitution 18): Leo stresses that a general must gather detailed intelligence on enemy customs, tactics, and terrain — "a general who does not know his enemy fights',
@@ -2393,47 +2456,67 @@ export const CIVILIZATIONS = [
         emoji: '📜',
         quotes: [
           {
-            start: 'Bibliotheca (Prooemion): Photios opens by explaining he compiled the reviews of 279 books for his brother Tarasios who had been absent during his reading — making the Bibliotheca',
-            correct: 'an invaluable record of many ancient texts now otherwise lost.',
-            wrong: ['an imperial library catalogue commissioned by the emperor.', 'a theological index of approved Orthodox texts.', 'a list of books condemned by the Iconoclast councils.']
+            start: 'Bibliotheca (Prooemion): Photios opens by explaining he compiled the reviews of 279 books for his brother Tarasios who had been absent during his reading — making the Bibliotheca an invaluable record of many ancient texts now',
+            correct: 'otherwise lost.',
+            wrong: [
+              'preserved in full.',
+              'official imperial archive.',
+              'recently discovered manuscripts.'
+            ]
           },
           {
             start: 'Bibliotheca (Codex 167): In reviewing Diodorus Siculus, Photios notes his style is "clear and pleasant" but criticizes him for credulously including',
             correct: 'mythological material alongside historical fact.',
-            wrong: ['too much Persian history at the expense of Greek.', 'heretical theological opinions.', 'accounts hostile to the Roman empire.']
+            wrong: ['too much Persian history.', 'heretical theological opinions.', 'accounts hostile to the Roman empire.']
           },
           {
             start: 'Letter to Boris I of Bulgaria (c.865 CE): Photios writes detailed advice to the newly-converted Bulgarian king on Christian governance — arguing that the emperor\'s first duty is to',
             correct: 'rule his own passions before ruling the people.',
-            wrong: ['commission a new law code on the Roman model.', 'expel all pagan priests from Bulgarian territory immediately.', 'place the church above the secular courts.']
+            wrong: [
+              'commission Roman law code.',
+              'expel pagan priests immediately.',
+              'place church above courts.'
+            ]
           },
           {
-            start: 'Mystagogy of the Holy Spirit: Photios argued against the Latin doctrine of the Filioque (the Holy Spirit proceeding from both Father and Son), insisting the Spirit proceeds from the',
-            correct: 'Father alone — a position central to the East-West theological division.',
-            wrong: ['Father and Son equally — agreeing with Rome.', 'Son alone — reversing the Eastern tradition.', 'neither Father nor Son but from the divine essence.']
+            start: 'Mystagogy of the Holy Spirit: Photios argued against the Latin doctrine of the Filioque (the Holy Spirit proceeding from both Father and Son), insisting the Spirit proceeds from the Father alone — a position central to the',
+            correct: 'East-West theological division.',
+            wrong: [
+              'Western theological unity.',
+              'Roman doctrinal supremacy.',
+              'Trinitarian agreement between churches.'
+            ]
           },
           {
-            start: 'Amphilochia (Introduction): Photios presents theology as requiring both philosophical precision and',
-            correct: 'scriptural grounding — neither alone is sufficient.',
-            wrong: ['imperial authorization to be valid.', 'rejection of all pagan Greek philosophy.', 'mystical vision above rational argument.']
+            start: 'Amphilochia (Introduction): Photios presents theology as requiring both philosophical precision and scriptural grounding — neither alone is',
+            correct: 'sufficient.',
+            wrong: [
+              'authoritative.',
+              'necessary.',
+              'adequate.'
+            ]
           },
           {
             start: 'Encyclical to Eastern Patriarchs (867 CE): Photios wrote to condemn Pope Nicholas I\'s interference in Bulgarian church affairs and the Filioque addition to the Creed — accusing the Latin church of',
             correct: 'innovation and corruption of the received faith.',
-            wrong: ['heresy identical to Arianism.', 'violating the Council of Nicaea on baptism.', 'rejecting the authority of the Ecumenical Councils entirely.']
+            wrong: [
+              'heresy.',
+              'Nicaean baptism violation.',
+              'rejecting all councils.'
+            ]
           },
           {
             start: 'Bibliotheca (various Codices): Photios\'s literary reviews assess style, vocabulary, and content — making him one of the earliest systematic',
             correct: 'literary critics in the Greek tradition.',
-            wrong: ['censors of imperial propaganda.', 'compilers of mathematical and scientific knowledge.', 'translators of Latin theology into Greek.']
+            wrong: ['censors of imperial propaganda.', 'compilers of mathematical knowledge.', 'translators of Latin theology into Greek.']
           },
           {
             start: 'At the Council of 879–880 CE (sometimes called the Eighth Ecumenical Council by Orthodox Christians), Photios was reconciled with Rome and the council annulled the condemnations against him — though',
             correct: 'the agreement later broke down.',
             wrong: [
-              'Photios immediately abdicated the patriarchate.',
-              'the Byzantine emperor rejected the council’s decisions.',
-              'Rome permanently accepted all of Photios’s theological positions.'
+              'Photios abdicated immediately.',
+              'Byzantine emperor rejected council.',
+              'Rome fully accepted Photios.'
             ]
           }
         ]
@@ -2448,34 +2531,58 @@ export const CIVILIZATIONS = [
             wrong: ['those ordained to the priesthood.', 'emperors and patriarchs only.', 'those born into monastic families.']
           },
           {
-            start: 'Discourses (22): Symeon teaches that tears of compunction (penthos) are a sign of the soul\'s awakening — and that a Christian who has never wept for their sins has not yet',
-            correct: 'truly understood the weight of their separation from God.',
-            wrong: ['completed the required fasting.', 'received the full benefit of baptism.', 'attained the minimum for salvation.']
+            start: 'Discourses (22): Symeon teaches that tears of compunction (penthos) are a sign of the soul\'s awakening — and that a Christian who has never wept for their sins has not yet truly understood the weight of their',
+            correct: 'separation from God.',
+            wrong: [
+              'spiritual discipline.',
+              'moral obligations.',
+              'liturgical practice.'
+            ]
           },
           {
-            start: 'Theological and Practical Chapters (1.68): Symeon insists that a Christian must be',
-            correct: 'consciously aware of the Holy Spirit\'s presence — not merely trust that baptism conferred grace automatically.',
-            wrong: ['obedient to the bishop above their own conscience.', 'trained in Greek philosophy before reading scripture.', 'a monk before receiving higher divine illumination.']
+            start: 'Theological and Practical Chapters (1.68): Symeon insists that a Christian must be consciously aware of the Holy Spirit\'s presence — not merely trust that baptism',
+            correct: 'conferred grace automatically.',
+            wrong: [
+              'guarantees salvation.',
+              'requires monastic vows.',
+              'depends on clerical approval.'
+            ]
           },
           {
-            start: 'Discourses (6): Symeon criticizes monks who observe the external forms of monastic life — fasting, vigils, prostrations — while remaining',
-            correct: 'inwardly proud, resentful, and without genuine love.',
-            wrong: ['unsure of which theological school to follow.', 'politically active outside the monastery.', 'ignorant of the writings of the Church Fathers.']
+            start: 'Discourses (6): Symeon criticizes monks who observe the external forms of monastic life — fasting, vigils, prostrations — while remaining inwardly proud, resentful, and',
+            correct: 'without genuine love.',
+            wrong: [
+              'uncertain of theology.',
+              'politically active outside.',
+              'ignorant of Church Fathers.'
+            ]
           },
           {
-            start: 'Hymns of Divine Love (Hymn 25): Symeon describes the divine light (phôs) as something that comes and withdraws, as intimate as a lover and as overwhelming as',
-            correct: 'the sun — blinding the bodily eye but illuminating the spiritual eye.',
-            wrong: ['thunder — shocking the soul into obedience.', 'water — cleansing the mind of all thought.', 'darkness — requiring all external sensation to cease.']
+            start: 'Hymns of Divine Love (Hymn 25): Symeon describes the divine light (phôs) as something that comes and withdraws, as intimate as a lover and as overwhelming as the sun — blinding the bodily eye but',
+            correct: 'illuminating the spiritual eye.',
+            wrong: [
+              'burning the physical senses.',
+              'destroying all perception.',
+              'silencing the mind completely.'
+            ]
           },
           {
-            start: 'Discourses (Introduction): Symeon insists that every Christian seeking union with God must have a living spiritual father (pneumatikos pater) who has themselves experienced',
-            correct: 'the direct vision of God — transmitted from master to disciple across generations.',
-            wrong: ['formal ordination and theological education.', 'imperial appointment to their monastery.', 'approval from the Patriarch of Constantinople.']
+            start: 'Discourses (Introduction): Symeon insists that every Christian seeking union with God must have a living spiritual father (pneumatikos pater) who has themselves experienced the direct vision of God — transmitted from master to',
+            correct: 'disciple across generations.',
+            wrong: [
+              'bishop through hierarchy.',
+              'angel through revelation.',
+              'emperor through decree.'
+            ]
           },
           {
             start: 'Symeon was exiled from Constantinople in 1009 CE by the Synkellos Stephanos of Nicomedia — the conflict arose from Symeon\'s insistence on venerating his spiritual father Symeon the Studite as a',
             correct: 'saint without official church canonization.',
-            wrong: ['theologian superior to John Chrysostom.', 'martyr killed during the Iconoclast controversy.', 'rival patriarch to the current Constantinople incumbent.']
+            wrong: [
+              'above Chrysostom in authority.',
+              'Iconoclast-era martyr.',
+              'rival patriarch in office.'
+            ]
           },
           {
             start: 'Symeon received the title "New Theologian" (Neos Theologos) — placing him in the company of John the Evangelist and Gregory of Nazianzus as one of only three figures in Orthodox tradition honored with the title',
