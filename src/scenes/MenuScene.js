@@ -41,12 +41,6 @@ export class MenuScene extends Phaser.Scene {
     const completedCount = Object.values(allProgress).filter(p => p.completed).length
     const totalCivs = Object.keys(allProgress).length
     
-    if (completedCount === totalCivs && totalCivs > 0) {
-      this.add.text(w / 2, 284, '🎉 Master of Ancient Wisdom! 🎉', {
-        fontSize: '19px', color: '#ffd700', fontStyle: 'bold'
-      }).setOrigin(0.5)
-    }
-
     // === Settings Button ===
     const settingsBtn = this.add.text(75, 25, '⚙️ Settings', {
       fontSize: '19px',
