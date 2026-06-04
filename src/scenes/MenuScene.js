@@ -30,10 +30,11 @@ export class MenuScene extends Phaser.Scene {
       fontSize: '19px', color: '#69f0ae'
     }).setOrigin(0.5)
 
-    this.add.text(w / 2, 250, `Drag on empty areas (left/right of buttons) to scroll and view all civilizations`, {
-      fontSize: '19px', color: '#da6b8b'
+    // ✅ Drag instruction (professional)
+    this.add.text(w / 2, 254, `Drag on empty areas (left/right of buttons) to scroll and view all civilizations`, {
+      fontSize: '19px', color: '#da6b8b',
+      wordWrap: { width: w - 40 }
     }).setOrigin(0.5)
-
 
     // ✅ Show completion message if all civilizations done
     const allProgress = ProgressStore.getAllProgress()
@@ -41,7 +42,7 @@ export class MenuScene extends Phaser.Scene {
     const totalCivs = Object.keys(allProgress).length
     
     if (completedCount === totalCivs && totalCivs > 0) {
-      this.add.text(w / 2, 280, '🎉 Master of Ancient Wisdom! 🎉', {
+      this.add.text(w / 2, 276, '🎉 Master of Ancient Wisdom! 🎉', {
         fontSize: '19px', color: '#ffd700', fontStyle: 'bold'
       }).setOrigin(0.5)
     }
@@ -78,15 +79,18 @@ export class MenuScene extends Phaser.Scene {
 
     const line = this.add.graphics()
     line.lineStyle(1, 0xf9a825, 0.4)
-    line.lineBetween(60, 265, w - 60, 265)
+    // Line position adjusted: now at y=300
+    line.lineBetween(60, 300, w - 60, 300)
 
-    this.add.text(w / 2, 288, 'Choose Your Chapter', {
+    // "Choose Your Chapter" text moved to y=318
+    this.add.text(w / 2, 318, 'Choose Your Chapter', {
       fontSize: '19px', color: '#dcdada',
     }).setOrigin(0.5)
 
     // === SCROLL PANEL SETUP ===
-    const panelTop = 310      // y where the scrollable panel starts
-    const panelBottom = canvasHeight - 20  // y where it ends
+    // Panel top adjusted to 340
+    const panelTop = 340
+    const panelBottom = canvasHeight - 20
     const panelHeight = panelBottom - panelTop
 
     // Clip mask so items outside the panel are hidden
@@ -145,7 +149,7 @@ export class MenuScene extends Phaser.Scene {
     ]
 
     const itemHeight = 80
-    const totalContentHeight = civs.length * itemHeight + 60 // +60 for footer
+    const totalContentHeight = civs.length * itemHeight + 60
 
     civs.forEach((civ, i) => {
       const x = w / 2
@@ -158,7 +162,6 @@ export class MenuScene extends Phaser.Scene {
       const drawBg = (hover) => {
         bg.clear()
         if (done) {
-          // Completed: muted golden fill
           bg.fillStyle(0x2a1f00, 0.9)
           bg.lineStyle(2, 0xf9a825, 1)
         } else if (hover) {
@@ -178,12 +181,11 @@ export class MenuScene extends Phaser.Scene {
 
       const nameText = this.add.text(x - 100, y, civ.name, {
         fontSize: '19px',
-        color: done ? '#a08040' : '#fff',   // dimmed gold when done
+        color: done ? '#a08040' : '#fff',
         fontStyle: 'bold',
         wordWrap: { width: 170 }
       }).setOrigin(0, 0.5)
 
-      // ✅ Display progress for incomplete civilizations
       const civProgress = ProgressStore.getLevel(civ.id)
       const progressText = this.add.text(x + 140, y, done ? '✅' : `Lvl ${civProgress}`, {
         fontSize: '19px',
@@ -195,10 +197,8 @@ export class MenuScene extends Phaser.Scene {
       const zone = this.add.zone(x, y, 320, 56).setInteractive()
 
       if (!done) {
-        // Only add hover/click on incomplete chapters
         zone.on('pointerover', () => {
           drawBg(true)
-          // ✅ Hover feedback on text
           nameText.setScale(1.05)
         })
         zone.on('pointerout', () => {
@@ -215,12 +215,11 @@ export class MenuScene extends Phaser.Scene {
             })
             
             const lastLevel = ProgressStore.getLevel(civ.id)
-            // check if lives from failed attempt
             const storedLives = ProgressStore.getCurrentLevelLives()
             let levelLivesOverride = undefined
             if (storedLives !== undefined) {
                 levelLivesOverride = storedLives
-                await ProgressStore.clearCurrentLevelLives()  // Clear after use
+                await ProgressStore.clearCurrentLevelLives()
             }
             
             this.scene.start('GameScene', {
@@ -233,7 +232,6 @@ export class MenuScene extends Phaser.Scene {
             })
         })
       } else {
-        // Completed: subtle pulse on tap but no navigation
         zone.on('pointerdown', () => {
           this.sound.play('tap')
           this.tweens.add({
@@ -248,14 +246,12 @@ export class MenuScene extends Phaser.Scene {
       menuContainer.add([bg, emojiText, nameText, progressText, zone])
     })
 
-    // Footer inside container
     const footer = this.add.text(w / 2, civs.length * itemHeight + 36, 'Test your knowledge of the ancient world', {
       fontSize: '19px', color: '#d7d7d7'
     }).setOrigin(0.5)
     menuContainer.add(footer)
 
     // === SCROLL ARROW INDICATOR ===
-    // Bouncing down arrow to signal scrollability
     const arrowText = this.add.text(w / 2, panelBottom - 28, '▼  scroll  ▼', {
       fontSize: '19px', color: '#f9a825', alpha: 0.8
     }).setOrigin(0.5)
@@ -269,10 +265,9 @@ export class MenuScene extends Phaser.Scene {
       ease: 'Sine.easeInOut'
     })
 
-    // Fade out arrow once user scrolls
     let arrowFaded = false
 
-    // Top fade overlay (darkens top edge of panel)
+    // Top fade overlay
     const topFade = this.add.graphics()
     topFade.fillGradientStyle(0x1a1208, 0x1a1208, 0x1a1208, 0x1a1208, 0.8, 0.8, 0, 0)
     topFade.fillRect(0, panelTop, w, 28)
@@ -282,21 +277,17 @@ export class MenuScene extends Phaser.Scene {
     bottomFade.fillGradientStyle(0x1a1208, 0x1a1208, 0x1a1208, 0x1a1208, 0, 0, 0.9, 0.9)
     bottomFade.fillRect(0, panelBottom - 50, w, 50)
 
-    // === SCROLL LOGIC (panel only) ===
+    // === SCROLL LOGIC ===
     const maxScrollY = 0
     const minScrollY = -(totalContentHeight - panelHeight)
 
     let isDragging = false
     let dragStartPointerY = 0
     let dragStartContainerLocalY = 0
-
     let scrollOffset = 0
 
-    // ✅ FIX: Prevent tap sound on background
     this.input.on('pointerdown', (pointer) => {
-      // Only start drag if pointer is inside the panel AND NOT on a button
       if (pointer.y >= panelTop && pointer.y <= panelBottom) {
-        // Check if pointer is on an interactive zone - if yes, don't drag
         const gameObjects = this.input.hitTestPointer(pointer)
         const isOnButton = gameObjects.some(obj => obj.name === 'zone' || obj.input)
         
@@ -311,16 +302,13 @@ export class MenuScene extends Phaser.Scene {
     this.input.on('pointermove', (pointer) => {
       if (!isDragging || !pointer.isDown) return
       const delta = pointer.y - dragStartPointerY
-      // Only drag if movement is more than 10px (prevents accidental drag on click)
       if (Math.abs(delta) < 10) return
       
-      isDragging = true
       let newOffset = dragStartContainerLocalY + delta
       newOffset = Phaser.Math.Clamp(newOffset, minScrollY, maxScrollY)
       scrollOffset = newOffset
       menuContainer.y = panelTop + scrollOffset
 
-      // Fade out scroll arrow after first drag
       if (!arrowFaded && Math.abs(delta) > 50) {
         arrowFaded = true
         this.tweens.add({
@@ -334,7 +322,6 @@ export class MenuScene extends Phaser.Scene {
 
     this.input.on('pointerup', () => { isDragging = false })
 
-    // ✅ Clean up all objects when scene ends
     this.events.on('shutdown', () => {
       menuContainer.destroy(true)
       this.input.off('pointerdown')
