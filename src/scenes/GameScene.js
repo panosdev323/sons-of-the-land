@@ -179,8 +179,9 @@ export class GameScene extends Phaser.Scene {
 
         this.add.text(w / 2, 260, `${q.start}...`, {
             fontSize: '19px',
-            color: '#fff2cc',
+            color: '#fff',
             wordWrap: { width: w - 80 },
+            fontStyle: 'bold',
             align: 'center'
         }).setOrigin(0.5)
 
