@@ -5538,6 +5538,32 @@ export const CIVILIZATIONS = [
     bg: "#0a0a0a",
     authors: [
       {
+        name: "Babur (Founder of the Mughal Empire)",
+        emoji: "⚔️",
+        quotes: [
+          {
+            start: "Victory at the First Battle of Panipat in 1526 established Mughal rule in India because gunpowder weapons and tactics defeated",
+            correct: "the larger Lodi army.",
+            wrong: ["Portuguese invaders.", "Maratha rebels.", "British merchants."]
+          },
+          {
+            start: "My memoir, the Baburnama, remains valuable because it combines military history with",
+            correct: "personal observation and reflection.",
+            wrong: ["religious legal rulings.", "imperial tax records.", "architectural blueprints."]
+          },
+          {
+            start: "As a Timurid prince descended from Timur and Genghis Khan, I claimed legitimacy through",
+            correct: "dynastic heritage and conquest.",
+            wrong: ["democratic election.", "religious appointment alone.", "merchant wealth."]
+          },
+          {
+            start: "The Mughal Empire's foundations rested on military victory, but survival required",
+            correct: "effective administration and integration.",
+            wrong: ["continuous conquest only.", "religious uniformity.", "foreign alliances exclusively."]
+          }
+        ]
+      },
+      {
         name: "Akbar the Great (As Recorded in the Akbarnama)",
         emoji: "👑",
         quotes: [
@@ -6157,6 +6183,37 @@ export const CIVILIZATIONS = [
             start: "The Quran's oral recitation tradition built on Arabia's deep culture of memorization — Islam spread partly because its message fit the",
             correct: "existing oral communication infrastructure.",
             wrong: ["extensive written literary tradition.", "established printing press network.", "Greek philosophical academy system."]
+          }
+        ]
+      },
+      {
+        name: "Arabian Geography & Environment",
+        emoji: "🏜️",
+        quotes: [
+          {
+            start: "Scarce water sources shaped settlement patterns because control of wells and oases meant control of",
+            correct: "survival itself.",
+            wrong: ["merchant taxation.", "religious authority.", "military technology."]
+          },
+          {
+            start: "Camel domestication revolutionized Arabian life by enabling",
+            correct: "long-distance desert travel.",
+            wrong: ["ocean navigation.", "iron production.", "large-scale farming."]
+          },
+          {
+            start: "Oasis settlements became centers of population and trade because they provided",
+            correct: "water, security, and markets.",
+            wrong: ["gold mining opportunities.", "naval shipyards.", "imperial capitals."]
+          },
+          {
+            start: "Arabia's location between Africa, Asia, and the Mediterranean encouraged",
+            correct: "cross-cultural exchange and trade.",
+            wrong: ["political isolation.", "agricultural self-sufficiency.", "ethnic uniformity."]
+          },
+          {
+            start: "Harsh desert conditions rewarded adaptability, hospitality, and",
+            correct: "strong tribal solidarity.",
+            wrong: ["individual independence alone.", "urban specialization.", "bureaucratic administration."]
           }
         ]
       }
@@ -6806,6 +6863,86 @@ export const CIVILIZATIONS = [
             wrong: ["a permanent peaceful partner.", "a tributary state after 1450.", "irrelevant to the Spanish conquest."]
           }
         ]
+      },
+      {
+        name: "Founding of Tenochtitlan & Mexica Migration",
+        emoji: "🦅",
+        quotes: [
+          {
+            start: "Our priests followed Huitzilopochtli's command until we saw an eagle perched upon a cactus, a sign that marked the place where we would build",
+            correct: "Tenochtitlan.",
+            wrong: ["Texcoco.", "Tlaxcala.", "Cholula."]
+          },
+          {
+            start: "The Mexica migration from Aztlan formed a powerful origin story because it united diverse peoples around a shared history of",
+            correct: "divine guidance and hardship.",
+            wrong: ["commercial success.", "foreign conquest.", "peaceful settlement."]
+          }
+        ]
+      },
+      {
+        name: "Triple Alliance",
+        emoji: "🤝",
+        quotes: [
+          {
+            start: "The alliance of Tenochtitlan, Texcoco, and Tlacopan defeated the Tepanecs and created the political foundation for",
+            correct: "the Aztec Empire.",
+            wrong: ["Spanish rule.", "Mayan expansion.", "religious reform."]
+          },
+          {
+            start: "The Triple Alliance allowed member cities to share tribute and military obligations while recognizing",
+            correct: "Tenochtitlan's growing dominance.",
+            wrong: ["equal political authority.", "Tlaxcalan leadership.", "Spanish supervision."]
+          }
+        ]
+      },
+      {
+        name: "Education & Schools",
+        emoji: "📚",
+        quotes: [
+          {
+            start: "The calmecac educated noble children in religion, governance, and history because future leaders required",
+            correct: "specialized training.",
+            wrong: ["military service only.", "merchant experience.", "agricultural skills alone."]
+          },
+          {
+            start: "The telpochcalli trained commoners for military and civic duties, showing that education was",
+            correct: "widely expected in Aztec society.",
+            wrong: ["reserved for nobles.", "limited to priests.", "unnecessary for warriors."]
+          }
+        ]
+      },
+      {
+        name: "Nezahualcoyotl & Texcoco",
+        emoji: "🎭",
+        quotes: [
+          {
+            start: "Nezahualcoyotl of Texcoco became famous as a ruler, engineer, and poet whose achievements demonstrated that political power could coexist with",
+            correct: "intellectual and artistic excellence.",
+            wrong: ["military weakness.", "religious isolation.", "commercial decline."]
+          },
+          {
+            start: "The laws and public works of Texcoco earned admiration because they promoted stability, justice, and",
+            correct: "effective governance.",
+            wrong: ["imperial conquest.", "merchant privilege.", "priestly dominance."]
+          }
+        ]
+      },
+      {
+        name: "Chinampas & Agriculture",
+        emoji: "🌽",
+        quotes: [
+          {
+            start: "Chinampas produced multiple harvests each year because their fertile soils and irrigation created exceptionally",
+            correct: "productive farmland.",
+            wrong: ["poor crop yields.", "seasonal shortages.", "desert agriculture."]
+          },
+          {
+            start: "The agricultural wealth of the Valley of Mexico supported Tenochtitlan's huge population and reduced dependence on",
+            correct: "food imports.",
+            wrong: ["military conquest.", "foreign merchants.", "Spanish supplies."]
+          }
+        ]
       }
     ]
   },
@@ -7155,6 +7292,81 @@ export const CIVILIZATIONS = [
             start: "Because Rome destroyed Carthage's written records, Hannibal is remembered almost entirely through Roman eyes — which means history's portrait of him reflects",
             correct: "the perspective of those he nearly defeated.",
             wrong: ["objective neutral Greek historians.", "Hannibal's own surviving letters.", "confirmed Carthaginian royal inscriptions."]
+          }
+        ]
+      },
+      {
+        name: "Dido (Founder of Carthage)",
+        emoji: "👑",
+        quotes: [
+          {
+            start: "When I fled Tyre and founded Carthage on the North African coast, I showed that determination and leadership could transform exiles into",
+            correct: "a thriving new civilization.",
+            wrong: ["a wandering tribe.", "Roman allies.", "Greek colonists."]
+          },
+          {
+            start: "The legend of the ox-hide teaches that wisdom and ingenuity often achieve more than",
+            correct: "raw power.",
+            wrong: ["careful planning.", "strong alliances.", "commercial success."]
+          }
+        ]
+      },
+      {
+        name: "Hamilcar Barca (Father of Hannibal)",
+        emoji: "⚔️",
+        quotes: [
+          {
+            start: "After defeat in the First Punic War, I built Carthaginian power in Spain because",
+            correct: "Spain became Carthage's new power base.",
+            wrong: ["Italy became our strongest province.", "Rome financed our recovery.", "Sicily remained Punic territory."]
+          },
+          {
+            start: "I made Hannibal swear eternal hostility toward Rome because",
+            correct: "the struggle was not finished.",
+            wrong: ["peace had been secured.", "Rome became an ally.", "trade mattered more."]
+          }
+        ]
+      },
+      {
+        name: "First Punic War Veterans",
+        emoji: "🚢",
+        quotes: [
+          {
+            start: "The First Punic War proved that even a great naval power can be defeated when",
+            correct: "its enemies learn its methods.",
+            wrong: ["it controls the seas.", "it builds more ships.", "trade remains profitable."]
+          },
+          {
+            start: "The loss of Sicily after the First Punic War showed that",
+            correct: "naval defeat carried lasting consequences.",
+            wrong: ["Rome was permanently weakened.", "Carthage gained territory.", "the conflict ended forever."]
+          }
+        ]
+      },
+      {
+        name: "Phoenician Heritage",
+        emoji: "⛵",
+        quotes: [
+          {
+            start: "Though far from Tyre, Carthage preserved Phoenician traditions because",
+            correct: "we remained heirs of seafarers.",
+            wrong: ["Romans founded our civilization.", "Greeks ruled our cities.", "Egypt created our navy."]
+          },
+          {
+            start: "Language, religion, and trade networks endured because",
+            correct: "Phoenician identity remained strong.",
+            wrong: ["Roman culture dominated early.", "Greek colonies absorbed us.", "trade became unimportant."]
+          }
+        ]
+      },
+      {
+        name: "Cato the Elder & Roman Fear",
+        emoji: "🏛️",
+        quotes: [
+          {
+            start: "Cato ended many speeches with 'Carthago delenda est' because he believed",
+            correct: "Carthage must be destroyed.",
+            wrong: ["Carthage deserved protection.", "peace guaranteed security.", "trade prevented wars."]
           }
         ]
       }
@@ -7671,6 +7883,15 @@ export const CIVILIZATIONS = [
             start: "Francisco Pizarro captured me at Cajamarca and demanded a ransom of a room filled with gold and two rooms with silver; I filled them, but the Spaniards executed me anyway, showing that",
             "correct": "conquerors ignore promises once power is lost.",
             "wrong": ["gold was worth less than the Spaniards expected.", "the priests of Inti failed to intercede.", "Atahualpa underestimated Spanish intentions."]
+          },
+          {
+            start: "After Atahualpa's execution, imperial authority collapsed rapidly because the Inca system depended on the divine presence of the Sapa Inca, and without a clear successor, regional leaders began acting independently leading to",
+            correct: "imperial authority fragmented after his death.",
+            wrong: [
+              "empire immediately unified under Spanish rule.",
+              "nobles accepted Spanish succession peacefully.",
+              "civil war ended after his execution."
+            ]
           }
         ]
       },
@@ -7692,6 +7913,15 @@ export const CIVILIZATIONS = [
             start: "The acllakuna, the chosen women selected from across the empire, lived in the acllahuasi and served Inti through weaving, brewing chicha, and ritual service because their dedication demonstrated that the empire's sacred order extended into every household, not only into",
             "correct": "the temples and royal palaces.",
             "wrong": ["the armies and fortresses.", "the marketplace and merchant class.", "the quipu records."]
+          },
+          {
+            start: "Viracocha, known as the creator god in Inca tradition, shaped the world and created the Sun and Moon before walking across the sea and disappearing because he completed his divine work, leaving behind",
+            correct: "created world and withdrew beyond seas.",
+            wrong: [
+              "was identical to Inti in rank.",
+              "only a myth from later Spanish accounts.",
+              "served only as war god of Cusco."
+            ]
           }
         ]
       },
@@ -7713,6 +7943,15 @@ export const CIVILIZATIONS = [
             start: "Machu Picchu, built at 2430 meters on a ridge between two mountain peaks, demonstrates that Inca architects understood how to integrate monumental construction with the natural landscape using", 
             "correct": "earthquake-resistant techniques.", 
             "wrong": ["floating foundations.", "steel reinforcement beams.", "large defensive walls."] 
+          },
+          {
+            start: "The chasquis were trained relay runners who carried messages and small goods across the empire using tambos along the Qhapaq Ñan because rapid communication was essential for governing such vast territory, allowing them to",
+            correct: "relayed messages across empire through tambos.",
+            wrong: [
+              "carried messages only within Cusco valley.",
+              "served as temple ritual messengers only.",
+              "worked without coordination or relay system."
+            ]
           }
         ]
       },
@@ -7848,7 +8087,7 @@ export const CIVILIZATIONS = [
           { 
             start: "When I saw the temple of Amun at Kawa in ruins, my heart was sad until I became king because I restored it in fine sandstone, enlarged it, and endowed it with servants, fields, and musicians so that the god would be pleased and",
             correct: "continue to favor Kush and Egypt.",
-            wrong: ["draw pilgrims and tribute from distant regions.", "inspire future kings to build still greater temples.", "grant rain to the fields of the Butana plain."] 
+            wrong: ["draw pilgrims and tribute from distant regions.", "inspire future kings to build still greater temples.", "grant rain to Butana's fields."] 
           },
           { 
             start: "O Amun, my father, I have given you gold and many precious things because you gave me the kingship and protected me; in return I filled your house with wealth, servants, and offerings so that you may continue to",
@@ -7858,7 +8097,7 @@ export const CIVILIZATIONS = [
           { 
             start: "I sailed northward to Thebes with the young men sent by my brother because Amun of Napata guided my steps; through his power I was crowned in Memphis and ruled both Kush and Egypt as",
             correct: "a beloved son of the god.",
-            wrong: ["a ruler feared by the Assyrian court.", "the successor of Shabaka and Shebitku.", "a king who never forgot his Nubian origins."] 
+            wrong: ["a ruler feared by the Assyrian court.", "the successor of Shabaka and Shebitku.", "a king mindful of Nubian origins."] 
           }
         ]
       },
@@ -7904,13 +8143,13 @@ export const CIVILIZATIONS = [
           },
           { 
             start: "The god Amun of Napata then chose me from among the royal brethren because",
-            correct: "he knew my heart and chose me.'",
+            correct: "he knew my heart and chose me.",
             wrong: ["I was the eldest brother.", "the priests favored me.", "I was born to rule."] 
           },
           { 
             start: "After the god confirmed me, I entered the sanctuary alone because I received the crowns and the staff of my predecessor from the hand of Amun; then I came forth to the army and the people who acclaimed me as",
             correct: "the true king chosen by the god.",
-            wrong: ["a king who had earned his throne in battle.", "the eldest surviving son of the last ruler.", "the candidate endorsed by the Napatan merchants."] 
+            wrong: ["a king who earned throne in battle.", "eldest surviving son of last ruler.", "the candidate endorsed by the Napatan merchants."] 
           }
         ]
       },
@@ -8178,6 +8417,85 @@ export const CIVILIZATIONS = [
             start: "The kings of Tyre and Sidon strengthened our cities because we built harbors, temples, and defensive walls while fostering trade and alliances that turned small coastal towns into",
             "correct": "powerful independent centers.",
             "wrong": ["rivals too weak to survive.", "cities abandoned to pirates.", "settlements forgotten by history."]
+          }
+        ]
+      },
+      {
+        name: "Phoenician City-States (Byblos, Arwad, Ugarit Influence Zone)",
+        emoji: "🏺",
+        quotes: [
+          {
+            start: "Phoenicia was not a single empire but a network of coastal city-states including Tyre, Sidon, Byblos, and Arwad, each competing and cooperating through maritime trade that created a shared identity based on",
+            correct: "sea-based commerce and autonomy.",
+            wrong: ["centralized royal authority.", "imperial conquest abroad.", "agricultural land control."]
+          },
+          {
+            start: "Byblos was one of the oldest continuously inhabited Phoenician ports, exporting cedar and papyrus-linked goods, and maintaining ties with Egypt that depended on",
+            correct: "timber and maritime trade.",
+            wrong: ["military alliances.", "desert caravans.", "tribute systems."]
+          },
+          {
+            start: "Arwad, an island city-state, maintained independence through naval strength and strategic positioning, relying on ships rather than land armies to secure",
+            correct: "maritime autonomy in trade.",
+            wrong: ["territorial expansion inland.", "royal dynastic conquest.", "tribute from Persia."]
+          }
+        ]
+      },
+      {
+        name: "Phoenician Western Colonies (Atlantic & Mediterranean Expansion)",
+        emoji: "🌍",
+        quotes: [
+          {
+            start: "Phoenician expansion beyond the eastern Mediterranean led to the founding of colonies such as Gades, Utica, and Carthage, forming a trade network that stretched across the sea for",
+            correct: "metals, tin, and trade routes.",
+            wrong: ["agricultural expansion zones.", "imperial military control.", "river-based settlements."]
+          },
+          {
+            start: "Gades (modern Cádiz) served as a critical Atlantic outpost for Phoenician traders, allowing access to Iberian silver and Atlantic routes that supported",
+            correct: "long-distance maritime trade.",
+            wrong: ["Egyptian grain supply.", "Assyrian land campaigns.", "Persian royal taxation."]
+          },
+          {
+            start: "Utica, one of the earliest Phoenician settlements in North Africa, functioned as a commercial hub that predated Carthage and facilitated trade between local populations and",
+            correct: "Mediterranean merchant networks.",
+            wrong: ["Mesopotamian kingdoms.", "Nile valley farmers.", "Greek inland cities."]
+          }
+        ]
+      },
+      {
+        name: "Phoenician Political Structure (City-State System)",
+        emoji: "🏙️",
+        quotes: [
+          {
+            start: "Phoenicia never formed a unified empire; instead, cities like Tyre, Sidon, and Byblos operated independently while sharing language, religion, and trade practices that created",
+            correct: "a flexible maritime network.",
+            wrong: ["a centralized monarchy.", "a single imperial capital.", "a unified military state."]
+          },
+          {
+            start: "Competition among Phoenician city-states encouraged innovation in shipbuilding and trade, as each port sought advantage through commerce rather than",
+            correct: "territorial conquest.",
+            wrong: ["religious dominance.", "land-based warfare.", "royal taxation."]
+          }
+        ]
+      },
+      {
+        name: "Phoenician Religion & Maritime Identity (Baal, Melqart, Astarte)",
+        emoji: "🔥",
+        quotes: [
+          {
+            start: "Phoenician religion centered on deities such as Baal, Melqart, and Astarte, whose protection was invoked by sailors and merchants seeking safe passage across dangerous seas and",
+            correct: "successful trade voyages.",
+            wrong: ["land conquest victories.", "desert survival rites.", "royal succession rituals."]
+          },
+          {
+            start: "Melqart, often associated with Tyre, was worshipped as a protective god of navigation and colonization, linking distant Phoenician settlements through shared ritual and",
+            correct: "maritime religious identity.",
+            wrong: ["imperial taxation systems.", "temple-based agriculture.", "military conscription laws."]
+          },
+          {
+            start: "Astarte was venerated across Phoenician ports as a goddess of fertility and sea protection, especially by merchants and sailors who depended on her favor for",
+            correct: "safe maritime passage.",
+            wrong: ["royal military success.", "agricultural harvests alone.", "political legitimacy."]
           }
         ]
       }
@@ -8470,7 +8788,7 @@ export const CIVILIZATIONS = [
           {
             // CTH 291, §187 — bestiality (capital offenses that remained)
             start: "Hittite Laws (CTH 291, §187): Not all punishments were reduced — certain offenses remained capital crimes, including sexual relations with animals. The laws state: \"If a man does evil with a horse or mule,",
-            correct: "it is not a capital offense — but he shall not approach the king.",
+            correct: "not a capital offense but barred from king.",
             wrong: ["he shall be killed immediately.", "he shall pay one hundred shekels.", "his family shall be expelled."]
           },
           {
@@ -8595,606 +8913,471 @@ export const CIVILIZATIONS = [
   },
   {
     id: "holy_roman",
-    name: "Holy Roman Empire",
+    name: "Holy Roman Empire (Evidence-Based)",
     emoji: "🏰",
     color: 0x4b0082,
     colorHex: "#4b0082",
     bg: "#0a0a0a",
     authors: [
       {
-        // PRIMARY SOURCES: Admonitio Generalis (789 CE), Capitulare de villis,
-        // Capitulary of Frankfurt (794), Letter to Alcuin (796), Annals of Lorsch,
-        // Einhard's Vita Karoli Magni (c.830 CE) — the most important biography.
-        // NOTE: Charlemagne himself wrote little; most "quotes" are from capitularies
-        // (royal decrees) or Einhard's biography. All reconstructed first-person
-        // speeches in the original section have been replaced with documented sources.
         name: "Charlemagne (Admonitio Generalis & Einhard's Vita)",
         emoji: "👑",
         quotes: [
           {
-            // Admonitio Generalis (789 CE), Chapter 72 — on schools
             start: "Admonitio Generalis (789 CE, Ch.72): Charlemagne decrees that monasteries and cathedral churches shall have schools teaching singing, arithmetic, grammar, and",
             correct: "computation of the liturgical calendar.",
             wrong: ["warfare and horsemanship.", "hunting and noble customs.", "feudal law and military rank."]
           },
           {
-            // Admonitio Generalis (789 CE), Ch.82 — on priests preaching
-            start: "Admonitio Generalis (789 CE, Ch.82): Charlemagne commands that priests shall preach faithfully, that all believers must know the Lord's Prayer, and that they should also know",
+            start: "Admonitio Generalis (789 CE, Ch.82): Charlemagne commands that all believers must know the Lord's Prayer and also",
             correct: "the Apostolic Creed by heart.",
             wrong: ["the full Roman legal code.", "all twelve apostles' names.", "the Frankish royal genealogy."]
           },
           {
-            // Epistola de litteris colendis (c.794–800 CE) — letter to abbots on learning
-            start: "Epistola de litteris colendis (c.794 CE): Charlemagne's letter to abbots warns that if errors in writing undermine the authority of the scriptures, how much more will errors in",
+            start: "Epistola de litteris colendis (c.794 CE): Charlemagne warns that errors in writing undermine scripture — how much more will errors in",
             correct: "understanding undermine the faith.",
             wrong: ["battle weaken the frontier.", "taxation harm the treasury.", "law destabilize the realm."]
           },
           {
-            // Einhard, Vita Karoli Magni, Ch.25 — Charlemagne's personal learning
-            start: "Einhard, Vita Karoli Magni (Ch.25): Einhard records that Charlemagne tried to learn to write in his mature years but had little success since he had begun",
+            start: "Einhard, Vita Karoli Magni (Ch.25): Einhard records that Charlemagne tried to learn to write but had little success since he had begun",
             correct: "too late in life.",
             wrong: ["without proper teachers.", "against the clergy's wishes.", "during constant military campaigns."]
           },
           {
-            // Einhard, Vita Karoli Magni, Ch.24 — his love of learning
-            start: "Einhard, Vita Karoli Magni (Ch.24): Charlemagne spoke Latin fluently, understood Greek, and was devoted to the liberal arts — cultivating scholars like Alcuin because he believed a king who neglected learning was",
+            start: "Einhard, Vita Karoli Magni (Ch.24): Charlemagne cultivated scholars like Alcuin because he believed a king who neglected learning was",
             correct: "no better than an illiterate peasant.",
             wrong: ["unfit to rule the church.", "dishonoring his Frankish heritage.", "wasting God-given authority."]
           },
           {
-            // Einhard, Vita Karoli Magni, Ch.29 — the coronation of 800 CE
-            start: "Einhard, Vita Karoli Magni (Ch.29): Einhard claims Charlemagne said he would not have entered St. Peter's on Christmas Day 800 had he known the pope intended to crown him — because he",
+            start: "Einhard, Vita Karoli Magni (Ch.29): Einhard claims Charlemagne would not have entered St. Peter's on Christmas Day 800 had he known the pope intended to crown him — because he",
             correct: "disliked owing the title to the pope.",
-            wrong: ["preferred the Frankish royal title alone.", "feared Byzantine retaliation immediately.", "considered the ceremony theologically improper."]
+            wrong: ["preferred the Frankish royal title.", "feared Byzantine retaliation.", "considered the ceremony improper."]
           },
           {
-            // Capitulary of Frankfurt (794 CE) — on heresy and correct doctrine
-            start: "Capitulary of Frankfurt (794 CE): Charlemagne convened a great council at Frankfurt that rejected the Second Council of Nicaea's position on image-veneration — claiming the Franks held",
-            correct: "a more moderate theological position on icons.",
-            wrong: ["total iconoclasm identical to Byzantium.", "full papal supremacy over doctrine.", "German customary law above church councils."]
+            start: "Capitulary of Frankfurt (794 CE): Charlemagne's council rejected the Second Council of Nicaea's position on image-veneration — claiming the Franks held",
+            correct: "a more moderate position on icons.",
+            wrong: ["total iconoclasm identical to Byzantium.", "full papal supremacy over doctrine.", "German law above church councils."]
           },
           {
-            // Annals of Lorsch (Entry for 801 CE) — on the coronation
-            start: "Annals of Lorsch (Entry for 801 CE): The Lorsch annalists justify Charlemagne's imperial coronation by noting that the title of emperor had lapsed in the West since a woman (Irene) occupied",
+            start: "Annals of Lorsch (801 CE): The annalists justify Charlemagne's coronation by noting the imperial title had lapsed since a woman (Irene) occupied",
             correct: "the Byzantine throne.",
             wrong: ["the Roman see unlawfully.", "the Frankish kingship by marriage.", "the patriarchate of Constantinople."]
           }
         ]
       },
       {
-        // PRIMARY SOURCES: Widukind of Corvey, Res Gestae Saxonicae (c.967 CE);
-        // Liutprand of Cremona, Antapodosis and Relatio de Legatione Constantinopolitana;
-        // Otto I's own charters (Diplomata); Ottonianum (962 CE) — the imperial privilege for Rome.
         name: "Otto I the Great (Widukind & Imperial Charters)",
         emoji: "🛡️",
         quotes: [
           {
-            // Widukind of Corvey, Res Gestae Saxonicae 3.44 — the Battle of Lechfeld (955 CE)
-            start: "Widukind of Corvey, Res Gestae Saxonicae (3.44): After the victory at Lechfeld (955 CE) over the Magyars, Widukind records that the army acclaimed Otto as",
+            start: "Widukind of Corvey, Res Gestae Saxonicae (3.44): After the victory at Lechfeld (955 CE) over the Magyars, the army acclaimed Otto as",
             correct: "\"father of the fatherland\" and \"emperor.\"",
             wrong: ["\"lord of all Christian kings.\"", "\"successor to Charlemagne alone.\"", "\"champion of the Holy Lance.\""]
           },
           {
-            // Widukind, Res Gestae Saxonicae 3.44 — the Holy Lance at Lechfeld
-            start: "Widukind of Corvey (3.44): Widukind describes Otto at Lechfeld carrying the Holy Lance and the standard of the Archangel Michael — the battle's religious framing presented the victory as",
+            start: "Widukind (3.44): Otto at Lechfeld carried the Holy Lance and standard of Archangel Michael — presenting the victory as",
             correct: "divine confirmation of Otto's imperial right.",
-            wrong: ["proof of German military superiority alone.", "a miracle requiring papal certification.", "revenge for Carolingian dynastic losses."]
+            wrong: ["proof of German military superiority.", "a miracle requiring papal certification.", "revenge for Carolingian dynastic losses."]
           },
           {
-            // Ottonianum (962 CE) — Otto's privilege confirming papal lands
-            start: "Ottonianum (962 CE): Otto I's privilege issued at Rome confirmed the pope's territorial possessions and guaranteed free papal elections — but required",
-            correct: "the emperor's confirmation before consecration.",
-            wrong: ["the pope to renounce all temporal power.", "annual tribute payments to the empire.", "Italian cities to accept German garrisons."]
+            start: "Ottonianum (962 CE): Otto I's privilege confirmed papal territorial possessions but required",
+            correct: "imperial confirmation before papal consecration.",
+            wrong: ["the pope to renounce temporal power.", "annual tribute payments to the empire.", "Italian cities to accept German garrisons."]
           },
           {
-            // Liutprand of Cremona, Antapodosis — on the character of Otto's court
-            start: "Liutprand of Cremona, Antapodosis (c.958 CE): Liutprand, who served at Otto's court, praises him as a ruler who combined generosity to loyal followers with severe punishment of rebels — his court was",
-            correct: "the center of learning, diplomacy, and ecclesiastical reform.",
-            wrong: ["modelled entirely on Byzantine ceremony.", "subject to perpetual interference from the pope.", "dominated by Frankish noble families resisting Saxon rule."]
+            start: "Liutprand of Cremona, Antapodosis (c.958 CE): Liutprand praises Otto's court as",
+            correct: "a center of learning, diplomacy, and reform.",
+            wrong: ["modelled entirely on Byzantine ceremony.", "subject to perpetual papal interference.", "dominated by Frankish noble resistance."]
           },
           {
-            // Otto I's charters — the Reichskirchensystem
-            start: "Otto I's charters systematically granted imperial monasteries and bishoprics immunity from secular interference — in exchange, bishops and abbots owed military service and administration, creating the so-called",
+            start: "Otto I's charters granted imperial monasteries and bishoprics immunity from secular interference — in exchange for military service and administration, creating the",
             correct: "Reichskirche (imperial church system).",
-            wrong: ["papal administrative network for Germany.", "feudal system independent of Roman law.", "Carolingian inheritance of ecclesiastical privilege."]
+            wrong: ["papal administrative network for Germany.", "feudal system independent of Roman law.", "Carolingian ecclesiastical privilege system."]
           },
           {
-            // Liutprand, Relatio de Legatione Constantinopolitana (968 CE)
-            start: "Liutprand of Cremona, Relatio de Legatione (968 CE): Liutprand's account of his embassy to Constantinople for Otto I reveals Byzantine contempt — the Byzantines refused to recognize Otto's imperial title, calling him",
+            start: "Liutprand of Cremona, Relatio de Legatione (968 CE): The Byzantines refused Otto's imperial title, calling him",
             correct: "\"king of the barbarians\" rather than emperor.",
-            wrong: ["\"usurper of Rome's rightful throne.\"", "\"pope's puppet lacking real power.\"", "\"king of the Saxons and nothing more.\""]
+            wrong: ["\"usurper of Rome's rightful throne.\"", "\"pope's puppet lacking real power.\"", "\"king of Saxons and nothing more.\""]
           }
         ]
       },
       {
-        // PRIMARY SOURCES: Otto III's own charters and letters; Gerbert of Aurillac's
-        // correspondence (as Pope Sylvester II); Thangmar's Life of Bernward of Hildesheim;
-        // Bruno of Querfurt's letters rebuking Otto III.
-        // Otto III (r. 996–1002 CE) died aged 21; his renovatio program was more aspiration than reality.
         name: "Otto III (Renovatio Imperii Romanorum — Charters & Letters)",
         emoji: "📜",
         quotes: [
           {
-            // Otto III's seal/bulla — the inscription
-            start: "Otto III's imperial seal bore the inscription \"Renovatio Imperii Romanorum\" — the revival of the Roman Empire — signaling his program of restoring Rome as the capital and blending",
+            start: "Otto III's imperial seal bore the inscription \"Renovatio Imperii Romanorum\" — signaling his program blending",
             correct: "Roman, German, and Byzantine imperial traditions.",
-            wrong: ["papal supremacy over secular rulers.", "German custom over Roman precedent.", "Frankish inheritance above all other claims."]
+            wrong: ["papal supremacy over secular rulers.", "German custom over Roman precedent.", "Frankish inheritance above all claims."]
           },
           {
-            // Diploma of Otto III (January 1001) — the Diploma of Arduin
-            start: "Diploma of Otto III (1001 CE): Otto III issued a diploma denouncing the Donation of Constantine as a fraud — declaring that the document was",
+            start: "Diploma of Otto III (1001 CE): Otto denounced the Donation of Constantine as",
             correct: "a forgery giving the pope territorial power.",
-            wrong: ["a genuine gift to be respected fully.", "a valid basis for papal supremacy.", "a misunderstood Carolingian administrative document."]
+            wrong: ["a genuine gift to be respected.", "a valid basis for papal supremacy.", "a misunderstood Carolingian document."]
           },
           {
-            // Gerbert of Aurillac (Sylvester II) — letter as Pope to Otto III
-            start: "Sylvester II (Gerbert of Aurillac), Letter to Otto III (c.1000 CE): The pope addresses Otto as \"our Caesar and Augustus\" and frames their relationship as",
+            start: "Sylvester II (Gerbert of Aurillac), Letter to Otto III (c.1000 CE): The pope frames their relationship as",
             correct: "a renewal of priesthood and empire united.",
-            wrong: ["papal supremacy over the imperial office.", "German dominance over the Roman church.", "a temporary alliance against Byzantine claims."]
+            wrong: ["papal supremacy over the imperial office.", "German dominance over the Roman church.", "a temporary alliance against Byzantium."]
           },
           {
-            // Bruno of Querfurt, Letter to Otto III (1001 CE) — rebuke
-            start: "Bruno of Querfurt, Letter to Otto III (1001 CE): The missionary bishop rebuked Otto for spending time on Roman ceremonial while neglecting to convert pagan peoples — writing that the emperor was",
+            start: "Bruno of Querfurt, Letter to Otto III (1001 CE): Bruno rebuked Otto for being",
             correct: "too absorbed in Rome's glory for God's mission.",
-            wrong: ["defying the legitimate authority of the pope.", "wasting resources on Byzantine luxury.", "endangering the empire with his Italian campaigns."]
+            wrong: ["defying the legitimate authority of the pope.", "wasting resources on Byzantine luxury.", "endangering the empire with Italian campaigns."]
           },
           {
-            // Otto III and Gerbert — appointment of German and Italian popes
-            start: "Otto III appointed two popes — his cousin Bruno of Carinthia (Gregory V, first German pope) and then Gerbert of Aurillac (Sylvester II, first French pope) — demonstrating that",
-            correct: "the emperor controlled papal appointments without constraint.",
-            wrong: ["the church elected popes independently of the emperor.", "Italian candidates were preferred for theological reasons.", "the papacy had already achieved independence."]
+            start: "Otto III appointed two popes — Bruno of Carinthia (Gregory V) and Gerbert of Aurillac (Sylvester II) — demonstrating that",
+            correct: "the emperor controlled papal appointments freely.",
+            wrong: ["the church elected popes independently.", "Italian candidates were theologically preferred.", "the papacy had already achieved independence."]
           },
           {
-            // Historical context — Otto III's premature death and collapse of renovatio
-            start: "Otto III died in January 1002 aged 21, before his renovatio program could be consolidated — the Roman population had already revolted against him, showing that his vision of Rome as imperial capital",
+            start: "Otto III died in January 1002 aged 21, before his renovatio program was consolidated — Rome had already revolted, showing his vision",
             correct: "was rejected by the Romans themselves.",
-            wrong: ["succeeded beyond all reasonable expectations.", "was endorsed by the Byzantine emperor.", "had been abandoned by Otto before his death."]
+            wrong: ["succeeded beyond all expectations.", "was endorsed by the Byzantine emperor.", "had been abandoned before his death."]
           }
         ]
       },
       {
-        // PRIMARY SOURCES: Henry IV's Letter to Gregory VII (January 24, 1076) — one of the
-        // most important documents of the Investiture Controversy, preserved in full.
-        // Gregory VII's Dictatus Papae (1075). Henry IV's oath at Canossa (1077).
-        // Lampert of Hersfeld, Annals; Bruno of Merseburg, Book on the Saxon War.
-        name: "Henry IV & Gregory VII (Investiture Controversy — Primary Documents)",
+        name: "Henry IV & Gregory VII (Investiture Controversy)",
         emoji: "⚔️",
         quotes: [
           {
-            // Henry IV's Letter to Gregory VII, January 24, 1076 — opening address
-            start: "Henry IV's Letter to Gregory VII (January 24, 1076): Henry's letter begins with the devastating address: \"Henry, king not through usurpation but through the holy ordination of God, to Hildebrand,",
+            start: "Henry IV's Letter to Gregory VII (January 24, 1076): Henry's letter begins: \"Henry, king not through usurpation but through holy ordination, to Hildebrand,",
             correct: "at present not pope but false monk.\"",
-            wrong: ["enemy of Christian order and peace.\"", "servant of Satan disguised as shepherd.\"", "usurper of the apostolic throne of Peter.\""]
+            wrong: ["enemy of Christian order and peace.\"", "servant of Satan in shepherd's robes.\"", "usurper of the apostolic throne.\""]
           },
           {
-            // Henry IV's Letter, 1076 — the accusation against Gregory
-            start: "Henry IV's Letter (1076): Henry accuses Gregory of having subjected bishops to unjust depositions and of having \"trampled under foot the anointed of the Lord\" — arguing that Gregory's power rests on",
-            correct: "popular favor and not on legitimate church tradition.",
-            wrong: ["genuine apostolic succession from Peter.", "the genuine consent of German bishops.", "a legitimate council of the whole church."]
-          },
-          {
-            // Henry IV's Letter, 1076 — the command to descend
-            start: "Henry IV's Letter (1076): Henry concludes with the command: \"I, Henry, king by the grace of God, with all my bishops, say to you: descend, descend,",
+            start: "Henry IV's Letter (1076): Henry concludes: \"I, Henry, king by the grace of God, say to you: descend, descend,",
             correct: "to be damned throughout the ages.\"",
-            wrong: ["and submit to imperial judgment.\"", "and face the council you have betrayed.\"", "before God destroys your usurped throne.\""]
+            wrong: ["and submit to imperial judgment.\"", "and face the betrayed council.\"", "before God destroys your throne.\""]
           },
           {
-            // Gregory VII, Dictatus Papae (1075) — thesis 12
-            start: "Gregory VII, Dictatus Papae (1075), Thesis 12: \"That it may be permitted to him [the pope] to depose",
+            start: "Gregory VII, Dictatus Papae (1075), Thesis 12: \"That it may be permitted to him to depose",
             correct: "emperors.\"",
             wrong: ["bishops who disobey canon law.\"", "kings who commit public mortal sin.\"", "cardinals who support simony.\""]
           },
           {
-            // Gregory VII, Dictatus Papae (1075) — thesis 9
             start: "Gregory VII, Dictatus Papae (1075), Thesis 9: \"That all princes shall kiss the feet of",
             correct: "the pope alone.\"",
-            wrong: ["the emperor as Christ's vicar.\"", "bishops as successors of the apostles.\"", "abbots as guardians of the Rule.\""]
+            wrong: ["the emperor as Christ's vicar.\"", "bishops as apostolic successors.\"", "abbots as guardians of the Rule.\""]
           },
           {
-            // Henry IV's Oath at Canossa (February 1077) — preserved by Gregory VII
-            start: "Henry IV's Oath at Canossa (February 1077), as reported by Gregory VII: Henry swore to satisfy the grievances of the German princes according to the pope's judgment, and to guarantee",
-            correct: "safe conduct if Gregory came to Germany.",
-            wrong: ["annual tribute payments to the papacy.", "free papal elections without imperial involvement.", "the renunciation of all lay investiture rights."]
+            start: "Henry IV's Oath at Canossa (February 1077), as reported by Gregory VII: Henry swore to satisfy German princes' grievances and guarantee",
+            correct: "Gregory safe conduct to Germany.",
+            wrong: ["annual tribute to the papacy.", "free papal elections henceforth.", "renunciation of all investiture rights."]
           },
           {
-            // Lampert of Hersfeld, Annals — Canossa as political humiliation
-            start: "Lampert of Hersfeld, Annals (1077): Lampert describes Henry standing barefoot in the snow at Canossa for three days — framing the scene as",
-            correct: "a calculated move to break Gregory's German alliances.",
-            wrong: ["a genuine act of spiritual repentance and submission.", "a humiliation that permanently ended Henry's power.", "proof the papacy had permanently defeated the empire."]
+            start: "Lampert of Hersfeld, Annals (1077): Lampert describes Henry at Canossa barefoot in snow for three days — framing this as",
+            correct: "a calculated move against Gregory's German alliances.",
+            wrong: ["a genuine act of spiritual repentance.", "a humiliation ending Henry's power permanently.", "proof the papacy had defeated the empire."]
           },
           {
-            // Concordat of Worms (1122) — resolution of the controversy
-            start: "Concordat of Worms (1122): The compromise that ended the Investiture Controversy distinguished temporal investiture (the emperor gives the scepter for lands and duties) from spiritual investiture (the church gives",
+            start: "Concordat of Worms (1122): The compromise distinguished temporal investiture (emperor gives the scepter) from spiritual investiture (church gives",
             correct: "ring and staff for spiritual authority).",
             wrong: ["the crown for royal consecration.", "the pallium for ecclesiastical rank.", "the keys for sacramental jurisdiction."]
           }
         ]
       },
       {
-        // PRIMARY SOURCES: Frederick I Barbarossa's own charters; Diet of Roncaglia decrees (1158);
-        // Rahewin's continuation of Otto of Freising's Gesta Frederici; the Landfrieden (Land Peace);
-        // Frederick's letters to Pope Adrian IV and Pope Alexander III.
         name: "Frederick I Barbarossa (Diet of Roncaglia & Gesta Frederici)",
         emoji: "🛡️",
         quotes: [
           {
-            // Frederick I's letter to Pope Adrian IV (c.1157) — on the source of imperial authority
-            start: "Frederick I's Letter to Pope Adrian IV (c.1157): Frederick rejects the pope's claim that he held the empire as a \"beneficium\" (fief) from Rome, asserting: \"The kingdom and the empire are ours by the election of the princes",
-            correct: "from God alone, not from the pope.\"",
-            wrong: ["by hereditary right of the Hohenstaufen.\"", "by Charlemagne's founding grant to the Franks.\"", "by the consent of the German princes and people.\""]
+            start: "Frederick I's Letter to Pope Adrian IV (c.1157): Frederick asserts: \"The kingdom and the empire are ours by the election of the princes",
+            correct: "from God alone, not the pope.\"",
+            wrong: ["by hereditary Hohenstaufen right.\"", "by Charlemagne's founding grant.\"", "by consent of the German princes.\""]
           },
           {
-            // Diet of Roncaglia (1158) — the four doctors of Bologna
-            start: "Diet of Roncaglia (1158): Frederick I, advised by four doctors of Roman law from Bologna, decreed that all regalian rights — tolls, mints, markets, and judicial authority — belonged",
+            start: "Diet of Roncaglia (1158): Advised by Bologna's Roman law doctors, Frederick decreed all regalian rights — tolls, mints, markets, judicial authority — belonged",
             correct: "to the emperor, not freely ceded to cities.",
-            wrong: ["to the German princes by feudal custom.", "to the Italian communes by longstanding practice.", "to the pope as Rome's imperial successor."]
+            wrong: ["to German princes by feudal custom.", "to Italian communes by longstanding practice.", "to the pope as Rome's successor."]
           },
           {
-            // Rahewin, Gesta Frederici 4.3 — Frederick's claim at Roncaglia
-            start: "Rahewin, Gesta Frederici (4.3): At Roncaglia, Frederick declared that he was the heir to all the rights of the ancient Roman emperors — and that the Italian city communes had",
+            start: "Rahewin, Gesta Frederici (4.3): At Roncaglia, Frederick declared Italian city communes had",
             correct: "usurped imperial prerogatives without legal basis.",
             wrong: ["legitimate independence by papal grant.", "rights confirmed by Charlemagne's capitularies.", "freedom guaranteed by the Treaty of Constance."]
           },
           {
-            // Frederick I's Landfrieden (Land Peace) — on maintaining order
-            start: "Frederick I's Landfrieden (Land Peace, 1152): Frederick's first peace decree commands that all men in the empire shall enjoy security of person and property, and that anyone who kills, wounds, or robs",
-            correct: "shall face the penalty prescribed by law.",
-            wrong: ["shall answer to the local bishop's court.", "shall be judged by his feudal lord alone.", "shall be excommunicated by the nearest priest."]
+            start: "Otto of Freising, Gesta Frederici (1.11): Otto describes the young Frederick as combining",
+            correct: "German severity with Italian charm equally.",
+            wrong: ["Roman law with Germanic military instinct.", "Hohenstaufen ambition with Welf restraint.", "deep theology with relentless military energy."]
           },
           {
-            // Otto of Freising, Gesta Frederici 1.11 — portrait of Frederick at the start of his reign
-            start: "Otto of Freising, Gesta Frederici (1.11): Otto describes the young Frederick as possessing a natural ability to inspire loyalty in all who met him, and combining",
-            correct: "German severity with Italian charm in equal measure.",
-            wrong: ["Roman legal training with Germanic military instinct.", "Hohenstaufen ambition with Welf diplomatic restraint.", "deep theological learning with relentless military energy."]
+            start: "Peace of Constance (1183): After defeat at Legnano (1176), the communes received autonomous self-government in exchange for",
+            correct: "formal recognition of imperial suzerainty.",
+            wrong: ["complete submission to Frederick's governors.", "permanent dissolution of the Lombard League.", "annual military service in the imperial army."]
           },
           {
-            // Peace of Constance (1183) — resolution with the Lombard League
-            start: "Peace of Constance (1183): After his defeat at Legnano (1176) by the Lombard League, Frederick negotiated — the communes received autonomous self-government in exchange for",
-            correct: "formal recognition of imperial suzerainty and payments.",
-            wrong: ["complete submission to Frederick's appointed governors.", "dissolution of the Lombard League permanently.", "annual military service in the imperial army."]
-          },
-          {
-            // Frederick I's death — historical record
-            start: "Frederick I Barbarossa drowned in the Saleph River (Göksu, modern Turkey) in June 1190 during the Third Crusade — his death caused most of the German army to",
-            correct: "dissolve and return home without reaching Jerusalem.",
-            wrong: ["elect a new leader and continue to Jerusalem.", "join the French and English crusaders immediately.", "besiege Constantinople in retaliation for Byzantine treachery."]
+            start: "Frederick I Barbarossa drowned in the Saleph River (modern Turkey) in June 1190 — his death caused most of the German crusade army to",
+            correct: "dissolve and return home.",
+            wrong: ["elect a new leader and continue.", "join French and English forces immediately.", "besiege Constantinople in retaliation."]
           }
         ]
       },
       {
-        // PRIMARY SOURCES: Constitutions of Melfi / Liber Augustalis (1231) — Frederick II's
-        // law code for Sicily. His letters and charters. His treatise De Arte Venandi cum Avibus
-        // (On the Art of Hunting with Birds). His correspondence with Sultan al-Kamil.
-        // Matthew Paris, Chronica Majora; Fra Salimbene de Adam, Chronicle.
         name: "Frederick II Stupor Mundi (Constitutions of Melfi & De Arte Venandi)",
         emoji: "📖",
         quotes: [
           {
-            // Constitutions of Melfi / Liber Augustalis (1231) — Proem
-            start: "Constitutions of Melfi (1231), Proem: Frederick II opens: \"We, whom divine providence has elevated to the pinnacle of the Roman Empire, must provide for the common welfare\" — and establishes that imperial law flows from",
+            start: "Constitutions of Melfi (1231), Proem: Frederick II establishes that imperial law flows from",
             correct: "the emperor as living law (lex animata).",
-            wrong: ["the pope as vicar of Christ on earth.", "the princes as electors of legitimate rule.", "ancient Roman tradition preserved by the church."]
+            wrong: ["the pope as vicar of Christ.", "the princes as legitimate electors.", "ancient Roman tradition preserved by the church."]
           },
           {
-            // Constitutions of Melfi — abolition of trial by ordeal
-            start: "Constitutions of Melfi (1231): Frederick II abolished trial by ordeal — replacing it with rational judicial procedure — because God does not perform miracles to",
-            correct: "correct the negligence of those who ignore evidence.",
-            wrong: ["satisfy the curiosity of idle judges.", "substitute for the emperor's justice.", "endorse superstitious customs of the Lombards."]
+            start: "Constitutions of Melfi (1231): Frederick II abolished trial by ordeal — replacing it with rational procedure — because God does not perform miracles to",
+            correct: "correct the negligence of lazy judges.",
+            wrong: ["satisfy idle judicial curiosity.", "substitute for the emperor's justice.", "endorse Lombard superstitious customs."]
           },
           {
-            // Constitutions of Melfi — on royal officials replacing clergy
-            start: "Constitutions of Melfi (1231): Frederick decreed that royal administrative posts must be held by trained laymen rather than clergy — so that the kingdom would be governed by men with",
+            start: "Constitutions of Melfi (1231): Frederick decreed royal posts must be held by trained laymen rather than clergy — to ensure men with",
             correct: "undivided loyalty to the crown.",
-            wrong: ["deeper knowledge of Roman law than clergy.", "military training unavailable to church officials.", "the theological neutrality the church could not provide."]
+            wrong: ["deeper Roman law knowledge than clergy.", "military training clergy could not provide.", "theological neutrality the church lacked."]
           },
           {
-            // De Arte Venandi cum Avibus (c.1244–1250) — the scientific preface
-            start: "De Arte Venandi cum Avibus (c.1244–1250), Preface: Frederick II states his intention to describe things \"as they really are\" — criticizing those who repeat the words of authorities without",
-            correct: "verifying them through personal observation.",
-            wrong: ["understanding the language of the original text.", "testing them against theological doctrine.", "consulting experts who have practical knowledge."]
+            start: "De Arte Venandi cum Avibus (c.1244), Preface: Frederick II states his intention to describe things \"as they really are\" — criticizing those who repeat authorities without",
+            correct: "verifying through personal observation.",
+            wrong: ["understanding the original language.", "testing against theological doctrine.", "consulting practical experts first."]
           },
           {
-            // Treaty with Sultan al-Kamil (1229) — the Jerusalem agreement
-            start: "Frederick II's Treaty with Sultan al-Kamil (February 1229): Without military conquest, Frederick negotiated the return of Jerusalem, Bethlehem, and Nazareth to Christian control — the agreement gave Muslims",
+            start: "Frederick II's Treaty with Sultan al-Kamil (February 1229): Without military conquest, Frederick negotiated Jerusalem's return — giving Muslims",
             correct: "continued control of the Temple Mount.",
-            wrong: ["the right to tax Christian pilgrims.", "permanent sovereignty over the entire city of Jerusalem.", "Acre as compensation for the agreement."]
+            wrong: ["the right to tax Christian pilgrims.", "permanent sovereignty over Jerusalem.", "Acre as compensation."]
           },
           {
-            // Pope Gregory IX's condemnation of Frederick II (1239)
-            start: "Pope Gregory IX's excommunication letter against Frederick II (1239) attacked him as a blasphemer who had reportedly said Moses, Jesus, and Muhammad were",
+            start: "Pope Gregory IX's excommunication letter (1239) claimed Frederick had reportedly called Moses, Jesus, and Muhammad",
             correct: "three deceivers who misled the world.",
-            wrong: ["three prophets of equal but separate religious truths.", "three figures whose teachings all ultimately agreed.", "three men whose followers corrupted their teachings."]
+            wrong: ["three prophets of equal religious truth.", "three figures whose teachings ultimately agreed.", "three men whose followers corrupted them."]
           },
           {
-            // Matthew Paris, Chronica Majora — Stupor Mundi
-            start: "Matthew Paris, Chronica Majora: Matthew Paris records the phrase applied to Frederick II by contemporaries: \"Stupor mundi et immutator mirabilis\" —",
-            correct: "\"The wonder of the world and a marvellous transformer.\"",
-            wrong: ["\"The scourge of God and terror of popes.\"", "\"The last Roman emperor and first modern king.\"", "\"The emperor who sold Jerusalem to the Saracens.\""]
+            start: "Matthew Paris, Chronica Majora: The phrase applied to Frederick II by contemporaries was \"Stupor mundi\" —",
+            correct: "\"The wonder of the world.\"",
+            wrong: ["\"The scourge of God and popes.\"", "\"The last Roman and first modern king.\"", "\"The emperor who sold Jerusalem.\""]
           }
         ]
       },
       {
-        // PRIMARY SOURCE: Charles IV, Golden Bull (1356) — one of the most important
-        // constitutional documents of the medieval empire. Preserved in full in Latin.
-        // Also: Charles IV's autobiography (Vita Caroli Quarti) — rare imperial autobiography.
         name: "Charles IV (Golden Bull 1356 & Vita Caroli Quarti)",
         emoji: "⚖️",
         quotes: [
           {
-            // Golden Bull (1356), Chapter 1 — on unity of the electoral principalities
-            start: "Golden Bull (1356), Chapter 1: \"Every realm divided against itself will be desolate\" — Charles IV applies this Scripture (Matthew 12:25) to justify the rule that electoral lands must",
-            correct: "pass undivided to a single heir by primogeniture.",
-            wrong: ["be subject to papal confirmation before transfer.", "pay annual tribute to the imperial treasury.", "provide military service for all imperial campaigns."]
+            start: "Golden Bull (1356), Chapter 1: Electoral lands must pass undivided to a single heir by",
+            correct: "primogeniture.",
+            wrong: ["papal confirmation before transfer.", "annual tribute to the imperial treasury.", "military service for all imperial campaigns."]
           },
           {
-            // Golden Bull (1356), Chapter 2 — the seven electors as columns
-            start: "Golden Bull (1356), Chapter 2: Charles IV describes the seven electors as \"the seven candlesticks\" — those who must illuminate the Holy Roman Empire with the \"unity of a sevenfold spirit\"; if these columns",
-            correct: "are shaken, the whole edifice risks ruin.",
-            wrong: ["disagree, the pope resolves the dispute.", "refuse to meet, the empire dissolves legally.", "favor one candidate, all others must yield."]
+            start: "Golden Bull (1356), Chapter 2: Charles IV describes the seven electors as \"seven candlesticks\" — if these columns are shaken,",
+            correct: "the whole edifice risks ruin.",
+            wrong: ["the pope resolves the dispute.", "the empire dissolves legally.", "all other candidates must yield."]
           },
           {
-            // Golden Bull (1356), Chapter 15 — on languages electors must learn
-            start: "Golden Bull (1356), Chapter 15: Charles IV mandates that sons of electors must from age seven learn Italian, Slavic, and German so the electors can",
-            correct: "understand and govern the empire's diverse peoples.",
-            wrong: ["conduct church services in all required tongues.", "negotiate treaties without interpreters present.", "command armies drawn from different ethnic regions."]
+            start: "Golden Bull (1356), Chapter 15: Charles IV mandates that sons of electors must from age seven learn Italian, Slavic, and German so they can",
+            correct: "govern the empire's diverse peoples.",
+            wrong: ["conduct church services in all tongues.", "negotiate treaties without interpreters.", "command multi-ethnic armies."]
           },
           {
-            // Golden Bull (1356), Chapter 24 — safe passage for electors
-            start: "Golden Bull (1356), Chapter 24: Each elector must guarantee safe passage to all others traveling to the election — anyone who robs or harms an elector en route to Frankfurt",
-            correct: "is declared an imperial enemy and criminal.",
-            wrong: ["forfeits their own electoral vote permanently.", "must compensate the injured elector threefold.", "faces excommunication by the Archbishop of Mainz."]
+            start: "Golden Bull (1356), Chapter 24: Anyone who robs or harms an elector traveling to Frankfurt",
+            correct: "is declared an imperial enemy.",
+            wrong: ["forfeits their own electoral vote.", "must compensate the elector threefold.", "faces excommunication by the Archbishop of Mainz."]
           },
           {
-            // Vita Caroli Quarti — Charles IV's autobiography (unique imperial self-account)
-            start: "Vita Caroli Quarti (Charles IV's autobiography, c.1378): Charles describes his childhood education in Paris at the French royal court — where he learned to speak French, Latin, Czech, German, and Italian, calling this",
-            correct: "the foundation of his governance over diverse peoples.",
-            wrong: ["a distraction from his natural military education.", "an experience making him more French than German.", "a luxury that other rulers unnecessarily ignored."]
+            start: "Vita Caroli Quarti: Charles describes his childhood education in Paris — where he learned five languages, calling this",
+            correct: "the foundation of governing diverse peoples.",
+            wrong: ["a distraction from military education.", "making him more French than German.", "a luxury other rulers unnecessarily ignored."]
           },
           {
-            // Vita Caroli Quarti — on his near-death experience
-            start: "Vita Caroli Quarti: Charles describes surviving the Battle of Crécy (1346) as a near-miraculous escape — fighting alongside his blind father John of Bohemia who",
-            correct: "died ordering knights to lead him fighting.",
-            wrong: ["survived and returned to Bohemia in captivity.", "was ransomed and lived two more years.", "was captured by the English for ransom."]
+            start: "Vita Caroli Quarti: Charles describes his blind father John of Bohemia at Crécy (1346), who died",
+            correct: "ordering knights to lead him fighting.",
+            wrong: ["survived and returned to Bohemia.", "was ransomed and lived two more years.", "was captured by the English."]
           },
           {
-            // Charles IV founding Charles University, Prague (1348)
-            start: "Foundation Charter of Charles University, Prague (April 7, 1348): Charles IV establishes the university so that his Bohemian subjects need not",
-            correct: "beg knowledge abroad rather than find it home.",
-            wrong: ["remain dependent on Italian legal experts.", "rely on German theological schools for training.", "send sons to Paris expensively and dangerously."]
+            start: "Foundation Charter of Charles University, Prague (April 7, 1348): Charles IV establishes the university so his subjects need not",
+            correct: "beg for knowledge abroad.",
+            wrong: ["remain dependent on Italian legal experts.", "rely on German theological schools.", "send sons to Paris expensively."]
           },
           {
-            // Golden Bull — exclusion of the pope from electoral proceedings
-            start: "Golden Bull (1356): One of the Golden Bull's most significant provisions is the complete exclusion of the pope from the imperial election — the electors alone choose the emperor without",
-            correct: "papal confirmation or approval.",
-            wrong: ["requiring the new emperor's personal consent.", "consulting the imperial cities or communes.", "notifying the Byzantine emperor as a courtesy."]
+            start: "Golden Bull (1356): One of its most significant provisions completely excluded from the imperial election",
+            correct: "the pope.",
+            wrong: ["the newly elected emperor himself.", "the imperial cities and communes.", "the Byzantine emperor as courtesy."]
           }
         ]
       },
       {
-        // PRIMARY SOURCES: Maximilian I's own charters; Perpetual Public Peace (Ewiger Landfriede,
-        // 1495); Edict establishing the Imperial Chamber Court (Reichskammergericht, 1495);
-        // The Wormser Reichsabschluss (1495 — the imperial recess of Worms);
-        // Maximilian's Weisskunig and Theuerdank (semi-autobiographical literary works).
         name: "Maximilian I (Perpetual Public Peace & Imperial Reform 1495)",
         emoji: "🏛️",
         quotes: [
           {
-            // Perpetual Public Peace (Ewiger Landfriede), Preamble (1495)
-            start: "Perpetual Public Peace (1495), Preamble: \"We, Maximilian, Roman King, by the grace of God\" — decree that all private feuds and acts of self-help are permanently forbidden, and that all disputes must be resolved",
-            correct: "through the newly established Imperial Chamber Court.",
-            wrong: ["by the feudal lord of the aggrieved party.", "through negotiation overseen by local bishops.", "by the direct judgment of the emperor himself."]
+            start: "Perpetual Public Peace (1495), Preamble: Maximilian decrees all private feuds are permanently forbidden — all disputes must be resolved through",
+            correct: "the newly established Imperial Chamber Court.",
+            wrong: ["the feudal lord of the aggrieved party.", "negotiation overseen by local bishops.", "the emperor's direct personal judgment."]
           },
           {
-            // Ewiger Landfriede (1495) — the prohibition of feud
-            start: "Perpetual Public Peace (1495): \"No one shall commit feuds, wage war against another, rob, seize, besiege, or assault him\" — this was meant to replace the old right of feud (Fehderecht) with",
+            start: "Perpetual Public Peace (1495): \"No one shall commit feuds, wage war against another, rob or seize him\" — replacing the old right of feud (Fehderecht) with",
             correct: "compulsory recourse to imperial law courts.",
-            wrong: ["voluntary arbitration by noble peers only.", "resolution by the territorial princes alone.", "direct imperial military enforcement in all cases."]
+            wrong: ["voluntary arbitration by noble peers.", "resolution by territorial princes alone.", "direct imperial military enforcement."]
           },
           {
-            // Imperial Chamber Court (Reichskammergericht) — establishment 1495
-            start: "Reichskammergericht Edict (1495): Maximilian's establishment of the Imperial Chamber Court created a permanent court with both imperial and estate representation — half the judges chosen by the emperor, half by",
+            start: "Reichskammergericht Edict (1495): Maximilian's Imperial Chamber Court had half its judges chosen by the emperor, half by",
             correct: "the imperial estates (princes, cities, knights).",
-            wrong: ["the pope and the College of Cardinals.", "the seven electoral princes exclusively.", "the leading cities of the empire alone."]
+            wrong: ["the pope and College of Cardinals.", "the seven electoral princes exclusively.", "the leading cities of the empire."]
           },
           {
-            // Common Penny (Gemeiner Pfennig) — the failed direct tax of 1495
-            start: "Wormser Reichsabschluss (1495): The \"Common Penny\" (Gemeiner Pfennig) was a direct tax Maximilian sought to fund defense against the Ottomans — it ultimately failed because",
+            start: "Wormser Reichsabschluss (1495): The \"Common Penny\" direct tax ultimately failed because",
             correct: "princes and cities refused to collect it.",
-            wrong: ["the pope declared it an unjust clerical burden.", "the Italian cities revolted against the demand.", "the Ottoman threat ended before collection was complete."]
+            wrong: ["the pope declared it an unjust burden.", "Italian cities revolted against the demand.", "the Ottoman threat ended before collection."]
           },
           {
-            // Maximilian's autobiographical works — the Weisskunig
-            start: "Maximilian I's Weisskunig (c.1505–1516, unfinished): This semi-autobiographical prose narrative presents Maximilian as \"the White King\" — a ruler who mastered all arts, crafts, and sciences — reflecting his deliberate cultivation of",
-            correct: "his own image as the universal Renaissance monarch.",
-            wrong: ["the traditional German warrior-king of medieval legend.", "the obedient defender of church and papacy.", "the Burgundian chivalric knight above all else."]
+            start: "Maximilian I's Weisskunig (c.1505–1516): This semi-autobiographical narrative presents Maximilian as \"the White King\" — reflecting his deliberate cultivation of",
+            correct: "his image as universal Renaissance monarch.",
+            wrong: ["the traditional German warrior-king legend.", "obedient defender of church and papacy.", "Burgundian chivalric knight above all."]
           },
           {
-            // Maximilian and the printing press — historical context
-            start: "Maximilian I was the first Holy Roman Emperor to systematically exploit the printing press for propaganda — commissioning Albrecht Dürer and others to produce the Triumphal Arch and Triumphal Procession, which spread his image across",
-            correct: "Europe without requiring physical presence or costly embassies.",
-            wrong: ["the empire's churches as devotional imagery.", "the universities as educational teaching material.", "the courts of rival kings as diplomatic gifts."]
+            start: "Maximilian I was the first emperor to systematically use the printing press for propaganda — commissioning Dürer to spread his image across Europe",
+            correct: "without costly embassies or physical presence.",
+            wrong: ["through the empire's churches as devotional imagery.", "through universities as educational material.", "through rival courts as diplomatic gifts."]
           },
           {
-            // Maximilian — failure to be crowned emperor by the pope
-            start: "Maximilian I never received a papal coronation in Rome — blocked by Venetian and French opposition, he assumed the title \"elected Roman emperor\" in 1508 by proclamation in Trent, making him",
-            correct: "the first emperor without a papal coronation.",
-            wrong: ["the last to attempt a traditional Italian coronation.", "the only emperor whose title the pope invalidated.", "the first emperor to renounce the imperial title."]
+            start: "Maximilian I never received a papal coronation — assuming the title \"elected Roman emperor\" in 1508 by proclamation, making him",
+            correct: "the first emperor without papal coronation.",
+            wrong: ["the last to attempt Italian coronation.", "the only emperor the pope invalidated.", "the first to renounce the imperial title."]
           }
         ]
       },
       {
-        // PRIMARY SOURCES: Otto of Freising, Chronica sive Historia de Duabus Civitatibus
-        // (Chronicle, or History of the Two Cities, c.1143–1147) and Gesta Frederici I Imperatoris.
-        // Otto of Freising (c.1114–1158) — bishop, historian, uncle of Frederick Barbarossa.
-        // One of the most important medieval historians.
         name: "Otto of Freising (Chronica & Gesta Frederici)",
         emoji: "📖",
         quotes: [
           {
-            // Chronica, Preface — Otto's tragic view of history
-            start: "Chronica (Preface, c.1143): Otto of Freising opens by saying he is writing \"not a history of joyful events but a most miserable tragedy\" — because all earthly kingdoms are marked by",
+            start: "Chronica (Preface, c.1143): Otto of Freising says he is writing \"not a history of joyful events but a most miserable tragedy\" — because all earthly kingdoms are marked by",
             correct: "mutability and inevitable decline.",
-            wrong: ["the sin of their founders from the beginning.", "divine punishment for disobedience to the church.", "the corrupting influence of wealth and Roman luxury."]
+            wrong: ["the sin of their founders.", "divine punishment for disobedience.", "the corruption of wealth and luxury."]
           },
           {
-            // Chronica, Book 5 — the two cities concept (Augustine's influence)
-            start: "Chronica (Book 5): Otto structures his history around Augustine's two cities — the City of God and the city of the world — arguing that since Constantine, the earthly and heavenly cities have become",
-            correct: "so intermingled as to be difficult to separate.",
-            wrong: ["entirely distinct and easily identified by the wise.", "unified under the authority of the papacy.", "in permanent conflict until the Last Judgment."]
+            start: "Chronica (Book 5): Otto argues that since Constantine, the earthly and heavenly cities have become",
+            correct: "so intermingled as to be inseparable.",
+            wrong: ["entirely distinct and easily identified.", "unified under the authority of the papacy.", "in permanent conflict until Judgment Day."]
           },
           {
-            // Chronica, Book 7 — on the Investiture Controversy
-            start: "Chronica (Book 7): Otto describes the Investiture Controversy as a catastrophe for Germany — the strife between Henry IV and Gregory VII transformed the church into",
-            correct: "a battlefield infecting the kingdom with civil war.",
-            wrong: ["a more pure institution free of imperial corruption.", "a stronger institution independent of emperors forever.", "a model of resistance for all future reformers."]
+            start: "Chronica (Book 7): Otto describes the Investiture Controversy as transforming the church into",
+            correct: "a battlefield infecting the realm with civil war.",
+            wrong: ["a purer institution free of imperial corruption.", "a stronger institution independent of emperors.", "a model for all future reformers."]
           },
           {
-            // Gesta Frederici 1.1 — on Frederick Barbarossa at the start of his reign
-            start: "Gesta Frederici (1.1): Otto describes Frederick I as possessing \"a pleasant expression, flashing eyes, a handsome nose\" and combining the best qualities of both the Swabian (Hohenstaufen) and the Bavarian (Welf) families, making him",
-            correct: "acceptable to both factions that divided the empire.",
-            wrong: ["feared by both families he would eventually crush.", "natural heir to Carolingian and Ottonian traditions.", "the only candidate acceptable to the pope."]
+            start: "Gesta Frederici (1.1): Otto describes Frederick I as combining the best of the Swabian (Hohenstaufen) and Bavarian (Welf) families, making him",
+            correct: "acceptable to both factions dividing the empire.",
+            wrong: ["feared by both families he would crush.", "the natural heir to Carolingian tradition.", "the only candidate acceptable to the pope."]
           },
           {
-            // Gesta Frederici 2.1 — on Frederick's concept of empire
-            start: "Gesta Frederici (2.1): Otto reports Frederick's view that the empire derives its authority not from the pope but directly from God — and that the emperor is therefore",
+            start: "Gesta Frederici (2.1): Otto reports Frederick's view that the emperor derives authority directly from God — and is therefore",
             correct: "subject to no one but God and justice.",
-            wrong: ["bound by the decrees of general councils alone.", "constrained by the electoral princes who chose him.", "answerable to the pope in spiritual matters."]
+            wrong: ["bound only by general councils' decrees.", "constrained by the electoral princes.", "answerable to the pope in spiritual matters."]
           },
           {
-            // Chronica, Book 8 (De octava aetate) — Otto's eschatological vision
-            start: "Chronica (Book 8): Otto adds a final book describing the Last Things — arguing that history ends not with the victory of any earthly empire but with",
+            start: "Chronica (Book 8): Otto argues that history ends not with any earthly empire's triumph but with",
             correct: "the transformation of all in God's Kingdom.",
-            wrong: ["the final triumph of Rome over pagans.", "the universal rule of the papacy worldwide.", "the Roman Empire restored under a German emperor."]
+            wrong: ["Rome's final victory over pagans.", "the universal rule of the papacy.", "the Roman Empire restored under Germans."]
           }
         ]
       },
       {
-        // PRIMARY SOURCES: Meister Eckhart, Latin and German sermons and treatises
-        // (Opus Tripartitum, German Sermons, Talks of Instruction).
-        // Hildegard of Bingen, Scivias (1141–1151), Physica, Causae et Curae, letters.
-        // Both are major HRE intellectual/spiritual figures with documented writings.
         name: "Meister Eckhart & Hildegard of Bingen",
         emoji: "🕯️",
         quotes: [
           {
-            // Meister Eckhart, German Sermon 52 (Beati pauperes spiritu) — the poverty sermon
-            start: "Meister Eckhart, German Sermon 52: \"The poor in spirit are those who know nothing, want nothing, and have nothing\" — Eckhart's radical doctrine argues that union with God requires",
-            correct: "total self-emptying of all will and images.",
-            wrong: ["daily performance of the prescribed liturgical offices.", "strict observance of Dominican monastic rules.", "rejection of secular learning for scripture alone."]
+            start: "Meister Eckhart, German Sermon 52: \"The poor in spirit are those who know nothing, want nothing, and have nothing\" — union with God requires",
+            correct: "total self-emptying of will and images.",
+            wrong: ["daily performance of the liturgical offices.", "strict observance of Dominican rules.", "rejection of secular learning for scripture."]
           },
           {
-            // Eckhart, Talks of Instruction, Ch.4 — on detachment (Abgeschiedenheit)
-            start: "Eckhart, Talks of Instruction (Ch.4): \"Those who are not in a right inward disposition must seek this in outward places and works — but for those who are rightly disposed inwardly, all places and people are",
+            start: "Eckhart, Talks of Instruction (Ch.4): For those rightly disposed inwardly, all places and people are",
             correct: "equally good.",
-            wrong: ["equally dangerous temptations to overcome.", "equally distant from God without proper instruction.", "equally valid paths if approached with humility."]
+            wrong: ["equally dangerous temptations.", "equally distant from God.", "equally valid if approached humbly."]
           },
           {
-            // Eckhart's condemnation — Bull "In agro dominico" (1329)
-            start: "Pope John XXII's Bull In agro dominico (March 27, 1329): 28 propositions from Eckhart's writings were condemned — 17 as heretical and 11 as \"evil-sounding\" — though Eckhart had already",
-            correct: "died before the bull issued, having submitted.",
-            wrong: ["fled to a Dominican monastery in Saxony.", "publicly recanted all condemned propositions in Cologne.", "been defended by the Dominicans at Avignon."]
+            start: "Pope John XXII's Bull In agro dominico (March 27, 1329): 28 propositions from Eckhart were condemned — though Eckhart had already",
+            correct: "died before the bull was issued.",
+            wrong: ["fled to a Dominican monastery.", "publicly recanted in Cologne.", "been defended by Dominicans at Avignon."]
           },
           {
-            // Hildegard of Bingen, Scivias (1141–1151) — the vision opening
-            start: "Scivias (1141 CE), Book 1, Vision 1: Hildegard opens by describing how at age 42 \"a fiery light of great brilliance came and permeated my whole brain\" — and describes her visions as communicated",
+            start: "Scivias (1141 CE), Book 1, Vision 1: Hildegard describes her visions as communicated",
             correct: "not through dreams but in full waking consciousness.",
-            wrong: ["through the mediation of the Archangel Gabriel alone.", "in states of deep bodily illness and fever.", "only in the presence of her confessor Volmar."]
+            wrong: ["through the Archangel Gabriel alone.", "in states of fever and illness.", "only in her confessor Volmar's presence."]
           },
           {
-            // Hildegard — letter to Bernard of Clairvaux (c.1146)
-            start: "Hildegard of Bingen, Letter to Bernard of Clairvaux (c.1146): Hildegard asks Bernard to confirm whether her visions are divine in origin — describing herself as a \"poor little womanly shape\" (paupercula feminea forma) who lacks",
-            correct: "the education male theologians who doubt her have.",
-            wrong: ["the authority to publish without papal permission.", "the courage to share visions without his support.", "the Latin to write her visions unaided."]
+            start: "Hildegard, Letter to Bernard of Clairvaux (c.1146): Hildegard describes herself as a \"poor little womanly shape\" lacking",
+            correct: "the education male theologians possess.",
+            wrong: ["authority to publish without papal permission.", "courage to share visions alone.", "Latin to write unaided."]
           },
           {
-            // Hildegard, letter to Emperor Frederick I Barbarossa (c.1164)
-            start: "Hildegard of Bingen, Letter to Frederick Barbarossa (c.1164): Hildegard rebukes the emperor for supporting the antipope Victor IV against Alexander III — calling Frederick's behavior that of",
+            start: "Hildegard, Letter to Frederick Barbarossa (c.1164): Hildegard rebukes the emperor for supporting the antipope — calling his behavior that of",
             correct: "a child and madman acting against God.",
-            wrong: ["a wise king misled by corrupt advisors.", "a good Christian confused by theological complexity.", "a defender of tradition against a corrupt pope."]
+            wrong: ["a wise king misled by corrupt advisors.", "a Christian confused by theology.", "a tradition defender against a corrupt pope."]
           },
           {
-            // Hildegard, Physica / Causae et Curae — natural medicine
-            start: "Hildegard of Bingen's Physica and Causae et Curae present a systematic account of natural medicine, combining theological and empirical observation — making her one of the first medieval authors to treat",
-            correct: "the natural world worthy of systematic description.",
-            wrong: ["alchemy as a legitimate theological discipline.", "Arabic medicine as superior to European tradition.", "the human body as fundamentally sinful to deny."]
+            start: "Hildegard of Bingen's Physica and Causae et Curae make her one of the first medieval authors to treat",
+            correct: "the natural world as worthy of systematic description.",
+            wrong: ["alchemy as a legitimate theological discipline.", "Arabic medicine as superior to European.", "the human body as fundamentally sinful."]
           }
         ]
       },
       {
-        // PRIMARY SOURCES: Martin Luther, 95 Theses (Disputatio pro Declaratione Virtutis
-        // Indulgentiarum, October 31, 1517); Address to the Christian Nobility of the German Nation
-        // (1520); The Freedom of a Christian (1520); Luther's speech at the Diet of Worms (1521).
-        // These events took place within the HRE under Charles V.
         name: "Martin Luther at the Diet of Worms (1521)",
         emoji: "📜",
         quotes: [
           {
-            // 95 Theses, Thesis 1 (October 31, 1517)
-            start: "95 Theses, Thesis 1 (1517): Luther's first thesis states: \"When our Lord and Master Jesus Christ said 'Repent,' he willed the entire life of believers to be one of",
-            correct: "repentance.\"",
-            wrong: ["penance performed in the church.\"", "indulgence purchased for the soul.\"", "submission to the papal authority.\""]
+            start: "95 Theses, Thesis 1 (1517): Luther's first thesis states that Christ willed the entire life of believers to be one of",
+            correct: "repentance.",
+            wrong: ["penance performed in the church.", "indulgence purchased for the soul.", "submission to papal authority."]
           },
           {
-            // 95 Theses, Thesis 27 — on indulgences and the dead
-            start: "95 Theses, Thesis 27 (1517): Luther challenges the claim that \"as soon as the coin in the coffer rings, the soul from purgatory\" —",
+            start: "95 Theses, Thesis 27 (1517): Luther challenges the claim that the coin in the coffer rings, the soul from purgatory",
             correct: "springs — a human doctrine, not scriptural.",
-            wrong: ["is released by divine grace alone.", "rises only through genuine priestly intercession.", "ascends only by the pope's direct authority."]
+            wrong: ["is released by divine grace alone.", "rises through genuine priestly intercession.", "ascends only by the pope's authority."]
           },
           {
-            // Diet of Worms (April 18, 1521) — Luther's final statement
-            start: "Diet of Worms (April 18, 1521): When asked to recant, Luther replied: \"Unless I am convinced by the testimony of the Scriptures or by clear reason, I am bound by the Scriptures I have quoted and my conscience is captive to the Word of God. To go against conscience is neither",
-            correct: "right nor safe. Here I stand. Amen.",
-            wrong: ["honorable nor Christian for a baptized believer.\"", "possible nor permissible for an ordained priest.\"", "safe nor scriptural for a Christian theologian.\""]
+            start: "Diet of Worms (April 18, 1521): When asked to recant, Luther replied his conscience was captive to the Word of God — \"to go against conscience is neither",
+            correct: "right nor safe. Here I stand.\"",
+            wrong: ["honorable nor Christian for a believer.\"", "possible nor permissible for a priest.\"", "safe nor scriptural for a theologian.\""]
           },
           {
-            // Address to the Christian Nobility of the German Nation (1520) — the three walls
-            start: "Address to the Christian Nobility (1520): Luther argues that the papacy has erected three walls against reform: (1) spiritual power is above temporal, (2) only the pope can interpret scripture, (3) only the pope can call a council — and that all three walls",
+            start: "Address to the Christian Nobility (1520): Luther argues the papacy erected three walls against reform — and that all three walls",
             correct: "must be torn down by the German nobility.",
-            wrong: ["legitimate but abused by corrupt popes.", "created by Constantine and must be legally undone.", "reformable from within by a general church council."]
+            wrong: ["are legitimate but abused by corrupt popes.", "were created by Constantine to be undone.", "are reformable from within by a council."]
           },
           {
-            // Freedom of a Christian (1520) — the paradox
-            start: "The Freedom of a Christian (1520): Luther opens with a famous paradox: \"A Christian is a perfectly free lord of all, subject to none. A Christian is a perfectly dutiful servant of all,",
+            start: "The Freedom of a Christian (1520): Luther opens: \"A Christian is a perfectly free lord of all, subject to none. A Christian is a perfectly dutiful servant of all,",
             correct: "subject to all.\"",
-            wrong: ["bound to the church alone.\"", "answerable to God alone.\"", "free from sin and its consequences.\""]
+            wrong: ["bound to the church alone.\"", "answerable to God alone.\"", "free from sin and consequences.\""]
           },
           {
-            // Edict of Worms (May 1521) — Charles V's response
-            start: "Edict of Worms (May 1521): Emperor Charles V declared Luther an outlaw and his writings banned throughout the empire — but Luther was protected by Elector Frederick the Wise of Saxony, who arranged his",
-            correct: "\"kidnapping\" and hiding at the Wartburg castle.",
-            wrong: ["secret trial before a sympathetic imperial court.", "safe passage to the Swiss Confederation.", "asylum at the Danish court of Christian II."]
+            start: "Edict of Worms (May 1521): Charles V declared Luther an outlaw — but Luther was protected by Elector Frederick the Wise, who arranged his",
+            correct: "hiding at the Wartburg castle.",
+            wrong: ["secret trial before a sympathetic court.", "safe passage to the Swiss Confederation.", "asylum at the Danish court."]
           }
         ]
       },
       {
-        // PRIMARY SOURCES: Peace of Augsburg (1555); Peace of Westphalia (1648);
-        // Voltaire's famous quip; James Bryce, The Holy Roman Empire (1864) — scholarly assessment.
         name: "Reformation, Westphalia & Legacy (Documented)",
         emoji: "📜",
         quotes: [
           {
-            // Peace of Augsburg (1555) — cuius regio eius religio
-            start: "Peace of Augsburg (1555): The principle \"cuius regio, eius religio\" — meaning \"whose realm, his religion\" — established that",
+            start: "Peace of Augsburg (1555): The principle \"cuius regio, eius religio\" established that",
             correct: "each prince chose his territory's religion.",
-            wrong: ["the emperor chose religion for all German lands.", "individual subjects could freely choose their own faith.", "the pope mediated all imperial religious disputes."]
+            wrong: ["the emperor chose religion for all Germany.", "individuals could freely choose their own faith.", "the pope mediated all religious disputes."]
           },
           {
-            // Peace of Westphalia (1648) — ending the Thirty Years' War
-            start: "Peace of Westphalia (1648): The treaties ending the Thirty Years' War (1618–1648) extended the Peace of Augsburg to include Calvinism — and significantly strengthened the rights of individual princes against",
+            start: "Peace of Westphalia (1648): The treaties ending the Thirty Years' War significantly strengthened princes' rights against",
             correct: "imperial and ecclesiastical centralization.",
-            wrong: ["Habsburg dynastic claims to hereditary rule.", "Protestant princes who had triggered the war.", "foreign powers intervening in German religious disputes."]
+            wrong: ["Habsburg dynastic hereditary claims.", "Protestant princes who triggered the war.", "foreign powers intervening in German religion."]
           },
           {
-            // Dissolution — August 6, 1806
-            start: "On August 6, 1806, Emperor Francis II abdicated the imperial title and dissolved the Holy Roman Empire — the act was triggered by Napoleon's creation of the Confederation of the Rhine, which meant the empire",
-            correct: "had lost its German territorial basis entirely.",
-            wrong: ["was legally absorbed into the French Empire.", "was transformed into the Austrian Empire instead.", "was reconstituted as the German Confederation immediately."]
+            start: "On August 6, 1806, Emperor Francis II dissolved the Holy Roman Empire — triggered by Napoleon's Confederation of the Rhine, meaning the empire had",
+            correct: "lost its German territorial basis entirely.",
+            wrong: ["been legally absorbed into France.", "been transformed into the Austrian Empire.", "been reconstituted as the German Confederation."]
           },
           {
-            // James Bryce, The Holy Roman Empire (1864)
-            start: "James Bryce, The Holy Roman Empire (1864): Bryce's influential study argues that the empire represented \"the most imposing political creation of the Middle Ages\" — and that its fatal weakness was the tension between",
-            correct: "universal Christian aspiration vs. German territorial fragmentation.",
-            wrong: ["papal ambition versus the needs of secular rule.", "Carolingian inheritance claims and Ottonian administrative reality.", "Latin legal tradition and German customary feudal practice."]
+            start: "James Bryce, The Holy Roman Empire (1864): Bryce argues the empire's fatal weakness was the tension between",
+            correct: "universal Christian aspiration and German fragmentation.",
+            wrong: ["papal ambition versus secular governance needs.", "Carolingian inheritance and Ottonian administration.", "Latin legal tradition and German feudal custom."]
           }
         ]
       }
@@ -9468,6 +9651,48 @@ export const CIVILIZATIONS = [
             wrong: ["300 BCE — shortly after Alexander's death.", "500 CE — into the Byzantine era.", "100 BCE — during the Parthian period."]
           }
         ]
+      },
+      {
+        name: "Babylonian Writing & Scribal Education (Documented)",
+        emoji: "🪶",
+        quotes: [
+          {
+            start: "Babylonian writing used cuneiform signs impressed into clay tablets using a",
+            correct: "reed stylus on wet clay.",
+            wrong: [
+              "ink on papyrus scrolls.",
+              "carved stone inscriptions only.",
+              "alphabetic letters on parchment."
+            ]
+          },
+          {
+            start: "Scribal training took place in schools called edubba, meaning",
+            correct: "tablet house in Sumerian.",
+            wrong: [
+              "house of kings.",
+              "temple of writing.",
+              "school of priests."
+            ]
+          },
+          {
+            start: "Babylonian scribes copied literary, legal, and astronomical texts as part of",
+            correct: "long formal educational training.",
+            wrong: [
+              "religious initiation rituals only.",
+              "merchant apprenticeship programs.",
+              "oral memorization traditions only."
+            ]
+          },
+          {
+            start: "Cuneiform was one of the earliest writing systems and was used for over",
+            correct: "three thousand years in Mesopotamia.",
+            wrong: [
+              "three hundred years only.",
+              "five hundred years total.",
+              "one thousand years maximum."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -9701,7 +9926,7 @@ export const CIVILIZATIONS = [
           },
           {
             start: "The Assyrian empire at its greatest extent (~670 BCE under Esarhaddon) stretched from",
-            correct: "Egypt and Cyprus to the Persian Gulf and western Iran.",
+            correct: "Egypt and Cyprus to western Iran and Gulf.",
             wrong: ["India to the Mediterranean.", "the Nile to the Indus River.", "Greece to Central Asia."]
           }
         ]
@@ -9860,12 +10085,12 @@ export const CIVILIZATIONS = [
           },
           {
             start: "Maya astronomers tracked Venus because its heliacal rising (appearance as Morning Star) was associated with",
-            correct: "warfare and the rain god Tlaloc (in Maya contexts, Chaak).",
+            correct: "warfare and rain god Chaak.",
             wrong: ["the harvest season only.", "the king's birthday celebrations.", "peaceful diplomatic missions."]
           },
           {
             start: "The \"2012 phenomenon\" (claims the Maya predicted world end on December 21, 2012) misunderstood the Long Count — the date",
-            correct: "marked the end of a b'ak'tun cycle, not a predicted apocalypse.",
+            correct: "marked the end of a b'ak'tun cycle.",
             wrong: ["was never in any Maya text.", "was a colonial Spanish misinterpretation.", "referred to a future solar eclipse."]
           }
         ]
@@ -9904,7 +10129,7 @@ export const CIVILIZATIONS = [
           },
           {
             start: "Bishop Diego de Landa (1562) ordered the burning of Maya manuscripts — he later claimed only",
-            correct: "\"a few books\" were burned, but the destruction was vast.",
+            correct: "\"a few books\" were burned.",
             wrong: ["none were burned, only confiscated.", "all manuscripts were already lost.", "the books were sent to Spain safely."]
           }
         ]
@@ -10005,7 +10230,7 @@ export const CIVILIZATIONS = [
           },
           {
             start: "The Maya ball game (pitz) was played at over 1,500 documented courts — the rubber ball could weigh up to",
-            correct: "4 kilograms and could not be touched with hands.",
+            correct: "4 kilograms, not touched with hands.",
             wrong: ["500 grams.", "10 kilograms.", "1 kilogram."]
           },
           {
@@ -10327,6 +10552,16 @@ export const CIVILIZATIONS = [
             start: "Because of the First Hijra, early Islamic tradition held that Axum should not be attacked — a position sometimes expressed as",
             correct: "\"Leave the Abyssinians in peace.\"",
             wrong: ["\"Axum is a friend of the faith.\"", "\"The Negus is a hidden Muslim.\"", "\"Africa belongs to peaceful peoples.\""]
+          },
+          {
+            start: "The Ge’ez Bible translation helped establish one of the world’s oldest continuous",
+            correct: "Christian literary traditions.",
+            wrong: ["Islamic scholarly schools.", "Buddhist monastic systems.", "oral-only traditions."]
+          },
+          {
+            start: "The Ethiopian Orthodox Tewahedo Church continues to use Ge’ez as a",
+            correct: "liturgical language today.",
+            wrong: ["spoken daily language.", "colonial administrative language.", "dead ceremonial script only."]
           }
         ]
       },
@@ -10393,6 +10628,16 @@ export const CIVILIZATIONS = [
             start: "Axumite inscriptions have been found in multiple languages — indicating that the empire administered",
             correct: "a multilingual, multiethnic population.",
             wrong: ["a purely Ge'ez-speaking territory.", "only Semitic-language peoples.", "regions where Greek was universal."]
+          },
+          {
+            start: "The Ge’ez script is an abugida, meaning each symbol represents",
+            correct: "a consonant-vowel unit.",
+            wrong: ["pure consonants only.", "pure vowels only.", "whole words only."]
+          },
+          {
+            start: "Axumite multilingual inscriptions show the empire engaged in",
+            correct: "international diplomatic communication.",
+            wrong: ["isolated tribal communication.", "purely oral governance.", "non-literate administration."]
           }
         ]
       },
@@ -10432,6 +10677,16 @@ export const CIVILIZATIONS = [
             start: "Great Axum's significance for African history includes being one of only four ancient kingdoms to issue",
             correct: "its own coinage (alongside Rome, Persia, and Kushan).",
             wrong: ["a written legal code.", "a translated Bible.", "a diplomatic alliance with China."]
+          },
+          {
+            start: "Archaeological evidence suggests Adulis declined partly due to",
+            correct: "siltation and trade shifts.",
+            wrong: ["volcanic destruction.", "Persian invasion.", "internal rebellion only."]
+          },
+          {
+            start: "Axum was designated a UNESCO World Heritage Site in",
+            correct: "1980.",
+            wrong: ["1972.", "1999.", "2008."]
           }
         ]
       }
@@ -10740,6 +10995,152 @@ export const CIVILIZATIONS = [
             start: "Great Zimbabwe was designated a UNESCO World Heritage Site in",
             correct: "1986.",
             wrong: ["1972.", "2000.", "1994."]
+          }
+        ]
+      },
+      {
+        name: "Great Zimbabwe Metallurgy & Resource Control (Evidence-Based)",
+        emoji: "⚒️",
+        quotes: [
+          {
+            start: "Iron production at Great Zimbabwe relied on bloomery furnaces producing",
+            correct: "sponge iron refined by hammering.",
+            wrong: ["cast iron molds.", "steel blast furnaces.", "imported finished tools."]
+          },
+          {
+            start: "Slag deposits near the site indicate that metalworking was",
+            correct: "conducted locally at multiple workshops.",
+            wrong: ["absent from the region.", "done only by foreigners.", "purely symbolic activity."]
+          },
+          {
+            start: "Gold processing evidence suggests ore was",
+            correct: "refined using crushing and washing.",
+            wrong: ["melted in large furnaces.", "imported fully refined.", "never locally processed."]
+          },
+          {
+            start: "Metallurgy supported elite power by enabling production of",
+            correct: "tools, ornaments, and prestige goods.",
+            wrong: ["only agricultural tools.", "foreign trade dependency.", "no economic role."]
+          }
+        ]
+      },
+      {
+        name: "Great Zimbabwe Political Economy & Tribute System",
+        emoji: "🏦",
+        quotes: [
+          {
+            start: "Power was maintained partly through controlling cattle wealth and",
+            correct: "redistributing tribute from subject areas.",
+            wrong: ["pure coin taxation systems.", "no economic redistribution.", "foreign subsidies only."]
+          },
+          {
+            start: "Regional chiefs supported the ruler in exchange for",
+            correct: "status recognition and political protection.",
+            wrong: ["complete independence from authority.", "no benefits whatsoever.", "foreign military aid."]
+          },
+          {
+            start: "Tribute likely included cattle, gold, and",
+            correct: "agricultural surplus goods.",
+            wrong: ["only imported luxury goods.", "no material payments.", "taxes in coins only."]
+          },
+          {
+            start: "Elite redistribution strengthened authority by ensuring loyalty through",
+            correct: "controlled resource distribution networks.",
+            wrong: ["random gift exchanges.", "no economic system.", "complete market freedom."]
+          }
+        ]
+      },
+      {
+        name: "Great Zimbabwe Ritual Landscape & Sacred Space",
+        emoji: "🌄",
+        quotes: [
+          {
+            start: "The Hill Complex likely functioned as a sacred political space combining",
+            correct: "ritual authority and governance.",
+            wrong: ["pure military fortress.", "merchant marketplace only.", "foreign administrative center."]
+          },
+          {
+            start: "Stone enclosures likely marked boundaries between ordinary and",
+            correct: "ritually restricted elite spaces.",
+            wrong: ["completely open public zones.", "foreign-controlled districts.", "agricultural fields only."]
+          },
+          {
+            start: "Orientation of some structures suggests attention to",
+            correct: "landscape and symbolic geography.",
+            wrong: ["random construction placement.", "European architectural influence.", "pure defensive planning."]
+          },
+          {
+            start: "Cattle enclosures near elite zones likely symbolized",
+            correct: "wealth, ritual power, and status.",
+            wrong: ["pure livestock storage only.", "foreign trade control.", "military organization alone."]
+          }
+        ]
+      },
+      {
+        name: "Great Zimbabwe Regional Networks & Politics",
+        emoji: "🗺️",
+        quotes: [
+          {
+            start: "Great Zimbabwe interacted with surrounding Shona polities through",
+            correct: "trade, marriage, and tribute networks.",
+            wrong: ["direct colonial administration.", "complete isolation.", "constant external conquest."]
+          },
+          {
+            start: "Control over regional chiefs helped maintain authority without requiring",
+            correct: "direct permanent occupation everywhere.",
+            wrong: ["any political system.", "trade relationships.", "military presence."]
+          },
+          {
+            start: "Mutapa expansion reflects political continuity because it inherited",
+            correct: "administrative and ritual traditions.",
+            wrong: ["completely new governance systems.", "Portuguese colonial structures.", "foreign religious systems."]
+          }
+        ]
+      },
+      {
+        name: "Great Zimbabwe Historiography & Archaeological Debate",
+        emoji: "📚",
+        quotes: [
+          {
+            start: "Early colonial interpretations wrongly attributed the site to foreign builders due to",
+            correct: "racial bias in archaeology.",
+            wrong: ["accurate Portuguese records.", "local oral confirmation.", "archaeological proof."]
+          },
+          {
+            start: "David Randall-MacIver (1905) was among the first to suggest",
+            correct: "indigenous African construction.",
+            wrong: ["Phoenician construction theory.", "Arabian origin theory.", "Roman settlement theory."]
+          },
+          {
+            start: "Peter Garlake's work emphasized that Great Zimbabwe should be understood through",
+            correct: "local Shona cultural frameworks.",
+            wrong: ["Mediterranean diffusion models.", "European medieval parallels.", "Persian imperial systems."]
+          },
+          {
+            start: "Modern archaeology rejects diffusionist theories because material evidence clearly shows",
+            correct: "indigenous technological development.",
+            wrong: ["foreign architectural origins.", "European medieval builders.", "Phoenician construction methods."]
+          }
+        ]
+      },
+      {
+        name: "Great Zimbabwe Population & Settlement Dynamics",
+        emoji: "👥",
+        quotes: [
+          {
+            start: "Population density suggests a semi-urban settlement with",
+            correct: "specialized zones and hierarchy.",
+            wrong: ["pure rural isolation.", "no permanent residents.", "nomadic seasonal camps."]
+          },
+          {
+            start: "Craftspeople likely lived in peripheral zones near",
+            correct: "workshops and production areas.",
+            wrong: ["elite ritual spaces only.", "foreign merchant quarters.", "abandoned stone walls."]
+          },
+          {
+            start: "Agricultural hinterlands supported the city through",
+            correct: "surplus grain production systems.",
+            wrong: ["imported food only.", "no farming activity.", "pure hunting economy."]
           }
         ]
       }
@@ -11108,6 +11509,137 @@ export const CIVILIZATIONS = [
             start: "Gupta cultural influence beyond India's borders showed a great civilization can extend influence",
             correct: "far beyond military conquest.",
             wrong: ["without any real influence.", "only within local boundaries.", "only through military power."]
+          }
+        ]
+      },
+      {
+        name: "Gupta Coinage & Monetary System",
+        emoji: "🪙",
+        quotes: [
+          {
+            start: "Gupta gold coins (dinaras) reflected imperial wealth and",
+            correct: "political legitimacy across regions.",
+            wrong: ["no economic importance.", "only ceremonial usage.", "pure barter economy."]
+          },
+          {
+            start: "Coin imagery of kings performing rituals showed rulers claimed",
+            correct: "divine and cultural authority.",
+            wrong: ["no religious connection.", "pure military symbolism.", "random artistic design."]
+          },
+          {
+            start: "Standardized coinage helped trade function efficiently by enabling",
+            correct: "trusted medium of exchange.",
+            wrong: ["pure barter systems only.", "no trade networks.", "economic isolation."]
+          },
+          {
+            start: "Gold coin purity indicated Gupta control over",
+            correct: "resource extraction and taxation.",
+            wrong: ["no mining systems.", "declining economic power.", "foreign dependency."]
+          }
+        ]
+      },
+      {
+        name: "Gupta Urban Life & Cities",
+        emoji: "🏙️",
+        quotes: [
+          {
+            start: "Cities like Pataliputra thrived because they combined administrative centers with",
+            correct: "trade and cultural activity.",
+            wrong: ["only military garrisons.", "isolated farming zones.", "abandoned settlements."]
+          },
+          {
+            start: "Urban prosperity depended on merchant guilds ensuring",
+            correct: "stable economic organization.",
+            wrong: ["random unregulated trade.", "complete economic collapse.", "no commercial activity."]
+          },
+          {
+            start: "City infrastructure such as roads and markets required",
+            correct: "state protection and funding.",
+            wrong: ["no maintenance system.", "pure village economy.", "random development."]
+          }
+        ]
+      },
+      {
+        name: "Gupta Military Organization",
+        emoji: "🛡️",
+        quotes: [
+          {
+            start: "Gupta armies relied on elephants, cavalry, and infantry coordinated to",
+            correct: "maximize battlefield flexibility.",
+            wrong: ["use only elephants.", "avoid coordination entirely.", "fight individually always."]
+          },
+          {
+            start: "Feudal-style land grants to soldiers ensured loyalty through",
+            correct: "revenue-based compensation.",
+            wrong: ["pure volunteer armies.", "no rewards system.", "random recruitment."]
+          },
+          {
+            start: "Military success depended on controlling regional kings while avoiding",
+            correct: "overextension of imperial forces.",
+            wrong: ["constant direct conquest.", "complete military inactivity.", "pure defensive warfare."]
+          }
+        ]
+      },
+      {
+        name: "Gupta Decline Economic Factors",
+        emoji: "📉",
+        quotes: [
+          {
+            start: "Decline accelerated when gold supplies decreased due to weakening control over",
+            correct: "long-distance trade routes.",
+            wrong: ["increased agricultural output.", "expanding taxation base.", "stable mining production."]
+          },
+          {
+            start: "Huna invasions disrupted trade, causing cities to lose",
+            correct: "economic stability and revenue.",
+            wrong: ["military independence.", "population growth.", "cultural development."]
+          },
+          {
+            start: "Reduced state revenue weakened ability to maintain",
+            correct: "administrative and military systems.",
+            wrong: ["religious unity.", "artistic production.", "local farming."]
+          }
+        ]
+      },
+      {
+        name: "Gupta Law & Justice System",
+        emoji: "⚖️",
+        quotes: [
+          {
+            start: "Judicial authority combined dharma traditions with written codes to ensure",
+            correct: "social order and fairness.",
+            wrong: ["arbitrary punishment systems.", "pure military law.", "lawless governance."]
+          },
+          {
+            start: "Village councils helped resolve disputes locally, reducing pressure on",
+            correct: "central administration.",
+            wrong: ["imperial authority entirely.", "merchant guilds only.", "religious institutions."]
+          },
+          {
+            start: "Legal stability encouraged trade because merchants trusted",
+            correct: "consistent enforcement of law.",
+            wrong: ["random taxation changes.", "constant warfare.", "legal chaos."]
+          }
+        ]
+      },
+      {
+        name: "Gupta Legacy & Cultural Influence",
+        emoji: "🌟",
+        quotes: [
+          {
+            start: "Gupta achievements influenced later Indian culture through advancements in",
+            correct: "science, art, and governance.",
+            wrong: ["only military tactics.", "temporary political unity.", "isolated regional customs."]
+          },
+          {
+            start: "Concept of zero and positional math spread globally through",
+            correct: "later cultural transmission.",
+            wrong: ["pure coincidence.", "military conquest only.", "no transmission."]
+          },
+          {
+            start: "Gupta era is remembered as a golden age because it balanced",
+            correct: "economic, cultural, and political stability.",
+            wrong: ["only military expansion.", "short-lived chaos.", "no real achievements."]
           }
         ]
       }
@@ -11507,6 +12039,132 @@ export const CIVILIZATIONS = [
             wrong: ["guaranteed absolute loyalty.", "undermined by its own authority.", "thriving through deception."]
           }
         ]
+      },
+      {
+        "name": "Trans-Saharan Trade: Gold, Salt & Wealth Networks",
+        "emoji": "🧂",
+        "quotes": [
+          {
+            "start": "Songhai wealth depended heavily on controlling trans-Saharan caravans trading gold and",
+            "correct": "salt across desert routes.",
+            "wrong": ["pure coastal maritime trade routes.", "only internal river commerce.", "no real long-distance trade."]
+          },
+          {
+            "start": "Salt from Sahara was essential because it preserved food and was exchanged for",
+            "correct": "West African gold wealth.",
+            "wrong": ["European manufactured goods.", "Indian Ocean spices only.", "pure agricultural labor."]
+          },
+          {
+            "start": "Caravan cities prospered because they provided water, security, and",
+            "correct": "taxation points for trade.",
+            "wrong": ["military conquest bases only.", "isolated farming communities.", "no commercial infrastructure."]
+          }
+        ]
+      },
+      {
+        "name": "Songhai Slavery & Labor Systems",
+        "emoji": "⛓️",
+        "quotes": [
+          {
+            "start": "Slaves were used in agriculture, military service, and domestic work because Songhai economy required",
+            "correct": "large-scale labor organization.",
+            "wrong": ["complete absence of labor.", "pure voluntary participation only.", "no agricultural production."]
+          },
+          {
+            "start": "Some slaves were integrated into households and could gain status through",
+            "correct": "service and loyalty.",
+            "wrong": ["immediate freedom always.", "automatic political power.", "no social mobility ever."]
+          },
+          {
+            "start": "Trans-Saharan slave trade connected Songhai to North Africa through",
+            "correct": "commercial exchange networks.",
+            "wrong": ["purely isolated local systems.", "no external trade.", "random informal exchanges."]
+          }
+        ]
+      },
+      {
+        "name": "Songhai Expansion into Hausa States",
+        "emoji": "🏹",
+        "quotes": [
+          {
+            "start": "Conquering Hausa states required combining military force with administration and",
+            "correct": "integration of local elites.",
+            "wrong": ["total cultural destruction.", "pure withdrawal policies.", "no governance structure."]
+          },
+          {
+            "start": "Cities like Kano and Katsina were important because they controlled",
+            "correct": "regional trade routes.",
+            "wrong": ["ocean navigation systems.", "Saharan desert isolation.", "pure military camps."]
+          },
+          {
+            "start": "Songhai influence in Hausa lands showed empire expansion depended on",
+            "correct": "trade control and diplomacy.",
+            "wrong": ["pure destruction and chaos.", "complete isolation policies.", "random migration patterns."]
+          }
+        ]
+      },
+      {
+        "name": "Songhai Bureaucracy & Tax Administration",
+        "emoji": "📊",
+        "quotes": [
+          {
+            "start": "Tax collectors ensured imperial revenue by regulating markets and",
+            "correct": "monitoring trade compliance.",
+            "wrong": ["eliminating all commerce.", "ignoring economic activity.", "random uncontrolled taxation."]
+          },
+          {
+            "start": "Inspectors were appointed to prevent corruption because unchecked officials could",
+            "correct": "weaken central authority.",
+            "wrong": ["strengthen imperial unity.", "increase military strength.", "improve trade networks."]
+          },
+          {
+            "start": "Efficient bureaucracy allowed Songhai to manage vast territories through",
+            "correct": "delegated administrative roles.",
+            "wrong": ["pure military control.", "complete lack of governance.", "random tribal leadership."]
+          }
+        ]
+      },
+      {
+        "name": "Songhai Islamic Scholarship & Sufism",
+        "emoji": "🕯️",
+        "quotes": [
+          {
+            "start": "Sufi brotherhoods spread Islam peacefully through teaching, trade, and",
+            "correct": "spiritual community networks.",
+            "wrong": ["military conquest alone.", "forced conversion campaigns.", "complete religious isolation."]
+          },
+          {
+            "start": "Islamic scholars in Timbuktu preserved knowledge through copying manuscripts and",
+            "correct": "teaching future generations.",
+            "wrong": ["destroying all texts.", "rejecting education entirely.", "isolating learning centers."]
+          },
+          {
+            "start": "Religious legitimacy strengthened rulers when they supported scholars and",
+            "correct": "respected Islamic learning.",
+            "wrong": ["rejected all religion.", "ignored scholarly authority.", "banned education systems."]
+          }
+        ]
+      },
+      {
+        "name": "Songhai River Economy & Agriculture Systems",
+        "emoji": "🌊",
+        "quotes": [
+          {
+            "start": "The Niger River enabled farming through seasonal flooding that provided",
+            "correct": "fertile agricultural land.",
+            "wrong": ["desert expansion only.", "no farming benefits.", "permanent drought conditions."]
+          },
+          {
+            "start": "River transport allowed goods to move efficiently because waterways were",
+            "correct": "faster than desert caravans.",
+            "wrong": ["completely unusable routes.", "always blocked by trade bans.", "militarily irrelevant zones."]
+          },
+          {
+            "start": "Agricultural surplus supported cities by feeding populations of",
+            "correct": "craftspeople and administrators.",
+            "wrong": ["only nomadic hunters.", "pure military forces.", "isolated tribal groups."]
+          }
+        ]
       }
     ]
   },
@@ -11858,6 +12516,132 @@ export const CIVILIZATIONS = [
             wrong: ["was completely perfectly stable.", "collapsed only because of Rome.", "ended in a peaceful transition."]
           }
         ]
+      },
+      {
+        name: "Imperial Identity & Legitimacy",
+        emoji: "🪙",
+        quotes: [
+          {
+            start: "Parthian kings claimed legitimacy through Arsacid lineage and",
+            correct: "Persian imperial tradition continuity.",
+            wrong: ["Greek democratic institutions.", "Roman senatorial approval.", "steppe tribal equality."]
+          },
+          {
+            start: "Royal ideology combined Iranian kingship ideals with Hellenistic imagery to",
+            correct: "appeal to diverse populations.",
+            wrong: ["reject all cultural blending.", "eliminate royal symbolism.", "destroy Persian traditions."]
+          },
+          {
+            start: "Coins bearing royal portraits served to communicate authority across the empire by",
+            correct: "standardizing royal representation.",
+            wrong: ["replacing all taxation systems.", "eliminating trade networks.", "preventing local governance."]
+          }
+        ]
+      },
+      {
+        name: "Agriculture, Cities & Resources",
+        emoji: "🌾",
+        quotes: [
+          {
+            start: "Mesopotamian agriculture under Parthia relied on irrigation systems supporting",
+            correct: "large urban populations.",
+            wrong: ["nomadic pastoralism only.", "desert hunting economies.", "ocean-based farming."]
+          },
+          {
+            start: "Rural estates owned by nobles produced surplus grain used for",
+            correct: "taxation and military supply.",
+            wrong: ["purely religious offerings.", "no economic purpose.", "isolated household use."]
+          },
+          {
+            start: "Cities like Ctesiphon grew because river access enabled",
+            correct: "commerce and administrative control.",
+            wrong: ["military-only occupation.", "agricultural isolation.", "no population growth."]
+          }
+        ]
+      },
+      {
+        name: "Religion & Zoroastrian Influence",
+        emoji: "🔥",
+        quotes: [
+          {
+            start: "Zoroastrian traditions influenced Parthian royal ideology through emphasis on",
+            correct: "divine order and kingship.",
+            wrong: ["atheistic governance systems.", "Greek polytheism replacement.", "Roman imperial cult."]
+          },
+          {
+            start: "Fire temples and rituals maintained continuity of Iranian religious identity across",
+            correct: "diverse regional populations.",
+            wrong: ["complete cultural erasure.", "exclusive Greek worship.", "no religious practice."]
+          },
+          {
+            start: "Religious tolerance helped maintain stability by allowing subject peoples to",
+            correct: "preserve local traditions.",
+            wrong: ["convert only to Zoroastrianism.", "lose all cultural identity.", "face constant persecution."]
+          }
+        ]
+      },
+      {
+        name: "Military Organization & Noble Armies",
+        emoji: "🛡️",
+        quotes: [
+          {
+            start: "Parthian armies depended on noble levies because central state forces were",
+            correct: "relatively limited in size.",
+            wrong: ["fully professional standing army.", "completely unnecessary for war.", "entirely mercenary-based."]
+          },
+          {
+            start: "Each noble maintained household troops that could be mobilized quickly during",
+            correct: "major military campaigns.",
+            wrong: ["peaceful agricultural seasons.", "religious ceremonies only.", "tax collection duties."]
+          },
+          {
+            start: "Heavy cataphract cavalry provided shock combat that complemented horse archers through",
+            correct: "combined arms warfare.",
+            wrong: ["pure infantry dominance.", "naval superiority tactics.", "siege-only strategies."]
+          }
+        ]
+      },
+      {
+        name: "Steppe Heritage & Nomadic Influence",
+        emoji: "🏇",
+        quotes: [
+          {
+            start: "Parthian military success reflected steppe traditions emphasizing mobility, archery, and",
+            correct: "horse-based warfare mastery.",
+            wrong: ["naval warfare dominance.", "siege engineering focus.", "static infantry formations."]
+          },
+          {
+            start: "Nomadic heritage influenced Parthian political structure by valuing noble autonomy and",
+            correct: "personal loyalty bonds.",
+            wrong: ["centralized bureaucracy only.", "written legal codes.", "democratic assemblies."]
+          },
+          {
+            start: "Training from childhood ensured Parthian elites were skilled in horseback combat and",
+            correct: "archery precision.",
+            wrong: ["agricultural irrigation design.", "philosophical debate only.", "naval navigation skills."]
+          }
+        ]
+      },
+      {
+        name: "Legacy & Historical Influence",
+        emoji: "📜",
+        quotes: [
+          {
+            start: "Parthian military tactics influenced later Persian and Central Asian armies through",
+            correct: "mobile cavalry warfare.",
+            wrong: ["naval engineering systems.", "Greek infantry reforms.", "Roman legal codes."]
+          },
+          {
+            start: "The Silk Road system under Parthian control shaped Eurasian trade for centuries by",
+            correct: "connecting East and West.",
+            wrong: ["isolating all civilizations.", "ending all commerce.", "destroying trade routes."]
+          },
+          {
+            start: "Parthian governance demonstrated that empires could survive through decentralized systems when",
+            correct: "noble loyalty was maintained.",
+            wrong: ["absolute central control existed.", "no military conflict occurred.", "trade completely disappeared."]
+          }
+        ]
       }
     ]
   },
@@ -12192,6 +12976,116 @@ export const CIVILIZATIONS = [
             start: "Maintaining a navy protected trade routes, contested maritime regions, and",
             correct: "projected power beyond land territories.",
             wrong: ["had very little strategic value.", "was largely just symbolic.", "proved entirely unnecessary."]
+          }
+        ]
+      },
+      {
+        name: "Seleucid Religion & Imperial Cult",
+        emoji: "🛕",
+        quotes: [
+          {
+            start: "Seleucid kings strengthened authority by associating themselves with divine kingship and",
+            correct: "Greek-style ruler cult worship.",
+            wrong: ["complete rejection of religion.", "no public religious presence.", "purely secular governance systems."]
+          },
+          {
+            start: "Temples across the empire functioned as centers of worship, taxation, and",
+            correct: "political legitimacy for rulers.",
+            wrong: ["purely private worship only.", "military training facilities only.", "independent city governments."]
+          },
+          {
+            start: "Royal offerings to local gods demonstrated Seleucid policy of",
+            correct: "religious accommodation and integration.",
+            wrong: ["religious destruction and suppression.", "total atheistic governance.", "cultural isolation policies."]
+          },
+          {
+            start: "Alexander’s legacy influenced Seleucid kings to adopt divine imagery to",
+            correct: "strengthen dynastic legitimacy.",
+            wrong: ["abolish monarchy entirely.", "reject all symbolism.", "avoid public authority."]
+          }
+        ]
+      },
+      {
+        name: "Seleucid Agriculture & Infrastructure",
+        emoji: "🌾",
+        quotes: [
+          {
+            start: "Seleucid prosperity depended heavily on irrigated agriculture in Mesopotamia and",
+            correct: "fertile river valley systems.",
+            wrong: ["desert-only pastoralism.", "mountain mining economies.", "ocean-based farming systems."]
+          },
+          {
+            start: "Royal investment in canals and irrigation increased productivity by",
+            correct: "expanding arable farmland.",
+            wrong: ["reducing agricultural output.", "destroying rural settlements.", "eliminating farming entirely."]
+          },
+          {
+            start: "Tax revenue from agriculture formed the backbone of Seleucid state finances because",
+            correct: "land was primary wealth source.",
+            wrong: ["trade was completely absent.", "coinage had no role.", "warfare generated all income."]
+          }
+        ]
+      },
+      {
+        name: "Seleucid Diplomacy & Foreign Relations",
+        emoji: "🤝",
+        quotes: [
+          {
+            start: "Seleucid diplomacy relied on marriage alliances, treaties, and",
+            correct: "strategic hostage exchanges.",
+            wrong: ["complete diplomatic isolation.", "constant total war.", "refusal to negotiate."]
+          },
+          {
+            start: "Relations with Rome shifted from cooperation to conflict as Roman power",
+            correct: "expanded across the Mediterranean.",
+            wrong: ["collapsed immediately.", "remained insignificant.", "disappeared entirely."]
+          },
+          {
+            start: "Eastern diplomacy with Parthia often involved temporary peace agreements that",
+            correct: "rarely produced lasting stability.",
+            wrong: ["created permanent unity.", "eliminated all borders.", "ended all conflicts forever."]
+          }
+        ]
+      },
+      {
+        name: "Seleucid Urban Life & Society",
+        emoji: "🏙️",
+        quotes: [
+          {
+            start: "Seleucid cities combined Greek institutions with local populations creating",
+            correct: "multicultural urban societies.",
+            wrong: ["completely homogenous populations.", "no urban development.", "isolated rural communities."]
+          },
+          {
+            start: "Gymnasiums served as centers of education, athletics, and",
+            correct: "Greek cultural identity formation.",
+            wrong: ["military fortifications only.", "agricultural storage sites.", "religious temples exclusively."]
+          },
+          {
+            start: "City life encouraged literacy in Greek, especially among",
+            correct: "administrative and elite classes.",
+            wrong: ["only rural farmers.", "all nomadic groups.", "no one at all."]
+          }
+        ]
+      },
+      {
+        name: "Seleucid Internal Conflict & Instability",
+        emoji: "⚠️",
+        quotes: [
+          {
+            start: "Frequent usurpations of the throne weakened the empire because generals could",
+            correct: "declare competing kings.",
+            wrong: ["never challenge authority.", "only serve peacefully.", "refuse military involvement."]
+          },
+          {
+            start: "Civil wars drained resources and prevented sustained resistance against",
+            correct: "external invasions and rebellions.",
+            wrong: ["internal peace completely.", "economic prosperity growth.", "cultural unity expansion."]
+          },
+          {
+            start: "Fragmentation of authority meant governors often acted independently from",
+            correct: "central Seleucid control.",
+            wrong: ["absolute royal obedience.", "total administrative unity.", "no local governance."]
           }
         ]
       }
@@ -12537,6 +13431,90 @@ export const CIVILIZATIONS = [
             start: "The Senchas Már and other Brehon law texts document",
             correct: "property rights, family law, and social obligations.",
             wrong: ["purely military tactical instructions.", "exclusively religious ceremonial practices.", "only commercial trade routes."]
+          }
+        ]
+      },
+      {
+        name: "Celtic Regional Diversity (Britain, Gaul, Ireland)",
+        emoji: "🗺️",
+        quotes: [
+          {
+            start: "Celtic cultures were not uniform, but varied significantly between Gaul, Britain, and",
+            correct: "Ireland with distinct regional identities.",
+            wrong: ["a single unified Celtic empire.", "completely identical societies everywhere.", "no cultural variation at all."]
+          },
+          {
+            start: "Irish Celtic societies developed differently due to less Roman influence, preserving",
+            correct: "earlier legal and oral traditions.",
+            wrong: ["complete Roman cultural replacement.", "no legal systems whatsoever.", "purely Viking-origin structures."]
+          },
+          {
+            start: "Gaulish tribes were more heavily urbanized due to contact with Mediterranean trade and",
+            correct: "early Roman expansion pressures.",
+            wrong: ["total isolation from Europe.", "lack of agricultural development.", "no meaningful trade networks."]
+          }
+        ]
+      },
+      {
+        name: "Celtic Settlements: Hillforts & Oppida",
+        emoji: "🏰",
+        quotes: [
+          {
+            start: "Hillforts served as defensive strongholds, elite residences, and centers for",
+            correct: "regional political authority.",
+            wrong: ["purely agricultural storage sites.", "Roman administrative buildings.", "temporary hunting camps only."]
+          },
+          {
+            start: "Oppida were large fortified proto-urban centers in late Iron Age Europe that functioned as",
+            correct: "trade, craft, and political hubs.",
+            wrong: ["purely religious pilgrimage sites.", "Roman military bases.", "nomadic seasonal camps."]
+          },
+          {
+            start: "Construction of hillfort walls required coordinated labor and knowledge of",
+            correct: "earthworks and timber engineering.",
+            wrong: ["metal smelting technology only.", "oceanic shipbuilding techniques.", "stone pyramid construction methods."]
+          }
+        ]
+      },
+      {
+        name: "Celtic Iron Technology & Economy",
+        emoji: "⚒️",
+        quotes: [
+          {
+            start: "Iron metallurgy allowed Celts to produce stronger weapons and tools compared to earlier bronze systems, enabling",
+            correct: "agricultural and military expansion.",
+            wrong: ["complete technological stagnation.", "no real material improvements.", "exclusive reliance on stone tools."]
+          },
+          {
+            start: "Celtic smiths held high social status because metalworking combined technical skill with",
+            correct: "ritual and symbolic importance.",
+            wrong: ["no cultural recognition.", "purely agricultural function.", "random artistic decoration only."]
+          },
+          {
+            start: "Iron tools improved farming productivity by allowing more efficient clearing of",
+            correct: "forests and soil cultivation.",
+            wrong: ["ocean navigation routes.", "urban planning systems.", "astronomical prediction methods."]
+          }
+        ]
+      },
+      {
+        name: "Celtic Roman Interaction & Bias in Sources",
+        emoji: "📜",
+        quotes: [
+          {
+            start: "Most written accounts of Celtic tribes come from Roman authors who often portrayed them as",
+            correct: "barbaric compared to Rome.",
+            wrong: ["fully objective historians.", "Celtic sympathizers.", "neutral ethnographers."]
+          },
+          {
+            start: "Archaeology shows Roman descriptions were sometimes exaggerated for political and",
+            correct: "propagandistic purposes.",
+            wrong: ["purely scientific accuracy.", "Celtic self-written records.", "complete neutrality always."]
+          },
+          {
+            start: "Roman conquest did not eliminate Celtic culture, which persisted through",
+            correct: "adaptation and cultural blending.",
+            wrong: ["total cultural extinction.", "immediate disappearance everywhere.", "no surviving traditions."]
           }
         ]
       }
@@ -12885,6 +13863,111 @@ export const CIVILIZATIONS = [
             wrong: ["European colonial written records.", "industrial manufacturing knowledge.", "ocean navigation technologies."]
           }
         ]
+      },
+      {
+        name: "Mississippian Ritual Economy & Redistribution",
+        emoji: "🎁",
+        quotes: [
+          {
+            start: "Mississippian elites maintained authority by hosting feasts and redistributing goods, reinforcing a system of",
+            correct: "reciprocal obligation and loyalty.",
+            wrong: ["purely forced labor extraction.", "complete economic equality.", "no exchange systems."]
+          },
+          {
+            start: "Feasting events at mound centers helped elites convert surplus food into",
+            correct: "political power and social bonds.",
+            wrong: ["permanent stored wealth.", "written legal contracts.", "military technology only."]
+          },
+          {
+            start: "Redistribution systems ensured goods flowed from elite centers back to communities during",
+            correct: "ritual and seasonal gatherings.",
+            wrong: ["random uncontrolled trade.", "pure market capitalism.", "no structured exchange."]
+          }
+        ]
+      },
+      {
+        name: "Mississippian Regional Diversity (Critical Clarification)",
+        emoji: "🗺️",
+        quotes: [
+          {
+            start: "Mississippian culture was not a single empire but a network of",
+            correct: "regionally distinct chiefdoms.",
+            wrong: ["unified centralized nation.", "single ethnic group.", "European colonial province."]
+          },
+          {
+            start: "Cahokia, Etowah, Moundville, and Spiro show that Mississippian societies developed",
+            correct: "independent political trajectories.",
+            wrong: ["identical centralized government.", "no cultural variation.", "single founding capital."]
+          },
+          {
+            start: "Local traditions shaped Mississippian art styles, meaning symbols varied across",
+            correct: "different regional centers.",
+            wrong: ["only Cahokia controlled style.", "uniform artistic system everywhere.", "no regional variation existed."]
+          }
+        ]
+      },
+      {
+        name: "Mississippian Health, Diet & Bioarchaeology",
+        emoji: "🦴",
+        quotes: [
+          {
+            start: "Skeletal analysis shows maize-heavy diets sometimes led to",
+            correct: "nutritional stress and dental disease.",
+            wrong: ["perfect long-term health.", "no evidence of diet issues.", "complete immunity to disease."]
+          },
+          {
+            start: "Increased population density at Cahokia is associated with higher rates of",
+            correct: "infectious disease transmission.",
+            wrong: ["perfect sanitation systems.", "no health challenges.", "modern medical care."]
+          },
+          {
+            start: "Burial studies reveal differences in health status between elites and commoners, suggesting",
+            correct: "unequal access to resources.",
+            wrong: ["identical living conditions.", "no social stratification.", "random burial placement."]
+          }
+        ]
+      },
+      {
+        name: "Mississippian Timekeeping & Calendrical Knowledge",
+        emoji: "🪶",
+        quotes: [
+          {
+            start: "Structures like Cahokia Woodhenge indicate tracking of solar cycles for",
+            correct: "seasonal and ceremonial timing.",
+            wrong: ["written astronomical tables.", "ocean navigation routes.", "metal-based calendars."]
+          },
+          {
+            start: "Agricultural planning depended on careful observation of seasonal changes and",
+            correct: "river flooding patterns.",
+            wrong: ["lunar eclipses only.", "random guesswork farming.", "written almanacs."]
+          },
+          {
+            start: "Public ceremonies were often synchronized with",
+            correct: "solar and agricultural cycles.",
+            wrong: ["random calendar dates.", "European religious holidays.", "purely political decisions."]
+          }
+        ]
+      },
+      {
+        name: "Mississippian Collapse & Post-Cahokia Transformations",
+        emoji: "🌫️",
+        quotes: [
+          {
+            start: "After Cahokia's decline, populations shifted toward smaller dispersed settlements and",
+            correct: "regionalized political systems.",
+            wrong: ["complete disappearance.", "European-style cities.", "ocean-based societies."]
+          },
+          {
+            start: "Environmental degradation and deforestation contributed to reduced agricultural productivity and",
+            correct: "social restructuring.",
+            wrong: ["instant civilization collapse only.", "improved economic output.", "technological stagnation alone."]
+          },
+          {
+            start: "Mississippian cultural elements persisted in descendant societies through",
+            correct: "ritual and symbolic continuity.",
+            wrong: ["complete cultural extinction.", "European replacement systems.", "industrial transformation."]
+          }
+        ]
       }
     ]
   },
@@ -13173,6 +14256,60 @@ export const CIVILIZATIONS = [
             wrong: ["US federal bilingual education funding.", "Haudenosaunee Confederacy central curriculum.", "Canadian provincial school system."]
           }
         ]
+      },
+      {
+        // Condolence ceremony is foundational to Haudenosaunee governance continuity
+        name: "Condolence Ceremony & Political Renewal System (Documented)",
+        emoji: "🌿",
+        quotes: [
+          {
+            start: "The Haudenosaunee Condolence Ceremony is a political ritual used to restore leadership after death — it functions to",
+            correct: "symbolically replace the deceased leader.",
+            wrong: ["elect new chiefs democratically.", "assign military commanders.", "ratify treaties with Europeans."]
+          },
+          {
+            start: "The ceremony includes wiping away grief metaphorically, allowing leaders to think clearly again, meaning governance begins only after",
+            correct: "emotional balance is restored.",
+            wrong: ["war captives are exchanged.", "wampum belts are counted.", "European approval is granted."]
+          },
+          {
+            start: "Wampum strings are used during the Condolence Ceremony to clear the mind of the new chief, representing",
+            correct: "removal of grief and confusion.",
+            wrong: ["payment of tribute taxes.", "recording military victories.", "electoral voting results."]
+          },
+          {
+            start: "Without the Condolence Ceremony, a sachem cannot properly assume office, meaning political authority requires",
+            correct: "ritual legitimacy, not only nomination.",
+            wrong: ["European recognition first.", "warrior approval only.", "hereditary succession alone."]
+          }
+        ]
+      },
+      {
+        // The Longhouse is both physical and political model of confederacy unity
+        name: "The Longhouse Political Structure (Governance Model)",
+        emoji: "🏠",
+        quotes: [
+          {
+            start: "The Haudenosaunee Confederacy is often described as a Longhouse — Mohawk at one end and Seneca at the other — meaning political unity is expressed as",
+            correct: "shared house with distinct national roles.",
+            wrong: ["centralized monarchy system.", "European-style parliament.", "military command chain."]
+          },
+          {
+            start: "The central fire of the Longhouse is located at Onondaga, symbolizing",
+            correct: "council unity and decision-making center.",
+            wrong: ["military headquarters.", "religious priesthood control.", "European diplomatic authority."]
+          },
+          {
+            start: "The Longhouse metaphor reflects governance where each nation maintains autonomy while participating in a shared system, meaning the confederacy is",
+            correct: "federated, not centralized.",
+            wrong: ["fully unified empire.", "colonial administrative structure.", "tribal hierarchy system."]
+          },
+          {
+            start: "Political decisions in the Longhouse model require consensus across nations, reflecting a system where authority is",
+            correct: "distributed across member nations.",
+            wrong: ["controlled by Onondaga alone.", "decided by majority vote.", "delegated to sachems individually."]
+          }
+        ]
       }
     ]
   },
@@ -13449,6 +14586,55 @@ export const CIVILIZATIONS = [
             start: "The ancestral Pueblo archaeological tradition (formerly called \"Anasazi\" — a Navajo term now considered inappropriate) is more accurately called",
             correct: "Ancestral Puebloans.",
             wrong: ["Ancient Ones.", "Pre-Columbian Cliff Dwellers.", "Hohokam."]
+          }
+        ]
+      },
+      {
+        // Core archaeological timeline linking Basketmaker → Pueblo phases
+        name: "Ancestral Pueblo Chronology & Regional Development (Archaeological Record)",
+        emoji: "⏳",
+        quotes: [
+          {
+            start: "The cultural sequence of the Ancestral Puebloans is divided into Basketmaker II–III and Pueblo I–IV phases, spanning roughly from",
+            correct: "500 BCE to 1600 CE.",
+            wrong: ["0–500 CE.", "1000–2000 CE.", "2000 BCE–500 BCE."]
+          },
+          {
+            start: "The Pueblo II–III period (900–1300 CE) includes the development of major centers such as Chaco Canyon and Mesa Verde, showing",
+            correct: "strong regional organization and architectural complexity.",
+            wrong: ["purely nomadic lifeways.", "European influence before contact.", "a unified centralized state."]
+          },
+          {
+            start: "The abandonment of major sites like Chaco Canyon and Mesa Verde around the 13th century is archaeologically linked to",
+            correct: "climate-driven drought and environmental stress.",
+            wrong: ["Spanish colonization.", "internal warfare alone.", "Maya migrations into the region."]
+          },
+          {
+            start: "After 1300 CE, Pueblo populations reorganized into smaller, more resilient settlements in present-day New Mexico and Arizona, reflecting",
+            correct: "a shift toward more stable water-access environments.",
+            wrong: ["complete cultural disappearance.", "migration to Central America.", "fusion with Mesopotamian societies."]
+          }
+        ]
+      },
+      {
+        // Key social structure: Pueblo kinship is primarily matrilineal
+        name: "Pueblo Kinship & Clan Systems (Matrilineal Organization)",
+        emoji: "🧬",
+        quotes: [
+          {
+            start: "Many Pueblo societies, such as the Hopi and Zuni, are organized into matrilineal clans, meaning descent and identity are passed through",
+            correct: "the mother's line.",
+            wrong: ["the father's line.", "kiva priests.", "Spanish cabildo officials."]
+          },
+          {
+            start: "Residence patterns in many Pueblo communities are traditionally matrilocal, meaning men often move into their wife's clan household, showing",
+            correct: "strong social cohesion through female kin networks.",
+            wrong: ["strict patriarchal authority structures.", "Spanish colonial enforcement.", "military hierarchy dominance."]
+          },
+          {
+            start: "Pueblo clans function as fundamental social and ceremonial units, regulating marriage, ritual duties, and community organization through",
+            correct: "hereditary and ceremonial responsibilities.",
+            wrong: ["elected political offices.", "military commanders.", "colonial administrators."]
           }
         ]
       }
@@ -13732,6 +14918,60 @@ export const CIVILIZATIONS = [
             wrong: ["1 million people.", "100,000 people.", "500 people."]
           }
         ]
+      },
+      {
+        // Hydrology is central to Tiwanaku survival model (Kolata, Erickson).
+        name: "Tiwanaku Hydrology & Environmental Engineering (Documented)",
+        emoji: "💧",
+        quotes: [
+          {
+            start: "Tiwanaku urban planning incorporated drainage canals and controlled water flow systems that functioned as",
+            correct: "microclimate regulation infrastructure.",
+            wrong: ["purely symbolic waterways.", "defensive ditch systems.", "natural lake overflow only."]
+          },
+          {
+            start: "The raised fields were integrated with artificial canals that created localized thermal buffering, reducing",
+            correct: "night-time frost risk for crops.",
+            wrong: ["river flooding risk only.", "soil erosion exclusively.", "military access routes."]
+          },
+          {
+            start: "Hydrological engineering at Tiwanaku is interpreted by Alan Kolata as evidence of",
+            correct: "state-level ecological management.",
+            wrong: ["random agricultural adaptation.", "Inca-period innovation.", "natural wetland farming only."]
+          },
+          {
+            start: "Water management structures at Tiwanaku indicate long-term planning requiring",
+            correct: "coordinated labor organization.",
+            wrong: ["individual household effort.", "short-term seasonal use.", "post-Inca construction."]
+          }
+        ]
+      },
+      {
+        // Tiwanaku–Wari interaction is a key Andean archaeology debate (Isbell, Jennings).
+        name: "Tiwanaku–Wari Interaction Sphere (Documented Debate)",
+        emoji: "🔄",
+        quotes: [
+          {
+            start: "Tiwanaku and Wari cultures coexisted during the Middle Horizon (~600–1000 CE), forming",
+            correct: "parallel interaction spheres in the Andes.",
+            wrong: ["a unified empire.", "successive dynasties.", "identical civilizations."]
+          },
+          {
+            start: "Archaeological evidence shows overlapping iconographic motifs between Tiwanaku and Wari suggesting",
+            correct: "religious and ideological exchange.",
+            wrong: ["direct political unification.", "Wari colonization of Tiwanaku.", "complete cultural separation."]
+          },
+          {
+            start: "Scholars such as William Isbell argue that Wari represents a more centralized state model compared to Tiwanaku's",
+            correct: "networked or heterarchical structure.",
+            wrong: ["purely nomadic system.", "colonial Spanish reinterpretation.", "Inca-origin bureaucracy."]
+          },
+          {
+            start: "The relationship between Tiwanaku and Wari is best described in current archaeology as",
+            correct: "non-imperial interaction with shared symbolism.",
+            wrong: ["single unified empire.", "direct military conflict only.", "post-Tiwanaku development."]
+          }
+        ]
       }
     ]
   },
@@ -13992,6 +15232,61 @@ export const CIVILIZATIONS = [
             start: "The Mapuche population today numbers approximately 1.7 million in Chile alone — making them",
             correct: "the largest indigenous group in Chile.",
             wrong: ["a minority within Chile's indigenous peoples.", "primarily located in Argentina.", "a recently recognized ethnic group."]
+          }
+        ]
+      },
+      {
+        // Lautaro: documented in Spanish chronicles (Ercilla, Lobera).
+        // Key figure of Arauco War; escaped captivity and led Mapuche resistance.
+        name: "Lautaro (War Leader — Arauco War Sources)",
+        emoji: "🔥",
+        quotes: [
+          {
+            start: "Lautaro was captured young by Spanish forces and served in Valdivia’s household before",
+            correct: "escaping and joining Mapuche resistance.",
+            wrong: ["becoming a Spanish governor.", "converting fully to Spain.", "ending the Arauco War."]
+          },
+          {
+            start: "Spanish chroniclers, including Alonso de Ercilla, describe Lautaro as a military leader who introduced",
+            correct: "new cavalry-based tactics.",
+            wrong: ["firearms to Mapuche armies.", "European fortification systems.", "peace treaties with Spain."]
+          },
+          {
+            start: "The Battle of Tucapel (1553) resulted in the death of Pedro de Valdivia and is attributed to Lautaro’s command of",
+            correct: "coordinated Mapuche forces.",
+            wrong: ["Spanish reinforcements arriving.", "Inca allied intervention.", "peace negotiations failing."]
+          },
+          {
+            start: "Lautaro’s military role is documented primarily through Spanish colonial chronicles, meaning the narrative reflects",
+            correct: "Spanish perspective biases.",
+            wrong: ["direct Mapuche written records.", "neutral eyewitness reports.", "Lautaro’s own writings."]
+          }
+        ]
+      },
+      {
+        // Butalmapu: regional Mapuche confederations documented in colonial records.
+        name: "Butalmapu (Regional Confederations — Documented)",
+        emoji: "🗺️",
+        quotes: [
+          {
+            start: "Mapuche territory was organized into Butalmapu — large regional confederations documented in",
+            correct: "Spanish colonial sources.",
+            wrong: ["Inca administrative records.", "modern Chilean law.", "Mapuche written archives."]
+          },
+          {
+            start: "Butalmapu were not centralized states but flexible alliances that enabled",
+            correct: "coordinated wartime resistance.",
+            wrong: ["hereditary monarchy systems.", "Spanish governance adoption.", "fixed national borders."]
+          },
+          {
+            start: "Colonial records describe multiple Butalmapu regions (north, south, east, west) showing Mapuche society was",
+            correct: "regionally structured and autonomous.",
+            wrong: ["centrally unified under one king.", "controlled by Spanish officials.", "based on urban centers."]
+          },
+          {
+            start: "Butalmapu assemblies allowed coordination between lonkos during conflicts, reflecting a system of",
+            correct: "decentralized political federation.",
+            wrong: ["imperial bureaucratic hierarchy.", "religious theocracy.", "Spanish colonial councils."]
           }
         ]
       }
@@ -14285,242 +15580,104 @@ export const CIVILIZATIONS = [
             wrong: ["Mongol through Genghis Khan's line.", "Persian through his mother's line.", "mixed Mongol and Chinese."]
           }
         ]
-      }
-    ]
-  },  
-  {
-    id: "mali",
-    name: "Mali Empire (Evidence-Based)",
-    emoji: "🟢",
-    color: 0x558b2f,
-    colorHex: "#558b2f",
-    bg: "#0a0a0a",
-    authors: [
+      },
       {
-        // Mansa Musa I: reigned ~1312–1337 CE. His hajj (1324–25) is documented by Arab chroniclers
-        // including al-Umari and Ibn Khaldun. No direct quotes from Mansa Musa himself survive —
-        // all evidence comes through Arabic intermediaries writing years after the events.
-        name: "Mansa Musa I (Via Arab Chroniclers — No Direct Quotes)",
-        emoji: "👑",
+        name: "Subutai & Mongol Strategic Warfare (Documented)",
+        emoji: "🧠",
         quotes: [
           {
-            start: "Mansa Musa's hajj of 1324–25 is documented primarily by the Egyptian historian",
-            correct: "al-Umari,",
-            wrong: ["Ibn Battuta,", "al-Masudi,", "al-Idrisi,"]
+            start: "Subutai is described in Persian sources as Genghis Khan's",
+            correct: "greatest military strategist.",
+            wrong: ["religious advisor.", "naval commander.", "court historian."]
           },
           {
-            start: "Al-Umari records that Mansa Musa distributed so much gold in Cairo that he",
-            correct: "caused gold prices to fall for a decade.",
-            wrong: ["bought the city outright.", "angered the Egyptian sultan.", "converted Egypt to Islam."]
+            start: "Subutai coordinated multi-front campaigns across Eurasia using",
+            correct: "synchronized cavalry operations.",
+            wrong: ["static siege armies.", "naval blockades.", "defensive fortresses."]
           },
           {
-            start: "No direct quotes from Mansa Musa himself survive — meaning statements attributed to him are",
-            correct: "modern reconstructions, not documented speech.",
-            wrong: ["verified in Arabic manuscripts.", "preserved in oral tradition accurately.", "confirmed by Timbuktu scholars."]
-          },
-          {
-            start: "Ibn Khaldun's account describes Mansa Musa as a ruler who combined Islamic piety with",
-            correct: "vast wealth and political power.",
-            wrong: ["military conquest above all.", "rejection of local traditions.", "distrust of scholars."]
-          },
-          {
-            start: "Mansa Musa brought the architect al-Sahili from Cairo to Mali — resulting in the construction of",
-            correct: "mosques and royal buildings.",
-            wrong: ["a defensive wall around Timbuktu.", "a university on Egyptian model.", "a new capital city."]
+            start: "The European campaign of 1241 was planned by Subutai as",
+            correct: "a multi-army pincer movement.",
+            wrong: ["a single invasion force.", "a defensive retreat plan.", "a failed expedition."]
           }
         ]
       },
       {
-        // Ibn Battuta: visited Mali ~1352–53 CE. His Rihla documents observations directly.
-        // His account is a primary source but reflects his own biases as a Moroccan Muslim scholar.
-        name: "Ibn Battuta's Observations of Mali (Rihla, ~1352 CE)",
-        emoji: "✍️",
+        name: "Khwarazmian War (Documented Destruction)",
+        emoji: "🔥",
         quotes: [
           {
-            start: "Ibn Battuta writes in his Rihla that the people of Mali are characterized by their",
-            correct: "hatred of injustice.",
-            wrong: ["love of warfare.", "rejection of trade.", "distrust of foreigners."]
+            start: "The war began after Khwarazmian Shah executed Mongol envoys",
+            correct: "violating diplomatic immunity.",
+            wrong: ["invaded Mongolia first.", "converted to Buddhism.", "signed a peace treaty."]
           },
           {
-            start: "Ibn Battuta was critical of Mali customs he found un-Islamic, including women appearing in public",
-            correct: "without veils.",
-            wrong: ["without husbands.", "in merchant roles.", "in royal courts."]
+            start: "Genghis Khan responded with total war against",
+            correct: "Khwarazmian Empire cities.",
+            wrong: ["Chinese dynasties.", "European kingdoms.", "Japanese provinces."]
+          },
+        ]
+      },
+      {
+        name: "Mongol Religious Policy (Documented Tolerance)",
+        emoji: "🕯️",
+        quotes: [
+          {
+            start: "William of Rubruck reports Mongols tolerated multiple religions",
+            correct: "without official preference.",
+            wrong: ["favoring Christianity exclusively.", "banning Islam entirely.", "imposing Buddhism only."]
           },
           {
-            start: "Ibn Battuta noted that in Mali, women were not secluded — an observation he recorded with",
-            correct: "disapproval, not admiration.",
-            wrong: ["admiration and praise.", "neutral detachment.", "diplomatic silence."]
+            start: "Genghis Khan consulted shamans but ruled that religion should",
+            correct: "not interfere with governance.",
+            wrong: ["control military decisions.", "replace legal authority.", "determine taxation policy."]
           },
           {
-            start: "Ibn Battuta described the Mali sultan's court as highly ceremonial — subjects approached the ruler",
-            correct: "on their knees, sprinkling dust on their heads.",
-            wrong: ["bearing gold as tribute.", "reciting Quranic verses.", "accompanied by griots."]
-          },
-          {
-            start: "Ibn Battuta's account confirms that the markets of Mali were",
-            correct: "orderly and safe for merchants.",
-            wrong: ["controlled by Egyptian traders.", "restricted to Muslims only.", "taxed at rates he found unfair."]
-          },
-          {
-            start: "Ibn Battuta praised Mali's security, noting that a traveler could journey across the empire",
-            correct: "without fear of robbery.",
-            wrong: ["only with royal escort.", "only along river routes.", "if carrying official documents."]
+            start: "Religious leaders in Mongol Empire were exempt from",
+            correct: "most taxation duties.",
+            wrong: ["all legal obligations.", "military service only.", "trade restrictions."]
           }
         ]
       },
       {
-        // Griots (Jali): oral historians of the Mande people. Their tradition is documented but
-        // oral transmission means texts vary. The Sundiata epic exists in multiple versions.
-        // Key scholarly source: Niane (1965) — itself a written reconstruction from oral tradition.
-        name: "Griots (Jali) — Oral Tradition (Documented with Caveats)",
-        emoji: "🎵",
+        name: "Mongol Administrative Infrastructure",
+        emoji: "📦",
         quotes: [
           {
-            start: "The griot (jali) tradition is documented as the primary means of preserving",
-            correct: "Mande historical and genealogical memory.",
-            wrong: ["royal tax records.", "Islamic legal rulings.", "trade route maps."]
+            start: "The paiza tablet functioned as imperial passport",
+            correct: "ensuring safe passage.",
+            wrong: ["military rank symbol.", "religious certificate.", "tax exemption only."]
           },
           {
-            start: "The Sundiata epic exists in multiple versions recorded by different griots — meaning the text",
-            correct: "varies across traditions and transcriptions.",
-            wrong: ["has one authoritative version.", "was written by Sundiata himself.", "is identical across all regions."]
+            start: "The Mongol census system recorded households for",
+            correct: "taxation and conscription.",
+            wrong: ["religious conversion.", "land redistribution.", "trade licensing only."]
           },
           {
-            start: "D.T. Niane's 1965 written version of the Sundiata epic is a",
-            correct: "scholarly reconstruction from oral sources,",
-            wrong: ["direct translation of a manuscript,", "royal court document,", "confirmed primary source,"]
-          },
-          {
-            start: "The griot's social role — preserving genealogy, mediating disputes, accompanying rulers — is",
-            correct: "well-documented in historical and anthropological sources.",
-            wrong: ["known only through European accounts.", "disputed by modern scholars.", "confined to the Mali Empire period."]
-          },
-          {
-            start: "In the Sundiata epic, Sundiata's victory at the Battle of Kirina (~1235 CE) over Soumaoro Kanté is presented as the founding moment of",
-            correct: "the Mali Empire.",
-            wrong: ["the Songhai Empire.", "the Ghana Empire.", "the Kanem-Bornu Empire."]
+            start: "The yam relay network enabled imperial communication across",
+            correct: "vast Eurasian distances.",
+            wrong: ["small regional zones only.", "coastal trade routes.", "desert caravans exclusively."]
           }
         ]
       },
       {
-        // Sundiata Keita: ~1217–1255 CE. Historical figure but known almost entirely through oral tradition.
-        // No contemporary written sources document his words — all "quotes" are modern inventions.
-        name: "Sundiata Keita (Historical Figure — No Documented Quotes)",
+        name: "Temüjin’s Early Political Rise",
         emoji: "⚔️",
         quotes: [
           {
-            start: "No contemporary written sources document Sundiata's own words — meaning all quotes attributed to him are",
-            correct: "drawn from later oral tradition.",
-            wrong: ["verified in Timbuktu manuscripts.", "confirmed by Arab chroniclers.", "preserved in royal inscriptions."]
+            start: "Temüjin was declared Genghis Khan at kurultai of",
+            correct: "1206 CE.",
+            wrong: ["1162 CE.", "1227 CE.", "1240 CE."]
           },
           {
-            start: "Sundiata's childhood disability and eventual recovery is a central narrative in the epic — functioning as",
-            correct: "a literary and symbolic device,",
-            wrong: ["a confirmed medical record,", "a verified biographical fact,", "a royal court document,"]
+            start: "Early Mongol unification involved alliances and conflicts with",
+            correct: "neighboring steppe tribes.",
+            wrong: ["Chinese dynasties.", "Persian caliphates.", "European kingdoms."]
           },
           {
-            start: "The Battle of Kirina (~1235 CE) is accepted as a historical event, though details come from",
-            correct: "oral tradition, not contemporary records.",
-            wrong: ["Egyptian chronicles.", "Timbuktu manuscripts.", "Portuguese accounts."]
-          },
-          {
-            start: "Sundiata is credited with establishing the Gbara — the great assembly that governed",
-            correct: "the early Mali Empire.",
-            wrong: ["trade routes to Egypt.", "the Timbuktu scholars.", "the gold mining territories."]
-          }
-        ]
-      },
-      {
-        // Mali trade: well-documented through Arab geographers (al-Bakri, al-Umari, Ibn Khaldun)
-        // and archaeological evidence. Salt-gold trade is historically verified.
-        name: "Mali Trade & Economy (Documented via Arab Sources)",
-        emoji: "💰",
-        quotes: [
-          {
-            start: "Arab geographer al-Bakri (~1068 CE) documented the Ghana Empire's gold-salt trade — the same network that Mali later",
-            correct: "inherited and expanded.",
-            wrong: ["destroyed completely.", "replaced with tribute.", "restricted to Muslims."]
-          },
-          {
-            start: "The salt mines of Taghaza, documented by multiple Arab sources, were essential to Mali's economy because",
-            correct: "salt was scarce in the Sahel.",
-            wrong: ["gold was too heavy to trade.", "salt was used as currency in Egypt.", "the Sahara lacked gold entirely."]
-          },
-          {
-            start: "Mali's gold came primarily from the Bambuk and Bure goldfields — regions that the Mali rulers controlled but",
-            correct: "deliberately kept secret from Arab traders.",
-            wrong: ["openly showed to all merchants.", "sold to Egyptian officials.", "shared with Moroccan partners."]
-          },
-          {
-            start: "Ibn Battuta confirmed that merchants traveling through Mali were protected — a stability that",
-            correct: "made long-distance trade viable.",
-            wrong: ["was unique to the Mansa's reign.", "applied only to Muslim traders.", "required payment of special fees."]
-          },
-          {
-            start: "The trans-Saharan trade connected Mali to North Africa, the Middle East, and ultimately",
-            correct: "European markets via intermediaries.",
-            wrong: ["Chinese merchants directly.", "Indian Ocean trade routes.", "Central Asian caravan networks."]
-          }
-        ]
-      },
-      {
-        // Timbuktu scholarship: well-documented. Sankore mosque/university, manuscripts (~100,000 survive).
-        // The "University of Timbuktu" label is somewhat anachronistic — it was a mosque-school network.
-        name: "Timbuktu Scholars & Islamic Learning (Documented)",
-        emoji: "📚",
-        quotes: [
-          {
-            start: "Timbuktu's Sankore mosque functioned as a center of Islamic learning — calling it a \"university\" in the modern sense is",
-            correct: "a slight anachronism.",
-            wrong: ["fully accurate.", "confirmed by Mali records.", "Ibn Battuta's own term."]
-          },
-          {
-            start: "Scholars estimate that approximately 100,000 manuscripts survive in Timbuktu — covering subjects including",
-            correct: "theology, law, astronomy, and medicine.",
-            wrong: ["military strategy only.", "trade records exclusively.", "royal genealogies alone."]
-          },
-          {
-            start: "Ahmad ibn Muhammad Aqit and his family were among the most prominent Timbuktu scholars — their influence peaked during the",
-            correct: "Songhai Empire period, not Mali.",
-            wrong: ["reign of Mansa Musa.", "founding of Mali.", "Almoravid period."]
-          },
-          {
-            start: "Timbuktu attracted scholars from across the Islamic world because it offered",
-            correct: "patronage, libraries, and intellectual community.",
-            wrong: ["the highest salaries in Africa.", "direct access to Mecca.", "immunity from political interference."]
-          },
-          {
-            start: "The Timbuktu manuscripts are written primarily in",
-            correct: "Arabic, with some in Ajami scripts.",
-            wrong: ["Mande languages exclusively.", "Berber and Tuareg scripts.", "Egyptian hieroglyphics."]
-          }
-        ]
-      },
-      {
-        // Women's status in Mali: Ibn Battuta is the primary source. His account shows more public
-        // freedom than in Moroccan society but should not be idealized — it reflects one observer's view.
-        name: "Women in Mali (Ibn Battuta's Account — Primary Source)",
-        emoji: "👩",
-        quotes: [
-          {
-            start: "Ibn Battuta's account of women in Mali is our primary source — meaning our knowledge of women's status comes from",
-            correct: "one outsider's perspective.",
-            wrong: ["multiple independent accounts.", "Mali women's own writings.", "confirmed local documents."]
-          },
-          {
-            start: "Ibn Battuta noted that Mali women appeared publicly without veils and conversed with men — an observation he recorded as",
-            correct: "a violation of Islamic norms.",
-            wrong: ["proof of female equality.", "a sign of Mali's advancement.", "evidence of matrilineal custom."]
-          },
-          {
-            start: "Mali succession followed matrilineal principles in some periods — meaning the right to rule could pass through",
-            correct: "the mother's line.",
-            wrong: ["the eldest son only.", "the king's chosen heir.", "the griot's recommendation."]
-          },
-          {
-            start: "The claim that Mali women had \"more freedom than in any Muslim land\" comes from Ibn Battuta — a traveler whose frame of reference was",
-            correct: "14th-century Morocco and the Arab world.",
-            wrong: ["all of sub-Saharan Africa.", "West African kingdoms broadly.", "his personal ideal of Islamic society."]
+            start: "The Secret History portrays Temüjin's rise as",
+            correct: "gradual tribal consolidation.",
+            wrong: ["instant imperial control.", "peaceful election process.", "religious succession."]
           }
         ]
       }
@@ -14764,6 +15921,90 @@ export const CIVILIZATIONS = [
             start: "Sumerian irrigation management is documented in thousands of administrative tablets — showing that water distribution was",
             correct: "centrally organized and recorded.",
             wrong: ["left to individual farmers.", "controlled solely by priests.", "managed by merchants."]
+          }
+        ]
+      },
+      {
+        name: "Sumerian City-States & Political Structure",
+        emoji: "🏙️",
+        quotes: [
+          {
+            start: "Sumerian civilization was organized into independent city-states such as Uruk, Ur, Lagash, and Nippur, each functioning as a politically autonomous unit centered on a major temple complex, meaning that",
+            correct: "no unified Sumerian empire existed.",
+            wrong: ["all cities were ruled by one king.", "cities were politically identical.", "temples had no political role."]
+          },
+          {
+            start: "Each Sumerian city-state was governed by a ruler (lugal or ensi) whose authority was closely linked to temple institutions, indicating that",
+            correct: "political and religious power were deeply intertwined.",
+            wrong: ["religion and politics were fully separate.", "kings had no religious role.", "temples were purely symbolic."]
+          },
+          {
+            start: "Rivalries between city-states over land and irrigation rights were a constant feature of Sumerian history, showing that",
+            correct: "resource control shaped early politics.",
+            wrong: ["warfare was rare and symbolic.", "cities always cooperated peacefully.", "trade eliminated conflict."]
+          }
+        ]
+      },
+      {
+        name: "Invention of Writing (Uruk Period)",
+        emoji: "✍️",
+        quotes: [
+          {
+            start: "The earliest cuneiform tablets from Uruk (c. 3200–3000 BCE) are primarily administrative records, showing that writing initially developed for",
+            correct: "economic accounting and resource management.",
+            wrong: ["religious storytelling.", "historical chronicles.", "philosophical texts."]
+          },
+          {
+            start: "Uruk IV–III period tablets consist largely of lists of grain, livestock, and labor allocations, indicating that early writing was",
+            correct: "bureaucratic rather than literary.",
+            wrong: ["purely mythological.", "alphabetic in form.", "used mainly for poetry."]
+          },
+          {
+            start: "The development of writing in southern Mesopotamia represents one of the earliest known cases of independent script invention, showing that",
+            correct: "complex administration preceded literature.",
+            wrong: ["writing was imported from Egypt.", "literature came before administration.", "scribes were unnecessary."]
+          }
+        ]
+      },
+      {
+        name: "Kingship & Sumerian King List",
+        emoji: "👑",
+        quotes: [
+          {
+            start: "The Sumerian King List presents kingship as a divine institution that 'descended from heaven' to specific cities, reflecting the ideological claim that",
+            correct: "political authority was divinely legitimized.",
+            wrong: ["kings were democratically elected.", "power was purely military.", "religion had no role."]
+          },
+          {
+            start: "The King List combines historically attested rulers with mythological figures who reigned for impossibly long periods, showing that",
+            correct: "history and ideology are interwoven in early records.",
+            wrong: ["all entries are fully historical.", "the list is purely fictional.", "chronology was exact."]
+          },
+          {
+            start: "After a city lost divine favor according to the King List tradition, kingship was said to 'move' to another city, indicating that",
+            correct: "political power was conceptualized as transferable.",
+            wrong: ["cities elected kings collectively.", "power was permanently fixed.", "military conquest was irrelevant."]
+          }
+        ]
+      },
+      {
+        name: "Lagash–Umma Conflict & Early Warfare",
+        emoji: "⚔️",
+        quotes: [
+          {
+            start: "The conflict between Lagash and Umma over the fertile Gu’edena border region is one of the earliest well-documented interstate disputes in history, showing that",
+            correct: "territorial agriculture was a primary cause of war.",
+            wrong: ["religious differences caused most wars.", "conflict was purely symbolic.", "cities avoided territorial disputes."]
+          },
+          {
+            start: "The Stele of the Vultures from Lagash depicts organized military formations and ruler-led warfare, indicating that",
+            correct: "state-level military organization already existed.",
+            wrong: ["warfare was unstructured and tribal.", "armies were purely ceremonial.", "writing had no military use."]
+          },
+          {
+            start: "Boundary treaties between Lagash and Umma recorded on inscriptions demonstrate that early Mesopotamian states used formal agreements to manage conflict, showing that",
+            correct: "diplomacy accompanied warfare.",
+            wrong: ["war was always total and unlimited.", "treaties were never used.", "religion replaced politics."]
           }
         ]
       }
