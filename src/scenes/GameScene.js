@@ -181,7 +181,6 @@ export class GameScene extends Phaser.Scene {
             fontSize: '19px',
             color: '#fff',
             wordWrap: { width: w - 80 },
-            fontStyle: 'bold',
             align: 'center'
         }).setOrigin(0.5)
 
@@ -208,7 +207,6 @@ export class GameScene extends Phaser.Scene {
                 fontSize: '19px',
                 color: '#fff',
                 wordWrap: { width: w - 90 },
-                fontStyle: 'bold',
                 align: 'center'
             }).setOrigin(0.5)
 
