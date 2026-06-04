@@ -30,9 +30,9 @@ export class MenuScene extends Phaser.Scene {
       fontSize: '19px', color: '#69f0ae'
     }).setOrigin(0.5)
 
-    // ✅ Drag instruction (professional)
-    this.add.text(w / 2, 254, `Drag on empty areas (left/right of buttons) to scroll and view all civilizations`, {
-      fontSize: '19px', color: '#da6b8b',
+    // ✅ Drag instruction (professional, white color)
+    this.add.text(w / 2, 262, `Drag on empty areas (left/right of buttons) to scroll and view all civilizations`, {
+      fontSize: '19px', color: '#ffffff',
       wordWrap: { width: w - 40 }
     }).setOrigin(0.5)
 
@@ -42,7 +42,7 @@ export class MenuScene extends Phaser.Scene {
     const totalCivs = Object.keys(allProgress).length
     
     if (completedCount === totalCivs && totalCivs > 0) {
-      this.add.text(w / 2, 276, '🎉 Master of Ancient Wisdom! 🎉', {
+      this.add.text(w / 2, 284, '🎉 Master of Ancient Wisdom! 🎉', {
         fontSize: '19px', color: '#ffd700', fontStyle: 'bold'
       }).setOrigin(0.5)
     }
@@ -79,17 +79,14 @@ export class MenuScene extends Phaser.Scene {
 
     const line = this.add.graphics()
     line.lineStyle(1, 0xf9a825, 0.4)
-    // Line position adjusted: now at y=300
-    line.lineBetween(60, 300, w - 60, 300)
+    line.lineBetween(60, 312, w - 60, 312)
 
-    // "Choose Your Chapter" text moved to y=318
-    this.add.text(w / 2, 318, 'Choose Your Chapter', {
+    this.add.text(w / 2, 330, 'Choose Your Chapter', {
       fontSize: '19px', color: '#dcdada',
     }).setOrigin(0.5)
 
     // === SCROLL PANEL SETUP ===
-    // Panel top adjusted to 340
-    const panelTop = 340
+    const panelTop = 352
     const panelBottom = canvasHeight - 20
     const panelHeight = panelBottom - panelTop
 
@@ -149,7 +146,7 @@ export class MenuScene extends Phaser.Scene {
     ]
 
     const itemHeight = 80
-    const totalContentHeight = civs.length * itemHeight + 60
+    const totalContentHeight = civs.length * itemHeight + 60 // +60 for footer (but we removed footer, keep for spacing)
 
     civs.forEach((civ, i) => {
       const x = w / 2
@@ -245,11 +242,6 @@ export class MenuScene extends Phaser.Scene {
 
       menuContainer.add([bg, emojiText, nameText, progressText, zone])
     })
-
-    const footer = this.add.text(w / 2, civs.length * itemHeight + 36, 'Test your knowledge of the ancient world', {
-      fontSize: '19px', color: '#d7d7d7'
-    }).setOrigin(0.5)
-    menuContainer.add(footer)
 
     // === SCROLL ARROW INDICATOR ===
     const arrowText = this.add.text(w / 2, panelBottom - 28, '▼  scroll  ▼', {
