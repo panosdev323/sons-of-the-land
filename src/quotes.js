@@ -5883,17 +5883,17 @@ export const CIVILIZATIONS = [
         quotes: [
           {
             start: "The empire was divided into large provinces called eyalets governed by",
-            correct: "appointed beylerbeyi governors",
+            correct: "appointed beylerbeyi governors.",
             wrong: ["hereditary local kings.", "democratic elected councils.", "independent tribal leaders."]
           },
           {
             start: "Provincial governors were appointed by the sultan and frequently rotated to ensure",
-            correct: "central imperial control",
+            correct: "central imperial control.",
             wrong: ["local hereditary independence.", "democratic provincial autonomy.", "religious self-rule."]
           },
           {
             start: "Local administration relied on district officials under imperial supervision to maintain",
-            correct: "law and tax collection",
+            correct: "law and tax collection.",
             wrong: ["complete local independence.", "tribal warfare systems.", "merchant self-rule."]
           }
         ]
@@ -5904,17 +5904,17 @@ export const CIVILIZATIONS = [
         quotes: [
           {
             start: "Tax farming became a major source of revenue as the state sold rights for",
-            correct: "collecting taxes in advance",
+            correct: "collecting taxes in advance.",
             wrong: ["eliminating all taxation.", "religious donation systems.", "voluntary tribute only."]
           },
           {
             start: "Tax farmers paid the state upfront and then collected revenues from",
-            correct: "local populations for profit",
+            correct: "local populations for profit.",
             wrong: ["foreign empires directly.", "military commanders only.", "religious institutions exclusively."]
           },
           {
             start: "Over time tax farming increased corruption and weakened fairness in",
-            correct: "provincial fiscal administration",
+            correct: "provincial fiscal administration.",
             wrong: ["military battlefield performance.", "religious legal systems.", "imperial architecture projects."]
           }
         ]
@@ -5925,17 +5925,17 @@ export const CIVILIZATIONS = [
         quotes: [
           {
             start: "European armies adopted linear infantry tactics while the Ottomans struggled to",
-            correct: "modernize their military system",
+            correct: "modernize their military system.",
             wrong: ["abandon all firearms.", "increase cavalry dominance.", "return to medieval warfare."]
           },
           {
             start: "The Janissaries resisted reforms and blocked efforts to introduce",
-            correct: "modern military discipline",
+            correct: "modern military discipline.",
             wrong: ["religious conversion policies.", "naval expansion programs.", "agricultural reforms."]
           },
           {
             start: "Ottoman artillery development stagnated compared to rapidly advancing European",
-            correct: "gunpowder artillery technology",
+            correct: "gunpowder artillery technology.",
             wrong: ["naval sailing fleets.", "monastic engineering methods.", "nomadic cavalry tactics."]
           }
         ]
@@ -5946,17 +5946,17 @@ export const CIVILIZATIONS = [
         quotes: [
           {
             start: "Inflation increased in the empire due to the influx of New World silver causing",
-            correct: "currency value decline",
+            correct: "currency value decline.",
             wrong: ["economic total collapse immediately.", "perfect price stability always.", "no monetary changes."]
           },
           {
             start: "European sea routes to Asia bypassed Ottoman land trade networks leading to",
-            correct: "loss of commercial revenue",
+            correct: "loss of commercial revenue.",
             wrong: ["increased Ottoman monopoly.", "total trade expansion.", "no economic impact."]
           },
           {
             start: "Tax farming and corruption reduced state efficiency in",
-            correct: "long term fiscal control",
+            correct: "long term fiscal control.",
             wrong: ["military battlefield success.", "religious doctrine purity.", "architectural development."]
           }
         ]
@@ -5967,17 +5967,17 @@ export const CIVILIZATIONS = [
         quotes: [
           {
             start: "Nineteenth-century nationalist movements in the Balkans challenged Ottoman authority by demanding",
-            correct: "independent nation states",
+            correct: "independent nation states.",
             wrong: ["greater imperial unity.", "religious centralization.", "military expansion only."]
           },
           {
             start: "Greek independence marked the beginning of Ottoman territorial fragmentation in",
-            correct: "southeastern Europe",
+            correct: "southeastern Europe.",
             wrong: ["central Anatolia only.", "Arabian Peninsula only.", "North Africa entirely."]
           },
           {
             start: "European powers interfered in Ottoman affairs through the Eastern Question aiming to",
-            correct: "manage imperial decline",
+            correct: "manage imperial decline.",
             wrong: ["strengthen Ottoman unity.", "abolish nationalism completely.", "restore Byzantine rule."]
           }
         ]
@@ -5988,12 +5988,12 @@ export const CIVILIZATIONS = [
         quotes: [
           {
             start: "The First Constitutional Era began in 1876 introducing a parliament and",
-            correct: "limited constitutional monarchy",
+            correct: "limited constitutional monarchy.",
             wrong: ["absolute sultan rule.", "military dictatorship system.", "religious theocracy."]
           },
           {
             start: "The Young Turks restored the constitution in 1908 aiming to strengthen",
-            correct: "state modernization reforms",
+            correct: "state modernization reforms.",
             wrong: ["imperial fragmentation process.", "religious law dominance.", "tribal independence."]
           },
           {
