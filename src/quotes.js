@@ -2186,7 +2186,7 @@ export const CIVILIZATIONS = [
         quotes: [
           {
             start: 'Alexiad (Preface, §1): Anna opens the Alexiad by lamenting that "great floods of calamity" have swept over her life — and that she takes up the pen so that the great deeds of her father will not be',
-            correct: 'swallowed by the silence of time and obscured by darkness.',
+            correct: 'swallowed by time and darkness.',
             wrong: ['distorted by the lies of his enemies.', 'misunderstood by Western Crusaders.', 'forgotten by the ungrateful Senate.']
           },
           {
@@ -2215,12 +2215,12 @@ export const CIVILIZATIONS = [
           {
             start: 'Alexiad (Book 15, Ch.11): Anna describes the death of her father Alexios I at length — her grief is evident but she also records Empress Eirene\'s refusal to',
             correct: 'leave Alexios\'s bedside, even when advised to rest.',
-            wrong: ['allow physicians to treat him in his final days.', 'inform the Senate of his declining condition.', 'summon the Patriarch for last rites.']
+            wrong: ['allow physicians to treat him.', 'inform the Senate of his declining condition.', 'summon the Patriarch for last rites.']
           },
           {
-            start: 'Alexiad (Book 15): Historians note that Anna conspired with her husband Nikephoros Bryennios to depose her brother John II after Alexios died — though in the Alexiad she',
-            correct: 'does not directly describe her own role in the conspiracy.',
-            wrong: ['proudly admits her leadership of the coup attempt.', 'blames Empress Eirene entirely for the plot.', 'denies that any conspiracy against John II ever occurred.']
+            start: 'Alexiad (Book 15): Historians note that Anna conspired with her husband Nikephoros Bryennios to depose her brother John II after Alexios died — though in the Alexiad she does not directly describe her own role in the',
+            correct: 'conspiracy.',
+            wrong: ['family succession.', 'power struggle.', 'succession crisis.']
           },
           {
             start: 'Alexiad (Book 1, Ch.1): Anna describes her father Alexios Komnenos before his accession as a young general of outstanding military talent who was already, at a young age, the effective military backbone of an empire that had grown',
@@ -2298,12 +2298,12 @@ export const CIVILIZATIONS = [
         quotes: [
           {
             start: 'Homily on Matthew (77.5): Chrysostom states that adorning the altar with gold while Christ in the form of the poor man starves outside is',
-            correct: 'to dishonor Christ in both cases — at the altar and in the street.',
+            correct: 'to dishonor Christ at altar and street.',
             wrong: ['a pious act pleasing to God.', 'permitted if the poor are given their tenth.', 'the duty of the emperor not the bishop.']
           },
           {
             start: 'On the Priesthood (Book 3.9): Chrysostom argues that the priestly office demands more virtue than even the monastic life — because the priest must be',
-            correct: 'pure while living in the world and dealing with sinful people.',
+            correct: 'pure while living among sinful people.',
             wrong: ['wealthier than secular rulers to command respect.', 'trained in Roman law to settle parish disputes.', 'a soldier capable of defending the church physically.']
           },
           {
@@ -2443,8 +2443,8 @@ export const CIVILIZATIONS = [
         emoji: '🙏',
         quotes: [
           {
-            start: 'Hymns of Divine Love (Hymn 1): Symeon describes the mystical experience of divine light as not theoretical but direct and personal — insisting that union with God is not reserved for',
-            correct: 'monks alone or the historical past, but available to every believer who purifies themselves.',
+            start: 'Hymns of Divine Love (Hymn 1): Symeon describes the mystical experience of divine light as not theoretical but direct and personal — insisting that union with God is not reserved for monks alone, but available to',
+            correct: 'every believer who purifies themselves.',
             wrong: ['those ordained to the priesthood.', 'emperors and patriarchs only.', 'those born into monastic families.']
           },
           {
@@ -2637,12 +2637,12 @@ export const CIVILIZATIONS = [
           },
           {
             start: 'Herodotus (7.44): As Xerxes reviewed his entire army and fleet at Abydos, he first declared himself happy, but then',
-            correct: 'wept, realizing no man of all these would be alive in a hundred years.',
+            correct: 'wept at human mortality.',
             wrong: ['laughed at the size of his force.', 'prayed to Ahura Mazda for victory.', 'ordered a sacrifice of one thousand oxen.']
           },
           {
             start: 'Herodotus (7.45): The wise counsellor Artabanus told Xerxes that there are things in life even more pitiable than the shortness of life — that in all that short life, no man is so happy that he will not wish, more than once, that he were',
-            correct: 'dead rather than alive.',
+            correct: 'wished he were dead rather than alive.',
             wrong: ['a king rather than a subject.', 'fighting rather than waiting.', 'in Persia rather than at war.']
           },
           {
@@ -2729,7 +2729,7 @@ export const CIVILIZATIONS = [
           },
           {
             start: 'Arrian, Anabasis (2.25): Alexander\'s response to Darius III\'s peace offer stated that if Darius wanted his mother, wife, and children, he must come to Alexander as',
-            correct: 'a suppliant, for Alexander was now lord of all Asia.',
+            correct: 'a suppliant — for Alexander was now lord of all Asia.',
             wrong: ['an equal, to negotiate terms.', 'a general, to arrange ransom.', 'a king, under truce conditions.']
           },
           {
@@ -2749,7 +2749,7 @@ export const CIVILIZATIONS = [
           },
           {
             start: 'Plutarch, Life of Alexander (Ch.37): When Alexander captured Persepolis, the treasury contained wealth so vast that it required', 
-            correct: '10,000 pairs of mules and 5,000 camels to carry away.',
+            correct: '10,000 pairs of mules and 5,000 camels.',
             wrong: ['one hundred ships to transport by sea.', 'three years to count and catalogue.', 'a garrison of ten thousand men to guard.']
           },
           {
@@ -2770,22 +2770,22 @@ export const CIVILIZATIONS = [
         quotes: [
           {
             start: 'Gathas, Yasna 28.1: Zarathustra opens his hymn by dedicating "all the actions of his good mind" to Ahura Mazda — seeking through',
-            correct: 'righteous action and good thought to benefit all living beings.',
+            correct: 'righteous action and good thought for all beings.',
             wrong: ['sacrifice and priestly ritual alone.', 'military conquest for Persia.', 'astrological observation of the heavens.']
           },
           {
             start: 'Gathas, Yasna 30.3: Zarathustra teaches of two primal spirits — one of truth (asha) and one of the lie (druj) — who made a choice "in the beginning." Their separation produced',
-            correct: 'the dual nature of existence as good and evil.',
+            correct: 'dual nature of existence as good and evil.',
             wrong: ['the Zoroastrian priestly class.', 'the Achaemenid royal lineage.', 'the cycle of seasons and harvests.']
           },
           {
             start: 'Gathas, Yasna 30.2: Zarathustra urges listeners not to be deceived by "evil teachers" but to think for themselves with',
-            correct: 'a discerning mind before choosing between the two paths.',
+            correct: 'discernment between two paths using the mind.',
             wrong: ['the guidance of Zoroastrian priests only.', 'royal authority as guide.', 'astrological signs as confirmation.']
           },
           {
             start: 'Gathas, Yasna 33.14: Zarathustra prays that Ahura Mazda will grant him strength through',
-            correct: 'Asha (truth/righteousness) to spread the teachings despite opposition.',
+            correct: 'strength through Asha to spread teachings.',
             wrong: ['military victory over his enemies.', 'royal patronage and wealth.', 'sacrificial fires burning without interruption.']
           },
           {
@@ -2808,6 +2808,27 @@ export const CIVILIZATIONS = [
             start: 'The central cosmic conflict in Zoroastrianism — between Asha (truth, order, righteousness) and Druj (the Lie, chaos, wickedness) — is reflected in Darius I\'s Behistun Inscription through his repeated condemnation of',
             correct: 'drauga (the Lie) as the source of rebellion and evil.',
             wrong: ['foreign gods as the source of disorder.', 'merchants and traders as agents of chaos.', 'Greek philosophy as corruption of truth.']
+          }
+        ]
+      },
+      {
+        name: 'Cambyses II (Herodotus & Egyptian Records)',
+        emoji: '👑',
+        quotes: [
+          {
+            start: 'Herodotus (3.27): Cambyses is said to have conquered Egypt after defeating Psamtik III at Pelusium, establishing Persian rule over',
+            correct: 'Egypt. ',
+            wrong: ['Greece.', 'Libya.', 'Babylon.']
+          },
+          {
+            start: 'Herodotus (3.29): Cambyses reportedly insulted Egyptian religious customs, including the sacred Apis bull, showing his reputation for',
+            correct: 'impulsiveness and intolerance. ',
+            wrong: ['religious devotion.', 'strategic patience.', 'diplomatic skill.']
+          },
+          {
+            start: 'Herodotus (3.64): Cambyses died under uncertain circumstances during his return from Egypt, with accounts suggesting',
+            correct: 'an accidental self-inflicted wound or illness. ',
+            wrong: ['execution by Persian nobles.', 'battle with Greeks.', 'assassination in Babylon.']
           }
         ]
       }
@@ -3380,6 +3401,38 @@ export const CIVILIZATIONS = [
             start: 'Liu Zongyuan\'s essay on the gardener Tuo Poppycock (Zhongshu Guo Tuo Zhuan) argues that good governance, like good gardening, requires',
             correct: 'non-interference with natural growth.',
             wrong: ['strict pruning and control.', 'daily ritual attention.', 'heavy administrative regulation.']
+          }
+        ]
+      },
+      {
+        name: 'Yijing (I Ching — Documented)',
+        emoji: '☯️',
+        quotes: [
+          {
+            start: 'The Yijing describes change as governed by yin and yang, two complementary forces that',
+            correct: 'constantly transform reality.',
+            wrong: ['are fixed and static.', 'oppose without interaction.', 'exist only in myth.']
+          },
+          {
+            start: 'The concept of hexagrams represents patterns of change used to interpret situations as',
+            correct: 'dynamic and relational.',
+            wrong: ['random and meaningless.', 'purely moral judgments.', 'historical predictions only.']
+          }
+        ]
+      },
+      {
+        name: 'Shijing (Book of Songs — Documented)',
+        emoji: '🎶',
+        quotes: [
+          {
+            start: 'The Shijing reflects early Zhou society through poetry that expresses both ritual and',
+            correct: 'human emotion.',
+            wrong: ['military doctrine.', 'philosophical systems.', 'legal codes.']
+          },
+          {
+            start: 'Many Shijing poems use natural imagery such as rivers, wind, and birds to convey',
+            correct: 'social relationships.',
+            wrong: ['political propaganda.', 'astronomical theory.', 'economic policy.']
           }
         ]
       }
