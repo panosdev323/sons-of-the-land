@@ -4293,7 +4293,7 @@ export const CIVILIZATIONS = [
   },
   {
     id: "norse",
-    name: "Norse & Viking (Evidence-Based)",
+    name: "Viking & Norse (Evidence-Based)",
     emoji: "⚡",
     color: 0x4a6fa5,
     colorHex: "#4a6fa5",
@@ -12909,11 +12909,6 @@ export const CIVILIZATIONS = [
             start: "Seleucid decline combined Rome's rise, eastern territorial losses, civil conflict, and",
             correct: "inability to effectively govern vast territories.",
             wrong: ["military defeat completely alone.", "complete surprising internal unity.", "foreign cultural influence only."]
-          },
-          {
-            start: "The Parthian Empire under Mithridates I conquered Media and Mesopotamia by 141 BCE — showing eastern territories were",
-            correct: "impossible to defend from both directions.",
-            wrong: ["easily defended from all threats.", "unimportant to Seleucid power.", "lost only through poor leadership."]
           },
           {
             start: "Seleucid legacy included Hellenistic cities, cultural spread, and administrative systems that",
