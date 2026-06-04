@@ -177,7 +177,7 @@ export class GameScene extends Phaser.Scene {
             wordWrap: { width: w - 80 }
         }).setOrigin(0.5, 0)
 
-        this.add.text(w / 2, 260, `"${q.start}...`, {
+        this.add.text(w / 2, 260, `${q.start}...`, {
             fontSize: '19px',
             color: '#fff2cc',
             wordWrap: { width: w - 80 },
@@ -203,7 +203,7 @@ export class GameScene extends Phaser.Scene {
             btnBg.fillStyle(0x1a1208, 0.95)
             btnBg.fillRoundedRect(24, y - 34, w - 48, 70, 10)
 
-            const btnText = this.add.text(w / 2, y, `"${ans.text}"`, {
+            const btnText = this.add.text(w / 2, y, `${ans.text}`, {
                 fontSize: '19px',
                 color: '#fff',
                 wordWrap: { width: w - 90 },
