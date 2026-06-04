@@ -255,6 +255,11 @@ export class MenuScene extends Phaser.Scene {
       fontSize: '19px', color: '#f9a825', alpha: 0.8
     }).setOrigin(0.5)
 
+    const scrollHint = this.add.text(w / 2, panelBottom - 8, 'Drag on empty areas (left/right of buttons) to scroll and view all civilizations', {
+      fontSize: '12px', color: '#c0c0c0', fontStyle: 'italic',
+      wordWrap: { width: w - 40 }
+    }).setOrigin(0.5, 0.5)
+
     this.tweens.add({
       targets: arrowText,
       y: panelBottom - 18,
