@@ -3826,6 +3826,154 @@ export const CIVILIZATIONS = [
             wrong: ['nirvana.', 'karma.', 'consciousness.']
           }
         ]
+      },
+      {
+        name: "Indus Valley Civilization (Archaeological Evidence-Based)",
+        emoji: "🏺",
+        quotes: [
+          {
+            start: "The Indus Valley Civilization (2600–1900 BCE) is known primarily through archaeology, showing advanced urban planning including grid cities, drainage systems, and standardized weights, indicating a society organized around",
+            correct: "planned civic infrastructure.",
+            wrong: ["religious temple hierarchy.", "monarchical palaces.", "nomadic tribal camps."]
+          },
+          {
+            start: "Sites like Mohenjo-daro and Harappa reveal sophisticated sanitation systems, suggesting concerns with",
+            correct: "public hygiene and water management.",
+            wrong: ["ritual sacrifice practices.", "royal burial customs.", "military fortification only."]
+          },
+          {
+            start: "The undeciphered Indus script prevents full understanding of their literature, meaning their written system remains",
+            correct: "not fully decoded yet.",
+            wrong: ["completely translated.", "fully understood.", "Roman-derived."]
+          }
+        ]
+      },
+      {
+        name: "Vedic Tradition (Rigveda & Early Texts)",
+        emoji: "🔥",
+        quotes: [
+          {
+            start: "The Rigveda (c.1500–1200 BCE) contains hymns addressed to deities like Agni, Indra, and Varuna, reflecting an early Indo-Aryan worldview centered on",
+            correct: "ritual sacrifice (yajna).",
+            wrong: ["monotheistic devotion.", "Buddhist enlightenment.", "strict philosophy."]
+          },
+          {
+            start: "The Nasadiya Sukta (Rigveda 10.129) explores cosmic origins with uncertainty, concluding that creation may even be unknown to",
+            correct: "the gods themselves.",
+            wrong: ["human kings.", "priests alone.", "later philosophers."]
+          },
+          {
+            start: "Early Vedic society emphasized pastoralism, cattle wealth, and ritual authority, showing an economy structured around",
+            correct: "livestock and sacrifice.",
+            wrong: ["urban trade guilds.", "coin-based markets.", "monastic agriculture."]
+          }
+        ]
+      },
+      {
+        name: "Early Buddhism (Sutta Tradition)",
+        emoji: "☸️",
+        quotes: [
+          {
+            start: "The Four Noble Truths diagnose suffering (dukkha) as arising from craving, leading to the possibility of",
+            correct: "liberation (nirvana).",
+            wrong: ["divine union.", "eternal rebirth.", "ritual purity."]
+          },
+          {
+            start: "The Eightfold Path provides ethical and mental training including right speech, right action, and right mindfulness leading to",
+            correct: "cessation of suffering.",
+            wrong: ["social dominance.", "heavenly reward.", "ritual perfection."]
+          },
+          {
+            start: "The Dhammapada emphasizes that mind precedes all phenomena, meaning reality is shaped by",
+            correct: "mental intention.",
+            wrong: ["ritual sacrifice.", "caste duty.", "divine law."]
+          }
+        ]
+      },
+      {
+        name: "Jainism (Mahavira & Doctrine)",
+        emoji: "🪷",
+        quotes: [
+          {
+            start: "Jain doctrine emphasizes ahimsa (non-violence) to such an extent that all living beings are considered worthy of",
+            correct: "complete protection.",
+            wrong: ["selective harm.", "ritual sacrifice.", "social hierarchy."]
+          },
+          {
+            start: "Jain philosophy views karma as a subtle material substance that binds the soul, requiring liberation through",
+            correct: "strict ethical discipline.",
+            wrong: ["divine grace.", "ritual fire.", "priestly mediation."]
+          },
+          {
+            start: "Mahavira is considered the 24th Tirthankara, representing a perfected teacher who shows the path to",
+            correct: "liberation from rebirth.",
+            wrong: ["political authority.", "ritual supremacy.", "divine kingship."]
+          }
+        ]
+      },
+      {
+        name: "Panini (Ashtadhyayi & Linguistics)",
+        emoji: "🔤",
+        quotes: [
+          {
+            start: "Panini's Ashtadhyayi (c.4th century BCE) is a formal system of Sanskrit grammar that models language through rules and transformations, showing an early form of",
+            correct: "generative linguistic structure.",
+            wrong: ["poetic storytelling.", "religious chanting.", "oral tradition only."]
+          },
+          {
+            start: "Panini's grammar reduces Sanskrit to systematic rules and exceptions, demonstrating a highly analytical approach to",
+            correct: "language formalization.",
+            wrong: ["mythological expression.", "ritual performance.", "philosophical debate."]
+          }
+        ]
+      },
+      {
+        name: "Ayurveda (Charaka & Sushruta)",
+        emoji: "🧪",
+        quotes: [
+          {
+            start: "The Charaka Samhita defines health as the balance of bodily systems, mind, and environment, reflecting an early system of",
+            correct: "holistic medicine.",
+            wrong: ["ritual healing only.", "divine intervention.", "astrological fate."]
+          },
+          {
+            start: "Sushruta described surgical procedures including cataract removal and reconstruction, indicating advanced ancient medical",
+            correct: "surgical knowledge.",
+            wrong: ["magical healing rites.", "herbal superstition.", "ritual chanting."]
+          }
+        ]
+      },
+      {
+        name: "Classical Sanskrit Literature (Kalidasa & Gupta Era)",
+        emoji: "🌸",
+        quotes: [
+          {
+            start: "Kalidasa's works such as Shakuntala represent the Gupta period's refined court literature emphasizing aesthetics and emotional expression rooted in",
+            correct: "classical Sanskrit poetics.",
+            wrong: ["Vedic ritual hymns.", "Buddhist monastic codes.", "folk oral epics."]
+          },
+          {
+            start: "Classical Sanskrit poetry developed theories of rasa (aesthetic flavor), showing an advanced literary system focused on",
+            correct: "emotional experience in art.",
+            wrong: ["political propaganda.", "religious doctrine.", "historical record keeping."]
+          }
+        ]
+      },
+      {
+        name: "Dharmashastra (Legal Tradition)",
+        emoji: "⚖️",
+        quotes: [
+          {
+            start: "The Dharmashastra texts outline social duties and legal norms governing caste, family, and conduct, reflecting a system of",
+            correct: "normative social law.",
+            wrong: ["purely spiritual teachings.", "democratic equality.", "economic theory."]
+          },
+          {
+            start: "The Manusmriti codifies social hierarchy and dharma obligations, showing that ancient Indian law was structured around",
+            correct: "varnashrama order.",
+            wrong: ["universal human rights.", "merit-based equality.", "tribal autonomy."]
+          }
+        ]
       }
     ]
   },
@@ -4045,6 +4193,27 @@ export const CIVILIZATIONS = [
           }
         ]
       },
+      {
+        name: "Texts, Power & Historical Reconstruction",
+        emoji: "🧭",
+        quotes: [
+          {
+            start: "Mesopotamian texts often served political or religious purposes, meaning they must be read as",
+            correct: "ideological documents, not neutral history.",
+            wrong: ["pure factual records.", "modern historical analysis.", "scientific reports."]
+          },
+          {
+            start: "Royal inscriptions emphasize kingly achievements, but archaeology sometimes shows that reality was",
+            correct: "more complex than propaganda.",
+            wrong: ["always identical to texts.", "completely fictional.", "never recoverable."]
+          },
+          {
+            start: "Reconstructing Mesopotamian history requires combining archaeology, inscriptions, and literature rather than relying on",
+            correct: "a single source type.",
+            wrong: ["oral tradition only.", "Greek historians alone.", "religious interpretation."]
+          }
+        ]
+      }
     ]
   },
   {
@@ -4288,6 +4457,27 @@ export const CIVILIZATIONS = [
             wrong: ["purely medieval in origin.", "confirmed in Heian period texts.", "unchanged from the 8th century."]
           }
         ]
+      },
+      {
+        name: "Myth, Modernization & Historical Construction",
+        emoji: "🏯",
+        quotes: [
+          {
+            start: "Many ideas about samurai culture were reshaped in the Meiji and modern periods, meaning traditional bushidō reflects",
+            correct: "both history and later reinterpretation.",
+            wrong: ["pure medieval reality.", "unchanged samurai doctrine.", "ancient Shinto scripture."]
+          },
+          {
+            start: "Zen and samurai philosophy are often conflated in popular culture, but historically they developed through",
+            correct: "separate intellectual traditions.",
+            wrong: ["a single unified doctrine.", "pure martial battlefield practice.", "European philosophical influence."]
+          },
+          {
+            start: "Historical figures like Musashi and Ieyasu are best understood through primary sources rather than later legend, because",
+            correct: "biography often becomes mythologized.",
+            wrong: ["all sources are equally reliable.", "oral tradition is always accurate.", "modern quotes are primary evidence."]
+          }
+        ]
       }
     ]
   },
@@ -4451,7 +4641,7 @@ export const CIVILIZATIONS = [
           {
             start: "Archaeological evidence documents Viking trade networks extending from Baghdad to",
             correct: "the North Atlantic coasts.",
-            wrong: ["Sub-Saharan Africa directly.", "Chinese imperial markets.", "Australian Aboriginal peoples."]
+            wrong: ["Sub-Saharan Africa.", "Chinese imperial markets.", "Australian Aboriginal peoples."]
           },
           {
             start: "Arab dirhams found in Scandinavian hoards show Vikings accessed",
@@ -4635,6 +4825,132 @@ export const CIVILIZATIONS = [
             start: "The Viking legacy includes Iceland's settlement, Greenland colonization, and the brief North American settlement at",
             correct: "L'Anse aux Meadows, Newfoundland.",
             wrong: ["modern-day New York City.", "Caribbean island settlements.", "Pacific Ocean island chains."]
+          }
+        ]
+      },
+      {
+        name: "Viking Thing System & Law",
+        emoji: "⚖️",
+        quotes: [
+          {
+            start: "Viking societies governed disputes through local assemblies called Things where free men gathered to",
+            correct: "resolve disputes and pass laws",
+            wrong: ["appoint kings permanently.", "enforce church doctrine.", "collect imperial taxes."]
+          },
+          {
+            start: "The lawspeaker memorized and recited laws at the Thing ensuring legal continuity across generations through",
+            correct: "oral legal tradition system",
+            wrong: ["written Roman law codes.", "royal decrees only.", "monastic legal archives."]
+          },
+          {
+            start: "Punishment often relied on compensation payments known as wergild rather than state imprisonment or",
+            correct: "formal centralized punishment systems",
+            wrong: ["religious forgiveness rituals.", "military execution orders.", "absolute royal authority."]
+          }
+        ]
+      },
+      {
+        name: "Viking Navigation & Seafaring Science",
+        emoji: "🧭",
+        quotes: [
+          {
+            start: "Vikings navigated open seas using sun position, stars, and coastal landmarks combined with",
+            correct: "practical experiential navigation knowledge",
+            wrong: ["magnetic compass technology always.", "Roman astronomical instruments.", "purely random sailing methods."]
+          },
+          {
+            start: "The debated sunstone theory suggests possible use of crystal polarization to locate the sun under",
+            correct: "cloudy or foggy conditions",
+            wrong: ["deep ocean submarine travel.", "pure mythological navigation rituals.", "compass-based digital systems."]
+          },
+          {
+            start: "Seasonal sailing patterns were carefully timed to winds and currents allowing safe movement across",
+            correct: "North Atlantic and Baltic waters",
+            wrong: ["Sahara desert trade routes.", "Himalayan mountain passes.", "Pacific island chains only."]
+          }
+        ]
+      },
+      {
+        name: "Viking Christianization Process",
+        emoji: "⛪",
+        quotes: [
+          {
+            start: "Christianization in Scandinavia was often driven by kings who used religion to strengthen",
+            correct: "political central authority",
+            wrong: ["pure missionary persuasion only.", "popular peasant revolts.", "Byzantine military conquest."]
+          },
+          {
+            start: "Missionaries from Germany and England influenced conversion alongside political pressure from",
+            correct: "Holy Roman Empire diplomacy",
+            wrong: ["Islamic caliphate expansion.", "Mongol invasions directly.", "Roman Republic institutions."]
+          },
+          {
+            start: "Pagan and Christian beliefs coexisted for generations showing conversion was a gradual",
+            correct: "social and political transition",
+            wrong: ["instant cultural replacement.", "purely forced annihilation.", "scientific enlightenment process."]
+          }
+        ]
+      },
+      {
+        name: "Viking Age Economy & Exchange Systems",
+        emoji: "💰",
+        quotes: [
+          {
+            start: "Viking economy combined farming, raiding, and trade creating a flexible",
+            correct: "multi-sector subsistence system",
+            wrong: ["purely industrial economy.", "monastic economic system.", "centralized imperial taxation."]
+          },
+          {
+            start: "Silver bullion and weighed hacksilver were commonly used instead of minted coins enabling",
+            correct: "weight-based exchange economy",
+            wrong: ["paper currency systems.", "banking credit systems.", "state-controlled pricing."]
+          },
+          {
+            start: "Trade networks connected Scandinavia to Byzantium, Baghdad, and the Atlantic world through",
+            correct: "river and sea corridors",
+            wrong: ["railway transport systems.", "airborne trade routes.", "desert caravan monopolies."]
+          }
+        ]
+      },
+      {
+        name: "Viking Political Institutions (Kingship & Power)",
+        emoji: "👑",
+        quotes: [
+          {
+            start: "Early Viking kings ruled through personal loyalty networks rather than centralized bureaucratic institutions creating",
+            correct: "fragile personal power structures",
+            wrong: ["modern parliamentary systems.", "democratic electoral governments.", "religious theocracies only."]
+          },
+          {
+            start: "Warrior loyalty was maintained through gift-giving, feasting, and redistribution of wealth forming",
+            correct: "reciprocal obligation systems",
+            wrong: ["tax-based bureaucratic control.", "written legal contracts.", "monastic vow systems."]
+          },
+          {
+            start: "Regional unification in Norway and Denmark gradually replaced tribal leadership with",
+            correct: "early medieval kingdoms",
+            wrong: ["city-state republics.", "Roman provincial rule.", "nomadic confederations."]
+          }
+        ]
+      },
+      {
+        name: "Viking Cultural Memory & Saga Formation",
+        emoji: "📖",
+        quotes: [
+          {
+            start: "Sagas were written centuries after events they describe reflecting a mixture of history and",
+            correct: "oral tradition reinterpretation",
+            wrong: ["eyewitness historical reporting.", "archaeological documentation only.", "modern academic reconstruction."]
+          },
+          {
+            start: "Storytelling preserved social values and heroic ideals shaping cultural identity through",
+            correct: "generational oral transmission",
+            wrong: ["written bureaucratic records.", "religious scripture only.", "scientific historical analysis."]
+          },
+          {
+            start: "Legendary figures like Ragnar Lothbrok likely represent multiple historical individuals combined into",
+            correct: "composite heroic archetypes",
+            wrong: ["single well-documented persons.", "pure modern inventions.", "Roman imperial generals."]
           }
         ]
       }
@@ -4922,6 +5238,132 @@ export const CIVILIZATIONS = [
             start: "The empire's collapse after World War I — reduced to Anatolia and partitioned by European powers — ended six centuries of imperial rule and directly produced",
             correct: "the modern Turkish Republic under Atatürk.",
             wrong: ["a restored Byzantine Christian state.", "an Arab League controlled territory.", "a permanent European colonial administration."]
+          }
+        ]
+      },
+      {
+        name: "Ottoman Provincial Administration (Eyalet System)",
+        emoji: "🏛️",
+        quotes: [
+          {
+            start: "The empire was divided into large provinces called eyalets governed by",
+            correct: "appointed beylerbeyi governors",
+            wrong: ["hereditary local kings.", "democratic elected councils.", "independent tribal leaders."]
+          },
+          {
+            start: "Provincial governors were appointed by the sultan and frequently rotated to ensure",
+            correct: "central imperial control",
+            wrong: ["local hereditary independence.", "democratic provincial autonomy.", "religious self-rule."]
+          },
+          {
+            start: "Local administration relied on district officials under imperial supervision to maintain",
+            correct: "law and tax collection",
+            wrong: ["complete local independence.", "tribal warfare systems.", "merchant self-rule."]
+          }
+        ]
+      },
+      {
+        name: "Ottoman Taxation & Iltizam System",
+        emoji: "💰",
+        quotes: [
+          {
+            start: "Tax farming became a major source of revenue as the state sold rights for",
+            correct: "collecting taxes in advance",
+            wrong: ["eliminating all taxation.", "religious donation systems.", "voluntary tribute only."]
+          },
+          {
+            start: "Tax farmers paid the state upfront and then collected revenues from",
+            correct: "local populations for profit",
+            wrong: ["foreign empires directly.", "military commanders only.", "religious institutions exclusively."]
+          },
+          {
+            start: "Over time tax farming increased corruption and weakened fairness in",
+            correct: "provincial fiscal administration",
+            wrong: ["military battlefield performance.", "religious legal systems.", "imperial architecture projects."]
+          }
+        ]
+      },
+      {
+        name: "Military Transformation & Decline",
+        emoji: "⚔️",
+        quotes: [
+          {
+            start: "European armies adopted linear infantry tactics while the Ottomans struggled to",
+            correct: "modernize their military system",
+            wrong: ["abandon all firearms.", "increase cavalry dominance.", "return to medieval warfare."]
+          },
+          {
+            start: "The Janissaries resisted reforms and blocked efforts to introduce",
+            correct: "modern military discipline",
+            wrong: ["religious conversion policies.", "naval expansion programs.", "agricultural reforms."]
+          },
+          {
+            start: "Ottoman artillery development stagnated compared to rapidly advancing European",
+            correct: "gunpowder artillery technology",
+            wrong: ["naval sailing fleets.", "monastic engineering methods.", "nomadic cavalry tactics."]
+          }
+        ]
+      },
+      {
+        name: "Economic Crisis & Global Trade Shift",
+        emoji: "📉",
+        quotes: [
+          {
+            start: "Inflation increased in the empire due to the influx of New World silver causing",
+            correct: "currency value decline",
+            wrong: ["economic total collapse immediately.", "perfect price stability always.", "no monetary changes."]
+          },
+          {
+            start: "European sea routes to Asia bypassed Ottoman land trade networks leading to",
+            correct: "loss of commercial revenue",
+            wrong: ["increased Ottoman monopoly.", "total trade expansion.", "no economic impact."]
+          },
+          {
+            start: "Tax farming and corruption reduced state efficiency in",
+            correct: "long term fiscal control",
+            wrong: ["military battlefield success.", "religious doctrine purity.", "architectural development."]
+          }
+        ]
+      },
+      {
+        name: "Nationalism & Imperial Fragmentation",
+        emoji: "🌍",
+        quotes: [
+          {
+            start: "Nineteenth-century nationalist movements in the Balkans challenged Ottoman authority by demanding",
+            correct: "independent nation states",
+            wrong: ["greater imperial unity.", "religious centralization.", "military expansion only."]
+          },
+          {
+            start: "Greek independence marked the beginning of Ottoman territorial fragmentation in",
+            correct: "southeastern Europe",
+            wrong: ["central Anatolia only.", "Arabian Peninsula only.", "North Africa entirely."]
+          },
+          {
+            start: "European powers interfered in Ottoman affairs through the Eastern Question aiming to",
+            correct: "manage imperial decline",
+            wrong: ["strengthen Ottoman unity.", "abolish nationalism completely.", "restore Byzantine rule."]
+          }
+        ]
+      },
+      {
+        name: "Constitutional Reform & Modernization",
+        emoji: "📜",
+        quotes: [
+          {
+            start: "The First Constitutional Era began in 1876 introducing a parliament and",
+            correct: "limited constitutional monarchy",
+            wrong: ["absolute sultan rule.", "military dictatorship system.", "religious theocracy."]
+          },
+          {
+            start: "The Young Turks restored the constitution in 1908 aiming to strengthen",
+            correct: "state modernization reforms",
+            wrong: ["imperial fragmentation process.", "religious law dominance.", "tribal independence."]
+          },
+          {
+            start: "Reform movements sought to centralize administration and modernize",
+            correct: "bureaucratic state structure",
+            wrong: ["feudal decentralization system.", "nomadic governance model.", "pure religious rule."]
           }
         ]
       }
@@ -5413,7 +5855,7 @@ export const CIVILIZATIONS = [
           },
           {
             start: "Chanakya's warning that rulers must prevent ministers from becoming too powerful predates Machiavelli by 1,800 years — suggesting that the problem of",
-            correct: "dangerous subordinates is universal.",
+            correct: "dangerous subordinates are universal.",
             wrong: ["democracy is always preferable.", "empires never face internal threats.", "loyalty can be purchased permanently."]
           },
           {
@@ -5456,6 +5898,16 @@ export const CIVILIZATIONS = [
             start: "The study of the Maurya Empire — through Greek accounts, archaeological sites, coins, and Ashoka's edicts — demonstrates that ancient India produced",
             correct: "sophisticated statecraft comparable to any civilization.",
             wrong: ["only religious and spiritual texts.", "purely mythological narratives.", "no interest in governance theory."]
+          },
+          {
+            start: "After central authority weakened, regional powers began asserting independence, leading to",
+            correct: "regional kingdoms regained power",
+            wrong: ["stronger imperial unity.", "total foreign conquest.", "religious unification."]
+          },
+          {
+            start: "The rise of Shunga rule reflected a shift in political ideology favoring Brahmanical traditions, marking",
+            correct: "Brahmanical restoration ideology rose",
+            wrong: ["Buddhist exclusive dominance.", "Greek cultural takeover.", "continuation of Maurya policies unchanged."]
           }
         ]
       },
@@ -5526,7 +5978,86 @@ export const CIVILIZATIONS = [
             wrong: ["purely court ceremonial practices.", "Brahmin ritual requirements.", "Silk Road trade regulations."]
           }
         ]
-      }
+      },
+      {
+        name: "Maurya Administrative Depth (Expanded)",
+        emoji: "🏛️",
+        quotes: [
+          {
+            start: "Provincial administration under Maurya rule was managed through appointed governors who reported directly to the emperor, ensuring",
+            correct: "provincial governors under royal control",
+            wrong: ["fully independent regional kings.", "democratic local assemblies.", "hereditary tribal chieftains."]
+          },
+          {
+            start: "The central government relied on multiple layers of officials, inspectors, and ministers, forming a system of",
+            correct: "layered administrative bureaucracy",
+            wrong: ["purely military command structure.", "religious council governance.", "informal clan leadership."]
+          },
+          {
+            start: "At the village level, governance was maintained by local headmen responsible for tax collection and dispute resolution, creating",
+            correct: "village headmen managed local governance",
+            wrong: ["complete village autonomy.", "monastic rule systems.", "merchant guild control."]
+          }
+        ]
+      },
+      {
+        name: "Maurya Economy & Material Culture (Expanded)",
+        emoji: "🪙",
+        quotes: [
+          {
+            start: "The use of punch-marked coins across the empire facilitated trade and standardized value systems, allowing",
+            correct: "punch-marked coins enabled trade",
+            wrong: ["barter-only economy dominance.", "foreign coin exclusivity.", "religious gift-based exchange."]
+          },
+          {
+            start: "State control over mining operations ensured steady access to essential resources like iron, salt, and metals, reflecting",
+            correct: "state controlled key mineral resources",
+            wrong: ["merchant guild independence.", "foreign resource dependence.", "local village ownership."]
+          },
+          {
+            start: "Pataliputra was designed as a major imperial capital with organized streets, palaces, and infrastructure, showing",
+            correct: "planned imperial capital city",
+            wrong: ["random organic settlement growth.", "purely religious city design.", "temporary military camp layout."]
+          }
+        ]
+      },
+      {
+        name: "Maurya Art & Archaeology",
+        emoji: "🪨",
+        quotes: [
+          {
+            start: "The Lion Capital of Ashoka at Sarnath symbolized imperial authority and Buddhist influence, representing",
+            correct: "symbol of imperial authority",
+            wrong: ["purely decorative sculpture.", "foreign artistic imitation.", "regional tribal emblem."]
+          },
+          {
+            start: "The standardization of Brahmi script under Ashokan inscriptions enabled communication across regions, marking",
+            correct: "standardized Brahmi writing system",
+            wrong: ["oral-only administrative records.", "Greek script dominance.", "religious-only writing use."]
+          },
+          {
+            start: "Polished stone pillars distributed across the empire served as visible political messaging tools, functioning as",
+            correct: "pillars projected imperial unity",
+            wrong: ["purely religious monuments.", "military boundary markers only.", "local artisan experiments."]
+          }
+        ]
+      },
+      {
+        name: "Maurya Foreign Relations",
+        emoji: "🌍",
+        quotes: [
+          {
+            start: "The treaty and diplomatic exchanges with the Seleucid Empire established long-term political stability between the regions, leading to",
+            correct: "diplomatic alliance with Seleucids",
+            wrong: ["constant military warfare.", "complete isolation policy.", "religious conversion agreements."]
+          },
+          {
+            start: "Contacts with Hellenistic kingdoms enabled exchange of ideas, goods, and envoys, reflecting",
+            correct: "active Indo Greek diplomacy",
+            wrong: ["no foreign interaction.", "purely hostile relations.", "colonial subordination."]
+          }
+        ]
+      },
     ]
   },
   {
