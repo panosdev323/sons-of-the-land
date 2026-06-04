@@ -3400,17 +3400,17 @@ export const CIVILIZATIONS = [
         quotes: [
           {
             start: 'Herodotus (3.27): Cambyses is said to have conquered Egypt after defeating Psamtik III at Pelusium, establishing Persian rule over',
-            correct: 'Egypt. ',
+            correct: 'Egypt',
             wrong: ['Greece', 'Libya', 'Babylon']
           },
           {
             start: 'Herodotus (3.29): Cambyses reportedly insulted Egyptian religious customs, including the sacred Apis bull, showing his reputation for',
-            correct: 'impulsiveness and intolerance. ',
+            correct: 'impulsiveness and intolerance',
             wrong: ['religious devotion', 'strategic patience', 'diplomatic skill']
           },
           {
             start: 'Herodotus (3.64): Cambyses died under uncertain circumstances during his return from Egypt, with accounts suggesting',
-            correct: 'an accidental self-inflicted wound or illness. ',
+            correct: 'an accidental self-inflicted wound or illness',
             wrong: ['execution by Persian nobles', 'battle with Greeks', 'assassination in Babylon']
           }
         ]
