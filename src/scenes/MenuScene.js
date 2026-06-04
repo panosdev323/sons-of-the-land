@@ -30,13 +30,18 @@ export class MenuScene extends Phaser.Scene {
       fontSize: '19px', color: '#69f0ae'
     }).setOrigin(0.5)
 
+    this.add.text(w / 2, 250, `Drag on empty areas (left/right of buttons) to scroll and view all civilizations`, {
+      fontSize: '19px', color: '#da6b8b'
+    }).setOrigin(0.5)
+
+
     // ✅ Show completion message if all civilizations done
     const allProgress = ProgressStore.getAllProgress()
     const completedCount = Object.values(allProgress).filter(p => p.completed).length
     const totalCivs = Object.keys(allProgress).length
     
     if (completedCount === totalCivs && totalCivs > 0) {
-      this.add.text(w / 2, 270, '🎉 Master of Ancient Wisdom! 🎉', {
+      this.add.text(w / 2, 280, '🎉 Master of Ancient Wisdom! 🎉', {
         fontSize: '19px', color: '#ffd700', fontStyle: 'bold'
       }).setOrigin(0.5)
     }
@@ -254,11 +259,6 @@ export class MenuScene extends Phaser.Scene {
     const arrowText = this.add.text(w / 2, panelBottom - 28, '▼  scroll  ▼', {
       fontSize: '19px', color: '#f9a825', alpha: 0.8
     }).setOrigin(0.5)
-
-    const scrollHint = this.add.text(w / 2, panelBottom - 8, 'Drag on empty areas (left/right of buttons) to scroll and view all civilizations', {
-      fontSize: '12px', color: '#c0c0c0', fontStyle: 'italic',
-      wordWrap: { width: w - 40 }
-    }).setOrigin(0.5, 0.5)
 
     this.tweens.add({
       targets: arrowText,
