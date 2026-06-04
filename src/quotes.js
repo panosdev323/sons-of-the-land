@@ -3419,7 +3419,7 @@ export const CIVILIZATIONS = [
   },
   {
     id: 'china',
-    name: 'Ancient China (Evidence-Based)',
+    name: 'Ancient China',
     emoji: '🏯',
     color: 0x8b4513,
     colorHex: '#8b4513',
@@ -4023,7 +4023,7 @@ export const CIVILIZATIONS = [
   },
   {
     id: 'india',
-    name: 'Ancient India (Evidence-Based)',
+    name: 'Ancient India',
     emoji: '🕉️',
     color: 0xffd700,
     colorHex: '#ffd700',
@@ -4615,7 +4615,7 @@ export const CIVILIZATIONS = [
   },
   {
     id: 'mesopotamia',
-    name: 'Mesopotamia (Evidence-Based)',
+    name: 'Mesopotamia',
     emoji: '🧱',
     color: 0x6d4c41,
     colorHex: '#38bea3',
@@ -4854,7 +4854,7 @@ export const CIVILIZATIONS = [
   },
   {
     id: "japan",
-    name: "Ancient Japan (Evidence-Based)",
+    name: "Ancient Japan",
     emoji: "⛩️",
     color: 0xc62828,
     colorHex: "#c62828",
@@ -5119,7 +5119,7 @@ export const CIVILIZATIONS = [
   },
   {
     id: "norse",
-    name: "Viking & Norse (Evidence-Based)",
+    name: "Viking & Norse",
     emoji: "⚡",
     color: 0x4a6fa5,
     colorHex: "#4a6fa5",
@@ -10080,7 +10080,7 @@ export const CIVILIZATIONS = [
   },
   {
     id: "holy_roman",
-    name: "Holy Roman Empire (Evidence-Based)",
+    name: "Holy Roman Empire",
     emoji: "🏰",
     color: 0x4b0082,
     colorHex: "#4b0082",
@@ -10552,7 +10552,7 @@ export const CIVILIZATIONS = [
   },
   {
     id: "babylon",
-    name: "Babylonian Empire (Evidence-Based)",
+    name: "Babylonian Empire",
     emoji: "📜",
     color: 0xf57c00,
     colorHex: "#f57c00",
@@ -10865,7 +10865,7 @@ export const CIVILIZATIONS = [
   },
   {
     id: "assyria",
-    name: "Assyrian Empire (Evidence-Based)",
+    name: "Assyrian Empire",
     emoji: "🪓",
     color: 0x8b0000,
     colorHex: "#8b0000",
@@ -11173,7 +11173,7 @@ export const CIVILIZATIONS = [
   },
   {
     id: "maya",
-    name: "Maya Civilization (Evidence-Based)",
+    name: "Maya Civilization",
     emoji: "☀️",
     color: 0x388e3c,
     colorHex: "#388e3c",
@@ -11516,7 +11516,7 @@ export const CIVILIZATIONS = [
   },
   {
     id: "axum",
-    name: "Axumite Empire (Evidence-Based)",
+    name: "Axumite Empire",
     emoji: "✝️",
     color: 0x6d4c41,
     colorHex: "#6d4c41",
@@ -11861,7 +11861,7 @@ export const CIVILIZATIONS = [
   },
   {
     id: "great_zimbabwe",
-    name: "Great Zimbabwe (Evidence-Based)",
+    name: "Great Zimbabwe",
     emoji: "⛰️",
     color: 0x795548,
     colorHex: "#795548",
@@ -15135,7 +15135,7 @@ export const CIVILIZATIONS = [
   },
   {
     id: "iroquois",
-    name: "Haudenosaunee / Iroquois Confederacy (Evidence-Based)",
+    name: "Iroquois Confederacy",
     emoji: "🍁",
     color: 0x2e7d32,
     colorHex: "#2e7d32",
@@ -15477,7 +15477,7 @@ export const CIVILIZATIONS = [
   },
   {
     id: "pueblo",
-    name: "Pueblo Peoples (Evidence-Based)",
+    name: "Pueblo Peoples",
     emoji: "🏜️",
     color: 0x8d6e63,
     colorHex: "#8d6e63",
@@ -15804,7 +15804,7 @@ export const CIVILIZATIONS = [
   },
   {
     id: "tiwanaku",
-    name: "Tiahuanaco / Tiwanaku (Evidence-Based)",
+    name: "Tiahuanaco / Tiwanaku",
     emoji: "🗿",
     color: 0x6d4c41,
     colorHex: "#6d4c41",
@@ -16139,7 +16139,7 @@ export const CIVILIZATIONS = [
   },
   {
     id: "mapuche",
-    name: "Mapuche (Evidence-Based)",
+    name: "Mapuche",
     emoji: "🌲",
     color: 0x33691e,
     colorHex: "#33691e",
@@ -16456,7 +16456,7 @@ export const CIVILIZATIONS = [
   },  
   {
     id: "mongol",
-    name: "Mongol Empire (Evidence-Based)",
+    name: "Mongol Empire",
     emoji: "🏹",
     color: 0x4e342e,
     colorHex: "#4e342e",
@@ -16847,7 +16847,7 @@ export const CIVILIZATIONS = [
   },
   {
     id: "sumerians",
-    name: "Sumerians (Evidence-Based)",
+    name: "Sumerians",
     emoji: "📜",
     color: 0xa0522d,
     colorHex: "#a0522d",
