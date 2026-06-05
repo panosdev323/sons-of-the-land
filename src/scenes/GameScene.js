@@ -363,7 +363,7 @@ export class GameScene extends Phaser.Scene {
     async showRewardedInterstitial() {
         try {
             await AdMob.prepareRewardInterstitialAd({
-                adId: 'ca-app-pub-3940256099942544/6978759866',
+                adId: 'ca-app-pub-7222777824759007/1818714828',
             })
 
             let rewardEarned = false
@@ -507,7 +507,7 @@ export class GameScene extends Phaser.Scene {
 
                 // ==================== ADMOB REWARDED AD ====================
                 await AdMob.prepareRewardVideoAd({
-                    adId: 'ca-app-pub-3940256099942544/5224354917',
+                    adId: 'ca-app-pub-7222777824759007/1944109420',
                 })
 
                 // ✅ Ad φορτώθηκε — κρύψε το fallback αν το είχαμε δείξει
