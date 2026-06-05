@@ -695,7 +695,7 @@ export const CIVILIZATIONS = [
     bg: '#0a0a0a',
     authors: [
       {
-        name: 'Gaius Julius Caesar (De Bello Gallico & De Bello Civili)',
+        name: 'Gaius Julius Caesar',
         emoji: '⚔️',
         quotes: [
           {
@@ -759,7 +759,7 @@ export const CIVILIZATIONS = [
         ]
       },
       {
-        name: 'Marcus Aurelius (Meditations — Τὰ εἰς ἑαυτόν)',
+        name: 'Marcus Aurelius (Meditations)',
         emoji: '🛡️',
         quotes: [
           {
@@ -825,7 +825,7 @@ export const CIVILIZATIONS = [
         ]
       },
       {
-        name: 'Marcus Tullius Cicero (Orations, Letters & Philosophy)',
+        name: 'Marcus Tullius Cicero',
         emoji: '📜',
         quotes: [
           {
@@ -1504,7 +1504,7 @@ export const CIVILIZATIONS = [
         ]
       },
       {
-        name: 'Sallust (Bellum Catilinae & Bellum Jugurthinum)',
+        name: 'Sallust (Bellum Catilinae)',
         emoji: '📜',
         quotes: [
           {
@@ -1777,7 +1777,7 @@ export const CIVILIZATIONS = [
         // NEW AUTHOR: Frontinus — De Aquaeductu (On the Aqueducts of Rome, ~97 CE).
         // Sextus Julius Frontinus (c.40–103 CE): general, governor, and administrator.
         // Also author of Strategemata (military stratagems). His aqueduct treatise is unique.
-        name: 'Frontinus (De Aquaeductu — On the Aqueducts of Rome)',
+        name: 'Frontinus (On the Aqueducts of Rome)',
         emoji: '⚙️',
         quotes: [
           {
@@ -1966,7 +1966,7 @@ export const CIVILIZATIONS = [
         ]
       },
       {
-        name: 'Akhenaten (Great Hymn to the Aten & Amarna Inscriptions)',
+        name: 'Akhenaten (Great Hymn to the Aten)',
         emoji: '☀️',
         quotes: [
           {
@@ -2036,7 +2036,7 @@ export const CIVILIZATIONS = [
         ]
       },
       {
-        name: 'Amenemope (Instruction — Papyrus BM 10474)',
+        name: 'Amenemope (Papyrus BM 10474)',
         emoji: '📜',
         quotes: [
           {
@@ -2265,7 +2265,7 @@ export const CIVILIZATIONS = [
         ]
       },
       {
-        name: 'Instruction for Merikare (First Intermediate Period)',
+        name: 'Instruction for Merikare',
         emoji: '📜',
         quotes: [
           {
@@ -2310,7 +2310,7 @@ export const CIVILIZATIONS = [
         ]
       },
       {
-        name: 'Book of the Dead (Papyrus of Ani, c.1275 BCE)',
+        name: 'Book of the Dead (Papyrus of Ani)',
         emoji: '⚖️',
         quotes: [
           {
@@ -2673,7 +2673,7 @@ export const CIVILIZATIONS = [
         ]
       },
       {
-        name: 'Justinian I (Corpus Juris Civilis & Novels)',
+        name: 'Justinian I',
         emoji: '🏛️',
         quotes: [
           {
@@ -2731,7 +2731,7 @@ export const CIVILIZATIONS = [
         ]
       },
       {
-        name: 'John Chrysostom (Homilies & On the Priesthood)',
+        name: 'John Chrysostom',
         emoji: '📜',
         quotes: [
           {
@@ -2801,7 +2801,7 @@ export const CIVILIZATIONS = [
         ]
       },
       {
-        name: 'Leo VI the Wise (Taktika & Novels)',
+        name: 'Leo VI the Wise',
         emoji: '📜',
         quotes: [
           {
@@ -2855,7 +2855,7 @@ export const CIVILIZATIONS = [
         ]
       },
       {
-        name: 'Photios I of Constantinople (Bibliotheca & Letters)',
+        name: 'Photios I of Constantinople',
         emoji: '📜',
         quotes: [
           {
@@ -2929,7 +2929,7 @@ export const CIVILIZATIONS = [
         ]
       },
       {
-        name: 'Symeon the New Theologian (Hymns & Discourses)',
+        name: 'Symeon the New Theologian',
         emoji: '🙏',
         quotes: [
           {
@@ -2999,7 +2999,7 @@ export const CIVILIZATIONS = [
         ]
       },
       {
-        name: 'Constantine VII Porphyrogennetos (De Administrando Imperio & De Ceremoniis)',
+        name: 'Constantine VII Porphyrogennetos',
         emoji: '👑',
         quotes: [
           {
@@ -3426,7 +3426,7 @@ export const CIVILIZATIONS = [
     bg: '#0a0a0a',
     authors: [
       {
-        name: 'Confucius (Analects — Documented)',
+        name: 'Confucius (Analects)',
         emoji: '🧠',
         quotes: [
           {
@@ -3507,7 +3507,7 @@ export const CIVILIZATIONS = [
         ]
       },
       {
-        name: 'Laozi (Daodejing — Documented)',
+        name: 'Laozi (Daodejing)',
         emoji: '🌿',
         quotes: [
           {
@@ -3588,7 +3588,7 @@ export const CIVILIZATIONS = [
         ]
       },
       {
-        name: 'Sun Tzu (Art of War — Documented)',
+        name: 'Sun Tzu (Art of War)',
         emoji: '⚔️',
         quotes: [
           {
@@ -3654,7 +3654,7 @@ export const CIVILIZATIONS = [
         ]
       },
       {
-        name: 'Mencius (Mengzi — Documented)',
+        name: 'Mencius (Mengzi)',
         emoji: '🧠',
         quotes: [
           {
@@ -3710,7 +3710,7 @@ export const CIVILIZATIONS = [
         ]
       },
       {
-        name: 'Zhuangzi (Inner Chapters — Documented)',
+        name: 'Zhuangzi (Inner Chapters)',
         emoji: '🌊',
         quotes: [
           {
@@ -3756,7 +3756,7 @@ export const CIVILIZATIONS = [
         ]
       },
       {
-        name: 'Han Feizi (Legalist Text — Documented)',
+        name: 'Han Feizi (Legalist Text)',
         emoji: '⚖️',
         quotes: [
           {
@@ -3802,7 +3802,7 @@ export const CIVILIZATIONS = [
         ]
       },
       {
-        name: 'Xunzi (Documented — Ritual & Human Nature)',
+        name: 'Xunzi (Ritual & Human Nature)',
         emoji: '📜',
         quotes: [
           {
@@ -3849,7 +3849,7 @@ export const CIVILIZATIONS = [
       },
       {
         // shang xian (meritocracy), jie yong (frugality). Well-documented but often oversimplified.
-        name: 'Mozi (Mohist School — Documented)',
+        name: 'Mozi (Mohist School)',
         emoji: '🛡️',
         quotes: [
           {
@@ -3926,7 +3926,7 @@ export const CIVILIZATIONS = [
         ]
       },
       {
-        name: 'Han Yu (Tang Confucian Revival — Documented)',
+        name: 'Han Yu (Tang Confucian Revival)',
         emoji: '🖋️',
         quotes: [
           {
@@ -3988,7 +3988,7 @@ export const CIVILIZATIONS = [
         ]
       },
       {
-        name: 'Yijing (I Ching — Documented)',
+        name: 'Yijing (I Ching)',
         emoji: '☯️',
         quotes: [
           {
@@ -4004,7 +4004,7 @@ export const CIVILIZATIONS = [
         ]
       },
       {
-        name: 'Shijing (Book of Songs — Documented)',
+        name: 'Shijing (Book of Songs)',
         emoji: '🎶',
         quotes: [
           {
@@ -4030,7 +4030,7 @@ export const CIVILIZATIONS = [
     bg: '#0a0a0a',
     authors: [
       {
-        name: 'Bhagavad Gita (Documented Philosophical Text)',
+        name: 'Bhagavad Gita',
         emoji: '📜',
         quotes: [
           {
@@ -4188,7 +4188,7 @@ export const CIVILIZATIONS = [
         ]
       },
       {
-        name: 'Chanakya / Kautilya (Arthashastra & Chanakya Niti)',
+        name: 'Chanakya / Kautilya',
         emoji: '🧠',
         quotes: [
           {
@@ -4244,7 +4244,7 @@ export const CIVILIZATIONS = [
         ]
       },
       {
-        name: 'Patanjali (Yoga Sutras — Documented)',
+        name: 'Patanjali (Yoga Sutras)',
         emoji: '🧘',
         quotes: [
           {
@@ -4295,7 +4295,7 @@ export const CIVILIZATIONS = [
         ]
       },
       {
-        name: 'Bhartrihari (Shataka Trilogy — Documented)',
+        name: 'Bhartrihari (Shataka Trilogy)',
         emoji: '📜',
         quotes: [
           {
@@ -4341,7 +4341,7 @@ export const CIVILIZATIONS = [
         ]
       },
       {
-        name: 'Valmiki (Ramayana — Documented Epic)',
+        name: 'Valmiki (Ramayana)',
         emoji: '📝',
         quotes: [
           {
@@ -4377,7 +4377,7 @@ export const CIVILIZATIONS = [
         ]
       },
       {
-        name: 'Adi Shankaracharya (Advaita Vedanta — Documented)',
+        name: 'Adi Shankaracharya (Advaita Vedanta)',
         emoji: '🔥',
         quotes: [
           {
@@ -4418,7 +4418,7 @@ export const CIVILIZATIONS = [
         ]
       },
       {
-        name: 'Nagarjuna (Madhyamaka Buddhism — Documented)',
+        name: 'Nagarjuna (Madhyamaka Buddhism)',
         emoji: '☸️',
         quotes: [
           {
@@ -4464,7 +4464,7 @@ export const CIVILIZATIONS = [
         ]
       },
       {
-        name: "Indus Valley Civilization (Archaeological Evidence-Based)",
+        name: "Indus Valley Civilization",
         emoji: "🏺",
         quotes: [
           {
@@ -4715,7 +4715,7 @@ export const CIVILIZATIONS = [
         ]
       },
       {
-        name: 'Akkadian Proverbs & Wisdom (Documented Sources)',
+        name: 'Akkadian Proverbs & Wisdom',
         emoji: '📜',
         quotes: [
           { 
@@ -4975,7 +4975,7 @@ export const CIVILIZATIONS = [
         ]
       },
       {
-        name: "Takeda Shingen (Warlord & Military Strategist)",
+        name: "Takeda Shingen (Military Strategist)",
         emoji: "🦅",
         quotes: [
           {
@@ -5022,7 +5022,7 @@ export const CIVILIZATIONS = [
         ]
       },
       {
-        name: "Samurai Code & Bushidō (Historical Development)",
+        name: "Samurai Code & Bushidō",
         emoji: "🗡️",
         quotes: [
           {
@@ -5126,7 +5126,7 @@ export const CIVILIZATIONS = [
     bg: "#0a0a0a",
     authors: [
       {
-        name: "Hávamál (Codex Regius — Actual Norse Text)",
+        name: "Hávamál (Codex Regius)",
         emoji: "🐦",
         quotes: [
           {
@@ -5183,7 +5183,7 @@ export const CIVILIZATIONS = [
         ]
       },
       {
-        name: "Viking Raids & Expansion (Archaeological & Documentary Evidence)",
+        name: "Viking Raids & Expansion",
         emoji: "🛡️",
         quotes: [
           {
@@ -5297,7 +5297,7 @@ export const CIVILIZATIONS = [
         ]
       },
       {
-        name: "Ragnar Lothbrok (Legend vs. Historical Evidence)",
+        name: "Ragnar Lothbrok",
         emoji: "🪓",
         quotes: [
           {
@@ -5549,7 +5549,7 @@ export const CIVILIZATIONS = [
         ]
       },
       {
-        name: "Viking Political Institutions (Kingship & Power)",
+        name: "Viking Political Institutions",
         emoji: "👑",
         quotes: [
           {
@@ -5878,7 +5878,7 @@ export const CIVILIZATIONS = [
         ]
       },
       {
-        name: "Ottoman Provincial Administration (Eyalet System)",
+        name: "Ottoman Provincial Administration",
         emoji: "🏛️",
         quotes: [
           {
@@ -6014,7 +6014,7 @@ export const CIVILIZATIONS = [
     bg: "#0a0a0a",
     authors: [
       {
-        name: "David (Biblical Narrative & Archaeological Evidence)",
+        name: "David",
         emoji: "👑",
         quotes: [
           {
@@ -6040,7 +6040,7 @@ export const CIVILIZATIONS = [
         ]
       },
       {
-        name: "Solomon (Biblical Splendor vs. Archaeological Reality)",
+        name: "Solomon",
         emoji: "👑",
         quotes: [
           {
@@ -6061,7 +6061,7 @@ export const CIVILIZATIONS = [
         ]
       },
       {
-        name: "The United & Divided Monarchy (Historical Reconstruction)",
+        name: "The United & Divided Monarchy",
         emoji: "⚖️",
         quotes: [
           {
@@ -6165,7 +6165,7 @@ export const CIVILIZATIONS = [
         ]
       },
       {
-        name: "Archaeological Evidence & Historical Reconstruction",
+        name: "Archaeological Evidence",
         emoji: "🏺",
         quotes: [
           {
@@ -6280,7 +6280,7 @@ export const CIVILIZATIONS = [
     bg: "#0a0a0a",
     authors: [
       {
-        name: "Chandragupta Maurya (As Recorded by Megasthenes & Later Sources)",
+        name: "Chandragupta Maurya (As Recorded by Megasthenes)",
         emoji: "👑",
         quotes: [
           {
@@ -6347,7 +6347,7 @@ export const CIVILIZATIONS = [
         ]
       },
       {
-        name: "Ashoka the Great (Transformation & Moral Governance)",
+        name: "Ashoka the Great (Moral Governance)",
         emoji: "☸️",
         quotes: [
           {
@@ -6616,7 +6616,7 @@ export const CIVILIZATIONS = [
         ]
       },
       {
-        name: "Maurya Administrative Depth (Expanded)",
+        name: "Maurya Administrative Depth",
         emoji: "🏛️",
         quotes: [
           {
@@ -6637,7 +6637,7 @@ export const CIVILIZATIONS = [
         ]
       },
       {
-        name: "Maurya Economy & Material Culture (Expanded)",
+        name: "Maurya Economy & Material Culture",
         emoji: "🪙",
         quotes: [
           {
@@ -6814,7 +6814,7 @@ export const CIVILIZATIONS = [
         ]
       },
       {
-        name: "Aurangzeb (Orthodox Conqueror & Empire Overextender)",
+        name: "Aurangzeb (Orthodox Conqueror)",
         emoji: "⚖️",
         quotes: [
           {
@@ -7089,7 +7089,7 @@ export const CIVILIZATIONS = [
         ]
       },
       {
-        name: "Pre-Islamic Arabian Poets (Mu'allaqat & Jahiliyyah Tradition)",
+        name: "Pre-Islamic Arabian Poets",
         emoji: "🖋️",
         quotes: [
           {
@@ -7198,7 +7198,7 @@ export const CIVILIZATIONS = [
         ]
       },
       {
-        name: "The Rightly Guided Caliphs (As Recorded in Islamic Sources)",
+        name: "The Rightly Guided Caliphs",
         emoji: "🕌",
         quotes: [
           {
@@ -7276,7 +7276,7 @@ export const CIVILIZATIONS = [
         ]
       },
       {
-        name: "Arabian Social Structure & Tribal Organization",
+        name: "Arabian Social Structure",
         emoji: "🏛️",
         quotes: [
           {
@@ -7395,7 +7395,7 @@ export const CIVILIZATIONS = [
     bg: "#0a0a0a",
     authors: [
       {
-        name: "Sundiata Keita (As Recorded in Oral Tradition & Ibn Khaldun)",
+        name: "Sundiata Keita (As Recorded in Oral Tradition)",
         emoji: "👑",
         quotes: [
           {
@@ -7680,7 +7680,7 @@ export const CIVILIZATIONS = [
     bg: "#0a0a0a",
     authors: [
       {
-        name: "Montezuma I (As Recorded in Aztec Codices & Spanish Chronicles)",
+        name: "Montezuma I (As Recorded in Aztec Codices)",
         emoji: "👑",
         quotes: [
           {
@@ -8579,7 +8579,7 @@ export const CIVILIZATIONS = [
         ]
       },
       {
-        name: "Shapur I (Military Triumph & Territorial Expansion)",
+        name: "Shapur I (Military Triumph)",
         emoji: "⚔️",
         quotes: [
           { 
@@ -9063,7 +9063,7 @@ export const CIVILIZATIONS = [
         ]
       },
       {
-        name: "Priests & Spiritual Leaders (Willaq Umu & Inti Worship)",
+        name: "Priests & Spiritual Leaders",
         emoji: "🕯️",
         quotes: [
           {
@@ -9457,7 +9457,7 @@ export const CIVILIZATIONS = [
         ]
       },
       {
-        name: "Eshmunazar II of Sidon (Temple Builder)",
+        name: "Eshmunazar II of Sidon",
         emoji: "🏛️",
         quotes: [
           {
@@ -9588,7 +9588,7 @@ export const CIVILIZATIONS = [
         ]
       },
       {
-        name: "Phoenician City-States (Byblos, Arwad, Ugarit Influence Zone)",
+        name: "Phoenician City-States",
         emoji: "🏺",
         quotes: [
           {
@@ -9609,7 +9609,7 @@ export const CIVILIZATIONS = [
         ]
       },
       {
-        name: "Phoenician Western Colonies (Atlantic & Mediterranean Expansion)",
+        name: "Phoenician Western Colonies",
         emoji: "🌍",
         quotes: [
           {
@@ -9630,7 +9630,7 @@ export const CIVILIZATIONS = [
         ]
       },
       {
-        name: "Phoenician Political Structure (City-State System)",
+        name: "Phoenician Political Structure",
         emoji: "🏙️",
         quotes: [
           {
@@ -9646,7 +9646,7 @@ export const CIVILIZATIONS = [
         ]
       },
       {
-        name: "Phoenician Religion & Maritime Identity (Baal, Melqart, Astarte)",
+        name: "Phoenician Religion & Maritime Identity",
         emoji: "🔥",
         quotes: [
           {
@@ -9682,7 +9682,7 @@ export const CIVILIZATIONS = [
         // c.1650–1620 BCE. Hattusili I dictated this from his sickbed, disinheriting
         // his nephew Labarna and designating his grandson Mursili as successor.
         // One of the oldest surviving political/succession documents in any language.
-        name: "Hattusili I (Political Testament — CTH 6)",
+        name: "Hattusili I",
         emoji: "👑",
         quotes: [
           {
@@ -9734,7 +9734,7 @@ export const CIVILIZATIONS = [
         // Shattiwaza Treaty (CTH 51) — preserved in Akkadian, one of the most complete Hittite treaties;
         // Amarna Letters EA 41–44 — Suppiluliuma's correspondence with Egypt;
         // Dakhamunzu Affair — preserved within CTH 40 (the Egyptian queen's letters).
-        name: "Suppiluliuma I (CTH 40 — Deeds & Shattiwaza Treaty)",
+        name: "Suppiluliuma I",
         emoji: "⚔️",
         quotes: [
           {
@@ -9786,7 +9786,7 @@ export const CIVILIZATIONS = [
         // Four Plague Prayers of Mursili II (CTH 378.I–IV).
         // Mursili II (r. c.1321–1295 BCE) is one of the best-documented Hittite kings.
         // His plague prayers are among the most remarkable confessional texts of the ancient world.
-        name: "Mursili II (Plague Prayers CTH 378 & Annals CTH 61)",
+        name: "Mursili II",
         emoji: "📜",
         quotes: [
           {
@@ -9838,7 +9838,7 @@ export const CIVILIZATIONS = [
         // distinct from the Egyptian Poem and Bulletin of Ramesses II.
         // Prayer of Muwatalli II to the Storm-god of Lightning (CTH 381).
         // Muwatalli II (r. c.1295–1272 BCE) — moved the Hittite capital temporarily to Tarhuntassa.
-        name: "Muwatalli II (CTH 361 & Prayer CTH 381)",
+        name: "Muwatalli II",
         emoji: "🐎",
         quotes: [
           {
@@ -9878,7 +9878,7 @@ export const CIVILIZATIONS = [
         // Treaty of Kadesh / Eternal Treaty (CTH 91) — preserved in both Hittite and Egyptian versions
         // (the Egyptian version is on the walls of Karnak and the Ramesseum);
         // Letters of Puduhepa to Ramesses II (CTH 176) — Hattusili's queen wrote independently.
-        name: "Hattusili III (Apology CTH 81 & Treaty of Kadesh CTH 91)",
+        name: "Hattusili III",
         emoji: "🕯️",
         quotes: [
           {
@@ -9931,7 +9931,7 @@ export const CIVILIZATIONS = [
         // Among the most complete ancient law codes alongside Hammurabi.
         // Notably: Hittite laws show systematic reduction of penalties over time —
         // the older version says "he shall be killed"; the later version says "he shall pay X shekels"
-        name: "Hittite Laws (CTH 291–292 — The Law Tablets)",
+        name: "Hittite Laws (The Law Tablets)",
         emoji: "⚖️",
         quotes: [
           {
@@ -9983,7 +9983,7 @@ export const CIVILIZATIONS = [
         // Tudhaliya IV's dedications and letters (CTH 121, 381);
         // Hittite ritual texts showing Puduhepa's religious authority.
         // Puduhepa (queen c.1270–1237 BCE) is one of the best-documented women of the ancient world.
-        name: "Puduhepa (Queen, Priestess & Diplomat — CTH 176, 384)",
+        name: "Puduhepa (Queen, Priestess & Diplomat)",
         emoji: "👑",
         quotes: [
           {
@@ -10029,7 +10029,7 @@ export const CIVILIZATIONS = [
         // Ugarit letters (RS 20.238 — "the ships are in flames!"); Egyptian records of the Sea Peoples;
         // Hattusa destruction evidence (archaeological); Tudhaliya IV's letters on grain shortages (CTH 121);
         // Ammurapi of Ugarit's letters to the Hittite king requesting grain (RS 20.212).
-        name: "Bronze Age Collapse & Hittite Religion (Documented Sources)",
+        name: "Bronze Age Collapse & Hittite Religion",
         emoji: "🏛️",
         quotes: [
           {
@@ -10087,7 +10087,7 @@ export const CIVILIZATIONS = [
     bg: "#0a0a0a",
     authors: [
       {
-        name: "Charlemagne (Admonitio Generalis & Einhard's Vita)",
+        name: "Charlemagne",
         emoji: "👑",
         quotes: [
           {
@@ -10133,7 +10133,7 @@ export const CIVILIZATIONS = [
         ]
       },
       {
-        name: "Otto I the Great (Widukind & Imperial Charters)",
+        name: "Otto I the Great",
         emoji: "🛡️",
         quotes: [
           {
@@ -10169,7 +10169,7 @@ export const CIVILIZATIONS = [
         ]
       },
       {
-        name: "Otto III (Renovatio Imperii Romanorum — Charters & Letters)",
+        name: "Otto III",
         emoji: "📜",
         quotes: [
           {
@@ -10205,7 +10205,7 @@ export const CIVILIZATIONS = [
         ]
       },
       {
-        name: "Henry IV & Gregory VII (Investiture Controversy)",
+        name: "Henry IV & Gregory VII",
         emoji: "⚔️",
         quotes: [
           {
@@ -10246,7 +10246,7 @@ export const CIVILIZATIONS = [
         ]
       },
       {
-        name: "Frederick I Barbarossa (Diet of Roncaglia & Gesta Frederici)",
+        name: "Frederick I Barbarossa",
         emoji: "🛡️",
         quotes: [
           {
@@ -10282,7 +10282,7 @@ export const CIVILIZATIONS = [
         ]
       },
       {
-        name: "Frederick II Stupor Mundi (Constitutions of Melfi & De Arte Venandi)",
+        name: "Frederick II Stupor Mundi",
         emoji: "📖",
         quotes: [
           {
@@ -10323,7 +10323,7 @@ export const CIVILIZATIONS = [
         ]
       },
       {
-        name: "Charles IV (Golden Bull 1356 & Vita Caroli Quarti)",
+        name: "Charles IV",
         emoji: "⚖️",
         quotes: [
           {
@@ -10369,7 +10369,7 @@ export const CIVILIZATIONS = [
         ]
       },
       {
-        name: "Maximilian I (Perpetual Public Peace & Imperial Reform 1495)",
+        name: "Maximilian I",
         emoji: "🏛️",
         quotes: [
           {
@@ -10487,7 +10487,7 @@ export const CIVILIZATIONS = [
         ]
       },
       {
-        name: "Martin Luther at the Diet of Worms (1521)",
+        name: "Martin Luther at the Diet of Worms",
         emoji: "📜",
         quotes: [
           {
@@ -10523,7 +10523,7 @@ export const CIVILIZATIONS = [
         ]
       },
       {
-        name: "Reformation, Westphalia & Legacy (Documented)",
+        name: "Reformation, Westphalia & Legacy",
         emoji: "📜",
         quotes: [
           {
@@ -10562,7 +10562,7 @@ export const CIVILIZATIONS = [
         // Hammurabi (r. 1792–1750 BCE): the Code stele (Louvre) is a primary source.
         // The prologue and epilogue contain documented rhetoric; the 282 laws are verified.
         // The "first-person" sections below quote or closely paraphrase the actual stele text.
-        name: "Hammurabi (r. 1792–1750 BCE — Code Stele, Louvre)",
+        name: "Hammurabi (Code Stele, Louvre)",
         emoji: "👑",
         quotes: [
           {
@@ -10607,7 +10607,7 @@ export const CIVILIZATIONS = [
         // the Babylonian Chronicle, the Bible (2 Kings, Daniel, Jeremiah), and archaeology.
         // Ishtar Gate: ~14m high, now reconstructed in the Pergamon Museum, Berlin.
         // Hanging Gardens: no archaeological evidence found; possibly a misattribution to Nineveh.
-        name: "Nebuchadnezzar II (r. 605–562 BCE — Inscriptions & Archaeology)",
+        name: "Nebuchadnezzar II (Inscriptions & Archaeology)",
         emoji: "🏛️",
         quotes: [
           {
@@ -10646,7 +10646,7 @@ export const CIVILIZATIONS = [
         // Babylonian astronomy: saros cycle, MUL.APIN star catalog, ephemeris tablets.
         // Babylonian astronomers invented the zodiac (12 signs, ~400 BCE).
         // They calculated the synodic period of Saturn, Jupiter, Mars, Venus, Mercury.
-        name: "Babylonian Astronomy & Mathematics (Documented)",
+        name: "Babylonian Astronomy & Mathematics",
         emoji: "🕯️",
         quotes: [
           {
@@ -10684,7 +10684,7 @@ export const CIVILIZATIONS = [
       {
         // Babylonian trade and economy: tamkarum merchants, silver as currency, interest-bearing loans.
         // Interest rates in Hammurabi's Code: 20% on silver, 33% on grain loans per year.
-        name: "Babylonian Trade & Economic Systems (Documented)",
+        name: "Babylonian Trade & Economic Systems",
         emoji: "💰",
         quotes: [
           {
@@ -10717,7 +10717,7 @@ export const CIVILIZATIONS = [
       {
         // Babylonian religion: Marduk, Enuma Elish, New Year festival (Akitu).
         // The Akitu festival lasted 12 days; on day 8 Marduk "chose" the king's fate.
-        name: "Babylonian Religion & the Akitu Festival (Documented)",
+        name: "Babylonian Religion & the Akitu Festival",
         emoji: "🕌",
         quotes: [
           {
@@ -10751,7 +10751,7 @@ export const CIVILIZATIONS = [
         // Nabopolassar (r. 626–605 BCE): founded Neo-Babylonian Empire, defeated Assyria with Medes.
         // Nabonidus (r. 556–539 BCE): last Neo-Babylonian king; devoted to moon god Sin; absent from Babylon 10 years.
         // Cyrus Cylinder (British Museum): documented Persian propaganda/policy document.
-        name: "Nabopolassar, Nabonidus & the Fall of Babylon (Documented)",
+        name: "Nabopolassar, Nabonidus & the Fall of Babylon",
         emoji: "🏛️",
         quotes: [
           {
@@ -10789,7 +10789,7 @@ export const CIVILIZATIONS = [
       {
         // Babylonian legacy: cuneiform scholarship, influence on Greek astronomy, biblical connections.
         // The city of Babylon was excavated by Robert Koldewey (1899–1917).
-        name: "Babylonian Legacy & Scholarly Influence (Documented)",
+        name: "Babylonian Legacy & Scholarly Influence",
         emoji: "📜",
         quotes: [
           {
@@ -10820,7 +10820,7 @@ export const CIVILIZATIONS = [
         ]
       },
       {
-        name: "Babylonian Writing & Scribal Education (Documented)",
+        name: "Babylonian Writing & Scribal Education",
         emoji: "🪶",
         quotes: [
           {
@@ -10875,7 +10875,7 @@ export const CIVILIZATIONS = [
         // Ashurnasirpal II (r. 883–859 BCE): documented through his Annals and the Banquet Stele.
         // Built new capital at Kalhu (Nimrud). Annals record systematic terror tactics.
         // No direct "quotes" as speech — all evidence comes from royal inscriptions (written in 3rd person).
-        name: "Ashurnasirpal II (r. 883–859 BCE — Royal Inscriptions)",
+        name: "Ashurnasirpal II (Royal Inscriptions)",
         emoji: "👑",
         quotes: [
           {
@@ -10914,7 +10914,7 @@ export const CIVILIZATIONS = [
         // Sargon II (r. 722–705 BCE): documented through his Annals, the Khorsabad reliefs, and the Bible.
         // Conquered Israel (722 BCE), deported ~27,290 Israelites per his own inscription.
         // Built Dur-Sharrukin (Khorsabad). Died in battle — unusual for Assyrian kings.
-        name: "Sargon II (r. 722–705 BCE — Annals & Biblical Sources)",
+        name: "Sargon II (Annals & Biblical Sources)",
         emoji: "⚔️",
         quotes: [
           {
@@ -10952,7 +10952,7 @@ export const CIVILIZATIONS = [
       {
         // Sennacherib (r. 705–681 BCE): documented through his Annals, the Lachish reliefs, the Taylor Prism,
         // and the Bible (2 Kings 18–19, Isaiah 36–37). Jerusalem campaign (701 BCE) is extensively documented.
-        name: "Sennacherib (r. 705–681 BCE — Prisms, Reliefs & Bible)",
+        name: "Sennacherib (Prisms, Reliefs & Bible)",
         emoji: "🏛️",
         quotes: [
           {
@@ -11029,7 +11029,7 @@ export const CIVILIZATIONS = [
         // Assyrian military: professional standing army, iron weapons, siege technology.
         // Iron use: Assyrians were among the first to use iron weapons systematically (~900 BCE onward).
         // Deportation numbers: over 1 million people deported over the empire's history (scholarly estimate).
-        name: "Assyrian Military Organization (Documented)",
+        name: "Assyrian Military Organization",
         emoji: "⚔️",
         quotes: [
           {
@@ -11068,7 +11068,7 @@ export const CIVILIZATIONS = [
         // Assyrian administration: provincial system, governors (šaknu), intelligence network.
         // Deportation policy: attested in Annals and administrative records.
         // The Harran Chronicle documents the final years of the empire.
-        name: "Assyrian Administration & Deportation Policy (Documented)",
+        name: "Assyrian Administration & Deportation Policy",
         emoji: "⚖️",
         quotes: [
           {
@@ -11101,7 +11101,7 @@ export const CIVILIZATIONS = [
       {
         // Assyrian religion: Ashur as national god, replaced Enlil/Marduk in adapted texts.
         // The Marduk Prophecy and religious texts show Assyrian adaptation of Babylonian religion.
-        name: "Assyrian Religion & Royal Ideology (Documented)",
+        name: "Assyrian Religion & Royal Ideology",
         emoji: "🕯️",
         quotes: [
           {
@@ -11134,7 +11134,7 @@ export const CIVILIZATIONS = [
       {
         // Nineveh fall (612 BCE): documented in the Babylonian Chronicle (BM 21901) and the Book of Nahum.
         // Coalition: Babylonians (Nabopolassar) + Medes (Cyaxares). Final Assyrian resistance ended 609 BCE.
-        name: "Fall of Nineveh & Assyrian Decline (Documented)",
+        name: "Fall of Nineveh & Assyrian Decline",
         emoji: "📜",
         quotes: [
           {
@@ -11227,7 +11227,7 @@ export const CIVILIZATIONS = [
         // Maya calendar: Long Count (base date 3114 BCE = 0.0.0.0.0), Tzolk'in (260 days), Haab' (365 days).
         // Calendar Round = 52 years (18,980 days). Venus cycle: 584 days documented in Dresden Codex.
         // Correlation constant (GMT correlation) places Long Count base at August 11, 3114 BCE.
-        name: "Maya Calendar & Astronomy (Documented)",
+        name: "Maya Calendar & Astronomy",
         emoji: "🌌",
         quotes: [
           {
@@ -11266,7 +11266,7 @@ export const CIVILIZATIONS = [
         // Maya writing: deciphered primarily by Yuri Knorozov (1952), building on earlier work.
         // Four surviving codices: Dresden, Madrid, Paris, Grolier (Grolier's authenticity now confirmed).
         // ~800 distinct glyphs documented.
-        name: "Maya Writing System (Documented Decipherment)",
+        name: "Maya Writing System",
         emoji: "📜",
         quotes: [
           {
@@ -11304,7 +11304,7 @@ export const CIVILIZATIONS = [
       {
         // Maya architecture: Tikal (Temple I = 47m), Chichen Itza (El Castillo), Palenque, Copán.
         // Corbelled arch, reservoirs at Tikal, orientation to celestial events.
-        name: "Maya Architecture & Urban Planning (Documented)",
+        name: "Maya Architecture & Urban Planning",
         emoji: "🏛️",
         quotes: [
           {
@@ -11343,7 +11343,7 @@ export const CIVILIZATIONS = [
         // Maya agriculture: milpa, raised fields (bajos), terracing documented archaeologically.
         // Maize domestication: ~9,000 years ago in Mesoamerica (from teosinte).
         // Drought evidence: speleothems and lake cores confirm Terminal Classic drought.
-        name: "Maya Agriculture & Environmental Knowledge (Documented)",
+        name: "Maya Agriculture & Environmental Knowledge",
         emoji: "🌾",
         quotes: [
           {
@@ -11377,7 +11377,7 @@ export const CIVILIZATIONS = [
         // Maya religion: Popol Vuh (K'iche' Maya, written down ~1550s), Hero Twins, creation myth.
         // Ball game (pitz): documented at 1,500+ sites. Decapitation of losers debated.
         // Chaak (rain god), Itzamna (creator), Ix Chel (moon/medicine goddess) are documented deities.
-        name: "Maya Religion & the Popol Vuh (Documented)",
+        name: "Maya Religion & the Popol Vuh",
         emoji: "🕯️",
         quotes: [
           {
@@ -11415,7 +11415,7 @@ export const CIVILIZATIONS = [
       {
         // Maya trade: obsidian from El Chayal and Ixtepeque, jade from Motagua Valley,
         // cacao as currency, Teotihuacan connections documented.
-        name: "Maya Trade Networks (Archaeological Evidence)",
+        name: "Maya Trade Networks",
         emoji: "💰",
         quotes: [
           {
@@ -11449,7 +11449,7 @@ export const CIVILIZATIONS = [
         // Maya collapse: Terminal Classic (~800–900 CE) in the southern lowlands.
         // Postclassic Maya continued: Chichen Itza, Uxmal, Mayapan, Tulum.
         // Spanish conquest: Hernán Cortés passed through 1519, final Maya state (Tayasal) fell 1697.
-        name: "Maya Decline & the Postclassic Period (Documented)",
+        name: "Maya Decline & the Postclassic Period",
         emoji: "📜",
         quotes: [
           {
@@ -11487,7 +11487,7 @@ export const CIVILIZATIONS = [
       {
         // Maya mathematics and science: zero, vigesimal system, tropical year calculation.
         // The Maya zero predates European knowledge of zero (from India via Arabs ~8th century CE).
-        name: "Maya Mathematics & Scientific Achievement (Documented)",
+        name: "Maya Mathematics & Scientific Achievement",
         emoji: "🧮",
         quotes: [
           {
@@ -11527,7 +11527,7 @@ export const CIVILIZATIONS = [
         // His conversion to Christianity (~333 CE) is attested by coins and inscriptions.
         // Conquest of Kush/Meroe (~350 CE) documented in his victory inscription at Axum.
         // No direct "quotes" survive as speech — all evidence comes from royal inscriptions.
-        name: "King Ezana (Inscriptions & Coins — Documented)",
+        name: "King Ezana (Inscriptions & Coins)",
         emoji: "👑",
         quotes: [
           {
@@ -11609,7 +11609,7 @@ export const CIVILIZATIONS = [
       {
         // Adulis: Axum's main port. Described by the Periplus of the Erythraean Sea (~1st century CE).
         // Trade goods documented: ivory, gold, obsidian, slaves from interior; imported cloth, metal, wine.
-        name: "Axumite Trade & Adulis (Documented Sources)",
+        name: "Axumite Trade & Adulis",
         emoji: "🏺",
         quotes: [
           {
@@ -11648,7 +11648,7 @@ export const CIVILIZATIONS = [
         // Stelae: Axum contains the largest collection of ancient monolithic stelae.
         // Stele 1 (fallen, broken): ~33m originally. Stele 2 (returned from Rome 2008): ~24m.
         // Stele 3 (standing): ~21m. Church of Mary of Zion: traditional home of the Ark.
-        name: "Axumite Architecture & Stelae (Archaeological Evidence)",
+        name: "Axumite Architecture & Stelae",
         emoji: "🏛️",
         quotes: [
           {
@@ -11687,7 +11687,7 @@ export const CIVILIZATIONS = [
         // Christianity: Nine Saints (~480s CE), Ge'ez Bible translation, monasticism.
         // Axum aligned with Miaphysite (Coptic/Ethiopian Orthodox) Christianity, not Chalcedonian.
         // First Hijra (615 CE): documented in Islamic hadith literature.
-        name: "Axumite Christianity (Documented History)",
+        name: "Axumite Christianity",
         emoji: "✝️",
         quotes: [
           {
@@ -11735,7 +11735,7 @@ export const CIVILIZATIONS = [
       {
         // Axumite military: Arabian campaigns documented (Kaleb's campaign ~525 CE against Dhu Nuwas).
         // Persian expulsion of Axum from Arabia (~575 CE) documented in Islamic and Byzantine sources.
-        name: "Axumite Military & Arabian Campaigns (Documented)",
+        name: "Axumite Military & Arabian Campaigns",
         emoji: "⚔️",
         quotes: [
           {
@@ -11768,7 +11768,7 @@ export const CIVILIZATIONS = [
       {
         // Ge'ez language and literature: documented. Kebra Nagast (~13th century compiled, older traditions).
         // The Kebra Nagast is post-Axumite but draws on Axumite-era traditions.
-        name: "Ge'ez Language & Axumite Intellectual Culture (Documented)",
+        name: "Ge'ez Language & Axumite Intellectual Culture",
         emoji: "📚",
         quotes: [
           {
@@ -11812,7 +11812,7 @@ export const CIVILIZATIONS = [
         // Axumite decline: multi-causal. Islamic rise (7th century), loss of Red Sea trade,
         // environmental degradation, and internal political fragmentation.
         // Zagwe dynasty succeeded Axum (~900–1270 CE).
-        name: "Axumite Decline & Legacy (Documented)",
+        name: "Axumite Decline & Legacy",
         emoji: "📜",
         quotes: [
           {
@@ -11874,7 +11874,7 @@ export const CIVILIZATIONS = [
         // Key archaeologists: Gertrude Caton-Thompson (1929), Peter Garlake (1973), Shadreck Chirikure (2010s).
         // The site was falsely attributed to Phoenicians/Sabaeans by colonial-era Europeans — 
         // Caton-Thompson's excavations definitively proved African construction.
-        name: "Great Zimbabwe Architecture (Archaeological Evidence)",
+        name: "Great Zimbabwe Architecture",
         emoji: "🏗️",
         quotes: [
           {
@@ -11918,7 +11918,7 @@ export const CIVILIZATIONS = [
         // Zimbabwe birds: 8 soapstone birds found at the site. Now Zimbabwe's national symbol.
         // Mambo title and rain-making role: documented in Portuguese sources and Shona oral tradition.
         // Karanga/Shona identity of builders: confirmed by archaeology and oral history.
-        name: "Great Zimbabwe Rulers & Political Authority (Documented)",
+        name: "Great Zimbabwe Rulers & Political Authority",
         emoji: "👑",
         quotes: [
           {
@@ -11957,7 +11957,7 @@ export const CIVILIZATIONS = [
         // Trade: Chinese porcelain (Song/Ming), Persian faience, Indian glass beads all found at site.
         // Gold controlled by Zimbabwe rulers; Swahili coast (Kilwa, Sofala) as intermediaries.
         // Kilwa Kisiwani (Tanzania) is a documented trading partner — its own UNESCO site.
-        name: "Great Zimbabwe Trade Networks (Archaeological Evidence)",
+        name: "Great Zimbabwe Trade Networks",
         emoji: "💰",
         quotes: [
           {
@@ -11996,7 +11996,7 @@ export const CIVILIZATIONS = [
         // Craftsmanship: soapstone sculptures, gold wire objects, and distinctive ceramics are documented.
         // Iron smelting predated the stone construction period.
         // The Zimbabwe culture (named by archaeologists) is defined partly by its pottery style.
-        name: "Great Zimbabwe Craftsmanship & Material Culture (Documented)",
+        name: "Great Zimbabwe Craftsmanship & Material Culture",
         emoji: "🎨",
         quotes: [
           {
@@ -12030,7 +12030,7 @@ export const CIVILIZATIONS = [
         // Social organization: inferred from spatial analysis of ruins (Hill = elite, Valley = commoners).
         // Population estimates range from 10,000–18,000 at peak.
         // Women's roles: inferred from artifact distribution; limited direct documentation.
-        name: "Great Zimbabwe Social Organization (Archaeological Inference)",
+        name: "Great Zimbabwe Social Organization",
         emoji: "🏛️",
         quotes: [
           {
@@ -12063,7 +12063,7 @@ export const CIVILIZATIONS = [
       {
         // Religion and cosmology: ancestor veneration (vadzimu), mhondoro spirits documented in Shona oral tradition.
         // Astronomical alignments at the Hill Complex have been noted but remain debated.
-        name: "Great Zimbabwe Religion & Cosmology (Documented Traditions)",
+        name: "Great Zimbabwe Religion & Cosmology",
         emoji: "🕯️",
         quotes: [
           {
@@ -12097,7 +12097,7 @@ export const CIVILIZATIONS = [
         // Decline: multi-causal. Deforestation, soil exhaustion, shifts in gold trade, rise of Mutapa.
         // Chirikure's recent work (2010s) refines the decline timeline.
         // Colonial denial of African authorship: documented racist pseudoarchaeology refuted by 1929.
-        name: "Great Zimbabwe Decline & Colonial Misrepresentation (Documented)",
+        name: "Great Zimbabwe Decline & Colonial Misrepresentation",
         emoji: "📜",
         quotes: [
           {
@@ -12135,7 +12135,7 @@ export const CIVILIZATIONS = [
       {
         // Environment: plateau location, Masvingo region, granite geology, cattle grazing documented.
         // Deforestation as factor in decline: supported by pollen analysis.
-        name: "Great Zimbabwe Environment & Location (Documented)",
+        name: "Great Zimbabwe Environment & Location",
         emoji: "🌿",
         quotes: [
           {
@@ -12166,7 +12166,7 @@ export const CIVILIZATIONS = [
         ]
       },
       {
-        name: "Great Zimbabwe Metallurgy & Resource Control (Evidence-Based)",
+        name: "Great Zimbabwe Metallurgy & Resource Control",
         emoji: "⚒️",
         quotes: [
           {
@@ -12265,7 +12265,7 @@ export const CIVILIZATIONS = [
         ]
       },
       {
-        name: "Great Zimbabwe Historiography & Archaeological Debate",
+        name: "Great Zimbabwe Historiography",
         emoji: "📚",
         quotes: [
           {
@@ -12291,7 +12291,7 @@ export const CIVILIZATIONS = [
         ]
       },
       {
-        name: "Great Zimbabwe Population & Settlement Dynamics",
+        name: "Great Zimbabwe Population",
         emoji: "👥",
         quotes: [
           {
@@ -12322,7 +12322,7 @@ export const CIVILIZATIONS = [
     bg: "#0a0a0a",
     authors: [
       {
-        name: "Chandragupta I (Founder & Historical Records)",
+        name: "Chandragupta I (Founder)",
         emoji: "👑",
         quotes: [
           {
@@ -12348,7 +12348,7 @@ export const CIVILIZATIONS = [
         ]
       },
       {
-        name: "Samudragupta (Expansion & Military Conquest)",
+        name: "Samudragupta",
         emoji: "⚔️",
         quotes: [
           {
@@ -12379,7 +12379,7 @@ export const CIVILIZATIONS = [
         ]
       },
       {
-        name: "Chandragupta II Vikramaditya (Golden Age & Culture)",
+        name: "Chandragupta II Vikramaditya",
         emoji: "🌟",
         quotes: [
           {
@@ -12821,7 +12821,7 @@ export const CIVILIZATIONS = [
     bg: "#0a0a0a",
     authors: [
       {
-        name: "Sunni Ali Ber (Conqueror & Expander, As Recorded by Ibn Khaldun & Leo Africanus)",
+        name: "Sunni Ali Ber (Conqueror & Expander)",
         emoji: "👑",
         quotes: [
           {
@@ -12857,7 +12857,7 @@ export const CIVILIZATIONS = [
         ]
       },
       {
-        name: "Muhammad Askia the Great (Organization & Administration)",
+        name: "Muhammad Askia the Great",
         emoji: "👑",
         quotes: [
           {
@@ -13344,7 +13344,7 @@ export const CIVILIZATIONS = [
     bg: "#0a0a0a",
     authors: [
       {
-        name: "Arsaces I & Early Parthian Kings (As Recorded by Appian & Justin)",
+        name: "Arsaces I & Early Parthian Kings",
         emoji: "👑",
         quotes: [
           {
@@ -13375,7 +13375,7 @@ export const CIVILIZATIONS = [
         ]
       },
       {
-        name: "Mithridates I the Great (Expansion & Power)",
+        name: "Mithridates I the Great",
         emoji: "🐴",
         quotes: [
           {
@@ -13821,7 +13821,7 @@ export const CIVILIZATIONS = [
     bg: "#0a0a0a",
     authors: [
       {
-        name: "Seleucus I Nicator (As Recorded by Appian & Diodorus)",
+        name: "Seleucus I Nicator",
         emoji: "👑",
         quotes: [
           {
@@ -13857,7 +13857,7 @@ export const CIVILIZATIONS = [
         ]
       },
       {
-        name: "Antiochus III the Great (Expansion & Power)",
+        name: "Antiochus III the Great",
         emoji: "🐘",
         quotes: [
           {
@@ -14660,7 +14660,7 @@ export const CIVILIZATIONS = [
         ]
       },
       {
-        name: "Celtic Roman Interaction & Bias in Sources",
+        name: "Celtic Roman Interaction",
         emoji: "📜",
         quotes: [
           {
@@ -14691,7 +14691,7 @@ export const CIVILIZATIONS = [
     bg: "#0a0a0a",
     authors: [
       {
-        name: "Chiefs & Leaders - Archaeological & Documentary Evidence",
+        name: "Chiefs & Leaders - Archaeological Evidence",
         emoji: "👑",
         quotes: [
           {
@@ -15048,7 +15048,7 @@ export const CIVILIZATIONS = [
         ]
       },
       {
-        name: "Mississippian Regional Diversity (Critical Clarification)",
+        name: "Mississippian Regional Diversity",
         emoji: "🗺️",
         quotes: [
           {
@@ -15111,7 +15111,7 @@ export const CIVILIZATIONS = [
         ]
       },
       {
-        name: "Mississippian Collapse & Post-Cahokia Transformations",
+        name: "Mississippian Collapse",
         emoji: "🌫️",
         quotes: [
           {
@@ -15146,7 +15146,7 @@ export const CIVILIZATIONS = [
         // The Great Law of Peace (Gayanashagowa) exists in oral tradition and wampum records.
         // First written transcription: Seth Newhouse (~1900); Arthur Parker's version (1916).
         // No single authoritative written text — versions differ across nations.
-        name: "The Great Law of Peace (Gayanashagowa — Oral & Wampum Record)",
+        name: "The Great Law of Peace (Gayanashagowa)",
         emoji: "⚖️",
         quotes: [
           {
@@ -15190,7 +15190,7 @@ export const CIVILIZATIONS = [
         // Clan Mothers: documented through ethnography (Morgan 1851, Hewitt, Fenton) and oral tradition.
         // Lewis Henry Morgan's "League of the Iroquois" (1851) is an early primary-adjacent source.
         // Matrilineal descent and women's nomination/removal power are well-documented.
-        name: "Clan Mothers & Women's Authority (Documented)",
+        name: "Clan Mothers & Women's Authority",
         emoji: "👩",
         quotes: [
           {
@@ -15228,7 +15228,7 @@ export const CIVILIZATIONS = [
       {
         // Haudenosaunee governance structure: documented through Morgan, Fenton (1998 "The Great Law and the Longhouse"),
         // and wampum belt analysis. The 50 sachems and their clan assignments are documented.
-        name: "Haudenosaunee Confederacy Structure (Documented)",
+        name: "Haudenosaunee Confederacy Structure",
         emoji: "👑",
         quotes: [
           {
@@ -15261,7 +15261,7 @@ export const CIVILIZATIONS = [
       {
         // Wampum: documented trade/diplomatic item. Purple and white wampum beads from whelk and quahog shells.
         // Wampum belts as treaty records are well-documented. The Two Row Wampum (Guswenta) is key.
-        name: "Wampum & Diplomacy (Documented)",
+        name: "Wampum & Diplomacy",
         emoji: "💰",
         quotes: [
           {
@@ -15327,7 +15327,7 @@ export const CIVILIZATIONS = [
       {
         // Thanksgiving Address (Ganöhönyohk): documented ceremonial text.
         // Handsome Lake (Sganyodaiyo): documented religious leader, Code of Handsome Lake (~1799–1815).
-        name: "Haudenosaunee Spirituality (Documented)",
+        name: "Haudenosaunee Spirituality",
         emoji: "🕯️",
         quotes: [
           {
@@ -15361,7 +15361,7 @@ export const CIVILIZATIONS = [
         // Iroquois influence on US Constitution: DEBATED claim.
         // Primary proponents: Donald Grinde, Bruce Johansen (1990s). Contested by historians.
         // Franklin's 1754 Albany Plan of Union had some Iroquois context but direct influence is not proven.
-        name: "Haudenosaunee & American Democracy (Debated Claim)",
+        name: "Haudenosaunee & American Democracy",
         emoji: "🏛️",
         quotes: [
           {
@@ -15389,7 +15389,7 @@ export const CIVILIZATIONS = [
       {
         // Haudenosaunee today: documented contemporary situation.
         // Onondaga Nation, Mohawk Nation (Akwesasne), Haudenosaunee Confederacy passport issue are documented.
-        name: "Haudenosaunee Today (Contemporary Documentation)",
+        name: "Haudenosaunee Today",
         emoji: "🛡️",
         quotes: [
           {
@@ -15421,7 +15421,7 @@ export const CIVILIZATIONS = [
       },
       {
         // Condolence ceremony is foundational to Haudenosaunee governance continuity
-        name: "Condolence Ceremony & Political Renewal System (Documented)",
+        name: "Condolence Ceremony & Political System",
         emoji: "🌿",
         quotes: [
           {
@@ -15448,7 +15448,7 @@ export const CIVILIZATIONS = [
       },
       {
         // The Longhouse is both physical and political model of confederacy unity
-        name: "The Longhouse Political Structure (Governance Model)",
+        name: "The Longhouse Political Structure",
         emoji: "🏠",
         quotes: [
           {
@@ -15489,7 +15489,7 @@ export const CIVILIZATIONS = [
         // Each has its own language, governance, and traditions.
         // Primary sources: Spanish colonial records, archaeology (Chaco, Mesa Verde),
         // and 20th-century ethnography (Elsie Parsons, Alfonso Ortiz, Edward Dozier).
-        name: "Pueblo Governance (Diverse Peoples — Colonial & Ethnographic Sources)",
+        name: "Pueblo Governance (Diverse Peoples)",
         emoji: "👑",
         quotes: [
           {
@@ -15523,7 +15523,7 @@ export const CIVILIZATIONS = [
         // Kachina (katsina) tradition: documented among Hopi and Zuni primarily.
         // NOT universal among all Pueblo peoples — Rio Grande pueblos kept kachina traditions
         // more private after Spanish suppression; Hopi and Zuni are the primary documented sources.
-        name: "Kachina (Katsina) Traditions — Hopi & Zuni (Documented)",
+        name: "Kachina (Katsina) Traditions",
         emoji: "🕯️",
         quotes: [
           {
@@ -15556,7 +15556,7 @@ export const CIVILIZATIONS = [
       {
         // Pueblo agriculture: Three Sisters, dry farming, and water management are well-documented
         // archaeologically and ethnographically. Chaco Canyon's agricultural system is studied extensively.
-        name: "Pueblo Agriculture & Water Management (Documented)",
+        name: "Pueblo Agriculture & Water Management",
         emoji: "🌾",
         quotes: [
           {
@@ -15594,7 +15594,7 @@ export const CIVILIZATIONS = [
       {
         // Pueblo architecture: Mesa Verde, Chaco Canyon, and Taos Pueblo are well-documented.
         // Taos Pueblo has been continuously inhabited for ~1,000 years — a UNESCO World Heritage Site.
-        name: "Pueblo Architecture (Archaeological & Historical Record)",
+        name: "Pueblo Architecture",
         emoji: "🏘️",
         quotes: [
           {
@@ -15632,7 +15632,7 @@ export const CIVILIZATIONS = [
       {
         // Pueblo trade: documented through turquoise, macaw feathers, copper bells, and shell artifacts.
         // Chaco as a redistribution center is a debated but documented hypothesis.
-        name: "Pueblo Trade Networks (Archaeological Evidence)",
+        name: "Pueblo Trade Networks",
         emoji: "💰",
         quotes: [
           {
@@ -15660,7 +15660,7 @@ export const CIVILIZATIONS = [
       {
         // Pueblo pottery: well-documented. Black-on-white Chaco style, Mimbres pottery, modern traditions.
         // Acoma, Hopi, Zuni, and San Ildefonso (Maria Martinez) are documented pottery traditions.
-        name: "Pueblo Pottery & Artistry (Documented Traditions)",
+        name: "Pueblo Pottery & Artistry",
         emoji: "🎨",
         quotes: [
           {
@@ -15688,7 +15688,7 @@ export const CIVILIZATIONS = [
       {
         // Pueblo Revolt of 1680: one of the best-documented events in Pueblo history.
         // Led by Po'pay (Popé) of Ohkay Owingeh (San Juan Pueblo). Spanish records + oral tradition.
-        name: "The Pueblo Revolt of 1680 (Documented Historical Event)",
+        name: "The Pueblo Revolt of 1680",
         emoji: "🛡️",
         quotes: [
           {
@@ -15721,7 +15721,7 @@ export const CIVILIZATIONS = [
       {
         // Pueblo language diversity: critical fact often ignored when treating "Pueblo" as unified.
         // Tewa, Tiwa, Towa (Tanoan family), Keresan (language isolate), Hopi (Uto-Aztecan), Zuni (isolate).
-        name: "Pueblo Language & Cultural Diversity (Documented)",
+        name: "Pueblo Language & Cultural Diversity",
         emoji: "📜",
         quotes: [
           {
@@ -15753,7 +15753,7 @@ export const CIVILIZATIONS = [
       },
       {
         // Core archaeological timeline linking Basketmaker → Pueblo phases
-        name: "Ancestral Pueblo Chronology & Regional Development (Archaeological Record)",
+        name: "Ancestral Pueblo Chronology",
         emoji: "⏳",
         quotes: [
           {
@@ -15780,7 +15780,7 @@ export const CIVILIZATIONS = [
       },
       {
         // Key social structure: Pueblo kinship is primarily matrilineal
-        name: "Pueblo Kinship & Clan Systems (Matrilineal Organization)",
+        name: "Pueblo Kinship & Clan Systems",
         emoji: "🧬",
         quotes: [
           {
@@ -15815,7 +15815,7 @@ export const CIVILIZATIONS = [
         // All knowledge comes from archaeology, iconography, and later Inca oral tradition
         // filtered through Spanish colonial sources. "Quotes" here are archaeological inferences.
         // Key scholars: Alan Kolata, John Janusek, Carlos Ponce Sanginés.
-        name: "Tiwanaku Architecture & Engineering (Archaeological Evidence)",
+        name: "Tiwanaku Architecture & Engineering",
         emoji: "🏗️",
         quotes: [
           {
@@ -15853,7 +15853,7 @@ export const CIVILIZATIONS = [
       {
         // Tiwanaku religion: documented through iconography (Staff God, Gateway of the Sun)
         // and ritual deposits. No written theology exists — interpretations are archaeological.
-        name: "Tiwanaku Religious Iconography (Archaeological Interpretation)",
+        name: "Tiwanaku Religious Iconography",
         emoji: "🕯️",
         quotes: [
           {
@@ -15891,7 +15891,7 @@ export const CIVILIZATIONS = [
       {
         // Tiwanaku political structure: no written records — inferred from settlement patterns,
         // labor mobilization evidence, and artifact distribution. Debate: state vs. peer polity model.
-        name: "Tiwanaku Political Structure (Archaeological Inference)",
+        name: "Tiwanaku Political Structure",
         emoji: "👑",
         quotes: [
           {
@@ -15924,7 +15924,7 @@ export const CIVILIZATIONS = [
       {
         // Raised fields (suka kollus): one of the best-documented aspects of Tiwanaku civilization.
         // Alan Kolata and Clark Erickson's research on raised field systems is foundational.
-        name: "Tiwanaku Agriculture: Raised Fields (Suka Kollus)",
+        name: "Tiwanaku Agriculture: Raised Fields",
         emoji: "🌾",
         quotes: [
           {
@@ -15957,7 +15957,7 @@ export const CIVILIZATIONS = [
       {
         // Tiwanaku trade: documented through artifact distribution and obsidian sourcing.
         // Obsidian from Chivay and Alca sources found at Tiwanaku; Tiwanaku ceramics found in coastal Peru.
-        name: "Tiwanaku Trade Networks (Archaeological Evidence)",
+        name: "Tiwanaku Trade Networks",
         emoji: "💰",
         quotes: [
           {
@@ -15990,7 +15990,7 @@ export const CIVILIZATIONS = [
       {
         // Tiwanaku art and ceramics: well-documented. Distinctive style (Tiwanaku IV, V phases).
         // Kero cups, incensarios, and textiles are key artifact types.
-        name: "Tiwanaku Art & Material Culture (Documented)",
+        name: "Tiwanaku Art & Material Culture",
         emoji: "🎨",
         quotes: [
           {
@@ -16018,7 +16018,7 @@ export const CIVILIZATIONS = [
       {
         // Tiwanaku decline: paleoclimatic and archaeological evidence is well-documented.
         // Sediment cores, lake level data, and abandonment patterns all support drought hypothesis.
-        name: "Tiwanaku Decline & Legacy (Documented Evidence)",
+        name: "Tiwanaku Decline & Legacy",
         emoji: "📜",
         quotes: [
           {
@@ -16051,7 +16051,7 @@ export const CIVILIZATIONS = [
       {
         // Tiwanaku social organization: inferred from settlement hierarchy, burial analysis,
         // and spatial organization of the urban core.
-        name: "Tiwanaku Social Organization (Archaeological Inference)",
+        name: "Tiwanaku Social Organization",
         emoji: "🏛️",
         quotes: [
           {
@@ -16083,7 +16083,7 @@ export const CIVILIZATIONS = [
       },
       {
         // Hydrology is central to Tiwanaku survival model (Kolata, Erickson).
-        name: "Tiwanaku Hydrology & Environmental Engineering (Documented)",
+        name: "Tiwanaku Hydrology & Environmental Engineering",
         emoji: "💧",
         quotes: [
           {
@@ -16110,7 +16110,7 @@ export const CIVILIZATIONS = [
       },
       {
         // Tiwanaku–Wari interaction is a key Andean archaeology debate (Isbell, Jennings).
-        name: "Tiwanaku–Wari Interaction Sphere (Documented Debate)",
+        name: "Tiwanaku–Wari Interaction Sphere",
         emoji: "🔄",
         quotes: [
           {
@@ -16150,7 +16150,7 @@ export const CIVILIZATIONS = [
         // the Treaty of Quilín (1641), and later ethnographic work (Bengoa, Boccara).
         // No direct quotes from lonkos survive — evidence comes through Spanish intermediaries.
         // NOTE: "ayllu" is a Quechua/Andean term — NOT Mapuche. Removed from all quotes.
-        name: "Lonko (Chiefs) — Colonial Records & Oral Tradition",
+        name: "Lonko (Chiefs)",
         emoji: "👑",
         quotes: [
           {
@@ -16189,7 +16189,7 @@ export const CIVILIZATIONS = [
         // Machis (ritual specialists): documented through ethnographic sources (Faron 1964, Bacigalupo 2007).
         // The machi role is well-studied but primarily through 20th-century anthropology —
         // colonial-era documentation is sparse and filtered through Spanish Catholic observers.
-        name: "Machis (Ritual Specialists) — Ethnographic Sources",
+        name: "Machis (Ritual Specialists)",
         emoji: "🕯️",
         quotes: [
           {
@@ -16227,7 +16227,7 @@ export const CIVILIZATIONS = [
       {
         // Mapuche warriors and the Arauco War: documented through Spanish chronicles,
         // legal records, and the Treaty of Quilín. The 300-year resistance is historically verified.
-        name: "Mapuche Warriors & the Arauco War (Documented)",
+        name: "Mapuche Warriors & the Arauco War",
         emoji: "⚔️",
         quotes: [
           {
@@ -16266,7 +16266,7 @@ export const CIVILIZATIONS = [
         // Mapuche social structure: documented through ethnography (Faron, Bengoa) and colonial records.
         // NOTE: "ayllu" removed — it is a Quechua term with no documented use in Mapuche culture.
         // The Mapuche kinship unit is the lof (local community group).
-        name: "Mapuche Social Structure (Documented)",
+        name: "Mapuche Social Structure",
         emoji: "🏘️",
         quotes: [
           {
@@ -16299,7 +16299,7 @@ export const CIVILIZATIONS = [
       {
         // Mapuche cosmology and nature: documented through ethnography (Grebe 1972, Bacigalupo 2007).
         // The Mapuche term "Ñuke Mapu" (Mother Earth) is attested. Wenumapu/Miñchemapu cosmology documented.
-        name: "Mapuche Cosmology & Environmental Values (Documented)",
+        name: "Mapuche Cosmology & Environmental Values",
         emoji: "🌿",
         quotes: [
           {
@@ -16334,7 +16334,7 @@ export const CIVILIZATIONS = [
         // and oral literature collections (Lenz 1895–1897, Augusta 1910).
         // NOTE: "Buen Vivir" is primarily an Andean (Quechua: sumak kawsay) political concept —
         // its application to Mapuche culture as "küme mongen" is a recent scholarly/activist construction.
-        name: "Mapuche Language & Oral Tradition (Documented)",
+        name: "Mapuche Language & Oral Tradition",
         emoji: "📜",
         quotes: [
           {
@@ -16367,7 +16367,7 @@ export const CIVILIZATIONS = [
       {
         // Mapuche in the 19th–20th century: Chilean "Pacification" (1861–1883), reduction system,
         // and contemporary land rights movements are well-documented.
-        name: "Mapuche Resistance to Colonization (19th–20th Century)",
+        name: "Mapuche Resistance to Colonization",
         emoji: "🛡️",
         quotes: [
           {
@@ -16400,7 +16400,7 @@ export const CIVILIZATIONS = [
       {
         // Lautaro: documented in Spanish chronicles (Ercilla, Lobera).
         // Key figure of Arauco War; escaped captivity and led Mapuche resistance.
-        name: "Lautaro (War Leader — Arauco War Sources)",
+        name: "Lautaro (War Leader)",
         emoji: "🔥",
         quotes: [
           {
@@ -16427,7 +16427,7 @@ export const CIVILIZATIONS = [
       },
       {
         // Butalmapu: regional Mapuche confederations documented in colonial records.
-        name: "Butalmapu (Regional Confederations — Documented)",
+        name: "Butalmapu (Regional Confederations)",
         emoji: "🗺️",
         quotes: [
           {
@@ -16466,7 +16466,7 @@ export const CIVILIZATIONS = [
         // Genghis Khan (~1162–1227): Primary sources are the Secret History of the Mongols (~1240),
         // Persian chronicler Juvayni, and Chinese Jin/Song records. Many popular "Genghis quotes"
         // online are invented. The two most cited quotes below are the best-documented ones.
-        name: "Genghis Khan (Secret History & Chronicle Sources)",
+        name: "Genghis Khan",
         emoji: "👑",
         quotes: [
           {
@@ -16509,7 +16509,7 @@ export const CIVILIZATIONS = [
       {
         // Mongol military tactics: well-documented through Chinese, Persian, Armenian, and European sources.
         // The feigned retreat, yam system, and decimal organization are historically verified.
-        name: "Mongol Military Strategy (Documented Tactics)",
+        name: "Mongol Military Strategy",
         emoji: "⚔️",
         quotes: [
           {
@@ -16547,7 +16547,7 @@ export const CIVILIZATIONS = [
       {
         // Mongol administration: documented through Persian, Chinese, and Armenian sources.
         // Religious tolerance, yam, and merit-based appointments are historically verified.
-        name: "Mongol Administration & Governance (Documented)",
+        name: "Mongol Administration & Governance",
         emoji: "📜",
         quotes: [
           {
@@ -16586,7 +16586,7 @@ export const CIVILIZATIONS = [
         // Ögedei Khan (r. 1229–1241): Genghis Khan's third son and chosen successor.
         // His reign saw the conquest of northern China, the western campaign into Europe, and institutionalization of the yam.
         // REPLACES "Batu Khan" section — Batu was a general, not a primary documented thinker/ruler with attributed quotes.
-        name: "Ögedei Khan (r. 1229–1241 — Documented Reign)",
+        name: "Ögedei Khan (r. 1229–1241)",
         emoji: "🐴",
         quotes: [
           {
@@ -16619,7 +16619,7 @@ export const CIVILIZATIONS = [
       {
         // Kublai Khan (r. 1260–1294): founded Yuan Dynasty. Marco Polo's account is primary Western source.
         // Chinese sources (Yuan Shi) and Persian sources (Rashid al-Din) also document his reign.
-        name: "Kublai Khan (Yuan Dynasty — Documented)",
+        name: "Kublai Khan (Yuan Dynasty)",
         emoji: "👑",
         quotes: [
           {
@@ -16652,7 +16652,7 @@ export const CIVILIZATIONS = [
       {
         // Mongol warriors and the honor code: documented in Secret History and Juvayni.
         // The decimal punishment system (killing one in ten for unit's failure) is historically attested.
-        name: "Mongol Warriors & the Honor Code (Documented)",
+        name: "Mongol Warriors & the Honor Code",
         emoji: "🏹",
         quotes: [
           {
@@ -16680,7 +16680,7 @@ export const CIVILIZATIONS = [
       {
         // Pax Mongolica: documented concept covering ~1250–1350 CE.
         // Trade revival on Silk Road is confirmed by multiple sources including Ibn Battuta and Marco Polo.
-        name: "Pax Mongolica & the Silk Road (Documented)",
+        name: "Pax Mongolica & the Silk Road",
         emoji: "💰",
         quotes: [
           {
@@ -16713,7 +16713,7 @@ export const CIVILIZATIONS = [
       {
         // Mongol decline: documented through Persian, Chinese, and European sources.
         // Fragmentation into four khanates (Yuan, Ilkhanate, Chagatai, Golden Horde) is well-documented.
-        name: "Mongol Fragmentation & Decline (Documented)",
+        name: "Mongol Fragmentation & Decline",
         emoji: "📜",
         quotes: [
           {
@@ -16744,7 +16744,7 @@ export const CIVILIZATIONS = [
         ]
       },
       {
-        name: "Subutai & Mongol Strategic Warfare (Documented)",
+        name: "Subutai & Mongol Strategic Warfare",
         emoji: "🧠",
         quotes: [
           {
@@ -16765,7 +16765,7 @@ export const CIVILIZATIONS = [
         ]
       },
       {
-        name: "Khwarazmian War (Documented Destruction)",
+        name: "Khwarazmian War",
         emoji: "🔥",
         quotes: [
           {
@@ -16781,7 +16781,7 @@ export const CIVILIZATIONS = [
         ]
       },
       {
-        name: "Mongol Religious Policy (Documented Tolerance)",
+        name: "Mongol Religious Policy",
         emoji: "🕯️",
         quotes: [
           {
@@ -16857,7 +16857,7 @@ export const CIVILIZATIONS = [
         // Instructions of Shuruppak: ETCSL 5.6.1. One of the oldest documented wisdom texts (~2600 BCE).
         // Preserved in multiple cuneiform copies. Quotes below reflect verified themes from the text.
         // Specific phrasing is paraphrased from scholarly translations (Alster 1974, ETCSL).
-        name: "Instructions of Shuruppak (ETCSL 5.6.1 — Documented)",
+        name: "Instructions of Shuruppak",
         emoji: "📜",
         quotes: [
           {
@@ -16975,7 +16975,7 @@ export const CIVILIZATIONS = [
         // Enuma Elish: Babylonian creation epic (~7 tablets, ~1100 BCE in its canonical form).
         // It is NOT a wisdom text — it contains narrative mythology, not aphorisms.
         // This section presents verified THEMES from the text, framed as such, not invented quotes.
-        name: "Enuma Elish (Babylonian Creation Epic — Themes)",
+        name: "Enuma Elish",
         emoji: "🌍",
         quotes: [
           {
@@ -17018,7 +17018,7 @@ export const CIVILIZATIONS = [
       {
         // Sumerian legal texts: Ur-Nammu law code (~2100 BCE, ETCSL 2.4.1.1) and administrative records.
         // These are genuine documents; quotes here reflect verified content, framed as legal principles.
-        name: "Sumerian Legal Texts (Ur-Nammu Code & Administrative Records)",
+        name: "Sumerian Legal Texts",
         emoji: "⚖️",
         quotes: [
           {
@@ -17056,7 +17056,7 @@ export const CIVILIZATIONS = [
       {
         // Sumerian agricultural texts: documented in economic tablets from Nippur and Ur III administrative records.
         // The Farmer's Almanac (ETCSL 5.6.3) is the oldest known agricultural manual.
-        name: "Sumerian Farmer's Almanac & Agricultural Texts (ETCSL 5.6.3)",
+        name: "Sumerian Farmer's Almanac",
         emoji: "🌾",
         quotes: [
           {
