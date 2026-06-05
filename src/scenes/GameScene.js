@@ -363,7 +363,7 @@ export class GameScene extends Phaser.Scene {
     async showRewardedInterstitial() {
         try {
             await AdMob.prepareRewardInterstitialAd({
-                adId: 'ca-app-pub-3940256099942544/1033173712',
+                adId: 'ca-app-pub-3940256099942544/6978759866',
             })
 
             let rewardEarned = false
