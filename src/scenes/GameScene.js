@@ -367,35 +367,29 @@ export class GameScene extends Phaser.Scene {
             })
 
             let rewardEarned = false
-            let listenersRemoved = false
-            let onReward, onDismiss
 
-            const removeListeners = () => {
-                if (listenersRemoved) return
-                listenersRemoved = true
-                onReward?.remove()
-                onDismiss?.remove()
-            }
-
-            onReward = await AdMob.addListener(RewardAdPluginEvents.Rewarded, () => {
-                rewardEarned = true
+            await new Promise(async (resolve) => {
+                const onReward = await AdMob.addListener(
+                    RewardAdPluginEvents.Rewarded, () => {
+                        rewardEarned = true
+                    }
+                )
+                const onDismiss = await AdMob.addListener(
+                    RewardAdPluginEvents.Dismissed, () => {
+                        onReward?.remove()
+                        onDismiss?.remove()
+                        resolve()
+                    }
+                )
+                await AdMob.showRewardedInterstitialAd()
             })
 
-            onDismiss = await AdMob.addListener(RewardAdPluginEvents.Dismissed, () => {
-                removeListeners()
-            })
-
-            await AdMob.showRewardedInterstitialAd()
-            removeListeners()
-
-            // ✅ Αν πήρε reward, δώσε bonus πόντους (όχι ζωές — δεν το ζήτησε)
             if (rewardEarned) {
                 this.globalScore += 25
                 await ProgressStore.updateGlobalScore(this.globalScore)
             }
 
         } catch (e) {
-            // No fill ή άλλο σφάλμα — συνεχίζει κανονικά χωρίς διαφήμιση
             console.log('Interstitial not available:', e.message)
         }
     }
