@@ -1846,8 +1846,8 @@ export const CIVILIZATIONS = [
           },
           {
             start: 'Maxims of Ptahhotep (Maxim 21): "How good it is when a son accepts what his father says! Thereby maturity comes to him. He who listens is beloved of',
-            correct: 'god",',
-            wrong: ['pharaoh",', 'the vizier",', 'the scribes",']
+            correct: 'god',
+            wrong: ['pharaoh', 'the vizier', 'the scribes']
           },
           {
             start: 'Maxims of Ptahhotep (Maxim 22): "He who does not listen is a fool; he will never attain knowledge or wisdom. He who disobeys,',
@@ -1856,8 +1856,8 @@ export const CIVILIZATIONS = [
           },
           {
             start: 'Maxims of Ptahhotep (Maxim 32): "If you are a guest at the table of one who is greater than you, take only what he gives you. Do not look',
-            correct: 'greedily at what is before him",',
-            wrong: ['away from his gaze",', 'for a better seat",', 'to compare your portion with others",']
+            correct: 'greedily at what is before him',
+            wrong: ['away from his gaze', 'for a better seat', 'to compare your portion with others']
           },
           {
             start: 'Maxims of Ptahhotep (Maxim 37): "If you are a leader commanding the affairs of the multitude, seek out for yourself every beneficial deed, until your own affairs are',
@@ -3674,8 +3674,8 @@ export const CIVILIZATIONS = [
           },
           {
             start: 'Mengzi 6A:2 — Mencius argues that human nature (xing) is originally',
-            correct: 'good,',
-            wrong: ['evil,', 'neutral,', 'dual — both good and evil,']
+            correct: 'good',
+            wrong: ['evil', 'neutral', 'dual — both good and evil']
           },
           {
             start: 'Just as water naturally flows',
@@ -3812,8 +3812,8 @@ export const CIVILIZATIONS = [
           },
           {
             start: 'Xunzi Ch.1 (Quan Xue): "Learning should not',
-            correct: 'stop",',
-            wrong: ['replace ritual",', 'precede virtue",', 'substitute for action",']
+            correct: 'stop',
+            wrong: ['replace ritual', 'precede virtue', 'substitute for action']
           },
           {
             start: 'Continuing: "The blue dye comes from the indigo plant yet is bluer than the plant" — illustrating that education',
@@ -3822,8 +3822,8 @@ export const CIVILIZATIONS = [
           },
           {
             start: 'Xunzi Ch.19 (Lilun): Ritual (li) serves three roots: Heaven and Earth as the root of life, ancestors as the root of',
-            correct: 'the human species,',
-            wrong: ['moral virtue,', 'social order,', 'ritual performance,']
+            correct: 'the human species',
+            wrong: ['moral virtue', 'social order', 'ritual performance']
           },
           {
             start: 'And rulers and teachers as the root of',
@@ -3864,8 +3864,8 @@ export const CIVILIZATIONS = [
           },
           {
             start: 'Mozi Ch.17–19 (Fei Gong): Mozi condemns aggressive warfare as',
-            correct: 'large-scale robbery,',
-            wrong: ['justified by ritual,', 'necessary for order,', 'sanctioned by Heaven,']
+            correct: 'large-scale robbery',
+            wrong: ['justified by ritual', 'necessary for order', 'sanctioned by Heaven']
           },
           {
             start: 'Mozi Ch.8–10 (Shang Xian): Government officials should be chosen on the basis of',
@@ -4387,8 +4387,8 @@ export const CIVILIZATIONS = [
           },
           {
             start: 'Shankara\'s core Advaita thesis — "Brahma satyam jagan mithya, jivo brahmaiva na parah" — states that Brahman is real, the world is',
-            correct: 'apparent (mithya),',
-            wrong: ['eternal matter,', 'also Brahman fully,', 'the source of dharma,']
+            correct: 'apparent (mithya)',
+            wrong: ['eternal matter', 'also Brahman fully', 'the source of dharma']
           },
           {
             start: 'Shankara\'s commentary on Brahmasutra 1.1.1 argues that inquiry into Brahman (brahma-jijnasa) must precede inquiry into ritual (dharma-jijnasa) because Brahman knowledge leads to',
