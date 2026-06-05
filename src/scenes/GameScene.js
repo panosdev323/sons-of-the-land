@@ -362,27 +362,33 @@ export class GameScene extends Phaser.Scene {
 
     async showRewardedInterstitial() {
         try {
+            let rewardEarned = false
+            let onReward, onDismiss
+
+            // ✅ 1. Listeners ΠΡΩΤΑ
+            onReward = await AdMob.addListener(
+                RewardInterstitialAdPluginEvents.Rewarded, () => {
+                    rewardEarned = true
+                }
+            )
+
+            onDismiss = await AdMob.addListener(
+                RewardInterstitialAdPluginEvents.Dismissed, () => {
+                    onReward?.remove()
+                    onDismiss?.remove()
+                }
+            )
+
+            // ✅ 2. Prepare
             await AdMob.prepareRewardInterstitialAd({
                 adId: 'ca-app-pub-7222777824759007/1818714828',
             })
 
-            let rewardEarned = false
+            // ✅ 3. Show — επιστρέφει απευθείας
+            await AdMob.showRewardInterstitialAd()
 
-            await new Promise(async (resolve) => {
-                const onReward = await AdMob.addListener(
-                    RewardInterstitialAdPluginEvents.Rewarded, () => {
-                        rewardEarned = true
-                    }
-                )
-                const onDismiss = await AdMob.addListener(
-                    RewardInterstitialAdPluginEvents.Dismissed, () => {
-                        onReward?.remove()
-                        onDismiss?.remove()
-                        resolve()
-                    }
-                )
-                await AdMob.showRewardInterstitialAd()
-            })
+            onReward?.remove()
+            onDismiss?.remove()
 
             if (rewardEarned) {
                 this.globalScore += 25
@@ -505,31 +511,16 @@ export class GameScene extends Phaser.Scene {
                     return
                 }
 
-                // ==================== ADMOB REWARDED AD ====================
-                await AdMob.prepareRewardVideoAd({
-                    adId: 'ca-app-pub-7222777824759007/1944109420',
-                })
-
-                // ✅ Ad φορτώθηκε — κρύψε το fallback αν το είχαμε δείξει
-                continueBtn.setVisible(false)
-
                 let rewardEarned = false
-                let listenersRemoved = false
                 let onReward, onDismiss
-
-                const removeListeners = () => {
-                    if (listenersRemoved) return
-                    listenersRemoved = true
-                    onReward?.remove()
-                    onDismiss?.remove()
-                }
 
                 onReward = await AdMob.addListener(RewardAdPluginEvents.Rewarded, () => {
                     rewardEarned = true
                 })
 
                 onDismiss = await AdMob.addListener(RewardAdPluginEvents.Dismissed, () => {
-                    removeListeners()
+                    onReward?.remove()
+                    onDismiss?.remove()
                     if (!rewardEarned) {
                         this.add.text(240, 420, '⚠️ Ad was not completed', {
                             fontSize: '16px', color: '#ff5252'
@@ -537,8 +528,16 @@ export class GameScene extends Phaser.Scene {
                     }
                 })
 
+                await AdMob.prepareRewardVideoAd({
+                    adId: 'ca-app-pub-7222777824759007/1944109420',
+                })
+
+                continueBtn.setVisible(false)
+
                 await AdMob.showRewardVideoAd()
-                removeListeners()
+
+                onReward?.remove()
+                onDismiss?.remove()
 
                 if (!rewardEarned) return
 
