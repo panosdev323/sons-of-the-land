@@ -11,27 +11,14 @@ import { TermsScene } from './scenes/TermsScene.js'
 import { MobileOptimization } from './mobileOptimization.js'
 import { AdMob } from '@capacitor-community/admob';
 
-// Initialize AdMob before game starts
 async function initializeAdMob() {
     try {
         await AdMob.initialize();
         console.log("✅ AdMob initialized successfully");
-        // await AdMob.setTestingOptions({ testMode: true });
     } catch (error) {
         console.error("❌ Failed to initialize AdMob:", error);
     }
 }
-
-// ✅ Apply safe area CSS before game starts
-MobileOptimization.applySafeAreaCSS()
-initializeAdMob();
-
-// ✅ Lock to portrait orientation on mobile (when built with Capacitor)
-// This will work automatically on native mobile builds
-// Uncomment when you build with Capacitor:
-// if (MobileOptimization.getPlayableArea().isMobile) {
-//   MobileOptimization.lockOrientation('portrait')
-// }
 
 const config = {
   type: Phaser.AUTO,
@@ -49,7 +36,6 @@ const config = {
   scale: {
     mode: Phaser.Scale.FIT,
     autoCenter: Phaser.Scale.CENTER_BOTH,
-    // ✅ Add mobile-specific scale settings
     orientation: Phaser.Scale.Orientation.PORTRAIT,
     expandParent: true,
     fullscreenTarget: '#app'
@@ -58,7 +44,6 @@ const config = {
     disableWebAudio: false,
     noAudio: false
   },
-  // ✅ Add physics if needed
   physics: {
     default: 'arcade',
     arcade: {
@@ -68,20 +53,24 @@ const config = {
   }
 }
 
-const game = new Phaser.Game(config)
-setTimeout(() => game.scale.refresh(), 150);
+async function startApp() {
+    MobileOptimization.applySafeAreaCSS()
+    await initializeAdMob()
+    
+    const game = new Phaser.Game(config)
+    setTimeout(() => game.scale.refresh(), 150)
 
-// ✅ Handle orientation changes
-window.addEventListener('orientationchange', () => {
-  console.log('Orientation changed:', MobileOptimization.getOrientation())
-  // Game will auto-scale, but you can add custom logic here
-})
+    window.addEventListener('orientationchange', () => {
+        console.log('Orientation changed:', MobileOptimization.getOrientation())
+    })
 
-// ✅ Handle visibility (pause on background, resume on foreground)
-document.addEventListener('visibilitychange', () => {
-  if (document.hidden) {
-    game.events.emit('GAME_PAUSED')
-  } else {
-    game.events.emit('GAME_RESUMED')
-  }
-})
+    document.addEventListener('visibilitychange', () => {
+        if (document.hidden) {
+            game.events.emit('GAME_PAUSED')
+        } else {
+            game.events.emit('GAME_RESUMED')
+        }
+    })
+}
+
+startApp()
