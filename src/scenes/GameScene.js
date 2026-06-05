@@ -1,6 +1,6 @@
 import { CIVILIZATIONS } from '../quotes.js'
 import { ProgressStore } from '../progressStore.js'
-import { AdMob, RewardAdPluginEvents } from '@capacitor-community/admob'
+import { AdMob, RewardAdPluginEvents, RewardInterstitialAdPluginEvents } from '@capacitor-community/admob'
 
 export class GameScene extends Phaser.Scene {
     constructor() { super('GameScene') }
@@ -362,7 +362,7 @@ export class GameScene extends Phaser.Scene {
 
     async showRewardedInterstitial() {
         try {
-            await AdMob.prepareRewardedInterstitialAd({
+            await AdMob.prepareRewardInterstitialAd({
                 adId: 'ca-app-pub-7222777824759007/1818714828',
             })
 
@@ -370,18 +370,18 @@ export class GameScene extends Phaser.Scene {
 
             await new Promise(async (resolve) => {
                 const onReward = await AdMob.addListener(
-                    RewardAdPluginEvents.Rewarded, () => {
+                    RewardInterstitialAdPluginEvents.Rewarded, () => {
                         rewardEarned = true
                     }
                 )
                 const onDismiss = await AdMob.addListener(
-                    RewardAdPluginEvents.Dismissed, () => {
+                    RewardInterstitialAdPluginEvents.Dismissed, () => {
                         onReward?.remove()
                         onDismiss?.remove()
                         resolve()
                     }
                 )
-                await AdMob.showRewardedInterstitialAd()
+                await AdMob.showRewardInterstitialAd()
             })
 
             if (rewardEarned) {
