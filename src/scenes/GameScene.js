@@ -558,6 +558,8 @@ export class GameScene extends Phaser.Scene {
 
             } catch (error) {
                 console.error('Ad error:', error)
+                console.error('MESSAGE:', error?.message)
+                console.error('CODE:', error?.code)
 
                 // ✅ Μόνο αν No Fill → δείξε το fallback button
                 const isNoFill = error?.message?.includes('No fill') ||
