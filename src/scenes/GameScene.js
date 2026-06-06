@@ -378,15 +378,15 @@ export class GameScene extends Phaser.Scene {
                     onDismiss?.remove()
                 }
             )
-
+            console.log('Preparing Rewarded Interstitial...')
             // ✅ 2. Prepare
             await AdMob.prepareRewardInterstitialAd({
                 adId: 'ca-app-pub-7222777824759007/1818714828',
             })
-
+            console.log('Rewarded Interstitial Prepared')
             // ✅ 3. Show — επιστρέφει απευθείας
             await AdMob.showRewardInterstitialAd()
-
+            console.log('Rewarded Interstitial Shown')
             onReward?.remove()
             onDismiss?.remove()
 
@@ -396,7 +396,14 @@ export class GameScene extends Phaser.Scene {
             }
 
         } catch (e) {
-            console.log('Interstitial not available:', e.message)
+            console.error('Rewarded Interstitial Error:', e)
+            console.error('Message:', e?.message)
+            console.error('Code:', e?.code)
+            console.error('Stringified:', JSON.stringify(e))
+
+            if (e?.stack) {
+                console.error('Stack:', e.stack)
+            }
         }
     }
 
