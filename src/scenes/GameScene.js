@@ -374,13 +374,11 @@ export class GameScene extends Phaser.Scene {
         let onFailedToShow = null
 
         const cleanup = () => {
-            console.log('cleanup()')
             onLoaded?.remove()
             onFailedToLoad?.remove()
             onReward?.remove()
             onDismiss?.remove()
             onFailedToShow?.remove()
-            console.log('cleanup() finished')
         }
 
         try {
@@ -439,7 +437,7 @@ export class GameScene extends Phaser.Scene {
             )
 
             await AdMob.prepareRewardInterstitialAd({
-                adId: 'ca-app-pub-3940256099942544/5354046379',
+                adId: 'ca-app-pub-7222777824759007/1818714828',
             })
 
             // Trigger μόνο — return value αγνοείται (pro pattern)
@@ -640,7 +638,6 @@ export class GameScene extends Phaser.Scene {
                 onReward = await AdMob.addListener(
                     RewardAdPluginEvents.Rewarded,
                     (reward) => {
-                        console.log('REWARDED EVENT FIRED')
                         rewardEarned = true
                         rewardData   = reward   // { type: string, amount: number }
                         console.log('Reward earned:', reward)
@@ -669,28 +666,23 @@ export class GameScene extends Phaser.Scene {
                         console.error('Ad FailedToShow — code:', error?.code, '| msg:', error?.message)
                     }
                 )
-                console.log('prepare start');
+
                 await AdMob.prepareRewardVideoAd({
-                    adId: 'ca-app-pub-3940256099942544/5224354917',
+                    adId: 'ca-app-pub-7222777824759007/1944109420',
                 })
-                console.log('prepare success');
+
                 continueBtn.setVisible(false)
 
                 // Trigger μόνο — return value αγνοείται (pro pattern)
-                console.log('show start');
                 await AdMob.showRewardVideoAd()
-                console.log('show resolved');
+
                 // ─────────────────────────────
                 // REWARD LOGIC — εδώ, μετά το await  (official pattern)
                 // Ασφαλές: ο Rewarded listener έχει ήδη εκτελεστεί πριν φτάσουμε εδώ,
                 // οπότε το rewardEarned flag είναι αξιόπιστο. Δεν υπάρχει race condition.
                 // ─────────────────────────────
-                console.log('after showRewardVideoAd')
-                console.log('rewardEarned =', rewardEarned)
                 if (rewardEarned) {
-                    console.log('calling giveReward')
                     await giveReward()
-                    console.log('giveReward finished')
                 }
 
             } catch (error) {
@@ -712,16 +704,12 @@ export class GameScene extends Phaser.Scene {
                 }
 
             } finally {
-                console.log('FINALLY ENTERED')
-                console.log('rewardEarned at finally =', rewardEarned)
-
                 this.isLoadingAd = false
                 this.sound.resumeAll()
 
                 // Cleanup πάντα εδώ — καλύπτει crash, error, κανονικό κλείσιμο
-                console.log('cleanup listeners')
-                cleanup()   
-                console.log('listeners removed')
+                cleanup()
+
                 if (watchAdBtn?.active) {
                     watchAdBtn.setInteractive()
                     watchAdBtn.setAlpha(1)
