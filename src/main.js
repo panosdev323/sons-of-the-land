@@ -9,7 +9,7 @@ import { StatsScene } from './scenes/StatsScene.js'
 import { PauseScene } from './scenes/PauseScene.js'
 import { TermsScene } from './scenes/TermsScene.js'
 import { MobileOptimization } from './mobileOptimization.js'
-import { AdMob, AdmobConsentStatus } from '@capacitor-community/admob';
+import { AdMob } from '@capacitor-community/admob';
 
 async function initializeAdMob() {
     try {
