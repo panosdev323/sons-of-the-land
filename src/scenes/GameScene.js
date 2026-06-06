@@ -361,20 +361,111 @@ export class GameScene extends Phaser.Scene {
     }
 
     async showRewardedInterstitial() {
+        // ─────────────────────────────
+        // STATE
+        // ─────────────────────────────
+        let rewardEarned = false
+        let rewardData   = null
+
+        let onLoaded       = null
+        let onFailedToLoad = null
+        let onReward       = null
+        let onDismiss      = null
+        let onFailedToShow = null
+
+        const cleanup = () => {
+            onLoaded?.remove()
+            onFailedToLoad?.remove()
+            onReward?.remove()
+            onDismiss?.remove()
+            onFailedToShow?.remove()
+        }
+
         try {
+            // ─────────────────────────────
+            // LOADED  (official API)
+            // ─────────────────────────────
+            onLoaded = await AdMob.addListener(
+                RewardInterstitialAdPluginEvents.Loaded,
+                (info) => {
+                    console.log('Interstitial ad loaded:', info)
+                }
+            )
+
+            // ─────────────────────────────
+            // FAILED TO LOAD  (official API)
+            // ─────────────────────────────
+            onFailedToLoad = await AdMob.addListener(
+                RewardInterstitialAdPluginEvents.FailedToLoad,
+                (error) => {
+                    console.error('Interstitial FailedToLoad — code:', error?.code, '| msg:', error?.message)
+                }
+            )
+
+            // ─────────────────────────────
+            // REWARDED — source of truth  (official pattern)
+            // Native SDK event · πυροδοτείται ΠΡΙΝ το showRewardInterstitialAd() resolve
+            // ─────────────────────────────
+            onReward = await AdMob.addListener(
+                RewardInterstitialAdPluginEvents.Rewarded,
+                (reward) => {
+                    rewardEarned = true
+                    rewardData   = reward   // { type: string, amount: number }
+                    console.log('Interstitial reward earned:', reward)
+                }
+            )
+
+            // ─────────────────────────────
+            // DISMISSED — informational only  (official API)
+            // Reward logic ΔΕΝ μπαίνει εδώ — race condition με finally/cleanup()
+            // ─────────────────────────────
+            onDismiss = await AdMob.addListener(
+                RewardInterstitialAdPluginEvents.Dismissed,
+                () => {
+                    console.log('Interstitial ad dismissed')
+                }
+            )
+
+            // ─────────────────────────────
+            // FAILED TO SHOW  (official API)
+            // ─────────────────────────────
+            onFailedToShow = await AdMob.addListener(
+                RewardInterstitialAdPluginEvents.FailedToShow,
+                (error) => {
+                    console.error('Interstitial FailedToShow — code:', error?.code, '| msg:', error?.message)
+                }
+            )
+
             await AdMob.prepareRewardInterstitialAd({
                 adId: 'ca-app-pub-7222777824759007/1818714828',
             })
 
-            const rewardItem = await AdMob.showRewardInterstitialAd()
+            // Trigger μόνο — return value αγνοείται (pro pattern)
+            await AdMob.showRewardInterstitialAd()
 
-            if (rewardItem?.amount > 0) {
+            // ─────────────────────────────
+            // REWARD LOGIC — εδώ, μετά το await  (official pattern)
+            // Ασφαλές: ο Rewarded listener έχει ήδη εκτελεστεί πριν φτάσουμε εδώ
+            // ─────────────────────────────
+            if (rewardEarned) {
                 this.globalScore += 25
                 await ProgressStore.updateGlobalScore(this.globalScore)
             }
 
-        } catch (e) {
-            console.error('Rewarded interstitial failed:', e)
+        } catch (error) {
+            console.error('Rewarded interstitial error:', error)
+
+            const isNoFill =
+                error?.code === 3 ||
+                error?.message?.toLowerCase().includes('no fill')
+
+            if (isNoFill) {
+                console.warn('No interstitial ad available (no fill)')
+            }
+
+        } finally {
+            // Cleanup πάντα εδώ — καλύπτει crash, error, κανονικό κλείσιμο
+            cleanup()
         }
     }
 
@@ -469,42 +560,112 @@ export class GameScene extends Phaser.Scene {
             this.sound.play('tap')
             this.sound.pauseAll()
 
+            // ─────────────────────────────
+            // WEB FALLBACK (early exit safe)
+            // ─────────────────────────────
+            if (typeof AdMob === 'undefined') {
+                this.add.text(240, 430, '❌ Mobile only', {
+                    fontSize: '16px', color: '#ff5252'
+                }).setOrigin(0.5)
+
+                this.isLoadingAd = false
+                this.sound.resumeAll()
+                return
+            }
+
+            // ─────────────────────────────
+            // STATE
+            // ─────────────────────────────
+            let rewardEarned = false
+            let rewardData   = null
+
+            let onLoaded      = null
+            let onFailedToLoad = null
+            let onReward      = null
+            let onDismiss     = null
+            let onFailedToShow = null
+
+            const cleanup = () => {
+                onLoaded?.remove()
+                onFailedToLoad?.remove()
+                onReward?.remove()
+                onDismiss?.remove()
+                onFailedToShow?.remove()
+            }
+
+            const giveReward = async () => {
+                const difficulty = JSON.parse(
+                    localStorage.getItem('setting_difficulty') || '"Normal"'
+                )
+
+                let bonusLives = 3
+                if (difficulty === 'Easy')      bonusLives = 4
+                else if (difficulty === 'Hard') bonusLives = 2
+
+                this.levelLives  = bonusLives
+                this.answered    = false
+                this.qIndex      = 0
+
+                await ProgressStore.clearCurrentLevelLives()
+                this.showQuestion()
+            }
+
             try {
-                // ✅ Web fallback — AdMob μόνο σε mobile
-                if (typeof AdMob === 'undefined') {
-                    this.add.text(240, 430, '❌ Download the mobile app to continue!', {
-                        fontSize: '16px', color: '#ff5252', wordWrap: { width: 400 }
-                    }).setOrigin(0.5).setDepth(100)
-
-                    const downloadBtn = this.add.text(240, 470, '📱 Get Mobile App', {
-                        fontSize: '19px',
-                        backgroundColor: '#1b5e20',
-                        padding: { x: 20, y: 14 }
-                    }).setOrigin(0.5).setInteractive()
-
-                    downloadBtn.on('pointerdown', () => {
-                        window.location.href = 'https://play.google.com/store/apps/details?id=com.sonsoftheland.game'
-                    })
-
-                    return
-                }
-
-                let rewardEarned = false
-                let onReward, onDismiss
-
-                onReward = await AdMob.addListener(RewardAdPluginEvents.Rewarded, () => {
-                    rewardEarned = true
-                })
-
-                onDismiss = await AdMob.addListener(RewardAdPluginEvents.Dismissed, () => {
-                    onReward?.remove()
-                    onDismiss?.remove()
-                    if (!rewardEarned) {
-                        this.add.text(240, 420, '⚠️ Ad was not completed', {
-                            fontSize: '16px', color: '#ff5252'
-                        }).setOrigin(0.5).setDepth(100)
+                // ─────────────────────────────
+                // LOADED  (official example — υπάρχει ρητά στο README)
+                // ─────────────────────────────
+                onLoaded = await AdMob.addListener(
+                    RewardAdPluginEvents.Loaded,
+                    (info) => {
+                        console.log('Ad loaded:', info)
                     }
-                })
+                )
+
+                // ─────────────────────────────
+                // FAILED TO LOAD  (official API — διαφορετικό από FailedToShow)
+                // ─────────────────────────────
+                onFailedToLoad = await AdMob.addListener(
+                    RewardAdPluginEvents.FailedToLoad,
+                    (error) => {
+                        console.error('Ad FailedToLoad — code:', error?.code, '| msg:', error?.message)
+                    }
+                )
+
+                // ─────────────────────────────
+                // REWARDED — source of truth  (official pattern)
+                // Native SDK event · πυροδοτείται ΠΡΙΝ το showRewardVideoAd() resolve
+                // ─────────────────────────────
+                onReward = await AdMob.addListener(
+                    RewardAdPluginEvents.Rewarded,
+                    (reward) => {
+                        rewardEarned = true
+                        rewardData   = reward   // { type: string, amount: number }
+                        console.log('Reward earned:', reward)
+                    }
+                )
+
+                // ─────────────────────────────
+                // DISMISSED — informational only  (official API)
+                // ΔΕΝ περιέχει reward logic:
+                //   αν βάλουμε giveReward() εδώ, το finally/cleanup() μπορεί να αφαιρέσει
+                //   τον listener ΠΡΙΝ προλάβει να εκτελεστεί (race condition στο Capacitor bridge)
+                // ─────────────────────────────
+                onDismiss = await AdMob.addListener(
+                    RewardAdPluginEvents.Dismissed,
+                    () => {
+                        console.log('Ad dismissed')
+                    }
+                )
+
+                // ─────────────────────────────
+                // FAILED TO SHOW  (official API)
+                // ─────────────────────────────
+                onFailedToShow = await AdMob.addListener(
+                    RewardAdPluginEvents.FailedToShow,
+                    (error) => {
+                        console.error('Ad FailedToShow — code:', error?.code, '| msg:', error?.message)
+                    }
+                )
 
                 await AdMob.prepareRewardVideoAd({
                     adId: 'ca-app-pub-7222777824759007/1944109420',
@@ -512,56 +673,44 @@ export class GameScene extends Phaser.Scene {
 
                 continueBtn.setVisible(false)
 
+                // Trigger μόνο — return value αγνοείται (pro pattern)
                 await AdMob.showRewardVideoAd()
 
-                onReward?.remove()
-                onDismiss?.remove()
-
-                if (!rewardEarned) return
-
-                // ✅ Reward earned
-                const difficultyRaw = localStorage.getItem('setting_difficulty') || '"Normal"'
-                const difficulty = JSON.parse(difficultyRaw)
-
-                let bonusLives = 3
-                if (difficulty === 'Easy') bonusLives = 4
-                else if (difficulty === 'Hard') bonusLives = 2
-
-                this.levelLives = bonusLives
-                this.answered = false
-                this.qIndex = 0
-
-                await ProgressStore.clearCurrentLevelLives()
-                this.showQuestion()
+                // ─────────────────────────────
+                // REWARD LOGIC — εδώ, μετά το await  (official pattern)
+                // Ασφαλές: ο Rewarded listener έχει ήδη εκτελεστεί πριν φτάσουμε εδώ,
+                // οπότε το rewardEarned flag είναι αξιόπιστο. Δεν υπάρχει race condition.
+                // ─────────────────────────────
+                if (rewardEarned) {
+                    await giveReward()
+                }
 
             } catch (error) {
                 console.error('Ad error:', error)
-                console.error('MESSAGE:', error?.message)
-                console.error('CODE:', error?.code)
 
-                // ✅ Μόνο αν No Fill → δείξε το fallback button
-                const isNoFill = error?.message?.includes('No fill') ||
-                                error?.message?.includes('no fill') ||
-                                error?.message?.includes('ERROR_CODE_NO_FILL')
+                const isNoFill =
+                    error?.code === 3 ||
+                    error?.message?.toLowerCase().includes('no fill')
 
                 if (isNoFill) {
                     watchAdBtn.setText('No Ad Available')
                     watchAdBtn.setAlpha(0.3)
-                    // ❌ Μην ξαναενεργοποιήσεις το watchAdBtn
                     continueBtn.setVisible(true)
                 } else {
-                    // Άλλο σφάλμα — άσε τον να ξαναπροσπαθήσει
-                    this.add.text(240, 420, '⚠️ Ad failed, please retry', {
-                        fontSize: '16px', color: '#ff5252'
-                    }).setOrigin(0.5).setDepth(100)
+                    this.add.text(240, 420, '⚠️ Try again', {
+                        fontSize: '16px',
+                        color: '#ff5252'
+                    }).setOrigin(0.5)
                 }
 
             } finally {
                 this.isLoadingAd = false
                 this.sound.resumeAll()
 
-                // Reset button μόνο αν δεν είναι No Fill
-                if (watchAdBtn?.active && watchAdBtn.text === 'Loading Ad...') {
+                // Cleanup πάντα εδώ — καλύπτει crash, error, κανονικό κλείσιμο
+                cleanup()
+
+                if (watchAdBtn?.active) {
                     watchAdBtn.setInteractive()
                     watchAdBtn.setAlpha(1)
                     watchAdBtn.setText('Watch Ad for Lives ▶')
