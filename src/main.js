@@ -16,8 +16,7 @@ async function initializeAdMob() {
         // 1. Ζήτα consent info
         const consentInfo = await AdMob.requestConsentInfo()
         // 2. Αν χρειάζεται consent form, δείξε το
-        if (consentInfo.isConsentFormAvailable && 
-            consentInfo.status === AdmobConsentStatus.REQUIRED) {
+        if (consentInfo.isConsentFormAvailable && consentInfo.status === AdmobConsentStatus.REQUIRED) {
             await AdMob.showConsentForm()
         }
         // 3. Initialize AdMob μετά το consent
