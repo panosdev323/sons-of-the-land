@@ -9,10 +9,18 @@ import { StatsScene } from './scenes/StatsScene.js'
 import { PauseScene } from './scenes/PauseScene.js'
 import { TermsScene } from './scenes/TermsScene.js'
 import { MobileOptimization } from './mobileOptimization.js'
-import { AdMob } from '@capacitor-community/admob';
+import { AdMob, AdmobConsentStatus } from '@capacitor-community/admob';
 
 async function initializeAdMob() {
     try {
+        // 1. Ζήτα consent info
+        const consentInfo = await AdMob.requestConsentInfo()
+        // 2. Αν χρειάζεται consent form, δείξε το
+        if (consentInfo.isConsentFormAvailable && 
+            consentInfo.status === AdmobConsentStatus.REQUIRED) {
+            await AdMob.showConsentForm()
+        }
+        // 3. Initialize AdMob μετά το consent
         await AdMob.initialize();
         console.log("✅ AdMob initialized successfully");
     } catch (error) {
