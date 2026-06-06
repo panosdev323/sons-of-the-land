@@ -368,7 +368,7 @@ export class GameScene extends Phaser.Scene {
 
             const rewardItem = await AdMob.showRewardInterstitialAd()
 
-            if (rewardItem?.type && rewardItem?.amount > 0) {
+            if (rewardItem?.amount > 0) {
                 this.globalScore += 25
                 await ProgressStore.updateGlobalScore(this.globalScore)
             }
