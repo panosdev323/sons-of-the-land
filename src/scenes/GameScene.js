@@ -563,8 +563,6 @@ export class GameScene extends Phaser.Scene {
             // ─────────────────────────────
             // WEB FALLBACK (early exit safe)
             // ─────────────────────────────
-            console.log('platform:', Capacitor.getPlatform())
-            console.log('isWeb:', isWeb)
             const isWeb = Capacitor.getPlatform() === 'web'
             if (isWeb) {
                 // Άνοιξε το Play Store link
