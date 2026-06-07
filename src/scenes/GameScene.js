@@ -563,10 +563,13 @@ export class GameScene extends Phaser.Scene {
             // ─────────────────────────────
             // WEB FALLBACK (early exit safe)
             // ─────────────────────────────
-            if (typeof AdMob === 'undefined') {
-                this.add.text(240, 430, '❌ Mobile only', {
-                    fontSize: '16px', color: '#ff5252'
-                }).setOrigin(0.5)
+            const isWeb = !Capacitor.isNativePlatform()
+            if (isWeb) {
+                // Άνοιξε το Play Store link
+                window.open(
+                    'https://play.google.com/store/apps/details?id=com.sonsoftheland.game&pcampaignid=web_share',
+                    '_blank'
+                )
 
                 this.isLoadingAd = false
                 this.sound.resumeAll()
