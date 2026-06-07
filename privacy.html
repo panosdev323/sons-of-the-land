@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Privacy Policy – Sons of the Land</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Lora:ital,wght@0,400;0,600;1,400&display=swap');
+
+    :root {
+      --gold: #c9a84c;
+      --gold-light: #f0c96a;
+      --dark: #0e0c09;
+      --surface: #1a1710;
+      --surface2: #221f15;
+      --text: #ddd5bb;
+      --muted: #8a7f65;
+      --accent: #4caf50;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Lora', Georgia, serif;
+      background-color: var(--dark);
+      color: var(--text);
+      line-height: 1.75;
+      min-height: 100vh;
+      background-image:
+        radial-gradient(ellipse at 20% 20%, rgba(201,168,76,0.06) 0%, transparent 60%),
+        radial-gradient(ellipse at 80% 80%, rgba(76,175,80,0.04) 0%, transparent 60%);
+    }
+
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 60px 28px 80px;
+    }
+
+    /* Header */
+    .header {
+      text-align: center;
+      margin-bottom: 52px;
+      position: relative;
+    }
+
+    .header::after {
+      content: '';
+      display: block;
+      width: 120px;
+      height: 2px;
+      background: linear-gradient(90deg, transparent, var(--gold), transparent);
+      margin: 24px auto 0;
+    }
+
+    .badge {
+      display: inline-block;
+      font-family: 'Lora', serif;
+      font-size: 11px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: var(--gold);
+      border: 1px solid rgba(201,168,76,0.4);
+      padding: 5px 16px;
+      border-radius: 20px;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-family: 'Cinzel', serif;
+      font-size: clamp(28px, 6vw, 40px);
+      color: var(--gold-light);
+      letter-spacing: 1px;
+      line-height: 1.2;
+    }
+
+    .subtitle {
+      margin-top: 12px;
+      font-size: 14px;
+      color: var(--muted);
+      font-style: italic;
+    }
+
+    /* Sections */
+    .section {
+      background: var(--surface);
+      border: 1px solid rgba(201,168,76,0.12);
+      border-radius: 12px;
+      padding: 28px 32px;
+      margin-bottom: 20px;
+      transition: border-color 0.3s;
+    }
+
+    .section:hover {
+      border-color: rgba(201,168,76,0.28);
+    }
+
+    h2 {
+      font-family: 'Cinzel', serif;
+      font-size: 15px;
+      color: var(--gold);
+      letter-spacing: 0.5px;
+      margin-bottom: 14px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    h2 .num {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 26px;
+      height: 26px;
+      border-radius: 50%;
+      background: rgba(201,168,76,0.15);
+      border: 1px solid rgba(201,168,76,0.35);
+      font-size: 11px;
+      color: var(--gold-light);
+      flex-shrink: 0;
+    }
+
+    p {
+      font-size: 14.5px;
+      color: var(--text);
+      margin-bottom: 12px;
+    }
+
+    p:last-child { margin-bottom: 0; }
+
+    ul {
+      padding-left: 0;
+      list-style: none;
+      margin-top: 10px;
+    }
+
+    ul li {
+      font-size: 14px;
+      color: var(--text);
+      padding: 5px 0 5px 22px;
+      position: relative;
+    }
+
+    ul li::before {
+      content: '◆';
+      position: absolute;
+      left: 0;
+      color: var(--gold);
+      font-size: 7px;
+      top: 10px;
+    }
+
+    /* Do not list */
+    .donot li::before {
+      content: '✕';
+      color: #e57373;
+      font-size: 10px;
+      top: 7px;
+    }
+
+    /* Contact */
+    .contact-box {
+      background: var(--surface2);
+      border: 1px solid rgba(76,175,80,0.2);
+      border-radius: 8px;
+      padding: 16px 20px;
+      margin-top: 12px;
+    }
+
+    .contact-box a {
+      color: var(--accent);
+      text-decoration: none;
+      font-size: 15px;
+      font-weight: 600;
+    }
+
+    .contact-box a:hover { text-decoration: underline; }
+
+    /* Footer */
+    .footer {
+      text-align: center;
+      margin-top: 52px;
+      padding-top: 28px;
+      border-top: 1px solid rgba(201,168,76,0.15);
+    }
+
+    .footer p {
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    .back-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: linear-gradient(135deg, #b8860b, var(--gold));
+      color: #0e0c09;
+      border: none;
+      padding: 12px 28px;
+      border-radius: 8px;
+      font-family: 'Cinzel', serif;
+      font-size: 13px;
+      font-weight: 700;
+      cursor: pointer;
+      letter-spacing: 0.5px;
+      margin-bottom: 28px;
+      transition: opacity 0.2s, transform 0.2s;
+      text-decoration: none;
+    }
+
+    .back-btn:hover { opacity: 0.88; transform: translateY(-1px); }
+
+    strong { color: var(--gold-light); font-weight: 600; }
+
+    @media (max-width: 480px) {
+      .section { padding: 20px 18px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <div class="header">
+      <div class="badge">Legal Document</div>
+      <h1>Privacy Policy</h1>
+      <p class="subtitle">Sons of the Land &nbsp;·&nbsp; Effective: <span id="effectiveDate"></span></p>
+    </div>
+
+    <div class="section">
+      <p>Welcome to <strong>Sons of the Land</strong>. We are committed to protecting your privacy. This policy explains what data is collected, how it is used, and your rights regarding that data.</p>
+    </div>
+
+    <div class="section">
+      <h2><span class="num">1</span> Information We Collect</h2>
+      <p>Sons of the Land stores game progress locally on your device using browser or device storage. We do not collect personally identifiable information directly. The following game data is stored locally:</p>
+      <ul>
+        <li>Your global score</li>
+        <li>Civilization progress and level completion</li>
+        <li>High scores per civilization</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2><span class="num">2</span> Advertising</h2>
+      <p>This app displays advertisements provided by <strong>Google AdMob</strong>, a third-party advertising service. AdMob may automatically collect limited technical information, including:</p>
+      <ul>
+        <li>Device type and operating system</li>
+        <li>Advertising identifiers (e.g. Google Advertising ID)</li>
+        <li>Crash and performance data</li>
+        <li>General usage and interaction information</li>
+      </ul>
+      <p>This information is collected and processed by Google in accordance with <a href="https://policies.google.com/privacy" target="_blank" style="color:var(--gold-light);">Google's Privacy Policy</a>. You may opt out of personalised advertising through your device settings.</p>
+    </div>
+
+    <div class="section">
+      <h2><span class="num">3</span> Data Storage</h2>
+      <p>All game progress is stored <strong>locally on your device only</strong>. We do not:</p>
+      <ul class="donot">
+        <li>Transmit your personal data to our own servers</li>
+        <li>Sell or share your personal information with third parties</li>
+        <li>Require you to create an account or register</li>
+      </ul>
+      <p>You can delete all locally stored data at any time through your device or browser settings.</p>
+    </div>
+
+    <div class="section">
+      <h2><span class="num">4</span> Third-Party Services</h2>
+      <p>The game may integrate with the following third-party services, each governed by their own privacy policies:</p>
+      <ul>
+        <li>Google Play Services</li>
+        <li>Google AdMob</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2><span class="num">5</span> Data Safety</h2>
+      <ul>
+        <li>Game data is stored locally on your device and not shared with us</li>
+        <li>No sensitive personal information is collected by us directly</li>
+        <li>No data encryption is applied to locally stored game data</li>
+        <li>You can clear all local game data through your device settings at any time</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2><span class="num">6</span> Children's Privacy</h2>
+      <p>Sons of the Land does not knowingly collect personal information from children under the age of 13. If you believe a child has provided personal information, please contact us so we can take appropriate action.</p>
+    </div>
+
+    <div class="section">
+      <h2><span class="num">7</span> Changes to This Policy</h2>
+      <p>We may update this Privacy Policy from time to time to reflect changes in our practices or for legal reasons. We encourage you to review this page periodically. Continued use of the game following any changes constitutes your acceptance of the updated policy.</p>
+    </div>
+
+    <div class="section">
+      <h2><span class="num">8</span> Contact Us</h2>
+      <p>If you have any questions, concerns, or requests regarding this Privacy Policy, please contact us at:</p>
+      <div class="contact-box">
+        <a href="mailto:panospaoulinis@gmail.com">panospaoulinis@gmail.com</a>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>&copy; <span id="year"></span> Sons of the Land. All rights reserved.</p>
+    </div>
+
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    const d = new Date();
+    document.getElementById('effectiveDate').textContent = d.toLocaleDateString('en-GB', { day:'numeric', month:'long', year:'numeric' });
+  </script>
+</body>
+</html>
