@@ -3,7 +3,7 @@ import { CapacitorConfig } from '@capacitor/cli';
 const config: CapacitorConfig = {
   appId: 'com.sonsoftheland.game',
   appName: 'Sons of the Land',
-  webDir: 'docs',
+  webDir: 'dist',
   bundledWebRuntime: false,
   server: {
     androidScheme: 'https',
