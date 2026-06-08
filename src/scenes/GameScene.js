@@ -422,11 +422,9 @@ export class GameScene extends Phaser.Scene {
             onDismiss = await AdMob.addListener(
                 RewardInterstitialAdPluginEvents.Dismissed,
                 () => {
-                    this.game.canvas.style.display = 'none'
-                        requestAnimationFrame(() => {
-                            this.game.canvas.style.display = 'block'
-                            this.scale.refresh()
-                    })
+                    console.log('Interstitial ad dismissed')
+                    this.game.loop.wake()
+                    this.scale.refresh()
                 }
             )
 
@@ -660,11 +658,9 @@ export class GameScene extends Phaser.Scene {
                 onDismiss = await AdMob.addListener(
                     RewardAdPluginEvents.Dismissed,
                     () => {
-                        this.game.canvas.style.display = 'none'
-                        requestAnimationFrame(() => {
-                            this.game.canvas.style.display = 'block'
-                            this.scale.refresh()
-                        })
+                        console.log('Ad dismissed')
+                        this.game.loop.wake()
+                        this.scale.refresh()
                     }
                 )
 
