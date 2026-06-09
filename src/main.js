@@ -30,7 +30,7 @@ async function initializeAdMob() {
 }
 
 const config = {
-  type: Phaser.AUTO,
+  type: Phaser.CANVAS,
   parent: 'app',
   width: 480,
   height: 854,
