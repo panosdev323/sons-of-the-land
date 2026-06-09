@@ -48,7 +48,6 @@ export class GameScene extends Phaser.Scene {
 
     create() {
         this.isLoadingAd = false
-        this.adShouldResume = false
         const LEVEL_SIZE = 5
 
         this.civ = CIVILIZATIONS.find(c => c.id === this.civId)
@@ -361,23 +360,20 @@ export class GameScene extends Phaser.Scene {
         })
     }
 
-    update() {
-        if (this.adShouldResume && this.scene.isPaused()) {
-            this.adShouldResume = false
+    forceRecoverGame() {
+        console.log("FORCE RECOVER GAME")
 
-            this.time.delayedCall(200, () => {
-                if (!this.scene.isActive()) {
-                    console.log("not active")
-                    return
-                } 
-                console.log("resume")
-                this.scene.resume()
-                console.log("wake")
-                this.game.loop.wake()
-                console.log("refresh")
-                this.scale.refresh()
-                console.log("after refresh")
-            })
+        try {
+            this.scene.resume()
+            this.scene.bringToTop()
+            this.game.loop.wake()
+            this.scale.refresh()
+
+            this.input.enabled = true
+            this.scene.setVisible(true)
+
+        } catch (e) {
+            console.warn("recover failed", e)
         }
     }
 
@@ -444,7 +440,9 @@ export class GameScene extends Phaser.Scene {
                 RewardInterstitialAdPluginEvents.Dismissed,
                 () => {
                     console.log('Interstitial ad dismissed')
-                    this.adShouldResume = true
+                    this.time.delayedCall(500, () => {
+                        this.forceRecoverGame()
+                    })
                 }
             )
 
