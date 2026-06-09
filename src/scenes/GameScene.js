@@ -47,7 +47,6 @@ export class GameScene extends Phaser.Scene {
     }
 
     create() {
-        this.registry.set('recovering', false)
         this.isLoadingAd = false
         const LEVEL_SIZE = 5
 
@@ -361,31 +360,6 @@ export class GameScene extends Phaser.Scene {
         })
     }
 
-    forceRecoverGame() {
-        console.log("FORCE RECOVER GAME")
-
-        if (this.registry.get('recovering')) return
-
-        this.registry.set('recovering', true)
-
-        const state = this.registry.get('lastState')
-
-        // 1. stop input/timers safely
-        this.input?.enabled = false
-        this.time.removeAllEvents()
-        this.tweens.killAll()
-
-        // 2. audio safe stop
-        this.sound.stopAll()
-        this.sound.pauseAll?.()
-
-        // 3. HARD DELAY πριν restart (ΚΡΙΣΙΜΟ)
-        this.time.delayedCall(800, () => {
-            this.scene.stop('GameScene')
-            this.scene.start('GameScene', state)
-        })
-    }
-
     async showRewardedInterstitial() {
         // ─────────────────────────────
         // STATE
@@ -449,9 +423,8 @@ export class GameScene extends Phaser.Scene {
                 RewardInterstitialAdPluginEvents.Dismissed,
                 () => {
                     console.log('Interstitial ad dismissed')
-                    this.time.delayedCall(500, () => {
-                        this.forceRecoverGame()
-                    })
+                    this.input.enabled = true
+                    this.scene.resume()
                 }
             )
 
