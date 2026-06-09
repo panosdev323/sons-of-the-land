@@ -366,7 +366,7 @@ export class GameScene extends Phaser.Scene {
         // ─────────────────────────────
         let rewardEarned = false
         let rewardData   = null
-
+        let resumed = false
         let onLoaded       = null
         let onFailedToLoad = null
         let onReward       = null
