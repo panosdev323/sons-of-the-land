@@ -10,6 +10,7 @@ export class GameScene extends Phaser.Scene {
         this.authorName = data.authorName || null
         this.mode = 'mixed'
         this.level = data.level || 1
+        this.isResuming = false
         
         // ✅ Load global score from ProgressStore
         this.globalScore = ProgressStore.getGlobalScore()
@@ -91,7 +92,29 @@ export class GameScene extends Phaser.Scene {
         
         // ✅ Clean up on scene shutdown
         this.events.on('shutdown', () => {
-            this.children.list.forEach(c => c.destroy())
+            this.children.removeAll(true)
+        })
+    }
+
+    resumeGameSafe() {
+        if (this.isResuming) return
+        this.isResuming = true
+
+        this.time.delayedCall(1200, () => {
+            if (!this.scene || !this.scene.isActive()) return
+
+            // ONLY resume scene (NOT full loop wake immediately)
+            if (this.scene.isPaused(this.scene.key)) {
+                this.scene.resume(this.scene.key)
+            }
+
+            // delay rendering recovery
+            requestAnimationFrame(() => {
+                this.game.loop.wake()
+                this.scale.refresh()
+            })
+
+            this.isResuming = false
         })
     }
 
@@ -422,9 +445,8 @@ export class GameScene extends Phaser.Scene {
             onDismiss = await AdMob.addListener(
                 RewardInterstitialAdPluginEvents.Dismissed,
                 () => {
-                    rewardEarned = true
-                    rewardData   = reward   // { type: string, amount: number }
                     console.log('Interstitial ad dismissed')
+                    this.resumeGameSafe()
                 }
             )
 
