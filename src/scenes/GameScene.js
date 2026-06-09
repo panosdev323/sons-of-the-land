@@ -447,6 +447,7 @@ export class GameScene extends Phaser.Scene {
                 () => {
                     console.log('Interstitial ad dismissed')
                     this.resumeGameSafe()
+                    onDismiss?.remove()
                 }
             )
 
@@ -616,7 +617,7 @@ export class GameScene extends Phaser.Scene {
                 onLoaded?.remove()
                 onFailedToLoad?.remove()
                 onReward?.remove()
-                onDismiss?.remove()
+                // onDismiss?.remove()
                 onFailedToShow?.remove()
             }
 
