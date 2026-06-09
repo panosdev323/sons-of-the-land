@@ -47,6 +47,7 @@ export class GameScene extends Phaser.Scene {
     }
 
     create() {
+        this.registry.set('recovering', false)
         this.isLoadingAd = false
         const LEVEL_SIZE = 5
 
@@ -363,18 +364,26 @@ export class GameScene extends Phaser.Scene {
     forceRecoverGame() {
         console.log("FORCE RECOVER GAME")
 
-        try {
-            this.scene.resume()
-            this.scene.bringToTop()
-            this.game.loop.wake()
-            this.scale.refresh()
+        if (this.registry.get('recovering')) return
 
-            this.input.enabled = true
-            this.scene.setVisible(true)
+        this.registry.set('recovering', true)
 
-        } catch (e) {
-            console.warn("recover failed", e)
-        }
+        const state = this.registry.get('lastState')
+
+        // 1. stop input/timers safely
+        this.input?.enabled = false
+        this.time.removeAllEvents()
+        this.tweens.killAll()
+
+        // 2. audio safe stop
+        this.sound.stopAll()
+        this.sound.pauseAll?.()
+
+        // 3. HARD DELAY πριν restart (ΚΡΙΣΙΜΟ)
+        this.time.delayedCall(800, () => {
+            this.scene.stop('GameScene')
+            this.scene.start('GameScene', state)
+        })
     }
 
     async showRewardedInterstitial() {
