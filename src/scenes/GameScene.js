@@ -423,6 +423,7 @@ export class GameScene extends Phaser.Scene {
                 RewardInterstitialAdPluginEvents.Dismissed,
                 () => {
                     console.log('Interstitial ad dismissed')
+                    window.location.reload()
                 }
             )
 
@@ -451,8 +452,6 @@ export class GameScene extends Phaser.Scene {
             if (rewardEarned) {
                 this.globalScore += 25
                 await ProgressStore.updateGlobalScore(this.globalScore)
-            } else {
-                window.location.reload()
             }
 
         } catch (error) {
@@ -660,6 +659,7 @@ export class GameScene extends Phaser.Scene {
                     RewardAdPluginEvents.Dismissed,
                     () => {
                         console.log('Ad dismissed')
+                        window.location.reload()
                     }
                 )
 
