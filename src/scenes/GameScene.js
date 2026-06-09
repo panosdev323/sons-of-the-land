@@ -361,112 +361,54 @@ export class GameScene extends Phaser.Scene {
     }
 
     async showRewardedInterstitial() {
-        // ─────────────────────────────
-        // STATE
-        // ─────────────────────────────
         let rewardEarned = false
-        let rewardData   = null
-
-        let onLoaded       = null
-        let onFailedToLoad = null
-        let onReward       = null
-        let onDismiss      = null
-        let onFailedToShow = null
+        let onLoaded = null, onFailedToLoad = null, onReward = null
+        let onDismiss = null, onFailedToShow = null
 
         const cleanup = () => {
-            onLoaded?.remove()
-            onFailedToLoad?.remove()
-            onReward?.remove()
-            onDismiss?.remove()
-            onFailedToShow?.remove()
+            onLoaded?.remove(); onFailedToLoad?.remove()
+            onReward?.remove(); onDismiss?.remove(); onFailedToShow?.remove()
         }
 
+        // ✅ Φτιάχνουμε Promise που resolve-άρει όταν γίνει dismiss
+        const waitForDismiss = new Promise((resolve) => {
+            AdMob.addListener(RewardInterstitialAdPluginEvents.Dismissed, () => {
+                console.log('Dismissed')
+                resolve()
+            }).then(h => { onDismiss = h })
+        })
+
         try {
-            // ─────────────────────────────
-            // LOADED  (official API)
-            // ─────────────────────────────
-            onLoaded = await AdMob.addListener(
-                RewardInterstitialAdPluginEvents.Loaded,
-                (info) => {
-                    console.log('Interstitial ad loaded:', info)
-                }
-            )
-
-            // ─────────────────────────────
-            // FAILED TO LOAD  (official API)
-            // ─────────────────────────────
-            onFailedToLoad = await AdMob.addListener(
-                RewardInterstitialAdPluginEvents.FailedToLoad,
-                (error) => {
-                    console.error('Interstitial FailedToLoad — code:', error?.code, '| msg:', error?.message)
-                }
-            )
-
-            // ─────────────────────────────
-            // REWARDED — source of truth  (official pattern)
-            // Native SDK event · πυροδοτείται ΠΡΙΝ το showRewardInterstitialAd() resolve
-            // ─────────────────────────────
-            onReward = await AdMob.addListener(
-                RewardInterstitialAdPluginEvents.Rewarded,
-                (reward) => {
-                    rewardEarned = true
-                    rewardData   = reward   // { type: string, amount: number }
-                    console.log('Interstitial reward earned:', reward)
-                }
-            )
-
-            // ─────────────────────────────
-            // DISMISSED — informational only  (official API)
-            // Reward logic ΔΕΝ μπαίνει εδώ — race condition με finally/cleanup()
-            // ─────────────────────────────
-            onDismiss = await AdMob.addListener(
-                RewardInterstitialAdPluginEvents.Dismissed,
-                () => {
-                    console.log('Interstitial ad dismissed')
-                    window.location.reload()
-                }
-            )
-
-            // ─────────────────────────────
-            // FAILED TO SHOW  (official API)
-            // ─────────────────────────────
-            onFailedToShow = await AdMob.addListener(
-                RewardInterstitialAdPluginEvents.FailedToShow,
-                (error) => {
-                    console.error('Interstitial FailedToShow — code:', error?.code, '| msg:', error?.message)
-                }
-            )
+            onLoaded = await AdMob.addListener(RewardInterstitialAdPluginEvents.Loaded, () => {})
+            onFailedToLoad = await AdMob.addListener(RewardInterstitialAdPluginEvents.FailedToLoad, () => {})
+            onReward = await AdMob.addListener(RewardInterstitialAdPluginEvents.Rewarded, (reward) => {
+                rewardEarned = true
+            })
+            onFailedToShow = await AdMob.addListener(RewardInterstitialAdPluginEvents.FailedToShow, () => {})
 
             await AdMob.prepareRewardInterstitialAd({
-                // adId: 'ca-app-pub-7222777824759007/1818714828',
                 adId: 'ca-app-pub-3940256099942544/5354046379',
             })
 
-            // Trigger μόνο — return value αγνοείται (pro pattern)
             await AdMob.showRewardInterstitialAd()
 
-            // ─────────────────────────────
-            // REWARD LOGIC — εδώ, μετά το await  (official pattern)
-            // Ασφαλές: ο Rewarded listener έχει ήδη εκτελεστεί πριν φτάσουμε εδώ
-            // ─────────────────────────────
+            // ✅ Περιμένουμε το dismiss ΠΡΙΝ συνεχίσουμε
+            await waitForDismiss
+
+            // ✅ Τώρα είναι ασφαλές — το ad έχει κλείσει
             if (rewardEarned) {
                 this.globalScore += 25
                 await ProgressStore.updateGlobalScore(this.globalScore)
             }
 
+            // ✅ Re-enable Phaser αφού κλείσει το ad
+            this.input.enabled = true
+            this.game.canvas.focus()
+            this.sound.resumeAll()
+
         } catch (error) {
             console.error('Rewarded interstitial error:', error)
-
-            const isNoFill =
-                error?.code === 3 ||
-                error?.message?.toLowerCase().includes('no fill')
-
-            if (isNoFill) {
-                console.warn('No interstitial ad available (no fill)')
-            }
-
         } finally {
-            // Cleanup πάντα εδώ — καλύπτει crash, error, κανονικό κλείσιμο
             cleanup()
         }
     }
