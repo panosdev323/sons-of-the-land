@@ -100,22 +100,20 @@ export class GameScene extends Phaser.Scene {
         if (this.isResuming) return
         this.isResuming = true
 
-        this.time.delayedCall(1200, () => {
+        setTimeout(() => {                          // ← native browser timer
             if (!this.scene || !this.scene.isActive()) return
 
-            // ONLY resume scene (NOT full loop wake immediately)
             if (this.scene.isPaused(this.scene.key)) {
                 this.scene.resume(this.scene.key)
             }
 
-            // delay rendering recovery
             requestAnimationFrame(() => {
                 this.game.loop.wake()
                 this.scale.refresh()
             })
 
             this.isResuming = false
-        })
+        }, 1200)
     }
 
     showQuestion() {
