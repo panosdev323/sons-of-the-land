@@ -366,7 +366,7 @@ export class GameScene extends Phaser.Scene {
         // ─────────────────────────────
         let rewardEarned = false
         let rewardData   = null
-        let resumed = false
+
         let onLoaded       = null
         let onFailedToLoad = null
         let onReward       = null
@@ -422,37 +422,29 @@ export class GameScene extends Phaser.Scene {
             onDismiss = await AdMob.addListener(
                 RewardInterstitialAdPluginEvents.Dismissed,
                 () => {
-                    console.log('Interstitial ad dismissed')
-
-                    if (resumed) return
-                    resumed = true
+                console.log('Interstitial ad dismissed')
 
                     const tryResume = () => {
-                        if (!this.game || !this.game.scene) return
-
-                        if (document.visibilityState !== 'visible') {
-                        setTimeout(tryResume, 300)
+                    if (!this.game || !this.game.scene) {
+                        console.log("he")
                         return
-                        }
+                    } 
 
-                        // extra safety for Phaser/WebGL
-                        if (this.game.isPaused) {
-                        this.game.loop.wake()
-                        }
-
-                        this.scale.refresh()
-
-                        console.log('GAME RESUMED')
+                    if (document.visibilityState !== 'visible') {
+                        setTimeout(tryResume, 200)
+                        console.log("visible")
+                        return
                     }
 
-                    requestAnimationFrame(() => {
-                        setTimeout(tryResume, 500)
-                    })
+                    this.game.scene.resume()
+                    this.game.loop.wake()
+                    this.scale.refresh()
+                    
+                    console.log('GAME RESUMED')
+                    }
 
-                    // reset guard after a bit
-                    setTimeout(() => {
-                        resumed = false
-                    }, 2000)
+                    setTimeout(tryResume, 300)
+
                 }
             )
 
