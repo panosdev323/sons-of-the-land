@@ -439,7 +439,7 @@ export class GameScene extends Phaser.Scene {
             )
 
             await AdMob.prepareRewardInterstitialAd({
-                adId: 'ca-app-pub-7222777824759007/1818714828',
+                adId: 'ca-app-pub-3940256099942544/5354046379',
             })
 
             // Trigger μόνο — return value αγνοείται (pro pattern)
@@ -675,7 +675,7 @@ export class GameScene extends Phaser.Scene {
                 )
 
                 await AdMob.prepareRewardVideoAd({
-                    adId: 'ca-app-pub-7222777824759007/1944109420',
+                    adId: 'ca-app-pub-3940256099942544/5224354917',
                 })
 
                 continueBtn.setVisible(false)
