@@ -423,8 +423,7 @@ export class GameScene extends Phaser.Scene {
                 RewardInterstitialAdPluginEvents.Dismissed,
                 () => {
                     console.log('Interstitial ad dismissed')
-                    this.input.enabled = true
-                    this.scene.resume()
+                    window.location.reload()
                 }
             )
 
