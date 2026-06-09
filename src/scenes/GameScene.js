@@ -422,29 +422,9 @@ export class GameScene extends Phaser.Scene {
             onDismiss = await AdMob.addListener(
                 RewardInterstitialAdPluginEvents.Dismissed,
                 () => {
-                console.log('Interstitial ad dismissed')
-
-                    const tryResume = () => {
-                    if (!this.game || !this.game.scene) {
-                        console.log("he")
-                        return
-                    } 
-
-                    if (document.visibilityState !== 'visible') {
-                        setTimeout(tryResume, 200)
-                        console.log("visible")
-                        return
-                    }
-
-                    this.game.scene.resume()
-                    this.game.loop.wake()
-                    this.scale.refresh()
-                    
-                    console.log('GAME RESUMED')
-                    }
-
-                    setTimeout(tryResume, 300)
-
+                    rewardEarned = true
+                    rewardData   = reward   // { type: string, amount: number }
+                    console.log('Interstitial ad dismissed')
                 }
             )
 
