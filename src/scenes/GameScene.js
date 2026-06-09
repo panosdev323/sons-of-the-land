@@ -330,7 +330,7 @@ export class GameScene extends Phaser.Scene {
         }
 
         // ✅ Δείξε Rewarded Interstitial κάθε 2 levels
-        if (this.level % 2 === 0) {
+        if (this.level % 1 === 0) {
             await this.showRewardedInterstitial()
         }
 
@@ -423,8 +423,15 @@ export class GameScene extends Phaser.Scene {
                 RewardInterstitialAdPluginEvents.Dismissed,
                 () => {
                     console.log('Interstitial ad dismissed')
+
+                    setTimeout(() => {
+                    logT('RESUME GAME LOOP')
+
                     this.game.loop.wake()
                     this.scale.refresh()
+
+                    logT('GAME RESUMED')
+                    }, 250)
                 }
             )
 
