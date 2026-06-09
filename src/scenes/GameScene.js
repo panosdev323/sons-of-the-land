@@ -424,14 +424,35 @@ export class GameScene extends Phaser.Scene {
                 () => {
                     console.log('Interstitial ad dismissed')
 
+                    if (resumed) return
+                    resumed = true
+
+                    const tryResume = () => {
+                        if (!this.game || !this.game.scene) return
+
+                        if (document.visibilityState !== 'visible') {
+                        setTimeout(tryResume, 300)
+                        return
+                        }
+
+                        // extra safety for Phaser/WebGL
+                        if (this.game.isPaused) {
+                        this.game.loop.wake()
+                        }
+
+                        this.scale.refresh()
+
+                        console.log('GAME RESUMED')
+                    }
+
+                    requestAnimationFrame(() => {
+                        setTimeout(tryResume, 500)
+                    })
+
+                    // reset guard after a bit
                     setTimeout(() => {
-                    logT('RESUME GAME LOOP')
-
-                    this.game.loop.wake()
-                    this.scale.refresh()
-
-                    logT('GAME RESUMED')
-                    }, 250)
+                        resumed = false
+                    }, 2000)
                 }
             )
 
