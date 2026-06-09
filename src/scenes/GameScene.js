@@ -10,7 +10,6 @@ export class GameScene extends Phaser.Scene {
         this.authorName = data.authorName || null
         this.mode = 'mixed'
         this.level = data.level || 1
-        this.isResuming = false
         
         // ✅ Load global score from ProgressStore
         this.globalScore = ProgressStore.getGlobalScore()
@@ -49,6 +48,7 @@ export class GameScene extends Phaser.Scene {
 
     create() {
         this.isLoadingAd = false
+        this.adShouldResume = false
         const LEVEL_SIZE = 5
 
         this.civ = CIVILIZATIONS.find(c => c.id === this.civId)
@@ -92,28 +92,8 @@ export class GameScene extends Phaser.Scene {
         
         // ✅ Clean up on scene shutdown
         this.events.on('shutdown', () => {
-            this.children.removeAll(true)
+            this.children.list.forEach(c => c.destroy())
         })
-    }
-
-    resumeGameSafe() {
-        if (this.isResuming) return
-        this.isResuming = true
-
-        setTimeout(() => {                          // ← native browser timer
-            if (!this.scene || !this.scene.isActive()) return
-
-            if (this.scene.isPaused(this.scene.key)) {
-                this.scene.resume(this.scene.key)
-            }
-
-            requestAnimationFrame(() => {
-                this.game.loop.wake()
-                this.scale.refresh()
-            })
-
-            this.isResuming = false
-        }, 1200)
     }
 
     showQuestion() {
@@ -351,7 +331,7 @@ export class GameScene extends Phaser.Scene {
         }
 
         // ✅ Δείξε Rewarded Interstitial κάθε 2 levels
-        if (this.level % 1 === 0) {
+        if (this.level % 2 === 0) {
             await this.showRewardedInterstitial()
         }
 
@@ -379,6 +359,26 @@ export class GameScene extends Phaser.Scene {
                 streak: 0
             })
         })
+    }
+
+    update() {
+        if (this.adShouldResume && this.scene.isPaused()) {
+            this.adShouldResume = false
+
+            this.time.delayedCall(200, () => {
+                if (!this.scene.isActive()) {
+                    console.log("not active")
+                    return
+                } 
+                console.log("resume")
+                this.scene.resume()
+                console.log("wake")
+                this.game.loop.wake()
+                console.log("refresh")
+                this.scale.refresh()
+                console.log("after refresh")
+            })
+        }
     }
 
     async showRewardedInterstitial() {
@@ -444,8 +444,7 @@ export class GameScene extends Phaser.Scene {
                 RewardInterstitialAdPluginEvents.Dismissed,
                 () => {
                     console.log('Interstitial ad dismissed')
-                    this.resumeGameSafe()
-                    onDismiss?.remove()
+                    this.adShouldResume = true
                 }
             )
 
@@ -460,6 +459,7 @@ export class GameScene extends Phaser.Scene {
             )
 
             await AdMob.prepareRewardInterstitialAd({
+                // adId: 'ca-app-pub-7222777824759007/1818714828',
                 adId: 'ca-app-pub-3940256099942544/5354046379',
             })
 
@@ -615,7 +615,7 @@ export class GameScene extends Phaser.Scene {
                 onLoaded?.remove()
                 onFailedToLoad?.remove()
                 onReward?.remove()
-                // onDismiss?.remove()
+                onDismiss?.remove()
                 onFailedToShow?.remove()
             }
 
@@ -680,8 +680,6 @@ export class GameScene extends Phaser.Scene {
                     RewardAdPluginEvents.Dismissed,
                     () => {
                         console.log('Ad dismissed')
-                        this.game.loop.wake()
-                        this.scale.refresh()
                     }
                 )
 
@@ -696,6 +694,7 @@ export class GameScene extends Phaser.Scene {
                 )
 
                 await AdMob.prepareRewardVideoAd({
+                    // adId: 'ca-app-pub-7222777824759007/1944109420',
                     adId: 'ca-app-pub-3940256099942544/5224354917',
                 })
 
