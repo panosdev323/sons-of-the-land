@@ -361,6 +361,10 @@ export class GameScene extends Phaser.Scene {
     }
 
     async showRewardedInterstitial() {
+        const bgMusic = this.sound.get('bgMusic')
+        if (bgMusic && bgMusic.isPlaying) {
+            bgMusic.pause()
+        }
         // ─────────────────────────────
         // STATE
         // ─────────────────────────────
@@ -467,6 +471,11 @@ export class GameScene extends Phaser.Scene {
         } finally {
             // Cleanup πάντα εδώ — καλύπτει crash, error, κανονικό κλείσιμο
             cleanup()
+
+            const musicEnabled = localStorage.getItem('setting_musicEnabled') === 'true'
+            if (bgMusic && bgMusic.isPaused && musicEnabled) {
+                bgMusic.resume()
+            }
         }
     }
 
@@ -559,7 +568,10 @@ export class GameScene extends Phaser.Scene {
             watchAdBtn.setText('Loading Ad...')
 
             this.sound.play('tap')
-            this.sound.pauseAll()
+            const bgMusic = this.sound.get('bgMusic')
+            if (bgMusic && bgMusic.isPlaying) {
+                bgMusic.pause()
+            }
 
             // ─────────────────────────────
             // WEB FALLBACK (early exit safe)
@@ -573,7 +585,10 @@ export class GameScene extends Phaser.Scene {
                 )
 
                 this.isLoadingAd = false
-                this.sound.resumeAll()
+                const musicEnabled = localStorage.getItem('setting_musicEnabled') === 'true'
+                if (bgMusic && bgMusic.isPaused && musicEnabled) {
+                    bgMusic.resume()
+                }
                 return
             }
 
@@ -709,8 +724,6 @@ export class GameScene extends Phaser.Scene {
 
             } finally {
                 this.isLoadingAd = false
-                this.sound.resumeAll()
-
                 // Cleanup πάντα εδώ — καλύπτει crash, error, κανονικό κλείσιμο
                 cleanup()
 
@@ -718,6 +731,10 @@ export class GameScene extends Phaser.Scene {
                     watchAdBtn.setInteractive()
                     watchAdBtn.setAlpha(1)
                     watchAdBtn.setText('Watch Ad for Lives ▶')
+                }
+                const musicEnabled = localStorage.getItem('setting_musicEnabled') === 'true'
+                if (bgMusic && bgMusic.isPaused && musicEnabled) {
+                    bgMusic.resume()
                 }
             }
         })
