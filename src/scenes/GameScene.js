@@ -329,8 +329,8 @@ export class GameScene extends Phaser.Scene {
             return
         }
 
-        // ✅ Δείξε Rewarded Interstitial κάθε 4 levels
-        if (this.level % 4 === 0) {
+        // ✅ Δείξε Rewarded Interstitial κάθε 5 levels
+        if (this.level % 5 === 0) {
             await this.showRewardedInterstitial()
         }
 
